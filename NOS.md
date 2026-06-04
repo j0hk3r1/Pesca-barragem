@@ -157,7 +157,7 @@
 - Sair pelo lado errado da argola no passo 5 (entra e sai do mesmo lado).
 - Saltar os meios-nós de segurança em montagens que passam pelos anéis.
 
-**Ver animado:** https://www.animatedknots.com/albright-special-knot
+**Ver animado:** https://www.animatedknots.com/albright-knot
 
 ---
 
