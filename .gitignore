@@ -1,0 +1,6 @@
+# scraping / session artifacts
+.firecrawl/
+.playwright-mcp/
+.remember/
+*.jpeg
+*.png
