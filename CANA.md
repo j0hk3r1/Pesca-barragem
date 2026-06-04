@@ -57,7 +57,7 @@ Se o blank estiver são (sem racha) → **vale 100% restaurar** (sentimental + f
 
 ## 🎣 Cana backup (se fores pescar ANTES de restaurar)
 
-Cana só, feita p/ casar com o teu carreto WXM 100 2500:
+Cana só, feita p/ casar com o teu carreto [WXM 100 2500](https://www.decathlon.pt/p/carreto-de-pesca-com-amostras-wxm-100-2500/345242/m8784314):
 
 | Cana | Preço | P/ quê |
 |---|---|---|

@@ -46,7 +46,7 @@ Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achi
 
 > **TOTAL ≈ 68,10 €**
 
-> 🪝 **Anzóis:** **CARP POLE #14** (soltos — atas tu) p/ perca-sol/boga/ruivaco; **#10** p/ carpa pequena/barbo; **SN HOOK WORM #8** (montados) — cavalo-de-batalha p/ carpa/barbo + peixe-gato (**#6** se usares iscos grandes/carne). Achigã = amostra (ou **Simples 1/0–2** c/ minhoca inteira). Detalhe em [TAMANHOS.md](TAMANHOS.md).
+> 🪝 **Anzóis:** **[CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) #14** (soltos — atas tu) p/ perca-sol/boga/ruivaco; **#10** p/ carpa pequena/barbo; **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) #8** (montados) — cavalo-de-batalha p/ carpa/barbo + peixe-gato (**#6** se usares iscos grandes/carne). Achigã = amostra (ou **[Simples](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450) 1/0–2** c/ minhoca inteira). Detalhe em [TAMANHOS.md](TAMANHOS.md).
 
 ### 💸 Versão ultra-barata (~53 €)
 Troca 3 itens:
@@ -71,9 +71,9 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 
 | Item | Cor | Tamanho |
 |--|--|--|
-| Braid | **Caqui** (low-vis, único cor TX4) | **0,12** (ou 0,16 +força) |
+| Braid | **Caqui** (low-vis, único cor [TX4](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473)) | **0,12** (ou 0,16 +força) |
 | Leader fluoro | **Transparente** (invisível) | **0,20–0,25 mm** |
-| Anzol CARP POLE | **Escuro/black** (VMC) | **#10** · #14 p/ peixe pequeno |
+| Anzol [CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) | **Escuro/black** (VMC) | **#10** · #14 p/ peixe pequeno |
 | Destorcedor barril | **Black Nickel** | **nº14** (ou nº12) |
 | Destorcedor snap | Inox (rolling) | **nº4** |
 | Spinner | **Vistoso** (prata/dourado) | 2–5 g |
@@ -99,7 +99,7 @@ A linha-mãe deve ser **mais forte que o freio**; o leader é o **elo fraco** de
 | Elemento | Força aprox. | Papel |
 |---|---|---|
 | 🎣 Freio **máx.** carreto 2500 | **~3–4 kg** | quanto o carreto consegue puxar |
-| 🧵 Braid TX4 0,12 | **~5–6 kg** | linha-mãe — **acima do freio ✓** |
+| 🧵 Braid [TX4](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) 0,12 | **~5–6 kg** | linha-mãe — **acima do freio ✓** |
 | 🪢 Leader fluoro 0,20–0,25 | **~3–4,5 kg** | **elo fraco** (parte aqui, salva o resto) |
 | ⚙️ Freio que **usas** | **~1,5–2 kg** | ≈ ⅓ do leader |
 
