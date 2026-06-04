@@ -61,3 +61,11 @@ Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. O **Te
 - **Destorcedor** = o **mais pequeno** que aguente (aguenta sempre 2-5x a tua linha de sobra).
 - A **linha/nó** é o elo fraco, nunca o ferro.
 - **Nunca** destorcedores de mar (classe 1-5/0 / 100 lb+) — matam a ação de uma colher de 2-5 g.
+
+---
+
+## 📋 Specs verificadas (produtos)
+- **TX4 braid** — diâmetros 0,12 / 0,16 / 0,20 / 0,25 / 0,30 / 0,33 mm (bobinas 150 m e 300 m). ⭐ 4,5 (295 aval).
+- **Fluoro Soft** — gama 0,128 → 0,81 mm, Made in Japan. ⭐ 4,7 (45 aval). Leader: 0,20–0,25.
+- **CARP POLE** — soltos c/ olhal, tamanhos 10/12/14, anzol VMC. ⭐ 4,7 (74 aval).
+- **SN HOOK WORM** — montados, tamanhos 4/6/8/10/12. ⭐ 4,7 (53 aval).

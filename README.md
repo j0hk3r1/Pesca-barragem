@@ -3,18 +3,21 @@
 Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/ruivaco).
 **Spinning** (atirar amostra/lure + recolher) + **boia** (float) ocasional.
 
-> **Todos os produtos abaixo são "Vendido e expedido pela Decathlon"** (sem Marketplace/3os).
-> Preços de Junho/2026 — podem variar.
+> Termos técnicos aparecem como **PT (EN)** — português com o inglês entre parênteses na 1ª utilização.
+> Produtos abaixo: **"Vendido e expedido pela Decathlon"** (sem Marketplace). Preços de Jun/2026 — podem variar.
 
-📍 **Onde vou pescar:** ver [**Guia de Peixes das 4 barragens**](PEIXES-BARRAGENS.md) (Alqueva, Odivelas, Castelo do Bode, Idanha) — espécies, tamanhos reais e o que o material aguenta.
-
-> 🌐 Termos técnicos aparecem como **PT (EN)** — português com o inglês entre parênteses na 1ª utilização.
+## 🧭 Páginas
+- 🐟 [**Peixes das 4 barragens**](PEIXES-BARRAGENS.md) — espécies, tamanhos reais, métodos (Alqueva · Odivelas · Castelo do Bode · Idanha)
+- 🔁 [**Montagens & exemplos**](EXEMPLOS-MODULAR.md) — diagramas, como pescar, por peixe + profundidade
+- 📏 [**Tamanhos**](TAMANHOS.md) — anzol + destorcedor (kg/mm reais)
+- 🪢 [**Nós**](NOS.md) — passo-a-passo verificado + vídeo
+- 🎣 [**A Cana**](CANA.md) — restauro da do avô, backup e combo mais barato
 
 ---
 
 ## ✅ Lista de compra (carrinho completo)
 
-Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achigã, perca-sol, boga, ruivaco, carpa peq.–média, barbo, peixe-gato-negro. (Cana é tua — ver [**A Cana**](CANA.md): restauro da cana do avô, backup e combo mais barato que o carreto sozinho.)
+Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achigã, perca-sol, boga, ruivaco, carpa peq.–média, barbo, peixe-gato-negro. (Cana é tua — ver [**A Cana**](CANA.md).)
 
 **🧱 Base**
 
@@ -43,7 +46,7 @@ Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achi
 
 > **TOTAL ≈ 68,10 €**
 
-> 🪝 **Cobertura dos anzóis:** **CARP POLE #14** (soltos — atas tu, aprender) p/ perca-sol/boga/ruivaco; **#10** p/ carpa pequena/barbo/achigã c/ minhoca; **SN HOOK WORM #6** (montados, sem atar) p/ carpa/barbo maiores e peixe-gato. Detalhe em [TAMANHOS.md](TAMANHOS.md).
+> 🪝 **Anzóis:** **CARP POLE #14** (soltos — atas tu) p/ perca-sol/boga/ruivaco; **#10** p/ carpa peq./barbo/achigã c/ minhoca; **SN HOOK WORM #6** (montados) p/ carpa/barbo maiores e peixe-gato. Detalhe em [TAMANHOS.md](TAMANHOS.md).
 
 ### 💸 Versão ultra-barata (~53 €)
 Troca 3 itens:
@@ -57,12 +60,12 @@ Troca 3 itens:
 - [CAPERLAN Kit Box BOXSB Achigã](https://www.decathlon.pt/p/kit-box-caixa-de-amostras-boxsb-achiga/355363/m8883541) — **14,90 €**
 
 ### 🐛 Iscos naturais (NÃO Decathlon)
-- **Minhoca** — apanha tudo (perca-sol, boga, barbo, achigã pequeno).
-- **Lata de milho doce** — carpa e barbo.
+- **Minhoca** (worm) — apanha tudo (perca-sol, boga, barbo, achigã pequeno).
+- **Lata de milho doce** (corn) — carpa e barbo.
 
 ---
 
-## 🎨 Cores + tamanhos (confirmado)
+## 🎨 Cores + tamanhos (rápido)
 
 Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorcedor). **Amostra = o contrário, vistosa.**
 
@@ -70,12 +73,12 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 |--|--|--|
 | Braid | **Caqui** (low-vis, único cor TX4) | **0,12** (ou 0,16 +força) |
 | Leader fluoro | **Transparente** (invisível) | **0,20–0,25 mm** |
-| Anzol CARP POLE | **Escuro/black** (VMC) | **#10** · #12–14 p/ peixe pequeno |
+| Anzol CARP POLE | **Escuro/black** (VMC) | **#10** · #14 p/ peixe pequeno |
 | Destorcedor barril | **Black Nickel** | **nº14** (ou nº12) |
 | Destorcedor snap | Inox (rolling) | **nº4** |
 | Spinner | **Vistoso** (prata/dourado) | 2–5 g |
 
-> Água turva → cor importa pouco (peixe guia-se por cheiro/vibração). Achigã desconfiado em água limpa → snap **Black Nickel** em vez de inox.
+> Água turva → cor importa pouco. Achigã desconfiado em água limpa → snap **Black Nickel** em vez de inox. Tabela completa (kg/mm) em [TAMANHOS.md](TAMANHOS.md).
 
 ---
 
@@ -85,132 +88,22 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~3–4,5 kg)**. É aí que part
 
 | Peixe | Aguenta? |
 |--|--|
-| Achigã (2–3 kg), barbo normal, truta pequena, boga, perca-sol | ✅ **Confortável** |
+| Achigã (2–3 kg), barbo normal, boga, perca-sol, peixe-gato-negro | ✅ **Confortável** |
 | Sandre 1–3 kg, carpa/barbo 4–8 kg | ⚠️ **No limite** — freio suave, água aberta |
 | Carpa 10 kg+, sandre 4–8 kg | ❌ **Acima** — bycatch que vais perder |
 | **Siluro** (Idanha, Castelo do Bode), peixe-gato grande (Alqueva) | ❌ **Intocável** — parte logo. Material pesado à parte |
 
-**Se quiseres apanhar os grandes em certas barragens:**
-- Leva também **fluoro 0,28 mm (~6 kg)** p/ carpa/barbo grande (Alqueva margens, Odivelas/Idanha).
-- Uns **anzóis 1/0–3/0 wide-gap** p/ fisgar sandre/predador (o #10 é mole p/ isso) — CAPERLAN Texan Wide Gap, ver Opcional.
-- Freio do 2500 a ~1,5–2 kg + deixa a cana trabalhar = landas mais peixe no limite.
+### Linha vs freio (drag)
+A linha-mãe deve ser **mais forte que o freio**; o leader é o **elo fraco** de propósito. Pões o freio a **~⅓** da linha mais fraca — nunca igualas tudo.
 
-➡️ Detalhe por barragem: [**PEIXES-BARRAGENS.md**](PEIXES-BARRAGENS.md)
+| Elemento | Força aprox. | Papel |
+|---|---|---|
+| 🎣 Freio **máx.** carreto 2500 | **~3–4 kg** | quanto o carreto consegue puxar |
+| 🧵 Braid TX4 0,12 | **~5–6 kg** | linha-mãe — **acima do freio ✓** |
+| 🪢 Leader fluoro 0,20–0,25 | **~3–4,5 kg** | **elo fraco** (parte aqui, salva o resto) |
+| ⚙️ Freio que **usas** | **~1,5–2 kg** | ≈ ⅓ do leader |
 
----
-
-## 🔧 Montagens (com nome das peças)
-
-> 🪢 Os nós referidos nos diagramas (FG, Palomar, clinch…) estão explicados passo-a-passo em [**NOS.md**](NOS.md).
-
-### Spinning — amostra
-<img src="img/montagem-spinning.svg" alt="Montagem spinning" width="430">
-
-`Linha-mãe → nó FG/Albright → leader fluoro → destorcedor snap → spinner`
-
-### Boia — isco natural
-<img src="img/montagem-boia.svg" alt="Montagem boia" width="470">
-
-`Linha-mãe → boia → chumbos de pinça → destorcedor barril → leader → anzol + isco`
-
-### 🔁 Sistema modular (quick-change) — opcional
-Ponta do multi com **1 snap fixo** → encaixas boia / leader+amostra / amostra. Trocas tudo na margem **sem atar**.
-
-<img src="img/montagem-modular.svg" alt="Sistema modular" width="500">
-
-**3 regras (importantes):**
-1. **Nó no multi = palomar ou uni, NÃO clinch.** Multi é escorregadio; clinch desliza e solta. Atas **1 vez**, dura imenso.
-2. ⚠️ **Destorcedor não passa bem nos anéis.** Leader **curto (~50 cm)** pra a junção ficar **fora da ponta** quando atiras — senão "bate" nos anéis = mau lançamento + nós.
-3. **Amostra direta no multi = perdes o leader** (invisibilidade + abrasão). Só em **água turva** / peixe não exigente. Água limpa (Castelo do Bode) / pedras / sandre → **mantém leader**.
-
-> 💡 O nó FG **não se desfaz a cada saída** — dura várias. O snap só acelera trocas; não é obrigatório.
-
-➡️ **Exemplos prontos por peixe + profundidade (com diagramas):** [**EXEMPLOS-MODULAR.md**](EXEMPLOS-MODULAR.md).
-
----
-
-## 🎯 Como pescar (profundidade, fios, técnica)
-
-### Comprimento dos fios
-| Fio | Comprimento | Notas |
-|--|--|--|
-| **Leader (spinning)** | **50–100 cm** | mais comprido = mais discreto; nó FG fica no carreto sem problema |
-| **Leader/hooklength (boia)** | **30–50 cm** | do anzol ao destorcedor barril |
-| **Anzol → chumbo** | **20–30 cm** | distância do isco ao primeiro chumbo |
-| **Encher carreto** | até **~2 mm da borda** | pouco = embaraça; demais = salta |
-
-### Profundidade
-- **Boia fixa** → só até **profundidade = comprimento da cana** (~2–3 m). Água rasa/margens.
-- **Boia deslizante** → corre no fio até um **nó-batente** que pões à profundidade que quiseres → pescas **água funda**. Essencial em barragem funda (Castelo do Bode, canais do Alqueva).
-- **Regra do isco:** ajusta o nó-batente até o isco ficar **rente ao fundo** (carpa, barbo, peixe-gato) ou a **meia-água** (perca, boga). Mede o fundo primeiro: põe um chumbo pesado no anzol e vê onde a boia assenta.
-- **Spinning:** deixa a amostra **afundar contando** (1, 2, 3… ≈ 30 cm/seg) para escolher a camada de água; recolhe a profundidades diferentes até encontrar o peixe.
-
-### Técnica rápida
-- **Spinning (achigã/perca):** atira para junto de **estrutura** (pedras, troncos, vegetação, paredão). Recolhe com **paragens** (para-anda-para) — o ataque vem quase sempre na pausa/queda. Manhã cedo e fim de tarde = melhor.
-- **Boia (carpa/barbo/boga/peixe-gato):** atira, deixa assentar, **vê a boia**. Mordida = boia afunda ou deita/foge → **ferra** (levanta a cana com firmeza). Peixe-gato e carpa = paciência, deixa o isco pousado. Anoitecer = peixe-gato ataca.
-- **Freio (drag) do carreto (reel):** ~**1,5–2 kg** (cede fio antes de partir o leader). Peixe grande → deixa correr, não forces.
-- **Água:** limpa (Castelo do Bode) → fino + cores naturais + discreto. Turva (depois de chuva) → cor importa pouco, peixe guia-se por cheiro/vibração (isco cheiroso, amostra com vibração).
-
----
-
-## 📏 Tamanhos (anzol + chumbo)
-
-> 📐 Versão completa (com **kg/mm reais** por tamanho de destorcedor + anzol por isco) em [**TAMANHOS.md**](TAMANHOS.md).
-
-**Anzol** (hook) (nº maior = anzol menor). Isco (bait) = minhoca/milho/massa:
-
-| Peixe | Anzol |
-|-------|-------|
-| Boga / ruivaco | #14 (ou #12) |
-| Perca-sol | #14 (ou #12) |
-| Carpa | #8 (grande #6–4) |
-| Barbo | #8 |
-| Achigã c/ minhoca | #6 (minhoca inteira → Simples 2/1-0) ou amostra |
-
-➡️ Na prática: **#10** geral; **#14** p/ boca pequena (perca-sol, boga, ruivaco). (Carpa/barbo grandes → #8/#6 = pack SN HOOK WORM à parte — ver TAMANHOS.)
-
-**Chumbo** (sinker) — de pinça (split shot), pequeno. Regra: junta chumbo até a boia ficar **quase submersa** (só ponta à mostra). Põe ~20–30 cm acima do anzol. A Caixa 6 divisórias traz tamanhos sortidos — não precisas decorar números.
-
----
-
-## 📋 Specs verificadas
-
-- **TX4 braid** — diâmetros: **0,12 / 0,16 / 0,20 / 0,25 / 0,30 / 0,33 mm** (bobinas 150 m e 300 m). ⭐ 4,5 (295 aval).
-- **Fluoro Soft** — gama **0,128 → 0,81 mm**, Made in Japan. ⭐ 4,7 (45 aval). Para leader: 0,20–0,25.
-- **ANZOL CARP POLE** — soltos c/ olhal, tamanhos 10/12/14. ⭐ 4,7 (74 aval).
-
----
-
-## 🐟 Notas de iniciante
-
-| Peixe | Como apanhar |
-|-------|--------------|
-| **Achigã** | Predador. Spinner ou vinil junto a estruturas (pedras, troncos, vegetação). Recolhe com paragens. |
-| **Perca-sol** | Pequena, agressiva, fácil. Minhoca à boia ou spinner pequeno. Boa p/ praticar. |
-| **Carpa / Barbo** | Fundo, isco milho/minhoca. Paciência, deixa pousar. |
-| **Boga / Ruivaco** | Cardume. Minhoca pequena à boia, anzol pequeno (#14). |
-
-**Boias — fixa vs deslizante:**
-- **Fixa** — profundidade ≤ comprimento da cana. Águas rasas/médias. (MTCH/SF6 chegam.)
-- **Deslizante** — corre no fio até nó-batente → pescas **água funda**. Precisas se as zonas forem fundas ou para isco no fundo (predadores).
-- "Boia de pesca **ao fundo**" = isco assenta no fundo, boia só marca mordida (alvo carpa grande / achigã c/ peixe-isco). Nicho diferente do milho/minhoca à meia-água.
-
-### 🪢 Nós — ver [**NOS.md**](NOS.md) (passos verificados + vídeo de cada um)
-
-Mapa rápido (qual nó pra quê):
-
-| Onde | Nó | Dif. |
-|--|--|--|
-| multi → destorcedor/snap | **Palomar** | 🟢 |
-| fluoro/mono → anzol olhal/destorcedor | **Clinch melhorado** | 🟢 |
-| multi → leader fluoro | **FG** (melhor) / **Albright** (fácil) / **Double Uni** (fácil) | 🔴/🟡 |
-| laço no topo do leader (modular) | **Perfection loop** / **Surgeon's loop** | 🟡/🟢 |
-| anzol olhal, fisgada direta (avançado) | **Snell** | 🔴 |
-
-> Regra de ouro (todos): **molha** antes de apertar · aperta devagar · corta a sobra ~2 mm.
-> ℹ️ Decathlon só vende anzol **solto de olhal** (pala/spade só pré-atado). Snell faz-se na mesma no olhal.
-
-**Dica:** enche a bobina do carreto até ~2 mm da borda — pouco fio embaraça, demasiado salta.
+➡️ Os grandes (siluro, carpa 10 kg+, sandre 4 kg+) = material pesado à parte. Detalhe por barragem: [**PEIXES-BARRAGENS.md**](PEIXES-BARRAGENS.md).
 
 ---
 

@@ -1,9 +1,94 @@
-# 🔁 Exemplos de montagem (sistema modular) por peixe + profundidade
+# 🔁 Montagens & Exemplos
 
-Base: ponta da linha-mãe (braid / main line) com **1 destorcedor de alfinete/snap (snap swivel) fixo** (nó palomar). A partir daí **clipas** o estralho (rig) pré-feito que quiseres — ver [README → Montagens](README.md) e os nós em [NOS.md](NOS.md).
+Como montar, como pescar, e exemplos prontos por peixe + profundidade. Os nós estão em [NOS.md](NOS.md).
+
+---
+
+## 🔧 Montagens base (nome das peças)
+
+### Spinning — amostra
+<img src="img/montagem-spinning.svg" alt="Montagem spinning" width="430">
+
+`Linha-mãe → nó FG/Albright → leader fluoro → destorcedor snap → spinner`
+
+### Boia — isco natural
+<img src="img/montagem-boia.svg" alt="Montagem boia" width="470">
+
+`Linha-mãe → boia → chumbos de pinça → destorcedor barril → leader → anzol + isco`
+
+### 🔁 Sistema modular (quick-change)
+Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amostra. Trocas tudo na margem **sem atar**.
+
+<img src="img/montagem-modular.svg" alt="Sistema modular" width="500">
+
+**3 regras (importantes):**
+1. **Nó no multi = palomar ou uni, NÃO clinch.** Multi é escorregadio; clinch desliza e solta. Atas **1 vez**, dura imenso.
+2. ⚠️ **Destorcedor não passa bem nos anéis.** Leader **curto (~50 cm)** pra a junção ficar **fora da ponta** quando atiras — senão "bate" nos anéis = mau lançamento + nós.
+3. **Amostra direta no multi = perdes o leader** (invisibilidade + abrasão). Só em **água turva**. Água limpa / pedras / sandre → **mantém leader**.
+
+> 💡 O nó FG **não se desfaz a cada saída** — dura várias. O snap só acelera trocas; não é obrigatório.
+
+---
+
+## 🎯 Como pescar (profundidade, fios, técnica)
+
+### Comprimento dos fios
+| Fio | Comprimento | Notas |
+|--|--|--|
+| **Leader (spinning)** | **50–100 cm** | mais comprido = mais discreto |
+| **Leader/hooklength (boia)** | **30–50 cm** | do anzol ao destorcedor barril |
+| **Anzol → chumbo** | **20–30 cm** | distância do isco ao 1.º chumbo |
+| **Encher carreto** | até **~2 mm da borda** | pouco = embaraça; demais = salta |
+
+### Profundidade
+- **Boia fixa** → só até **profundidade = comprimento da cana** (~2–3 m). Água rasa/margens.
+- **Boia deslizante** → corre no fio até um **nó-batente** que pões à profundidade que quiseres → pescas **água funda** (Castelo do Bode, canais do Alqueva).
+- **Regra do isco:** ajusta até ficar **rente ao fundo** (carpa, barbo, peixe-gato) ou a **meia-água** (perca, boga). Mede o fundo: chumbo pesado no anzol e vê onde a boia assenta.
+- **Chumbo (boia):** junta chumbo de pinça até a boia ficar **quase submersa** (só ponta à mostra).
+- **Spinning:** deixa a amostra **afundar contando** (1, 2, 3… ≈ 30 cm/seg) p/ escolher a camada; recolhe a profundidades diferentes até achar o peixe.
+
+### Técnica rápida
+- **Spinning (achigã/perca):** atira p/ junto de **estrutura** (pedras, troncos, vegetação, paredão). Recolhe com **paragens** — ataque vem na pausa/queda. Manhã cedo / fim de tarde.
+- **Boia (carpa/barbo/boga/peixe-gato):** atira, deixa assentar, **vê a boia**. Afunda/foge → **ferra**. Paciência. Anoitecer = peixe-gato.
+- **Freio (drag):** ~**1,5–2 kg** (cede fio antes de partir o leader). Peixe grande → deixa correr.
+- **Água:** limpa → fino + cores naturais. Turva → cor importa pouco (cheiro/vibração).
+
+---
+
+## 🐟 Por peixe (resumo)
+
+| Peixe | Como apanhar |
+|-------|--------------|
+| **Achigã** | Predador. Spinner/vinil junto a estruturas. Recolhe com paragens (ex. A, B, I). |
+| **Perca-sol** | Pequena, fácil. Minhoca à boia ou spinner pequeno (ex. C). Boa p/ praticar. |
+| **Carpa / Barbo** | Fundo, milho/minhoca, paciência (ex. D, E, H). |
+| **Boga / Ruivaco** | Cardume. Minhoca pequena à boia, anzol #14 (ex. C). |
+| **Peixe-gato-negro** | Fundo, chouriço/minhoca, ao anoitecer (ex. F). |
+| **Sandre / lúcio-perca** | Vinil jigado / dropshot no fundo (ex. G). |
+
+**Boias — fixa vs deslizante:**
+- **Fixa** — profundidade ≤ comprimento da cana. Águas rasas/médias.
+- **Deslizante** — corre no fio até nó-batente → pescas **água funda**. Precisas em zonas fundas.
+
+---
+
+## 🪢 Nós — ver [**NOS.md**](NOS.md)
+
+| Onde | Nó | Dif. |
+|--|--|--|
+| multi → destorcedor/snap | **Palomar** | 🟢 |
+| fluoro/mono → anzol olhal/destorcedor | **Clinch melhorado** | 🟢 |
+| multi → leader fluoro | **FG** / **Albright** / **Double Uni** | 🔴/🟡 |
+| laço no topo do leader (modular) | **Perfection / Surgeon's loop** | 🟡/🟢 |
+| anzol olhal, fisgada direta (avançado) | **Snell** | 🔴 |
+
+> Regra (todos): **molha** antes de apertar · aperta devagar · corta a sobra ~2 mm.
+
+---
+
+## 🐠 Exemplos por peixe + profundidade
 
 > **Legenda:** `clipa →` = encaixas no snap-hub · `→` = ligado a seguir · **profundidade** (depth) = onde fica o isco/amostra.
-> Termos em inglês explicados inline como **PT (EN)**.
 
 | # | Exemplo | Peixe | Método |
 |---|---|---|---|
