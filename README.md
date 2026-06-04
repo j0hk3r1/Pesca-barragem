@@ -8,6 +8,8 @@ Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/
 
 📍 **Onde vou pescar:** ver [**Guia de Peixes das 4 barragens**](PEIXES-BARRAGENS.md) (Alqueva, Odivelas, Castelo do Bode, Idanha) — espécies, tamanhos reais e o que o material aguenta.
 
+> 🌐 Termos em inglês (leader, snap, braid, jig…) explicados no **glossário PT↔EN** no fim de [EXEMPLOS-MODULAR.md](EXEMPLOS-MODULAR.md).
+
 ---
 
 ## ✅ Lista de compra (carrinho completo)
@@ -15,17 +17,17 @@ Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/
 | Item | Produto | Preço |
 |------|---------|------:|
 | 🎣 Carreto | [CAPERLAN WXM 100 **2500**](https://www.decathlon.pt/p/carreto-de-pesca-com-amostras-wxm-100-2500/345242/m8784314) | 24,90 € |
-| 🧵 Linha mãe | [CAPERLAN TX4 multifilamento](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) — escolher **0,12/100** (150 m) | 7,90 € |
+| 🧵 Linha-mãe | [CAPERLAN TX4 multifilamento](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) — escolher **0,12/100** (150 m) | 7,90 € |
 | 🪢 Leader fluoro | [CAPERLAN Fluorocarbono 100% Soft](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) — escolher **0,20–0,25** | 4,90 € |
 | 🔗 Destorcedor snap (spinning) | [CAPERLAN Rolling Snap Inox](https://www.decathlon.pt/p/destorcedor-de-alfinete-de-pesca-rolling-snap-inox-2025-x-10/307904/m8939626) — **nº4** | 2,50 € |
-| 🔗 Destorcedor barril (boia) | [CAPERLAN Barril Black Nickel](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) — **nº12** | 1,90 € |
+| 🔗 Destorcedor barril (boia) | [CAPERLAN Barril Black Nickel](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) — **nº14** (ou nº12) | 1,90 € |
 | ⚖️ Chumbos sortidos | [CAPERLAN Caixa Lastro 6 divisórias](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) | 3,90 € |
 | 🟠 Boias | [CAPERLAN MTCH 100 VISI x3](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) | 5,50 € |
 | 🪝 Anzóis (soltos, c/ olhal) | [CAPERLAN ANZOL CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) — escolher **#10** | 2,10 € |
 | ✨ Amostras spinning | [CAPERLAN Kit Colheres Rotativas Predadores (4x)](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651) | 8,90 € |
 | | **TOTAL** | **≈ 62,50 €** |
 
-> 🪝 **Anzóis soltos com olhal** (atas tu — aprender!). Tamanhos do pack: 10/12/14. Leva **#10** (perca, carpa pequena, barbo, achigã c/ minhoca); #12–14 p/ boga/ruivaco. Olhal = nó **clinch** fácil (ver Nós).
+> 🪝 **Anzóis soltos com olhal** (atas tu — aprender!). Tamanhos do pack: 10/12/14. Leva **#10** geral (carpa pequena, barbo) + **#14** p/ boca pequena (perca-sol, boga, ruivaco). Achigã c/ minhoca inteira → **Simples 2/1-0** à parte (ver [TAMANHOS](TAMANHOS.md)). Olhal = nó **clinch** fácil (ver [NOS.md](NOS.md)).
 
 ### 💸 Versão ultra-barata (~53 €)
 Troca 3 itens:
@@ -53,7 +55,7 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 | Braid | **Caqui** (low-vis, único cor TX4) | **0,12** (ou 0,16 +força) |
 | Leader fluoro | **Transparente** (invisível) | **0,20–0,25 mm** |
 | Anzol CARP POLE | **Escuro/black** (VMC) | **#10** · #12–14 p/ peixe pequeno |
-| Destorcedor barril | **Black Nickel** | **nº12** |
+| Destorcedor barril | **Black Nickel** | **nº14** (ou nº12) |
 | Destorcedor snap | Inox (rolling) | **nº4** |
 | Spinner | **Vistoso** (prata/dourado) | 2–5 g |
 
@@ -74,7 +76,7 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~3–4,5 kg)**. É aí que part
 
 **Se quiseres apanhar os grandes em certas barragens:**
 - Leva também **fluoro 0,28 mm (~6 kg)** p/ carpa/barbo grande (Alqueva margens, Odivelas/Idanha).
-- Uns **anzóis #1–2 wide-gap** p/ fisgar sandre/predador (o #10 é mole p/ isso).
+- Uns **anzóis 1/0–3/0 wide-gap** p/ fisgar sandre/predador (o #10 é mole p/ isso) — CAPERLAN Texan Wide Gap, ver Opcional.
 - Freio do 2500 a ~1,5–2 kg + deixa a cana trabalhar = landas mais peixe no limite.
 
 ➡️ Detalhe por barragem: [**PEIXES-BARRAGENS.md**](PEIXES-BARRAGENS.md)
@@ -102,7 +104,7 @@ Ponta do multi com **1 snap fixo** → encaixas boia / leader+amostra / amostra.
 
 **3 regras (importantes):**
 1. **Nó no multi = palomar ou uni, NÃO clinch.** Multi é escorregadio; clinch desliza e solta. Atas **1 vez**, dura imenso.
-2. ⚠️ **Destorcedor não passa bem nos aneis.** Leader **curto (~50 cm)** pra a junção ficar **fora da ponta** quando atiras — senão "bate" nos aneis = mau lançamento + nós.
+2. ⚠️ **Destorcedor não passa bem nos anéis.** Leader **curto (~50 cm)** pra a junção ficar **fora da ponta** quando atiras — senão "bate" nos anéis = mau lançamento + nós.
 3. **Amostra direta no multi = perdes o leader** (invisibilidade + abrasão). Só em **água turva** / peixe não exigente. Água limpa (Castelo do Bode) / pedras / sandre → **mantém leader**.
 
 > 💡 O nó FG **não se desfaz a cada saída** — dura várias. O snap só acelera trocas; não é obrigatório.
@@ -143,13 +145,13 @@ Ponta do multi com **1 snap fixo** → encaixas boia / leader+amostra / amostra.
 
 | Peixe | Anzol |
 |-------|-------|
-| Boga / ruivaco | #12 |
-| Perca-sol | #10–12 |
+| Boga / ruivaco | #14 (ou #12) |
+| Perca-sol | #14 (ou #12) |
 | Carpa | #8 (grande #6–4) |
 | Barbo | #8 |
-| Achigã c/ minhoca | #6–8 (ou amostra) |
+| Achigã c/ minhoca | #6 (minhoca inteira → Simples 2/1-0) ou amostra |
 
-➡️ Na prática: **#10** chega p/ quase tudo; **#12–14** p/ boga/ruivaco pequeno. (Carpa/barbo grandes → #8 num pack à parte.)
+➡️ Na prática: **#10** geral; **#14** p/ boca pequena (perca-sol, boga, ruivaco). (Carpa/barbo grandes → #8/#6 = pack SN HOOK WORM à parte — ver TAMANHOS.)
 
 **Chumbo** — de pinça (cravado), pequeno. Regra: junta chumbo até a boia ficar **quase submersa** (só ponta à mostra). Põe ~20–30 cm acima do anzol. A Caixa 6 divisórias traz tamanhos sortidos — não precisas decorar números.
 
@@ -170,7 +172,7 @@ Ponta do multi com **1 snap fixo** → encaixas boia / leader+amostra / amostra.
 | **Achigã** | Predador. Spinner ou vinil junto a estruturas (pedras, troncos, vegetação). Recolhe com paragens. |
 | **Perca-sol** | Pequena, agressiva, fácil. Minhoca à boia ou spinner pequeno. Boa p/ praticar. |
 | **Carpa / Barbo** | Fundo, isco milho/minhoca. Paciência, deixa pousar. |
-| **Boga / Ruivaco** | Cardume. Minhoca pequena à boia, anzol pequeno (#10–12). |
+| **Boga / Ruivaco** | Cardume. Minhoca pequena à boia, anzol pequeno (#14). |
 
 **Boias — fixa vs deslizante:**
 - **Fixa** — profundidade ≤ comprimento da cana. Águas rasas/médias. (MTCH/SF6 chegam.)

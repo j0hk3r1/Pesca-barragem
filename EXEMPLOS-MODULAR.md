@@ -11,7 +11,7 @@ Base: ponta da linha-mãe (main line) com **1 destorcedor de alfinete/snap fixo*
 ### A. Superfície / pouca água — manhã ou fim de tarde
 Água quente, peixe a caçar à tona junto a estrutura (estruturas = pedras, troncos, vegetação).
 ```
-clipa → leader (fluorocarbono) 60–80 cm → colher giratória (spinner) 2–5 g
+clipa → leader (fluorocarbono) 50–80 cm → colher giratória (spinner) 2–5 g
                                           ou amostra de superfície (topwater/popper)
 ```
 - **Profundidade:** 0–1 m. Recolhe (retrieve) com paragens (stop-and-go).
@@ -19,10 +19,10 @@ clipa → leader (fluorocarbono) 60–80 cm → colher giratória (spinner) 2–
 
 ### B. Meia-água / fundo — dia quente, peixe fundo
 ```
-clipa → leader 60–80 cm → cabeça plombada (jig head) 3–7 g + vinil (soft plastic)
+clipa → leader 50–80 cm → cabeça plombada (jig head) 3–7 g + vinil (soft plastic)
 ```
 - **Profundidade:** conta a queda (countdown: 1,2,3… ≈ 30 cm/seg) até achar a camada.
-- **Alternativa:** montagem Texas (Texas rig) com anzol **EWG 1/0–3/0** (à parte — Decathlon não vende).
+- **Alternativa:** montagem Texas (Texas rig) com anzol **Texan Wide Gap 1/0–3/0** (CAPERLAN — Decathlon vende, ver README → Opcional).
 
 ---
 

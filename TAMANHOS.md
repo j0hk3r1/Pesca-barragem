@@ -18,15 +18,15 @@
 | Peixe-gato-negro | Bola de minhocas | **SN HOOK WORM 6** (ou 8) | Peixe <0,5 kg. **NÃO** uses 2-1/0 (sobredimensionado) |
 | Carpa (massa grande, boilie) | Massa, boilie | **SN HOOK WORM 4** ou **Simples 4** | — |
 | Achigã (minhoca inteira) | Minhoca | **Simples 2 ou 1/0** | Funciona; arame um pouco grosso p/ minhoca |
-| Achigã (vinil/plásticos) | Soft plastics (Texas) | **EWG 1/0-3/0** | **Sem equivalente CAPERLAN** — comprar à parte |
+| Achigã (vinil/plásticos) | Soft plastics (Texas) | **Texan Wide Gap 1/0-3/0** | **CAPERLAN Texan Wide Gap** — Decathlon vende (ver README → Opcional) |
 
 ### 🛒 Se só queres 1-2 anzóis
 1. **CARP POLE #14** (olhal, fino) → peixe de boca pequena (perca-sol, boga, ruivaco) + carpa em milho.
 2. **SN HOOK WORM #6** (montado) → carpa, barbo, peixe-gato com minhoca/massa/carne.
 
-Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. **EWG à parte** só se fizeres achigã em vinil.
+Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. O **Texan Wide Gap** só se fizeres achigã em vinil.
 
-> ⚠️ **#16 e anzóis EWG não existem na CAPERLAN.** O #14 é o teu mínimo fino; para vinil de achigã compra EWG noutra marca.
+> ⚠️ **#16 não existe na CAPERLAN** — o #14 é o teu mínimo fino. Para vinil de achigã usa o **CAPERLAN Texan Wide Gap** (wide-gap, vendido pela Decathlon).
 
 ---
 

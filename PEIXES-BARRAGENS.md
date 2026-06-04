@@ -12,13 +12,13 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 
 | Nome PT | Típico | Grande | Como apanhar |
 |---|---|---|---|
-| Achigã (black bass) | 0,3–1,5 kg | ~2 kg = troféu (lendas ~3 kg) | Artificiais de barco/margem: jerkbaits/shads (Fev–Mai), poppers/cranks (manhã/fim tarde verão), senkos, spinnerbaits. Estrutura, ilhas, pontas |
+| Achigã (largemouth bass) | 0,3–1,5 kg | ~2 kg = troféu (lendas ~3 kg) | Artificiais de barco/margem: jerkbaits/shads (Fev–Mai), poppers/cranks (manhã/fim tarde verão), senkos, spinnerbaits. Estrutura, ilhas, pontas |
 | Lúcio-perca (sandre) | 1,0–2,5 kg (40–60 cm) | 3–4 kg / 80–85 cm | Vertical jigging e dropshot c/ vinil sobre estrutura funda; dropshot da margem no inverno. Amanhecer/anoitecer/noite |
 | Peixe-gato-canal (americano) | 0,5–3 kg | +10 kg, até ~1 m | Iscos de fundo (peixe cortado, minhoca, pasta) dia e noite. **O grande** |
 | Peixe-gato-negro (Ameiurus melas) | 0,1–0,4 kg | ~<30 cm | Fundo c/ carne/minhoca. **O pequeno** (no lago desde 2003) |
 | Carpa comum | 1–4 kg | 10 kg+ (gigantes ainda raros) | Carpfishing/feeder c/ milho, boilies, pasta; baías e margens inundadas |
 | Barbo (comizo / Guadiana) | 1–3 kg | 4–5 kg+ | Muitas vezes em vinis de achigã; feeder, carpfishing, mosca |
-| Perca-sol | 0,05–0,15 kg | ~0,2–0,3 kg | Iscos minúsculos, minhoca/pão à bóia. Rouba-iscos |
+| Perca-sol | 0,05–0,15 kg | ~0,2–0,3 kg | Iscos minúsculos, minhoca/pão à boia. Rouba-iscos |
 | Alburno | 0,02–0,05 kg | ~0,1 kg | Bóia leve. Forragem dos predadores |
 
 **Baixa confiança / esclarecer:**
@@ -37,7 +37,7 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 | Nome PT | Típico | Grande | Como apanhar |
 |---|---|---|---|
 | Achigã | 0,3–1,2 kg | 2–3 kg (troféu) | Vinis (Texas/Carolina, dropshot, senkos), cranks, spinnerbaits junto a vegetação e à parede. Mínimo legal 20 cm |
-| **Peixe-gato-negro** (Ameiurus melas) | 0,1–0,4 kg | ~1–2 kg | **Fundo ou bóia c/ carne/chouriço, fígado, minhoca, peixe cortado.** Come tudo cheiroso. Mais ativo ao anoitecer/noite. ✅ *confirmado em campo (chouriço!)* |
+| **Peixe-gato-negro** (Ameiurus melas) | 0,1–0,4 kg | ~0,4–0,5 kg (até ~30 cm) | **Fundo ou boia c/ carne/chouriço, fígado, minhoca, peixe cortado.** Come tudo cheiroso. Mais ativo ao anoitecer/noite. ✅ *confirmado em campo (chouriço!)* |
 | Boga | 0,05–0,25 kg | ~0,4–0,5 kg | Bóia/fundo leve c/ pão, pasta, bicha, minhoca. Cardume |
 | Carpa | 1,5–5 kg | 8–12 kg+ | Feeder/fundo c/ boilies, milho, pão. Recinto de competição |
 | Barbo-do-sul | 0,3–1,5 kg | 3–4 kg | Fundo/feeder c/ minhoca, pasta, milho |
@@ -65,7 +65,7 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 | Carpa | 1–5 kg | 8–12 kg | Fundo c/ boilies, milho, groundbait; baías quentes |
 | Barbo-do-Tejo | 0,3–1,5 kg | 2–4 kg | Fundo c/ minhoca, pão, milho; braços com corrente |
 | Boga / Escalo-do-sul | 0,1–0,5 kg | ~0,8–1 kg | Bóia/fundo leve, iscos pequenos |
-| Perca-sol | 0,05–0,15 kg | 0,2–0,3 kg | Micro-iscos à bóia. Abundante, ótimo p/ material leve |
+| Perca-sol | 0,05–0,15 kg | 0,2–0,3 kg | Micro-iscos à boia. Abundante, ótimo p/ material leve |
 
 **Baixa/média confiança:**
 - **Siluro** — **presente mas raro**, não é pescaria de troféus. O "crocodilo do Zêzere" (2011) era um siluro ~1,5 m. Captura ocasional.
