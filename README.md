@@ -6,6 +6,8 @@ Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/
 > **Todos os produtos abaixo são "Vendido e expedido pela Decathlon"** (sem Marketplace/3os).
 > Preços de Junho/2026 — podem variar.
 
+📍 **Onde vou pescar:** ver [**Guia de Peixes das 4 barragens**](PEIXES-BARRAGENS.md) (Alqueva, Odivelas, Castelo do Bode, Idanha) — espécies, tamanhos reais e o que o material aguenta.
+
 ---
 
 ## ✅ Lista de compra (carrinho completo)
@@ -15,12 +17,13 @@ Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/
 | 🎣 Carreto | [CAPERLAN WXM 100 **2500**](https://www.decathlon.pt/p/carreto-de-pesca-com-amostras-wxm-100-2500/345242/m8784314) | 24,90 € |
 | 🧵 Linha mãe | [CAPERLAN TX4 multifilamento](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) — escolher **0,12/100** (150 m) | 7,90 € |
 | 🪢 Leader fluoro | [CAPERLAN Fluorocarbono 100% Soft](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) — escolher **0,20–0,25** | 4,90 € |
-| 🔗 Destorcedores (alfinete/snap) | [CAPERLAN Conjunto destorcedor alfinete](https://www.decathlon.pt/p/conjunto-destorcedor-alfinete/167995/m8385364) | 2,25 € |
+| 🔗 Destorcedor snap (spinning) | [CAPERLAN Rolling Snap Inox](https://www.decathlon.pt/p/destorcedor-de-alfinete-de-pesca-rolling-snap-inox-2025-x-10/307904/m8939626) — **nº4** | 2,50 € |
+| 🔗 Destorcedor barril (boia) | [CAPERLAN Barril Black Nickel](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) — **nº12** | 1,90 € |
 | ⚖️ Chumbos sortidos | [CAPERLAN Caixa Lastro 6 divisórias](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) | 3,90 € |
 | 🟠 Boias | [CAPERLAN MTCH 100 VISI x3](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) | 5,50 € |
 | 🪝 Anzóis (soltos, c/ olhal) | [CAPERLAN ANZOL CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) — escolher **#10** | 2,10 € |
 | ✨ Amostras spinning | [CAPERLAN Kit Colheres Rotativas Predadores (4x)](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651) | 8,90 € |
-| | **TOTAL** | **≈ 60,35 €** |
+| | **TOTAL** | **≈ 62,50 €** |
 
 > 🪝 **Anzóis soltos com olhal** (atas tu — aprender!). Tamanhos do pack: 10/12/14. Leva **#10** (perca, carpa pequena, barbo, achigã c/ minhoca); #12–14 p/ boga/ruivaco. Olhal = nó **clinch** fácil (ver Nós).
 
@@ -38,6 +41,43 @@ Troca 3 itens:
 ### 🐛 Iscos naturais (NÃO Decathlon)
 - **Minhoca** — apanha tudo (perca-sol, boga, barbo, achigã pequeno).
 - **Lata de milho doce** — carpa e barbo.
+
+---
+
+## 🎨 Cores + tamanhos (confirmado)
+
+Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorcedor). **Amostra = o contrário, vistosa.**
+
+| Item | Cor | Tamanho |
+|--|--|--|
+| Braid | **Caqui** (low-vis, único cor TX4) | **0,12** (ou 0,16 +força) |
+| Leader fluoro | **Transparente** (invisível) | **0,20–0,25 mm** |
+| Anzol CARP POLE | **Escuro/black** (VMC) | **#10** · #12–14 p/ peixe pequeno |
+| Destorcedor barril | **Black Nickel** | **nº12** |
+| Destorcedor snap | Inox (rolling) | **nº4** |
+| Spinner | **Vistoso** (prata/dourado) | 2–5 g |
+
+> Água turva → cor importa pouco (peixe guia-se por cheiro/vibração). Achigã desconfiado em água limpa → snap **Black Nickel** em vez de inox.
+
+---
+
+## ⚖️ Peso — o que este setup aguenta
+
+Elo mais fraco = **leader fluoro 0,20–0,25 mm (~3–4,5 kg)**. É aí que parte. ✅ **Bem dimensionado p/ os alvos casuais.**
+
+| Peixe | Aguenta? |
+|--|--|
+| Achigã (2–3 kg), barbo normal, truta pequena, boga, perca-sol | ✅ **Confortável** |
+| Sandre 1–3 kg, carpa/barbo 4–8 kg | ⚠️ **No limite** — freio suave, água aberta |
+| Carpa 10 kg+, sandre 4–8 kg | ❌ **Acima** — bycatch que vais perder |
+| **Siluro** (Idanha, Castelo do Bode), peixe-gato grande (Alqueva) | ❌ **Intocável** — parte logo. Material pesado à parte |
+
+**Se quiseres apanhar os grandes em certas barragens:**
+- Leva também **fluoro 0,28 mm (~6 kg)** p/ carpa/barbo grande (Alqueva margens, Odivelas/Idanha).
+- Uns **anzóis #1–2 wide-gap** p/ fisgar sandre/predador (o #10 é mole p/ isso).
+- Freio do 2500 a ~1,5–2 kg + deixa a cana trabalhar = landas mais peixe no limite.
+
+➡️ Detalhe por barragem: [**PEIXES-BARRAGENS.md**](PEIXES-BARRAGENS.md)
 
 ---
 
