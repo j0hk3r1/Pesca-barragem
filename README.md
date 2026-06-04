@@ -93,6 +93,18 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~3–4,5 kg)**. É aí que part
 
 `Linha-mãe → boia → chumbos de pinça → destorcedor barril → leader → anzol + isco`
 
+### 🔁 Sistema modular (quick-change) — opcional
+Ponta do multi com **1 snap fixo** → encaixas boia / leader+amostra / amostra. Trocas tudo na margem **sem atar**.
+
+<img src="img/montagem-modular.svg" alt="Sistema modular" width="500">
+
+**3 regras (importantes):**
+1. **Nó no multi = palomar ou uni, NÃO clinch.** Multi é escorregadio; clinch desliza e solta. Atas **1 vez**, dura imenso.
+2. ⚠️ **Destorcedor não passa bem nos aneis.** Leader **curto (~50 cm)** pra a junção ficar **fora da ponta** quando atiras — senão "bate" nos aneis = mau lançamento + nós.
+3. **Amostra direta no multi = perdes o leader** (invisibilidade + abrasão). Só em **água turva** / peixe não exigente. Água limpa (Castelo do Bode) / pedras / sandre → **mantém leader**.
+
+> 💡 O nó FG **não se desfaz a cada saída** — dura várias. O snap só acelera trocas; não é obrigatório.
+
 ---
 
 ## 🎯 Como pescar (profundidade, fios, técnica)

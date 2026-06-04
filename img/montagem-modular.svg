@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="500" viewBox="0 0 660 500" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="660" height="500" fill="#0d1117"/>
+  <text x="20" y="34" fill="#f0c000" font-size="20" font-weight="bold">🔁 Sistema MODULAR (quick-change)</text>
+  <text x="20" y="56" fill="#8b949e" font-size="13">1 nó só no multi · trocas tudo na margem sem atar</text>
+
+  <!-- main line + hub snap -->
+  <line x1="330" y1="78" x2="330" y2="120" stroke="#b8a55a" stroke-width="5"/>
+  <text x="345" y="98" fill="#e5d98a" font-size="13" font-weight="bold">Multi (linha-mãe)</text>
+
+  <!-- hub snap -->
+  <ellipse cx="330" cy="132" rx="14" ry="9" fill="none" stroke="#f0c000" stroke-width="3"/>
+  <path d="M344 132 q15 0 15 11 q0 10 -10 10" fill="none" stroke="#f0c000" stroke-width="3"/>
+  <text x="365" y="130" fill="#f0c000" font-size="14" font-weight="bold">SNAP fixo</text>
+  <text x="365" y="146" fill="#8b949e" font-size="11">nó palomar (1x, p/ sempre)</text>
+
+  <!-- branch lines -->
+  <g stroke="#484f58" stroke-width="1.5" stroke-dasharray="4 3">
+    <path d="M325 152 C 200 175, 120 175, 110 205" fill="none"/>
+    <path d="M330 156 L 330 205" fill="none"/>
+    <path d="M338 152 C 470 175, 545 175, 552 205" fill="none"/>
+  </g>
+
+  <!-- ============ COLUMN 1: BOIA ============ -->
+  <text x="110" y="225" fill="#ffae6b" font-size="14" font-weight="bold" text-anchor="middle">BOIA pré-feita</text>
+  <circle cx="110" cy="245" r="8" fill="none" stroke="#7fd3ff" stroke-width="3"/>
+  <text x="128" y="249" fill="#7fd3ff" font-size="11">loop → clipa no snap</text>
+  <line x1="110" y1="253" x2="110" y2="430" stroke="#b8a55a" stroke-width="2.5"/>
+  <path d="M110 275 q12 14 0 46 q-12 -32 0 -46 z" fill="#ff8c42" stroke="#ffae6b"/>
+  <text x="128" y="305" fill="#8b949e" font-size="11">boia</text>
+  <circle cx="110" cy="345" r="4" fill="#9aa0a6"/>
+  <circle cx="110" cy="357" r="4" fill="#9aa0a6"/>
+  <text x="128" y="355" fill="#8b949e" font-size="11">chumbos</text>
+  <ellipse cx="110" cy="380" rx="9" ry="6" fill="none" stroke="#9aa0a6" stroke-width="2"/>
+  <text x="128" y="384" fill="#8b949e" font-size="11">barril (opc.)</text>
+  <path d="M110 410 q0 14 -10 14 q-9 0 -9 -9" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <circle cx="118" cy="422" r="7" fill="#8B4513" stroke="#b5651d"/>
+  <text x="128" y="430" fill="#8b949e" font-size="11">anzol + isco</text>
+
+  <!-- ============ COLUMN 2: LEADER + AMOSTRA ============ -->
+  <text x="330" y="225" fill="#7fd3ff" font-size="14" font-weight="bold" text-anchor="middle">LEADER + amostra</text>
+  <circle cx="330" cy="245" r="8" fill="none" stroke="#7fd3ff" stroke-width="3"/>
+  <text x="348" y="249" fill="#7fd3ff" font-size="11">loop → clipa no snap</text>
+  <line x1="330" y1="253" x2="330" y2="350" stroke="#7fd3ff" stroke-width="3"/>
+  <text x="348" y="305" fill="#8b949e" font-size="11">leader fluoro ~50 cm</text>
+  <!-- snap bottom -->
+  <ellipse cx="330" cy="362" rx="12" ry="8" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <path d="M342 362 q13 0 13 10 q0 9 -9 9" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <text x="352" y="366" fill="#c9d1d9" font-size="11">snap p/ amostra</text>
+  <line x1="330" y1="380" x2="330" y2="405" stroke="#c9d1d9" stroke-width="2"/>
+  <ellipse cx="330" cy="425" rx="9" ry="17" fill="#d0d7de" stroke="#8b949e"/>
+  <circle cx="330" cy="414" r="3" fill="#f0c000"/>
+  <text x="348" y="425" fill="#e5d98a" font-size="11">spinner (trocas aqui)</text>
+
+  <!-- ============ COLUMN 3: DIRETA ============ -->
+  <text x="552" y="225" fill="#e5d98a" font-size="14" font-weight="bold" text-anchor="middle">AMOSTRA direta</text>
+  <circle cx="552" cy="245" r="8" fill="none" stroke="#7fd3ff" stroke-width="3"/>
+  <text x="500" y="266" fill="#8b949e" font-size="11" text-anchor="middle">clipa no snap</text>
+  <line x1="552" y1="253" x2="552" y2="290" stroke="#c9d1d9" stroke-width="2"/>
+  <ellipse cx="552" cy="310" rx="9" ry="17" fill="#d0d7de" stroke="#8b949e"/>
+  <circle cx="552" cy="299" r="3" fill="#f0c000"/>
+  <rect x="500" y="345" width="110" height="46" rx="6" fill="#3a1d1d" stroke="#ff7b72"/>
+  <text x="555" y="364" fill="#ff7b72" font-size="11" text-anchor="middle" font-weight="bold">só água turva</text>
+  <text x="555" y="380" fill="#ff9a93" font-size="10" text-anchor="middle">(sem leader = mais visível)</text>
+</svg>
