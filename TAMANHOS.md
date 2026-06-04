@@ -1,6 +1,6 @@
 # 📏 Tamanhos certos (anzol + destorcedor)
 
-> Pesquisado online + **verificado**, dimensionado ao **teu** setup: carreto (reel) 2500, trançado (braid / main line) 0,12 mm (~5-6 kg), fluorocarbono (fluorocarbon) 0,20-0,25 mm (~3-4,5 kg). — Jun/2026.
+> Dimensionado ao teu setup: carreto (reel) 2500, trançado (braid / main line) 0,12 mm (~5-6 kg), fluorocarbono (fluorocarbon) 0,20-0,25 mm (~3-4,5 kg).
 
 **Regra base:** o anzol (hook) escolhe-se pelo **isco (bait) / boca do peixe**, não pelo peso do peixe. O destorcedor (swivel) leva-se sempre **pequeno** (nunca é o elo fraco).
 
@@ -32,13 +32,13 @@ Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. O **Te
 
 ## 🔗 Destorcedor
 
-> 📋 **Dados reais da Decathlon (tab Detalhes).** Em TODAS as escalas — anzol, barril e snap — **nº maior = mais pequeno** (e mais fraco). Sem armadilhas.
+> Em TODAS as escalas — anzol, barril e snap — **nº maior = mais pequeno** (e mais fraco). Sem armadilhas.
 
 **[BARRIL preto](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759)** (barrel swivel) (junção da boia (float) / anti-torção (anti-twist) 30-45 cm acima da colher):
 
 | nº | comprimento | resistência | |
 |--|--|--|--|
-| 12 | 11,7 mm | **27 kg** | robusto (o do README) |
+| 12 | 11,7 mm | **27 kg** | robusto |
 | **14** | 9,3 mm | **19 kg** | ✅ discreto + forte de sobra |
 | 18 | 8,5 mm | 9 kg | ok, mais pequeno |
 | 22 | 6,9 mm | 4 kg | ⚠️ fraco demais (≈ leader), evita |
@@ -47,7 +47,7 @@ Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. O **Te
 
 | nº | comprimento | resistência | |
 |--|--|--|--|
-| **4** | 23 mm | **10 kg** | ✅ pequeno + 2x a tua linha (o do README) |
+| **4** | 23 mm | **10 kg** | ✅ pequeno + 2x a tua linha |
 | 5 | 20 mm | 6 kg | mais pequeno; 6 kg ainda > leader |
 
 ➡️ **Leva: barril nº14 (ou 12) + snap nº4.** Resistências muito acima do teu leader (~3-4,5 kg) → nunca partem primeiro.
@@ -64,7 +64,7 @@ Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. O **Te
 
 ---
 
-## 📋 Specs verificadas (produtos)
+## 📋 Specs dos produtos
 - **[TX4 braid](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473)** — diâmetros 0,12 / 0,16 / 0,20 / 0,25 / 0,30 / 0,33 mm (bobinas 150 m e 300 m). ⭐ 4,5 (295 aval).
 - **[Fluoro Soft](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545)** — gama 0,128 → 0,81 mm, Made in Japan. ⭐ 4,7 (45 aval). Leader: 0,20–0,25.
 - **CARP POLE** — soltos c/ olhal, tamanhos 10/12/14, anzol VMC. ⭐ 4,7 (74 aval).

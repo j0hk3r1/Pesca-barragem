@@ -1,8 +1,6 @@
 # 🐟 Guia de Peixes — 4 Barragens
 
-Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. Onde a presença é incerta, está **marcado**. Em todas precisas de **licença de pesca lúdica (ICNF)** + respeitar tamanhos mínimos e defesos.
-
-> Pesquisado e verificado em 2 passagens (multi-fonte, fact-check adversarial). Stats físicas e separação albufeira-vs-rio confirmadas. — Jun/2026.
+Tamanhos realistas. Espécies incertas marcadas com **⚠️ Atenção**. Em todas precisas de **licença de pesca lúdica (ICNF)** + respeitar tamanhos mínimos e defesos.
 
 ---
 
@@ -21,7 +19,7 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 | Perca-sol | 0,05–0,15 kg | ~0,2–0,3 kg | Iscos minúsculos, minhoca/pão à boia (float). Rouba-iscos |
 | Alburno | 0,02–0,05 kg | ~0,1 kg | Boia leve. Forragem dos predadores |
 
-**Baixa confiança / esclarecer:**
+**⚠️ Atenção:**
 - **Siluro** — consta da lista oficial EDIA e coloniza o Guadiana, **mas sem pescaria estabelecida no Alqueva**. "Peixe-gato" grande aqui = quase de certeza peixe-gato-canal, não siluro.
 - **Truta** — **NÃO existe.** Páginas turísticas erram. Água quente baixa = impossível p/ truta.
 - Nativos protegidos (**saramugo, boga-do-Guadiana, barbo-de-cabeça-pequena**) — **devolver**.
@@ -32,12 +30,12 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 
 ## 🏞️ 2. Barragem de Odivelas (Baixo Alentejo, bacia do Sado)
 
-**O que é:** Albufeira de rega de planície, água quente e turva (desde 1972, ~970 ha). Bom acesso de margem. Predador principal = achigã, **+ peixe-gato-negro** (bullhead pequeno) confirmado.
+**O que é:** Albufeira de rega de planície, água quente e turva (desde 1972, ~970 ha). Bom acesso de margem. Predador principal = achigã, **+ peixe-gato-negro** (bullhead pequeno).
 
 | Nome PT | Típico | Grande | Como apanhar |
 |---|---|---|---|
 | Achigã | 0,3–1,2 kg | 2–3 kg (troféu) | Vinis (Texas/Carolina, dropshot, senkos), cranks, spinnerbaits junto a vegetação e à parede. Mínimo legal 20 cm |
-| **Peixe-gato-negro** (Ameiurus melas) | 0,1–0,4 kg | ~0,4–0,5 kg (até ~30 cm) | **Fundo ou boia c/ carne/chouriço (sausage), fígado, minhoca, peixe cortado.** Come tudo cheiroso. Mais ativo ao anoitecer/noite. ✅ *confirmado em campo (chouriço!)* |
+| **Peixe-gato-negro** (Ameiurus melas) | 0,1–0,4 kg | ~0,4–0,5 kg (até ~30 cm) | **Fundo ou boia c/ carne/chouriço (sausage), fígado, minhoca, peixe cortado.** Come tudo cheiroso. Mais ativo ao anoitecer/noite. |
 | Boga | 0,05–0,25 kg | ~0,4–0,5 kg | Boia/fundo leve c/ pão, pasta, bicha, minhoca. Cardume |
 | Carpa | 1,5–5 kg | 8–12 kg+ | Feeder/fundo c/ boilies, milho, pão. Recinto de competição |
 | Barbo-do-sul | 0,3–1,5 kg | 3–4 kg | Fundo/feeder c/ minhoca, pasta, milho |
@@ -46,7 +44,7 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 
 > 🐟 **Peixe-gato-negro** — invasor, NÃO é siluro nem channel catfish (esses são grandes). Fica pequeno. ⚠️ Tem **espinhos (barbatanas peitorais/dorsal) que picam** — pega com cuidado, por trás. É invasor → por lei **não se devolve vivo**. ✅ Sem problema p/ o teu material.
 
-**Baixa confiança:** escalo-do-Sado e pardelha (nativos, bycatch, **devolver**); enguia muito improvável (parede sem passagem).
+**⚠️ Atenção:** escalo-do-Sado e pardelha (nativos, bycatch, **devolver**); enguia muito improvável (parede sem passagem).
 
 **Dicas:** Achigã + boga dominam; carpa confirmada por campeonatos de feeder. Ótimo p/ margem e competição. **Chouriço/carne gorda à boia = peixe-gato-negro garantido.** Confirma defesos/zonamentos com ICNF.
 
@@ -67,7 +65,7 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 | Boga / Escalo-do-sul | 0,1–0,5 kg | ~0,8–1 kg | Boia/fundo leve, iscos pequenos |
 | Perca-sol | 0,05–0,15 kg | 0,2–0,3 kg | Micro-iscos à boia. Abundante, ótimo p/ material leve |
 
-**Baixa/média confiança:**
+**⚠️ Atenção:**
 - **Siluro** — **presente mas raro**, não é pescaria de troféus. O "crocodilo do Zêzere" (2011) era um siluro ~1,5 m. Captura ocasional.
 - **Truta** — a pescaria a sério é **no rio/afluentes frios a montante, NÃO no lago**. Arco-íris só por repovoamento ICNF.
 - **Lúcio (Esox lucius)** — existe em PT como invasor (sobretudo Guadiana); mal documentado em Castelo do Bode. O predador desta albufeira é o **lúcio-perca/sandre** — peixe diferente, não confundir.
@@ -92,9 +90,9 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 | Boga | 0,1–0,4 kg | ~0,6 kg | Boia/fundo leve. Forragem |
 | Perca-sol | <0,1 kg | ~0,2 kg | Iscos pequenos à margem. Rouba-iscos |
 
-**Baixa/média confiança:** truta-fário só esporádica (desce dos afluentes — a sério é nas ribeiras frias); escalo (*S. pyrenaicus*) nativo; gambúsia/alburno/enguia provável mas não confirmado.
+**⚠️ Atenção:** truta-fário só esporádica (desce dos afluentes — a sério é nas ribeiras frias); escalo (*S. pyrenaicus*) nativo; gambúsia/alburno/enguia provável mas não confirmado.
 
-**Dicas:** Reservatório de predador + carpa/barbo, **não** é lago de truta. Boa pesca de margem. **Nota honesta:** stock de achigã reportado reduzido por furtivismo — ainda se apanha, mas modesto. Confirma regras com ICNF / CM Idanha-a-Nova.
+**Dicas:** Reservatório de predador + carpa/barbo, **não** é lago de truta. Boa pesca de margem. Stock de achigã reduzido por furtivismo — apanha-se, mas modesto. Confirma regras com ICNF / CM Idanha-a-Nova.
 
 ---
 

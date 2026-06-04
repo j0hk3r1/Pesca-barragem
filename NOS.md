@@ -1,6 +1,5 @@
 # 🪢 Nós de pesca — referência rápida (barragem)
 
-> Gerado e **verificado adversarialmente** (passos confirmados contra animatedknots.com) — Jun/2026.
 > **Antes de apertar qualquer nó:** molha sempre (saliva ou água); aperta devagar e com tensão igual; corta a sobra a ~2 mm.
 
 ## 🗺️ Mapa rápido (do diagrama para o nó)
@@ -218,7 +217,7 @@
 1. Passa a ponta da linha (tag) pelo olhal do anzol e volta a passar a MESMA ponta pelo olhal OUTRA VEZ no mesmo sentido. Fica uma laçada (loop) pendurada ao lado da haste.
 2. Deixa cerca de 10-15 cm de ponta para trabalhar. Escolhe o lado de saída da linha-mãe conforme o anzol: em anzóis circle (circulares), faz a linha-mãe sair do olhal pelo lado do bico, aproveitando o ângulo do olhal sem dobrar a linha; em anzóis direitos em J, a linha-mãe sai pelo lado oposto ao bico. Em qualquer dos casos o puxão fica alinhado com a haste porque a linha corre por baixo das voltas.
 3. Segura com os dedos o olhal e os dois ramos de linha encostados à haste, mantendo a laçada formada.
-4. Pega na laçada e enrola-a à volta da haste do anzol (e da linha-mãe que corre por baixo), no sentido do bico para o olhal, dando 7 a 8 voltas bem juntas e sem sobrepor. (As voltas progredirem para o olhal é a versão mais forte, confirmada por testes IGFA.)
+4. Pega na laçada e enrola-a à volta da haste do anzol (e da linha-mãe que corre por baixo), no sentido do bico para o olhal, dando 7 a 8 voltas bem juntas e sem sobrepor. (As voltas progredirem para o olhal = versão mais forte.)
 5. Mantém as voltas presas debaixo dos dedos para não se cruzarem nem desfazerem.
 6. Fecha a laçada: puxa devagar pela LINHA-MÃE (standing end) para a laçada encolher e desaparecer por baixo das voltas. (Puxa-se a linha-mãe, nunca a ponta, neste passo.)
 7. Molha bem o nó antes de apertar.

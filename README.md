@@ -10,7 +10,7 @@ Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/
 - 🐟 [**Peixes das 4 barragens**](PEIXES-BARRAGENS.md) — espécies, tamanhos reais, métodos (Alqueva · Odivelas · Castelo do Bode · Idanha)
 - 🔁 [**Montagens & exemplos**](EXEMPLOS-MODULAR.md) — diagramas, como pescar, por peixe + profundidade
 - 📏 [**Tamanhos**](TAMANHOS.md) — anzol + destorcedor (kg/mm reais)
-- 🪢 [**Nós**](NOS.md) — passo-a-passo verificado + vídeo
+- 🪢 [**Nós**](NOS.md) — passo-a-passo + vídeo
 - 🎣 [**A Cana**](CANA.md) — restauro da do avô, backup e combo mais barato
 
 ---

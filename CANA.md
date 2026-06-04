@@ -72,7 +72,7 @@ Se **ainda não compraste** o carreto 2500 sozinho, este conjunto bate o teu pla
 
 | Opção | Conteúdo | Preço |
 |---|---|---|
-| **Conjunto WXM 100** ✅ | [Cana WXM 100 1,80m ML + carreto **2500**](https://www.decathlon.pt/p/cana-e-carreto-de-pesca-ao-corrico-wxm-100-spinning-1-80m-ml-5-14g-conjunto/339590/m8739959) (6 passadores, antirretorno infinito, travão micrométrico) | **39,90 €** (era 50) |
+| **Conjunto WXM 100** ✅ | [Cana WXM 100 1,80m ML + carreto **2500**](https://www.decathlon.pt/p/cana-e-carreto-de-pesca-ao-corrico-wxm-100-spinning-1-80m-ml-5-14g-conjunto/339590/m8739959) (6 passadores, antirretorno infinito, travão micrométrico) | **39,90 €** |
 | Separado | Carreto 2500 (24,90) + Cana WXM-100 1,80m (24,90) | ~49,80 € |
 
 ➡️ **Poupas ~10 €** e fica o mesmo (cana WXM 100 + carreto 2500), pronto a pescar **já**. 4,6★ (127 aval).
