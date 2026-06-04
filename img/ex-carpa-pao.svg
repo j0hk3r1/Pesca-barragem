@@ -17,8 +17,8 @@
   <!-- bread crust floating at surface -->
   <path d="M210 150 q-6 -16 14 -18 q22 -4 28 6 q12 0 8 12 q-2 8 -16 6 q-18 4 -34 -2 z" fill="#e8c98a" stroke="#c9a85a"/>
   <path d="M230 150 q0 14 -10 14 q-9 0 -9 -9" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
-  <text x="270" y="142" fill="#e5d98a" font-size="13" font-weight="bold">crosta de pão (bread crust)</text>
-  <text x="270" y="158" fill="#8b949e" font-size="11">anzol #8–6 escondido na côdea</text>
+  <text x="270" y="138" fill="#e5d98a" font-size="13" font-weight="bold">crosta de pão (bread crust)</text>
+  <text x="270" y="174" fill="#8b949e" font-size="11">anzol #8–6 escondido na côdea (sem chumbo)</text>
 
   <!-- chum bits -->
   <circle cx="150" cy="170" r="4" fill="#e8c98a" opacity="0.8"/>
