@@ -94,14 +94,17 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~3–4,5 kg)**. É aí que part
 | **Siluro** (Idanha, Castelo do Bode), peixe-gato grande (Alqueva) | ❌ **Intocável** — parte logo. Material pesado à parte |
 
 ### ⚙️ Linha vs freio (drag)
-A linha-mãe deve ser **mais forte que o freio**; o leader é o **elo fraco** de propósito. Pões o freio a **~⅓** da linha mais fraca — nunca igualas tudo.
+Pões o **freio de trabalho a ~⅓** do elo mais fraco (o leader). **Nunca** usas o freio no máximo — os 8 kg do carreto são só folga; o **leader é o fusível**.
 
-| Elemento | Força aprox. | Papel |
+| Elemento | Força | Papel |
 |---|---|---|
-| 🎣 Freio **máx.** carreto 2500 | **~3–4 kg** | quanto o carreto consegue puxar |
-| 🧵 Braid [TX4](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) 0,12 | **~5–6 kg** | linha-mãe — **acima do freio ✓** |
+| 🎣 Freio carreto 2500 | **máx 8 kg · útil 6 kg** | capacidade — **só folga, não usas isto** |
+| 🧵 Braid [TX4](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) 0,12 | **~5–6 kg** | linha-mãe |
 | 🪢 Leader fluoro 0,20–0,25 | **~3–4,5 kg** | **elo fraco** (parte aqui, salva o resto) |
 | ⚙️ Freio que **usas** | **~1,5–2 kg** | ≈ ⅓ do leader |
+
+> ⚠️ **Não apertes o freio perto do máximo** (6–8 kg) — a essa força a braid (5–6 kg) podia partir no carreto/nó. Mantém **~1,5–2 kg** e deixa o leader ser o fusível.
+> Para usar a força toda do carreto (carpa/barbo grande): sobe **braid 0,16 (~7–8 kg) + leader 0,28 (~6 kg) juntos**.
 
 ➡️ Os grandes (siluro, carpa 10 kg+, sandre 4 kg+) = material pesado à parte. Detalhe por barragem: [**PEIXES-BARRAGENS.md**](PEIXES-BARRAGENS.md).
 
