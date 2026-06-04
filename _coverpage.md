@@ -4,7 +4,7 @@
 
 > Setup completo para barragens portuguesas — material, montagens, nós, peixes.
 
-- 🛒 Material **vendido pela Decathlon** (~62 €)
+- 🛒 Material **vendido pela Decathlon** (~68 €)
 - 🎯 Spinning + boia · iniciante
 - 🐟 Alqueva · Odivelas · Castelo do Bode · Idanha
 

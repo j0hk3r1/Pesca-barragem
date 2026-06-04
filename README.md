@@ -17,6 +17,7 @@ Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/
 Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achigã, perca-sol, boga, ruivaco, carpa peq.–média, barbo, peixe-gato-negro. (Cana é tua — ver [**A Cana**](CANA.md): restauro da cana do avô, backup e combo mais barato que o carreto sozinho.)
 
 **🧱 Base**
+
 | Item | Produto | € |
 |------|---------|------:|
 | 🎣 Carreto (reel) | [CAPERLAN WXM 100 **2500**](https://www.decathlon.pt/p/carreto-de-pesca-com-amostras-wxm-100-2500/345242/m8784314) | 24,90 |
@@ -26,6 +27,7 @@ Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achi
 | 🔗 Barril (boia) | [CAPERLAN Barril Black Nickel](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) — **nº14** | 1,90 |
 
 **🟠 Boia / isco** (carpa, barbo, boga, perca, peixe-gato)
+
 | Item | Produto | € |
 |------|---------|------:|
 | 🟠 Boias (floats) | [CAPERLAN MTCH 100 VISI x3](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) | 5,50 |
@@ -34,6 +36,7 @@ Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achi
 | 🪝 Anzóis médios (montados) | [CAPERLAN SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) **#6** | 3,50 |
 
 **✨ Spinning** (predador: achigã, perca, sandre pequeno)
+
 | Item | Produto | € |
 |------|---------|------:|
 | ✨ Amostras (lures) | [CAPERLAN Kit Colheres Rotativas Predadores (4x)](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651) | 8,90 |

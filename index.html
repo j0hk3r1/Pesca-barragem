@@ -5,22 +5,123 @@
   <title>🎣 Pesca Barragem</title>
   <meta name="description" content="Setup de pesca para barragens portuguesas — material Decathlon, montagens, nós, peixes e tamanhos.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#0d1117">
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/docsify-themeable@0.9.0/dist/css/theme-simple.css"
         integrity="sha384-IuZucGNxm+6VGvZLv3+oxh1kE70WlIXci7p3g/Dtchij0oKFb9s8zG9GYnIkl8CB"
         crossorigin="anonymous">
   <style>
+    /* ---------- Tema escuro "tackle box" ---------- */
     :root{
-      --theme-color:#e6a700;
+      --theme-color:#f0b429;                 /* dourado (acento) */
+      --theme-hue:40;
+      --base-font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
       --base-font-size:16px;
+      --base-line-height:1.65;
+      --base-color:#c4ccd6;                  /* texto */
+      --base-background-color:#0d1117;
       --content-max-width:66em;
-      --sidebar-width:18rem;
-      --link-color:#b5840a;
+      --sidebar-width:18.5rem;
+
+      --heading-color:#eef2f6;
+      --heading-h2-border-color:#222a35;
+      --link-color:#f0b429;
+      --link-color--hover:#ffcf4d;
+
+      /* sidebar */
+      --sidebar-background:#0a0e14;
+      --sidebar-border-color:#1b2230;
+      --sidebar-name-color:#eef2f6;
+      --sidebar-nav-link-color:#9aa6b4;
+      --sidebar-nav-link-color--active:#f0b429;
+      --sidebar-nav-link-color--hover:#ffffff;
+      --sidebar-nav-link-border-color--active:#f0b429;
+      --sidebar-nav-link-font-weight--active:700;
+      --sidebar-nav-pagelink-background-image:none;
+
+      /* code */
+      --code-inline-color:#ffcf4d;
+      --code-inline-background:#161c26;
+      --code-theme-background:#11161f;
+      --code-font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+      --code-font-size:.86em;
+
+      /* blockquote / callouts */
+      --blockquote-color:#aeb8c4;
+      --blockquote-background:#121a24;
+      --blockquote-border-color:#f0b429;
+      --blockquote-border-width:0 0 0 4px;
+
+      /* tabelas */
+      --table-cell-border-color:#222a35;
+      --table-head-border-color:#2b3543;
+      --table-row-odd-background-color:#11161f;
+      --table-row-even-background-color:#0d1117;
+      --table-head-background:#141b25;
+
+      /* cover */
+      --cover-background-color:#0d1117;
+      --cover-color:#eef2f6;
+      --cover-link-color:#f0b429;
+      --cover-button-background:#f0b429;
+      --cover-button-color:#0d1117;
+      --cover-button-border:0;
+      --cover-button-border-radius:8px;
+
+      --search-input-background-color:#11161f;
+      --search-result-heading-color:#eef2f6;
     }
-    .markdown-section table{display:table;width:100%;}
-    .markdown-section td,.markdown-section th{padding:.5em .8em;}
-    .markdown-section img[src$=".svg"]{display:block;margin:1em auto;border-radius:10px;max-width:100%;}
-    .app-name-link{font-weight:700;}
+
+    html,body{background:#0d1117;}
+
+    /* títulos com brilho subtil */
+    .markdown-section h1,.markdown-section h2{letter-spacing:.2px;}
+    .markdown-section h2{border-bottom:1px solid #222a35;padding-bottom:.35em;margin-top:2.2em;}
+    .markdown-section h3{color:#dbe2ea;}
+
+    /* diagramas/imagens como cartões */
+    .markdown-section img{
+      border:1px solid #232c38;border-radius:12px;
+      box-shadow:0 6px 22px rgba(0,0,0,.45);
+      background:#0d1117;
+    }
+
+    /* tabelas mais limpas */
+    .markdown-section table{display:table;width:100%;border-collapse:collapse;border-radius:10px;overflow:hidden;}
+    .markdown-section td,.markdown-section th{padding:.55em .85em;}
+    .markdown-section tbody tr{transition:background .15s;}
+    .markdown-section tbody tr:hover{background:#171f2a;}
+    .markdown-section th{color:#eef2f6;font-weight:700;}
+
+    /* blockquotes/callouts arredondados */
+    .markdown-section blockquote{border-radius:0 8px 8px 0;padding:.7em 1em;}
+
+    /* code/montagens "clipa → ..." */
+    .markdown-section pre{border:1px solid #1d2530;border-radius:10px;}
+    .markdown-section pre>code{color:#cfe6c4;}
+
+    /* links com underline suave */
+    .markdown-section a{text-decoration:none;border-bottom:1px solid rgba(240,180,41,.28);}
+    .markdown-section a:hover{border-bottom-color:#ffcf4d;}
+
+    /* sidebar: nome + barra ativa */
+    .sidebar .app-name-link{font-weight:800;font-size:1.15rem;}
+    .sidebar ul li a{border-radius:6px;padding-left:.4rem;}
+    .sidebar ul li.active>a{background:rgba(240,180,41,.10);}
+
+    /* scrollbar dark */
+    *::-webkit-scrollbar{width:10px;height:10px;}
+    *::-webkit-scrollbar-thumb{background:#222b38;border-radius:6px;}
+    *::-webkit-scrollbar-track{background:#0a0e14;}
+
+    /* cover com gradiente */
+    section.cover{background:#0d1117 !important;background-image:none !important;}
+    section.cover.show{background:linear-gradient(155deg,#0d1117 0%,#102433 42%,#0d1117 100%) !important;}
+    section.cover .cover-main>p:last-child a{box-shadow:0 6px 18px rgba(240,180,41,.18);font-weight:700;}
+    section.cover h1{font-size:3rem;}
+
+    /* botão "voltar ao topo" e barra de progresso com acento */
+    .progress{background-color:#f0b429 !important;}
   </style>
 </head>
 <body>
@@ -40,7 +141,7 @@
         placeholder: 'Pesquisar…',
         noData: 'Sem resultados.',
         depth: 4,
-        paths: ['/README.md','/PEIXES-BARRAGENS.md','/TAMANHOS.md','/NOS.md','/EXEMPLOS-MODULAR.md']
+        paths: ['/README.md','/PEIXES-BARRAGENS.md','/TAMANHOS.md','/CANA.md','/NOS.md','/EXEMPLOS-MODULAR.md']
       },
       copyCode: { buttonText: 'copiar', successText: 'copiado ✓' },
       pagination: { previousText: '←', nextText: '→', crossChapter: true }
