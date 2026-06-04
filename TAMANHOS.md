@@ -22,7 +22,7 @@
 
 ### 🛒 Se só queres 1-2 anzóis
 1. **CARP POLE #14** (olhal (eye), fino) → peixe de boca pequena (perca-sol, boga, ruivaco) + carpa em milho.
-2. **SN HOOK WORM #6** (montado) → carpa, barbo, peixe-gato com minhoca/massa/carne.
+2. **SN HOOK WORM #8** (montado) → cavalo-de-batalha: carpa, barbo, peixe-gato com minhoca/massa/milho (#6 p/ iscos grandes/carne).
 
 Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. O **Texan Wide Gap** só se fizeres achigã em vinil.
 

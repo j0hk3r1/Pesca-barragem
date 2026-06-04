@@ -36,7 +36,7 @@ Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achi
 | 🟠 Boias (floats) | [CAPERLAN MTCH 100 VISI x3](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) | 5,50 |
 | ⚖️ Chumbos (sinkers) | [CAPERLAN Caixa Lastro 6 divisórias](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) | 3,90 |
 | 🪝 Anzóis finos (soltos) | [CAPERLAN CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) **×2: #14 + #10** | 4,20 |
-| 🪝 Anzóis médios (montados) | [CAPERLAN SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) **#6** | 3,50 |
+| 🪝 Anzóis médios (montados) | [CAPERLAN SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) **#8** | 3,50 |
 
 **✨ Spinning** (predador: achigã, perca, sandre pequeno)
 
@@ -46,7 +46,7 @@ Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achi
 
 > **TOTAL ≈ 68,10 €**
 
-> 🪝 **Anzóis:** **CARP POLE #14** (soltos — atas tu) p/ perca-sol/boga/ruivaco; **#10** p/ carpa peq./barbo/achigã c/ minhoca; **SN HOOK WORM #6** (montados) p/ carpa/barbo maiores e peixe-gato. Detalhe em [TAMANHOS.md](TAMANHOS.md).
+> 🪝 **Anzóis:** **CARP POLE #14** (soltos — atas tu) p/ perca-sol/boga/ruivaco; **#10** p/ carpa pequena/barbo; **SN HOOK WORM #8** (montados) — cavalo-de-batalha p/ carpa/barbo + peixe-gato (**#6** se usares iscos grandes/carne). Achigã = amostra (ou **Simples 1/0–2** c/ minhoca inteira). Detalhe em [TAMANHOS.md](TAMANHOS.md).
 
 ### 💸 Versão ultra-barata (~53 €)
 Troca 3 itens:

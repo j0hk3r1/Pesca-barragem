@@ -212,7 +212,7 @@ clipa → chumbo corrido (running lead) 10–20 g → destorcedor de barril (bat
 <img src="img/ex-peixegato.svg" alt="Peixe-gato ao fundo" width="470">
 
 ```
-clipa → boia (ou ledger) → leader 30–40 cm → anzol #6 (SN HOOK WORM)
+clipa → boia (ou ledger) → leader 30–40 cm → anzol #6–8 (SN HOOK WORM)
         + chouriço / fígado / minhoca (sausage / liver / worm)
 ```
 - **Profundidade:** **fundo**. Mais ativo ao anoitecer/noite (dusk/night).
