@@ -81,17 +81,41 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~3–4,5 kg)**. É aí que part
 
 ---
 
-## 🔧 Montagens
+## 🔧 Montagens (com nome das peças)
 
-**Spinning (amostra):**
-```
-Multi → nó FG/Albright → leader fluoro → destorcedor alfinete → spinner
-```
+### Spinning — amostra
+<img src="img/montagem-spinning.svg" alt="Montagem spinning" width="430">
 
-**Boia (isco natural):**
-```
-Multi → boia → chumbo(s) → destorcedor → leader → anzol + minhoca/milho
-```
+`Linha-mãe → nó FG/Albright → leader fluoro → destorcedor snap → spinner`
+
+### Boia — isco natural
+<img src="img/montagem-boia.svg" alt="Montagem boia" width="470">
+
+`Linha-mãe → boia → chumbos de pinça → destorcedor barril → leader → anzol + isco`
+
+---
+
+## 🎯 Como pescar (profundidade, fios, técnica)
+
+### Comprimento dos fios
+| Fio | Comprimento | Notas |
+|--|--|--|
+| **Leader (spinning)** | **50–100 cm** | mais comprido = mais discreto; nó FG fica no carreto sem problema |
+| **Leader/hooklength (boia)** | **30–50 cm** | do anzol ao destorcedor barril |
+| **Anzol → chumbo** | **20–30 cm** | distância do isco ao primeiro chumbo |
+| **Encher carreto** | até **~2 mm da borda** | pouco = embaraça; demais = salta |
+
+### Profundidade
+- **Boia fixa** → só até **profundidade = comprimento da cana** (~2–3 m). Água rasa/margens.
+- **Boia deslizante** → corre no fio até um **nó-batente** que pões à profundidade que quiseres → pescas **água funda**. Essencial em barragem funda (Castelo do Bode, canais do Alqueva).
+- **Regra do isco:** ajusta o nó-batente até o isco ficar **rente ao fundo** (carpa, barbo, peixe-gato) ou a **meia-água** (perca, boga). Mede o fundo primeiro: põe um chumbo pesado no anzol e vê onde a boia assenta.
+- **Spinning:** deixa a amostra **afundar contando** (1, 2, 3… ≈ 30 cm/seg) para escolher a camada de água; recolhe a profundidades diferentes até encontrar o peixe.
+
+### Técnica rápida
+- **Spinning (achigã/perca):** atira para junto de **estrutura** (pedras, troncos, vegetação, paredão). Recolhe com **paragens** (para-anda-para) — o ataque vem quase sempre na pausa/queda. Manhã cedo e fim de tarde = melhor.
+- **Boia (carpa/barbo/boga/peixe-gato):** atira, deixa assentar, **vê a boia**. Mordida = boia afunda ou deita/foge → **ferra** (levanta a cana com firmeza). Peixe-gato e carpa = paciência, deixa o isco pousado. Anoitecer = peixe-gato ataca.
+- **Freio do carreto:** ~**1,5–2 kg** (cede fio antes de partir o leader). Peixe grande → deixa correr, não forces.
+- **Água:** limpa (Castelo do Bode) → fino + cores naturais + discreto. Turva (depois de chuva) → cor importa pouco, peixe guia-se por cheiro/vibração (isco cheiroso, amostra com vibração).
 
 ---
 

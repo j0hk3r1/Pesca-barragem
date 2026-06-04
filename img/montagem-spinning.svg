@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="430" viewBox="0 0 560 430" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="560" height="430" fill="#0d1117"/>
+  <text x="20" y="34" fill="#f0c000" font-size="20" font-weight="bold">🎣 Montagem SPINNING (amostra)</text>
+  <text x="20" y="56" fill="#8b949e" font-size="13">atirar amostra + recolher — achigã, perca, boga, barbo</text>
+
+  <!-- vertical axis -->
+  <g stroke-linecap="round">
+    <!-- main braid -->
+    <line x1="170" y1="80" x2="170" y2="150" stroke="#b8a55a" stroke-width="5"/>
+    <!-- leader -->
+    <line x1="170" y1="170" x2="170" y2="300" stroke="#7fd3ff" stroke-width="3" stroke-dasharray="1 0" opacity="0.9"/>
+  </g>
+
+  <!-- rod tip -->
+  <circle cx="170" cy="80" r="6" fill="#c9d1d9"/>
+  <text x="195" y="85" fill="#c9d1d9" font-size="14">ponta da cana</text>
+
+  <!-- main line label -->
+  <text x="195" y="120" fill="#e5d98a" font-size="15" font-weight="bold">Linha-mãe</text>
+  <text x="195" y="138" fill="#8b949e" font-size="12">multifilamento 0,12 mm (caqui)</text>
+
+  <!-- knot -->
+  <circle cx="170" cy="160" r="7" fill="none" stroke="#ff7b72" stroke-width="3"/>
+  <text x="195" y="165" fill="#ff7b72" font-size="13">nó FG / Albright (junta os 2 fios)</text>
+
+  <!-- leader label -->
+  <text x="195" y="225" fill="#7fd3ff" font-size="15" font-weight="bold">Leader fluorocarbono</text>
+  <text x="195" y="243" fill="#8b949e" font-size="12">0,20–0,25 mm · transparente</text>
+  <text x="195" y="259" fill="#8b949e" font-size="12">comprimento: <tspan fill="#e5d98a" font-weight="bold">50–100 cm</tspan></text>
+
+  <!-- swivel -->
+  <ellipse cx="170" cy="312" rx="13" ry="8" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <circle cx="159" cy="312" r="3" fill="#c9d1d9"/>
+  <path d="M181 312 q14 0 14 10 q0 9 -9 9" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <text x="205" y="316" fill="#c9d1d9" font-size="14" font-weight="bold">Destorcedor snap</text>
+  <text x="205" y="333" fill="#8b949e" font-size="12">inox rolling nº4 · clipas a amostra</text>
+
+  <!-- spinner -->
+  <line x1="170" y1="330" x2="170" y2="360" stroke="#c9d1d9" stroke-width="2"/>
+  <ellipse cx="170" cy="380" rx="11" ry="20" fill="#d0d7de" stroke="#8b949e"/>
+  <circle cx="170" cy="368" r="3" fill="#f0c000"/>
+  <text x="195" y="378" fill="#e5d98a" font-size="15" font-weight="bold">Spinner (amostra) 2–5 g</text>
+  <text x="195" y="396" fill="#8b949e" font-size="12">vistoso · prata/dourado · a pá roda e atrai</text>
+</svg>

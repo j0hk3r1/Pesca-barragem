@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="520" viewBox="0 0 600 520" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="600" height="520" fill="#0d1117"/>
+  <text x="20" y="34" fill="#f0c000" font-size="20" font-weight="bold">🟠 Montagem BOIA (isco natural)</text>
+  <text x="20" y="56" fill="#8b949e" font-size="13">isco parado — carpa, barbo, boga, perca-sol, peixe-gato</text>
+
+  <!-- water -->
+  <rect x="0" y="110" width="600" height="370" fill="#0b2a3a" opacity="0.45"/>
+  <line x1="0" y1="110" x2="600" y2="110" stroke="#7fd3ff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.7"/>
+  <text x="540" y="104" fill="#7fd3ff" font-size="12">água</text>
+
+  <!-- bottom -->
+  <rect x="0" y="455" width="600" height="65" fill="#3a2e1f"/>
+  <line x1="0" y1="455" x2="600" y2="455" stroke="#6b5836" stroke-width="2"/>
+  <text x="510" y="478" fill="#b08a52" font-size="12">fundo</text>
+
+  <!-- axis -->
+  <line x1="200" y1="80" x2="200" y2="150" stroke="#b8a55a" stroke-width="5"/>
+  <line x1="200" y1="150" x2="200" y2="270" stroke="#b8a55a" stroke-width="4"/>
+  <line x1="200" y1="300" x2="200" y2="330" stroke="#b8a55a" stroke-width="3"/>
+  <line x1="200" y1="350" x2="200" y2="430" stroke="#7fd3ff" stroke-width="3"/>
+
+  <!-- rod tip -->
+  <circle cx="200" cy="80" r="6" fill="#c9d1d9"/>
+  <text x="225" y="85" fill="#c9d1d9" font-size="14">ponta da cana</text>
+
+  <!-- main line -->
+  <text x="225" y="118" fill="#e5d98a" font-size="14" font-weight="bold">Linha-mãe (multifilamento)</text>
+
+  <!-- float -->
+  <path d="M200 130 q15 18 0 60 q-15 -42 0 -60 z" fill="#ff8c42" stroke="#ffae6b"/>
+  <line x1="200" y1="118" x2="200" y2="130" stroke="#ff8c42" stroke-width="2.5"/>
+  <circle cx="200" cy="124" r="3" fill="#ff8c42"/>
+  <text x="232" y="158" fill="#ffae6b" font-size="15" font-weight="bold">Boia</text>
+  <text x="232" y="175" fill="#8b949e" font-size="12">MTCH/SF6 · 0,5–2 g · ponta à mostra</text>
+
+  <!-- shots -->
+  <circle cx="200" cy="240" r="5" fill="#9aa0a6"/>
+  <circle cx="200" cy="255" r="5" fill="#9aa0a6"/>
+  <circle cx="200" cy="270" r="5" fill="#9aa0a6"/>
+  <text x="232" y="250" fill="#c9d1d9" font-size="14" font-weight="bold">Chumbos de pinça</text>
+  <text x="232" y="267" fill="#8b949e" font-size="12">afundam e equilibram a boia</text>
+
+  <!-- swivel -->
+  <ellipse cx="200" cy="342" rx="13" ry="8" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <text x="232" y="338" fill="#c9d1d9" font-size="14" font-weight="bold">Destorcedor barril</text>
+  <text x="232" y="354" fill="#8b949e" font-size="12">preto (black nickel) nº12 · separa leader</text>
+
+  <!-- leader label -->
+  <text x="232" y="398" fill="#7fd3ff" font-size="14" font-weight="bold">Leader fluoro 30–50 cm</text>
+
+  <!-- hook + bait -->
+  <path d="M200 430 q0 18 -12 18 q-12 0 -12 -12" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <circle cx="210" cy="445" r="9" fill="#8B4513" stroke="#b5651d"/>
+  <text x="232" y="438" fill="#e5d98a" font-size="15" font-weight="bold">Anzol #10 + isco</text>
+  <text x="232" y="455" fill="#8b949e" font-size="12">minhoca / milho / massa / chouriço</text>
+
+  <!-- depth bracket -->
+  <line x1="70" y1="120" x2="70" y2="448" stroke="#f0c000" stroke-width="1.5"/>
+  <line x1="66" y1="120" x2="74" y2="120" stroke="#f0c000" stroke-width="1.5"/>
+  <line x1="66" y1="448" x2="74" y2="448" stroke="#f0c000" stroke-width="1.5"/>
+  <text x="34" y="290" fill="#f0c000" font-size="12" transform="rotate(-90 34 290)" text-anchor="middle">profundidade = isco rente ao fundo</text>
+</svg>
