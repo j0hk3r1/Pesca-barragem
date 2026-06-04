@@ -107,6 +107,8 @@ Ponta do multi com **1 snap fixo** → encaixas boia / leader+amostra / amostra.
 
 > 💡 O nó FG **não se desfaz a cada saída** — dura várias. O snap só acelera trocas; não é obrigatório.
 
+➡️ **Exemplos prontos por peixe + profundidade:** [**EXEMPLOS-MODULAR.md**](EXEMPLOS-MODULAR.md) (com glossário PT ↔ EN).
+
 ---
 
 ## 🎯 Como pescar (profundidade, fios, técnica)
