@@ -37,11 +37,15 @@ Se o blank estiver são (sem racha) → **vale 100% restaurar** (sentimental + f
 
 ---
 
+## 📐 Medidas da cana do avô
+- **Ponta (tip):** 2,1 mm → ponteira **BSAT tamanho 2,2** (enfia por cima dos 2,1 mm).
+- **Base:** 7,4 mm → normal; 1.º anel (junto ao carreto) é o **maior**, a diminuir até à ponta.
+
 ## 🛒 Peças na Decathlon (vende!)
 
 | Peça | Produto | Preço | Notas |
 |---|---|---|---|
-| **Ponteira (tip-top)** | [CAPERLAN/DECATHLON Passador BSAT](https://www.decathlon.pt/p/passador-de-cana-de-pesca-de-predadores-bsat/X8167255/m8167255) | 3,90 € | tamanhos 2–4 mm (mede a ponta!) |
+| **Ponteira (tip-top)** | [CAPERLAN/DECATHLON Passador BSAT](https://www.decathlon.pt/p/passador-de-cana-de-pesca-de-predadores-bsat/X8167255/m8167255) | 3,90 € | tamanhos 2–4 mm → **a tua = 2,2** (ponta 2,1 mm) |
 | Ponteira (alt.) | [Passador BAST 3,6 mm](https://www.decathlon.pt/p/passador-de-cana-de-pesca-de-predadores-bast-3-6-mm/X8271899/m8271899) | 3,90 € | 3,6 mm fixo |
 | **Anéis intermédios** | [CAPERLAN Passadores com Abertura](https://www.decathlon.pt/p/passadores-com-abertura-de-pesca/350558/c251m8842999) | 2,50 € | ~10 un, abrem p/ a linha |
 | Anéis (alt., inox) | [FLASHMER Passadores Inox 9 mm](https://www.decathlon.pt/p/passadores-de-inox-forjados-para-pesca-no-mar-9-mm/X8298845/m8298845) | 2,90 € | ~10 un, robustos (mar, maiores) |
