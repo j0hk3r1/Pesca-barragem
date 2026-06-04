@@ -22,8 +22,8 @@
   <circle cx="170" cy="318" r="13" fill="#9aa0a6" stroke="#c9d1d9"/>
   <path d="M170 331 q0 16 -11 16 q-11 0 -11 -11" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
   <path d="M183 318 q34 6 40 34 q-30 -8 -40 -22 z" fill="#7bc47b" stroke="#5fd35f"/>
-  <text x="205" y="312" fill="#e5d98a" font-size="14" font-weight="bold">cabeça plombada (jig head) 3–7 g</text>
-  <text x="205" y="329" fill="#8b949e" font-size="12">+ vinil (soft plastic)</text>
+  <text x="205" y="306" fill="#e5d98a" font-size="14" font-weight="bold">cabeça plombada (jig head) 3–7 g</text>
+  <text x="237" y="338" fill="#8b949e" font-size="12">+ vinil (soft plastic)</text>
 
   <rect x="0" y="430" width="560" height="40" fill="#3a2e1f"/>
   <line x1="0" y1="430" x2="560" y2="430" stroke="#6b5836" stroke-width="2"/>

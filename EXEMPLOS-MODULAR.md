@@ -13,6 +13,9 @@ Base: ponta da linha-mãe (braid / main line) com **1 destorcedor de alfinete/sn
 | D | Boia funda | Carpa / barbo | boia deslizante |
 | E | Fundo (ledger) | Carpa / barbo | chumbo corrido |
 | F | Fundo, anoitecer | Peixe-gato-negro | isco cheiroso |
+| G | Dropshot fundo | Sandre / lúcio-perca | vinil a abanar parado |
+| H | Pão à superfície | Carpa | floating bread (verão) |
+| I | Wacky (água limpa) | Achigã | finesse, sem chumbo |
 
 ---
 
@@ -97,6 +100,50 @@ clipa → boia (ou ledger) → leader 30–40 cm → anzol #6 (SN HOOK WORM)
 ```
 - **Profundidade:** **fundo**. Mais ativo ao anoitecer/noite (dusk/night).
 - ⚠️ Cuidado a pegar — **espinhos (spines)** nas barbatanas (fins) picam. Invasor → não devolver vivo.
+
+---
+
+## G · 🟣 SANDRE / LÚCIO-PERCA (zander) — dropshot
+
+Predador de fundo/estrutura funda (Castelo do Bode, Idanha, Alqueva). Amanhecer e anoitecer.
+
+<img src="img/ex-sandre-dropshot.svg" alt="Sandre dropshot" width="490">
+
+```
+clipa → leader 60–100 cm → nó dropshot: anzol #1–1/0 no ramal (ponta p/ cima) + vinil pequeno
+                           → linha continua → chumbo de dropshot 5–12 g no fundo
+```
+- **Profundidade:** chumbo no fundo; isco a **15–40 cm** acima.
+- **Técnica:** **abana no sítio** (não recolhes) — o vinil (soft plastic) dança parado. Anzol forte p/ a boca óssea do sandre.
+- ⚠️ Sandre grande (4–8 kg) está **acima do teu material** — vai a pequenos/médios.
+
+---
+
+## H · 🔵 CARPA — pão à superfície (floating bread)
+
+Verão, água parada e quente, margem com sombra. **Sem chumbo.** Visual e barato.
+
+<img src="img/ex-carpa-pao.svg" alt="Carpa pão à superfície" width="470">
+
+```
+clipa → leader fino 0,20 mm → anzol #8–6 escondido numa crosta de pão (bread crust) a flutuar
+```
+- **Profundidade:** **superfície** (0 m). Atira bocados de pão à volta como chamariz (chum).
+- **Mordida (bite):** vês a carpa subir e sugar. Espera a boca **fechar** → **ferra (hookset)**.
+
+---
+
+## I · 🟢 ACHIGÃ — wacky / sem chumbo (água limpa)
+
+Finesse p/ peixe desconfiado em água limpa (Castelo do Bode). Queda lenta e horizontal.
+
+<img src="img/ex-achiga-wacky.svg" alt="Achigã wacky" width="470">
+
+```
+clipa → leader 50–80 cm → anzol wacky (wacky hook) #1 espetado no MEIO do vinil/senko
+```
+- **Profundidade:** **sem chumbo** → afunda sozinho devagar, as 2 pontas a tremer. Mordida **na queda**.
+- Atira junto a estrutura (structure), deixa cair. Cores naturais, fio fino.
 
 ---
 

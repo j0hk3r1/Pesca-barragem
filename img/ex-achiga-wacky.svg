@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="430" viewBox="0 0 560 430" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="560" height="430" fill="#0d1117"/>
+  <text x="20" y="32" fill="#5fd35f" font-size="19" font-weight="bold">🟢 ACHIGÃ (largemouth bass) — wacky (água limpa)</text>
+  <text x="20" y="54" fill="#8b949e" font-size="13">finesse · SEM chumbo · queda lenta e horizontal · peixe desconfiado</text>
+
+  <rect x="0" y="70" width="560" height="360" fill="#0b2a3a" opacity="0.4"/>
+  <line x1="0" y1="70" x2="560" y2="70" stroke="#7fd3ff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.7"/>
+  <text x="505" y="64" fill="#7fd3ff" font-size="12">água</text>
+
+  <line x1="180" y1="78" x2="180" y2="120" stroke="#b8a55a" stroke-width="5"/>
+  <text x="205" y="100" fill="#e5d98a" font-size="13" font-weight="bold">Linha-mãe → snap → leader 50–80 cm</text>
+
+  <line x1="180" y1="120" x2="180" y2="200" stroke="#7fd3ff" stroke-width="3"/>
+
+  <!-- wacky rigged worm: hook through middle, both ends droop -->
+  <circle cx="180" cy="212" r="11" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <path d="M180 223 q0 8 7 11" fill="none" stroke="#c9d1d9" stroke-width="2"/>
+  <!-- worm both ends -->
+  <path d="M186 212 q40 -20 80 -6" fill="none" stroke="#7bc47b" stroke-width="9" stroke-linecap="round"/>
+  <path d="M174 212 q-40 -20 -80 -6" fill="none" stroke="#7bc47b" stroke-width="9" stroke-linecap="round"/>
+  <text x="205" y="250" fill="#e5d98a" font-size="14" font-weight="bold">anzol wacky (wacky hook) #1</text>
+  <text x="205" y="267" fill="#8b949e" font-size="12">no MEIO do vinil/minhoca artificial (senko)</text>
+  <text x="205" y="283" fill="#8b949e" font-size="12">as 2 pontas tremem na queda</text>
+
+  <!-- sink arrows -->
+  <path d="M120 250 l0 60 m-7 -10 l7 10 l7 -10" stroke="#5fd35f" stroke-width="2" fill="none"/>
+  <text x="78" y="300" fill="#5fd35f" font-size="11" transform="rotate(-90 78 300)" text-anchor="middle">queda lenta</text>
+
+  <text x="30" y="370" fill="#5fd35f" font-size="12.5">▸ Atira junto a estrutura, deixa AFUNDAR sozinho a abanar. Mordida = na queda.</text>
+  <text x="30" y="392" fill="#8b949e" font-size="12">Água limpa (Castelo do Bode) = cores naturais, fio fino.</text>
+</svg>

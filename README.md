@@ -14,20 +14,33 @@ Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/
 
 ## ✅ Lista de compra (carrinho completo)
 
-| Item | Produto | Preço |
-|------|---------|------:|
-| 🎣 Carreto | [CAPERLAN WXM 100 **2500**](https://www.decathlon.pt/p/carreto-de-pesca-com-amostras-wxm-100-2500/345242/m8784314) | 24,90 € |
-| 🧵 Linha-mãe | [CAPERLAN TX4 multifilamento](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) — escolher **0,12/100** (150 m) | 7,90 € |
-| 🪢 Leader fluoro | [CAPERLAN Fluorocarbono 100% Soft](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) — escolher **0,20–0,25** | 4,90 € |
-| 🔗 Destorcedor snap (spinning) | [CAPERLAN Rolling Snap Inox](https://www.decathlon.pt/p/destorcedor-de-alfinete-de-pesca-rolling-snap-inox-2025-x-10/307904/m8939626) — **nº4** | 2,50 € |
-| 🔗 Destorcedor barril (boia) | [CAPERLAN Barril Black Nickel](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) — **nº14** (ou nº12) | 1,90 € |
-| ⚖️ Chumbos sortidos | [CAPERLAN Caixa Lastro 6 divisórias](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) | 3,90 € |
-| 🟠 Boias | [CAPERLAN MTCH 100 VISI x3](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) | 5,50 € |
-| 🪝 Anzóis (soltos, c/ olhal) | [CAPERLAN ANZOL CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) — escolher **#10** | 2,10 € |
-| ✨ Amostras spinning | [CAPERLAN Kit Colheres Rotativas Predadores (4x)](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651) | 8,90 € |
-| | **TOTAL** | **≈ 62,50 €** |
+Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achigã, perca-sol, boga, ruivaco, carpa peq.–média, barbo, peixe-gato-negro. (Cana é tua.)
 
-> 🪝 **Anzóis soltos com olhal** (atas tu — aprender!). Tamanhos do pack: 10/12/14. Leva **#10** geral (carpa pequena, barbo) + **#14** p/ boca pequena (perca-sol, boga, ruivaco). Achigã c/ minhoca inteira → **Simples 2/1-0** à parte (ver [TAMANHOS](TAMANHOS.md)). Olhal = nó **clinch** fácil (ver [NOS.md](NOS.md)).
+**🧱 Base**
+| Item | Produto | € |
+|------|---------|------:|
+| 🎣 Carreto (reel) | [CAPERLAN WXM 100 **2500**](https://www.decathlon.pt/p/carreto-de-pesca-com-amostras-wxm-100-2500/345242/m8784314) | 24,90 |
+| 🧵 Linha-mãe (braid) | [CAPERLAN TX4](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) — **0,12/100** (150 m) | 7,90 |
+| 🪢 Leader fluoro | [CAPERLAN Fluorocarbono 100% Soft](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) — **0,20–0,25** | 4,90 |
+| 🔗 Snap (spinning) | [CAPERLAN Rolling Snap Inox](https://www.decathlon.pt/p/destorcedor-de-alfinete-de-pesca-rolling-snap-inox-2025-x-10/307904/m8939626) — **nº4** | 2,50 |
+| 🔗 Barril (boia) | [CAPERLAN Barril Black Nickel](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) — **nº14** | 1,90 |
+
+**🟠 Boia / isco** (carpa, barbo, boga, perca, peixe-gato)
+| Item | Produto | € |
+|------|---------|------:|
+| 🟠 Boias (floats) | [CAPERLAN MTCH 100 VISI x3](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) | 5,50 |
+| ⚖️ Chumbos (sinkers) | [CAPERLAN Caixa Lastro 6 divisórias](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) | 3,90 |
+| 🪝 Anzóis finos (soltos) | [CAPERLAN CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) **×2: #14 + #10** | 4,20 |
+| 🪝 Anzóis médios (montados) | [CAPERLAN SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) **#6** | 3,50 |
+
+**✨ Spinning** (predador: achigã, perca, sandre pequeno)
+| Item | Produto | € |
+|------|---------|------:|
+| ✨ Amostras (lures) | [CAPERLAN Kit Colheres Rotativas Predadores (4x)](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651) | 8,90 |
+
+> **TOTAL ≈ 68,10 €**
+
+> 🪝 **Cobertura dos anzóis:** **CARP POLE #14** (soltos — atas tu, aprender) p/ perca-sol/boga/ruivaco; **#10** p/ carpa pequena/barbo/achigã c/ minhoca; **SN HOOK WORM #6** (montados, sem atar) p/ carpa/barbo maiores e peixe-gato. Detalhe em [TAMANHOS.md](TAMANHOS.md).
 
 ### 💸 Versão ultra-barata (~53 €)
 Troca 3 itens:
