@@ -83,6 +83,8 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~3–4,5 kg)**. É aí que part
 
 ## 🔧 Montagens (com nome das peças)
 
+> 🪢 Os nós referidos nos diagramas (FG, Palomar, clinch…) estão explicados passo-a-passo em [**NOS.md**](NOS.md).
+
 ### Spinning — amostra
 <img src="img/montagem-spinning.svg" alt="Montagem spinning" width="430">
 
@@ -171,22 +173,19 @@ Ponta do multi com **1 snap fixo** → encaixas boia / leader+amostra / amostra.
 - **Deslizante** — corre no fio até nó-batente → pescas **água funda**. Precisas se as zonas forem fundas ou para isco no fundo (predadores).
 - "Boia de pesca **ao fundo**" = isco assenta no fundo, boia só marca mordida (alvo carpa grande / achigã c/ peixe-isco). Nicho diferente do milho/minhoca à meia-água.
 
-**Nós:**
-- **Clinch melhorado** (anzol de olhal / destorcedor):
-  1. Passa o fio pelo olhal, deixa ~15 cm de sobra.
-  2. Dá **5–6 voltas** com a ponta à volta da linha principal.
-  3. Passa a ponta pelo **laço junto ao olhal**.
-  4. Passa pelo **laço grande** que se formou.
-  5. **Molha** o nó, puxa devagar pela linha principal, corta a sobra.
-- **Snell** (avançado — no anzol de olhal, puxão alinhado c/ a haste = fisgada direta):
-  1. Passa a ponta pelo olhal (frente→trás), ~20 cm de sobra.
-  2. Passa **a mesma ponta** pelo olhal outra vez, mesmo sentido → fica um **laço** ao lado da haste.
-  3. Encosta o laço à haste.
-  4. Com o laço, dá **6–7 voltas** à volta da **haste + fio**, do olhal pra baixo, apertadas e lado a lado.
-  5. Segura as voltas; puxa a **linha principal** devagar pra fechar.
-  6. **Molha**, aperta pela linha principal, corta a sobra.
-- Juntar multi + leader → **FG** (melhor) ou **Albright** (mais fácil).
+### 🪢 Nós — ver [**NOS.md**](NOS.md) (passos verificados + vídeo de cada um)
 
+Mapa rápido (qual nó pra quê):
+
+| Onde | Nó | Dif. |
+|--|--|--|
+| multi → destorcedor/snap | **Palomar** | 🟢 |
+| fluoro/mono → anzol olhal/destorcedor | **Clinch melhorado** | 🟢 |
+| multi → leader fluoro | **FG** (melhor) / **Albright** (fácil) / **Double Uni** (fácil) | 🔴/🟡 |
+| laço no topo do leader (modular) | **Perfection loop** / **Surgeon's loop** | 🟡/🟢 |
+| anzol olhal, fisgada direta (avançado) | **Snell** | 🔴 |
+
+> Regra de ouro (todos): **molha** antes de apertar · aperta devagar · corta a sobra ~2 mm.
 > ℹ️ Decathlon só vende anzol **solto de olhal** (pala/spade só pré-atado). Snell faz-se na mesma no olhal.
 
 **Dica:** enche a bobina do carreto até ~2 mm da borda — pouco fio embaraça, demasiado salta.
