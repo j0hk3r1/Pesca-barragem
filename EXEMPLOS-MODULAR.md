@@ -66,9 +66,32 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 | **Peixe-gato-negro** | Fundo, chouriço/minhoca, ao anoitecer (ex. F). |
 | **Sandre / lúcio-perca** | Vinil jigado / dropshot no fundo (ex. G). |
 
-**Boias — fixa vs deslizante:**
-- **Fixa** — profundidade ≤ comprimento da cana. Águas rasas/médias.
-- **Deslizante** — corre no fio até nó-batente → pescas **água funda**. Precisas em zonas fundas.
+---
+
+## 🟠 Boia fixa vs deslizante (em detalhe)
+
+Duas formas de prender a boia (float). Mudam **onde** podes pescar.
+
+### Fixa (fixed float) — exemplo **C**
+Boia **presa num ponto do fio** (por borrachinhas/silicones). Profundidade = distância anzol→boia, e é **fixa**.
+- ✅ Simples, sensível — ótima p/ ver mordidas subtis.
+- ❌ Só pescas até **profundidade ≤ comprimento da cana**. Mais fundo → o anzol fica a metros da ponta e **não consegues lançar**.
+- **Quando:** água rasa / margens / ≤ 2–3 m (perca-sol, boga, achigã pequeno).
+
+### Deslizante (sliding / slip float) — exemplo **D**
+Boia **corre livre** no fio entre dois batentes. Vê os 2 estados:
+
+<img src="img/boia-mecanismo.svg" alt="Boia deslizante — mecanismo" width="720">
+
+- 🔴 **Nó-batente (stop knot)** — fica **em cima**, à distância do anzol = **a profundidade que queres**. É ele que **trava** a boia ao subir e **define a profundidade**. Mexes o nó → mudas a profundidade.
+- ⚪ **Stop / missanga de baixo** — junto ao destorcedor; impede a boia de descer até ao anzol.
+- **Como e quando "desliza":**
+  1. **No lançamento:** a boia escorrega para **baixo** até ao stop → montagem **curta e compacta** → lanças longe (mesmo p/ pescar a 5–8 m — impossível com fixa).
+  2. **Na água:** o **chumbo puxa a linha para baixo** pelo ilhó da boia; a boia fica à superfície e a linha **desliza por ela** até o **nó-batente bater no topo da boia → pára**. O isco fica à profundidade marcada.
+- ✅ Pescas **muito mais fundo** que o comprimento da cana. Essencial em barragem funda (Castelo do Bode, canais do Alqueva).
+- ❌ Mais peças (batente + missanga), um pouco menos sensível.
+
+> **Regra:** raso → **fixa**. Fundo (>2–3 m) → **deslizante**.
 
 ---
 
