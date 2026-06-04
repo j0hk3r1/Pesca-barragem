@@ -18,11 +18,11 @@ Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/
 | 🔗 Destorcedores (alfinete/snap) | [CAPERLAN Conjunto destorcedor alfinete](https://www.decathlon.pt/p/conjunto-destorcedor-alfinete/167995/m8385364) | 2,25 € |
 | ⚖️ Chumbos sortidos | [CAPERLAN Caixa Lastro 6 divisórias](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) | 3,90 € |
 | 🟠 Boias | [CAPERLAN MTCH 100 VISI x3](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) | 5,50 € |
-| 🪝 Anzóis (montados) | [CAPERLAN SN HOOK WORM (10un, pré-atados)](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) — escolher **#10** (+ pack **#8**) | 3,50 € |
+| 🪝 Anzóis (soltos, c/ olhal) | [CAPERLAN ANZOL CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) — escolher **#10** | 2,10 € |
 | ✨ Amostras spinning | [CAPERLAN Kit Colheres Rotativas Predadores (4x)](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651) | 8,90 € |
-| | **TOTAL** | **≈ 61,75 €** |
+| | **TOTAL** | **≈ 60,35 €** |
 
-> 🪝 **Anzóis** são montados (pré-atados ao fio, sistema "gancho no gancho") — sem dar nó. Tamanhos do pack: 4/6/8/10/12. Leva **#10** (boga, ruivaco, perca, carpa pequena) e um **#8** (carpa, barbo, achigã c/ minhoca). +3,50€ o segundo pack.
+> 🪝 **Anzóis soltos com olhal** (atas tu — aprender!). Tamanhos do pack: 10/12/14. Leva **#10** (perca, carpa pequena, barbo, achigã c/ minhoca); #12–14 p/ boga/ruivaco. Olhal = nó **clinch** fácil (ver Nós).
 
 ### 💸 Versão ultra-barata (~53 €)
 Troca 3 itens:
@@ -67,7 +67,7 @@ Multi → boia → chumbo(s) → destorcedor → leader → anzol + minhoca/milh
 | Barbo | #8 |
 | Achigã c/ minhoca | #6–8 (ou amostra) |
 
-➡️ Na prática: **#10 + #8** cobrem tudo.
+➡️ Na prática: **#10** chega p/ quase tudo; **#12–14** p/ boga/ruivaco pequeno. (Carpa/barbo grandes → #8 num pack à parte.)
 
 **Chumbo** — de pinça (cravado), pequeno. Regra: junta chumbo até a boia ficar **quase submersa** (só ponta à mostra). Põe ~20–30 cm acima do anzol. A Caixa 6 divisórias traz tamanhos sortidos — não precisas decorar números.
 
@@ -77,7 +77,7 @@ Multi → boia → chumbo(s) → destorcedor → leader → anzol + minhoca/milh
 
 - **TX4 braid** — diâmetros: **0,12 / 0,16 / 0,20 / 0,25 / 0,30 / 0,33 mm** (bobinas 150 m e 300 m). ⭐ 4,5 (295 aval).
 - **Fluoro Soft** — gama **0,128 → 0,81 mm**, Made in Japan. ⭐ 4,7 (45 aval). Para leader: 0,20–0,25.
-- **SN HOOK WORM** — montados, tamanhos 4/6/8/10/12. ⭐ 4,7 (53 aval).
+- **ANZOL CARP POLE** — soltos c/ olhal, tamanhos 10/12/14. ⭐ 4,7 (74 aval).
 
 ---
 
@@ -96,7 +96,12 @@ Multi → boia → chumbo(s) → destorcedor → leader → anzol + minhoca/milh
 - "Boia de pesca **ao fundo**" = isco assenta no fundo, boia só marca mordida (alvo carpa grande / achigã c/ peixe-isco). Nicho diferente do milho/minhoca à meia-água.
 
 **Nós:**
-- Anzol/destorcedor → **clinch melhorado**.
+- **Clinch melhorado** (anzol de olhal / destorcedor):
+  1. Passa o fio pelo olhal, deixa ~15 cm de sobra.
+  2. Dá **5–6 voltas** com a ponta à volta da linha principal.
+  3. Passa a ponta pelo **laço junto ao olhal**.
+  4. Passa pelo **laço grande** que se formou.
+  5. **Molha** o nó, puxa devagar pela linha principal, corta a sobra.
 - Juntar multi + leader → **FG** (melhor) ou **Albright** (mais fácil).
 
 **Dica:** enche a bobina do carreto até ~2 mm da borda — pouco fio embaraça, demasiado salta.
