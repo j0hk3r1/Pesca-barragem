@@ -6,12 +6,12 @@ Como montar, como pescar, e exemplos prontos por peixe + profundidade. Os nós e
 
 ## 🔧 Montagens base (nome das peças)
 
-### Spinning — amostra
+### ✨ Spinning — amostra
 <img src="img/montagem-spinning.svg" alt="Montagem spinning" width="430">
 
 `Linha-mãe → nó FG/Albright → leader fluoro → destorcedor snap → spinner`
 
-### Boia — isco natural
+### 🟠 Boia — isco natural
 <img src="img/montagem-boia.svg" alt="Montagem boia" width="470">
 
 `Linha-mãe → boia → chumbos de pinça → destorcedor barril → leader → anzol + isco`
@@ -32,7 +32,7 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 
 ## 🎯 Como pescar (profundidade, fios, técnica)
 
-### Comprimento dos fios
+### 📏 Comprimento dos fios
 | Fio | Comprimento | Notas |
 |--|--|--|
 | **Leader (spinning)** | **50–100 cm** | mais comprido = mais discreto |
@@ -40,14 +40,14 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 | **Anzol → chumbo** | **20–30 cm** | distância do isco ao 1.º chumbo |
 | **Encher carreto** | até **~2 mm da borda** | pouco = embaraça; demais = salta |
 
-### Profundidade
+### 🌊 Profundidade
 - **Boia fixa** → só até **profundidade = comprimento da cana** (~2–3 m). Água rasa/margens.
 - **Boia deslizante** → corre no fio até um **nó-batente** que pões à profundidade que quiseres → pescas **água funda** (Castelo do Bode, canais do Alqueva).
 - **Regra do isco:** ajusta até ficar **rente ao fundo** (carpa, barbo, peixe-gato) ou a **meia-água** (perca, boga). Mede o fundo: chumbo pesado no anzol e vê onde a boia assenta.
 - **Chumbo (boia):** junta chumbo de pinça até a boia ficar **quase submersa** (só ponta à mostra).
 - **Spinning:** deixa a amostra **afundar contando** (1, 2, 3… ≈ 30 cm/seg) p/ escolher a camada; recolhe a profundidades diferentes até achar o peixe.
 
-### Técnica rápida
+### 🎯 Técnica rápida
 - **Spinning (achigã/perca):** atira p/ junto de **estrutura** (pedras, troncos, vegetação, paredão). Recolhe com **paragens** — ataque vem na pausa/queda. Manhã cedo / fim de tarde.
 - **Boia (carpa/barbo/boga/peixe-gato):** atira, deixa assentar, **vê a boia**. Afunda/foge → **ferra**. Paciência. Anoitecer = peixe-gato.
 - **Freio (drag):** ~**1,5–2 kg** (cede fio antes de partir o leader). Peixe grande → deixa correr.
@@ -81,13 +81,13 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 
 ➡️ Resumindo: **mesma profundidade, fixa não dá p/ lançar se for funda; deslizante dá.**
 
-### Fixa (fixed float) — exemplo **C**
+### 📌 Fixa (fixed float) — exemplo **C**
 Boia **presa num ponto do fio** (por borrachinhas/silicones). Profundidade = distância anzol→boia, e é **fixa**.
 - ✅ Simples, sensível — ótima p/ ver mordidas subtis.
 - ❌ Só pescas até **profundidade ≤ comprimento da cana**. Mais fundo → o anzol fica a metros da ponta e **não consegues lançar**.
 - **Quando:** água rasa / margens / ≤ 2–3 m (perca-sol, boga, achigã pequeno).
 
-### Deslizante (sliding / slip float) — exemplo **D**
+### 🎚️ Deslizante (sliding / slip float) — exemplo **D**
 Boia **corre livre** no fio entre dois batentes. Vê os 2 estados:
 
 <img src="img/boia-mecanismo.svg" alt="Boia deslizante — mecanismo" width="720">
@@ -136,7 +136,7 @@ Boia **corre livre** no fio entre dois batentes. Vê os 2 estados:
 
 ---
 
-## A · 🟢 ACHIGÃ (largemouth bass) — superfície
+## 🟢 A · ACHIGÃ (largemouth bass) — superfície
 
 Água quente, peixe a caçar à tona junto a **estrutura (structure)** — pedras, troncos, vegetação. Manhã ou fim de tarde.
 
@@ -151,7 +151,7 @@ clipa → leader (fluorocarbono) 50–80 cm → colher giratória (spinner) 2–
 
 ---
 
-## B · 🟢 ACHIGÃ — fundo / meia-água
+## 🟢 B · ACHIGÃ — fundo / meia-água
 
 Dia quente, peixe fundo. **Conta a queda (countdown)** (1, 2, 3… ≈ 30 cm/seg) até achar a camada.
 
@@ -164,7 +164,7 @@ clipa → leader 50–80 cm → cabeça plombada (jig head) 3–7 g + vinil (sof
 
 ---
 
-## C · 🟡 PERCA-SOL / BOGA / RUIVACO — meia-água
+## 🟡 C · PERCA-SOL / BOGA / RUIVACO — meia-água
 
 Margem, fácil (bom p/ começar). Peixe pequeno, boca pequena.
 
@@ -180,7 +180,7 @@ clipa → boia fixa (fixed float) 0,5–1 g → chumbos de pinça (split shot)
 
 ---
 
-## D · 🔵 CARPA / BARBO — boia deslizante (água funda &gt;2 m)
+## 🔵 D · CARPA / BARBO — boia deslizante (água funda &gt;2 m)
 
 <img src="img/ex-carpa-deslizante.svg" alt="Carpa com boia deslizante" width="490">
 
@@ -194,7 +194,7 @@ clipa → nó-batente (stop knot) + missanga (bead) → boia deslizante (sliding
 
 ---
 
-## E · 🔵 CARPA / BARBO — pesca ao fundo (ledger, sem boia)
+## 🔵 E · CARPA / BARBO — pesca ao fundo (ledger, sem boia)
 
 <img src="img/ex-ledger.svg" alt="Pesca ao fundo ledger" width="470">
 
@@ -207,7 +207,7 @@ clipa → chumbo corrido (running lead) 10–20 g → destorcedor de barril (bat
 
 ---
 
-## F · 🟤 PEIXE-GATO-NEGRO (black bullhead) — fundo, ao anoitecer
+## 🟤 F · PEIXE-GATO-NEGRO (black bullhead) — fundo, ao anoitecer
 
 <img src="img/ex-peixegato.svg" alt="Peixe-gato ao fundo" width="470">
 
@@ -220,7 +220,7 @@ clipa → boia (ou ledger) → leader 30–40 cm → anzol #6 (SN HOOK WORM)
 
 ---
 
-## G · 🟣 SANDRE / LÚCIO-PERCA (zander) — dropshot
+## 🟣 G · SANDRE / LÚCIO-PERCA (zander) — dropshot
 
 Predador de fundo/estrutura funda (Castelo do Bode, Idanha, Alqueva). Amanhecer e anoitecer.
 
@@ -236,7 +236,7 @@ clipa → leader 60–100 cm → nó dropshot: anzol #1–1/0 no ramal (ponta p/
 
 ---
 
-## H · 🔵 CARPA — pão à superfície (floating bread)
+## 🔵 H · CARPA — pão à superfície (floating bread)
 
 Verão, água parada e quente, margem com sombra. **Sem chumbo.** Visual e barato.
 
@@ -250,7 +250,7 @@ clipa → leader fino 0,20 mm → anzol #8–6 escondido numa crosta de pão (br
 
 ---
 
-## I · 🟢 ACHIGÃ — wacky / sem chumbo (água limpa)
+## 🟢 I · ACHIGÃ — wacky / sem chumbo (água limpa)
 
 Finesse p/ peixe desconfiado em água limpa (Castelo do Bode). Queda lenta e horizontal.
 

@@ -93,7 +93,7 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~3–4,5 kg)**. É aí que part
 | Carpa 10 kg+, sandre 4–8 kg | ❌ **Acima** — bycatch que vais perder |
 | **Siluro** (Idanha, Castelo do Bode), peixe-gato grande (Alqueva) | ❌ **Intocável** — parte logo. Material pesado à parte |
 
-### Linha vs freio (drag)
+### ⚙️ Linha vs freio (drag)
 A linha-mãe deve ser **mais forte que o freio**; o leader é o **elo fraco** de propósito. Pões o freio a **~⅓** da linha mais fraca — nunca igualas tudo.
 
 | Elemento | Força aprox. | Papel |

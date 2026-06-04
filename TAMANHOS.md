@@ -1,4 +1,4 @@
-# Tamanhos certos (anzol + destorcedor)
+# 📏 Tamanhos certos (anzol + destorcedor)
 
 > Pesquisado online + **verificado**, dimensionado ao **teu** setup: carreto (reel) 2500, trançado (braid / main line) 0,12 mm (~5-6 kg), fluorocarbono (fluorocarbon) 0,20-0,25 mm (~3-4,5 kg). — Jun/2026.
 

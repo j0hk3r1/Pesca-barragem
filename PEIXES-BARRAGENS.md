@@ -6,7 +6,7 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 
 ---
 
-## 1. Barragem de Alqueva (Alentejo, Rio Guadiana)
+## 🏞️ 1. Barragem de Alqueva (Alentejo, Rio Guadiana)
 
 **O que é:** Maior lago artificial da Europa Ocidental (~250 km², ~1.100 km de margem). Água quente, cheia de predadores, ilhas e vales inundados. Dos melhores destinos do continente para **achigã** e **lúcio-perca (sandre)**.
 
@@ -30,7 +30,7 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 
 ---
 
-## 2. Barragem de Odivelas (Baixo Alentejo, bacia do Sado)
+## 🏞️ 2. Barragem de Odivelas (Baixo Alentejo, bacia do Sado)
 
 **O que é:** Albufeira de rega de planície, água quente e turva (desde 1972, ~970 ha). Bom acesso de margem. Predador principal = achigã, **+ peixe-gato-negro** (bullhead pequeno) confirmado.
 
@@ -52,7 +52,7 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 
 ---
 
-## 3. Barragem de Castelo do Bode (Centro, Rio Zêzere)
+## 🏞️ 3. Barragem de Castelo do Bode (Centro, Rio Zêzere)
 
 **O que é:** Albufeira **funda, fria e de água muito limpa** (2.ª maior de PT em volume, ~1.095 hm³). Origem de água de Lisboa. Cristalina = táticas finas, cores naturais. Sobretudo barco/caiaque (margens são encostas íngremes; acesso pelas praias fluviais).
 
@@ -78,7 +78,7 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 
 ---
 
-## 4. Barragem Marechal Carmona / Idanha (Beira Baixa, Rio Ponsul)
+## 🏞️ 4. Barragem Marechal Carmona / Idanha (Beira Baixa, Rio Ponsul)
 
 **O que é:** Albufeira quente interior (bacia do Tejo, parede 1946). Ciprinídeos + predadores introduzidos. **Destaque = siluro** — o Ponsul deu o maior siluro documentado à cana em PT (**102 kg / 2,33 m**). Tríade: achigã + sandre + siluro, com guias profissionais.
 

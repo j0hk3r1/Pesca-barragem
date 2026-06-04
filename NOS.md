@@ -1,9 +1,9 @@
-# Nós de pesca — referência rápida (barragem)
+# 🪢 Nós de pesca — referência rápida (barragem)
 
 > Gerado e **verificado adversarialmente** (passos confirmados contra animatedknots.com) — Jun/2026.
 > **Antes de apertar qualquer nó:** molha sempre (saliva ou água); aperta devagar e com tensão igual; corta a sobra a ~2 mm.
 
-## Mapa rápido (do diagrama para o nó)
+## 🗺️ Mapa rápido (do diagrama para o nó)
 
 | Onde no sistema | Nó (knot) a usar |
 |---|---|
@@ -19,7 +19,7 @@
 
 ---
 
-## Palomar
+## 🟢 Palomar
 
 **Onde uso:** multifilamento → destorcedor/snap (o nó-hub do sistema modular; à prova de escorregar no trançado).
 
@@ -44,7 +44,7 @@
 
 ---
 
-## Clinch melhorado (improved clinch)
+## 🟢 Clinch melhorado (improved clinch)
 
 **Onde uso:** mono/fluorocarbono (fluorocarbon) → anzol de olhal ou destorcedor (o nó básico do dia-a-dia).
 
@@ -69,13 +69,13 @@
 
 ---
 
-## Uni / Double Uni
+## 🟢 Uni / Double Uni
 
 **Onde uso:** **Uni** = versátil, linha → anzol/destorcedor. **Double Uni** = juntar 2 fios (alternativa fácil ao FG/Albright).
 
 **Dificuldade:** 🟢 fácil (Uni) / 🟡 médio (Double Uni)
 
-### Uni (linha → anzol/destorcedor)
+### 🪢 Uni (linha → anzol/destorcedor)
 
 1. Passa a ponta da linha pelo olhal do anzol ou destorcedor e puxa cerca de 15-20 cm para teres folga de trabalho.
 2. Dobra a ponta para trás, paralela à linha-mãe, formando um laço simples ao lado da linha principal (isto é apenas o laço — ainda não enrolaste nenhuma volta).
@@ -86,7 +86,7 @@
 7. Depois puxa a linha-mãe para deslizar o nó até encostar ao olhal (ou até ao tamanho de laço que queiras, se for para deixar laço solto).
 8. Aperta com firmeza puxando a linha-mãe e corta a ponta rente ao nó.
 
-### Double Uni (juntar 2 fios)
+### 🪢 Double Uni (juntar 2 fios)
 
 1. Sobrepõe as duas linhas a juntar, lado a lado, com 15-20 cm de sobreposição, apontando em sentidos opostos.
 2. Com a ponta da linha da DIREITA, faz um nó Uni à volta das duas linhas: dobra para trás formando um laço e enrola as voltas por dentro do laço, à volta de ambas as linhas (3-4 voltas em mono já seguram, usa 5-6 para margem extra; 6-8 voltas em multifilamento/trançada). Humedece e puxa a ponta para apertar este primeiro Uni.
@@ -104,7 +104,7 @@
 
 ---
 
-## FG knot
+## 🔴 FG knot
 
 **Onde uso:** multifilamento → leader fluorocarbono (fino, passa pelos anéis (rod guides); o melhor mas mais difícil).
 
@@ -134,7 +134,7 @@
 
 ---
 
-## Albright
+## 🟡 Albright
 
 **Onde uso:** multifilamento → leader fluorocarbono (alternativa mais fácil ao FG).
 
@@ -161,7 +161,7 @@
 
 ---
 
-## Perfection loop
+## 🟡 Perfection loop
 
 **Onde uso:** laço (loop) no topo do leader pré-montado, para clipar no snap do sistema modular.
 
@@ -186,7 +186,7 @@
 
 ---
 
-## Surgeon's loop (laço duplo)
+## 🟢 Surgeon's loop (laço duplo)
 
 **Onde uso:** laço alternativo, mais fácil que o perfection loop.
 
@@ -209,7 +209,7 @@
 
 ---
 
-## Snell
+## 🔴 Snell
 
 **Onde uso:** anzol de olhal (avançado); puxão alinhado com a haste = fisgada direta.
 

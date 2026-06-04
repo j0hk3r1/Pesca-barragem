@@ -1,10 +1,10 @@
 # 🎣 A Cana (rod) — avô, restauro e backup
 
-## A cana do avô
+## 👴 A cana do avô
 
 **Cana de fibra de vidro (fiberglass) vintage**, 2 troços, de spinning. Punho de cortiça (cork) + **carretel (reel seat) de anilhas deslizantes** em cromo. Faltam quase todos os **passadores/anéis (guides)** — só resta a ponteira (tip-top) e 1-2 no meio. Manchas de ferrugem superficiais.
 
-### Aguenta a nossa pesca? ✅ Sim
+### 💪 Aguenta a nossa pesca? ✅ Sim
 - Fibra de vidro é **robusta e perdoa** — ideal p/ iniciante; absorve sacões, protege linha fina.
 - Casa bem com o **carreto WXM 2500 + trançado 0,12 + spinners/boia**.
 - Apanha tranquilo: achigã, perca-sol, boga, ruivaco, carpa peq.–média, barbo.
@@ -18,7 +18,7 @@ Se o blank estiver são (sem racha) → **vale 100% restaurar** (sentimental + f
 
 ---
 
-## Anatomia (o que é o quê)
+## 🔩 Anatomia (o que é o quê)
 
 <img src="img/cana-anatomia.svg" alt="Anatomia da cana" width="640">
 
