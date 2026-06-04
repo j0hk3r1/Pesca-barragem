@@ -70,7 +70,16 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 
 ## 🟠 Boia fixa vs deslizante (em detalhe)
 
-Duas formas de prender a boia (float). Mudam **onde** podes pescar.
+**As duas boias ficam SEMPRE à tona** (à superfície) — é onde vês a mordida. Nenhuma vai para debaixo de água. ❗
+
+**A diferença NÃO é "podes ajustar a profundidade"** (isso fazes nas duas). É conseguires **LANÇAR quando pescas fundo:**
+
+<img src="img/boia-porque.svg" alt="Porquê deslizante" width="720">
+
+- **Fixa a 5 m:** a boia fica presa 5 m acima do anzol. Mas a tua cana só tem ~2 m → ficas com **5 m de fio pendurado da ponta** → **não consegues lançar**. Por isso a fixa só serve até **profundidade ≤ comprimento da cana**.
+- **Deslizante a 5 m:** ao lançar, a boia escorrega para baixo e fica **tudo junto (~30 cm)** → lanças fácil. Ao cair, o chumbo puxa a linha e a boia volta à **tona**, com o isco aos 5 m. → Pescas fundo **e** consegues lançar.
+
+➡️ Resumindo: **mesma profundidade, fixa não dá p/ lançar se for funda; deslizante dá.**
 
 ### Fixa (fixed float) — exemplo **C**
 Boia **presa num ponto do fio** (por borrachinhas/silicones). Profundidade = distância anzol→boia, e é **fixa**.

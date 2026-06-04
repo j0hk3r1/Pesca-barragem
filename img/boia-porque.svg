@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="470" viewBox="0 0 720 470" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="720" height="470" fill="#0d1117"/>
+  <text x="20" y="30" fill="#f0c000" font-size="18" font-weight="bold">Porquê deslizante? — o problema é LANÇAR fundo (não a profundidade)</text>
+  <text x="20" y="50" fill="#8b949e" font-size="12.5">Queres o isco a 5 m. A cana só tem ~2 m. As duas boias ficam à TONA — muda é conseguires lançar.</text>
+
+  <line x1="360" y1="70" x2="360" y2="455" stroke="#222a35" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- ===== LEFT: FIXA funda = não dá ===== -->
+  <text x="185" y="92" fill="#ff7b72" font-size="15" font-weight="bold" text-anchor="middle">❌ FIXA a 5 m</text>
+
+  <!-- rod length reference -->
+  <text x="70" y="120" fill="#8b949e" font-size="11">ponta da cana</text>
+  <circle cx="150" cy="118" r="5" fill="#c9d1d9"/>
+  <line x1="60" y1="118" x2="60" y2="200" stroke="#6b7681" stroke-width="1.5"/>
+  <line x1="56" y1="118" x2="64" y2="118" stroke="#6b7681" stroke-width="1.5"/>
+  <line x1="56" y1="200" x2="64" y2="200" stroke="#6b7681" stroke-width="1.5"/>
+  <text x="50" y="165" fill="#8b949e" font-size="11" transform="rotate(-90 50 165)" text-anchor="middle">cana ~2 m</text>
+
+  <!-- fixed float far below tip -->
+  <line x1="150" y1="123" x2="150" y2="300" stroke="#b8a55a" stroke-width="2.5"/>
+  <path d="M150 300 q13 16 0 48 q-13 -32 0 -48 z" fill="#ff8c42" stroke="#ffae6b"/>
+  <text x="170" y="326" fill="#ffae6b" font-size="11">boia FIXA a 5 m do anzol</text>
+  <line x1="150" y1="348" x2="150" y2="400" stroke="#7fd3ff" stroke-width="2"/>
+  <path d="M150 402 q0 12 -9 12 q-8 0 -8 -8" fill="none" stroke="#c9d1d9" stroke-width="2"/>
+
+  <line x1="240" y1="123" x2="240" y2="396" stroke="#ff7b72" stroke-width="1.5"/>
+  <line x1="236" y1="123" x2="244" y2="123" stroke="#ff7b72" stroke-width="1.5"/>
+  <line x1="236" y1="396" x2="244" y2="396" stroke="#ff7b72" stroke-width="1.5"/>
+  <text x="252" y="260" fill="#ff7b72" font-size="11" transform="rotate(-90 252 260)" text-anchor="middle">5 m de fio</text>
+
+  <rect x="40" y="420" width="290" height="40" rx="8" fill="#3a1d1d" stroke="#ff7b72"/>
+  <text x="185" y="445" fill="#ff9a93" font-size="11.5" text-anchor="middle">5 m pendurado &gt; cana 2 m → NÃO consegues lançar</text>
+
+  <!-- ===== RIGHT: DESLIZANTE = dá ===== -->
+  <text x="540" y="92" fill="#5fd35f" font-size="15" font-weight="bold" text-anchor="middle">✅ DESLIZANTE a 5 m</text>
+
+  <!-- state 1: cast (compact) -->
+  <text x="455" y="120" fill="#8b949e" font-size="11">ponta da cana</text>
+  <circle cx="455" cy="135" r="5" fill="#c9d1d9"/>
+  <line x1="455" y1="140" x2="455" y2="165" stroke="#b8a55a" stroke-width="2.5"/>
+  <path d="M455 168 q10 11 0 30 q-10 -19 0 -30 z" fill="#ff8c42" stroke="#ffae6b"/>
+  <circle cx="455" cy="205" r="4" fill="#9aa0a6"/>
+  <path d="M455 209 q0 9 -7 9 q-6 0 -6 -6" fill="none" stroke="#c9d1d9" stroke-width="2"/>
+  <text x="475" y="190" fill="#9fe89f" font-size="11" font-weight="bold">lançar: tudo junto ~30 cm</text>
+  <text x="475" y="206" fill="#8b949e" font-size="11">boia desce ao stop → lança fácil</text>
+
+  <text x="540" y="245" fill="#f0c000" font-size="12" text-anchor="middle">↓ cai na água, o chumbo puxa</text>
+
+  <!-- state 2: fishing (open) -->
+  <line x1="540" y1="258" x2="720" y2="258" stroke="#7fd3ff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.6"/>
+  <text x="700" y="252" fill="#7fd3ff" font-size="10">tona</text>
+  <line x1="540" y1="262" x2="540" y2="275" stroke="#ff7b72" stroke-width="3"/>
+  <path d="M540 278 q11 13 0 38 q-11 -25 0 -38 z" fill="#ff8c42" stroke="#ffae6b"/>
+  <text x="560" y="298" fill="#ffae6b" font-size="11">boia à TONA (vês a mordida)</text>
+  <line x1="540" y1="316" x2="540" y2="410" stroke="#b8a55a" stroke-width="2"/>
+  <circle cx="540" cy="360" r="4" fill="#9aa0a6"/>
+  <path d="M540 412 q0 12 -9 12 q-8 0 -8 -8" fill="none" stroke="#c9d1d9" stroke-width="2"/>
+  <text x="560" y="380" fill="#e5d98a" font-size="11">isco a 5 m, no fundo</text>
+
+  <rect x="395" y="425" width="300" height="36" rx="8" fill="#1a2a1a" stroke="#5fd35f"/>
+  <text x="545" y="448" fill="#9fe89f" font-size="11.5" text-anchor="middle">lança compacto, pesca fundo. Boia sempre à tona.</text>
+</svg>
