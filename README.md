@@ -135,6 +135,8 @@ Ponta do multi com **1 snap fixo** → encaixas boia / leader+amostra / amostra.
 
 ## 📏 Tamanhos (anzol + chumbo)
 
+> 📐 Versão completa (com **kg/mm reais** por tamanho de destorcedor + anzol por isco) em [**TAMANHOS.md**](TAMANHOS.md).
+
 **Anzol** (nº maior = anzol menor). Isco = minhoca/milho/massa:
 
 | Peixe | Anzol |
