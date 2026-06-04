@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="470" viewBox="0 0 560 470" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="560" height="470" fill="#0d1117"/>
+  <text x="20" y="32" fill="#5fd35f" font-size="19" font-weight="bold">🟢 ACHIGÃ (largemouth bass) — fundo / meia-água</text>
+  <text x="20" y="54" fill="#8b949e" font-size="13">dia quente · conta a queda (countdown) p/ achar a camada</text>
+
+  <rect x="0" y="70" width="560" height="400" fill="#0b2a3a" opacity="0.4"/>
+  <line x1="0" y1="70" x2="560" y2="70" stroke="#7fd3ff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.7"/>
+  <text x="505" y="64" fill="#7fd3ff" font-size="12">água</text>
+
+  <line x1="170" y1="78" x2="170" y2="120" stroke="#b8a55a" stroke-width="5"/>
+  <text x="195" y="100" fill="#e5d98a" font-size="14" font-weight="bold">Linha-mãe (braid)</text>
+
+  <ellipse cx="170" cy="132" rx="13" ry="8" fill="none" stroke="#f0c000" stroke-width="3"/>
+  <path d="M181 132 q14 0 14 10 q0 9 -9 9" fill="none" stroke="#f0c000" stroke-width="3"/>
+  <text x="205" y="136" fill="#f0c000" font-size="13" font-weight="bold">snap fixo</text>
+
+  <line x1="170" y1="150" x2="170" y2="300" stroke="#7fd3ff" stroke-width="3"/>
+  <text x="195" y="225" fill="#7fd3ff" font-size="14" font-weight="bold">leader fluorocarbono</text>
+  <text x="195" y="242" fill="#8b949e" font-size="12">50–80 cm</text>
+
+  <!-- jig head + soft plastic -->
+  <circle cx="170" cy="318" r="13" fill="#9aa0a6" stroke="#c9d1d9"/>
+  <path d="M170 331 q0 16 -11 16 q-11 0 -11 -11" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <path d="M183 318 q34 6 40 34 q-30 -8 -40 -22 z" fill="#7bc47b" stroke="#5fd35f"/>
+  <text x="205" y="312" fill="#e5d98a" font-size="14" font-weight="bold">cabeça plombada (jig head) 3–7 g</text>
+  <text x="205" y="329" fill="#8b949e" font-size="12">+ vinil (soft plastic)</text>
+
+  <rect x="0" y="430" width="560" height="40" fill="#3a2e1f"/>
+  <line x1="0" y1="430" x2="560" y2="430" stroke="#6b5836" stroke-width="2"/>
+  <text x="500" y="454" fill="#b08a52" font-size="12">fundo</text>
+
+  <text x="40" y="412" fill="#5fd35f" font-size="12.5">▸ Alternativa: montagem Texas + anzol Texan Wide Gap 1/0–3/0.</text>
+</svg>

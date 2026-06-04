@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="470" viewBox="0 0 560 470" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="560" height="470" fill="#0d1117"/>
+  <text x="20" y="32" fill="#5fa8ff" font-size="19" font-weight="bold">🔵 CARPA / BARBO — pesca ao fundo (ledger)</text>
+  <text x="20" y="54" fill="#8b949e" font-size="13">sem boia · chumbo corrido (running lead) · isco parado no fundo</text>
+
+  <rect x="0" y="70" width="560" height="400" fill="#0b2a3a" opacity="0.4"/>
+  <line x1="0" y1="70" x2="560" y2="70" stroke="#7fd3ff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.7"/>
+  <text x="505" y="64" fill="#7fd3ff" font-size="12">água</text>
+
+  <line x1="175" y1="78" x2="175" y2="120" stroke="#b8a55a" stroke-width="5"/>
+  <text x="200" y="100" fill="#e5d98a" font-size="13" font-weight="bold">Linha-mãe → snap</text>
+
+  <!-- running lead (sliding sinker) -->
+  <path d="M160 150 q15 -22 30 0 q-2 26 -15 32 q-13 -6 -15 -32 z" fill="#7d7f85" stroke="#b0b3b8"/>
+  <circle cx="175" cy="138" r="4" fill="none" stroke="#c9d1d9" stroke-width="2"/>
+  <text x="205" y="150" fill="#c9d1d9" font-size="13" font-weight="bold">chumbo corrido (running lead) 10–20 g</text>
+  <text x="205" y="166" fill="#8b949e" font-size="11">corre no fio; peixe não sente o peso</text>
+
+  <ellipse cx="175" cy="205" rx="11" ry="7" fill="none" stroke="#9aa0a6" stroke-width="2"/>
+  <text x="205" y="209" fill="#8b949e" font-size="12">destorcedor de barril (batente, stop)</text>
+
+  <line x1="175" y1="212" x2="175" y2="330" stroke="#7fd3ff" stroke-width="2.5"/>
+  <text x="205" y="278" fill="#7fd3ff" font-size="12">leader 40–60 cm</text>
+
+  <path d="M175 332 q0 15 -11 15 q-10 0 -10 -10" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <circle cx="184" cy="345" r="8" fill="#8B4513" stroke="#b5651d"/>
+  <text x="205" y="342" fill="#e5d98a" font-size="13" font-weight="bold">anzol #8–6 + milho / boilie</text>
+
+  <rect x="0" y="395" width="560" height="75" fill="#3a2e1f"/>
+  <line x1="0" y1="395" x2="560" y2="395" stroke="#6b5836" stroke-width="2"/>
+  <text x="500" y="418" fill="#b08a52" font-size="12">fundo</text>
+  <text x="40" y="418" fill="#5fa8ff" font-size="12.5">▸ Mordida: ponta da cana bate / linha estica → ferra. Freio (drag) suave.</text>
+</svg>

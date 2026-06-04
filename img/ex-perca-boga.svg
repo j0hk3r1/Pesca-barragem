@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="500" viewBox="0 0 560 500" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="560" height="500" fill="#0d1117"/>
+  <text x="20" y="32" fill="#e6c84a" font-size="19" font-weight="bold">🟡 PERCA-SOL / BOGA / RUIVACO — meia-água</text>
+  <text x="20" y="54" fill="#8b949e" font-size="13">margem · fácil (bom p/ começar) · boia (float) a 1–1,5 m</text>
+
+  <rect x="0" y="110" width="560" height="390" fill="#0b2a3a" opacity="0.45"/>
+  <line x1="0" y1="110" x2="560" y2="110" stroke="#7fd3ff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.7"/>
+  <text x="505" y="104" fill="#7fd3ff" font-size="12">água</text>
+
+  <line x1="180" y1="78" x2="180" y2="125" stroke="#b8a55a" stroke-width="5"/>
+  <text x="205" y="100" fill="#e5d98a" font-size="13" font-weight="bold">Linha-mãe → snap → boia fixa (fixed float)</text>
+
+  <!-- float -->
+  <path d="M180 128 q14 16 0 54 q-14 -38 0 -54 z" fill="#ff8c42" stroke="#ffae6b"/>
+  <line x1="180" y1="116" x2="180" y2="128" stroke="#ff8c42" stroke-width="2.5"/>
+  <text x="210" y="156" fill="#ffae6b" font-size="13" font-weight="bold">boia 0,5–1 g (ponta à mostra)</text>
+
+  <line x1="180" y1="182" x2="180" y2="300" stroke="#b8a55a" stroke-width="2.5"/>
+  <circle cx="180" cy="225" r="4.5" fill="#9aa0a6"/>
+  <circle cx="180" cy="238" r="4.5" fill="#9aa0a6"/>
+  <text x="205" y="235" fill="#c9d1d9" font-size="13" font-weight="bold">chumbos de pinça (split shot)</text>
+
+  <ellipse cx="180" cy="300" rx="11" ry="7" fill="none" stroke="#9aa0a6" stroke-width="2"/>
+  <text x="205" y="304" fill="#8b949e" font-size="12">destorcedor de barril (barrel swivel, opc.)</text>
+
+  <line x1="180" y1="307" x2="180" y2="370" stroke="#7fd3ff" stroke-width="2.5"/>
+  <text x="205" y="345" fill="#7fd3ff" font-size="12">leader 30–40 cm</text>
+
+  <path d="M180 372 q0 15 -11 15 q-10 0 -10 -10" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <circle cx="189" cy="385" r="8" fill="#8B4513" stroke="#b5651d"/>
+  <text x="205" y="382" fill="#e5d98a" font-size="14" font-weight="bold">anzol (hook) #14</text>
+  <text x="205" y="399" fill="#8b949e" font-size="12">+ minhoca (worm) / milho (corn) / larva (maggot)</text>
+
+  <rect x="0" y="455" width="560" height="45" fill="#3a2e1f"/>
+  <line x1="0" y1="455" x2="560" y2="455" stroke="#6b5836" stroke-width="2"/>
+  <text x="500" y="478" fill="#b08a52" font-size="12">fundo</text>
+  <text x="40" y="478" fill="#e6c84a" font-size="12.5">▸ Mordida (bite): boia mexe/afunda → ferra (hookset) suave.</text>
+</svg>

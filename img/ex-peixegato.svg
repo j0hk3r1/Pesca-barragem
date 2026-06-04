@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="470" viewBox="0 0 560 470" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="560" height="470" fill="#0d1117"/>
+  <text x="20" y="32" fill="#c08a4a" font-size="19" font-weight="bold">🟤 PEIXE-GATO-NEGRO (black bullhead) — fundo</text>
+  <text x="20" y="54" fill="#8b949e" font-size="13">ao anoitecer/noite (dusk) · isco cheiroso no fundo</text>
+
+  <rect x="0" y="70" width="560" height="400" fill="#0b1f2e" opacity="0.55"/>
+  <line x1="0" y1="70" x2="560" y2="70" stroke="#5a86a0" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.7"/>
+  <text x="495" y="64" fill="#5a86a0" font-size="12">água (anoitecer)</text>
+
+  <line x1="175" y1="78" x2="175" y2="120" stroke="#b8a55a" stroke-width="5"/>
+  <text x="200" y="100" fill="#e5d98a" font-size="13" font-weight="bold">Linha-mãe → snap</text>
+
+  <text x="200" y="140" fill="#8b949e" font-size="12">boia (float) OU chumbo de fundo (ledger)</text>
+  <ellipse cx="175" cy="158" rx="11" ry="7" fill="none" stroke="#9aa0a6" stroke-width="2"/>
+
+  <line x1="175" y1="165" x2="175" y2="300" stroke="#7fd3ff" stroke-width="2.5"/>
+  <text x="200" y="240" fill="#7fd3ff" font-size="12">leader 30–40 cm</text>
+
+  <path d="M175 302 q0 16 -11 16 q-11 0 -11 -11" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <circle cx="184" cy="316" r="9" fill="#8B4513" stroke="#b5651d"/>
+  <text x="200" y="310" fill="#e5d98a" font-size="13" font-weight="bold">anzol (hook) #6 (SN HOOK WORM)</text>
+  <text x="200" y="327" fill="#8b949e" font-size="12">+ chouriço (sausage) / fígado / minhoca (worm)</text>
+
+  <rect x="0" y="360" width="560" height="110" fill="#2e2415"/>
+  <line x1="0" y1="360" x2="560" y2="360" stroke="#5a4a2e" stroke-width="2"/>
+  <text x="500" y="382" fill="#b08a52" font-size="12">fundo</text>
+
+  <rect x="30" y="392" width="500" height="62" rx="8" fill="#3a1d1d" stroke="#ff7b72"/>
+  <text x="48" y="414" fill="#ff7b72" font-size="12.5" font-weight="bold">⚠️ Espinhos (spines) nas barbatanas (fins) picam — pega por trás da cabeça.</text>
+  <text x="48" y="434" fill="#ff9a93" font-size="12">Invasor → por lei não se devolve vivo. Material leve apanha-o bem.</text>
+</svg>

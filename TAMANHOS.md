@@ -1,8 +1,8 @@
 # Tamanhos certos (anzol + destorcedor)
 
-> Pesquisado online + **verificado**, dimensionado ao **teu** setup: carreto 2500, trançado 0,12 mm (~5-6 kg), fluorocarbono 0,20-0,25 mm (~3-4,5 kg). — Jun/2026.
+> Pesquisado online + **verificado**, dimensionado ao **teu** setup: carreto (reel) 2500, trançado (braid / main line) 0,12 mm (~5-6 kg), fluorocarbono (fluorocarbon) 0,20-0,25 mm (~3-4,5 kg). — Jun/2026.
 
-**Regra base:** o anzol escolhe-se pelo **isco / boca do peixe**, não pelo peso do peixe. O destorcedor leva-se sempre **pequeno** (nunca é o elo fraco).
+**Regra base:** o anzol (hook) escolhe-se pelo **isco (bait) / boca do peixe**, não pelo peso do peixe. O destorcedor (swivel) leva-se sempre **pequeno** (nunca é o elo fraco).
 
 ---
 
@@ -10,9 +10,9 @@
 
 | Peixe | Isco | Tamanho (produto que a Decathlon vende) | Nota |
 |---|---|---|---|
-| Perca-sol | Larva, pão, minhoca pequena | **CARP POLE 14** (e 12) | Boca pequena, arame fino. CARP POLE é o único fino correto na gama |
-| Boga / Ruivaco | Larva, massa, minhoca | **CARP POLE 14** | #16 seria ideal mas **não existe na gama** (14 é o limite) |
-| Carpa (1-2 grãos milho) | Milho | **CARP POLE 12/10** ou **SN HOOK WORM 10/12** (montado) | Para isco, o montado é prático |
+| Perca-sol | Larva (maggot), pão, minhoca (worm) pequena | **CARP POLE 14** (e 12) | Boca pequena, arame fino. CARP POLE é o único fino correto na gama |
+| Boga / Ruivaco | Larva, massa (paste), minhoca | **CARP POLE 14** | #16 seria ideal mas **não existe na gama** (14 é o limite) |
+| Carpa (1-2 grãos milho) | Milho (corn) | **CARP POLE 12/10** ou **SN HOOK WORM 10/12** (montado) | Para isco, o montado é prático |
 | Carpa + Barbo (dia-a-dia) | Massa, milho, minhoca | **SN HOOK WORM 8** | Cavalo-de-batalha |
 | Barbo / Carpa (minhoca grande, carne) | Lobworm, carne | **SN HOOK WORM 6** | Arame forjado, aguenta |
 | Peixe-gato-negro | Bola de minhocas | **SN HOOK WORM 6** (ou 8) | Peixe <0,5 kg. **NÃO** uses 2-1/0 (sobredimensionado) |
@@ -21,7 +21,7 @@
 | Achigã (vinil/plásticos) | Soft plastics (Texas) | **Texan Wide Gap 1/0-3/0** | **CAPERLAN Texan Wide Gap** — Decathlon vende (ver README → Opcional) |
 
 ### 🛒 Se só queres 1-2 anzóis
-1. **CARP POLE #14** (olhal, fino) → peixe de boca pequena (perca-sol, boga, ruivaco) + carpa em milho.
+1. **CARP POLE #14** (olhal (eye), fino) → peixe de boca pequena (perca-sol, boga, ruivaco) + carpa em milho.
 2. **SN HOOK WORM #6** (montado) → carpa, barbo, peixe-gato com minhoca/massa/carne.
 
 Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. O **Texan Wide Gap** só se fizeres achigã em vinil.
@@ -34,7 +34,7 @@ Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. O **Te
 
 > 📋 **Dados reais da Decathlon (tab Detalhes).** Em TODAS as escalas — anzol, barril e snap — **nº maior = mais pequeno** (e mais fraco). Sem armadilhas.
 
-**BARRIL preto** (junção da boia / anti-torção 30-45 cm acima da colher):
+**BARRIL preto** (barrel swivel) (junção da boia (float) / anti-torção (anti-twist) 30-45 cm acima da colher):
 
 | nº | comprimento | resistência | |
 |--|--|--|--|
@@ -52,7 +52,7 @@ Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. O **Te
 
 ➡️ **Leva: barril nº14 (ou 12) + snap nº4.** Resistências muito acima do teu leader (~3-4,5 kg) → nunca partem primeiro.
 
-> 💡 **Melhor ação na colher:** ata o fluoro **direto à colher** com nó de laço (loop) e põe **1 barril nº14** uns 30-45 cm acima. Sem snap pesado junto da colher.
+> 💡 **Melhor ação na colher:** ata o fluoro **direto à colher** com nó (knot) de laço (loop) e põe **1 barril nº14** uns 30-45 cm acima. Sem snap pesado junto da colher.
 
 ---
 

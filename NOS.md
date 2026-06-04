@@ -5,17 +5,17 @@
 
 ## Mapa rápido (do diagrama para o nó)
 
-| Onde no sistema | Nó a usar |
+| Onde no sistema | Nó (knot) a usar |
 |---|---|
-| multifilamento → destorcedor / snap | **Palomar** |
-| mono/fluoro → anzol de olhal ou destorcedor | **Clinch melhorado** |
+| multifilamento (braid / main line) → destorcedor (swivel) / snap | **Palomar** |
+| mono/fluoro → anzol (hook) de olhal (eye) ou destorcedor | **Clinch melhorado** |
 | linha → anzol/destorcedor (versátil) | **Uni** |
 | juntar 2 fios (alternativa fácil ao FG/Albright) | **Double Uni** |
 | multifilamento → leader fluoro (fino, o melhor) | **FG** |
 | multifilamento → leader fluoro (mais fácil) | **Albright** |
 | laço no topo do leader (clipar no snap) | **Perfection loop** |
 | laço alternativo (mais fácil) | **Surgeon's loop** |
-| anzol de olhal, fisgada direta (avançado) | **Snell** |
+| anzol de olhal, fisgada (hookset) direta (avançado) | **Snell** |
 
 ---
 
@@ -46,7 +46,7 @@
 
 ## Clinch melhorado (improved clinch)
 
-**Onde uso:** mono/fluorocarbono → anzol de olhal ou destorcedor (o nó básico do dia-a-dia).
+**Onde uso:** mono/fluorocarbono (fluorocarbon) → anzol de olhal ou destorcedor (o nó básico do dia-a-dia).
 
 **Dificuldade:** 🟢 fácil
 
@@ -106,7 +106,7 @@
 
 ## FG knot
 
-**Onde uso:** multifilamento → leader fluorocarbono (fino, passa pelos anéis; o melhor mas mais difícil).
+**Onde uso:** multifilamento → leader fluorocarbono (fino, passa pelos anéis (rod guides); o melhor mas mais difícil).
 
 **Dificuldade:** 🔴 difícil
 

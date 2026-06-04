@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="540" viewBox="0 0 560 540" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="560" height="540" fill="#0d1117"/>
+  <text x="20" y="32" fill="#5fa8ff" font-size="19" font-weight="bold">🔵 CARPA / BARBO — boia deslizante (água funda)</text>
+  <text x="20" y="54" fill="#8b949e" font-size="13">boia deslizante (sliding float) p/ &gt;2 m · isco rente ao fundo</text>
+
+  <rect x="0" y="120" width="560" height="420" fill="#0b2a3a" opacity="0.45"/>
+  <line x1="0" y1="120" x2="560" y2="120" stroke="#7fd3ff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.7"/>
+  <text x="505" y="114" fill="#7fd3ff" font-size="12">água</text>
+
+  <line x1="190" y1="76" x2="190" y2="135" stroke="#b8a55a" stroke-width="5"/>
+  <text x="215" y="98" fill="#e5d98a" font-size="13" font-weight="bold">Linha-mãe → snap</text>
+
+  <!-- stop knot + bead -->
+  <line x1="178" y1="150" x2="202" y2="150" stroke="#ff7b72" stroke-width="3"/>
+  <circle cx="190" cy="162" r="4" fill="#c9d1d9"/>
+  <text x="215" y="154" fill="#ff7b72" font-size="12" font-weight="bold">nó-batente (stop knot)</text>
+  <text x="215" y="169" fill="#8b949e" font-size="11">+ missanga (bead) → regula a profundidade</text>
+
+  <!-- sliding float -->
+  <path d="M190 178 q15 20 0 64 q-15 -44 0 -64 z" fill="#ff8c42" stroke="#ffae6b"/>
+  <text x="215" y="214" fill="#ffae6b" font-size="13" font-weight="bold">boia deslizante 2–4 g</text>
+  <text x="215" y="229" fill="#8b949e" font-size="11">corre no fio até ao batente</text>
+
+  <line x1="190" y1="242" x2="190" y2="360" stroke="#b8a55a" stroke-width="2.5"/>
+  <circle cx="190" cy="300" r="4.5" fill="#9aa0a6"/>
+  <circle cx="190" cy="312" r="4.5" fill="#9aa0a6"/>
+  <text x="215" y="309" fill="#c9d1d9" font-size="12">chumbos de pinça (split shot)</text>
+
+  <ellipse cx="190" cy="372" rx="11" ry="7" fill="none" stroke="#9aa0a6" stroke-width="2"/>
+  <text x="215" y="376" fill="#8b949e" font-size="12">destorcedor de barril (barrel swivel)</text>
+
+  <line x1="190" y1="379" x2="190" y2="440" stroke="#7fd3ff" stroke-width="2.5"/>
+  <text x="215" y="415" fill="#7fd3ff" font-size="12">leader 40–50 cm</text>
+
+  <path d="M190 442 q0 15 -11 15 q-10 0 -10 -10" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <circle cx="199" cy="455" r="8" fill="#8B4513" stroke="#b5651d"/>
+  <text x="215" y="452" fill="#e5d98a" font-size="13" font-weight="bold">anzol #8–6 + milho (corn) / massa (paste)</text>
+
+  <rect x="0" y="478" width="560" height="62" fill="#3a2e1f"/>
+  <line x1="0" y1="478" x2="560" y2="478" stroke="#6b5836" stroke-width="2"/>
+  <text x="500" y="500" fill="#b08a52" font-size="12">fundo</text>
+
+  <!-- depth bracket -->
+  <line x1="70" y1="135" x2="70" y2="455" stroke="#f0c000" stroke-width="1.5"/>
+  <line x1="66" y1="135" x2="74" y2="135" stroke="#f0c000" stroke-width="1.5"/>
+  <line x1="66" y1="455" x2="74" y2="455" stroke="#f0c000" stroke-width="1.5"/>
+  <text x="34" y="300" fill="#f0c000" font-size="11.5" transform="rotate(-90 34 300)" text-anchor="middle">profundidade ajustável (3–8 m)</text>
+</svg>

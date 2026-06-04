@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="430" viewBox="0 0 560 430" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="560" height="430" fill="#0d1117"/>
+  <text x="20" y="32" fill="#5fd35f" font-size="19" font-weight="bold">🟢 ACHIGÃ (largemouth bass) — superfície</text>
+  <text x="20" y="54" fill="#8b949e" font-size="13">manhã / fim de tarde · 0–1 m · junto a estrutura (structure)</text>
+
+  <!-- water -->
+  <rect x="0" y="70" width="560" height="360" fill="#0b2a3a" opacity="0.4"/>
+  <line x1="0" y1="70" x2="560" y2="70" stroke="#7fd3ff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.7"/>
+  <text x="505" y="64" fill="#7fd3ff" font-size="12">água</text>
+
+  <line x1="170" y1="78" x2="170" y2="120" stroke="#b8a55a" stroke-width="5"/>
+  <text x="195" y="100" fill="#e5d98a" font-size="14" font-weight="bold">Linha-mãe (braid)</text>
+
+  <!-- hub snap -->
+  <ellipse cx="170" cy="132" rx="13" ry="8" fill="none" stroke="#f0c000" stroke-width="3"/>
+  <path d="M181 132 q14 0 14 10 q0 9 -9 9" fill="none" stroke="#f0c000" stroke-width="3"/>
+  <text x="205" y="130" fill="#f0c000" font-size="13" font-weight="bold">snap fixo</text>
+  <text x="205" y="146" fill="#8b949e" font-size="11">clipa o estralho (rig)</text>
+
+  <line x1="170" y1="150" x2="170" y2="280" stroke="#7fd3ff" stroke-width="3"/>
+  <text x="195" y="210" fill="#7fd3ff" font-size="14" font-weight="bold">leader fluorocarbono</text>
+  <text x="195" y="227" fill="#8b949e" font-size="12">50–80 cm · 0,20–0,25 mm</text>
+
+  <!-- topwater / spinner lure near surface -->
+  <ellipse cx="170" cy="300" rx="22" ry="11" fill="#d0d7de" stroke="#8b949e"/>
+  <circle cx="156" cy="300" r="3" fill="#f0c000"/>
+  <circle cx="178" cy="297" r="2.5" fill="#ff7b72"/><circle cx="186" cy="303" r="2.5" fill="#ff7b72"/>
+  <text x="205" y="298" fill="#e5d98a" font-size="14" font-weight="bold">amostra (lure)</text>
+  <text x="205" y="315" fill="#8b949e" font-size="12">colher giratória (spinner) 2–5 g</text>
+  <text x="205" y="331" fill="#8b949e" font-size="12">ou superfície (topwater/popper)</text>
+
+  <text x="40" y="400" fill="#5fd35f" font-size="12.5">▸ Recolhe (retrieve) com paragens (stop-and-go) — ataque vem na pausa.</text>
+</svg>

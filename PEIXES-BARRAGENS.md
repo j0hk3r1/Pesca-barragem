@@ -12,14 +12,14 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 
 | Nome PT | Típico | Grande | Como apanhar |
 |---|---|---|---|
-| Achigã (largemouth bass) | 0,3–1,5 kg | ~2 kg = troféu (lendas ~3 kg) | Artificiais de barco/margem: jerkbaits/shads (Fev–Mai), poppers/cranks (manhã/fim tarde verão), senkos, spinnerbaits. Estrutura, ilhas, pontas |
-| Lúcio-perca (sandre) | 1,0–2,5 kg (40–60 cm) | 3–4 kg / 80–85 cm | Vertical jigging e dropshot c/ vinil sobre estrutura funda; dropshot da margem no inverno. Amanhecer/anoitecer/noite |
-| Peixe-gato-canal (americano) | 0,5–3 kg | +10 kg, até ~1 m | Iscos de fundo (peixe cortado, minhoca, pasta) dia e noite. **O grande** |
+| Achigã (largemouth bass) | 0,3–1,5 kg | ~2 kg = troféu (lendas ~3 kg) | Artificiais de barco/margem: jerkbaits/shads (Fev–Mai), poppers/cranks (manhã/fim tarde verão), senkos, spinnerbaits. Estrutura (structure), ilhas, pontas |
+| Lúcio-perca (sandre) | 1,0–2,5 kg (40–60 cm) | 3–4 kg / 80–85 cm | Vertical jigging e dropshot c/ vinil (soft plastic) sobre estrutura funda; dropshot da margem no inverno. Amanhecer/anoitecer/noite |
+| Peixe-gato-canal (americano) | 0,5–3 kg | +10 kg, até ~1 m | Iscos (bait) de fundo (peixe cortado, minhoca (worm), pasta) dia e noite. **O grande** |
 | Peixe-gato-negro (Ameiurus melas) | 0,1–0,4 kg | ~<30 cm | Fundo c/ carne/minhoca. **O pequeno** (no lago desde 2003) |
-| Carpa comum | 1–4 kg | 10 kg+ (gigantes ainda raros) | Carpfishing/feeder c/ milho, boilies, pasta; baías e margens inundadas |
+| Carpa comum | 1–4 kg | 10 kg+ (gigantes ainda raros) | Carpfishing/feeder c/ milho (corn), boilies, pasta; baías e margens inundadas |
 | Barbo (comizo / Guadiana) | 1–3 kg | 4–5 kg+ | Muitas vezes em vinis de achigã; feeder, carpfishing, mosca |
-| Perca-sol | 0,05–0,15 kg | ~0,2–0,3 kg | Iscos minúsculos, minhoca/pão à boia. Rouba-iscos |
-| Alburno | 0,02–0,05 kg | ~0,1 kg | Bóia leve. Forragem dos predadores |
+| Perca-sol | 0,05–0,15 kg | ~0,2–0,3 kg | Iscos minúsculos, minhoca/pão à boia (float). Rouba-iscos |
+| Alburno | 0,02–0,05 kg | ~0,1 kg | Boia leve. Forragem dos predadores |
 
 **Baixa confiança / esclarecer:**
 - **Siluro** — consta da lista oficial EDIA e coloniza o Guadiana, **mas sem pescaria estabelecida no Alqueva**. "Peixe-gato" grande aqui = quase de certeza peixe-gato-canal, não siluro.
@@ -37,11 +37,11 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 | Nome PT | Típico | Grande | Como apanhar |
 |---|---|---|---|
 | Achigã | 0,3–1,2 kg | 2–3 kg (troféu) | Vinis (Texas/Carolina, dropshot, senkos), cranks, spinnerbaits junto a vegetação e à parede. Mínimo legal 20 cm |
-| **Peixe-gato-negro** (Ameiurus melas) | 0,1–0,4 kg | ~0,4–0,5 kg (até ~30 cm) | **Fundo ou boia c/ carne/chouriço, fígado, minhoca, peixe cortado.** Come tudo cheiroso. Mais ativo ao anoitecer/noite. ✅ *confirmado em campo (chouriço!)* |
-| Boga | 0,05–0,25 kg | ~0,4–0,5 kg | Bóia/fundo leve c/ pão, pasta, bicha, minhoca. Cardume |
+| **Peixe-gato-negro** (Ameiurus melas) | 0,1–0,4 kg | ~0,4–0,5 kg (até ~30 cm) | **Fundo ou boia c/ carne/chouriço (sausage), fígado, minhoca, peixe cortado.** Come tudo cheiroso. Mais ativo ao anoitecer/noite. ✅ *confirmado em campo (chouriço!)* |
+| Boga | 0,05–0,25 kg | ~0,4–0,5 kg | Boia/fundo leve c/ pão, pasta, bicha, minhoca. Cardume |
 | Carpa | 1,5–5 kg | 8–12 kg+ | Feeder/fundo c/ boilies, milho, pão. Recinto de competição |
 | Barbo-do-sul | 0,3–1,5 kg | 3–4 kg | Fundo/feeder c/ minhoca, pasta, milho |
-| Perca-sol | 0,02–0,1 kg | ~0,2 kg | Bóia/minhoca leve. Rouba-iscos |
+| Perca-sol | 0,02–0,1 kg | ~0,2 kg | Boia/minhoca leve. Rouba-iscos |
 | Pimpão | 0,1–0,5 kg | ~1 kg | Fundo, pão, milho |
 
 > 🐟 **Peixe-gato-negro** — invasor, NÃO é siluro nem channel catfish (esses são grandes). Fica pequeno. ⚠️ Tem **espinhos (barbatanas peitorais/dorsal) que picam** — pega com cuidado, por trás. É invasor → por lei **não se devolve vivo**. ✅ Sem problema p/ o teu material.
@@ -64,7 +64,7 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 | Lúcio-perca (sandre) | 1–3 kg | 5–8 kg (4 kg+ excelente) | Trolling/casting c/ vinis jigados, shads, cranks fundos; drop-offs e canal do rio. Amanhecer/anoitecer |
 | Carpa | 1–5 kg | 8–12 kg | Fundo c/ boilies, milho, groundbait; baías quentes |
 | Barbo-do-Tejo | 0,3–1,5 kg | 2–4 kg | Fundo c/ minhoca, pão, milho; braços com corrente |
-| Boga / Escalo-do-sul | 0,1–0,5 kg | ~0,8–1 kg | Bóia/fundo leve, iscos pequenos |
+| Boga / Escalo-do-sul | 0,1–0,5 kg | ~0,8–1 kg | Boia/fundo leve, iscos pequenos |
 | Perca-sol | 0,05–0,15 kg | 0,2–0,3 kg | Micro-iscos à boia. Abundante, ótimo p/ material leve |
 
 **Baixa/média confiança:**
@@ -89,7 +89,7 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 | Lúcio-perca / sandre | 1–3 kg | 4–6 kg+ | Spinning/jigging c/ vinis e swimbaits |
 | Carpa | 2–8 kg | 10–20 kg (30 kg+ excecional) | Carpfishing c/ boilies/milho; também mosca |
 | Barbo | 0,3–1,5 kg | 3–4 kg | Fundo/ledger, mosca. Concentra-se nas embocaduras dos afluentes |
-| Boga | 0,1–0,4 kg | ~0,6 kg | Bóia/fundo leve. Forragem |
+| Boga | 0,1–0,4 kg | ~0,6 kg | Boia/fundo leve. Forragem |
 | Perca-sol | <0,1 kg | ~0,2 kg | Iscos pequenos à margem. Rouba-iscos |
 
 **Baixa/média confiança:** truta-fário só esporádica (desce dos afluentes — a sério é nas ribeiras frias); escalo (*S. pyrenaicus*) nativo; gambúsia/alburno/enguia provável mas não confirmado.
@@ -100,11 +100,11 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 
 ## ⚖️ Resumo material vs peixe
 
-Conjunto leve (carreto 2500, trançado ~5–6 kg, fluoro 0,20–0,25 mm ~3–4,5 kg) cobre **bem** o dia-a-dia: achigã (2–3 kg), barbo normal, truta pequena, e todos os peixes-pasto.
+Conjunto leve (carreto (reel) 2500, trançado (braid / main line) ~5–6 kg, fluoro 0,20–0,25 mm ~3–4,5 kg) cobre **bem** o dia-a-dia: achigã (2–3 kg), barbo normal, truta pequena, e todos os peixes-pasto.
 
 **Onde falha:**
-- **Carpa 10 kg+** e **barbo-comizo 4 kg+** (Alqueva) — no limite/acima → fluoro **0,28 mm** + freio suave, ou aceita perder alguns.
-- **Sandre grande (4–8 kg)** — acima → precisa cana média, trançado 8–10 kg, leader 0,30 mm+.
+- **Carpa 10 kg+** e **barbo-comizo 4 kg+** (Alqueva) — no limite/acima → fluoro **0,28 mm** + freio (drag) suave, ou aceita perder alguns.
+- **Sandre grande (4–8 kg)** — acima → precisa cana (rod) média, trançado 8–10 kg, leader 0,30 mm+.
 - **Peixe-gato grande (Alqueva)** e **siluro (Idanha, Castelo do Bode)** — **NÃO se pescam neste material.** Se pegar, partes. Disciplina pesada à parte.
 
 **Regra mental:** siluro e peixes-gato grandes = intocáveis neste equipamento. Carpa 10 kg+ e sandre grande = bycatch que vais provavelmente perder. Para os apanhar a sério = segundo equipamento pesado.

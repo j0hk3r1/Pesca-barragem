@@ -1,14 +1,14 @@
 # 🎣 Setup Pesca Barragem
 
 Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/ruivaco).
-**Spinning** (atirar amostra + recolher) + **boia** ocasional.
+**Spinning** (atirar amostra/lure + recolher) + **boia** (float) ocasional.
 
 > **Todos os produtos abaixo são "Vendido e expedido pela Decathlon"** (sem Marketplace/3os).
 > Preços de Junho/2026 — podem variar.
 
 📍 **Onde vou pescar:** ver [**Guia de Peixes das 4 barragens**](PEIXES-BARRAGENS.md) (Alqueva, Odivelas, Castelo do Bode, Idanha) — espécies, tamanhos reais e o que o material aguenta.
 
-> 🌐 Termos em inglês (leader, snap, braid, jig…) explicados no **glossário PT↔EN** no fim de [EXEMPLOS-MODULAR.md](EXEMPLOS-MODULAR.md).
+> 🌐 Termos técnicos aparecem como **PT (EN)** — português com o inglês entre parênteses na 1ª utilização.
 
 ---
 
@@ -109,7 +109,7 @@ Ponta do multi com **1 snap fixo** → encaixas boia / leader+amostra / amostra.
 
 > 💡 O nó FG **não se desfaz a cada saída** — dura várias. O snap só acelera trocas; não é obrigatório.
 
-➡️ **Exemplos prontos por peixe + profundidade:** [**EXEMPLOS-MODULAR.md**](EXEMPLOS-MODULAR.md) (com glossário PT ↔ EN).
+➡️ **Exemplos prontos por peixe + profundidade (com diagramas):** [**EXEMPLOS-MODULAR.md**](EXEMPLOS-MODULAR.md).
 
 ---
 
@@ -132,7 +132,7 @@ Ponta do multi com **1 snap fixo** → encaixas boia / leader+amostra / amostra.
 ### Técnica rápida
 - **Spinning (achigã/perca):** atira para junto de **estrutura** (pedras, troncos, vegetação, paredão). Recolhe com **paragens** (para-anda-para) — o ataque vem quase sempre na pausa/queda. Manhã cedo e fim de tarde = melhor.
 - **Boia (carpa/barbo/boga/peixe-gato):** atira, deixa assentar, **vê a boia**. Mordida = boia afunda ou deita/foge → **ferra** (levanta a cana com firmeza). Peixe-gato e carpa = paciência, deixa o isco pousado. Anoitecer = peixe-gato ataca.
-- **Freio do carreto:** ~**1,5–2 kg** (cede fio antes de partir o leader). Peixe grande → deixa correr, não forces.
+- **Freio (drag) do carreto (reel):** ~**1,5–2 kg** (cede fio antes de partir o leader). Peixe grande → deixa correr, não forces.
 - **Água:** limpa (Castelo do Bode) → fino + cores naturais + discreto. Turva (depois de chuva) → cor importa pouco, peixe guia-se por cheiro/vibração (isco cheiroso, amostra com vibração).
 
 ---
@@ -141,7 +141,7 @@ Ponta do multi com **1 snap fixo** → encaixas boia / leader+amostra / amostra.
 
 > 📐 Versão completa (com **kg/mm reais** por tamanho de destorcedor + anzol por isco) em [**TAMANHOS.md**](TAMANHOS.md).
 
-**Anzol** (nº maior = anzol menor). Isco = minhoca/milho/massa:
+**Anzol** (hook) (nº maior = anzol menor). Isco (bait) = minhoca/milho/massa:
 
 | Peixe | Anzol |
 |-------|-------|
@@ -153,7 +153,7 @@ Ponta do multi com **1 snap fixo** → encaixas boia / leader+amostra / amostra.
 
 ➡️ Na prática: **#10** geral; **#14** p/ boca pequena (perca-sol, boga, ruivaco). (Carpa/barbo grandes → #8/#6 = pack SN HOOK WORM à parte — ver TAMANHOS.)
 
-**Chumbo** — de pinça (cravado), pequeno. Regra: junta chumbo até a boia ficar **quase submersa** (só ponta à mostra). Põe ~20–30 cm acima do anzol. A Caixa 6 divisórias traz tamanhos sortidos — não precisas decorar números.
+**Chumbo** (sinker) — de pinça (split shot), pequeno. Regra: junta chumbo até a boia ficar **quase submersa** (só ponta à mostra). Põe ~20–30 cm acima do anzol. A Caixa 6 divisórias traz tamanhos sortidos — não precisas decorar números.
 
 ---
 
