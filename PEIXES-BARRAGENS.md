@@ -2,19 +2,20 @@
 
 Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. Onde a presença é incerta, está **marcado**. Em todas precisas de **licença de pesca lúdica (ICNF)** + respeitar tamanhos mínimos e defesos.
 
-> Pesquisado e verificado (multi-fonte, fact-check adversarial) — Jun/2026.
+> Pesquisado e verificado em 2 passagens (multi-fonte, fact-check adversarial). Stats físicas e separação albufeira-vs-rio confirmadas. — Jun/2026.
 
 ---
 
 ## 1. Barragem de Alqueva (Alentejo, Rio Guadiana)
 
-**O que é:** Maior lago artificial da Europa Ocidental (~250 km², ~1.160 km de margem). Água quente, cheia de predadores, ilhas e vales inundados. Dos melhores destinos do continente para **achigã** e **lúcio-perca (sandre)**.
+**O que é:** Maior lago artificial da Europa Ocidental (~250 km², ~1.100 km de margem). Água quente, cheia de predadores, ilhas e vales inundados. Dos melhores destinos do continente para **achigã** e **lúcio-perca (sandre)**.
 
 | Nome PT | Típico | Grande | Como apanhar |
 |---|---|---|---|
 | Achigã (black bass) | 0,3–1,5 kg | ~2 kg = troféu (lendas ~3 kg) | Artificiais de barco/margem: jerkbaits/shads (Fev–Mai), poppers/cranks (manhã/fim tarde verão), senkos, spinnerbaits. Estrutura, ilhas, pontas |
 | Lúcio-perca (sandre) | 1,0–2,5 kg (40–60 cm) | 3–4 kg / 80–85 cm | Vertical jigging e dropshot c/ vinil sobre estrutura funda; dropshot da margem no inverno. Amanhecer/anoitecer/noite |
-| Peixe-gato-canal (americano) | 0,5–3 kg | +10 kg, até ~1 m | Iscos de fundo (peixe cortado, minhoca, pasta) dia e noite |
+| Peixe-gato-canal (americano) | 0,5–3 kg | +10 kg, até ~1 m | Iscos de fundo (peixe cortado, minhoca, pasta) dia e noite. **O grande** |
+| Peixe-gato-negro (Ameiurus melas) | 0,1–0,4 kg | ~<30 cm | Fundo c/ carne/minhoca. **O pequeno** (no lago desde 2003) |
 | Carpa comum | 1–4 kg | 10 kg+ (gigantes ainda raros) | Carpfishing/feeder c/ milho, boilies, pasta; baías e margens inundadas |
 | Barbo (comizo / Guadiana) | 1–3 kg | 4–5 kg+ | Muitas vezes em vinis de achigã; feeder, carpfishing, mosca |
 | Perca-sol | 0,05–0,15 kg | ~0,2–0,3 kg | Iscos minúsculos, minhoca/pão à bóia. Rouba-iscos |
@@ -53,7 +54,9 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 
 ## 3. Barragem de Castelo do Bode (Centro, Rio Zêzere)
 
-**O que é:** Albufeira **funda, fria e de água muito limpa** (2.ª maior de PT em volume, ~115 m fundo). Origem de água de Lisboa. Cristalina = táticas finas, cores naturais. Sobretudo barco/caiaque (margens são encostas íngremes; acesso pelas praias fluviais).
+**O que é:** Albufeira **funda, fria e de água muito limpa** (2.ª maior de PT em volume, ~1.095 hm³). Origem de água de Lisboa. Cristalina = táticas finas, cores naturais. Sobretudo barco/caiaque (margens são encostas íngremes; acesso pelas praias fluviais).
+
+> 📏 **Parede ~115 m de altura** ≠ profundidade da água. Profundidade máx. da água ~**90 m** junto à parede (sem valor oficial; muito menos no resto do lago).
 
 | Nome PT | Típico | Grande | Como apanhar |
 |---|---|---|---|
@@ -67,9 +70,11 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 **Baixa/média confiança:**
 - **Siluro** — **presente mas raro**, não é pescaria de troféus. O "crocodilo do Zêzere" (2011) era um siluro ~1,5 m. Captura ocasional.
 - **Truta** — a pescaria a sério é **no rio/afluentes frios a montante, NÃO no lago**. Arco-íris só por repovoamento ICNF.
-- **Lúcio (Esox)** — páginas turísticas erram; **não existe em PT** (confusão com lúcio-perca).
+- **Lúcio (Esox lucius)** — existe em PT como invasor (sobretudo Guadiana); mal documentado em Castelo do Bode. O predador desta albufeira é o **lúcio-perca/sandre** — peixe diferente, não confundir.
 
-**Dicas:** Não é Alqueva — achigã raramente +3 kg, mas **sandre estabelecido, troféus 4–8 kg reais**. Lagostim-vermelho abundantíssimo alimenta tudo. Mínimos: achigã/truta 20 cm; defeso truta ~16 Mai–14 Mar.
+**Dicas:** Não é Alqueva — achigã raramente +3 kg, mas **sandre estabelecido, troféus 4–8 kg reais**. Lagostim-vermelho abundantíssimo alimenta tudo.
+
+**Mínimos/defeso:** achigã 20 cm, truta 20 cm. ⚠️ **15 Mar–15 Mai = defeso do ACHIGÃ** (não da truta). Truta: época ~fim Mar a início Ago (varia por edital). Exóticos (sandre/siluro/lúcio): **sem mínimo nem defeso** (captura incentivada).
 
 ---
 
