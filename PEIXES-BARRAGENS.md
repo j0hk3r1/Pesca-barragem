@@ -31,20 +31,23 @@ Resumo prático e **honesto**. Tamanhos realistas, não fantasias de revista. On
 
 ## 2. Barragem de Odivelas (Baixo Alentejo, bacia do Sado)
 
-**O que é:** Albufeira de rega de planície, água quente e turva (desde 1972, ~970 ha). Bom acesso de margem. **Único predador a sério = achigã** (sem siluro, sandre, lúcio nem truta).
+**O que é:** Albufeira de rega de planície, água quente e turva (desde 1972, ~970 ha). Bom acesso de margem. Predador principal = achigã, **+ peixe-gato-negro** (bullhead pequeno) confirmado.
 
 | Nome PT | Típico | Grande | Como apanhar |
 |---|---|---|---|
 | Achigã | 0,3–1,2 kg | 2–3 kg (troféu) | Vinis (Texas/Carolina, dropshot, senkos), cranks, spinnerbaits junto a vegetação e à parede. Mínimo legal 20 cm |
+| **Peixe-gato-negro** (Ameiurus melas) | 0,1–0,4 kg | ~1–2 kg | **Fundo ou bóia c/ carne/chouriço, fígado, minhoca, peixe cortado.** Come tudo cheiroso. Mais ativo ao anoitecer/noite. ✅ *confirmado em campo (chouriço!)* |
 | Boga | 0,05–0,25 kg | ~0,4–0,5 kg | Bóia/fundo leve c/ pão, pasta, bicha, minhoca. Cardume |
 | Carpa | 1,5–5 kg | 8–12 kg+ | Feeder/fundo c/ boilies, milho, pão. Recinto de competição |
 | Barbo-do-sul | 0,3–1,5 kg | 3–4 kg | Fundo/feeder c/ minhoca, pasta, milho |
 | Perca-sol | 0,02–0,1 kg | ~0,2 kg | Bóia/minhoca leve. Rouba-iscos |
 | Pimpão | 0,1–0,5 kg | ~1 kg | Fundo, pão, milho |
 
+> 🐟 **Peixe-gato-negro** — invasor, NÃO é siluro nem channel catfish (esses são grandes). Fica pequeno. ⚠️ Tem **espinhos (barbatanas peitorais/dorsal) que picam** — pega com cuidado, por trás. É invasor → por lei **não se devolve vivo**. ✅ Sem problema p/ o teu material.
+
 **Baixa confiança:** escalo-do-Sado e pardelha (nativos, bycatch, **devolver**); enguia muito improvável (parede sem passagem).
 
-**Dicas:** Achigã + boga dominam; carpa confirmada por campeonatos de feeder. Ótimo p/ margem e competição. Confirma defesos/zonamentos com ICNF.
+**Dicas:** Achigã + boga dominam; carpa confirmada por campeonatos de feeder. Ótimo p/ margem e competição. **Chouriço/carne gorda à boia = peixe-gato-negro garantido.** Confirma defesos/zonamentos com ICNF.
 
 ---
 
