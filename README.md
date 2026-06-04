@@ -102,7 +102,16 @@ Multi → boia → chumbo(s) → destorcedor → leader → anzol + minhoca/milh
   3. Passa a ponta pelo **laço junto ao olhal**.
   4. Passa pelo **laço grande** que se formou.
   5. **Molha** o nó, puxa devagar pela linha principal, corta a sobra.
+- **Snell** (avançado — no anzol de olhal, puxão alinhado c/ a haste = fisgada direta):
+  1. Passa a ponta pelo olhal (frente→trás), ~20 cm de sobra.
+  2. Passa **a mesma ponta** pelo olhal outra vez, mesmo sentido → fica um **laço** ao lado da haste.
+  3. Encosta o laço à haste.
+  4. Com o laço, dá **6–7 voltas** à volta da **haste + fio**, do olhal pra baixo, apertadas e lado a lado.
+  5. Segura as voltas; puxa a **linha principal** devagar pra fechar.
+  6. **Molha**, aperta pela linha principal, corta a sobra.
 - Juntar multi + leader → **FG** (melhor) ou **Albright** (mais fácil).
+
+> ℹ️ Decathlon só vende anzol **solto de olhal** (pala/spade só pré-atado). Snell faz-se na mesma no olhal.
 
 **Dica:** enche a bobina do carreto até ~2 mm da borda — pouco fio embaraça, demasiado salta.
 
