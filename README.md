@@ -14,7 +14,7 @@ Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/
 
 ## ✅ Lista de compra (carrinho completo)
 
-Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achigã, perca-sol, boga, ruivaco, carpa peq.–média, barbo, peixe-gato-negro. (Cana é tua.)
+Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achigã, perca-sol, boga, ruivaco, carpa peq.–média, barbo, peixe-gato-negro. (Cana é tua — ver [**A Cana**](CANA.md): restauro da cana do avô, backup e combo mais barato que o carreto sozinho.)
 
 **🧱 Base**
 | Item | Produto | € |
