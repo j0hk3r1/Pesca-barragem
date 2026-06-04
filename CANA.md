@@ -38,7 +38,7 @@ Se o blank estiver são (sem racha) → **vale 100% restaurar** (sentimental + f
 ---
 
 ## 📐 Medidas da cana do avô
-- **Ponta (tip):** 2,1 mm → ponteira **BSAT tamanho 2,2** (enfia por cima dos 2,1 mm).
+- **Ponta (tip):** 2,1 mm → ponteira **[BSAT tamanho 2,2](https://www.decathlon.pt/p/passador-de-cana-de-pesca-de-predadores-bsat/X8167255/m8167255)** (enfia por cima dos 2,1 mm).
 - **Base:** 7,4 mm → normal; 1.º anel (junto ao carreto) é o **maior**, a diminuir até à ponta.
 
 ## 🛒 Peças na Decathlon (vende!)

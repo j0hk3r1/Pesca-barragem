@@ -143,7 +143,7 @@ Boia **corre livre** no fio entre dois batentes. Vê os 2 estados:
 <img src="img/ex-achiga-superficie.svg" alt="Achigã superfície" width="470">
 
 ```
-clipa → leader (fluorocarbono) 50–80 cm → colher giratória (spinner) 2–5 g
+clipa → leader fluorocarbono 50–80 cm → colher giratória (spinner) 2–5 g
                                           ou amostra de superfície (topwater/popper)
 ```
 - **Profundidade:** 0–1 m. **Recolhe (retrieve)** com paragens (stop-and-go) — ataque vem na pausa.
@@ -160,7 +160,7 @@ Dia quente, peixe fundo. **Conta a queda (countdown)** (1, 2, 3… ≈ 30 cm/seg
 ```
 clipa → leader 50–80 cm → cabeça plombada (jig head) 3–7 g + vinil (soft plastic)
 ```
-- **Alternativa:** montagem Texas (Texas rig) com anzol **Texan Wide Gap 1/0–3/0** (CAPERLAN — Decathlon vende, ver README → Opcional).
+- **Alternativa:** montagem Texas (Texas rig) com anzol **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) 1/0–3/0** (CAPERLAN — Decathlon vende, ver README → Opcional).
 
 ---
 

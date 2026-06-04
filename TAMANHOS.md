@@ -10,15 +10,15 @@
 
 | Peixe | Isco | Tamanho (produto que a Decathlon vende) | Nota |
 |---|---|---|---|
-| Perca-sol | Larva (maggot), pão, minhoca (worm) pequena | **CARP POLE 14** (e 12) | Boca pequena, arame fino. CARP POLE é o único fino correto na gama |
+| Perca-sol | Larva (maggot), pão, minhoca (worm) pequena | **[CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) 14** (e 12) | Boca pequena, arame fino. CARP POLE é o único fino correto na gama |
 | Boga / Ruivaco | Larva, massa (paste), minhoca | **CARP POLE 14** | #16 seria ideal mas **não existe na gama** (14 é o limite) |
-| Carpa (1-2 grãos milho) | Milho (corn) | **CARP POLE 12/10** ou **SN HOOK WORM 10/12** (montado) | Para isco, o montado é prático |
+| Carpa (1-2 grãos milho) | Milho (corn) | **CARP POLE 12/10** ou **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) 10/12** (montado) | Para isco, o montado é prático |
 | Carpa + Barbo (dia-a-dia) | Massa, milho, minhoca | **SN HOOK WORM 8** | Cavalo-de-batalha |
 | Barbo / Carpa (minhoca grande, carne) | Lobworm, carne | **SN HOOK WORM 6** | Arame forjado, aguenta |
 | Peixe-gato-negro | Bola de minhocas | **SN HOOK WORM 6** (ou 8) | Peixe <0,5 kg. **NÃO** uses 2-1/0 (sobredimensionado) |
-| Carpa (massa grande, boilie) | Massa, boilie | **SN HOOK WORM 4** ou **Simples 4** | — |
+| Carpa (massa grande, boilie) | Massa, boilie | **SN HOOK WORM 4** ou **[Simples 4](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450)** | — |
 | Achigã (minhoca inteira) | Minhoca | **Simples 2 ou 1/0** | Funciona; arame um pouco grosso p/ minhoca |
-| Achigã (vinil/plásticos) | Soft plastics (Texas) | **Texan Wide Gap 1/0-3/0** | **CAPERLAN Texan Wide Gap** — Decathlon vende (ver README → Opcional) |
+| Achigã (vinil/plásticos) | Soft plastics (Texas) | **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) 1/0-3/0** | CAPERLAN Texan Wide Gap — Decathlon vende (ver README → Opcional) |
 
 ### 🛒 Se só queres 1-2 anzóis
 1. **CARP POLE #14** (olhal (eye), fino) → peixe de boca pequena (perca-sol, boga, ruivaco) + carpa em milho.
@@ -34,7 +34,7 @@ Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. O **Te
 
 > 📋 **Dados reais da Decathlon (tab Detalhes).** Em TODAS as escalas — anzol, barril e snap — **nº maior = mais pequeno** (e mais fraco). Sem armadilhas.
 
-**BARRIL preto** (barrel swivel) (junção da boia (float) / anti-torção (anti-twist) 30-45 cm acima da colher):
+**[BARRIL preto](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759)** (barrel swivel) (junção da boia (float) / anti-torção (anti-twist) 30-45 cm acima da colher):
 
 | nº | comprimento | resistência | |
 |--|--|--|--|
@@ -43,7 +43,7 @@ Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. O **Te
 | 18 | 8,5 mm | 9 kg | ok, mais pequeno |
 | 22 | 6,9 mm | 4 kg | ⚠️ fraco demais (≈ leader), evita |
 
-**SNAP** (modular / boia / troca rápida — Rolling Inox ou Alfinete):
+**SNAP** (modular / boia / troca rápida — [Rolling Inox](https://www.decathlon.pt/p/destorcedor-de-alfinete-de-pesca-rolling-snap-inox-2025-x-10/307904/m8939626) ou [Alfinete](https://www.decathlon.pt/p/destorcedor-alfinete-de-pesca-black-nickel/350438/c1m8842756)):
 
 | nº | comprimento | resistência | |
 |--|--|--|--|
@@ -65,7 +65,7 @@ Estes dois cobrem **~90%**. Junta **SN HOOK WORM #8** para um meio-termo. O **Te
 ---
 
 ## 📋 Specs verificadas (produtos)
-- **TX4 braid** — diâmetros 0,12 / 0,16 / 0,20 / 0,25 / 0,30 / 0,33 mm (bobinas 150 m e 300 m). ⭐ 4,5 (295 aval).
-- **Fluoro Soft** — gama 0,128 → 0,81 mm, Made in Japan. ⭐ 4,7 (45 aval). Leader: 0,20–0,25.
+- **[TX4 braid](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473)** — diâmetros 0,12 / 0,16 / 0,20 / 0,25 / 0,30 / 0,33 mm (bobinas 150 m e 300 m). ⭐ 4,5 (295 aval).
+- **[Fluoro Soft](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545)** — gama 0,128 → 0,81 mm, Made in Japan. ⭐ 4,7 (45 aval). Leader: 0,20–0,25.
 - **CARP POLE** — soltos c/ olhal, tamanhos 10/12/14, anzol VMC. ⭐ 4,7 (74 aval).
 - **SN HOOK WORM** — montados, tamanhos 4/6/8/10/12. ⭐ 4,7 (53 aval).
