@@ -84,7 +84,7 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 
 ## ⚖️ Peso — o que este setup aguenta
 
-Elo mais fraco = **leader fluoro 0,20–0,25 mm (~3–4,5 kg)**. É aí que parte. ✅ **Bem dimensionado p/ os alvos casuais.**
+Elo mais fraco = **leader fluoro 0,20–0,25 mm (~2,8–4,5 kg)**. É aí que parte. ✅ **Bem dimensionado p/ os alvos casuais.**
 
 | Peixe | Aguenta? |
 |--|--|
@@ -100,7 +100,7 @@ Pões o **freio de trabalho a ~⅓** do elo mais fraco (o leader). **Nunca** usa
 |---|---|---|
 | 🎣 Freio carreto 2500 | **máx 8 kg · útil 6 kg** | capacidade — **só folga, não usas isto** |
 | 🧵 Braid [TX4](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) 0,12 | **~5–6 kg** | linha-mãe |
-| 🪢 Leader fluoro 0,20–0,25 | **~3–4,5 kg** | **elo fraco** (parte aqui, salva o resto) |
+| 🪢 Leader fluoro 0,20–0,25 | **~2,8–4,5 kg** | **elo fraco** (parte aqui, salva o resto) |
 | ⚙️ Freio que **usas** | **~1,5–2 kg** | ≈ ⅓ do leader |
 
 > ⚠️ **Não apertes o freio perto do máximo** (6–8 kg) — a essa força a braid (5–6 kg) podia partir no carreto/nó. Mantém **~1,5–2 kg** e deixa o leader ser o fusível.
@@ -111,4 +111,4 @@ Pões o **freio de trabalho a ~⅓** do elo mais fraco (o leader). **Nunca** usa
 ---
 
 ## 📄 Licença (quando quiseres)
-Barragem = águas interiores → **Licença Geral de Pesca Lúdica** (ICNF). Ano civil, tira no **Multibanco** (CC + NIF), poucos €. 16+. [Info ICNF](https://www.icnf.pt/pesca/pescaludicaedesportiva/licencas)
+Barragem = águas interiores → **Licença Geral de Pesca Lúdica** (ICNF). Ano civil, tira no **Multibanco** (CC + NIF), poucos €. 16+ (menores acompanhados por titular de licença). [Info ICNF](https://www.icnf.pt/pesca/pescaludicaedesportiva/licencas)

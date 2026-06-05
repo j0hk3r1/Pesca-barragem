@@ -1,6 +1,6 @@
 # 📏 Tamanhos certos (anzol + destorcedor)
 
-> Dimensionado ao teu setup: carreto (reel) 2500, trançado (braid / main line) 0,12 mm (~5-6 kg), fluorocarbono (fluorocarbon) 0,20-0,25 mm (~3-4,5 kg).
+> Dimensionado ao teu setup: carreto (reel) 2500, trançado (braid / main line) 0,12 mm (~5-6 kg), fluorocarbono (fluorocarbon) 0,20-0,25 mm (~2,8-4,5 kg).
 
 **Regra base:** o anzol (hook) escolhe-se pelo **isco (bait) / boca do peixe**, não pelo peso do peixe. O destorcedor (swivel) leva-se sempre **pequeno** (nunca é o elo fraco).
 
@@ -57,7 +57,7 @@ A **barbela** (farpa / barb) é o dente que impede o anzol de recuar ao entrar.
 | **4** | 23 mm | **10 kg** | ✅ pequeno + 2x a tua linha |
 | 5 | 20 mm | 6 kg | mais pequeno; 6 kg ainda > leader |
 
-➡️ **Leva: barril nº14 (ou 12) + snap nº4.** Resistências muito acima do teu leader (~3-4,5 kg) → nunca partem primeiro.
+➡️ **Leva: barril nº14 (ou 12) + snap nº4.** Resistências muito acima do teu leader (~2,8-4,5 kg) → nunca partem primeiro.
 
 > 💡 **Melhor ação na colher:** ata o fluoro **direto à colher** com nó (knot) de laço (loop) e põe **1 barril nº14** uns 30-45 cm acima. Sem snap pesado junto da colher.
 

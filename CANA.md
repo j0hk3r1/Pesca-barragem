@@ -31,7 +31,7 @@ Se o blank estiver são (sem racha) → **vale 100% restaurar** (sentimental + f
 3. **Tira** anéis partidos e voltas velhas.
 4. **Posiciona** os anéis novos (~5–7 + ponteira), mais juntos perto da ponta. Cola fita-cola a marcar.
 5. **Enrola** cada pé do anel com **fio de montagem (whipping)** bem apertado.
-6. **Sela** as voltas com **epoxy de cana (rod finish)**. Versão barata: verniz transparente / cola UV / verniz de unhas em camadas.
+6. **Sela** as voltas com **epoxy de cana (rod finish)**. Versão barata: verniz transparente / cola UV (o verniz de unhas serve só p/ emergência — fica quebradiço e racha sob flexão).
 7. **Ponteira (tip-top):** cola com **hot-melt** (aquece e enfia).
 8. **Junção (ferrule):** limpa; encaixe justo. Folga → esfrega cera de vela no macho.
 
