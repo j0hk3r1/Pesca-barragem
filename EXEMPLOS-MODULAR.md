@@ -53,6 +53,24 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 - **Freio (drag):** ~**1,5–2 kg** (cede fio antes de partir o leader). Peixe grande → deixa correr.
 - **Água:** limpa → fino + cores naturais. Turva → cor importa pouco (cheiro/vibração).
 
+### 📍 Distância de lançamento (onde estão os peixes)
+
+<img src="img/distancia-lancamento.svg" alt="Distância de lançamento por peixe" width="720">
+
+> 🏞️ **Barragem cai a pique** → água funda **perto** da margem. Muitas vezes **não precisas lançar longe** — mede o fundo junto à borda primeiro.
+
+| Peixe / estilo | Distância | Onde |
+|--|--|--|
+| Perca-sol / boga / ruivaco (boia) | **3–10 m** | margem, juncos, à tua frente |
+| Achigã (spinning) | **à estrutura (5–25 m)** | lança **À** estrutura, não longe por longe |
+| Carpa / barbo (boia/fundo) | **5–20 m** (40 c/ feature) | margens ao amanhecer; de dia mais fundo/longe |
+| Peixe-gato (fundo, noite) | **5–15 m** | fundo junto a estrutura/margem |
+| Sandre / lúcio-perca (vinil) | **15–40 m** ou barco | drop-offs, canais fundos |
+
+- **Leque (fan-cast):** perto → médio → longe, até achares o peixe.
+- **Hora:** amanhecer/anoitecer = peixe **raso e perto**. Dia quente = **fundo e mais longe**.
+- **Lança A features** (estrutura, drop-off, entrada de água), não "longe por longe".
+
 ---
 
 ## 🐟 Por peixe (resumo)

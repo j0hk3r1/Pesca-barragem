@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="760" height="440" fill="#0d1117"/>
+  <text x="20" y="30" fill="#f0c000" font-size="18" font-weight="bold">📍 Distância de lançamento — onde estão os peixes (corte lateral)</text>
+  <text x="20" y="50" fill="#8b949e" font-size="12.5">Barragem: a margem cai a pique → água funda perto. Muitas vezes não precisas lançar longe.</text>
+
+  <!-- water -->
+  <rect x="120" y="120" width="640" height="300" fill="#0b2a3a" opacity="0.5"/>
+  <line x1="120" y1="120" x2="760" y2="120" stroke="#7fd3ff" stroke-width="2" stroke-dasharray="7 5" opacity="0.8"/>
+
+  <!-- bank (left wedge) -->
+  <path d="M0 120 L120 120 L120 200 L60 320 L0 440 Z" fill="#3a2e1f"/>
+  <path d="M0 120 L120 120 L120 200 L60 320 L0 440" fill="none" stroke="#6b5836" stroke-width="2"/>
+  <!-- angler -->
+  <circle cx="55" cy="95" r="9" fill="#c9d1d9"/>
+  <line x1="55" y1="104" x2="55" y2="130" stroke="#c9d1d9" stroke-width="3"/>
+  <line x1="55" y1="112" x2="100" y2="80" stroke="#b8a55a" stroke-width="2"/>
+  <text x="20" y="150" fill="#e5d98a" font-size="12" font-weight="bold">tu / margem</text>
+
+  <!-- bottom slope (steep then deep) -->
+  <path d="M120 200 L200 300 L380 360 L760 400 L760 440 L120 440 Z" fill="#2e2415"/>
+  <path d="M120 200 L200 300 L380 360 L760 400" fill="none" stroke="#5a4a2e" stroke-width="2.5"/>
+  <text x="690" y="420" fill="#b08a52" font-size="11">fundo</text>
+
+  <!-- distance ticks -->
+  <g font-size="11" fill="#8b949e">
+    <line x1="190" y1="120" x2="190" y2="112" stroke="#8b949e"/><text x="190" y="108" text-anchor="middle">5 m</text>
+    <line x1="300" y1="120" x2="300" y2="112" stroke="#8b949e"/><text x="300" y="108" text-anchor="middle">10 m</text>
+    <line x1="470" y1="120" x2="470" y2="112" stroke="#8b949e"/><text x="470" y="108" text-anchor="middle">20 m</text>
+    <line x1="640" y1="120" x2="640" y2="112" stroke="#8b949e"/><text x="640" y="108" text-anchor="middle">30 m+</text>
+  </g>
+
+  <!-- ZONE labels -->
+  <text x="160" y="138" fill="#e6c84a" font-size="12" font-weight="bold">MARGEM</text>
+  <text x="350" y="138" fill="#5fa8ff" font-size="12" font-weight="bold">MÉDIO</text>
+  <text x="600" y="138" fill="#9a8cff" font-size="12" font-weight="bold">LONGE / FUNDO</text>
+
+  <!-- fish: perca/boga (margin, shallow) -->
+  <ellipse cx="165" cy="230" rx="14" ry="7" fill="#e6c84a"/><path d="M179 230 l10 -6 l0 12 z" fill="#e6c84a"/>
+  <text x="150" y="258" fill="#e6c84a" font-size="11.5" font-weight="bold">Perca-sol · boga · ruivaco</text>
+  <text x="150" y="272" fill="#8b949e" font-size="10.5">3–10 m · à boia, na borda</text>
+
+  <!-- achigã at structure (mid) -->
+  <rect x="300" y="300" width="10" height="46" fill="#1d3b2a"/><rect x="316" y="310" width="8" height="36" fill="#1d3b2a"/>
+  <text x="296" y="296" fill="#5fd35f" font-size="10">estrutura</text>
+  <ellipse cx="345" cy="250" rx="16" ry="8" fill="#5fd35f"/><path d="M361 250 l11 -7 l0 14 z" fill="#5fd35f"/>
+  <text x="335" y="232" fill="#5fd35f" font-size="11.5" font-weight="bold">Achigã</text>
+  <text x="335" y="278" fill="#8b949e" font-size="10.5">lança À estrutura (5–25 m)</text>
+
+  <!-- carpa/barbo (mid-bottom) -->
+  <ellipse cx="430" cy="330" rx="18" ry="9" fill="#5fa8ff"/><path d="M448 330 l12 -7 l0 14 z" fill="#5fa8ff"/>
+  <text x="405" y="356" fill="#5fa8ff" font-size="11.5" font-weight="bold">Carpa · barbo · peixe-gato</text>
+  <text x="405" y="370" fill="#8b949e" font-size="10.5">fundo, 5–20 m (margem ao amanhecer)</text>
+
+  <!-- sandre (deep, far) -->
+  <ellipse cx="640" cy="375" rx="17" ry="8" fill="#9a8cff"/><path d="M657 375 l11 -7 l0 14 z" fill="#9a8cff"/>
+  <text x="600" y="358" fill="#9a8cff" font-size="11.5" font-weight="bold">Sandre / lúcio-perca</text>
+  <text x="600" y="398" fill="#8b949e" font-size="10.5">drop-off / canal fundo · 15–40 m ou barco</text>
+
+  <!-- drop-off marker -->
+  <text x="200" y="318" fill="#f0c000" font-size="10" transform="rotate(35 200 318)">drop-off (cai a pique)</text>
+</svg>
