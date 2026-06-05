@@ -11,19 +11,19 @@ Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/
 - 🔁 [**Montagens & exemplos**](EXEMPLOS-MODULAR.md) — diagramas, como pescar, por peixe + profundidade
 - 📏 [**Tamanhos**](TAMANHOS.md) — anzol + destorcedor (kg/mm reais)
 - 🪢 [**Nós**](NOS.md) — passo-a-passo + vídeo
-- 🎣 [**A Cana**](CANA.md) — restauro da do avô, backup e combo mais barato
+- 🎣 [**A Cana**](CANA.md) — combo cana+carreto a comprar (+ alternativas avulsas)
 
 ---
 
 ## ✅ Lista de compra (carrinho completo)
 
-Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achigã, perca-sol, boga, ruivaco, carpa peq.–média, barbo, peixe-gato-negro. (Cana é tua — ver [**A Cana**](CANA.md).)
+Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achigã, perca-sol, boga, ruivaco, carpa peq.–média, barbo, peixe-gato-negro. (Cana = combo WXM 100 — ver [**A Cana**](CANA.md).)
 
 **🧱 Base**
 
 | Item | Produto | € |
 |------|---------|------:|
-| 🎣 Carreto (reel) | [CAPERLAN WXM 100 **2500**](https://www.decathlon.pt/p/carreto-de-pesca-com-amostras-wxm-100-2500/345242/m8784314) | 24,90 |
+| 🎣 Cana + carreto (combo) | [CAPERLAN Conjunto WXM 100 1,80m ML + **2500**](https://www.decathlon.pt/p/cana-e-carreto-de-pesca-ao-corrico-wxm-100-spinning-1-80m-ml-5-14g-conjunto/339590/m8739959) — ver [**A Cana**](CANA.md) | 39,90 |
 | 🧵 Linha-mãe (braid) | [CAPERLAN TX4](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) — **0,12/100** (150 m) | 7,90 |
 | 🪢 Leader fluoro | [CAPERLAN Fluorocarbono 100% Soft](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) — **0,20–0,25** | 4,90 |
 | 🔗 Snap (spinning) | [CAPERLAN Rolling Snap Inox](https://www.decathlon.pt/p/destorcedor-de-alfinete-de-pesca-rolling-snap-inox-2025-x-10/307904/m8939626) — **nº4** | 2,50 |
@@ -44,11 +44,11 @@ Organizada por função. Cobre **quase todos os peixes ao teu alcance** — achi
 |------|---------|------:|
 | ✨ Amostras (lures) | [CAPERLAN Kit Colheres Rotativas Predadores (4x)](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651) | 8,90 |
 
-> **TOTAL ≈ 68,10 €**
+> **TOTAL ≈ 83,10 €** (combo cana+carreto incluído)
 
 > 🪝 **Anzóis:** **[CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) #14** (soltos — atas tu) p/ perca-sol/boga/ruivaco; **#10** p/ carpa pequena/barbo; **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) #8** (montados) — cavalo-de-batalha p/ carpa/barbo + peixe-gato (**#6** se usares iscos grandes/carne). Achigã = amostra (ou **[Simples](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450) 1/0–2** c/ minhoca inteira). Detalhe em [TAMANHOS.md](TAMANHOS.md).
 
-### 💸 Versão ultra-barata (~53 €)
+### 💸 Versão ultra-barata (~68 €)
 Troca 3 itens:
 - Boias → [CAPERLAN SF6 deslizantes x2](https://www.decathlon.pt/p/boias-de-pesca-deslizantes-em-espuma-sf6-4g-e-6g-x2/370126/m8954905) — **3,50 €**
 - Spinner → [CAPERLAN WETA F #1](https://www.decathlon.pt/p/colher-rotativa-para-pesca-com-amostras-weta-f-1-ou-ponto-vermelho/310012/c141c14m8561097) — **2,90 €**
