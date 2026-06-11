@@ -28,4 +28,4 @@ A **1,80 m ML** chega bem p/ barragem casual. Sobe à **2,10 m** se quiseres lan
 
 ---
 
-> 👴 **Cana do avô:** tens a vintage de fibra de vidro (2 troços, spinning, faltam passadores). **Não dependes dela agora** — pescas já com o combo. O **restauro fica p/ quando tiveres calma**, sem pressa; depois fica como 2.ª cana, bónus sentimental.
+> 👴 **Canas do avô:** a vintage de spinning (fibra de vidro, 2 troços) restaura-se **com calma, sem pressa** — pescas já com o combo. E a **cana de fundo de 4,20 m + carreto Sofi M2** já têm página própria: [**💪 Kit Pesado**](KIT-PESADO.md) — é o equipamento p/ peixe grande.

@@ -106,4 +106,4 @@ Conjunto leve (carreto (reel) 2500, trançado (braid / main line) ~5–6 kg, flu
 - **Sandre grande (4–8 kg)** — acima → precisa cana (rod) média, trançado 8–10 kg, leader 0,30 mm+.
 - **Peixe-gato grande (Alqueva)** e **siluro (Idanha, Castelo do Bode)** — **NÃO se pescam neste material.** Se pegar, partes. Disciplina pesada à parte.
 
-**Regra mental:** siluro e peixes-gato grandes = intocáveis neste equipamento. Carpa 10 kg+ e sandre grande = bycatch que vais provavelmente perder. Para os apanhar a sério = segundo equipamento pesado.
+**Regra mental:** siluro e peixes-gato grandes = intocáveis neste equipamento. Carpa 10 kg+ e sandre grande = bycatch que vais provavelmente perder. Para os apanhar a sério = segundo equipamento pesado → já existe: [**💪 Kit Pesado**](KIT-PESADO.md) (cana de fundo do avô 4,20 m + Sofi M2).

@@ -12,6 +12,7 @@ Setup casual para barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/
 - 📏 [**Tamanhos**](TAMANHOS.md) — anzol + destorcedor (kg/mm reais)
 - 🪢 [**Nós**](NOS.md) — passo-a-passo + vídeo
 - 🎣 [**A Cana**](CANA.md) — combo cana+carreto a comprar (+ alternativas avulsas)
+- 💪 [**Kit Pesado**](KIT-PESADO.md) — cana de fundo do avô (4,20 m) + Sofi M2: peixe grande, ledger, distância
 
 ---
 
@@ -106,7 +107,7 @@ Pões o **freio de trabalho a ~⅓** do elo mais fraco (o leader). **Nunca** usa
 > ⚠️ **Não apertes o freio perto do máximo** (6–8 kg) — a essa força a braid (5–6 kg) podia partir no carreto/nó. Mantém **~1,5–2 kg** e deixa o leader ser o fusível.
 > Para usar a força toda do carreto (carpa/barbo grande): sobe **braid 0,16 (~7–8 kg) + leader 0,28 (~6 kg) juntos**.
 
-➡️ Os grandes (siluro, carpa 10 kg+, sandre 4 kg+) = material pesado à parte. Detalhe por barragem: [**PEIXES-BARRAGENS.md**](PEIXES-BARRAGENS.md).
+➡️ Os grandes (carpa 10 kg+, peixe-gato grande) = [**💪 Kit Pesado**](KIT-PESADO.md) (cana do avô 4,20 m + Sofi M2). Siluro continua fora. Detalhe por barragem: [**PEIXES-BARRAGENS.md**](PEIXES-BARRAGENS.md).
 
 ---
 
