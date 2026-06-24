@@ -1,6 +1,16 @@
-# 🎣 A Cana (rod)
+# 🎣 Canas pequenas (leve)
 
-## ✅ A cana que usas: combo WXM 100
+As **3 canas pequenas** usam o mesmo [**🪶 material leve**](MATERIAL.md) (linha fina, anzóis, boias, amostras). A cana de fundo grande fica à parte → [**💪 Kit Pesado**](KIT-PESADO.md).
+
+| Cana | Para quê |
+|---|---|
+| **WXM 100** (nova, comprada) | spinning + boia — a principal |
+| **Verde/azul** (do avô) | spinning |
+| **Telescópica** (para a namorada) | boia perto da margem |
+
+---
+
+## ✅ A principal: combo WXM 100
 
 O teu setup leve é o **conjunto WXM 100** — [cana 1,80 m ML + carreto **2500**](https://www.decathlon.pt/p/cana-e-carreto-de-pesca-ao-corrico-wxm-100-spinning-1-80m-ml-5-14g-conjunto/339590/m8739959), casados de fábrica (6 passadores, antirretorno infinito, travão micrométrico) e prontos a pescar. ✅ (Já comprado.)
 
@@ -19,4 +29,4 @@ A **1,80 m ML** chega bem para barragem casual. Sobe à **2,10 m** se quiseres l
 
 ---
 
-> 👴 **Canas do avô:** a vintage de spinning (fibra de vidro, 2 troços) restaura-se **com calma, sem pressa**. A **cana de fundo 4,20 m + carreto Sofi M2** já têm página própria: [**💪 Kit Pesado**](KIT-PESADO.md) — é o equipamento para peixe grande, ao fundo e a distância.
+> 👴 **As velhas do avô:** a **verde/azul** (fibra de vidro, spinning) e a **telescópica** (para a namorada, boia perto da margem) restauram-se **com calma, sem pressa** e usam o mesmo material leve. A **cana de fundo 4,20 m + carreto Sofi M2** é que é à parte → [**💪 Kit Pesado**](KIT-PESADO.md), para peixe grande ao fundo.

@@ -55,7 +55,12 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 
 > ⚠️ **Antes de confiar peixe grande:** (1) service aos carretos — drag de 1965 gripado parte linha; testa c/ balança, deve ceder suave a ~2–2,5 kg; (2) re-enrolar a argola solta; (3) inspeção de fissuras no blank (junções!); (4) mono velha = imprevisível no **sacão** — a balança puxa devagar, o peixe não.
 
-> 🧵 **Que linha comprar? (não exageres no peso.)** **Mono 0,35 mm (~7–8 kg)** é o ponto certo — lança bem e aguenta carpa/barbo/gato até ~15 kg com técnica. Sobe a **0,40 mm (~10–12 kg)** só se quiseres margem para os maiores (perdes algum lançamento). **Ir ao máximo não compensa:** o elo fraco é o **freio velho** (feltro de 1965 cede só ~2–4 kg, e aos arrancos) e os **passadores/whippings restaurados** — não a linha. Linha grossa de mais só **perde distância** e fica mais visível. Peixe grande ganha-se com **freio + flexão da cana + dar linha**, não a forçar. Os "muitos kg" do carreto = tamanho/capacidade de linha, **não** força de freio. (Siluro 30 kg+ = equipamento dedicado, não esta cana.)
+> 🧵 **Que linha comprar (alvo: elo fraco ~8 kg).** Para as carpas, **~8 kg chega** (até ~15 kg com técnica) — bem mais que os ~4 kg da cana pequena, sem exagerar. **12 kg é a mais:** perde lançamento, fica mais visível, e a cana/passadores antigos nem precisam disso. Duas opções:
+> - **Multi + mono** (como na pequena): braid [TX4 0,18–0,20](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) (~8–10 kg) + leader mono [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (~7–8 kg = fusível). Lança mais, o leader cuida da invisibilidade/abrasão.
+> - **Mono direta** [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) / 0,40 — mais simples e com **elástico** que perdoa os sacões e o carreto velho.
+> Por agora pesca com a **0,40 do avô**; compra a nova p/ teres quando partir.
+
+> ⚙️ **Freio:** o carreto verde regula **suave** (de ~1 kg até travado) — põe o de **trabalho a ~2–3 kg** (bem abaixo dos 8 kg da linha) e a carpa cansa contra ele; **nunca no travado**. O peixe grande ganha-se com **freio + flexão da cana + dar linha**, não a forçar. Os "muitos kg" do carreto = **capacidade de linha**, não força de freio. (Siluro 30 kg+ = equipamento dedicado, não esta cana.)
 
 ---
 

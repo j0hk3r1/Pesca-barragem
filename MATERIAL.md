@@ -2,7 +2,7 @@
 
 Todo o material dos **dois equipamentos**: a **cana pequena (leve)** para spinning + boia, e a **cana grande (pesado)** para pesca ao fundo. **Tudo da Decathlon — clica para ver o produto.**
 
-> Canas/carretos: o combo leve está em [🎣 A Cana](CANA.md); a cana grande (do avô) em [💪 Kit Pesado](KIT-PESADO.md).
+> Canas/carretos: as pequenas em [🎣 Canas pequenas](CANA.md); a cana grande (do avô) em [💪 Kit Pesado](KIT-PESADO.md).
 
 ---
 
@@ -11,7 +11,7 @@ Todo o material dos **dois equipamentos**: a **cana pequena (leve)** para spinni
 Cobre quase todos os peixes ao teu alcance: achigã, perca-sol, boga, ruivaco, carpa/barbo médios, peixe-gato-negro.
 
 ### 🧱 Base
-- 🎣 **Cana + carreto** — [Combo WXM 100 1,80m ML + carreto 2500](https://www.decathlon.pt/p/cana-e-carreto-de-pesca-ao-corrico-wxm-100-spinning-1-80m-ml-5-14g-conjunto/339590/m8739959) (detalhe em [A Cana](CANA.md))
+- 🎣 **Cana + carreto** — [Combo WXM 100 1,80m ML + carreto 2500](https://www.decathlon.pt/p/cana-e-carreto-de-pesca-ao-corrico-wxm-100-spinning-1-80m-ml-5-14g-conjunto/339590/m8739959) (detalhe em [Canas pequenas](CANA.md))
 - 🧵 **Linha-mãe (braid)** — [CAPERLAN TX4 caqui](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) · **0,12 mm (~5–6 kg)**
 - 🪢 **Leader fluoro** — [CAPERLAN Fluorocarbono 100% Soft](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) · **0,20–0,25 mm (~2,8–4,5 kg)**
 - 🔗 **Snap** (spinning) — [Rolling Snap Inox](https://www.decathlon.pt/p/destorcedor-de-alfinete-de-pesca-rolling-snap-inox-2025-x-10/307904/m8939626) · **nº4**
@@ -33,7 +33,9 @@ Cobre quase todos os peixes ao teu alcance: achigã, perca-sol, boga, ruivaco, c
 
 A cana de fundo do avô (4,20 m) + carreto Sofi usam **linha mais forte** e acessórios próprios, para carpa 8 kg+, barbo grande e peixe-gato. Montagens (chumbo corrido / paternoster), distância e checklist → [💪 Kit Pesado](KIT-PESADO.md).
 
-- 🧵 **Linha mono 0,35 mm (~7–8 kg)** — [CAPERLAN LINE 100 castanho](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (ou a **0,40 do avô**). **0,40 mm (~10–12 kg)** só p/ margem — *não exageres no peso* ([porquê](KIT-PESADO.md)).
+- 🧵 **Linha** (alvo: **elo fraco ~8 kg** — chega p/ carpa até ~15 kg; 12 kg é exagero). Por agora usa a **0,40 do avô**; para comprar, 2 opções:
+  - **Multi + mono** (como na pequena): braid [TX4 0,18–0,20](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) (~8–10 kg) + leader mono [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (~7–8 kg = o fusível).
+  - **Mono direta** [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) / 0,40 — mais simples e com mais elástico (perdoa o carreto velho). [Porquê não exagerar →](KIT-PESADO.md)
 - ⚖️ **Chumbadas azeitona furada 20–40 g** — [Azeitonas perfuradas](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) (chumbo corrido / paternoster)
 - 🔘 **Batentes + pérolas** — [Nós de bloqueio c/ pérolas](https://www.decathlon.pt/p/nos-de-bloqueio-de-pesca-a-inglesa-com-boia-deslizante-conjunto-de-5/355294/m8883379)
 - 🪜 **Forquilhas** (cana pousada) — [dianteira (estaca V)](https://www.decathlon.pt/p/suportes-de-canas-pesca-agua-doce-estaca-telescopica-cabeca-v-45-70/X8328117/m8328117) + [traseira](https://www.decathlon.pt/p/suporte-dobravel-de-cana-de-pesca-em-agua-doce-plastico/314162/m8328113)
