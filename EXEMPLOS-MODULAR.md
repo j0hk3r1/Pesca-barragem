@@ -186,23 +186,30 @@ clipa → nó-batente + missanga → boia deslizante 2–4 g (10–15 g na cana 
 
 ## 🔵 Fundo — carpa / barbo · 💪 cana grande
 
-O setup das **carpas gordas**: lança longe, pousa, espera o guizo. **Chumbo corrido** é o rig recomendado p/ iniciante (simples e eficaz). Duas variantes:
+O setup das **carpas gordas**: lança longe, pousa, espera o guizo. **Peso: ~40 g (perto) → 80–100 g (longe / a segurar)** — as tuas de **~100 g** servem para lançar longe. Dois rigs, os dois bons:
 
-<img src="img/ex-ledger.svg" alt="Chumbo corrido — isco no fundo" width="470" height="394">
-
-```
-chumbo corrido (running ledger) — isco NO fundo
-fio → azeitona 20–40 g (desliza) → barril (batente) → leader 40–60 cm → anzol #8–6 + milho / boilie
-```
+### 🪝 Paternoster — isco ACIMA do fundo
 
 <img src="img/ex-paternoster.svg" alt="Paternoster — isco acima do fundo" width="470" height="470">
 
 ```
-paternoster — isco ACIMA do fundo (bom em lodo / ervas)
-fio → barril → ramal curto p/ anzol (acima) → linha p/ chumbo no fundo
+fio → barril (3 vias) → ramal curto p/ anzol (isco fica acima)
+                      → linha p/ chumbo 60–100 g (no fundo)
 ```
+Peso no fundo, isco suspenso no ramal — bom em **fundo mole / ervas** e dá melhor sinal de mordida.
+
+### ⚓ Chumbo corrido — isco NO fundo (mais simples)
+
+<img src="img/ex-ledger.svg" alt="Chumbo corrido — isco no fundo" width="470" height="394">
+
+```
+fio → chumbo 40–100 g (desliza) → barril (batente)
+    → leader 40–60 cm → anzol #8–6 + milho / boilie
+```
+O peixe leva linha **sem sentir o peso**.
+
 - **Mordida:** ponta da cana / guizo bate → ferra. **Freio** suave (~2–2,5 kg) — deixa a carpa correr.
-- 🛒 [azeitona furada](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Montagem completa + checklist → [💪 Kit Pesado](KIT-PESADO.md).
+- 🛒 Pesos: as tuas de **~100 g** (longe) ou [azeitona furada (até 60 g)](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) (perto/médio) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Completo → [💪 Kit Pesado](KIT-PESADO.md).
 
 <a id="ex-gato"></a>
 

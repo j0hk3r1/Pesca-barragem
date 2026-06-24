@@ -24,7 +24,7 @@ O segundo equipamento: **pesca de fundo (ledger) de margem para peixe grande** �
 Tudo na Decathlon — clica para ver:
 
 - 🧵 **Linha mono 0,35** — [CAPERLAN LINE 100 castanho 0,35 mm (7,1 kg)](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (ou usa a **0,40 atual**, já testada)
-- ⚖️ **Chumbadas deslizantes** — [Azeitonas (olive) perfuradas](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · leva **20–40 g**
+- ⚖️ **Chumbadas 40–100 g** — [azeitona furada (até 60 g)](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) p/ perto; as tuas **~100 g** p/ longe
 - 🔘 **Batentes + pérolas (beads)** — [Nós de bloqueio c/ pérolas](https://www.decathlon.pt/p/nos-de-bloqueio-de-pesca-a-inglesa-com-boia-deslizante-conjunto-de-5/355294/m8883379)
 - 🪜 **Forquilhas** (cana pousada à espera) — [dianteira (estaca V)](https://www.decathlon.pt/p/suportes-de-canas-pesca-agua-doce-estaca-telescopica-cabeca-v-45-70/X8328117/m8328117) + [traseira (suporte)](https://www.decathlon.pt/p/suporte-dobravel-de-cana-de-pesca-em-agua-doce-plastico/314162/m8328113)
 - 🔔 **Guizos** (sinalizam o toque na ponta) — [2 guizos c/ pinça](https://www.decathlon.pt/p/2-guizos-compridos-c-pinca-b-l/329361/m8607175)
@@ -75,7 +75,7 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 cana → mono 0,35 → [pérola] → AZEITONA furada (desliza) → [pérola] → destorcedor nº14 → leader 40-60 cm → anzol c/ isco
 ```
 
-1. Enfia **pérola + azeitona 20–40 g + pérola** na linha-mãe
+1. Enfia **pérola + chumbo 40–100 g + pérola** na linha-mãe (perto → longe)
 2. Ata **destorcedor barril nº14** ([já o tens](TAMANHOS.md)) — trava a azeitona
 3. Leader **40–60 cm** de mono/fluoro + anzol ([SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081), minhoca/milho/carne)
 4. Lança, deixa assentar, **estica a linha**, cana na forquilha, **guizo na ponta**
@@ -89,7 +89,7 @@ Diagrama do conceito: **Exemplo E — pesca ao fundo (ledger)** em [Montagens & 
 
 | Método | Setup leve | **Kit pesado** |
 |---|---|---|
-| Fundo (azeitona 20–40 g) | ~20–30 m | **40–70 m** |
+| Fundo (40–100 g) | ~20–30 m | **40–90 m** |
 | Boia | ~15–20 m | ~30 m (deslizante 15 g) |
 
 - **Fundo = o método p/ longe.** Boia a +30 m quase não se vê e o vento arrasta.

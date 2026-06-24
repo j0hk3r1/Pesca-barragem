@@ -43,7 +43,7 @@
     section.cover .cover-main>p:last-child a{font-weight:700;border-radius:8px;}
     /* ---------- Responsivo / telemóvel ---------- */
     .markdown-section img{max-width:100%;height:auto;}      /* SVGs largos cabem no ecrã */
-    .markdown-section pre{overflow-x:auto;}                  /* code scrolla, não rebenta o layout */
+    .markdown-section pre,.markdown-section pre code{white-space:pre-wrap !important;word-break:break-word;}  /* rig/código quebra linha → cabe no ecrã, sem scroll */
     @media (max-width:768px){
       :root{--base-font-size:15.5px;--sidebar-width:82vw;}
       .markdown-section{padding-left:15px;padding-right:15px;}
