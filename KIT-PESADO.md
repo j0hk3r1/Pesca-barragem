@@ -1,4 +1,4 @@
-# 💪 Kit Pesado — cana de fundo do avô (4,20 m) + Sofi M2
+# 💪 Kit Pesado — cana de fundo (4,20 m) + Sofi M2
 
 O segundo equipamento: **pesca de fundo (ledger) de margem para peixe grande** — carpa 8 kg+, barbo grande, peixe-gato-canal. Complementa o [combo WXM 100](CANA.md) (leve/spinning): um lança amostras, o outro pousa isco no fundo e espera.
 
@@ -6,14 +6,14 @@ O segundo equipamento: **pesca de fundo (ledger) de margem para peixe grande** �
 
 ---
 
-## 🎣 O equipamento herdado
+## 🎣 O equipamento
 
 | Peça | O que é | Estado |
 |---|---|---|
 | **Cana de fundo** | Fibra de vidro enrolada, **2 troços × ~2,10 m = 4,20 m**, junções metálicas roscadas, pega enrolada preta, carretel de abraçadeira | Blank são; 1 argola solta p/ re-enrolar, whippings velhos |
 | **Carreto Sofi M2** | **Made in Portugal · Registado** (anos 60–70, estilo Mitchell), 704 g, bail completo | Precisa service (massa + óleo) |
 | **Carreto verde** (2.º) | Também um **Sofi** (sem a chapa oval — confirmado por pesquisa de imagem), bobina latão, 692 g | Idem — service |
-| **Linha 0,40 do avô** | Mono (nylon) — testada: aguenta ~5 kg estático, parte ~10 kg (≈70% da força original) | Usável; nós do avô **ficam** 🫡 |
+| **Linha 0,40 atual** | Mono (nylon) — testada: aguenta ~5 kg estático, parte ~10 kg (≈70% da força original) | Usável; mantém os nós existentes |
 
 > ⚖️ Comparação: o [WXM 2500](https://www.decathlon.pt/p/carreto-de-pesca-com-amostras-wxm-100-2500/345242/m8784314) pesa ~240 g. Estes ~700 g = classe **fundo/pesado** — pousada na forquilha, não no braço.
 
@@ -23,7 +23,7 @@ O segundo equipamento: **pesca de fundo (ledger) de margem para peixe grande** �
 
 Tudo na Decathlon — clica para ver:
 
-- 🧵 **Linha mono 0,35** — [CAPERLAN LINE 100 castanho 0,35 mm (7,1 kg)](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (ou usa a **0,40 do avô**, já testada)
+- 🧵 **Linha mono 0,35** — [CAPERLAN LINE 100 castanho 0,35 mm (7,1 kg)](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (ou usa a **0,40 atual**, já testada)
 - ⚖️ **Chumbadas deslizantes** — [Azeitonas (olive) perfuradas](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · leva **20–40 g**
 - 🔘 **Batentes + pérolas (beads)** — [Nós de bloqueio c/ pérolas](https://www.decathlon.pt/p/nos-de-bloqueio-de-pesca-a-inglesa-com-boia-deslizante-conjunto-de-5/355294/m8883379)
 - 🪜 **Forquilhas** (cana pousada à espera) — [dianteira (estaca V)](https://www.decathlon.pt/p/suportes-de-canas-pesca-agua-doce-estaca-telescopica-cabeca-v-45-70/X8328117/m8328117) + [traseira (suporte)](https://www.decathlon.pt/p/suporte-dobravel-de-cana-de-pesca-em-agua-doce-plastico/314162/m8328113)
@@ -43,7 +43,7 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 | Elemento | Força | Papel |
 |---|---|---|
 | 🧵 Mono [LINE 100](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) 0,35 nova | **~7,1 kg** (≈5–6 kg c/ nó) | linha única (sem leader) |
-| 🧵 Mono 0,40 do avô | parte ~10 kg; **c/ nó velho conta ~5–7 kg** | a que está na bobina (usa até partir) |
+| 🧵 Mono 0,40 atual | parte ~10 kg; **c/ nó velho conta ~5–7 kg** | a que está na bobina (usa até partir) |
 | ⚙️ Freio que **usas** | **~2–2,5 kg** | ≈ ⅓ da linha (após service!) |
 
 | Peixe | Setup leve (WXM) | **Kit pesado** |
@@ -55,10 +55,11 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 
 > ⚠️ **Antes de confiar peixe grande:** (1) service aos carretos — drag de 1965 gripado parte linha; testa c/ balança, deve ceder suave a ~2–2,5 kg; (2) re-enrolar a argola solta; (3) inspeção de fissuras no blank (junções!); (4) mono velha = imprevisível no **sacão** — a balança puxa devagar, o peixe não.
 
-> 🧵 **Que linha comprar (alvo: elo fraco ~8 kg).** Para as carpas, **~8 kg chega** (até ~15 kg com técnica) — bem mais que os ~4 kg da cana pequena, sem exagerar. **12 kg é a mais:** perde lançamento, fica mais visível, e a cana/passadores antigos nem precisam disso. Duas opções:
-> - **Multi + mono** (como na pequena): braid [TX4 0,18–0,20](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) (~8–10 kg) + leader mono [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (~7–8 kg = fusível). Lança mais, o leader cuida da invisibilidade/abrasão.
-> - **Mono direta** [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) / 0,40 — mais simples e com **elástico** que perdoa os sacões e o carreto velho.
-> Por agora pesca com a **0,40 do avô**; compra a nova p/ teres quando partir.
+> 🧵 **Que linha (alvo: elo fraco ~8 kg).** Para a carpa nesta cana, **mono é melhor**:
+> - **Mono direta** ✅ — [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) / 0,40. O **elástico** absorve os arrancos da carpa e o freio velho aos solavancos; simples, perdoa erros.
+> - **Multi + mono** — braid [TX4 0,18–0,20](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) + leader mono [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703). Só p/ **mais distância**; o braid não estica, precisa de freio bem suave.
+>
+> **8 kg chega** (carpa até ~15 kg); **12 kg é a mais** (pior lançamento, mais visível, a cana antiga não precisa). Por agora usa a **0,40 atual**; muda quando partir.
 
 > ⚙️ **Freio:** o carreto verde regula **suave** (de ~1 kg até travado) — põe o de **trabalho a ~2–3 kg** (bem abaixo dos 8 kg da linha) e a carpa cansa contra ele; **nunca no travado**. O peixe grande ganha-se com **freio + flexão da cana + dar linha**, não a forçar. Os "muitos kg" do carreto = **capacidade de linha**, não força de freio. (Siluro 30 kg+ = equipamento dedicado, não esta cana.)
 
@@ -107,7 +108,7 @@ A lei de pesca lúdica **não limita a distância de lançamento**. O que existe
 - [ ] **Drag testado c/ balança** — cede suave a ~2–2,5 kg
 - [ ] Argola solta re-enrolada (fio + verniz/cola UV)
 - [ ] Blank inspecionado (fissuras, junções roscadas justas)
-- [ ] Linha: nova 0,35 na bobina **ou** a 0,40 do avô testada c/ nó (>6 kg ok)
+- [ ] Linha: nova 0,35 na bobina **ou** a 0,40 atual testada c/ nó (>6 kg ok)
 - [ ] Ferrugem: palha-de-aço 0000 + óleo; verdete da junção: vinagre → secar → cera
 
 ➡️ Peixes-alvo por barragem: [PEIXES-BARRAGENS.md](PEIXES-BARRAGENS.md) · Tamanhos de anzol: [TAMANHOS.md](TAMANHOS.md) · Nós: [NOS.md](NOS.md)

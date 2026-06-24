@@ -16,7 +16,7 @@ Resumo do que importa para a pesca **lúdica em águas interiores** (barragens).
 - **1 anzol por cana** — **exceção:** amostras artificiais (lures/vinil) podem ter mais anzóis ou fateixas (trebles).
 - Só **cana e linha**. Redes e afins = proibido na lúdica.
 
-> 👍 **As tuas 4 canas:** podes **tê-las todas**, mas **cada pescador** só pode usar **2 ao mesmo tempo** (e cada um precisa da **sua** licença). Tu (2 canas) + namorada (2 canas, com licença dela) = ok.
+> 👍 **Tens 4 canas?** Podes tê-las todas, mas **cada pescador** só usa **2 ao mesmo tempo** (cada um com a **sua** licença). 2 pescadores = 4 canas no total, ok.
 
 ## 🐟 Tamanhos mínimos & defeso
 | Espécie | Tamanho mínimo | Defeso (não pescar) |

@@ -15,7 +15,7 @@ Escolhe o modo pela **cana** e pelo **peixe**. Os **pesos** (chumbo/amostra), a 
 | **3 · Fundo (ledger)** | 💪 grande (4,20 m) | mono **0,35** (≈7 kg) · freio **2–2,5 kg** | chumbo azeitona **20–40 g** | longe **40–70 m** | carpa grande, barbo, peixe-gato-canal | [ledger](EXEMPLOS-MODULAR.md#ex-e) · [paternoster](EXEMPLOS-MODULAR.md#ex-paternoster) + [💪 Kit Pesado](KIT-PESADO.md) |
 | **4 · Boia a distância** | 💪 grande (4,20 m) | mono 0,35 · freio **2–2,5 kg** | boia deslizante **10–15 g** | **~30 m** | carpa, barbo (longe, à boia) | [boia deslizante](EXEMPLOS-MODULAR.md#ex-d) (escala maior) + [💪 Kit Pesado](KIT-PESADO.md) |
 
-🪶 **cana pequena** = combo WXM (ver [Material](MATERIAL.md)) · 💪 **cana grande** = cana de fundo do avô (ver [Kit Pesado](KIT-PESADO.md)).
+🪶 **cana pequena** = combo WXM (ver [Material](MATERIAL.md)) · 💪 **cana grande** = cana de fundo (ver [Kit Pesado](KIT-PESADO.md)).
 
 > ⚖️ As 2 canas juntas = o **máximo legal** (2 canas por pescador) — ver [Regras & licença](REGRAS.md).
 
@@ -138,7 +138,7 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~2,8–4,5 kg)**. É aí que pa
 | 🪢 Leader fluoro 0,20–0,25 | ~2,8–4,5 kg | **elo fraco** |
 | ⚙️ Freio que **usas** | ~1,5–2 kg | ≈ ⅓ do leader |
 
-➡️ Peixe grande (carpa 10 kg+, peixe-gato grande) = [**💪 Kit Pesado**](KIT-PESADO.md) (cana do avô 4,20 m + Sofi M2). Siluro fica fora.
+➡️ Peixe grande (carpa 10 kg+, peixe-gato grande) = [**💪 Kit Pesado**](KIT-PESADO.md) (cana grande 4,20 m + Sofi M2). Siluro fica fora.
 
 ---
 

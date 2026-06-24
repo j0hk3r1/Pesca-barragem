@@ -5,8 +5,8 @@ As **3 canas pequenas** usam o mesmo [**🪶 material leve**](MATERIAL.md) (linh
 | Cana | Para quê |
 |---|---|
 | **WXM 100** (nova, comprada) | spinning + boia — a principal |
-| **Verde/azul** (do avô) | spinning |
-| **Telescópica** (para a namorada) | boia perto da margem |
+| **Verde/azul** | spinning |
+| **Telescópica** | boia perto da margem |
 
 ---
 
@@ -29,4 +29,4 @@ A **1,80 m ML** chega bem para barragem casual. Sobe à **2,10 m** se quiseres l
 
 ---
 
-> 👴 **As velhas do avô:** a **verde/azul** (fibra de vidro, spinning) e a **telescópica** (para a namorada, boia perto da margem) restauram-se **com calma, sem pressa** e usam o mesmo material leve. A **cana de fundo 4,20 m + carreto Sofi M2** é que é à parte → [**💪 Kit Pesado**](KIT-PESADO.md), para peixe grande ao fundo.
+> 🔧 **Verde/azul** (fibra de vidro, spinning) e **telescópica** (boia perto da margem) — restauram-se sem pressa; usam o mesmo material leve. A **cana de fundo (4,20 m) + Sofi M2** é à parte → [**💪 Kit Pesado**](KIT-PESADO.md).

@@ -5,7 +5,7 @@
 > Setup completo para barragens portuguesas — material, montagens, nós, peixes.
 
 - 🛒 Material **da Decathlon** — tudo com link para clicar
-- 🎯 Spinning + boia (cana leve) + fundo (kit pesado do avô) · iniciante
+- 🎯 Spinning + boia (cana leve) + fundo (kit pesado) · iniciante
 - 🐟 Alqueva · Odivelas · Castelo do Bode · Idanha
 
 [Começar →](README.md)

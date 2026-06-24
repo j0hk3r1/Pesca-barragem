@@ -1,8 +1,8 @@
 # 🎒 Material — o que usar
 
-Todo o material dos **dois equipamentos**: a **cana pequena (leve)** para spinning + boia, e a **cana grande (pesado)** para pesca ao fundo. **Tudo da Decathlon — clica para ver o produto.**
+O material que usas nos **dois equipamentos**: a **cana pequena (leve)** para spinning + boia, e a **cana grande (pesado)** para pesca ao fundo. **Não conheces algum nome? Clica no link — vês logo o que é.**
 
-> Canas/carretos: as pequenas em [🎣 Canas pequenas](CANA.md); a cana grande (do avô) em [💪 Kit Pesado](KIT-PESADO.md).
+> Canas/carretos: as pequenas em [🎣 Canas pequenas](CANA.md); a cana grande em [💪 Kit Pesado](KIT-PESADO.md).
 
 ---
 
@@ -31,11 +31,11 @@ Cobre quase todos os peixes ao teu alcance: achigã, perca-sol, boga, ruivaco, c
 
 ## 💪 Cana grande (pesado) — pesca ao fundo
 
-A cana de fundo do avô (4,20 m) + carreto Sofi usam **linha mais forte** e acessórios próprios, para carpa 8 kg+, barbo grande e peixe-gato. Montagens (chumbo corrido / paternoster), distância e checklist → [💪 Kit Pesado](KIT-PESADO.md).
+A cana de fundo (4,20 m) + carreto Sofi usam **linha mais forte** e acessórios próprios, para carpa 8 kg+, barbo grande e peixe-gato. Montagens (chumbo corrido / paternoster), distância e checklist → [💪 Kit Pesado](KIT-PESADO.md).
 
-- 🧵 **Linha** (alvo: **elo fraco ~8 kg** — chega p/ carpa até ~15 kg; 12 kg é exagero). Por agora usa a **0,40 do avô**; para comprar, 2 opções:
-  - **Multi + mono** (como na pequena): braid [TX4 0,18–0,20](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) (~8–10 kg) + leader mono [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (~7–8 kg = o fusível).
-  - **Mono direta** [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) / 0,40 — mais simples e com mais elástico (perdoa o carreto velho). [Porquê não exagerar →](KIT-PESADO.md)
+- 🧵 **Linha** (alvo: **elo fraco ~8 kg** — chega p/ carpa até ~15 kg; 12 kg é exagero). Por agora usa a **0,40 atual**. Para a carpa nesta cana, **mono é a melhor escolha**:
+  - **Mono direta** ✅ — [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) / 0,40. O **elástico** da mono absorve os arrancos da carpa e o freio velho aos solavancos; simples e perdoa erros. [Porquê →](KIT-PESADO.md)
+  - **Multi + mono** — braid [TX4 0,18–0,20](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) + leader mono [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703). Só se quiseres **mais distância**; o braid **não estica**, precisa de freio bem suave.
 - ⚖️ **Chumbadas azeitona furada 20–40 g** — [Azeitonas perfuradas](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) (chumbo corrido / paternoster)
 - 🔘 **Batentes + pérolas** — [Nós de bloqueio c/ pérolas](https://www.decathlon.pt/p/nos-de-bloqueio-de-pesca-a-inglesa-com-boia-deslizante-conjunto-de-5/355294/m8883379)
 - 🪜 **Forquilhas** (cana pousada) — [dianteira (estaca V)](https://www.decathlon.pt/p/suportes-de-canas-pesca-agua-doce-estaca-telescopica-cabeca-v-45-70/X8328117/m8328117) + [traseira](https://www.decathlon.pt/p/suporte-dobravel-de-cana-de-pesca-em-agua-doce-plastico/314162/m8328113)

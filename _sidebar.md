@@ -9,4 +9,4 @@
 - [📏 Tamanhos & cores](TAMANHOS.md)
 - [🪢 Nós (passo-a-passo)](NOS.md)
 - [🎣 Canas pequenas](CANA.md)
-- [💪 Kit Pesado (cana do avô + Sofi)](KIT-PESADO.md)
+- [💪 Kit Pesado (cana grande + Sofi)](KIT-PESADO.md)

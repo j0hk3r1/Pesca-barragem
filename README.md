@@ -19,9 +19,9 @@ Guia casual para pescar nas barragens portuguesas (achigã, perca-sol, carpa, ba
 | Cana | Para quê | Material |
 |---|---|---|
 | **WXM 100** (nova) | spinning + boia — a principal | 🪶 leve |
-| **Verde/azul** (do avô) | spinning | 🪶 leve |
-| **Telescópica** (para a namorada) | boia perto da margem | 🪶 leve |
-| **Grande 4,20 m** (do avô) | **fundo — carpas gordas** 🐟 | 💪 pesado |
+| **Verde/azul** | spinning | 🪶 leve |
+| **Telescópica** | boia perto da margem | 🪶 leve |
+| **Grande 4,20 m** | **fundo — carpas gordas** 🐟 | 💪 pesado |
 
 São só **2 conjuntos de material**: o **🪶 leve** serve as **3 canas pequenas** (linha fina, spinning/boia, peixe até ~3 kg); o **💪 pesado** é só para a **grande** (linha forte, fundo, carpa 8 kg+). → [🎒 Material](MATERIAL.md).
 
@@ -50,8 +50,8 @@ São só **2 conjuntos de material**: o **🪶 leve** serve as **3 canas pequena
 | ⚖️ [**Regras & licença**](REGRAS.md) | Licença, nº de canas, mínimos, devolver/abater, isco — não apanhar multa |
 | 📏 [**Tamanhos & cores**](TAMANHOS.md) | Anzol + destorcedor (kg/mm reais) + cores |
 | 🪢 [**Nós**](NOS.md) | 8 nós passo-a-passo + vídeo |
-| 🎣 [**Canas pequenas**](CANA.md) | As 3 pequenas (combo a comprar + as do avô) |
-| 💪 [**Kit Pesado**](KIT-PESADO.md) | Cana de fundo do avô + Sofi M2: peixe grande, ledger |
+| 🎣 [**Canas pequenas**](CANA.md) | As 3 pequenas (combo WXM + as 2 velhas) |
+| 💪 [**Kit Pesado**](KIT-PESADO.md) | Cana de fundo + Sofi M2: peixe grande, ledger |
 
 ---
 
