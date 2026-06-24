@@ -60,6 +60,8 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 > - **Multi + mono** — braid [TX4 0,18–0,20](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) + leader mono [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703). Só p/ **mais distância**; o braid não estica, precisa de freio bem suave.
 >
 > **8 kg chega** (carpa até ~15 kg); **12 kg é a mais** (pior lançamento, mais visível, a cana antiga não precisa). Por agora usa a **0,40 atual**; muda quando partir.
+>
+> 🔩 **Fusível com mono direta?** Não precisas — o **freio é o fusível** (cede antes de partir). Se mesmo assim partir, a mono parte no **nó do anzol** → perdes só o anzol. Leader mais fino (ex. 0,35 + último troço 0,28) só se pescares junto a obstáculos.
 
 > ⚙️ **Freio:** o carreto verde regula **suave** (de ~1 kg até travado) — põe o de **trabalho a ~2–3 kg** (bem abaixo dos 8 kg da linha) e a carpa cansa contra ele; **nunca no travado**. O peixe grande ganha-se com **freio + flexão da cana + dar linha**, não a forçar. Os "muitos kg" do carreto = **capacidade de linha**, não força de freio. (Siluro 30 kg+ = equipamento dedicado, não esta cana.)
 
