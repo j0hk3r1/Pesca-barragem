@@ -45,6 +45,25 @@ Estes dois cobrem **~90%**. Junta **[SN HOOK WORM](https://www.decathlon.pt/p/an
 
 > ⚠️ **#16 não existe na CAPERLAN** — o #14 é o teu mínimo fino. Para vinil de achigã usa o **CAPERLAN [Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969)** (wide-gap, vendido pela Decathlon).
 
+### 📐 Que número é? (medir um anzol que já tens)
+
+O número dá-se pelo **gape** (abertura: do **bico** à **haste**) — **não** pela grossura do arame. Mede o gape (paquímetro ou régua) e compara:
+
+| Gape (abertura) | Nº aprox. |
+|--|--|
+| ~5 mm | **#14** |
+| ~6 mm | **#12** |
+| ~6–7 mm | **#10** |
+| ~7–8 mm | **#8** |
+| ~8–9 mm | **#6** |
+| ~10 mm | **#4** |
+| ~11–12 mm | **#2** |
+| ~13 mm | **#1** |
+| ~14–15 mm | **1/0** |
+| ~16–18 mm | **2/0** |
+
+> Aproximado (varia com o modelo). **Nº maior = anzol mais pequeno.** A grossura do arame (ex. 0,6 mm) = a **força**, não o tamanho.
+
 ### 🪝 Barbela (com ou sem)
 A **barbela** (farpa / barb) é o dente que impede o anzol de recuar ao entrar.
 - **Sem barbela (barbless):** entra/sai fácil, menos dano no peixe, desenfias rápido. Mas o peixe **solta-se com linha frouxa** → mantém-na esticada.
