@@ -4,6 +4,23 @@ Três passos: **A)** escolhe a montagem base · **B)** aprende a pescar (profund
 
 ---
 
+## 🎯 Os 4 modos de pesca (cana × estilo)
+
+Escolhe o modo pela **cana** e pelo **peixe**. Os **pesos** (chumbo/amostra), a linha e o freio mudam com o modo:
+
+| Modo | Cana | Linha + freio | Peso (chumbo / amostra) | Distância | Peixe | Exemplos |
+|---|---|---|---|---|---|---|
+| **1 · Spinning / vinil** | 🪶 pequena (WXM) | braid 0,12 + leader fluoro 0,20–0,25 (≈2,8–4,5 kg) · freio **1,5–2 kg** | amostra **2–7 g** (sem chumbo extra) | à estrutura **5–25 m** | achigã, perca, sandre peq. | [A](EXEMPLOS-MODULAR.md#ex-a) · [B](EXEMPLOS-MODULAR.md#ex-b) · [I](EXEMPLOS-MODULAR.md#ex-i) · [G](EXEMPLOS-MODULAR.md#ex-g) |
+| **2 · Boia** | 🪶 pequena (WXM) | braid 0,12 + leader 0,20–0,25 · freio **1,5–2 kg** | boia **0,5–4 g** + chumbo de pinça | perto/médio **3–20 m** | boga, ruivaco, perca-sol, pimpão, peixe-gato, carpa/barbo médios | [C](EXEMPLOS-MODULAR.md#ex-c) · [D](EXEMPLOS-MODULAR.md#ex-d) · [F](EXEMPLOS-MODULAR.md#ex-f) · [H](EXEMPLOS-MODULAR.md#ex-h) |
+| **3 · Fundo (ledger)** | 💪 grande (4,20 m) | mono **0,35** (≈7 kg) · freio **2–2,5 kg** | chumbo azeitona **20–40 g** | longe **40–70 m** | carpa grande, barbo, peixe-gato-canal | [E](EXEMPLOS-MODULAR.md#ex-e) + [💪 Kit Pesado](KIT-PESADO.md) |
+| **4 · Boia a distância** | 💪 grande (4,20 m) | mono 0,35 · freio **2–2,5 kg** | boia deslizante **10–15 g** | **~30 m** | carpa, barbo (longe, à boia) | [D](EXEMPLOS-MODULAR.md#ex-d) (escala maior) + [💪 Kit Pesado](KIT-PESADO.md) |
+
+🪶 **cana pequena** = combo WXM (ver [Material](MATERIAL.md)) · 💪 **cana grande** = cana de fundo do avô (ver [Kit Pesado](KIT-PESADO.md)).
+
+> ⚖️ As 2 canas juntas = o **máximo legal** (2 canas por pescador) — ver [Regras & licença](REGRAS.md).
+
+---
+
 # 🅰️ A · Montagem base (escolhe uma)
 
 ## ✨ Spinning — amostra
@@ -127,7 +144,7 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~2,8–4,5 kg)**. É aí que pa
 
 # 🅲 C · Exemplo pronto do teu peixe
 
-> 🎣 **Qual cana?** **Boia e spinning, perto/médio** = a **cana leve** (WXM) → exemplos A–D, F, G, H, I. **Fundo a distância para peixe grande** = a **cana grande 4,20 m** → exemplo E, em detalhe no [**💪 Kit Pesado**](KIT-PESADO.md).
+> 🎯 **Qual cana / modo?** Vê a tabela **Os 4 modos de pesca** no topo desta página — diz-te a cana, os pesos e o peixe de cada exemplo.
 
 > **Legenda:** `clipa →` = encaixas no snap-hub · `→` = ligado a seguir · **profundidade** (depth) = onde fica o isco/amostra.
 

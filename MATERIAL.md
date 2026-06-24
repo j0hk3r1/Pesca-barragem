@@ -25,6 +25,7 @@ Equipamento leve (spinning + boia) que cobre quase todos os peixes ao teu alcanc
 
 ## 🐛 Iscos naturais (não Decathlon)
 - **Minhoca** (worm) — apanha tudo. **Milho doce** em lata (corn) — carpa e barbo.
+- ➡️ Receitas de massa, partículas, engodo e regras de isco: [**🍞 Iscos & engodo**](ISCOS.md).
 
 ---
 

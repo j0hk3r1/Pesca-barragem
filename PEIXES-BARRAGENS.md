@@ -1,6 +1,6 @@
 # 🐟 Guia de Peixes — 4 Barragens
 
-Tamanhos realistas. Espécies incertas marcadas com **⚠️ Atenção**. Em todas precisas de **licença de pesca lúdica (ICNF)** + respeitar tamanhos mínimos e defesos.
+Tamanhos realistas. Espécies incertas marcadas com **⚠️ Atenção**. Em todas precisas de **licença de pesca lúdica (ICNF)** + respeitar tamanhos mínimos e defesos → tudo em [**⚖️ Regras & licença**](REGRAS.md).
 
 ---
 
@@ -16,6 +16,7 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 - **Peixe-gato-negro** → [F · fundo, ao anoitecer](EXEMPLOS-MODULAR.md#ex-f)
 
 > Peixe grande (carpa 8 kg+, barbo grande) ao fundo a distância = [💪 Kit Pesado](KIT-PESADO.md).
+> 🍞 Que isco pôr no anzol (massa, milho, receitas) → [Iscos & engodo](ISCOS.md).
 
 ---
 
@@ -27,7 +28,7 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 |---|---|---|---|
 | Achigã (largemouth bass) | 0,3–1,5 kg | ~2 kg = troféu (lendas ~3 kg) | Artificiais de barco/margem: jerkbaits/shads (Fev–Mai), poppers/cranks (manhã/fim tarde verão), senkos, spinnerbaits. Estrutura (structure), ilhas, pontas |
 | Lúcio-perca (sandre) | 1,0–2,5 kg (40–60 cm) | 3–4 kg / 80–85 cm | Vertical jigging e dropshot c/ vinil (soft plastic) sobre estrutura funda; dropshot da margem no inverno. Amanhecer/anoitecer/noite |
-| Peixe-gato-canal (americano) | 0,5–3 kg | +10 kg, até ~1 m | Iscos (bait) de fundo (peixe cortado, minhoca (worm), pasta) dia e noite. **O grande** |
+| Peixe-gato-canal (americano) | 0,5–3 kg | +10 kg, até ~1 m | Iscos (bait) de fundo (fígado, carne, minhoca (worm), pasta) dia e noite. **O grande** |
 | Peixe-gato-negro (Ameiurus melas) | 0,1–0,4 kg | ~<30 cm | Fundo c/ carne/minhoca. **O pequeno** (no lago desde 2003) |
 | Carpa comum | 1–4 kg | 10 kg+ (gigantes ainda raros) | Carpfishing/feeder c/ milho (corn), boilies, pasta; baías e margens inundadas |
 | Barbo (comizo / Guadiana) | 1–3 kg | 4–5 kg+ | Muitas vezes em vinis de achigã; feeder, carpfishing, mosca |
@@ -51,7 +52,7 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 | Nome PT | Típico | Grande | Como apanhar |
 |---|---|---|---|
 | Achigã | 0,3–1,2 kg | 2–3 kg (troféu) | Vinis (Texas/Carolina, dropshot, senkos), cranks, spinnerbaits junto a vegetação e à parede. Mínimo legal 20 cm |
-| Peixe-gato-negro (Ameiurus melas) *(se presente)* | 0,1–0,4 kg | ~0,4–0,5 kg (até ~30 cm; raro até ~50 cm) | **Fundo ou boia c/ carne/chouriço (sausage), fígado, minhoca, peixe cortado.** Come tudo cheiroso. Mais ativo ao anoitecer/noite. |
+| Peixe-gato-negro (Ameiurus melas) *(se presente)* | 0,1–0,4 kg | ~0,4–0,5 kg (até ~30 cm; raro até ~50 cm) | **Fundo ou boia c/ carne/chouriço (sausage), fígado, minhoca.** Come tudo cheiroso. Mais ativo ao anoitecer/noite. |
 | Boga | 0,05–0,25 kg | ~0,4–0,5 kg | Boia/fundo leve c/ pão, pasta, bicha, minhoca. Cardume |
 | Carpa | 1,5–5 kg | 8–12 kg+ | Feeder/fundo c/ boilies, milho, pão. Recinto de competição |
 | Barbo | 0,3–1,5 kg | 3–4 kg | Fundo/feeder c/ minhoca, pasta, milho |
@@ -98,7 +99,7 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 
 | Nome PT | Típico | Grande | Como apanhar |
 |---|---|---|---|
-| Siluro | 5–30 kg | 50–100 kg+ (102 kg no rio Ponsul, a jusante) | Grandes artificiais (jerkbaits ~25 cm), deadbaits, vivos/cortados; caça barbos nos baixios. Noite/pouca luz |
+| Siluro | 5–30 kg | 50–100 kg+ (102 kg no rio Ponsul, a jusante) | Grandes artificiais (jerkbaits ~25 cm); caça barbos nos baixios. Noite/pouca luz. ⚠️ Isco de peixe (deadbait) é proibido/restrito em águas interiores — ver edital |
 | Achigã | 0,4–1,5 kg | 2–3 kg (troféu) | Vinis, cranks, jigs de barco/margem |
 | Lúcio-perca / sandre | 1–3 kg | 4–6 kg+ | Spinning/jigging c/ vinis e swimbaits |
 | Carpa | 2–8 kg | 10–20 kg | Carpfishing c/ boilies/milho; também mosca |

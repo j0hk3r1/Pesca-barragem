@@ -27,7 +27,9 @@ Guia casual para pescar nas barragens portuguesas (achigã, perca-sol, carpa, ba
 |---|---|
 | 🎒 [**Material**](MATERIAL.md) | O que usar — todo o equipamento com links Decathlon |
 | 🎣 [**Montagens & como pescar**](EXEMPLOS-MODULAR.md) | Montagem base, técnica, distância, exemplo por peixe |
+| 🍞 [**Iscos & engodo**](ISCOS.md) | Massa, milho, receitas, preparação + regras de isco |
 | 🐟 [**Peixes & barragens**](PEIXES-BARRAGENS.md) | Espécies, tamanhos reais e métodos das 4 barragens |
+| ⚖️ [**Regras & licença**](REGRAS.md) | Licença, nº de canas, mínimos, devolver/abater, isco — não apanhar multa |
 | 📏 [**Tamanhos & cores**](TAMANHOS.md) | Anzol + destorcedor (kg/mm reais) + cores |
 | 🪢 [**Nós**](NOS.md) | 8 nós passo-a-passo + vídeo |
 | 🎣 [**A Cana**](CANA.md) | Combo cana+carreto a comprar (+ alternativas) |
@@ -35,4 +37,4 @@ Guia casual para pescar nas barragens portuguesas (achigã, perca-sol, carpa, ba
 
 ---
 
-> 📄 **Licença:** barragem = águas interiores → precisas da **Licença Geral de Pesca Lúdica** (ICNF). Tira-a no **Multibanco** (CC + NIF), poucos €, ano civil. 16+ (menores acompanhados por titular de licença). [Info ICNF](https://www.icnf.pt/pesca/pescaludicaedesportiva/licencas)
+> ⚖️ **Antes de ir:** precisas de **licença** (ICNF, Multibanco), há **mínimos de tamanho**, espécies a **abater vs devolver**, e regras de **isco/engodo**. Tudo o que evita multa → [**⚖️ Regras & licença**](REGRAS.md).
