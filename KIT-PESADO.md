@@ -63,6 +63,8 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 >
 > 🔩 **Fusível com mono direta?** Não precisas — o **freio é o fusível** (cede antes de partir). Se mesmo assim partir, a mono parte no **nó do anzol** → perdes só o anzol. Leader mais fino (ex. 0,35 + último troço 0,28) só se pescares junto a obstáculos.
 
+> 🎯 **Lanças 80–100 g com força?** Mete um **shock leader** — ~3–4 m de mono **mais grossa (~0,50 mm)** entre a linha-mãe e o chumbo. Absorve o sacão do lançamento e **evita que o chumbo se solte** (perigoso + perdes o chumbo). Regra: **~0,10 mm de leader por 25 g**. Para pousar perto (~60 g) sem força, dispensa.
+
 > ⚙️ **Freio:** o carreto verde regula **suave** (de ~1 kg até travado) — põe o de **trabalho a ~2–3 kg** (bem abaixo dos 8 kg da linha) e a carpa cansa contra ele; **nunca no travado**. O peixe grande ganha-se com **freio + flexão da cana + dar linha**, não a forçar. Os "muitos kg" do carreto = **capacidade de linha**, não força de freio. (Siluro 30 kg+ = equipamento dedicado, não esta cana.)
 
 ---
