@@ -43,7 +43,7 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 | Elemento | Força | Papel |
 |---|---|---|
 | 🧵 Mono [LINE 100](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) 0,35 nova | **~7,1 kg** (≈5–6 kg c/ nó) | linha única (sem leader) |
-| 🧵 Mono 0,40 do avô | parte ~10 kg; **c/ nó velho conta ~5–7 kg** | alternativa sentimental |
+| 🧵 Mono 0,40 do avô | parte ~10 kg; **c/ nó velho conta ~5–7 kg** | a que está na bobina (usa até partir) |
 | ⚙️ Freio que **usas** | **~2–2,5 kg** | ≈ ⅓ da linha (após service!) |
 
 | Peixe | Setup leve (WXM) | **Kit pesado** |

@@ -12,7 +12,7 @@ As **3 canas pequenas** usam o mesmo [**🪶 material leve**](MATERIAL.md) (linh
 
 ## ✅ A principal: combo WXM 100
 
-O teu setup leve é o **conjunto WXM 100** — [cana 1,80 m ML + carreto **2500**](https://www.decathlon.pt/p/cana-e-carreto-de-pesca-ao-corrico-wxm-100-spinning-1-80m-ml-5-14g-conjunto/339590/m8739959), casados de fábrica (6 passadores, antirretorno infinito, travão micrométrico) e prontos a pescar. ✅ (Já comprado.)
+O teu setup leve é o **conjunto WXM 100** — [cana 1,80 m ML + carreto **2500**](https://www.decathlon.pt/p/cana-e-carreto-de-pesca-ao-corrico-wxm-100-spinning-1-80m-ml-5-14g-conjunto/339590/m8739959), casados de fábrica (6 passadores, antirretorno infinito, travão micrométrico) e prontos a pescar.
 
 ---
 
