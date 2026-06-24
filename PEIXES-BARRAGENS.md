@@ -8,12 +8,12 @@ Tamanhos realistas. Espécies incertas marcadas com **⚠️ Atenção**. Em tod
 
 Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à Decathlon):
 
-- **Achigã** → [superfície](EXEMPLOS-MODULAR.md#ex-a) · [fundo/meia-água](EXEMPLOS-MODULAR.md#ex-b) · [wacky (água limpa)](EXEMPLOS-MODULAR.md#ex-i)
-- **Sandre / lúcio-perca** → [dropshot](EXEMPLOS-MODULAR.md#ex-g)
-- **Carpa** → [boia funda](EXEMPLOS-MODULAR.md#ex-d) · [fundo (ledger)](EXEMPLOS-MODULAR.md#ex-e) · [pão à superfície](EXEMPLOS-MODULAR.md#ex-h)
-- **Barbo** → [boia funda](EXEMPLOS-MODULAR.md#ex-d) · [fundo (ledger)](EXEMPLOS-MODULAR.md#ex-e)
-- **Boga / ruivaco / perca-sol** → [meia-água à boia](EXEMPLOS-MODULAR.md#ex-c)
-- **Peixe-gato-negro** → [fundo, ao anoitecer](EXEMPLOS-MODULAR.md#ex-f)
+- **Achigã** → [spinning](EXEMPLOS-MODULAR.md#ex-spin)
+- **Sandre / lúcio-perca** → [spinning (vinil)](EXEMPLOS-MODULAR.md#ex-spin)
+- **Carpa** → [boia deslizante](EXEMPLOS-MODULAR.md#ex-deslizante) · [fundo](EXEMPLOS-MODULAR.md#ex-fundo)
+- **Barbo** → [boia deslizante](EXEMPLOS-MODULAR.md#ex-deslizante) · [fundo](EXEMPLOS-MODULAR.md#ex-fundo)
+- **Boga / ruivaco / perca-sol** → [boia](EXEMPLOS-MODULAR.md#ex-boia)
+- **Peixe-gato-negro** → [peixe-gato](EXEMPLOS-MODULAR.md#ex-gato)
 
 > Peixe grande (carpa 8 kg+, barbo grande) ao fundo a distância = [💪 Kit Pesado](KIT-PESADO.md).
 > 🍞 Que isco pôr no anzol (massa, milho, receitas) → [Iscos & engodo](ISCOS.md).

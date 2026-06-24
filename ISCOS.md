@@ -2,7 +2,7 @@
 
 Iscos naturais/caseiros para a pesca **à boia** e **ao fundo** — os peixes "pasto": carpa, barbo, boga, ruivaco, perca-sol, pimpão, peixe-gato.
 
-> Os **predadores** (achigã, sandre) pescam-se com **amostra/vinil**, não com isco → ver [**Modo 1 · Spinning/vinil**](EXEMPLOS-MODULAR.md#modo-1).
+> Os **predadores** (achigã, sandre) pescam-se com **amostra/vinil**, não com isco → ver [**Spinning — Achigã**](EXEMPLOS-MODULAR.md#ex-spin).
 
 ---
 
@@ -10,13 +10,13 @@ Iscos naturais/caseiros para a pesca **à boia** e **ao fundo** — os peixes "p
 
 | Isco | Peixe | Montagem |
 |---|---|---|
-| **Massa** (pão/farinha/sêmola) | boga, ruivaco, perca-sol, pimpão, carpa | [boia](EXEMPLOS-MODULAR.md#ex-c) · [boia funda](EXEMPLOS-MODULAR.md#ex-d) |
-| **Milho doce** | carpa, barbo | [boia funda](EXEMPLOS-MODULAR.md#ex-d) · [fundo](EXEMPLOS-MODULAR.md#ex-e) |
-| **Grão-de-bico / partículas** (cozido) | carpa, barbo | [fundo](EXEMPLOS-MODULAR.md#ex-e) |
-| **Queijo** (duro) | carpa, barbo | [fundo](EXEMPLOS-MODULAR.md#ex-e) |
-| **Pão a flutuar** | carpa (verão, à superfície) | [pão](EXEMPLOS-MODULAR.md#ex-h) |
-| **Larva (asticô) / minhoca** | boga, perca-sol, barbo, tudo | [boia](EXEMPLOS-MODULAR.md#ex-c) |
-| **Carne / chouriço / fígado** | peixe-gato-negro | [fundo, anoitecer](EXEMPLOS-MODULAR.md#ex-f) |
+| **Massa** (pão/farinha/sêmola) | boga, ruivaco, perca-sol, pimpão, carpa | [boia](EXEMPLOS-MODULAR.md#ex-boia) · [boia deslizante](EXEMPLOS-MODULAR.md#ex-deslizante) |
+| **Milho doce** | carpa, barbo | [boia deslizante](EXEMPLOS-MODULAR.md#ex-deslizante) · [fundo](EXEMPLOS-MODULAR.md#ex-fundo) |
+| **Grão-de-bico / partículas** (cozido) | carpa, barbo | [fundo](EXEMPLOS-MODULAR.md#ex-fundo) |
+| **Queijo** (duro) | carpa, barbo | [fundo](EXEMPLOS-MODULAR.md#ex-fundo) |
+| **Pão** | carpa, boga | [boia](EXEMPLOS-MODULAR.md#ex-boia) · [fundo](EXEMPLOS-MODULAR.md#ex-fundo) |
+| **Larva (asticô) / minhoca** | boga, perca-sol, barbo, tudo | [boia](EXEMPLOS-MODULAR.md#ex-boia) |
+| **Carne / chouriço / fígado** | peixe-gato-negro | [peixe-gato](EXEMPLOS-MODULAR.md#ex-gato) |
 
 ---
 
