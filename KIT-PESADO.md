@@ -24,7 +24,7 @@ O segundo equipamento: **pesca de fundo (ledger) de margem para peixe grande** �
 Tudo na Decathlon — clica para ver:
 
 - 🧵 **Linha mono 0,35** — [CAPERLAN LINE 100 castanho 0,35 mm (7,1 kg)](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (ou usa a **0,40 atual**, já testada)
-- ⚖️ **Chumbadas 40–100 g** — [azeitona furada (até 60 g)](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) p/ perto; as tuas **~100 g** p/ longe
+- ⚖️ **Chumbadas 60–100 g** — [azeitona furada (até 60 g)](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) p/ perto; as tuas **~100 g** p/ longe
 - 🔘 **Batentes + pérolas (beads)** — [Nós de bloqueio c/ pérolas](https://www.decathlon.pt/p/nos-de-bloqueio-de-pesca-a-inglesa-com-boia-deslizante-conjunto-de-5/355294/m8883379)
 - 🪜 **Forquilhas** (cana pousada à espera) — [dianteira (estaca V)](https://www.decathlon.pt/p/suportes-de-canas-pesca-agua-doce-estaca-telescopica-cabeca-v-45-70/X8328117/m8328117) + [traseira (suporte)](https://www.decathlon.pt/p/suporte-dobravel-de-cana-de-pesca-em-agua-doce-plastico/314162/m8328113)
 - 🔔 **Guizos** (sinalizam o toque na ponta) — [2 guizos c/ pinça](https://www.decathlon.pt/p/2-guizos-compridos-c-pinca-b-l/329361/m8607175)
@@ -44,7 +44,7 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 |---|---|---|
 | 🧵 Mono [LINE 100](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) 0,35 nova | **~7,1 kg** (≈5–6 kg c/ nó) | linha única (sem leader) |
 | 🧵 Mono 0,40 atual | parte ~10 kg; **c/ nó velho conta ~5–7 kg** | a que está na bobina (usa até partir) |
-| ⚙️ Freio que **usas** | **~2–2,5 kg** | ≈ ⅓ da linha (após service!) |
+| ⚙️ Freio que **usas** | **~2–3 kg** | ≈ ⅓ da linha (após service!) |
 
 | Peixe | Setup leve (WXM) | **Kit pesado** |
 |---|---|---|
@@ -53,7 +53,7 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 | Peixe-gato-canal grande (Alqueva) | ❌ intocável | ⚠️/✅ dá luta real |
 | Siluro (Idanha) | ❌ | ❌ **continua não** — disciplina própria |
 
-> ⚠️ **Antes de confiar peixe grande:** (1) service aos carretos — drag de 1965 gripado parte linha; testa c/ balança, deve ceder suave a ~2–2,5 kg; (2) re-enrolar a argola solta; (3) inspeção de fissuras no blank (junções!); (4) mono velha = imprevisível no **sacão** — a balança puxa devagar, o peixe não.
+> ⚠️ **Antes de confiar peixe grande:** (1) service aos carretos — drag de 1965 gripado parte linha; testa c/ balança, deve ceder suave a ~2–3 kg; (2) re-enrolar a argola solta; (3) inspeção de fissuras no blank (junções!); (4) mono velha = imprevisível no **sacão** — a balança puxa devagar, o peixe não.
 
 > 🧵 **Que linha (alvo: elo fraco ~8 kg).** Para a carpa nesta cana, **mono é melhor**:
 > - **Mono direta** ✅ — [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) / 0,40. O **elástico** absorve os arrancos da carpa e o freio velho aos solavancos; simples, perdoa erros.
@@ -75,13 +75,13 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 cana → mono 0,35 → [pérola] → AZEITONA furada (desliza) → [pérola] → destorcedor nº14 → leader 40-60 cm → anzol c/ isco
 ```
 
-1. Enfia **pérola + chumbo 40–100 g + pérola** na linha-mãe (perto → longe)
+1. Enfia **pérola + chumbo 60–100 g + pérola** na linha-mãe (perto → longe)
 2. Ata **destorcedor barril nº14** ([já o tens](TAMANHOS.md)) — trava a azeitona
 3. Leader **40–60 cm** de mono/fluoro + anzol ([SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081), minhoca/milho/carne)
 4. Lança, deixa assentar, **estica a linha**, cana na forquilha, **guizo na ponta**
 5. Guizo toca / ponta dobra → **ferra**
 
-Diagrama do conceito: **Exemplo E — pesca ao fundo (ledger)** em [Montagens & Exemplos](EXEMPLOS-MODULAR.md) (igual, com chumbo maior). Iscos: minhoca, milho, pão, carne/chouriço (peixe-gato).
+Diagramas (chumbo corrido + paternoster) no setup **[Fundo](EXEMPLOS-MODULAR.md#ex-fundo)**. Iscos: minhoca, milho, pão, carne/chouriço (peixe-gato).
 
 ---
 
@@ -89,7 +89,7 @@ Diagrama do conceito: **Exemplo E — pesca ao fundo (ledger)** em [Montagens & 
 
 | Método | Setup leve | **Kit pesado** |
 |---|---|---|
-| Fundo (40–100 g) | ~20–30 m | **40–90 m** |
+| Fundo (60–100 g) | ~20–30 m | **40–90 m** |
 | Boia | ~15–20 m | ~30 m (deslizante 15 g) |
 
 - **Fundo = o método p/ longe.** Boia a +30 m quase não se vê e o vento arrasta.
@@ -107,7 +107,7 @@ A lei de pesca lúdica **não limita a distância de lançamento**. O que existe
 ## 🔧 Checklist antes da 1ª pescaria
 
 - [ ] Service aos carretos: abrir, massa lítio nas engrenagens, óleo no eixo/rolamento, testar mola do bail
-- [ ] **Drag testado c/ balança** — cede suave a ~2–2,5 kg
+- [ ] **Drag testado c/ balança** — cede suave a ~2–3 kg
 - [ ] Argola solta re-enrolada (fio + verniz/cola UV)
 - [ ] Blank inspecionado (fissuras, junções roscadas justas)
 - [ ] Linha: nova 0,35 na bobina **ou** a 0,40 atual testada c/ nó (>6 kg ok)

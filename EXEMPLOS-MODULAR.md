@@ -7,7 +7,7 @@ Três passos: **A)** escolhe a montagem base · **B)** aprende a pescar (profund
 ## 🎯 Qual cana × estilo
 
 - 🪶 **Cana pequena** (WXM) → **spinning** (amostra, achigã) e **boia** perto (boga, perca, carpa média). Linha fina · freio **1,5–2 kg**.
-- 💪 **Cana grande** (4,20 m) → **fundo** (carpa, a distância) e **boia deslizante** longe. Mono 0,35 · freio **2–2,5 kg**.
+- 💪 **Cana grande** (4,20 m) → **fundo** (carpa, a distância) e **boia deslizante** longe. Mono 0,35 · freio **2–3 kg**.
 
 > ⚖️ Só **2 canas por pescador** ao mesmo tempo → [Regras](REGRAS.md).
 
@@ -186,7 +186,7 @@ clipa → nó-batente + missanga → boia deslizante 2–4 g (10–15 g na cana 
 
 ## 🔵 Fundo — carpa / barbo · 💪 cana grande
 
-O setup das **carpas gordas**: lança longe, pousa, espera o guizo. **Peso: ~40 g (perto) → 80–100 g (longe / a segurar)** — as tuas de **~100 g** servem para lançar longe. Dois rigs, os dois bons:
+O setup das **carpas gordas**: lança longe, pousa, espera o guizo. **Peso: ~60 g (perto) → 100 g (longe / a segurar)** — as tuas de **~100 g** são ideais para lançar longe. Dois rigs, os dois bons:
 
 ### 🪝 Paternoster — isco ACIMA do fundo
 
@@ -203,12 +203,12 @@ Peso no fundo, isco suspenso no ramal — bom em **fundo mole / ervas** e dá me
 <img src="img/ex-ledger.svg" alt="Chumbo corrido — isco no fundo" width="470" height="394">
 
 ```
-fio → chumbo 40–100 g (desliza) → barril (batente)
+fio → chumbo 60–100 g (desliza) → barril (batente)
     → leader 40–60 cm → anzol #8–6 + milho / boilie
 ```
 O peixe leva linha **sem sentir o peso**.
 
-- **Mordida:** ponta da cana / guizo bate → ferra. **Freio** suave (~2–2,5 kg) — deixa a carpa correr.
+- **Mordida:** ponta da cana / guizo bate → ferra. **Freio** suave (~2–3 kg) — deixa a carpa correr.
 - 🛒 Pesos: as tuas de **~100 g** (longe) ou [azeitona furada (até 60 g)](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) (perto/médio) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Completo → [💪 Kit Pesado](KIT-PESADO.md).
 
 <a id="ex-gato"></a>
