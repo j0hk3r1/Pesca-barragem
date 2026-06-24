@@ -52,6 +52,21 @@ Peixe **abaixo do mínimo** ou **em defeso** → **devolve** (com cuidado, mãos
 
 ---
 
+<a id="regras-por-barragem"></a>
+
+## 🏞️ Regras por barragem (as nossas 4)
+
+Todas se regem pelo **regime geral** acima (licença ICNF + mínimos/defesos nacionais). O que confirmei de específico:
+
+- **🏞️ Alqueva** — regime geral. ⚠️ **Fronteira com Espanha:** o Guadiana é rio internacional e do **lado espanhol** as regras diferem (sobretudo sandre/lúcio) → **confirma de que lado pescas**. A albufeira tem regras de utilização próprias (navegação/zonas) — [Roteiro do Alqueva](https://www.roteirodoalqueva.com/barragem-do-alqueva/regras-de-utilizacao).
+- **🏞️ Odivelas** — regime geral. É **recinto de competição** (feeder): durante provas pode haver **zona/concessão com acesso condicionado**. Confirma com o ICNF/clube local.
+- **🏞️ Castelo do Bode** — **água de abastecimento (uso protegido)** com plano próprio (**POACB**): usos preferenciais/condicionados/proibidos. **Proibidos motores a 2 tempos** nos barcos. As **praias fluviais** são zonas balneares (não pescar lá em época). Engodo permitido (exceto peixe/ovas).
+- **🏞️ Idanha / Marechal Carmona** — regime geral + **folheto de regras da Câmara de Idanha-a-Nova** para a albufeira e zona envolvente (atividades permitidas: pesca, natação, vela, windsurf) — [CM Idanha](https://www.cm-idanhanova.pt/media/18513/Folheto_Abufeira_Idanha.pdf).
+
+> ⚠️ Estes pontos não substituem o **edital/plano oficial** de cada albufeira — confirma sempre antes de ir.
+
+---
+
 ## ✅ Antes de ir
 - [ ] **Licença** válida (telemóvel ou impressa).
 - [ ] Saber o **tamanho mínimo** das espécies-alvo.

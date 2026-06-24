@@ -21,6 +21,16 @@ Guia casual para pescar nas barragens portuguesas (achigã, perca-sol, carpa, ba
 
 ---
 
+## 🧭 No dia, decide assim
+
+1. **Que peixe queres?** → cada peixe leva-te à montagem certa: tabela **"montagem por peixe"** no topo de [🐟 Peixes & barragens](PEIXES-BARRAGENS.md).
+2. **Hora & água?** Amanhecer/anoitecer = peixe **raso e perto**; dia quente = **fundo e mais longe**. Água limpa = fio fino + cores naturais; turva = cheiro/vibração.
+3. **Onde estás?** Margem a pique = **água funda logo perto** (não precisas lançar longe). Procura **estrutura** (pedras, troncos, juncos) — é onde o peixe está.
+4. **→ Escolhe o modo** (cana × estilo, com os pesos) e a montagem na tabela **"Os 4 modos"** de [🎣 Montagens & como pescar](EXEMPLOS-MODULAR.md).
+5. **Que isco no anzol?** → [🍞 Iscos & engodo](ISCOS.md). **É legal?** → [⚖️ Regras & licença](REGRAS.md).
+
+---
+
 ## 📖 Todas as páginas
 
 | Página | O que tem |

@@ -2,7 +2,7 @@
 
 Iscos naturais/caseiros para a pesca **à boia** e **ao fundo** — os peixes "pasto": carpa, barbo, boga, ruivaco, perca-sol, pimpão, peixe-gato.
 
-> Os **predadores** (achigã, sandre) pescam-se com **amostra/vinil**, não com isco → ver montagens [A](EXEMPLOS-MODULAR.md#ex-a) · [B](EXEMPLOS-MODULAR.md#ex-b) · [G](EXEMPLOS-MODULAR.md#ex-g) · [I](EXEMPLOS-MODULAR.md#ex-i).
+> Os **predadores** (achigã, sandre) pescam-se com **amostra/vinil**, não com isco → ver [**Modo 1 · Spinning/vinil**](EXEMPLOS-MODULAR.md#modo-1).
 
 ---
 
@@ -10,13 +10,13 @@ Iscos naturais/caseiros para a pesca **à boia** e **ao fundo** — os peixes "p
 
 | Isco | Peixe | Montagem |
 |---|---|---|
-| **Massa** (pão/farinha/sêmola) | boga, ruivaco, perca-sol, pimpão, carpa | [C · boia](EXEMPLOS-MODULAR.md#ex-c) · [D · boia funda](EXEMPLOS-MODULAR.md#ex-d) |
-| **Milho doce** | carpa, barbo | [D · boia funda](EXEMPLOS-MODULAR.md#ex-d) · [E · fundo](EXEMPLOS-MODULAR.md#ex-e) |
-| **Grão-de-bico / partículas** (cozido) | carpa, barbo | [E · fundo](EXEMPLOS-MODULAR.md#ex-e) |
-| **Queijo** (duro) | carpa, barbo | [E · fundo](EXEMPLOS-MODULAR.md#ex-e) |
-| **Pão a flutuar** | carpa (verão, à superfície) | [H · pão](EXEMPLOS-MODULAR.md#ex-h) |
-| **Larva (asticô) / minhoca** | boga, perca-sol, barbo, tudo | [C · boia](EXEMPLOS-MODULAR.md#ex-c) |
-| **Carne / chouriço / fígado** | peixe-gato-negro | [F · fundo, anoitecer](EXEMPLOS-MODULAR.md#ex-f) |
+| **Massa** (pão/farinha/sêmola) | boga, ruivaco, perca-sol, pimpão, carpa | [boia](EXEMPLOS-MODULAR.md#ex-c) · [boia funda](EXEMPLOS-MODULAR.md#ex-d) |
+| **Milho doce** | carpa, barbo | [boia funda](EXEMPLOS-MODULAR.md#ex-d) · [fundo](EXEMPLOS-MODULAR.md#ex-e) |
+| **Grão-de-bico / partículas** (cozido) | carpa, barbo | [fundo](EXEMPLOS-MODULAR.md#ex-e) |
+| **Queijo** (duro) | carpa, barbo | [fundo](EXEMPLOS-MODULAR.md#ex-e) |
+| **Pão a flutuar** | carpa (verão, à superfície) | [pão](EXEMPLOS-MODULAR.md#ex-h) |
+| **Larva (asticô) / minhoca** | boga, perca-sol, barbo, tudo | [boia](EXEMPLOS-MODULAR.md#ex-c) |
+| **Carne / chouriço / fígado** | peixe-gato-negro | [fundo, anoitecer](EXEMPLOS-MODULAR.md#ex-f) |
 
 ---
 
@@ -52,11 +52,11 @@ Iscos naturais/caseiros para a pesca **à boia** e **ao fundo** — os peixes "p
 Além do isco no anzol, atiras para a água uma mistura que chama o peixe:
 - **Pão ralado + farinha de milho + milho doce esmagado** + um pouco de água → bolas do tamanho de uma tangerina, atiradas ao sítio onde pescas.
 
-> ⚖️ **Engodo tem regras (ICNF) — confirma antes:**
-> - **Permitido** em geral (isco e engodo naturais/artificiais)... **mas proibido em águas de uso protegido** (várias albufeiras de abastecimento — **confirma Castelo do Bode**, que abastece Lisboa).
-> - **Proibido** usar **ovas** de peixe ou substâncias que causem dano ambiental.
-> - O ICNF pode **limitar por albufeira**; em concurso o máximo ronda os ~10 kg.
-> - Confirma sempre o **edital** da albufeira.
+> ⚖️ **Engodo — regras (ICNF):**
+> - **Permitido** em geral (isco e engodo naturais/artificiais), **exceto peixe (vivo/morto) e ovas**, ou substâncias que causem dano ambiental.
+> - Pode ser **restrito em certas zonas** (serviços de uso protegido) — **confirma o edital** da albufeira.
+> - Em concurso o máximo ronda os ~10 kg.
+> - **Castelo do Bode** (água de abastecimento): engodo permitido, mas a albufeira tem regras próprias (POACB) — ex.: **proibidos motores a 2 tempos** nos barcos. Ver [Regras por barragem](REGRAS.md#regras-por-barragem).
 
 ---
 

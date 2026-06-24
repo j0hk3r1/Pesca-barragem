@@ -10,10 +10,10 @@ Escolhe o modo pela **cana** e pelo **peixe**. Os **pesos** (chumbo/amostra), a 
 
 | Modo | Cana | Linha + freio | Peso (chumbo / amostra) | Distância | Peixe | Exemplos |
 |---|---|---|---|---|---|---|
-| **1 · Spinning / vinil** | 🪶 pequena (WXM) | braid 0,12 + leader fluoro 0,20–0,25 (≈2,8–4,5 kg) · freio **1,5–2 kg** | amostra **2–7 g** (sem chumbo extra) | à estrutura **5–25 m** | achigã, perca, sandre peq. | [A](EXEMPLOS-MODULAR.md#ex-a) · [B](EXEMPLOS-MODULAR.md#ex-b) · [I](EXEMPLOS-MODULAR.md#ex-i) · [G](EXEMPLOS-MODULAR.md#ex-g) |
-| **2 · Boia** | 🪶 pequena (WXM) | braid 0,12 + leader 0,20–0,25 · freio **1,5–2 kg** | boia **0,5–4 g** + chumbo de pinça | perto/médio **3–20 m** | boga, ruivaco, perca-sol, pimpão, peixe-gato, carpa/barbo médios | [C](EXEMPLOS-MODULAR.md#ex-c) · [D](EXEMPLOS-MODULAR.md#ex-d) · [F](EXEMPLOS-MODULAR.md#ex-f) · [H](EXEMPLOS-MODULAR.md#ex-h) |
-| **3 · Fundo (ledger)** | 💪 grande (4,20 m) | mono **0,35** (≈7 kg) · freio **2–2,5 kg** | chumbo azeitona **20–40 g** | longe **40–70 m** | carpa grande, barbo, peixe-gato-canal | [E](EXEMPLOS-MODULAR.md#ex-e) + [💪 Kit Pesado](KIT-PESADO.md) |
-| **4 · Boia a distância** | 💪 grande (4,20 m) | mono 0,35 · freio **2–2,5 kg** | boia deslizante **10–15 g** | **~30 m** | carpa, barbo (longe, à boia) | [D](EXEMPLOS-MODULAR.md#ex-d) (escala maior) + [💪 Kit Pesado](KIT-PESADO.md) |
+| **1 · Spinning / vinil** | 🪶 pequena (WXM) | braid 0,12 + leader fluoro 0,20–0,25 (≈2,8–4,5 kg) · freio **1,5–2 kg** | amostra **2–7 g** (sem chumbo extra) | à estrutura **5–25 m** | achigã, perca, sandre peq. | [superfície](EXEMPLOS-MODULAR.md#ex-a) · [fundo](EXEMPLOS-MODULAR.md#ex-b) · [wacky](EXEMPLOS-MODULAR.md#ex-i) · [dropshot](EXEMPLOS-MODULAR.md#ex-g) |
+| **2 · Boia** | 🪶 pequena (WXM) | braid 0,12 + leader 0,20–0,25 · freio **1,5–2 kg** | boia **0,5–4 g** + chumbo de pinça | perto/médio **3–20 m** | boga, ruivaco, perca-sol, pimpão, peixe-gato, carpa/barbo médios | [perca/boga](EXEMPLOS-MODULAR.md#ex-c) · [boia funda](EXEMPLOS-MODULAR.md#ex-d) · [peixe-gato](EXEMPLOS-MODULAR.md#ex-f) · [pão](EXEMPLOS-MODULAR.md#ex-h) |
+| **3 · Fundo (ledger)** | 💪 grande (4,20 m) | mono **0,35** (≈7 kg) · freio **2–2,5 kg** | chumbo azeitona **20–40 g** | longe **40–70 m** | carpa grande, barbo, peixe-gato-canal | [ledger](EXEMPLOS-MODULAR.md#ex-e) + [💪 Kit Pesado](KIT-PESADO.md) |
+| **4 · Boia a distância** | 💪 grande (4,20 m) | mono 0,35 · freio **2–2,5 kg** | boia deslizante **10–15 g** | **~30 m** | carpa, barbo (longe, à boia) | [boia deslizante](EXEMPLOS-MODULAR.md#ex-d) (escala maior) + [💪 Kit Pesado](KIT-PESADO.md) |
 
 🪶 **cana pequena** = combo WXM (ver [Material](MATERIAL.md)) · 💪 **cana grande** = cana de fundo do avô (ver [Kit Pesado](KIT-PESADO.md)).
 
@@ -142,27 +142,20 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~2,8–4,5 kg)**. É aí que pa
 
 ---
 
-# 🅲 C · Exemplo pronto do teu peixe
+# 🅲 C · Exemplos por modo
 
-> 🎯 **Qual cana / modo?** Vê a tabela **Os 4 modos de pesca** no topo desta página — diz-te a cana, os pesos e o peixe de cada exemplo.
+> **Legenda:** `clipa →` = encaixas no snap · `→` = ligado a seguir · **profundidade** = onde fica o isco/amostra.
+> 🔗 **Relacionado:** que peixe há em cada barragem → [🐟 Peixes](PEIXES-BARRAGENS.md) · que isco pôr no anzol → [🍞 Iscos](ISCOS.md) · os nós → [🪢 Nós](NOS.md) · o que é legal → [⚖️ Regras](REGRAS.md).
 
-> **Legenda:** `clipa →` = encaixas no snap-hub · `→` = ligado a seguir · **profundidade** (depth) = onde fica o isco/amostra.
+<a id="modo-1"></a>
 
-| # | Exemplo | Peixe | Método |
-|---|---|---|---|
-| A | Superfície | Achigã | spinning, amostra à tona |
-| B | Fundo / meia-água | Achigã | spinning, vinil no jig |
-| C | Meia-água à boia | Perca-sol / boga / ruivaco | boia fixa + isco |
-| D | Boia funda | Carpa / barbo | boia deslizante |
-| E | Fundo (ledger) | Carpa / barbo | chumbo corrido |
-| F | Fundo, anoitecer | Peixe-gato-negro | isco cheiroso |
-| G | Dropshot fundo | Sandre / lúcio-perca | vinil a abanar parado |
-| H | Pão à superfície | Carpa | floating bread (verão) |
-| I | Wacky (água limpa) | Achigã | finesse, sem chumbo |
+## 🪶 Modo 1 · Spinning / vinil (cana pequena)
+
+Predador (achigã, perca, sandre pequeno). Atiras **amostra/vinil 2–7 g** à estrutura e recolhes. Cana leve, leader fino, freio **1,5–2 kg**.
 
 <a id="ex-a"></a>
 
-## 🟢 A · ACHIGÃ (largemouth bass) — superfície
+### 🟢 ACHIGÃ (largemouth bass) — superfície
 
 Água quente, peixe a caçar à tona junto a **estrutura (structure)** — pedras, troncos, vegetação. Manhã ou fim de tarde.
 
@@ -177,7 +170,7 @@ clipa → leader fluorocarbono 50–80 cm → colher giratória (spinner) 2–5 
 
 <a id="ex-b"></a>
 
-## 🟢 B · ACHIGÃ — fundo / meia-água
+### 🟢 ACHIGÃ — fundo / meia-água
 
 Dia quente, peixe fundo. **Conta a queda (countdown)** (1, 2, 3… ≈ 30 cm/seg) até achar a camada.
 
@@ -188,9 +181,45 @@ clipa → leader 50–80 cm → cabeça plombada (jig head) 3–7 g + vinil (sof
 ```
 - **Alternativa:** montagem Texas (Texas rig) com anzol **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) 1/0–3/0** (CAPERLAN — Decathlon vende, ver [Material](MATERIAL.md)).
 
+<a id="ex-i"></a>
+
+### 🟢 ACHIGÃ — wacky / sem chumbo (água limpa)
+
+Finesse p/ peixe desconfiado em água limpa (Castelo do Bode). Queda lenta e horizontal.
+
+<img src="img/ex-achiga-wacky.svg" alt="Achigã wacky" width="470" height="361">
+
+```
+clipa → leader 50–80 cm → anzol wacky (wacky hook) #1 espetado no MEIO do vinil/senko
+```
+- **Profundidade:** **sem chumbo** → afunda sozinho devagar, as 2 pontas a tremer. Mordida **na queda**.
+- Atira junto a estrutura (structure), deixa cair. Cores naturais, fio fino.
+
+<a id="ex-g"></a>
+
+### 🟣 SANDRE / LÚCIO-PERCA (zander) — dropshot
+
+Predador de fundo/estrutura funda (Castelo do Bode, Idanha, Alqueva). Amanhecer e anoitecer.
+
+<img src="img/ex-sandre-dropshot.svg" alt="Sandre dropshot" width="490" height="438">
+
+```
+clipa → leader 60–100 cm → nó dropshot: anzol #1–1/0 no ramal (ponta p/ cima) + vinil pequeno
+                           → linha continua → chumbo de dropshot 5–12 g no fundo
+```
+- **Profundidade:** chumbo no fundo; isco a **15–40 cm** acima.
+- **Técnica:** **abana no sítio** (não recolhes) — o vinil (soft plastic) dança parado. Anzol forte p/ a boca óssea do sandre.
+- ⚠️ Sandre grande (4–8 kg) está **acima do teu material** — vai a pequenos/médios.
+
+<a id="modo-2"></a>
+
+## 🪶 Modo 2 · Boia (cana pequena)
+
+Peixe-pasto (boga, perca-sol, carpa/barbo médios, peixe-gato) **perto/médio**. **Boia 0,5–4 g** + chumbo de pinça. 🔗 Que isco pôr → [🍞 Iscos & engodo](ISCOS.md). Boia fixa vs deslizante → secção **B** no topo.
+
 <a id="ex-c"></a>
 
-## 🟡 C · PERCA-SOL / BOGA / RUIVACO — meia-água
+### 🟡 PERCA-SOL / BOGA / RUIVACO — meia-água
 
 Margem, fácil (bom p/ começar). Peixe pequeno, boca pequena.
 
@@ -207,7 +236,7 @@ clipa → boia fixa (fixed float) 0,5–1 g → chumbos de pinça (split shot)
 
 <a id="ex-d"></a>
 
-## 🔵 D · CARPA / BARBO — boia deslizante (água funda &gt;2 m)
+### 🔵 CARPA / BARBO — boia deslizante (água funda &gt;2 m)
 
 <img src="img/ex-carpa-deslizante.svg" alt="Carpa com boia deslizante" width="490" height="472">
 
@@ -220,53 +249,9 @@ clipa → nó-batente (stop knot) + missanga (bead) → boia deslizante (sliding
 - Mede o fundo primeiro: põe um chumbo pesado no anzol e vê onde a boia assenta (plumbing).
 - 🛒 [boia deslizante SF6](https://www.decathlon.pt/p/boias-de-pesca-deslizantes-em-espuma-sf6-4g-e-6g-x2/370126/m8954905) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · anzol [SN HOOK WORM #8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) / [CARP POLE #10](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260).
 
-<a id="ex-e"></a>
-
-## 🔵 E · CARPA / BARBO — pesca ao fundo (ledger, sem boia)
-
-<img src="img/ex-ledger.svg" alt="Pesca ao fundo ledger" width="470" height="394">
-
-```
-clipa → chumbo corrido (running lead) 10–20 g → destorcedor de barril (batente)
-        → leader 40–60 cm → anzol #8–6 + milho/boilie
-```
-- **Profundidade:** no fundo, parado. Paciência; deixa pousar.
-- **Mordida:** ponta da cana (rod tip) bate / linha estica → ferra. **Freio (drag)** suave — carpa grande corre.
-- 🛒 [chumbo azeitona furada](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · anzol [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Versão pesada/longe → [💪 Kit Pesado](KIT-PESADO.md).
-
-<a id="ex-f"></a>
-
-## 🟤 F · PEIXE-GATO-NEGRO (black bullhead) — fundo, ao anoitecer
-
-<img src="img/ex-peixegato.svg" alt="Peixe-gato ao fundo" width="470" height="394">
-
-```
-clipa → boia (ou ledger) → leader 30–40 cm → anzol #6–8 (SN HOOK WORM)
-        + chouriço / fígado / minhoca (sausage / liver / worm)
-```
-- **Profundidade:** **fundo**. Mais ativo ao anoitecer/noite (dusk/night).
-- ⚠️ Cuidado a pegar — **espinhos (spines)** nas barbatanas (fins) picam. Invasor → não devolver vivo.
-- 🛒 anzol [SN HOOK WORM #6](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) · [boia MTCH](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) ou [chumbo azeitona](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548).
-
-<a id="ex-g"></a>
-
-## 🟣 G · SANDRE / LÚCIO-PERCA (zander) — dropshot
-
-Predador de fundo/estrutura funda (Castelo do Bode, Idanha, Alqueva). Amanhecer e anoitecer.
-
-<img src="img/ex-sandre-dropshot.svg" alt="Sandre dropshot" width="490" height="438">
-
-```
-clipa → leader 60–100 cm → nó dropshot: anzol #1–1/0 no ramal (ponta p/ cima) + vinil pequeno
-                           → linha continua → chumbo de dropshot 5–12 g no fundo
-```
-- **Profundidade:** chumbo no fundo; isco a **15–40 cm** acima.
-- **Técnica:** **abana no sítio** (não recolhes) — o vinil (soft plastic) dança parado. Anzol forte p/ a boca óssea do sandre.
-- ⚠️ Sandre grande (4–8 kg) está **acima do teu material** — vai a pequenos/médios.
-
 <a id="ex-h"></a>
 
-## 🔵 H · CARPA — pão à superfície (floating bread)
+### 🔵 CARPA — pão à superfície (floating bread)
 
 Verão, água parada e quente, margem com sombra. **Sem chumbo.** Visual e barato.
 
@@ -278,26 +263,52 @@ clipa → leader fino 0,20 mm → anzol #8–6 escondido numa crosta de pão (br
 - **Profundidade:** **superfície** (0 m). Atira bocados de pão à volta como chamariz (chum).
 - **Mordida (bite):** vês a carpa subir e sugar. Espera a boca **fechar** → **ferra (hookset)**.
 
-<a id="ex-i"></a>
+<a id="ex-f"></a>
 
-## 🟢 I · ACHIGÃ — wacky / sem chumbo (água limpa)
+### 🟤 PEIXE-GATO-NEGRO (black bullhead) — fundo, ao anoitecer
 
-Finesse p/ peixe desconfiado em água limpa (Castelo do Bode). Queda lenta e horizontal.
-
-<img src="img/ex-achiga-wacky.svg" alt="Achigã wacky" width="470" height="361">
+<img src="img/ex-peixegato.svg" alt="Peixe-gato ao fundo" width="470" height="394">
 
 ```
-clipa → leader 50–80 cm → anzol wacky (wacky hook) #1 espetado no MEIO do vinil/senko
+clipa → boia (ou ledger) → leader 30–40 cm → anzol #6–8 (SN HOOK WORM)
+        + chouriço / fígado / minhoca (sausage / liver / worm)
 ```
-- **Profundidade:** **sem chumbo** → afunda sozinho devagar, as 2 pontas a tremer. Mordida **na queda**.
-- Atira junto a estrutura (structure), deixa cair. Cores naturais, fio fino.
+- **Profundidade:** **fundo**. Mais ativo ao anoitecer/noite (dusk/night).
+- ⚠️ Cuidado a pegar — **espinhos (spines)** nas barbatanas (fins) picam. Invasor → não devolver vivo.
+- 🛒 anzol [SN HOOK WORM #6](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) · [boia MTCH](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) ou [chumbo azeitona](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548).
+
+<a id="modo-3"></a>
+
+## 💪 Modo 3 · Pesca ao fundo (ledger) — cana grande
+
+Peixe grande (carpa 8 kg+, barbo, peixe-gato-canal) **ao fundo, a distância** (40–70 m). **Chumbo azeitona 20–40 g**, mono 0,35, freio **2–2,5 kg**. ➡️ Montagem completa, distância e checklist → [💪 Kit Pesado](KIT-PESADO.md).
+
+<a id="ex-e"></a>
+
+### 🔵 CARPA / BARBO — pesca ao fundo (ledger, sem boia)
+
+<img src="img/ex-ledger.svg" alt="Pesca ao fundo ledger" width="470" height="394">
+
+```
+clipa → chumbo corrido (running lead) 10–20 g → destorcedor de barril (batente)
+        → leader 40–60 cm → anzol #8–6 + milho/boilie
+```
+- **Profundidade:** no fundo, parado. Paciência; deixa pousar.
+- **Mordida:** ponta da cana (rod tip) bate / linha estica → ferra. **Freio (drag)** suave — carpa grande corre.
+- 🛒 [chumbo azeitona furada](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · anzol [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Versão pesada/longe → [💪 Kit Pesado](KIT-PESADO.md).
+
+<a id="modo-4"></a>
+
+## 💪 Modo 4 · Boia a distância — cana grande
+
+**Boia deslizante 10–15 g** com a cana grande, para pôr o isco à boia a **~30 m** quando o fundo não serve. Mesma mecânica da boia deslizante (Modo 2 / secção **B**), com mais peso. ➡️ Boia deslizante adequada → [Kit Pesado (opcionais)](KIT-PESADO.md).
 
 ## 🏞️ Caso especial — barragem funda (ex. Castelo do Bode)
 
 Água funda e limpa (clear). Precisas chegar fundo + ser discreto.
-- **Boia:** usa a montagem **D (boia deslizante)** com nó-batente → pescas a 3, 5, 8 m. Boia fixa não chega.
-- **Spinning:** montagem **B**, e **conta a queda (countdown)** para pescar camadas fundas. Cores naturais, fluoro fino.
-- **Sandre / lúcio-perca:** montagem **G (dropshot)** ou vinil jigado no fundo, ao amanhecer/anoitecer.
+- **Boia:** usa a a **boia deslizante (Modo 2)** com nó-batente → pescas a 3, 5, 8 m. Boia fixa não chega.
+- **Spinning:** o **spinning ao fundo (Modo 1)**, e **conta a queda (countdown)** para pescar camadas fundas. Cores naturais, fluoro fino.
+- **Sandre / lúcio-perca:** o **dropshot (Modo 1)** ou vinil jigado no fundo, ao amanhecer/anoitecer.
 
 ---
 
