@@ -1,7 +1,7 @@
 <!-- docsify sidebar -->
 
 - [🏠 Início](README.md)
-- [🛒 O que comprar](COMPRAS.md)
+- [🎒 Material (o que usar)](MATERIAL.md)
 - [🎣 Montagens & como pescar](EXEMPLOS-MODULAR.md)
 - [🐟 Peixes & barragens](PEIXES-BARRAGENS.md)
 - [📏 Tamanhos & cores](TAMANHOS.md)

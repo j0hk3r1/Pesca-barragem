@@ -35,7 +35,7 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 | Peixe-gato-negro | Bola de minhocas | **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) 6** (ou 8) | Peixe <0,5 kg. **NÃO** uses 2-1/0 (sobredimensionado) |
 | Carpa (massa grande, boilie) | Massa, boilie | **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) 4** ou **[Simples 4](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450)** | — |
 | Achigã (minhoca inteira) | Minhoca | **[Simples](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450) 2 ou 1/0** | Funciona; arame um pouco grosso p/ minhoca |
-| Achigã (vinil/plásticos) | Soft plastics (Texas) | **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) 1/0-3/0** | CAPERLAN [Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) — Decathlon vende (ver [COMPRAS → Opcional](COMPRAS.md)) |
+| Achigã (vinil/plásticos) | Soft plastics (Texas) | **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) 1/0-3/0** | CAPERLAN [Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) — Decathlon vende (ver [Material](MATERIAL.md)) |
 
 ### 🛒 Se só queres 1-2 anzóis
 1. **[CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) #14** (olhal (eye), fino) → peixe de boca pequena (perca-sol, boga, ruivaco) + carpa em milho.

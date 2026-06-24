@@ -8,7 +8,7 @@ Guia casual para pescar nas barragens portuguesas (achigã, perca-sol, carpa, ba
 
 ## 🎯 O plano em 3 passos
 
-1. **🛒 [Compra o material](COMPRAS.md)** — carrinho completo ~83 € (cana+carreto, linha, anzóis, boias, amostras).
+1. **🎒 [O material](MATERIAL.md)** — o que usar (cana+carreto, linha, anzóis, boias, amostras), **tudo linkado à Decathlon** para clicares e veres.
 2. **🎣 [Monta e aprende a pescar](EXEMPLOS-MODULAR.md)** — montagem base, profundidade, distância, e o exemplo pronto do teu peixe.
 3. **🐟 [Vê onde e o quê](PEIXES-BARRAGENS.md)** — peixes e métodos das 4 barragens (Alqueva · Odivelas · Castelo do Bode · Idanha).
 
@@ -16,8 +16,8 @@ Guia casual para pescar nas barragens portuguesas (achigã, perca-sol, carpa, ba
 
 ## 🎒 Os 2 equipamentos
 
-- **Leve** (o que compras) — combo WXM 100 + linha fina. Spinning (atirar amostra + recolher) e boia. Peixe até ~3 kg: achigã, perca, boga, carpa/barbo médios. → [COMPRAS](COMPRAS.md)
-- **Pesado** (herança do avô) — cana de fundo 4,20 m + carreto Sofi M2. Pesca ao fundo para peixe grande (carpa 8 kg+, barbo, peixe-gato). → [💪 Kit Pesado](KIT-PESADO.md)
+- **Leve** — combo WXM 100 + linha fina. **Spinning e boia, perto/médio** (margem, juncos, estrutura). Peixe até ~3 kg: achigã, perca, boga, carpa/barbo médios. → [Material](MATERIAL.md)
+- **Pesado** (herança do avô) — cana de fundo 4,20 m + carreto Sofi M2. **Pesca ao fundo, a distância**, para peixe grande (carpa 8 kg+, barbo, peixe-gato). → [💪 Kit Pesado](KIT-PESADO.md)
 
 ---
 
@@ -25,7 +25,7 @@ Guia casual para pescar nas barragens portuguesas (achigã, perca-sol, carpa, ba
 
 | Página | O que tem |
 |---|---|
-| 🛒 [**O que comprar**](COMPRAS.md) | Carrinho ~83 €, versão barata, opcionais, iscos |
+| 🎒 [**Material**](MATERIAL.md) | O que usar — todo o equipamento com links Decathlon |
 | 🎣 [**Montagens & como pescar**](EXEMPLOS-MODULAR.md) | Montagem base, técnica, distância, exemplo por peixe |
 | 🐟 [**Peixes & barragens**](PEIXES-BARRAGENS.md) | Espécies, tamanhos reais e métodos das 4 barragens |
 | 📏 [**Tamanhos & cores**](TAMANHOS.md) | Anzol + destorcedor (kg/mm reais) + cores |

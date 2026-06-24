@@ -12,37 +12,27 @@ O segundo equipamento: **pesca de fundo (ledger) de margem para peixe grande** �
 |---|---|---|
 | **Cana de fundo** | Fibra de vidro enrolada, **2 troços × ~2,10 m = 4,20 m**, junções metálicas roscadas, pega enrolada preta, carretel de abraçadeira | Blank são; 1 argola solta p/ re-enrolar, whippings velhos |
 | **Carreto Sofi M2** | **Made in Portugal · Registado** (anos 60–70, estilo Mitchell), 704 g, bail completo | Precisa service (massa + óleo) |
-| **Carreto verde** (2.º) | Vintage estilo Mitchell 300, bobina latão, 692 g | Idem — backup |
+| **Carreto verde** (2.º) | Também um **Sofi** (sem a chapa oval — confirmado por pesquisa de imagem), bobina latão, 692 g | Idem — service |
 | **Linha 0,40 do avô** | Mono (nylon) — testada: aguenta ~5 kg estático, parte ~10 kg (≈70% da força original) | Usável; nós do avô **ficam** 🫡 |
 
 > ⚖️ Comparação: o [WXM 2500](https://www.decathlon.pt/p/carreto-de-pesca-com-amostras-wxm-100-2500/345242/m8784314) pesa ~240 g. Estes ~700 g = classe **fundo/pesado** — pousada na forquilha, não no braço.
 
 ---
 
-## ✅ Lista de compra (~31 €)
+## 🛒 O que precisas (além das canas/carretos)
 
-Tudo **"Vendido pela Decathlon"**. Preços Jun/2026.
+Tudo na Decathlon — clica para ver:
 
-| Item | Produto | € |
-|------|---------|------:|
-| 🧵 Linha mono 0,35 | [CAPERLAN LINE 100 castanho **300 m / 0,35 mm (7,1 kg)**](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) | 3,90 |
-| ⚖️ Chumbadas deslizantes | [CAPERLAN Azeitonas (olive) perfuradas](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) — leva **20–40 g** | 2,30 |
-| 🔘 Batentes + pérolas (beads) | [CAPERLAN Nós de bloqueio c/ pérolas x5](https://www.decathlon.pt/p/nos-de-bloqueio-de-pesca-a-inglesa-com-boia-deslizante-conjunto-de-5/355294/m8883379) | 2,90 |
-| 🪜 Forquilha dianteira | [CAPERLAN Estaca telescópica cabeça V 45/70 cm](https://www.decathlon.pt/p/suportes-de-canas-pesca-agua-doce-estaca-telescopica-cabeca-v-45-70/X8328117/m8328117) | 3,90 |
-| 🪜 Suporte traseiro | [CAPERLAN Suporte dobrável plástico](https://www.decathlon.pt/p/suporte-dobravel-de-cana-de-pesca-em-agua-doce-plastico/314162/m8328113) | 3,40 |
-| 🔔 Guizos (bells) | [2 Guizos compridos c/ pinça](https://www.decathlon.pt/p/2-guizos-compridos-c-pinca-b-l/329361/m8607175) — sinalizam o toque | 1,30 |
-| 🥅 Camaroeiro (landing net) | [Camaroeiro rede simples, cabo madeira](https://www.decathlon.pt/p/camaroeiro-rede-simples-cabo-em-madeira/X8820216/m8820216) | 12,90 |
-
-> **TOTAL ≈ 30,60 €**
+- 🧵 **Linha mono 0,35** — [CAPERLAN LINE 100 castanho 0,35 mm (7,1 kg)](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (ou usa a **0,40 do avô**, já testada)
+- ⚖️ **Chumbadas deslizantes** — [Azeitonas (olive) perfuradas](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · leva **20–40 g**
+- 🔘 **Batentes + pérolas (beads)** — [Nós de bloqueio c/ pérolas](https://www.decathlon.pt/p/nos-de-bloqueio-de-pesca-a-inglesa-com-boia-deslizante-conjunto-de-5/355294/m8883379)
+- 🪜 **Forquilhas** (cana pousada à espera) — [dianteira (estaca V)](https://www.decathlon.pt/p/suportes-de-canas-pesca-agua-doce-estaca-telescopica-cabeca-v-45-70/X8328117/m8328117) + [traseira (suporte)](https://www.decathlon.pt/p/suporte-dobravel-de-cana-de-pesca-em-agua-doce-plastico/314162/m8328113)
+- 🔔 **Guizos** (sinalizam o toque na ponta) — [2 guizos c/ pinça](https://www.decathlon.pt/p/2-guizos-compridos-c-pinca-b-l/329361/m8607175)
+- 🥅 **Camaroeiro (landing net)** — [rede simples cabo madeira](https://www.decathlon.pt/p/camaroeiro-rede-simples-cabo-em-madeira/X8820216/m8820216) ⭐ **o mais importante**
 
 > 🥅 **O camaroeiro é o item nº1** — carpa de 8 kg+ na margem **não sai da água à mão** nem a levantar pela linha (parte). Sem rede = perdes o peixe já ganho.
 
-### ➕ Opcionais
-- [Azeitona longa furada (pesos finos 1–10 g)](https://www.decathlon.pt/p/chumbada-de-pesca-azeitona-longa-furada/7821/m4451688) — **2,50 €** (boia pesada/fundo leve)
-- [Boia deslizante SW FLT SLD 15 g](https://www.decathlon.pt/p/boia-deslizante-de-pesca-no-mar-sw-flt-sld-15-g/352537/c344m8871257) — **3,90 €** (boia a distância c/ esta cana)
-- [Bloqueio boia silicone GM](https://www.decathlon.pt/p/bloqueio-boia-silicone-gm/X8302156/m8302156) — **1,20 €**
-- [Guizo duplo DOUBLEBELL](https://www.decathlon.pt/p/guizo-duplo-doublebell-b-d/125725/m8334342) — **1,00 €** (2.ª cana)
-- [Camaroeiro rede C (cesto maior)](https://www.decathlon.pt/p/camaroeiro-rede-c-cabo-em-madeira/X8820227/m8820227) — **19,90 €** (alternativa)
+**Opcionais:** [azeitona longa fina (1–10 g)](https://www.decathlon.pt/p/chumbada-de-pesca-azeitona-longa-furada/7821/m4451688) · [boia deslizante 15 g](https://www.decathlon.pt/p/boia-deslizante-de-pesca-no-mar-sw-flt-sld-15-g/352537/c344m8871257) (boia a distância com esta cana) · [bloqueio boia silicone](https://www.decathlon.pt/p/bloqueio-boia-silicone-gm/X8302156/m8302156) · [guizo duplo](https://www.decathlon.pt/p/guizo-duplo-doublebell-b-d/125725/m8334342) · [camaroeiro cesto maior](https://www.decathlon.pt/p/camaroeiro-rede-c-cabo-em-madeira/X8820227/m8820227).
 
 ---
 
@@ -67,9 +57,9 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 
 ---
 
-## 🪢 Montagem: fundo deslizante (ledger)
+## 🎯 O setup desta cana: fundo a distância (ledger)
 
-A montagem-mãe deste kit — o peixe leva linha **sem sentir o chumbo**:
+**Pescar ao fundo (ledger) é o melhor método para esta cana** — lança longe, pousa na forquilha, espera o guizo. A montagem deixa o peixe levar linha **sem sentir o chumbo**:
 
 ```
 cana → mono 0,35 → [pérola] → AZEITONA furada (desliza) → [pérola] → destorcedor nº14 → leader 40-60 cm → anzol c/ isco

@@ -11,10 +11,14 @@ Três passos: **A)** escolhe a montagem base · **B)** aprende a pescar (profund
 
 `Linha-mãe → nó FG/Albright → leader fluoro → destorcedor snap → spinner`
 
+🛒 **Material:** [linha TX4](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) · [leader fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) · [snap rolling nº4](https://www.decathlon.pt/p/destorcedor-de-alfinete-de-pesca-rolling-snap-inox-2025-x-10/307904/m8939626) · [colheres rotativas](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651).
+
 ## 🟠 Boia — isco natural
 <img src="img/montagem-boia.svg" alt="Montagem boia" width="470">
 
 `Linha-mãe → boia → chumbos de pinça → destorcedor barril → leader → anzol + isco`
+
+🛒 **Material:** [boias MTCH](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) · [chumbos](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · [leader fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) · anzóis [CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) / [SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081).
 
 ## 🔁 Sistema modular (quick-change)
 Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amostra. Trocas tudo na margem **sem atar**.
@@ -123,6 +127,8 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~2,8–4,5 kg)**. É aí que pa
 
 # 🅲 C · Exemplo pronto do teu peixe
 
+> 🎣 **Qual cana?** **Boia e spinning, perto/médio** = a **cana leve** (WXM) → exemplos A–D, F, G, H, I. **Fundo a distância para peixe grande** = a **cana grande 4,20 m** → exemplo E, em detalhe no [**💪 Kit Pesado**](KIT-PESADO.md).
+
 > **Legenda:** `clipa →` = encaixas no snap-hub · `→` = ligado a seguir · **profundidade** (depth) = onde fica o isco/amostra.
 
 | # | Exemplo | Peixe | Método |
@@ -159,7 +165,7 @@ Dia quente, peixe fundo. **Conta a queda (countdown)** (1, 2, 3… ≈ 30 cm/seg
 ```
 clipa → leader 50–80 cm → cabeça plombada (jig head) 3–7 g + vinil (soft plastic)
 ```
-- **Alternativa:** montagem Texas (Texas rig) com anzol **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) 1/0–3/0** (CAPERLAN — Decathlon vende, ver [COMPRAS → Opcional](COMPRAS.md)).
+- **Alternativa:** montagem Texas (Texas rig) com anzol **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) 1/0–3/0** (CAPERLAN — Decathlon vende, ver [Material](MATERIAL.md)).
 
 ## 🟡 C · PERCA-SOL / BOGA / RUIVACO — meia-água
 
@@ -174,6 +180,7 @@ clipa → boia fixa (fixed float) 0,5–1 g → chumbos de pinça (split shot)
 ```
 - **Profundidade:** boia a **1–1,5 m** (meia-água / mid-water).
 - **Mordida (bite):** boia mexe/afunda → **ferra (hookset)** suave.
+- 🛒 [boia MTCH](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) · anzol [CARP POLE #14](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) · [chumbos](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) · [leader fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545).
 
 ## 🔵 D · CARPA / BARBO — boia deslizante (água funda &gt;2 m)
 
@@ -186,6 +193,7 @@ clipa → nó-batente (stop knot) + missanga (bead) → boia deslizante (sliding
 ```
 - **Profundidade:** ajusta o nó-batente até o isco ficar **rente ao fundo (on the bottom)**.
 - Mede o fundo primeiro: põe um chumbo pesado no anzol e vê onde a boia assenta (plumbing).
+- 🛒 [boia deslizante SF6](https://www.decathlon.pt/p/boias-de-pesca-deslizantes-em-espuma-sf6-4g-e-6g-x2/370126/m8954905) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · anzol [SN HOOK WORM #8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) / [CARP POLE #10](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260).
 
 ## 🔵 E · CARPA / BARBO — pesca ao fundo (ledger, sem boia)
 
@@ -197,6 +205,7 @@ clipa → chumbo corrido (running lead) 10–20 g → destorcedor de barril (bat
 ```
 - **Profundidade:** no fundo, parado. Paciência; deixa pousar.
 - **Mordida:** ponta da cana (rod tip) bate / linha estica → ferra. **Freio (drag)** suave — carpa grande corre.
+- 🛒 [chumbo azeitona furada](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · anzol [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Versão pesada/longe → [💪 Kit Pesado](KIT-PESADO.md).
 
 ## 🟤 F · PEIXE-GATO-NEGRO (black bullhead) — fundo, ao anoitecer
 
@@ -208,6 +217,7 @@ clipa → boia (ou ledger) → leader 30–40 cm → anzol #6–8 (SN HOOK WORM)
 ```
 - **Profundidade:** **fundo**. Mais ativo ao anoitecer/noite (dusk/night).
 - ⚠️ Cuidado a pegar — **espinhos (spines)** nas barbatanas (fins) picam. Invasor → não devolver vivo.
+- 🛒 anzol [SN HOOK WORM #6](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) · [boia MTCH](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) ou [chumbo azeitona](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548).
 
 ## 🟣 G · SANDRE / LÚCIO-PERCA (zander) — dropshot
 
