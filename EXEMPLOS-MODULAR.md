@@ -12,7 +12,7 @@ Escolhe o modo pela **cana** e pelo **peixe**. Os **pesos** (chumbo/amostra), a 
 |---|---|---|---|---|---|---|
 | **1 · Spinning / vinil** | 🪶 pequena (WXM) | braid 0,12 + leader fluoro 0,20–0,25 (≈2,8–4,5 kg) · freio **1,5–2 kg** | amostra **2–7 g** (sem chumbo extra) | à estrutura **5–25 m** | achigã, perca, sandre peq. | [superfície](EXEMPLOS-MODULAR.md#ex-a) · [fundo](EXEMPLOS-MODULAR.md#ex-b) · [wacky](EXEMPLOS-MODULAR.md#ex-i) · [dropshot](EXEMPLOS-MODULAR.md#ex-g) |
 | **2 · Boia** | 🪶 pequena (WXM) | braid 0,12 + leader 0,20–0,25 · freio **1,5–2 kg** | boia **0,5–4 g** + chumbo de pinça | perto/médio **3–20 m** | boga, ruivaco, perca-sol, pimpão, peixe-gato, carpa/barbo médios | [perca/boga](EXEMPLOS-MODULAR.md#ex-c) · [boia funda](EXEMPLOS-MODULAR.md#ex-d) · [peixe-gato](EXEMPLOS-MODULAR.md#ex-f) · [pão](EXEMPLOS-MODULAR.md#ex-h) |
-| **3 · Fundo (ledger)** | 💪 grande (4,20 m) | mono **0,35** (≈7 kg) · freio **2–2,5 kg** | chumbo azeitona **20–40 g** | longe **40–70 m** | carpa grande, barbo, peixe-gato-canal | [ledger](EXEMPLOS-MODULAR.md#ex-e) + [💪 Kit Pesado](KIT-PESADO.md) |
+| **3 · Fundo (ledger)** | 💪 grande (4,20 m) | mono **0,35** (≈7 kg) · freio **2–2,5 kg** | chumbo azeitona **20–40 g** | longe **40–70 m** | carpa grande, barbo, peixe-gato-canal | [ledger](EXEMPLOS-MODULAR.md#ex-e) · [paternoster](EXEMPLOS-MODULAR.md#ex-paternoster) + [💪 Kit Pesado](KIT-PESADO.md) |
 | **4 · Boia a distância** | 💪 grande (4,20 m) | mono 0,35 · freio **2–2,5 kg** | boia deslizante **10–15 g** | **~30 m** | carpa, barbo (longe, à boia) | [boia deslizante](EXEMPLOS-MODULAR.md#ex-d) (escala maior) + [💪 Kit Pesado](KIT-PESADO.md) |
 
 🪶 **cana pequena** = combo WXM (ver [Material](MATERIAL.md)) · 💪 **cana grande** = cana de fundo do avô (ver [Kit Pesado](KIT-PESADO.md)).
@@ -283,9 +283,13 @@ clipa → boia (ou ledger) → leader 30–40 cm → anzol #6–8 (SN HOOK WORM)
 
 Peixe grande (carpa 8 kg+, barbo, peixe-gato-canal) **ao fundo, a distância** (40–70 m). **Chumbo azeitona 20–40 g**, mono 0,35, freio **2–2,5 kg**. ➡️ Montagem completa, distância e checklist → [💪 Kit Pesado](KIT-PESADO.md).
 
+**Dois rigs de fundo:**
+- **Chumbo corrido** (`fio → peso → anzol`) — o peso desliza e o isco fica **no fundo**.
+- **Paternoster** (`fio → anzol → peso`) — o peso vai no fim e o anzol num ramal **acima** → isco **suspenso** (bom em lodo/ervas).
+
 <a id="ex-e"></a>
 
-### 🔵 CARPA / BARBO — pesca ao fundo (ledger, sem boia)
+### 🔵 Chumbo corrido (running ledger) — isco NO fundo
 
 <img src="img/ex-ledger.svg" alt="Pesca ao fundo ledger" width="470" height="394">
 
@@ -296,6 +300,22 @@ clipa → chumbo corrido (running lead) 10–20 g → destorcedor de barril (bat
 - **Profundidade:** no fundo, parado. Paciência; deixa pousar.
 - **Mordida:** ponta da cana (rod tip) bate / linha estica → ferra. **Freio (drag)** suave — carpa grande corre.
 - 🛒 [chumbo azeitona furada](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · anzol [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Versão pesada/longe → [💪 Kit Pesado](KIT-PESADO.md).
+
+<a id="ex-paternoster"></a>
+
+### 🪝 Paternoster — isco ACIMA do fundo
+
+Peso no fim (pousa no fundo), anzol num **ramal (dropper) acima** → o isco fica **suspenso**. Bom em **fundo mole/lodo ou com ervas**, onde o isco no fundo desaparecia; e dá melhor sinal de mordida.
+
+<img src="img/ex-paternoster.svg" alt="Paternoster — peso no fundo, isco acima do fundo" width="470" height="470">
+
+```
+fio → destorcedor/nó → ramal curto (10–40 cm) p/ anzol + isco (fica acima)
+                     → linha p/ chumbo 20–40 g (pousa no fundo)
+```
+- **Altura do isco:** define-a pelo **comprimento do ramal** (10–40 cm acima do fundo).
+- **Mordida:** ponta da cana / guizo bate → ferra. **Freio** suave.
+- 🛒 [chumbo azeitona furada](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · anzol [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Também serve na cana leve com pesos menores.
 
 <a id="modo-4"></a>
 

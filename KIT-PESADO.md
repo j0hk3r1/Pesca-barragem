@@ -55,6 +55,8 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 
 > ⚠️ **Antes de confiar peixe grande:** (1) service aos carretos — drag de 1965 gripado parte linha; testa c/ balança, deve ceder suave a ~2–2,5 kg; (2) re-enrolar a argola solta; (3) inspeção de fissuras no blank (junções!); (4) mono velha = imprevisível no **sacão** — a balança puxa devagar, o peixe não.
 
+> 🧵 **Que linha comprar? (não exageres no peso.)** **Mono 0,35 mm (~7–8 kg)** é o ponto certo — lança bem e aguenta carpa/barbo/gato até ~15 kg com técnica. Sobe a **0,40 mm (~10–12 kg)** só se quiseres margem para os maiores (perdes algum lançamento). **Ir ao máximo não compensa:** o elo fraco é o **freio velho** (feltro de 1965 cede só ~2–4 kg, e aos arrancos) e os **passadores/whippings restaurados** — não a linha. Linha grossa de mais só **perde distância** e fica mais visível. Peixe grande ganha-se com **freio + flexão da cana + dar linha**, não a forçar. Os "muitos kg" do carreto = tamanho/capacidade de linha, **não** força de freio. (Siluro 30 kg+ = equipamento dedicado, não esta cana.)
+
 ---
 
 ## 🎯 O setup desta cana: fundo a distância (ledger)

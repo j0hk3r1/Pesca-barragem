@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="470" viewBox="0 0 470 470" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="470" height="470" fill="#0d1117"/>
+  <text x="20" y="30" fill="#f0c000" font-size="17" font-weight="bold">🪝 Paternoster — peso no fundo, isco ACIMA</text>
+  <text x="20" y="50" fill="#8b949e" font-size="12.5">fio → anzol (ramal) → peso no fim · bom em fundo mole / com ervas</text>
+
+  <!-- water -->
+  <rect x="0" y="110" width="470" height="360" fill="#0b2a3a" opacity="0.45"/>
+  <line x1="0" y1="110" x2="470" y2="110" stroke="#7fd3ff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.7"/>
+  <text x="420" y="104" fill="#7fd3ff" font-size="12">água</text>
+
+  <!-- bottom -->
+  <rect x="0" y="432" width="470" height="38" fill="#3a2e1f"/>
+  <line x1="0" y1="432" x2="470" y2="432" stroke="#6b5836" stroke-width="2"/>
+  <text x="390" y="454" fill="#b08a52" font-size="12">fundo</text>
+
+  <!-- main line -->
+  <circle cx="200" cy="78" r="5" fill="#c9d1d9"/>
+  <text x="214" y="82" fill="#c9d1d9" font-size="13">linha-mãe (da cana)</text>
+  <line x1="200" y1="84" x2="200" y2="250" stroke="#b8a55a" stroke-width="4"/>
+
+  <!-- junction -->
+  <ellipse cx="200" cy="258" rx="11" ry="7" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <text x="216" y="254" fill="#c9d1d9" font-size="12.5" font-weight="bold">destorcedor / nó</text>
+  <text x="216" y="269" fill="#8b949e" font-size="11">junta linha + ramal + chumbo</text>
+
+  <!-- line down to weight -->
+  <line x1="200" y1="266" x2="200" y2="410" stroke="#7fd3ff" stroke-width="2.5"/>
+  <path d="M200 408 q-13 6 -13 15 q0 9 13 9 q13 0 13 -9 q0 -9 -13 -15 z" fill="#9aa0a6" stroke="#c9d1d9"/>
+  <text x="150" y="452" fill="#e5d98a" font-size="12.5" font-weight="bold">chumbo no fundo</text>
+
+  <!-- dropper to the right, hook above bottom -->
+  <line x1="200" y1="262" x2="298" y2="298" stroke="#7fd3ff" stroke-width="2"/>
+  <line x1="298" y1="298" x2="298" y2="338" stroke="#7fd3ff" stroke-width="2"/>
+  <path d="M298 338 q0 16 -11 16 q-11 0 -11 -11" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <circle cx="289" cy="350" r="8" fill="#8B4513" stroke="#b5651d"/>
+  <text x="312" y="326" fill="#e5d98a" font-size="12.5" font-weight="bold">ramal (dropper)</text>
+  <text x="312" y="341" fill="#8b949e" font-size="11">anzol + isco</text>
+
+  <!-- gap bracket: isco above bottom -->
+  <line x1="358" y1="350" x2="358" y2="432" stroke="#f0c000" stroke-width="1.3"/>
+  <line x1="354" y1="350" x2="362" y2="350" stroke="#f0c000" stroke-width="1.3"/>
+  <line x1="354" y1="432" x2="362" y2="432" stroke="#f0c000" stroke-width="1.3"/>
+  <text x="366" y="395" fill="#f0c000" font-size="11">isco acima</text>
+  <text x="366" y="409" fill="#f0c000" font-size="11">do fundo</text>
+</svg>
