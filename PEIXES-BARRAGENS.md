@@ -4,6 +4,21 @@ Tamanhos realistas. Espécies incertas marcadas com **⚠️ Atenção**. Em tod
 
 ---
 
+## 🎣 Montagem por peixe → exemplo pronto
+
+Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à Decathlon):
+
+- **Achigã** → [A · superfície](EXEMPLOS-MODULAR.md#ex-a) · [B · fundo/meia-água](EXEMPLOS-MODULAR.md#ex-b) · [I · wacky (água limpa)](EXEMPLOS-MODULAR.md#ex-i)
+- **Sandre / lúcio-perca** → [G · dropshot](EXEMPLOS-MODULAR.md#ex-g)
+- **Carpa** → [D · boia funda](EXEMPLOS-MODULAR.md#ex-d) · [E · fundo (ledger)](EXEMPLOS-MODULAR.md#ex-e) · [H · pão à superfície](EXEMPLOS-MODULAR.md#ex-h)
+- **Barbo** → [D · boia funda](EXEMPLOS-MODULAR.md#ex-d) · [E · fundo (ledger)](EXEMPLOS-MODULAR.md#ex-e)
+- **Boga / ruivaco / perca-sol** → [C · meia-água à boia](EXEMPLOS-MODULAR.md#ex-c)
+- **Peixe-gato-negro** → [F · fundo, ao anoitecer](EXEMPLOS-MODULAR.md#ex-f)
+
+> Peixe grande (carpa 8 kg+, barbo grande) ao fundo a distância = [💪 Kit Pesado](KIT-PESADO.md).
+
+---
+
 ## 🏞️ 1. Barragem de Alqueva (Alentejo, Rio Guadiana)
 
 **O que é:** Maior lago artificial da Europa Ocidental (~250 km², ~1.100 km de margem). Água quente, cheia de predadores, ilhas e vales inundados. Dos melhores destinos do continente para **achigã** e **lúcio-perca (sandre)**.

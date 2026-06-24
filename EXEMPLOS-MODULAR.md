@@ -7,14 +7,14 @@ Três passos: **A)** escolhe a montagem base · **B)** aprende a pescar (profund
 # 🅰️ A · Montagem base (escolhe uma)
 
 ## ✨ Spinning — amostra
-<img src="img/montagem-spinning.svg" alt="Montagem spinning" width="430">
+<img src="img/montagem-spinning.svg" alt="Montagem spinning" width="430" height="330">
 
 `Linha-mãe → nó FG/Albright → leader fluoro → destorcedor snap → spinner`
 
 🛒 **Material:** [linha TX4](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) · [leader fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) · [snap rolling nº4](https://www.decathlon.pt/p/destorcedor-de-alfinete-de-pesca-rolling-snap-inox-2025-x-10/307904/m8939626) · [colheres rotativas](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651).
 
 ## 🟠 Boia — isco natural
-<img src="img/montagem-boia.svg" alt="Montagem boia" width="470">
+<img src="img/montagem-boia.svg" alt="Montagem boia" width="470" height="407">
 
 `Linha-mãe → boia → chumbos de pinça → destorcedor barril → leader → anzol + isco`
 
@@ -23,7 +23,7 @@ Três passos: **A)** escolhe a montagem base · **B)** aprende a pescar (profund
 ## 🔁 Sistema modular (quick-change)
 Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amostra. Trocas tudo na margem **sem atar**.
 
-<img src="img/montagem-modular.svg" alt="Sistema modular" width="500">
+<img src="img/montagem-modular.svg" alt="Sistema modular" width="500" height="379">
 
 **3 regras (importantes):**
 1. **Nó no multi = palomar ou uni, NÃO clinch.** Multi é escorregadio; clinch desliza e solta. Atas **1 vez**, dura imenso.
@@ -57,7 +57,7 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 
 **A diferença NÃO é "podes ajustar a profundidade"** (isso fazes nas duas). É conseguires **LANÇAR quando pescas fundo:**
 
-<img src="img/boia-porque.svg" alt="Porquê deslizante" width="720">
+<img src="img/boia-porque.svg" alt="Porquê deslizante" width="720" height="490">
 
 - **Fixa a 5 m:** a boia fica presa 5 m acima do anzol. Mas a tua cana só tem ~2 m → ficas com **5 m de fio pendurado da ponta** → **não consegues lançar**. Por isso a fixa só serve até **profundidade ≤ comprimento da cana**.
 - **Deslizante a 5 m:** ao lançar, a boia escorrega para baixo e fica **tudo junto (~30 cm)** → lanças fácil. Ao cair, o chumbo puxa a linha e a boia volta à **tona**, com o isco aos 5 m. → Pescas fundo **e** consegues lançar.
@@ -70,7 +70,7 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 
 **🎚️ Deslizante (sliding float)** — boia **corre livre** no fio entre dois batentes:
 
-<img src="img/boia-mecanismo.svg" alt="Boia deslizante — mecanismo" width="720">
+<img src="img/boia-mecanismo.svg" alt="Boia deslizante — mecanismo" width="720" height="512">
 
 - 🔴 **Nó-batente (stop knot)** — fica **em cima**, à distância do anzol = **a profundidade que queres**. É ele que **trava** a boia ao subir. Mexes o nó → mudas a profundidade.
 - ⚪ **Stop / missanga de baixo** — junto ao destorcedor; impede a boia de descer até ao anzol.
@@ -81,7 +81,7 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 
 ## 📍 Distância de lançamento (onde estão os peixes)
 
-<img src="img/distancia-lancamento.svg" alt="Distância de lançamento por peixe" width="720">
+<img src="img/distancia-lancamento.svg" alt="Distância de lançamento por peixe" width="720" height="417">
 
 > 🏞️ **Barragem cai a pique** → água funda **perto** da margem. Muitas vezes **não precisas lançar longe** — mede o fundo junto à borda primeiro.
 
@@ -143,11 +143,13 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~2,8–4,5 kg)**. É aí que pa
 | H | Pão à superfície | Carpa | floating bread (verão) |
 | I | Wacky (água limpa) | Achigã | finesse, sem chumbo |
 
+<a id="ex-a"></a>
+
 ## 🟢 A · ACHIGÃ (largemouth bass) — superfície
 
 Água quente, peixe a caçar à tona junto a **estrutura (structure)** — pedras, troncos, vegetação. Manhã ou fim de tarde.
 
-<img src="img/ex-achiga-superficie.svg" alt="Achigã superfície" width="470">
+<img src="img/ex-achiga-superficie.svg" alt="Achigã superfície" width="470" height="361">
 
 ```
 clipa → leader fluorocarbono 50–80 cm → colher giratória (spinner) 2–5 g
@@ -156,22 +158,26 @@ clipa → leader fluorocarbono 50–80 cm → colher giratória (spinner) 2–5 
 - **Profundidade:** 0–1 m. **Recolhe (retrieve)** com paragens (stop-and-go) — ataque vem na pausa.
 - **Anzol:** vem na amostra (lure), montado de fábrica. Não mexas.
 
+<a id="ex-b"></a>
+
 ## 🟢 B · ACHIGÃ — fundo / meia-água
 
 Dia quente, peixe fundo. **Conta a queda (countdown)** (1, 2, 3… ≈ 30 cm/seg) até achar a camada.
 
-<img src="img/ex-achiga-fundo.svg" alt="Achigã fundo" width="470">
+<img src="img/ex-achiga-fundo.svg" alt="Achigã fundo" width="470" height="394">
 
 ```
 clipa → leader 50–80 cm → cabeça plombada (jig head) 3–7 g + vinil (soft plastic)
 ```
 - **Alternativa:** montagem Texas (Texas rig) com anzol **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) 1/0–3/0** (CAPERLAN — Decathlon vende, ver [Material](MATERIAL.md)).
 
+<a id="ex-c"></a>
+
 ## 🟡 C · PERCA-SOL / BOGA / RUIVACO — meia-água
 
 Margem, fácil (bom p/ começar). Peixe pequeno, boca pequena.
 
-<img src="img/ex-perca-boga.svg" alt="Perca-sol e boga à boia" width="500">
+<img src="img/ex-perca-boga.svg" alt="Perca-sol e boga à boia" width="500" height="446">
 
 ```
 clipa → boia fixa (fixed float) 0,5–1 g → chumbos de pinça (split shot)
@@ -182,9 +188,11 @@ clipa → boia fixa (fixed float) 0,5–1 g → chumbos de pinça (split shot)
 - **Mordida (bite):** boia mexe/afunda → **ferra (hookset)** suave.
 - 🛒 [boia MTCH](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) · anzol [CARP POLE #14](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) · [chumbos](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) · [leader fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545).
 
+<a id="ex-d"></a>
+
 ## 🔵 D · CARPA / BARBO — boia deslizante (água funda &gt;2 m)
 
-<img src="img/ex-carpa-deslizante.svg" alt="Carpa com boia deslizante" width="490">
+<img src="img/ex-carpa-deslizante.svg" alt="Carpa com boia deslizante" width="490" height="472">
 
 ```
 clipa → nó-batente (stop knot) + missanga (bead) → boia deslizante (sliding float) 2–4 g
@@ -195,9 +203,11 @@ clipa → nó-batente (stop knot) + missanga (bead) → boia deslizante (sliding
 - Mede o fundo primeiro: põe um chumbo pesado no anzol e vê onde a boia assenta (plumbing).
 - 🛒 [boia deslizante SF6](https://www.decathlon.pt/p/boias-de-pesca-deslizantes-em-espuma-sf6-4g-e-6g-x2/370126/m8954905) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · anzol [SN HOOK WORM #8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) / [CARP POLE #10](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260).
 
+<a id="ex-e"></a>
+
 ## 🔵 E · CARPA / BARBO — pesca ao fundo (ledger, sem boia)
 
-<img src="img/ex-ledger.svg" alt="Pesca ao fundo ledger" width="470">
+<img src="img/ex-ledger.svg" alt="Pesca ao fundo ledger" width="470" height="394">
 
 ```
 clipa → chumbo corrido (running lead) 10–20 g → destorcedor de barril (batente)
@@ -207,9 +217,11 @@ clipa → chumbo corrido (running lead) 10–20 g → destorcedor de barril (bat
 - **Mordida:** ponta da cana (rod tip) bate / linha estica → ferra. **Freio (drag)** suave — carpa grande corre.
 - 🛒 [chumbo azeitona furada](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · anzol [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Versão pesada/longe → [💪 Kit Pesado](KIT-PESADO.md).
 
+<a id="ex-f"></a>
+
 ## 🟤 F · PEIXE-GATO-NEGRO (black bullhead) — fundo, ao anoitecer
 
-<img src="img/ex-peixegato.svg" alt="Peixe-gato ao fundo" width="470">
+<img src="img/ex-peixegato.svg" alt="Peixe-gato ao fundo" width="470" height="394">
 
 ```
 clipa → boia (ou ledger) → leader 30–40 cm → anzol #6–8 (SN HOOK WORM)
@@ -219,11 +231,13 @@ clipa → boia (ou ledger) → leader 30–40 cm → anzol #6–8 (SN HOOK WORM)
 - ⚠️ Cuidado a pegar — **espinhos (spines)** nas barbatanas (fins) picam. Invasor → não devolver vivo.
 - 🛒 anzol [SN HOOK WORM #6](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) · [boia MTCH](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) ou [chumbo azeitona](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548).
 
+<a id="ex-g"></a>
+
 ## 🟣 G · SANDRE / LÚCIO-PERCA (zander) — dropshot
 
 Predador de fundo/estrutura funda (Castelo do Bode, Idanha, Alqueva). Amanhecer e anoitecer.
 
-<img src="img/ex-sandre-dropshot.svg" alt="Sandre dropshot" width="490">
+<img src="img/ex-sandre-dropshot.svg" alt="Sandre dropshot" width="490" height="438">
 
 ```
 clipa → leader 60–100 cm → nó dropshot: anzol #1–1/0 no ramal (ponta p/ cima) + vinil pequeno
@@ -233,11 +247,13 @@ clipa → leader 60–100 cm → nó dropshot: anzol #1–1/0 no ramal (ponta p/
 - **Técnica:** **abana no sítio** (não recolhes) — o vinil (soft plastic) dança parado. Anzol forte p/ a boca óssea do sandre.
 - ⚠️ Sandre grande (4–8 kg) está **acima do teu material** — vai a pequenos/médios.
 
+<a id="ex-h"></a>
+
 ## 🔵 H · CARPA — pão à superfície (floating bread)
 
 Verão, água parada e quente, margem com sombra. **Sem chumbo.** Visual e barato.
 
-<img src="img/ex-carpa-pao.svg" alt="Carpa pão à superfície" width="470">
+<img src="img/ex-carpa-pao.svg" alt="Carpa pão à superfície" width="470" height="361">
 
 ```
 clipa → leader fino 0,20 mm → anzol #8–6 escondido numa crosta de pão (bread crust) a flutuar
@@ -245,11 +261,13 @@ clipa → leader fino 0,20 mm → anzol #8–6 escondido numa crosta de pão (br
 - **Profundidade:** **superfície** (0 m). Atira bocados de pão à volta como chamariz (chum).
 - **Mordida (bite):** vês a carpa subir e sugar. Espera a boca **fechar** → **ferra (hookset)**.
 
+<a id="ex-i"></a>
+
 ## 🟢 I · ACHIGÃ — wacky / sem chumbo (água limpa)
 
 Finesse p/ peixe desconfiado em água limpa (Castelo do Bode). Queda lenta e horizontal.
 
-<img src="img/ex-achiga-wacky.svg" alt="Achigã wacky" width="470">
+<img src="img/ex-achiga-wacky.svg" alt="Achigã wacky" width="470" height="361">
 
 ```
 clipa → leader 50–80 cm → anzol wacky (wacky hook) #1 espetado no MEIO do vinil/senko
