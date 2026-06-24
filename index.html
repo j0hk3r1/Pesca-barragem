@@ -41,6 +41,17 @@
     .sidebar ul li.active>a{background:rgba(10,125,90,.08);border-radius:6px;}
     /* cover */
     section.cover .cover-main>p:last-child a{font-weight:700;border-radius:8px;}
+    /* ---------- Responsivo / telemóvel ---------- */
+    .markdown-section img{max-width:100%;height:auto;}      /* SVGs largos cabem no ecrã */
+    .markdown-section pre{overflow-x:auto;}                  /* code scrolla, não rebenta o layout */
+    @media (max-width:768px){
+      :root{--base-font-size:15.5px;--sidebar-width:82vw;}
+      .markdown-section{padding-left:15px;padding-right:15px;}
+      /* tabelas largas (ex.: 4 modos) → scroll lateral em vez de transbordar */
+      .markdown-section table{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;}
+      /* alvos de toque maiores no menu */
+      .sidebar ul li a{padding-top:.4em;padding-bottom:.4em;}
+    }
   </style>
 </head>
 <body>
