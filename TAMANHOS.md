@@ -1,8 +1,25 @@
-# 📏 Tamanhos certos (anzol + destorcedor)
+# 📏 Tamanhos & cores
 
 > Dimensionado ao teu setup: carreto (reel) 2500, trançado (braid / main line) 0,12 mm (~5-6 kg), fluorocarbono (fluorocarbon) 0,20-0,25 mm (~2,8-4,5 kg).
 
 **Regra base:** o anzol (hook) escolhe-se pelo **isco (bait) / boca do peixe**, não pelo peso do peixe. O destorcedor (swivel) leva-se sempre **pequeno** (nunca é o elo fraco).
+
+---
+
+## 🎨 Cores (discreto vs vistoso)
+
+Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorcedor). **Amostra = o contrário, vistosa.**
+
+| Item | Cor | Tamanho |
+|--|--|--|
+| Braid | **Caqui** (low-vis, único cor [TX4](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473)) | **0,12** (ou 0,16 +força) |
+| Leader fluoro | **Transparente** (invisível) | **0,20–0,25 mm** |
+| Anzol [CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) | **Escuro/black** (VMC) | **#10** · #14 p/ peixe pequeno |
+| Destorcedor barril | **Black Nickel** | **nº14** (ou nº12) |
+| Destorcedor snap | Inox (rolling) | **nº4** |
+| Spinner | **Vistoso** (prata/dourado) | 2–5 g |
+
+> Água turva → cor importa pouco (cheiro/vibração). Achigã desconfiado em água limpa → snap **Black Nickel** em vez de inox.
 
 ---
 
@@ -18,7 +35,7 @@
 | Peixe-gato-negro | Bola de minhocas | **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) 6** (ou 8) | Peixe <0,5 kg. **NÃO** uses 2-1/0 (sobredimensionado) |
 | Carpa (massa grande, boilie) | Massa, boilie | **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) 4** ou **[Simples 4](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450)** | — |
 | Achigã (minhoca inteira) | Minhoca | **[Simples](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450) 2 ou 1/0** | Funciona; arame um pouco grosso p/ minhoca |
-| Achigã (vinil/plásticos) | Soft plastics (Texas) | **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) 1/0-3/0** | CAPERLAN [Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) — Decathlon vende (ver README → Opcional) |
+| Achigã (vinil/plásticos) | Soft plastics (Texas) | **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) 1/0-3/0** | CAPERLAN [Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) — Decathlon vende (ver [COMPRAS → Opcional](COMPRAS.md)) |
 
 ### 🛒 Se só queres 1-2 anzóis
 1. **[CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) #14** (olhal (eye), fino) → peixe de boca pequena (perca-sol, boga, ruivaco) + carpa em milho.

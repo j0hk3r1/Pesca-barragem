@@ -43,7 +43,7 @@
   <!-- swivel -->
   <ellipse cx="200" cy="342" rx="13" ry="8" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
   <text x="232" y="338" fill="#c9d1d9" font-size="14" font-weight="bold">Destorcedor barril</text>
-  <text x="232" y="354" fill="#8b949e" font-size="12">preto (black nickel) nº12 · separa leader</text>
+  <text x="232" y="354" fill="#8b949e" font-size="12">preto (black nickel) nº14 · separa leader</text>
 
   <!-- leader label -->
   <text x="232" y="398" fill="#7fd3ff" font-size="14" font-weight="bold">Leader fluoro 30–50 cm</text>

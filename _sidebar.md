@@ -1,9 +1,10 @@
 <!-- docsify sidebar -->
 
-- [🎣 Setup (início)](README.md)
-- [🐟 Peixes das 4 barragens](PEIXES-BARRAGENS.md)
-- [📏 Tamanhos (anzol + destorcedor)](TAMANHOS.md)
-- [🎣 A Cana (o que comprar)](CANA.md)
-- [💪 Kit Pesado (cana do avô + Sofi)](KIT-PESADO.md)
-- [🔁 Exemplos de montagem](EXEMPLOS-MODULAR.md)
+- [🏠 Início](README.md)
+- [🛒 O que comprar](COMPRAS.md)
+- [🎣 Montagens & como pescar](EXEMPLOS-MODULAR.md)
+- [🐟 Peixes & barragens](PEIXES-BARRAGENS.md)
+- [📏 Tamanhos & cores](TAMANHOS.md)
 - [🪢 Nós (passo-a-passo)](NOS.md)
+- [🎣 A Cana (comprar)](CANA.md)
+- [💪 Kit Pesado (cana do avô + Sofi)](KIT-PESADO.md)
