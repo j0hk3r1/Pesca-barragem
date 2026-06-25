@@ -16,14 +16,16 @@ Guia casual para pescar nas barragens portuguesas (achigã, perca-sol, carpa, ba
 
 ## 🎣 As tuas canas (4) — e para que servem
 
-| Cana | Para quê | Material |
+| Cana | Carreto | Para quê |
 |---|---|---|
-| **WXM 100** (nova) | spinning + boia — a principal | 🪶 leve |
-| **Verde/azul** | spinning | 🪶 leve |
-| **Telescópica** | boia perto da margem | 🪶 leve |
-| **Grande 4,20 m** | **fundo — carpas gordas** 🐟 | 💪 pesado |
+| **WXM 100** (nova) | **WXM 100** · 4 rolam., freio forte | 🪶 **amostra** (achigã/sandre) — a principal |
+| **Verde/azul** | **RFT 100** · já c/ trançado | 🪶 **amostra** ou **boia** (1 rolam., chega) |
+| **Telescópica** | leve antigo · lento (3,2:1) | 🪶 **boia** perto da margem |
+| **Grande 4,20 m** | **Sofi M2** | 💪 **fundo** — carpa/barbo grande 🐟 |
 
-São só **2 conjuntos de material**: o **🪶 leve** serve as **3 canas pequenas** (linha fina, spinning/boia, peixe até ~3 kg); o **💪 pesado** é só para a **grande** (linha forte, fundo, carpa 8 kg+). → [🎒 Material](MATERIAL.md).
+São só **2 conjuntos de material** (linha/anzóis): o **🪶 leve** serve as **3 canas pequenas** (linha fina, spinning/boia, peixe até ~3 kg); o **💪 pesado** é só para a **grande** (linha forte, fundo, carpa 8 kg+). → [🎒 Material](MATERIAL.md).
+
+> ⚙️ **Carretos:** o **WXM** (4 rolamentos, freio ~5–6 kg) é o melhor → fica na amostra. O **RFT** (1 rolamento, freio 3,2 kg) também pesca amostra, mas brilha na **boia**. O antigo (3,2:1, lento) → boia/passeio na telescópica. **Só podes ter 2 canas montadas** ao mesmo tempo → [⚖️ Regras](REGRAS.md).
 
 > Canas em detalhe: [🎣 As canas pequenas](CANA.md) · [💪 Kit Pesado](KIT-PESADO.md) (a grande).
 
@@ -34,7 +36,7 @@ São só **2 conjuntos de material**: o **🪶 leve** serve as **3 canas pequena
 1. **Que peixe queres?** → cada peixe leva-te à montagem certa: tabela **"montagem por peixe"** no topo de [🐟 Peixes & barragens](PEIXES-BARRAGENS.md).
 2. **Hora & água?** Amanhecer/anoitecer = peixe **raso e perto**; dia quente = **fundo e mais longe**. Água limpa = fio fino + cores naturais; turva = cheiro/vibração.
 3. **Onde estás?** Margem a pique = **água funda logo perto** (não precisas lançar longe). Procura **estrutura** (pedras, troncos, juncos) — é onde o peixe está.
-4. **→ Escolhe o modo** (cana × estilo, com os pesos) e a montagem na tabela **"Os 4 modos"** de [🎣 Montagens & como pescar](EXEMPLOS-MODULAR.md).
+4. **→ Escolhe a montagem** no **🗺️ Mapa rápido** (peixe → barragem → método) ou em **🎯 Qual cana × estilo** de [🎣 Montagens & como pescar](EXEMPLOS-MODULAR.md).
 5. **Que isco no anzol?** → [🍞 Iscos & engodo](ISCOS.md). **É legal?** → [⚖️ Regras & licença](REGRAS.md).
 
 ---
@@ -49,7 +51,7 @@ São só **2 conjuntos de material**: o **🪶 leve** serve as **3 canas pequena
 | 🐟 [**Peixes & barragens**](PEIXES-BARRAGENS.md) | Espécies, tamanhos reais e métodos das 4 barragens |
 | ⚖️ [**Regras & licença**](REGRAS.md) | Licença, nº de canas, mínimos, devolver/abater, isco — não apanhar multa |
 | 📏 [**Tamanhos & cores**](TAMANHOS.md) | Anzol + destorcedor (kg/mm reais) + cores |
-| 🪢 [**Nós**](NOS.md) | 8 nós passo-a-passo + vídeo |
+| 🪢 [**Nós**](NOS.md) | Que nó usar onde + links de animação |
 | 🎣 [**Canas pequenas**](CANA.md) | As 3 pequenas (combo WXM + as 2 velhas) |
 | 💪 [**Kit Pesado**](KIT-PESADO.md) | Cana de fundo + Sofi M2: peixe grande, ledger |
 
