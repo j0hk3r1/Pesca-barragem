@@ -18,9 +18,9 @@ Guia casual para pescar nas barragens portuguesas (achigã, perca-sol, carpa, ba
 
 | Cana | Carreto | Para quê |
 |---|---|---|
-| **WXM 100** (nova) | **WXM 100** · 4 rolam., freio forte | 🪶 **amostra** (achigã/sandre) — a principal |
-| **Verde/azul** | **RFT 100** · já c/ trançado | 🪶 **amostra** ou **boia** (1 rolam., chega) |
-| **Telescópica** | leve antigo · lento (3,2:1) | 🪶 **boia** perto da margem |
+| **Verde/azul** | **WXM 100** · 4 rolam., freio forte | 🪶 **amostra** (achigã/sandre) — a principal |
+| **WXM 100** (combo) | **RFT 100** · já c/ trançado | 🪶 **amostra ou boia** — fácil, equilibrada |
+| **Telescópica** | leve antigo · lento (3,2:1) | 🪶 **boia ou fundo perto** da margem |
 | **Grande 4,20 m** | **Sofi M2** | 💪 **fundo** — carpa/barbo grande 🐟 |
 
 São só **2 conjuntos de material** (linha/anzóis): o **🪶 leve** serve as **3 canas pequenas** (linha fina, spinning/boia, peixe até ~3 kg); o **💪 pesado** é só para a **grande** (linha forte, fundo, carpa 8 kg+). → [🎒 Material](MATERIAL.md).
