@@ -1,6 +1,6 @@
 # 🍞 Iscos & engodo
 
-Iscos naturais/caseiros para a pesca **à boia** e **ao fundo** — os peixes "pasto": carpa, barbo, boga, ruivaco, perca-sol, pimpão, peixe-gato.
+Iscos **naturais, caseiros e de loja** (milho, massa, fiambre, boilie…) para a pesca **à boia** e **ao fundo** — os peixes "pasto": carpa, barbo, boga, ruivaco, perca-sol, pimpão, peixe-gato.
 
 > Os **predadores** (achigã, sandre) pescam-se com **amostra/vinil**, não com isco → ver [**Achigã**](EXEMPLOS-MODULAR.md#ex-achiga) / [**Sandre**](EXEMPLOS-MODULAR.md#ex-sandre).
 
@@ -11,10 +11,12 @@ Iscos naturais/caseiros para a pesca **à boia** e **ao fundo** — os peixes "p
 | Isco | Peixe | Montagem |
 |---|---|---|
 | **Massa** (pão/farinha/sêmola) | boga, perca, pimpão, carpa | [boga](EXEMPLOS-MODULAR.md#ex-boga) · [carpa](EXEMPLOS-MODULAR.md#ex-carpa) |
+| **Pão** (flake / punch / côdea) | carpa, boga | [boga](EXEMPLOS-MODULAR.md#ex-boga) · [carpa](EXEMPLOS-MODULAR.md#ex-carpa) |
 | **Milho doce** | carpa, barbo | [carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
-| **Grão-de-bico / partículas** (cozido) | carpa, barbo | [carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
+| **Fiambre / luncheon meat** (cubo) | carpa, barbo | [carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
+| **Boilie** (no *hair rig*) | carpa | [carpa](EXEMPLOS-MODULAR.md#ex-carpa) |
+| **Grão / chufa / partículas** (cozido) | carpa, barbo | [carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
 | **Queijo** (duro) | carpa, barbo | [carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
-| **Pão** | carpa, boga | [boga](EXEMPLOS-MODULAR.md#ex-boga) · [carpa](EXEMPLOS-MODULAR.md#ex-carpa) |
 | **Larva (asticô) / minhoca** | boga, perca, barbo, tudo | [boga](EXEMPLOS-MODULAR.md#ex-boga) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
 | **Carne / chouriço / fígado** | peixe-gato-negro | [peixe-gato](EXEMPLOS-MODULAR.md#ex-gato) |
 
@@ -22,28 +24,38 @@ Iscos naturais/caseiros para a pesca **à boia** e **ao fundo** — os peixes "p
 
 ## 🥖 Iscos & receitas
 
-- **Massa de pão** — miolo de pão + umas gotas de água até ficar moldável. Faz uma bolinha à volta do anzol. (O mais simples e barato.)
-- **Massa de farinha** — 100 g de farinha de trigo + água até massa **firme**. Opcional: mel, baunilha, alho em pó ou queijo ralado. Amassa e deixa **repousar ~15 min**.
-- **Massa de sêmola** — 100 g de sêmola de trigo + água quente até pasta firme. **Aguenta melhor no anzol** que o pão (boa p/ lançar mais longe).
-- **Milho doce** — de lata, direto no anzol (1–2 grãos). O clássico para a carpa. **Pronto a usar**, sem preparação.
+- **Massa de pão** — miolo de pão + gotas de água até ficar moldável. Bolinha à volta do anzol. (O mais simples e barato.)
+- **Pão, 3 formas:** **flake** (pedaço beliscado no anzol — incha e fofa na água) · **punch** (discos pequenos tirados com punção, p/ boga/peixe pequeno) · **côdea** (flutua → carpa à **superfície** no verão).
+- **Massa de farinha** — 100 g de farinha de trigo + água até massa **firme**. Opcional: mel, baunilha, alho em pó ou queijo ralado. Amassa e **repousa ~15 min**.
+- **Massa de sêmola** — 100 g de sêmola + água quente até pasta firme. **Aguenta melhor no anzol** que o pão (boa p/ lançar longe).
+- **Milho doce** — de lata, 1–2 grãos no anzol. O clássico da carpa. **Pronto a usar**.
+- **Fiambre / luncheon meat** — cubo de carne enlatada no anzol (ou no cabelo). **Barato e mortífero p/ carpa e barbo**; sela na frigideira p/ aguentar e dá-lhe **alho**.
+- **Boilie** — bolinha dura cozida (comprada, com sabor). Vai no **hair rig** (cabelo), não espetada — ver caixa. Carpa.
+- **Chufa (tiger nut)** — tubérculo doce e crocante, a carpa adora. ⚠️ **Tóxica crua** → tem de ser preparada (ver abaixo).
 - **Grão-de-bico** — cozido mas **firme**. Carpa e barbo. (Ver preparação abaixo.)
-- **Queijo** — cubinhos pequenos de queijo **duro**. Funciona em algumas barragens para carpa e barbo.
+- **Queijo** — cubinhos pequenos de queijo **duro**. Carpa e barbo em algumas barragens.
 - **Arroz cozido** — bem cozido mas não desfeito; alguns grãos no anzol.
-- **Larva (asticô) / minhoca** — isco vivo universal; a boga e a perca-sol adoram. Minhoca apanha quase tudo.
+- **Larva (asticô) / minhoca** — isco vivo universal; boga e perca-sol adoram. Minhoca apanha quase tudo.
 
 > 🍯 **Receita rápida (carpa/boga):** 2 fatias de pão de forma + 1 c. de chá de mel + 1 c. de sopa de farinha. Amassa até bola consistente; faz bolinhas do tamanho de uma ervilha.
 
 > 🌟 **Sabores** (mel, baunilha, açúcar, alho, queijo) aumentam a atração — sobretudo em água fria ou turva, onde o peixe procura pelo cheiro.
 
+> 🍦 **Baunilha: pode ser fake.** O aroma ativo é a **vanilina** — o **aroma/açúcar baunilhado** do supermercado (artificial) é exatamente o que os boilies usam e resulta igual. Não precisas de baunilha natural/favas. ⚠️ **Pouco**: sabor a mais **afasta** o peixe.
+
+> 🐛 **Asticô (maggot) — cores & guardar:** **branco** (geral / inverno / água limpa) · **vermelho** (perca, boga) · **bronze** (rio, barbo). Mete 2–3 no anzol. Guarda no **frigorífico** com **farelo ou serradura** — o frio impede que virem casulo (caster).
+
+> 🪝 **Hair rig (cabelo) — p/ boilie/chufa/isco duro:** o isco vai num **fio curto ao lado do anzol**, não espetado. O peixe suga o isco, o **anzol nu** entra na boca e fisga sozinho. É a base da pesca à carpa moderna.
+
 ---
 
 ## ⚠️ Preparar partículas com segurança
 
-**Milho seco, grão-de-bico, feijão e outras leguminosas secas TÊM de ser preparados:**
-1. **Demolha** em água **12–24 h** (dobro de água).
-2. **Coze até ficarem moles** por dentro (~1–2 h).
+**Milho seco, grão-de-bico, feijão, chufa (tiger nut) e outras leguminosas/tubérculos secos TÊM de ser preparados:**
+1. **Demolha** em água **12–24 h** (chufa: **24–48 h**; sempre o dobro de água).
+2. **Coze até ficarem moles** por dentro (~1–2 h; **chufa 30–40 min**). Guarda a **chufa na própria água de cozer** (mantém os açúcares).
 
-**Nunca uses crus/secos:** incham dentro do peixe (fazem-lhe mal), fermentam, e nem seguram bem no anzol. O **milho doce de lata** já vem cozido → não precisa de nada.
+**Nunca uses crus/secos:** incham dentro do peixe (fazem-lhe mal), fermentam, e nem seguram bem no anzol. A **chufa crua é tóxica** para a carpa. O **milho doce de lata** já vem cozido → não precisa de nada.
 
 ---
 
