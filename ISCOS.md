@@ -49,14 +49,30 @@ Iscos naturais/caseiros para a pesca **à boia** e **ao fundo** — os peixes "p
 
 ## 🌾 Engodo (groundbait) — atrair o peixe à zona
 
-Além do isco no anzol, atiras para a água uma mistura que chama o peixe:
-- **Pão ralado + farinha de milho + milho doce esmagado** + um pouco de água → bolas do tamanho de uma tangerina, atiradas ao sítio onde pescas.
+Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ouro: ao **mesmo ponto** onde pescas, **pouco e muitas vezes** (não despejes tudo de uma vez).
+
+> 🎯 **Predadores (achigã, sandre) NÃO se engodam** — caçam à vista/vibração; procura **estrutura** ([Achigã](EXEMPLOS-MODULAR.md#ex-achiga) · [Sandre](EXEMPLOS-MODULAR.md#ex-sandre)). Engodo é para **peixe-pasto** e **peixe-gato** — e cada um pede um tipo diferente:
+
+### 🐟 Peixe-pasto (carpa · barbo · boga · pimpão) — engodo "comida"
+- **Base:** pão ralado + farinha de milho + milho doce esmagado + água → bolas do tamanho de uma **tangerina**.
+- **Carpa / barbo:** junta **milho, grão cozido, partículas**; adoça com **mel / baunilha / açúcar**. → [Carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [Barbo](EXEMPLOS-MODULAR.md#ex-barbo)
+- **Boga / peixe pequeno:** mistura **mais fina** (pão ralado + farinha + **farinha de amendoim**, pouca partícula) — só para os **manter**, não encher. → [Boga](EXEMPLOS-MODULAR.md#ex-boga)
+
+### 🟤 Peixe-gato — engodo "cheiro" (chum)
+Caça pelo **olfato** (super sensível a cheiros/aminoácidos) → aqui o engodo é **cheiro forte**, não comida fina. → [Peixe-gato](EXEMPLOS-MODULAR.md#ex-gato)
+- **O que resulta:** fígado, **sangue** (de talho), miúdos de frango, **ração de cão/gato** gorda, **queijo forte**, chouriço — ou **grãos fermentados** (trigo/milho de molho 1–2 dias até azedar).
+- **Turbina o cheiro:** alho, cebola em pó, **erva-doce (anis)**.
+- **Como:** atira só **bocadinhos** para "temperar a água" e mantê-los por perto — **não para os alimentar**. Melhor ao **anoitecer/noite**.
+
+> 🍯 **Receita cheiro (rápida):** pão duro embebido em **sangue** (ou ração húmida) + **alho**; deixa **azedar 1–2 dias** num frasco fechado. Atira bolas pequenas ao pôr-do-sol.
+
+> ⚠️ **Nunca peixe** (vivo, morto ou ovas) no engodo nem no isco — **ilegal** em águas interiores. Mesmo para o peixe-gato, usa sempre **não-peixe** (carne, fígado, queijo, grão, pão).
 
 > ⚖️ **Engodo — regras (ICNF):**
-> - **Permitido** em geral (isco e engodo naturais/artificiais), **exceto peixe (vivo/morto) e ovas**, ou substâncias que causem dano ambiental.
-> - Pode ser **restrito em certas zonas** (serviços de uso protegido) — **confirma o edital** da albufeira.
-> - Em concurso o máximo ronda os ~10 kg.
-> - **Castelo do Bode** (água de abastecimento): engodo permitido, mas a albufeira tem regras próprias (POACB) — ex.: **proibidos motores a 2 tempos** nos barcos. Ver [Regras por barragem](REGRAS.md#regras-por-barragem).
+> - **Permitido** em geral (natural/artificial), **exceto peixe (vivo/morto) e ovas** ou substâncias com **dano ambiental**.
+> - **Pouco chega** — despejar quilos de miúdos a apodrecer pode contar como dano ambiental.
+> - Pode ser **restrito** em certas zonas (uso protegido) — **confirma o edital** da albufeira. Em concurso o máx. ronda ~10 kg.
+> - **Castelo do Bode** (água de abastecimento): engodo permitido, mas **evita chum de sangue/miúdos** aí (boa prática); a albufeira tem regras próprias (POACB — ex.: proibidos **motores a 2 tempos**). Ver [Regras por barragem](REGRAS.md#regras-por-barragem).
 
 ---
 
