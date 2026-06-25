@@ -45,6 +45,8 @@ Linha-mãe → nó FG/Albright → leader fluoro → destorcedor snap → spinne
 
 🪢 **Nós:** [FG ou Albright](NOS.md) (multi→leader) · [clinch melhorado](NOS.md) (leader→snap).
 
+> 💡 **Linha-mãe de MONO (transparente)? Esquece o FG.** O mono já é **pouco visível** e **estica** (perdoa erros) — perfeito p/ spinners. Liga a amostra com um **destorcedor com gancho (snap-swivel)**: **mono → (clinch) → snap-swivel → spinner**. **1 nó simples**, e o destorcedor **mata a torção** que os spinners metem na linha (importante — senão fica tudo encaracolado). O FG + leader fluoro **só compensa com trançado** (multi não estica e é visível). E sim — juntar com **destorcedor (2 argolas)** em vez de atar mono↔mono é perfeitamente válido.
+
 ## 🟠 Boia — isco natural
 <img src="img/montagem-boia.svg" alt="Montagem boia" width="470" height="407">
 
