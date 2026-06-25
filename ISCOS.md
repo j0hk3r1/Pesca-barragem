@@ -63,6 +63,8 @@ Iscos **naturais, caseiros e de loja** (milho, massa, fiambre, boilie…) para a
 
 Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ouro: ao **mesmo ponto** onde pescas, **pouco e muitas vezes** (não despejes tudo de uma vez).
 
+> 📏 **Quanto deitar?** No anzol = **1 isco** (1 cubo de fiambre / 2 grãos de milho). A **iscar/engodar** = uma **mão-cheia** de cada vez (~10–20 bolas/grãos/cubos) e **reforça pouco** a cada **20–30 min**. **Regra:** se há peixe mas não morde, **já deitaste de mais**.
+
 > 🎯 **Predadores (achigã, sandre) NÃO se engodam** — caçam à vista/vibração; procura **estrutura** ([Achigã](EXEMPLOS-MODULAR.md#ex-achiga) · [Sandre](EXEMPLOS-MODULAR.md#ex-sandre)). Engodo é para **peixe-pasto** e **peixe-gato** — e cada um pede um tipo diferente:
 
 ### 🐟 Peixe-pasto (carpa · barbo · boga · pimpão) — engodo "comida"

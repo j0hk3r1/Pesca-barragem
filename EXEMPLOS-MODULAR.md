@@ -267,6 +267,13 @@ boia ou chumbo de fundo → leader 30–40 cm → anzol #6–8 + chouriço / fí
 - 💡 **Dica:** guia-se pelo **cheiro** → isco forte. ⚠️ **Espinhos** nas barbatanas picam (pega por trás). Invasor → **não devolver vivo**.
 - 🛒 [SN HOOK WORM #6](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) · [boia MTCH](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) ou [azeitona](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548).
 
+> 🎯 **O GRANDE — peixe-gato-canal (americano), só no Alqueva (3 a 15 kg+):** outra liga (o negro acima fica por <0,5 kg). Para o teu amigo querer um troféu, é **este**.
+> - **Onde:** **canal / braços fundos** e curvas onde o fundo fundo chega perto da margem; fundo de **areia/lodo**, corrente lenta. De dia está fundo; **à noite chega ao raso**.
+> - **Quando:** **noite e crepúsculo**, meses **quentes** — caça pelo **cheiro** a metros de distância.
+> - **Isco:** forte e que largue rasto — **fígado de frango, chouriço, queijo forte, molho de minhocas**. ⚠️ **nada de peixe** (ilegal); troca o isco para manter o cheiro fresco. Mantém um [engodo de cheiro](ISCOS.md).
+> - **Montagem:** **chumbo corrido** (deixa-o levar sem sentir o peso) + **anzol forte 1/0–4/0**.
+> - **Material:** 3 kg+ **parte o leve** → usa a [💪 cana grande + Sofi M2](KIT-PESADO.md), freio suave e **camaroeiro**. Espinhos picam — pega por trás.
+
 <a id="ex-pimpao"></a>
 
 ## ⚪ Pimpão · 🪶 pequena (boia)
