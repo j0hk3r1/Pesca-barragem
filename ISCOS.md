@@ -2,7 +2,7 @@
 
 Iscos naturais/caseiros para a pesca **à boia** e **ao fundo** — os peixes "pasto": carpa, barbo, boga, ruivaco, perca-sol, pimpão, peixe-gato.
 
-> Os **predadores** (achigã, sandre) pescam-se com **amostra/vinil**, não com isco → ver [**Spinning — Achigã**](EXEMPLOS-MODULAR.md#ex-spin).
+> Os **predadores** (achigã, sandre) pescam-se com **amostra/vinil**, não com isco → ver [**Achigã**](EXEMPLOS-MODULAR.md#ex-achiga) / [**Sandre**](EXEMPLOS-MODULAR.md#ex-sandre).
 
 ---
 
@@ -10,12 +10,12 @@ Iscos naturais/caseiros para a pesca **à boia** e **ao fundo** — os peixes "p
 
 | Isco | Peixe | Montagem |
 |---|---|---|
-| **Massa** (pão/farinha/sêmola) | boga, ruivaco, perca-sol, pimpão, carpa | [boia](EXEMPLOS-MODULAR.md#ex-boia) · [boia deslizante](EXEMPLOS-MODULAR.md#ex-deslizante) |
-| **Milho doce** | carpa, barbo | [boia deslizante](EXEMPLOS-MODULAR.md#ex-deslizante) · [fundo](EXEMPLOS-MODULAR.md#ex-fundo) |
-| **Grão-de-bico / partículas** (cozido) | carpa, barbo | [fundo](EXEMPLOS-MODULAR.md#ex-fundo) |
-| **Queijo** (duro) | carpa, barbo | [fundo](EXEMPLOS-MODULAR.md#ex-fundo) |
-| **Pão** | carpa, boga | [boia](EXEMPLOS-MODULAR.md#ex-boia) · [fundo](EXEMPLOS-MODULAR.md#ex-fundo) |
-| **Larva (asticô) / minhoca** | boga, perca-sol, barbo, tudo | [boia](EXEMPLOS-MODULAR.md#ex-boia) |
+| **Massa** (pão/farinha/sêmola) | boga, perca, pimpão, carpa | [boga](EXEMPLOS-MODULAR.md#ex-boga) · [carpa](EXEMPLOS-MODULAR.md#ex-carpa) |
+| **Milho doce** | carpa, barbo | [carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
+| **Grão-de-bico / partículas** (cozido) | carpa, barbo | [carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
+| **Queijo** (duro) | carpa, barbo | [carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
+| **Pão** | carpa, boga | [boga](EXEMPLOS-MODULAR.md#ex-boga) · [carpa](EXEMPLOS-MODULAR.md#ex-carpa) |
+| **Larva (asticô) / minhoca** | boga, perca, barbo, tudo | [boga](EXEMPLOS-MODULAR.md#ex-boga) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
 | **Carne / chouriço / fígado** | peixe-gato-negro | [peixe-gato](EXEMPLOS-MODULAR.md#ex-gato) |
 
 ---

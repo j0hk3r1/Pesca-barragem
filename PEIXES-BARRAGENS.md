@@ -8,17 +8,19 @@ Tamanhos realistas. Espécies incertas marcadas com **⚠️ Atenção**. Em tod
 
 Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à Decathlon):
 
-- **Achigã** → [spinning](EXEMPLOS-MODULAR.md#ex-spin)
-- **Sandre / lúcio-perca** → [spinning (vinil)](EXEMPLOS-MODULAR.md#ex-spin)
-- **Carpa** → [boia deslizante](EXEMPLOS-MODULAR.md#ex-deslizante) · [fundo](EXEMPLOS-MODULAR.md#ex-fundo)
-- **Barbo** → [boia deslizante](EXEMPLOS-MODULAR.md#ex-deslizante) · [fundo](EXEMPLOS-MODULAR.md#ex-fundo)
-- **Boga / ruivaco / perca-sol** → [boia](EXEMPLOS-MODULAR.md#ex-boia)
-- **Peixe-gato-negro** → [peixe-gato](EXEMPLOS-MODULAR.md#ex-gato)
+- **Achigã** → [spinning / vinil](EXEMPLOS-MODULAR.md#ex-achiga)
+- **Sandre / lúcio-perca** → [vinil ao fundo](EXEMPLOS-MODULAR.md#ex-sandre)
+- **Carpa** → [ao fundo](EXEMPLOS-MODULAR.md#ex-carpa)
+- **Barbo** → [ao fundo](EXEMPLOS-MODULAR.md#ex-barbo)
+- **Boga / ruivaco** → [à boia](EXEMPLOS-MODULAR.md#ex-boga) · **Perca-sol** → [boia fácil](EXEMPLOS-MODULAR.md#ex-perca)
+- **Peixe-gato-negro** → [fundo cheiroso](EXEMPLOS-MODULAR.md#ex-gato) · **Pimpão** → [boia](EXEMPLOS-MODULAR.md#ex-pimpao)
 
 > Peixe grande (carpa 8 kg+, barbo grande) ao fundo a distância = [💪 Kit Pesado](KIT-PESADO.md).
 > 🍞 Que isco pôr no anzol (massa, milho, receitas) → [Iscos & engodo](ISCOS.md).
 
 ---
+
+<a id="dam-alqueva"></a>
 
 ## 🏞️ 1. Barragem de Alqueva (Alentejo, Rio Guadiana)
 
@@ -45,6 +47,8 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 
 ---
 
+<a id="dam-odivelas"></a>
+
 ## 🏞️ 2. Barragem de Odivelas (Baixo Alentejo, bacia do Sado)
 
 **O que é:** Albufeira de rega de planície, água quente e turva (desde 1972, ~970 ha). Bom acesso de margem. Predador principal = achigã; peixe-gato-negro (bullhead pequeno) **muito provável** (habitat ideal) mas não confirmado em listas oficiais do Sado.
@@ -66,6 +70,8 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 **Dicas:** Achigã + boga dominam; carpa confirmada por campeonatos de feeder. Ótimo p/ margem e competição. **Chouriço/carne gorda à boia = forte candidato a peixe-gato-negro** (se presente — habitat ideal, mas não consta de listas oficiais do Sado). Confirma defesos/zonamentos com ICNF.
 
 ---
+
+<a id="dam-bode"></a>
 
 ## 🏞️ 3. Barragem de Castelo do Bode (Centro, Rio Zêzere)
 
@@ -92,6 +98,8 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 **Mínimos/defeso:** achigã 20 cm, truta 20 cm. ⚠️ **15 Mar–15 Mai = defeso do ACHIGÃ** (não da truta). Truta: época ~fim Mar a início Ago (varia por edital). Exóticos (sandre/siluro/lúcio): **sem mínimo nem defeso** (captura incentivada).
 
 ---
+
+<a id="dam-idanha"></a>
 
 ## 🏞️ 4. Barragem Marechal Carmona / Idanha (Beira Baixa, Rio Ponsul)
 

@@ -83,7 +83,7 @@ cana → mono 0,35 → [pérola] → AZEITONA furada (desliza) → [pérola] →
 4. Lança, deixa assentar, **estica a linha**, cana na forquilha, **guizo na ponta**
 5. Guizo toca / ponta dobra → **ferra**
 
-Diagramas (chumbo corrido + paternoster) no setup **[Fundo](EXEMPLOS-MODULAR.md#ex-fundo)**. Iscos: minhoca, milho, pão, carne/chouriço (peixe-gato).
+Diagramas (chumbo corrido + paternoster) nos setups **[Carpa](EXEMPLOS-MODULAR.md#ex-carpa)** e **[Barbo](EXEMPLOS-MODULAR.md#ex-barbo)**. Iscos: minhoca, milho, pão, carne/chouriço (peixe-gato).
 
 ---
 
