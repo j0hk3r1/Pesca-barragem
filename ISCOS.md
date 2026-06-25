@@ -78,6 +78,8 @@ Caça pelo **olfato** (super sensível a cheiros/aminoácidos) → aqui o engodo
 - **Turbina o cheiro:** alho, cebola em pó, **erva-doce (anis)**.
 - **Como:** atira só **bocadinhos** para "temperar a água" e mantê-los por perto — **não para os alimentar**. Melhor ao **anoitecer/noite**.
 
+> 🐱 **Comida de gato/cão — vale (e é barata)!** **Húmida (lata)** = ótimo **chum** oleoso e fedorento → esmaga no engodo ou mete no feeder/saco PVA; liga com **pão ralado** p/ segurar. **Seca (croquete)** = boa como **loose feed** e até **isco** num cabelo/band (amolece na água, tipo pellet). ⚠️ Escolhe **sabor carne/frango, NÃO peixe** (atum/salmão) — isco/engodo de peixe é **ilegal**. Guarda a boa para os gatos. 😼
+
 > 🍯 **Receita cheiro (rápida):** pão duro embebido em **sangue** (ou ração húmida) + **alho**; deixa **azedar 1–2 dias** num frasco fechado. Atira bolas pequenas ao pôr-do-sol.
 
 > ⚠️ **Nunca peixe** (vivo, morto ou ovas) no engodo nem no isco — **ilegal** em águas interiores. Mesmo para o peixe-gato, usa sempre **não-peixe** (carne, fígado, queijo, grão, pão).
