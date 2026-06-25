@@ -137,6 +137,16 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 - **Boia (carpa/barbo/boga/peixe-gato):** atira, deixa assentar, **vê a boia**. Afunda/foge → **ferra**. Paciência. Anoitecer = peixe-gato.
 - **Água:** limpa → fino + cores naturais. Turva → cor importa pouco (cheiro/vibração).
 
+## 🪨 Ao fundo: esperar, renovar e engodar longe
+- **Deixa a cana na forquilha** com **guizo** na ponta — esperar **é** a pesca, não recolhas a toda a hora.
+- **Renovar o isco se não morder:** mole/cheiroso (fiambre, fígado, massa, pão) **~20–30 min** (o cheiro lava-se); duro (boilie, milho, chufa) aguenta **1–3 h**. Verifica também após qualquer **"toque" que não pegou** — pode ter sido roubado (atenção ao **lagostim**).
+- **Vais engodando** sempre ao **mesmo ponto**, pouco e muitas vezes — **sem recolher**; só recolhes para renovar/relançar.
+- **Engodar longe** (à mão só ~15–20 m):
+  - 🧺 **Feeder / method** — cesto de engodo **preso à montagem**: vai no lançamento e larga **no isco**. O mais fácil.
+  - 💧 **Saco de PVA** — saco solúvel de isco no anzol; dissolve e deixa o monte exatamente no sítio.
+  - 🎯 **Fisga** dispara bolas/boilies a 40–60 m · **spomb** (foguete) para distância + precisão.
+  - 📌 **Truque:** prende a linha no **clip da bobina** à tua distância → todos os lançamentos caem no mesmo sítio; aponta a um **ponto na margem oposta** para a direção.
+
 ## 💪 Força — o que aguenta + freio (drag)
 
 Elo mais fraco = **leader fluoro 0,20–0,25 mm (~2,8–4,5 kg)**. É aí que parte — de propósito, salva o resto.
