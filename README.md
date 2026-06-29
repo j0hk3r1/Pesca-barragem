@@ -25,12 +25,12 @@ Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol,
 | 🪶 **WXM 100** | trançado 0,12 + leader fluoro | amostra (predador) — a principal |
 | 🪶 **RFT 100** | trançado 0,12 + leader fluoro | amostra ou boia |
 | 💪 **Sofi M2** | mono 0,40 (~11 kg) | carpa / gato 10–15 kg |
-| 💪 **Sofi verde** | trançado de siluro | siluro / gato grande (Idanha/Alqueva) |
+| 💪 **Sofi verde** | trançado de siluro | siluro (Tejo/Idanha) |
 | ⚙️ **velhos pequenos** | mono fina 0,20–0,25 | boia / fundo leve (peixe pequeno) |
 
 > 📋 **Setup completo** (linha-mãe linkada + leader/anzol/chumbo **por peixe e peso**) → [📏 Tamanhos](TAMANHOS.md#anzol). **Carpa e gato usam quase a mesma linha** — muda só a **ponta**; por isso **2 Sofi = 2 setups** (trocas o carreto em 10 s).
 >
-> ⚖️ Na água, **máx. 2 canas montadas** por pescador → [Regras](REGRAS.md). Onde montar os carretos leves → [🎣 Canas](CANA.md); o setup pesado → [💪 Kit Pesado](KIT-PESADO.md).
+> ⚖️ Na água, **máx. 2 canas montadas** por pescador → [Regras](REGRAS.md). O setup pesado (Sofi) → [💪 Kit Pesado](KIT-PESADO.md).
 
 ---
 
@@ -57,7 +57,6 @@ Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol,
 | ⚖️ [**Regras**](REGRAS.md) | Tamanhos mínimos, devolver/abater, nº de canas, isco |
 | 💳 [**Licenças & onde comprar**](LICENCAS.md) | Geral + concessões dos rios + onde comprar + defeso |
 | 🪢 [**Nós**](NOS.md) | Que nó usar onde + vídeo |
-| 🎣 [**Canas**](CANA.md) | As canas leves — onde montar os carretos |
 | 💪 [**Kit Pesado**](KIT-PESADO.md) | Setup pesado (Sofi): carpa/gato, ledger |
 
 ---

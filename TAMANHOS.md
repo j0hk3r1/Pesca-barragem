@@ -40,7 +40,7 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 | 🪶 **WXM 100** | trançado [TX4 0,12](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) (~5–6 kg) + leader fluoro | amostra (predador) — sensível, longe |
 | 🪶 **RFT 100** | trançado [TX4 0,12](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) + leader fluoro | amostra ou boia |
 | 💪 **Sofi M2** | mono [LINE 100 0,40](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (~11 kg) | carpa / gato 10–15 kg |
-| 💪 **Sofi verde** | [trançado de siluro 50–80 lb](https://www.decathlon.pt/todos-os-desportos/pesca-predadores-em-agua-doce/pesca-ao-siluro) | siluro / gato grande (Idanha/Alqueva) |
+| 💪 **Sofi verde** | [trançado de siluro 50–80 lb](https://www.decathlon.pt/todos-os-desportos/pesca-predadores-em-agua-doce/pesca-ao-siluro) | siluro (Tejo/Idanha) |
 | ⚙️ **velhos pequenos** | mono fina 0,20–0,25 | boia / fundo leve (peixe pequeno) |
 
 **B) Leader (empate) por peixe + peso** — afina **só a ponta** ao alvo do dia. A linha-mãe forte **não afasta os pequenos**; o que conta é o **empate + anzol + isco**:

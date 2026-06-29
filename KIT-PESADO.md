@@ -1,6 +1,6 @@
 # 💪 Setup pesado — Sofi (carpa · gato · siluro)
 
-Pesca de **fundo (ledger) de margem para peixe grande** — carpa 10 kg+, barbo grande, peixe-gato. **2 carretos Sofi** (na cana de fundo 4,20 m): **M2** com **mono 0,40** (carpa/gato) · **verde** com **trançado de siluro** (peixe grande, Idanha/Alqueva). Complementa o [setup leve](MATERIAL.md). Que linha/leader/anzol por peixe → [📏 Tamanhos](TAMANHOS.md#anzol).
+Pesca de **fundo (ledger) de margem para peixe grande** — carpa 10 kg+, barbo grande, peixe-gato. **2 carretos Sofi** (na cana de fundo 4,20 m): **M2** com **mono 0,40** (carpa/gato) · **verde** com **trançado de siluro** (peixe grande, Tejo/Idanha). Complementa o [setup leve](MATERIAL.md). Que linha/leader/anzol por peixe → [📏 Tamanhos](TAMANHOS.md#anzol).
 
 > Termos como **PT (EN)** — português com o inglês entre parênteses na 1ª utilização.
 
@@ -10,7 +10,7 @@ Pesca de **fundo (ledger) de margem para peixe grande** — carpa 10 kg+, barbo 
 
 | Peça | O que é | Estado |
 |---|---|---|
-| **Cana de fundo** | Fibra de vidro enrolada, **2 troços × ~2,10 m = 4,20 m**, junções metálicas roscadas, pega enrolada preta, carretel de abraçadeira | Blank são; 1 argola solta p/ re-enrolar, whippings velhos |
+| **Cana de fundo** | Fibra de vidro, **2 troços × ~2,10 m = 4,20 m**, junções roscadas. **Ação média** (dobra na metade de cima, cabo rígido) + **potente** (~2 kg p/ pôr a ponta a 90°) — backbone p/ peixe grande, ponta dá no lançamento | Blank são; 1 argola solta p/ re-enrolar, whippings velhos |
 | **Carreto Sofi M2** | **Made in Portugal · Registado** (anos 60–70, estilo Mitchell), 704 g, bail completo | Precisa service (massa + óleo) |
 | **Carreto verde** (2.º) | Também um **Sofi** (sem a chapa oval — confirmado por pesquisa de imagem), bobina latão, 692 g | Idem — service |
 | **Linha 0,40 atual** | Mono (nylon) — testada: aguenta ~5 kg estático, parte ~10 kg (≈70% da força original) | Usável; mantém os nós existentes |
@@ -19,20 +19,11 @@ Pesca de **fundo (ledger) de margem para peixe grande** — carpa 10 kg+, barbo 
 
 ---
 
-## 🛒 O que precisas (além das canas/carretos)
+## 🛒 O que precisas (além de canas/carretos)
 
-Tudo na Decathlon — clica para ver:
+Lista completa (linha, chumbos, batentes, forquilhas, guizos) → [🎒 Material → Setup pesado](MATERIAL.md). Só **um** não dispenses:
 
-- 🧵 **Linha mono 0,35** — [CAPERLAN LINE 100 castanho 0,35 mm (7,1 kg)](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (ou usa a **0,40 atual**, já testada)
-- ⚖️ **Chumbadas 60–100 g** — [azeitona furada (até 60 g)](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) p/ perto; as tuas **~100 g** p/ longe
-- 🔘 **Batentes + pérolas (beads)** — [Nós de bloqueio c/ pérolas](https://www.decathlon.pt/p/nos-de-bloqueio-de-pesca-a-inglesa-com-boia-deslizante-conjunto-de-5/355294/m8883379)
-- 🪜 **Forquilhas** (cana pousada à espera) — [dianteira (estaca V)](https://www.decathlon.pt/p/suportes-de-canas-pesca-agua-doce-estaca-telescopica-cabeca-v-45-70/X8328117/m8328117) + [traseira (suporte)](https://www.decathlon.pt/p/suporte-dobravel-de-cana-de-pesca-em-agua-doce-plastico/314162/m8328113)
-- 🔔 **Guizos** (sinalizam o toque na ponta) — [2 guizos c/ pinça](https://www.decathlon.pt/p/2-guizos-compridos-c-pinca-b-l/329361/m8607175)
-- 🥅 **Camaroeiro (landing net)** — [rede simples cabo madeira](https://www.decathlon.pt/p/camaroeiro-rede-simples-cabo-em-madeira/X8820216/m8820216) ⭐ **o mais importante**
-
-> 🥅 **O camaroeiro é o item nº1** — carpa de 8 kg+ na margem **não sai da água à mão** nem a levantar pela linha (parte). Sem rede = perdes o peixe já ganho.
-
-**Opcionais:** [azeitona longa fina (1–10 g)](https://www.decathlon.pt/p/chumbada-de-pesca-azeitona-longa-furada/7821/m4451688) · [boia deslizante 15 g](https://www.decathlon.pt/p/boia-deslizante-de-pesca-no-mar-sw-flt-sld-15-g/352537/c344m8871257) (boia a distância com esta cana) · [bloqueio boia silicone](https://www.decathlon.pt/p/bloqueio-boia-silicone-gm/X8302156/m8302156) · [guizo duplo](https://www.decathlon.pt/p/guizo-duplo-doublebell-b-d/125725/m8334342) · [camaroeiro cesto maior](https://www.decathlon.pt/p/camaroeiro-rede-c-cabo-em-madeira/X8820227/m8820227).
+> 🥅 **Camaroeiro (landing net) = item nº1** — carpa de 8 kg+ na margem **não sai à mão** nem a levantar pela linha (parte). Sem rede = perdes o peixe já ganho.
 
 ---
 
@@ -50,8 +41,8 @@ A cana grossa de glass + carreto grande deixam usar **linha muito mais forte** q
 |---|---|---|
 | Carpa 8–15 kg | ❌ bycatch perdido | ✅ **lutável** |
 | Barbo/comizo 4–5 kg+ | ⚠️ no limite | ✅ confortável |
-| Peixe-gato-canal grande (Alqueva) | ❌ intocável | ⚠️/✅ dá luta real |
-| Siluro (Idanha) | ❌ | ❌ **continua não** — disciplina própria |
+| Siluro pequeno/médio (uns kg) | ❌ intocável | ✅ dá luta real |
+| Siluro grande (30 kg+) | ❌ | ❌ **continua não** — disciplina própria |
 
 > ⚠️ **Antes de confiar peixe grande:** (1) service aos carretos — drag de 1965 gripado parte linha; testa c/ balança, deve ceder suave a ~2–3 kg; (2) re-enrolar a argola solta; (3) inspeção de fissuras no blank (junções!); (4) mono velha = imprevisível no **sacão** — a balança puxa devagar, o peixe não.
 
@@ -99,12 +90,7 @@ Diagramas (chumbo corrido + paternoster) nos setups **[Carpa](EXEMPLOS-MODULAR.m
 - **Fundo = o método p/ longe.** Boia a +30 m quase não se vê e o vento arrasta.
 - Não bombardeies por defeito: carpa/barbo andam muitas vezes a **10–30 m** (ver [distância de lançamento](EXEMPLOS-MODULAR.md)). Longe serve canais fundos e fugir à pressão da margem.
 
-### ⚖️ Há limite legal de distância? Não.
-A lei de pesca lúdica **não limita a distância de lançamento**. O que existe são **zonas proibidas**:
-- Junto à **parede da barragem** e órgãos de segurança (descarregador, tomadas de água) — sinalizado
-- **Praias fluviais/zonas balneares** em época balnear
-- **Concessões/zonas de concurso** — regras próprias
-- Confirma o **edital da albufeira** (ICNF) — zonamentos variam
+> ⚖️ **Limite legal de distância?** Não há. Mas há **zonas proibidas**: junto à parede/órgãos da barragem, praias fluviais em época balnear, concessões/zonas de concurso. Confirma o **edital** (ICNF).
 
 ---
 

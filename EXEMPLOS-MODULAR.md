@@ -23,7 +23,7 @@ No fundo só há **3 maneiras de pescar**: **amostra/vinil** (predadores) · **b
 >
 > 🐟 **Truta** não vive nas 4 barragens — só nos **rios** (Alva, Ceira, Zêzere, Serra da Estrela) → [🏞️ Rios](RIOS.md) · [setup da truta](EXEMPLOS-MODULAR.md#ex-truta).
 >
-> 🟫 **Siluro** (o gigante de Idanha/Castelo do Bode, à amostra ou isco de margem) → [setup próprio](EXEMPLOS-MODULAR.md#ex-siluro).
+> 🟫 **Siluro** (o gigante do **Tejo/Idanha/Castelo do Bode**, à amostra ou isco de margem) → [setup próprio](EXEMPLOS-MODULAR.md#ex-siluro).
 
 ---
 
@@ -189,7 +189,7 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~2,8–4,5 kg)**. É aí que pa
 | Achigã (2–3 kg), barbo normal, boga, perca-sol, peixe-gato-negro | ✅ **Confortável** |
 | Sandre 1–3 kg, carpa/barbo 4–8 kg | ⚠️ **No limite** — freio suave, água aberta |
 | Carpa 10 kg+, sandre 4–8 kg | ❌ **Acima** — bycatch que vais perder |
-| Siluro, peixe-gato grande (Alqueva) | ❌ **Intocável** — [setup pesado](KIT-PESADO.md) à parte |
+| Siluro / peixe muito grande | ❌ **Intocável** — [setup pesado](KIT-PESADO.md) à parte |
 
 **Freio (drag):** põe a **~⅓ do leader = ~1,5–2 kg**. Nunca no máximo (os **~6 kg** do carreto leve são só folga); o **leader é o fusível** — peixe grande, deixa correr.
 
@@ -303,12 +303,9 @@ boia ou chumbo de fundo → leader 30–40 cm → anzol #6–8 + chouriço / fí
 - 💡 **Dica:** guia-se pelo **cheiro** → isco forte. ⚠️ **Espinhos** nas barbatanas picam (pega por trás). Invasor → **não devolver vivo**.
 - 🛒 [SN HOOK WORM #6](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) · [boia MTCH](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) ou [azeitona](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548).
 
-> 🎯 **O GRANDE — peixe-gato-canal (americano), só no Alqueva (3 a 15 kg+):** outra liga (o negro acima fica por <0,5 kg). Para o teu amigo querer um troféu, é **este**.
-> - **Onde:** **canal / braços fundos** e curvas onde o fundo fundo chega perto da margem; fundo de **areia/lodo**, corrente lenta. De dia está fundo; **à noite chega ao raso**.
-> - **Quando:** **noite e crepúsculo**, meses **quentes** — caça pelo **cheiro** a metros de distância.
-> - **Isco:** forte e que largue rasto — **fígado de frango, chouriço, queijo forte, molho de minhocas**. ⚠️ **nada de peixe** (ilegal); troca o isco para manter o cheiro fresco. Mantém um [engodo de cheiro](ISCOS.md).
-> - **Montagem:** **chumbo corrido** (deixa-o levar sem sentir o peso) + **anzol forte 1/0–4/0**.
-> - **Material:** 3 kg+ **parte o leve** → usa a [💪 cana grande + Sofi M2](KIT-PESADO.md), freio suave e **camaroeiro**. Espinhos picam — pega por trás.
+> 🎯 **Queres um gato GRANDE (troféu)? Não é no Alqueva.** O "gato" do Alqueva — **negro** e **"canal/americano"** — fica **pequeno**: quase sempre **<1 kg** (os channel catfish medidos em PT deram ~0,65 kg). **Não há pescaria de troféu de gato no Alqueva.**
+> - O verdadeiro **gato gigante de PT é o siluro** (3 a 100 kg+) — e está no **Tejo (Belver)**, **Zêzere (Castelo do Bode)** e **Ponsul (Idanha)**, **não** no Alqueva.
+> - Para o teu amigo querer um monstro → **[setup do siluro](EXEMPLOS-MODULAR.md#ex-siluro)** (mesma ideia: chumbo corrido, anzol forte 1/0–4/0, isco cheiroso, cana grande + camaroeiro).
 
 <a id="ex-pimpao"></a>
 
@@ -334,19 +331,30 @@ clipa → leader fluoro fino 0,18–0,22 → colher pequena 0–3 g
 
 <a id="ex-siluro"></a>
 
-## 🟫 Siluro · 💪 cana grande, de margem, à noite (amostra ou isco)
+## 🟫 Siluro · 💪 cana grande, de margem, ao anoitecer (amostra · isco · boia)
 
-> ⚠️ **Lê isto primeiro:** o siluro passa dos **30–100 kg**. A [cana grande + Sofi](KIT-PESADO.md) com **0,40 (~8 kg)** só segura um **pequeno/médio** (uns poucos kg) — um grande **parte ou leva a linha toda**. Para os monstros = **equipamento dedicado**. Mas **de margem dá para tentar**, e um pequeno já é luta a sério.
+> ⚠️ **Lê isto primeiro:** o siluro passa dos **30–100 kg**. A [cana grande + Sofi](KIT-PESADO.md) com **0,40 (~8 kg)** só segura um **pequeno/médio** (uns poucos kg) — um grande **parte ou leva a linha toda**. Para os monstros = **equipamento dedicado**. Mas **de margem dá para tentar** (não precisas de barco), e um pequeno já é luta a sério.
 
 ```
 amostra: cana grande → 0,40 → leader grosso 0,50–0,60 (anti-abrasão) → vinil GRANDE (15–20 cm) em jig pesado
-isco:    cana grande → chumbo corrido → leader grosso → anzol forte 1/0–4/0 + bola de minhocas
+fundo:   cana grande → chumbo corrido → leader grosso → anzol forte 1/0–4/0 + bola de minhocas
+boia:    cana grande → batente/pérola → boia grande → leader grosso → anzol → isco suspenso (regulas a profundidade)
 ```
-- ✅ **Melhor (amostra):** **vinil grande / shad 15–20 cm** em **jig pesado**, recolhido **devagar junto ao fundo** com **pausas**; ou **spinnerbait / amostra de vibração**. Atira aos **baixios e estrutura** (troncos, pedras) ao **anoitecer/noite**.
-- ➕ **Também dá (isco/boia):** **bola grande de minhocas** ao fundo (chumbo corrido) ou sob **boia grande**, junto a estrutura, à noite, com guizo. ⚠️ **Isco de peixe (vivo/morto) é ILEGAL** — nada de carpa viva/enguia; usa **minhocas / não-peixe**.
-- 💡 **Dica:** caça pela **vibração + cheiro** → recolha **lenta**, isco cheiroso. **Leader grosso** anti-abrasão (boca áspera). **Freio suave + deixa correr** (o 1.º arranque é brutal). Luva para pegar o queixo.
-- 📍 **Onde:** **Idanha / Rio Ponsul** (os monstros estão no rio a jusante) e **Castelo do Bode** (raro). **Em Odivelas não há siluro.**
-- 🛒 anzol forte [grande](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) · vinil grande de predador · cana → [💪 Kit Pesado](KIT-PESADO.md).
+- ✅ **Amostra (para procurar):** **vinil / shad 15–20 cm** em **jig pesado**, devagar junto ao fundo com **pausas**; ou spinnerbait. Aos **baixios e estrutura** (troncos, pedras), ao **anoitecer/noite**.
+- 🪱 **Fundo (isco, o mais fiável):** **bola de minhocas** (ou **fígado/chouriço** — cheiro forte) em **chumbo corrido**, num **poço fundo / junto à parede / estrutura**. Cana pousada na forquilha + **guizo**.
+- 🎈 **Boia com isco suspenso — NÃO tem de ser ao fundo:** o siluro **anda na coluna de água**, não é só de fundo. Regula o isco **~1 m acima do fundo** (longe do lodo/pedras); no **verão/noite sobem** → mete a **meia-água ou perto da superfície (1–2 m)**. Os vídeos do siluro **à tona são reais** — é assim que se apanham no calor.
+- ⏰ **Quando:** **anoitecer/madrugada** + **verão** (água quente, Jun–Set) = a melhor altura. ⚠️ **Licença geral:** só de **meia hora antes do nascer a meia hora depois do pôr-do-sol** (DL 112/2017). A **pesca noturna** só é legal no **carp fishing** em ZPL que a preveja — **não há (ainda) exceção para siluro** (está só em proposta). Para o siluro, fica-te pelo **crepúsculo legal**.
+- ⚠️ **Isco de peixe (vivo/morto) é ILEGAL** em águas interiores — nada de carpa viva/enguia/peixinho; usa **minhocas, fígado, chouriço, massa** (não-peixe). **Leader grosso** anti-abrasão (boca áspera); **freio suave + deixa correr** (1.º arranque é brutal); **luva** p/ pegar o queixo.
+- 📍 **Onde (margem), por ordem de probabilidade:**
+  - ⭐ **Belver / Praia Fluvial da Ortiga** (Tejo, Mação) — **a melhor de PT**: população mais densa do país; é o troço onde o ICNF tirou **2,3 t** em 2026. **GPS 39.4831, −8.0018**.
+  - 🎯 **Idanha-a-Nova / Rio Ponsul** — infestado; o **recorde nacional (~102 kg à cana, 2025)** saiu do **Ponsul**. Bons pontos: a **ponte velha** da estrada Castelo Branco–Malpica do Tejo (sobre o Ponsul) e a **Praia Fluvial da barragem** (Marechal Carmona, GPS 39°58'34"N 7°10'51"W); há **guia local que faz siluro apeado** (de margem).
+  - **Tejo (Ribatejo)** — pesqueiros de margem com siluro em **Aldeia de Caneiras** (Santarém) e **Porto de Muge / ponte D. Amélia** (Salvaterra — saíram lá vários **>30 kg à cana**). ⚠️ O troço **Ortiga ↔ ponte da Chamusca é Zona de Pesca Profissional** — pesca lúdica casual **proibida** aí (os concursos de siluro são exceção federada); pesca-se livre **a jusante** da ponte da Chamusca (p. ex. Ribeira de Santarém).
+  - **Castelo do Bode** (Zêzere) — confirmado (foz do rio Alge); margem nas praias fluviais (Aldeia do Mato, Lago Azul).
+  - **Aguieira** (Mondego) — siluro **existe mas sem pescaria provada**; só vale uma exploração.
+  - ⚠️ **Odivelas: não há siluro; Alqueva: o "gato" é pequeno, não siluro.**
+
+<img src="img/siluro-spots.png" alt="Mapa dos spots de siluro de margem em Portugal — Belver, Idanha, Castelo do Bode, Caneiras, Porto de Muge, Aguieira" width="720" height="828">
+- 🛒 anzol forte [grande](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) · vinil grande de predador · [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) · cana → [💪 Kit Pesado](KIT-PESADO.md).
 
 ## 🏞️ Caso especial — barragem funda (ex. Castelo do Bode)
 
