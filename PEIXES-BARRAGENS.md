@@ -125,13 +125,8 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 
 ## ⚖️ Resumo material vs peixe
 
-Conjunto leve (carreto (reel) 2500, trançado (braid / main line) ~5–6 kg, fluoro 0,20–0,25 mm ~2,8–4,5 kg) cobre **bem** o dia-a-dia: achigã (2–3 kg), barbo normal, truta pequena, e todos os peixes-pasto.
-
-**Onde falha:**
-- **Carpa 10 kg+** e **barbo-comizo 4 kg+** (Alqueva) — no limite/acima → fluoro **0,28 mm** + freio (drag) suave, ou aceita perder alguns.
-- **Sandre grande (4–8 kg)** — acima → precisa cana (rod) média, trançado 8–10 kg, leader 0,30 mm+.
-- **Peixe-gato grande (Alqueva)** e **siluro (Idanha, Castelo do Bode)** — **NÃO se pescam neste material.** Se pegar, partes. Disciplina pesada à parte.
-
-**Regra mental:** siluro e peixes-gato grandes = intocáveis neste equipamento. Carpa 10 kg+ e sandre grande = bycatch que vais provavelmente perder. Para os apanhar a sério → [**💪 Kit Pesado**](KIT-PESADO.md) (cana de fundo 4,20 m + Sofi M2).
+- ✅ **Setup leve cobre bem:** achigã 2–3 kg, barbo normal, truta, e todos os peixes-pasto.
+- ⚠️ **No limite:** carpa/barbo 4–8 kg, sandre 1–3 kg — freio suave, água aberta.
+- ❌ **Acima → setup pesado:** carpa 10 kg+, gato-canal, siluro → [💪 Kit Pesado](KIT-PESADO.md) (Sofi). Que linha/anzol por peixe e peso → [📏 Tamanhos](TAMANHOS.md#anzol).
 
 > 🟫 **Tentar o siluro de margem** (à amostra/isco, com a cana grande) — pequeno/médio dá, grande parte: [setup do siluro](EXEMPLOS-MODULAR.md#ex-siluro).
