@@ -94,7 +94,7 @@ Caça pelo **olfato** (super sensível a cheiros/aminoácidos) → aqui o engodo
 
 ## ⚖️ Regras de isco (ICNF) — o que NÃO podes usar
 
-- **Peixe (vivo ou morto) e ovas como isco = proibido** em águas interiores. Isco de peixe para peixe-gato/siluro é ilegal em muitos sítios → usa **carne, chouriço, fígado, massa** (não-peixe).
+- **Peixe (vivo ou morto) e ovas como isco = proibido** em águas interiores — **mesmo um peixinho que apanhaste ali**. A proibição é **usar peixe como isco**, não interessa de onde veio. Para peixe-gato/siluro usa **minhocas, carne, chouriço, fígado, massa** (não-peixe). *(Transportar peixe vivo entre águas também é ilegal — espalha invasores/doenças.)*
 - Em **algumas zonas só a minhoca** é permitida como isco natural.
 - Tamanhos mínimos, defesos, nº de canas e o que abater/devolver → [**⚖️ Regras & licença**](REGRAS.md) e o **edital** de cada albufeira.
 

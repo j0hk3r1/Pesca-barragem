@@ -43,7 +43,7 @@ Peixe **abaixo do mínimo** ou **em defeso** → **devolve** (com cuidado, mãos
 - O exemplar maior pode não contar para o limite — ver edital.
 
 ## 🪱 Isco & engodo
-- **Proibido** usar **peixe (vivo ou morto) e ovas** como isco ou engodo. Nalgumas zonas **só minhoca** é permitida.
+- **Proibido** usar **peixe (vivo ou morto) e ovas** como isco ou engodo — **mesmo um peixe que apanhaste no próprio local**. Nalgumas zonas **só minhoca** é permitida.
 - **Engodo:** permitido em geral, **MAS proibido em águas de uso protegido** (várias albufeiras de abastecimento — **confirma Castelo do Bode**). Sem ovas nem substâncias nocivas. Em concurso ~10 kg máx.
 - Detalhe e iscos legais: [🍞 Iscos & engodo](ISCOS.md).
 
