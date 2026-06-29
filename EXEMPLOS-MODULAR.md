@@ -27,12 +27,11 @@ No fundo só há **3 maneiras de pescar**: **amostra/vinil** (predadores) · **b
 
 ---
 
-## 🎯 Qual cana × estilo
+## 🎯 Que setup? (carreto + linha)
 
-- 🪶 **Cana pequena** (WXM) → **spinning** (amostra, achigã) e **boia** perto (boga, perca, carpa média). Linha fina · freio **1,5–2 kg**.
-- 💪 **Cana grande** (4,20 m) → **fundo** (carpa, a distância) e **boia deslizante** longe. Mono 0,35 · freio **2–3 kg**.
+Não é a cana, é o **carreto + linha**: 🪶 **leve** (WXM/RFT, trançado 0,12) p/ **amostra e boia** · 💪 **pesado** (Sofi, mono 0,40 / trançado) p/ **fundo e peixe grande**. Setup completo (linha-mãe + leader/anzol por peixe) → [📏 Tamanhos](TAMANHOS.md#anzol).
 
-> ⚖️ Só **2 canas por pescador** ao mesmo tempo → [Regras](REGRAS.md).
+> ⚖️ Só **2 canas por pescador** montadas ao mesmo tempo → [Regras](REGRAS.md).
 
 ---
 
@@ -94,6 +93,8 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 - **Regra do isco:** ajusta até ficar **rente ao fundo** (carpa, barbo, peixe-gato) ou a **meia-água** (perca, boga). Mede o fundo: chumbo pesado no anzol e vê onde a boia assenta.
 - **Chumbo (boia):** junta chumbo de pinça até a boia ficar **quase submersa** (só ponta à mostra).
 - **Spinning:** deixa a amostra **afundar contando** (1, 2, 3… ≈ 30 cm/seg) p/ escolher a camada; recolhe a profundidades diferentes até achar o peixe.
+
+<a id="boia-deslizante"></a>
 
 ### 🟠 Boia fixa vs deslizante (em detalhe)
 
@@ -188,18 +189,11 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~2,8–4,5 kg)**. É aí que pa
 | Achigã (2–3 kg), barbo normal, boga, perca-sol, peixe-gato-negro | ✅ **Confortável** |
 | Sandre 1–3 kg, carpa/barbo 4–8 kg | ⚠️ **No limite** — freio suave, água aberta |
 | Carpa 10 kg+, sandre 4–8 kg | ❌ **Acima** — bycatch que vais perder |
-| Siluro, peixe-gato grande (Alqueva) | ❌ **Intocável** — material pesado à parte |
+| Siluro, peixe-gato grande (Alqueva) | ❌ **Intocável** — [setup pesado](KIT-PESADO.md) à parte |
 
-**Freio (drag):** põe a ~⅓ do leader = **~1,5–2 kg**. Nunca no máximo — os 8 kg do carreto são só folga; o **leader é o fusível**. Peixe grande → deixa correr.
+**Freio (drag):** põe a **~⅓ do leader = ~1,5–2 kg**. Nunca no máximo (os **~6 kg** do carreto leve são só folga); o **leader é o fusível** — peixe grande, deixa correr.
 
-| Elemento | Força | Papel |
-|---|---|---|
-| 🎣 Freio carreto 2500 | máx 8 kg · útil 6 kg | capacidade — só folga |
-| 🧵 Braid TX4 0,12 | ~5–6 kg | linha-mãe |
-| 🪢 Leader fluoro 0,20–0,25 | ~2,8–4,5 kg | **elo fraco** |
-| ⚙️ Freio que **usas** | ~1,5–2 kg | ≈ ⅓ do leader |
-
-➡️ Peixe grande (carpa 10 kg+, peixe-gato grande) = [**💪 Kit Pesado**](KIT-PESADO.md) (cana grande 4,20 m + Sofi M2). Siluro fica fora.
+➡️ Peixe grande (carpa 10 kg+) = [💪 Kit Pesado](KIT-PESADO.md). Forças/diâmetros por carreto → [📏 Tamanhos](TAMANHOS.md#anzol).
 
 ---
 
@@ -363,14 +357,6 @@ isco:    cana grande → chumbo corrido → leader grosso → anzol forte 1/0–
 
 ---
 
-## 🪢 Nós usados nestas montagens
+## 🪢 Nós usados
 
-| Onde | Nó | Dif. |
-|--|--|--|
-| multi → destorcedor/snap | **Palomar** | 🟢 |
-| fluoro/mono → anzol olhal/destorcedor | **Clinch melhorado** | 🟢 |
-| multi → leader fluoro | **FG** / **Albright** / **Double Uni** | 🔴/🟡 |
-| laço no topo do leader (modular) | **Perfection / Surgeon's loop** | 🟡/🟢 |
-| anzol olhal, fisgada direta (avançado) | **Snell** | 🔴 |
-
-➡️ Passo-a-passo de cada um (com vídeo) em [**🪢 NOS.md**](NOS.md). Regra geral: **molha** antes de apertar · aperta devagar · corta a sobra ~2 mm.
+**palomar** (multi→snap) · **clinch** (→anzol) · **FG/Albright** (multi→leader) · laços no leader · **Snell** (avançado). **Qual usar onde, com vídeo** → [🪢 Nós](NOS.md). Regra: molha antes de apertar · aperta devagar · corta a ~2 mm.

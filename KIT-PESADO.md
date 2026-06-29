@@ -1,6 +1,6 @@
-# 💪 Kit Pesado — cana de fundo (4,20 m) + Sofi M2
+# 💪 Setup pesado — Sofi (carpa · gato · siluro)
 
-O segundo equipamento: **pesca de fundo (ledger) de margem para peixe grande** — carpa 8 kg+, barbo grande, peixe-gato-canal. Complementa o [combo WXM 100](CANA.md) (leve/spinning): um lança amostras, o outro pousa isco no fundo e espera.
+Pesca de **fundo (ledger) de margem para peixe grande** — carpa 10 kg+, barbo grande, peixe-gato. **2 carretos Sofi** (na cana de fundo 4,20 m): **M2** com **mono 0,40** (carpa/gato) · **verde** com **trançado de siluro** (peixe grande, Idanha/Alqueva). Complementa o [setup leve](MATERIAL.md). Que linha/leader/anzol por peixe → [📏 Tamanhos](TAMANHOS.md#anzol).
 
 > Termos como **PT (EN)** — português com o inglês entre parênteses na 1ª utilização.
 

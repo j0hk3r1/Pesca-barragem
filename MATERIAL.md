@@ -1,17 +1,17 @@
 # 🎒 Material — o que usar
 
-O material que usas nos **dois equipamentos**: a **cana pequena (leve)** para spinning + boia, e a **cana grande (pesado)** para pesca ao fundo. **Não conheces algum nome? Clica no link — vês logo o que é.**
+O material por **setup**: **leve** (spinning + boia) e **pesado** (fundo). **Não conheces algum nome? Clica no link — vês logo o que é.**
 
-> Canas/carretos: as pequenas em [🎣 Canas pequenas](CANA.md); a cana grande em [💪 Kit Pesado](KIT-PESADO.md).
+> 📏 Mapa **carreto → linha-mãe** e **anzol por peixe** → [Tamanhos](TAMANHOS.md#anzol). Onde montar os carretos leves → [🎣 Canas](CANA.md); setup pesado → [💪 Kit Pesado](KIT-PESADO.md).
 
 ---
 
-## 🪶 Cana pequena (leve) — spinning + boia
+## 🪶 Setup leve — spinning + boia
 
-Cobre quase todos os peixes ao teu alcance: achigã, perca-sol, boga, ruivaco, carpa/barbo médios, peixe-gato-negro.
+Cobre quase todos os peixes ao teu alcance: achigã, perca-sol, boga, ruivaco, carpa/barbo médios, peixe-gato-negro. (Carretos WXM 100 e RFT 100.)
 
 ### 🧱 Base
-- 🎣 **Cana + carreto** — [Combo WXM 100 1,80m ML + carreto 2500](https://www.decathlon.pt/p/cana-e-carreto-de-pesca-ao-corrico-wxm-100-spinning-1-80m-ml-5-14g-conjunto/339590/m8739959) (detalhe em [Canas pequenas](CANA.md))
+- 🎣 **Cana + carreto** — [Combo WXM 100 1,80m ML + carreto 2500](https://www.decathlon.pt/p/cana-e-carreto-de-pesca-ao-corrico-wxm-100-spinning-1-80m-ml-5-14g-conjunto/339590/m8739959) (detalhe em [Canas](CANA.md))
 - 🧵 **Linha-mãe (braid)** — [CAPERLAN TX4 caqui](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) · **0,12 mm (~5–6 kg)**
 - 🪢 **Leader fluoro** — [CAPERLAN Fluorocarbono 100% Soft](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) · **0,20–0,25 mm (~2,8–4,5 kg)**
 - 🔗 **Snap** (spinning) — [Rolling Snap Inox](https://www.decathlon.pt/p/destorcedor-de-alfinete-de-pesca-rolling-snap-inox-2025-x-10/307904/m8939626) · **nº4**
@@ -20,8 +20,7 @@ Cobre quase todos os peixes ao teu alcance: achigã, perca-sol, boga, ruivaco, c
 ### 🟠 Boia / isco (carpa, barbo, boga, perca, peixe-gato)
 - 🟠 **Boias** — [CAPERLAN MTCH 100 VISI x3](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567)
 - ⚖️ **Chumbos** — [Caixa Lastro 6 divisórias](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823)
-- 🪝 **Anzóis finos** (soltos — atas tu) — [CAPERLAN CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) · **#14** perca/boga · **#10** carpa peq./barbo
-- 🪝 **Anzóis médios** (montados) — [CAPERLAN SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) · **#8** (cavalo-de-batalha) · **#6** p/ iscos grandes/carne
+- 🪝 **Anzóis** — [CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) (finos, peixe pequeno) · [SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) (montados, carpa/barbo). **Que nº por peixe** → [📏 Tamanhos](TAMANHOS.md#anzol).
 
 ### ✨ Spinning (achigã, perca, sandre pequeno)
 - ✨ **Amostras** — [CAPERLAN Kit Colheres Rotativas Predadores (4x)](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651)
@@ -29,13 +28,11 @@ Cobre quase todos os peixes ao teu alcance: achigã, perca-sol, boga, ruivaco, c
 
 ---
 
-## 💪 Cana grande (pesado) — pesca ao fundo
+## 💪 Setup pesado — fundo
 
-A cana de fundo (4,20 m) + carreto Sofi usam **linha mais forte** e acessórios próprios, para carpa 8 kg+, barbo grande e peixe-gato. Montagens (chumbo corrido / paternoster), distância e checklist → [💪 Kit Pesado](KIT-PESADO.md).
+Carretos **Sofi** com **linha mais forte** e acessórios próprios, para carpa 10 kg+, barbo grande e peixe-gato. Montagens (chumbo corrido / paternoster), força, distância e checklist → [💪 Kit Pesado](KIT-PESADO.md).
 
-- 🧵 **Linha** (alvo: **elo fraco ~8 kg** — chega p/ carpa até ~15 kg; 12 kg é exagero). Por agora usa a **0,40 atual**. Para a carpa nesta cana, **mono é a melhor escolha**:
-  - **Mono direta** ✅ — [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) / 0,40. O **elástico** da mono absorve os arrancos da carpa e o freio velho aos solavancos; simples e perdoa erros. [Porquê →](KIT-PESADO.md)
-  - **Multi + mono** — braid [TX4 0,18–0,20](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) + leader mono [LINE 100 0,35](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703). Só se quiseres **mais distância**; o braid **não estica**, precisa de freio bem suave.
+- 🧵 **Linha** — mono [LINE 100 0,40](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (~11 kg) no Sofi M2 p/ carpa; **trançado de siluro** no Sofi verde p/ peixe grande. Porquê mono, fusível e shock leader → [💪 Kit Pesado](KIT-PESADO.md).
 - ⚖️ **Chumbadas 60–100 g** (perto → longe) — [azeitona furada (até 60 g)](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548); as tuas de **~100 g** p/ longe
 - 🔘 **Batentes + pérolas** — [Nós de bloqueio c/ pérolas](https://www.decathlon.pt/p/nos-de-bloqueio-de-pesca-a-inglesa-com-boia-deslizante-conjunto-de-5/355294/m8883379)
 - 🪜 **Forquilhas** (cana pousada) — [dianteira (estaca V)](https://www.decathlon.pt/p/suportes-de-canas-pesca-agua-doce-estaca-telescopica-cabeca-v-45-70/X8328117/m8328117) + [traseira](https://www.decathlon.pt/p/suporte-dobravel-de-cana-de-pesca-em-agua-doce-plastico/314162/m8328113)

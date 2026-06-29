@@ -13,7 +13,7 @@
 - ☀️ **Sol forte / muito calor?** → [o que dá e como](EXEMPLOS-MODULAR.md#sol)
 - 🎣 **Não morde nada ao isco?** → [checklist](EXEMPLOS-MODULAR.md#nao-morde)
 - 🪨 **Pescar ao fundo** (esperar, renovar isco, engodar longe)? → [como](EXEMPLOS-MODULAR.md#ao-fundo)
-- 🌊 **Água funda / a boia não chega?** → [boia deslizante](EXEMPLOS-MODULAR.md#ex-carpa)
+- 🌊 **Água funda / a boia não chega?** → [boia deslizante](EXEMPLOS-MODULAR.md#boia-deslizante)
 
 ---
 
@@ -31,4 +31,4 @@
 
 ---
 
-> 🎒 **Antes de sair de casa:** [Material](MATERIAL.md) · [Canas pequenas](CANA.md) · [Kit Pesado](KIT-PESADO.md) · [As tuas canas](README.md)
+> 🎒 **Antes de sair de casa:** [Material](MATERIAL.md) · [Tamanhos & setups](TAMANHOS.md#anzol) · [Kit Pesado](KIT-PESADO.md) · [Os teus carretos](README.md)
