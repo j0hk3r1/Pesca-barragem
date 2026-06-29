@@ -5,6 +5,7 @@
 - [🎣 Montagens & como pescar](EXEMPLOS-MODULAR.md)
 - [🍞 Iscos & engodo](ISCOS.md)
 - [🐟 Peixes & barragens](PEIXES-BARRAGENS.md)
+- [🏞️ Rios (Centro & Estrela)](RIOS.md)
 - [⚖️ Regras & licença](REGRAS.md)
 - [📏 Tamanhos & cores](TAMANHOS.md)
 - [🪢 Nós (passo-a-passo)](NOS.md)

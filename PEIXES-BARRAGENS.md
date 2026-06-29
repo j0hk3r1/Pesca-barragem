@@ -2,6 +2,8 @@
 
 Tamanhos realistas. Espécies incertas marcadas com **⚠️ Atenção**. Em todas precisas de **licença de pesca lúdica (ICNF)** + respeitar tamanhos mínimos e defesos → tudo em [**⚖️ Regras & licença**](REGRAS.md).
 
+> 🐟 **Truta?** Não nas barragens (água quente) — só nos **rios** frios → [🏞️ Rios (Centro & Estrela)](RIOS.md).
+
 ---
 
 ## 🎣 Montagem por peixe → exemplo pronto

@@ -20,6 +20,8 @@ No fundo só há **3 maneiras de pescar**: **amostra/vinil** (predadores) · **b
 | ⚪ **Pimpão** | [Odivelas](PEIXES-BARRAGENS.md#dam-odivelas) | 🪶 [Boia](EXEMPLOS-MODULAR.md#ex-pimpao) |
 
 > 💡 Vês a repetição: **boga = perca-sol = pimpão** (boia) e **carpa = barbo** (fundo). Muda sobretudo o **isco/anzol** ([🍞 Iscos](ISCOS.md) · [📏 Tamanhos](TAMANHOS.md)), não a montagem.
+>
+> 🐟 **Truta** não vive nas 4 barragens — só nos **rios** (Alva, Ceira, Zêzere, Serra da Estrela) → [🏞️ Rios](RIOS.md) · [setup da truta](EXEMPLOS-MODULAR.md#ex-truta).
 
 ---
 
@@ -295,6 +297,20 @@ boia ou chumbo de fundo → leader 30–40 cm → anzol #6–8 + chouriço / fí
 - ✅ **Melhor:** **boia ou fundo leve** com **pão ou milho** (Odivelas). Montagem **igual à boga** ([acima](EXEMPLOS-MODULAR.md#ex-boga)), anzol **#14–10**.
 - ➕ **Também dá:** massa, minhoca, milho doce.
 - 💡 **Dica:** luta simpática em material leve; igual à boga, só isco um pouco maior.
+
+<a id="ex-truta"></a>
+
+## 🐟 Truta (só nos rios) · 🪶 pequena (amostra)
+
+```
+clipa → leader fluoro fino 0,18–0,22 → colher pequena 0–3 g
+        ou vinil pequeno em jig leve · (mosca = cana própria)
+```
+- ✅ **Melhor:** **colher (spinner) pequena** 0–3 g — lança e recolhe, o mais fácil no rio. Pesca **contra a corrente** ou a atravessar, junto a **pedras e poços**.
+- ➕ **Também dá:** **vinil pequeno** em jig leve · **mosca** (cana de mosca, avançado) · minhoca/asticot **onde for permitido**.
+- 💡 **Dica:** truta é **arisca** → aproxima-te **baixo e sem barulho**, fio fino, cores naturais em água limpa. Amanhecer/anoitecer.
+- ⚠️ **Só nos rios** (não nas 4 barragens) e com **época/defeso** + zonas reguladas → [🏞️ Rios](RIOS.md) · [⚖️ Regras](REGRAS.md).
+- 🛒 [colheres](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651) · [leader fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545).
 
 ## 🏞️ Caso especial — barragem funda (ex. Castelo do Bode)
 

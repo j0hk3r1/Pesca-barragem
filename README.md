@@ -1,6 +1,6 @@
 # 🎣 Pesca Barragem — guia
 
-Guia casual para pescar nas barragens portuguesas (achigã, perca-sol, carpa, barbo, boga/ruivaco). Material **todo da Decathlon**, montagens com diagramas e o que fazer por peixe.
+Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol, carpa, barbo, boga/ruivaco, **truta** nos rios). Material **todo da Decathlon**, montagens com diagramas e o que fazer por peixe.
 
 > Termos técnicos aparecem como **PT (EN)** — português com o inglês entre parênteses na 1ª utilização.
 
@@ -10,7 +10,7 @@ Guia casual para pescar nas barragens portuguesas (achigã, perca-sol, carpa, ba
 
 1. **🎒 [O material](MATERIAL.md)** — o que usar (cana+carreto, linha, anzóis, boias, amostras), **tudo linkado à Decathlon** para clicares e veres.
 2. **🎣 [Monta e aprende a pescar](EXEMPLOS-MODULAR.md)** — montagem base, profundidade, distância, e o exemplo pronto do teu peixe.
-3. **🐟 [Vê onde e o quê](PEIXES-BARRAGENS.md)** — peixes e métodos das 4 barragens (Alqueva · Odivelas · Castelo do Bode · Idanha).
+3. **🐟 [Vê onde e o quê](PEIXES-BARRAGENS.md)** — peixes e métodos das 4 barragens (Alqueva · Odivelas · Castelo do Bode · Idanha), ou os **🏞️ [rios](RIOS.md)** (Alva · Ceira · Zêzere · Serra da Estrela — com **truta**).
 
 ---
 
@@ -49,6 +49,7 @@ São só **2 conjuntos de material** (linha/anzóis): o **🪶 leve** serve as *
 | 🎣 [**Montagens & como pescar**](EXEMPLOS-MODULAR.md) | Montagem base, técnica, distância, exemplo por peixe |
 | 🍞 [**Iscos & engodo**](ISCOS.md) | Massa, milho, receitas, preparação + regras de isco |
 | 🐟 [**Peixes & barragens**](PEIXES-BARRAGENS.md) | Espécies, tamanhos reais e métodos das 4 barragens |
+| 🏞️ [**Rios**](RIOS.md) | Spots de rio (Alva · Ceira · Zêzere · Estrela) + truta + regras |
 | ⚖️ [**Regras & licença**](REGRAS.md) | Licença, nº de canas, mínimos, devolver/abater, isco — não apanhar multa |
 | 📏 [**Tamanhos & cores**](TAMANHOS.md) | Anzol + destorcedor (kg/mm reais) + cores |
 | 🪢 [**Nós**](NOS.md) | Que nó usar onde + links de animação |
