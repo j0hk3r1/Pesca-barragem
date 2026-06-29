@@ -25,9 +25,9 @@
 
 ---
 
-## ⚖️ É legal aqui?
-- 🏞️ **Barragem** (licença, tamanhos, defeso, devolver/abater) → [⚖️ Regras & licença](REGRAS.md)
-- 🏞️ **Rio** (concessão, licença diária, defeso da truta) → [🏞️ Rios — regras](RIOS.md#regras-rios)
+## ⚖️ É legal aqui? / preciso de licença?
+- 💳 **Licença, onde comprar, concessões, defeso** → [💳 Licenças (tudo num sítio)](LICENCAS.md)
+- ⚖️ Regras nacionais (tamanhos, devolver/abater) → [⚖️ Regras](REGRAS.md)
 
 ---
 

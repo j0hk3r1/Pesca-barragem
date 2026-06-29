@@ -55,6 +55,7 @@ São só **2 conjuntos de material** (linha/anzóis): o **🪶 leve** serve as *
 | 🐟 [**Peixes & barragens**](PEIXES-BARRAGENS.md) | Espécies, tamanhos reais e métodos das 4 barragens |
 | 🏞️ [**Rios**](RIOS.md) | Spots de rio (Alva · Ceira · Zêzere · Estrela) + truta + regras |
 | ⚖️ [**Regras & licença**](REGRAS.md) | Licença, nº de canas, mínimos, devolver/abater, isco — não apanhar multa |
+| 💳 [**Licenças & onde comprar**](LICENCAS.md) | Tudo num sítio: geral + concessões dos rios + onde comprar + defeso |
 | 📏 [**Tamanhos & cores**](TAMANHOS.md) | Anzol + destorcedor (kg/mm reais) + cores |
 | 🪢 [**Nós**](NOS.md) | Que nó usar onde + links de animação |
 | 🎣 [**Canas pequenas**](CANA.md) | As 3 pequenas (combo WXM + as 2 velhas) |

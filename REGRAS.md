@@ -4,7 +4,7 @@ Resumo do que importa para a pesca **lúdica em águas interiores** (barragens).
 
 > ⚠️ **O edital de cada albufeira pode ser MAIS restrito** que estas regras nacionais. Confirma sempre o edital da albufeira no [ICNF](https://www.icnf.pt/pesca) antes de ires.
 
-> 🏞️ **Vais a um RIO?** As regras mudam — muitos troços são **concessões** (licença diária própria, troços/dias), e a **truta** tem época (1 mar–31 jul). Tudo confirmado nos editais em [**🏞️ Rios — regras & licenças**](RIOS.md#regras-rios).
+> 💳 **Licenças, concessões dos rios e onde comprar** — tudo junto e explicado em [**💳 Licenças & onde comprar**](LICENCAS.md). (Vais a um rio? Muitos troços precisam de **licença especial diária**; a truta tem época.)
 
 ---
 

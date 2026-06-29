@@ -8,6 +8,7 @@
 - [🐟 Peixes & barragens](PEIXES-BARRAGENS.md)
 - [🏞️ Rios (Centro & Estrela)](RIOS.md)
 - [⚖️ Regras & licença](REGRAS.md)
+- [💳 Licenças & onde comprar](LICENCAS.md)
 - [📏 Tamanhos & cores](TAMANHOS.md)
 - [🪢 Nós (qual usar)](NOS.md)
 - [🎣 Canas pequenas](CANA.md)

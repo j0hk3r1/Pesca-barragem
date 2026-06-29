@@ -61,6 +61,8 @@ Spots de **rio** (e uma lagoa de montanha), diferentes das [4 barragens](PEIXES-
 
 ## ⚖️ Regras & licenças — rios (confirmado nos editais ICNF/câmaras)
 
+> 💳 **Tudo sobre licenças (incl. onde comprar cada uma)** está junto em [**💳 Licenças**](LICENCAS.md). Resumo aqui:
+
 **1. Licença geral (ICNF) — sempre obrigatória** (16+; menores isentos mas acompanhados). Tira-se no **Multibanco** (o talão é o título) ou nos balcões do ICNF; é **anual** (Nacional/Regional). **Não há "diária" na geral** — *não confundir com o BMAR, que é pesca no mar.*
 
 **2. Época da TRUTA: 1 mar – 31 jul** (fechado ago–fev). Mín. **20 cm** (21 cm no Alva). Limite/dia **varia por zona** (4–10).
