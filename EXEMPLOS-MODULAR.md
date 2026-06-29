@@ -331,20 +331,21 @@ clipa → leader fluoro fino 0,18–0,22 → colher pequena 0–3 g
 
 <a id="ex-siluro"></a>
 
-## 🟫 Siluro · 💪 cana grande, de margem, ao anoitecer (amostra · isco · boia)
+## 🟫 Siluro · 💪 cana grande, de margem, ao anoitecer (isco ao fundo · boia)
 
-> ⚠️ **Lê isto primeiro:** o siluro passa dos **30–100 kg**. A [cana grande + Sofi](KIT-PESADO.md) com **0,40 (~8 kg)** só segura um **pequeno/médio** (uns poucos kg) — um grande **parte ou leva a linha toda**. Para os monstros = **equipamento dedicado**. Mas **de margem dá para tentar** (não precisas de barco), e um pequeno já é luta a sério.
+> ⚠️ **Lê isto primeiro:** o siluro passa dos **30–100 kg**. Mesmo com o **trançado 27 kg** (Sofi verde), o limite **não é a linha — é a [cana](KIT-PESADO.md)**: parte a **~11 kg** de tração, por isso só **dominas um pequeno/médio** (uns kg); um **gigante manda na cana, não o seguras**. Para os monstros = **equipamento dedicado**. Mas **de margem dá para tentar** (não precisas de barco), e um médio já é luta a sério.
 
 ```
 amostra: cana grande → 0,40 → leader grosso 0,50–0,60 (anti-abrasão) → vinil GRANDE (15–20 cm) em jig pesado
 fundo:   cana grande → chumbo corrido → leader grosso → anzol forte 1/0–4/0 + bola de minhocas
 boia:    cana grande → batente/pérola → boia grande → leader grosso → anzol → isco suspenso (regulas a profundidade)
 ```
-- ✅ **Amostra (para procurar):** **vinil / shad 15–20 cm** em **jig pesado**, devagar junto ao fundo com **pausas**; ou spinnerbait. Aos **baixios e estrutura** (troncos, pedras), ao **anoitecer/noite**.
-- 🪱 **Fundo (isco, o mais fiável):** **bola de minhocas** (ou **fígado/chouriço** — cheiro forte) em **chumbo corrido**, num **poço fundo / junto à parede / estrutura**. Cana pousada na forquilha + **guizo**.
+- ✅ **Fundo (isco — o TEU método):** **bola de minhocas** (ou **fígado/chouriço** — cheiro forte) em **chumbo corrido**, num **poço fundo / junto à parede / estrutura**. **Cana pousada na forquilha + guizo** — lanças uma vez e esperas (a cana grande pesa demais p/ andar a recolher).
+- ✨ **Amostra (só se tiveres cana de predador forte):** vinil/shad 15–20 cm em jig pesado, devagar com pausas. ⚠️ **Não dá com o teu material:** a cana de fundo é **pesada demais p/ lançar-e-recolher** o dia todo, e o spinning leve (~5 kg) é **fraco p/ um grande**. Para ti = **isco**, não amostra.
 - 🎈 **Boia com isco suspenso — NÃO tem de ser ao fundo:** o siluro **anda na coluna de água**, não é só de fundo. Regula o isco **~1 m acima do fundo** (longe do lodo/pedras); no **verão/noite sobem** → mete a **meia-água ou perto da superfície (1–2 m)**. Os vídeos do siluro **à tona são reais** — é assim que se apanham no calor.
 - ⏰ **Quando:** **anoitecer/madrugada** + **verão** (água quente, Jun–Set) = a melhor altura. ⚠️ **Licença geral:** só de **meia hora antes do nascer a meia hora depois do pôr-do-sol** (DL 112/2017). A **pesca noturna** só é legal no **carp fishing** em ZPL que a preveja — **não há (ainda) exceção para siluro** (está só em proposta). Para o siluro, fica-te pelo **crepúsculo legal**.
-- ⚠️ **Isco de peixe (vivo/morto) é ILEGAL** em águas interiores — nada de carpa viva/enguia/peixinho; usa **minhocas, fígado, chouriço, massa** (não-peixe). **Leader grosso** anti-abrasão (boca áspera); **freio suave + deixa correr** (1.º arranque é brutal); **luva** p/ pegar o queixo.
+- ⚠️ **Isco de peixe (vivo/morto) é ILEGAL** em águas interiores — nada de carpa viva/enguia/peixinho; usa **minhocas, fígado, chouriço, massa** (não-peixe). **Leader grosso 0,50–0,60** anti-abrasão (boca áspera).
+- 🥊 **Aguentar e trazer um grande (não o levantas — cansa-lo):** **nunca levantes pela cana** (high-stick = parte) nem pela linha. Cana a **~45°** a fazer de mola; **dá linha** quando ele arranca (o **freio** trabalha — o 1.º arranque é brutal) e **bombeia**: baixa a cana a recolher, levanta devagar p/ ganhar linha. Repete até **cansar**. Depois trá-lo ao **raso** e **aterra na margem** — pega o **queixo com luva** (lip grip) ou **encalha-o na areia**, **nunca a erguer com a cana/linha**.
 - 📍 **Onde (margem), por ordem de probabilidade:**
   - ⭐ **Belver / Praia Fluvial da Ortiga** (Tejo, Mação) — **a melhor de PT**: população mais densa do país; é o troço onde o ICNF tirou **2,3 t** em 2026. **GPS 39.4831, −8.0018**.
   - 🎯 **Idanha-a-Nova / Rio Ponsul** — infestado; o **recorde nacional (~102 kg à cana, 2025)** saiu do **Ponsul**. Bons pontos: a **ponte velha** da estrada Castelo Branco–Malpica do Tejo (sobre o Ponsul) e a **Praia Fluvial da barragem** (Marechal Carmona, GPS 39°58'34"N 7°10'51"W); há **guia local que faz siluro apeado** (de margem).
