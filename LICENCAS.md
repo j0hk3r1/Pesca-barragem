@@ -62,6 +62,10 @@ Cada concessão é só um **pedaço marcado** do rio — no terreno há **placas
 - 📍 **Fim** (jusante): [40.2541, -8.2063](https://www.google.com/maps?q=40.2540845,-8.2063371)
 - 🗺️ Mapa oficial → [edital ICNF (PDF)](https://www.icnf.pt/api/file/doc/9278b17ce4bbf86c)
 
+<img src="img/alva-concessao.png" alt="Mapa do troço de concessão do Rio Alva — semáforo" width="700" height="580">
+
+> 🟡 troço (licença **especial**) entre os pinos ①–③ · 🟢 fora dos pinos = **livre** (só geral) · 🔴 proibido só junto a barragens/captações/praias. *Esquema sobre mapa real (© OpenStreetMap · CARTO); traçado exato no edital.*
+
 **🔵 Rio Ceira — Colmeal–Cabreira** (~13 km):
 - Da **confluência da Ribeira de Carrimá** (junto à Retorta) até à **ponte nova da Cabreira**.
 - 📍 [Ponte da Cabreira](https://www.google.com/maps/search/Ponte+da+Cabreira+Gois) · 🗺️ [edital (PDF)](https://www.cm-gois.pt/cmgois/uploads/document/file/1217/edital_30_2018___concessao_de_pesca_desportiva___rio_ceira.pdf)
