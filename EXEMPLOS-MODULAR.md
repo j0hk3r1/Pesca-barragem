@@ -136,7 +136,17 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 | Sandre / lúcio-perca (vinil) | **15–40 m** ou barco | drop-offs, canais fundos |
 
 - **Leque (fan-cast):** perto → médio → longe, até achares o peixe.
-- **Hora:** amanhecer/anoitecer = peixe **raso e perto**. Dia quente = **fundo e mais longe**.
+- **Hora:** amanhecer/anoitecer = peixe **raso e perto**. **Dia quente** = peixe **fundo, na sombra e ao fresco** (ver ☀️ abaixo).
+
+> ☀️ **Sol forte e calor (meio-dia)?** A hora mais difícil — o peixe está parado, no fresco. **Lançar a 100 m não é a solução** (e nem lá chegas — o [kit pesado](KIT-PESADO.md) faz ~40–90 m, o leve ~20–30 m). Vai onde o peixe está:
+> - 🌳 **Sombra** — árvores que tapam, juncos, troncos: fresco + abrigo. Pesca **encostado a isso**.
+> - 🕳️ **Fundo = fresco** — a água funda é mais fria → isco ao fundo **no sítio mais fundo que alcances**, não "longe por longe".
+> - 🌬️ **Margem do vento** — pesca a margem **para onde o vento sopra**: empurra comida + oxigénio + frescura, e o peixe vai atrás.
+> - 🍞 **Carpa à superfície** — em tarde quente e parada a carpa anda à tona ao sol → **pão/côdea a flutuar** (sem chumbo, fio fino) às que vês passear. Visual e viciante.
+> - 🐟 **Peixe pequeno** (boga, perca, pimpão) morde **o dia todo** à boia, na sombra da margem — mantém a vara a dobrar.
+> - 🎯 **Predador** ao meio-dia foge p/ **fundo e sombra** → [vinil](EXEMPLOS-MODULAR.md#ex-achiga) **fundo e devagar** (conta a queda) ou colado a estrutura. Superfície só ao nascer/pôr do sol.
+>
+> ✅ **O melhor é mesmo madrugada/anoitecer.** Se só dá meio-dia: **sombra + fundo + margem do vento**, e tenta a **carpa à superfície**.
 
 ## 🎯 Técnica rápida
 - **Spinning (achigã/perca):** atira p/ junto de **estrutura** (pedras, troncos, vegetação, paredão). Recolhe com **paragens** — ataque vem na pausa/queda. Manhã cedo / fim de tarde.
