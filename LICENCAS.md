@@ -68,12 +68,20 @@ Cada concessão é só um **pedaço marcado** do rio — no terreno há **placas
 > 🟡 troço (licença **especial**) entre os pinos ①–③ · 🟢 fora dos pinos = **livre** (só geral) · 🔴 proibido só junto a barragens/captações/praias. *Esquema sobre mapa real (© OpenStreetMap · CARTO); traçado exato no edital.*
 
 **🔵 Rio Ceira — Colmeal–Cabreira** (~13 km):
-- Da **confluência da Ribeira de Carrimá** (junto à Retorta) até à **ponte nova da Cabreira**.
-- 📍 [Ponte da Cabreira](https://www.google.com/maps/search/Ponte+da+Cabreira+Gois) · 🗺️ [edital (PDF)](https://www.cm-gois.pt/cmgois/uploads/document/file/1217/edital_30_2018___concessao_de_pesca_desportiva___rio_ceira.pdf)
+- Da **confluência da Ribeira de Carrimá** (montante) até à **ponte nova da Cabreira** (jusante).
+- 🧭 **2 limites no Maps** → [montante (~Carrimá) → Cabreira](https://www.google.com/maps/dir/40.13256,-7.97427/40.14002,-8.07233) *(montante aproximado)* · 🗺️ [edital (PDF)](https://www.cm-gois.pt/cmgois/uploads/document/file/1217/edital_30_2018___concessao_de_pesca_desportiva___rio_ceira.pdf)
+
+<img src="img/ceira-concessao.png" alt="Mapa do troço de concessão do Rio Ceira" width="700" height="580">
+
+> 🟡 entre os pinos = **especial** · 🟢 fora = **livre** · ① montante **aproximado** (~Carrimá) · ② Cabreira exato. *© OpenStreetMap · CARTO.*
 
 **🟡 Ribeira da Isna — Malhadal** (~2,9 km):
 - De **100 m a montante da ponte pedonal** (a jusante de Cabrieira) até ao **açude do Corregacho**.
-- 📍 [Cabrieira](https://www.google.com/maps/search/Cabrieira+Proenca-a-Nova) · 🗺️ [regulamento (PDF)](https://api.cm-proencanova.pt/uploads/1/3/Municipio/Atividade/Juridico/Regulamentos/Regulamento%20Zona%20de%20Pesca%20Malhadal.pdf)
+- 📍 **Zona no Maps** → [Malhadal](https://www.google.com/maps?q=39.78216,-7.94807) *(zona aprox. — os extremos não estão em mapas)* · 🗺️ [regulamento (PDF)](https://api.cm-proencanova.pt/uploads/1/3/Municipio/Atividade/Juridico/Regulamentos/Regulamento%20Zona%20de%20Pesca%20Malhadal.pdf)
+
+<img src="img/isna-concessao.png" alt="Mapa da zona de concessão do Malhadal (Ribeira da Isna)" width="700" height="580">
+
+> 🟡 zona (~2,9 km) = **especial** (máx 10/dia) · 🟢 fora = **livre**. *Zona aproximada; limites exatos no regulamento. © OpenStreetMap · CARTO.*
 
 > 💡 **Na dúvida no terreno:** procura as **placas/sinais** da concessão — marcam onde começa e acaba. **Dentro** = precisas da licença especial; **fora** = só a geral.
 
