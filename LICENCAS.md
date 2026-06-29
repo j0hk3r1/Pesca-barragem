@@ -65,7 +65,7 @@ Cada concessão é só um **pedaço marcado** do rio — no terreno há **placas
 
 <img src="img/alva-concessao.png" alt="Mapa do troço de concessão do Rio Alva — semáforo" width="700" height="580">
 
-> 🟡 troço (licença **especial**) entre os pinos ①–③ · 🟢 fora dos pinos = **livre** (só geral) · 🔴 proibido só junto a barragens/captações/praias. *Esquema sobre mapa real (© OpenStreetMap · CARTO); traçado exato no edital.*
+> 🟡 **linha amarela = o rio real no troço da concessão** (licença **especial**) · 🟢 fora dos pinos = **livre** (só geral) · 🔴 proibido só junto a barragens/captações/praias. *Geometria do rio © OpenStreetMap · CARTO; limites no edital.*
 
 **🔵 Rio Ceira — Colmeal–Cabreira** (~13 km):
 - Da **confluência da Ribeira de Carrimá** (montante) até à **ponte nova da Cabreira** (jusante).
@@ -73,7 +73,7 @@ Cada concessão é só um **pedaço marcado** do rio — no terreno há **placas
 
 <img src="img/ceira-concessao.png" alt="Mapa do troço de concessão do Rio Ceira" width="700" height="580">
 
-> 🟡 entre os pinos = **especial** · 🟢 fora = **livre** · ① montante **aproximado** (~Carrimá) · ② Cabreira exato. *© OpenStreetMap · CARTO.*
+> 🟡 **linha amarela = o rio real** no troço (**especial**) · 🟢 fora = **livre** · ① montante **aproximado** (~Carrimá) · ② Cabreira exato. *Geometria © OpenStreetMap · CARTO.*
 
 **🟡 Ribeira da Isna — Malhadal** (~2,9 km):
 - De **100 m a montante da ponte pedonal** (a jusante de Cabrieira) até ao **açude do Corregacho**.
