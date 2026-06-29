@@ -44,6 +44,8 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 | Achigã (vinil/plásticos) | Soft plastics (Texas) | **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) 1/0-3/0** | CAPERLAN [Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) — Decathlon vende (ver [Material](MATERIAL.md)) |
 | Truta (só nos rios) | Colher/vinil · minhoca/larva (onde permitido) | **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) #10–8** (isco) · ou o anzol da própria amostra | Arame fino, água limpa, fio fino → [🏞️ Rios](RIOS.md) |
 
+<a id="anzol"></a>
+
 ### 📊 A linha aguenta o quê + que anzol (maximizar)
 
 A **linha** decide o **peixe máximo** que aguentas (com freio + cana); o **anzol** escolhe-se pelo **isco/boca**, **não** pelo peso do peixe. Para peixe grande, o segredo é **arame forte** (forjado), mesmo num anzol pequeno.

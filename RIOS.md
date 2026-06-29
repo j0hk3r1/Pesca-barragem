@@ -57,6 +57,8 @@ Spots de **rio** (e uma lagoa de montanha), diferentes das [4 barragens](PEIXES-
 
 ---
 
+<a id="regras-rios"></a>
+
 ## ⚖️ Regras & licenças — rios (confirmado nos editais ICNF/câmaras)
 
 **1. Licença geral (ICNF) — sempre obrigatória** (16+; menores isentos mas acompanhados). Tira-se no **Multibanco** (o talão é o título) ou nos balcões do ICNF; é **anual** (Nacional/Regional). **Não há "diária" na geral** — *não confundir com o BMAR, que é pesca no mar.*

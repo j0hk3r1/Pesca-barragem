@@ -9,5 +9,5 @@
 - 🐟 Barragens: Alqueva · Odivelas · Castelo do Bode · Idanha
 - 🏞️ Rios: Alva · Ceira · Zêzere · Serra da Estrela (truta)
 
+[⚡ No sítio (guia rápido)](NOSITIO.md)
 [Começar →](README.md)
-[GitHub](https://github.com/j0hk3r1/Pesca-barragem)

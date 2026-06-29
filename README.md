@@ -2,6 +2,8 @@
 
 Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol, carpa, barbo, boga/ruivaco, **truta** nos rios). Material **todo da Decathlon**, montagens com diagramas e o que fazer por peixe.
 
+> ⚡ **Já estás na água?** Vai direto ao **[No sítio — guia rápido](NOSITIO.md)**: que peixe → setup, sol forte, não morde, que nó/anzol, é legal aqui? Tudo a 1 toque.
+
 > Termos técnicos aparecem como **PT (EN)** — português com o inglês entre parênteses na 1ª utilização.
 
 ---

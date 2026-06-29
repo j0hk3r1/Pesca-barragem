@@ -22,6 +22,8 @@ No fundo só há **3 maneiras de pescar**: **amostra/vinil** (predadores) · **b
 > 💡 Vês a repetição: **boga = perca-sol = pimpão** (boia) e **carpa = barbo** (fundo). Muda sobretudo o **isco/anzol** ([🍞 Iscos](ISCOS.md) · [📏 Tamanhos](TAMANHOS.md)), não a montagem.
 >
 > 🐟 **Truta** não vive nas 4 barragens — só nos **rios** (Alva, Ceira, Zêzere, Serra da Estrela) → [🏞️ Rios](RIOS.md) · [setup da truta](EXEMPLOS-MODULAR.md#ex-truta).
+>
+> 🟫 **Siluro** (o gigante de Idanha/Castelo do Bode, à amostra ou isco de margem) → [setup próprio](EXEMPLOS-MODULAR.md#ex-siluro).
 
 ---
 
@@ -138,6 +140,8 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 - **Leque (fan-cast):** perto → médio → longe, até achares o peixe.
 - **Hora:** amanhecer/anoitecer = peixe **raso e perto**. **Dia quente** = peixe **fundo, na sombra e ao fresco** (ver ☀️ abaixo).
 
+<a id="sol"></a>
+
 > ☀️ **Sol forte e calor (meio-dia)?** A hora mais difícil — o peixe está parado, no fresco. **Lançar a 100 m não é a solução** (e nem lá chegas — o [kit pesado](KIT-PESADO.md) faz ~40–90 m, o leve ~20–30 m). Vai onde o peixe está:
 > - 🌳 **Sombra** — árvores que tapam, juncos, troncos: fresco + abrigo. Pesca **encostado a isso**.
 > - 🕳️ **Fundo = fresco** — a água funda é mais fria → isco ao fundo **no sítio mais fundo que alcances**, não "longe por longe".
@@ -153,6 +157,8 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 - **Boia (carpa/barbo/boga/peixe-gato):** atira, deixa assentar, **vê a boia**. Afunda/foge → **ferra**. Paciência. Anoitecer = peixe-gato.
 - **Água:** limpa → fino + cores naturais. Turva → cor importa pouco (cheiro/vibração).
 
+<a id="ao-fundo"></a>
+
 ## 🪨 Ao fundo: esperar, renovar e engodar longe
 - **Deixa a cana na forquilha** com **guizo** na ponta — esperar **é** a pesca, não recolhas a toda a hora.
 - **Renovar o isco se não morder:** mole/cheiroso (fiambre, fígado, massa, pão) **~20–30 min** (o cheiro lava-se); duro (boilie, milho, chufa) aguenta **1–3 h**. Verifica também após qualquer **"toque" que não pegou** — pode ter sido roubado (atenção ao **lagostim**).
@@ -162,6 +168,8 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
   - 💧 **Saco de PVA** — saco solúvel de isco no anzol; dissolve e deixa o monte exatamente no sítio.
   - 🎯 **Fisga** dispara bolas/boilies a 40–60 m · **spomb** (foguete) para distância + precisão.
   - 📌 **Truque:** prende a linha no **clip da bobina** à tua distância → todos os lançamentos caem no mesmo sítio; aponta a um **ponto na margem oposta** para a direção.
+
+<a id="nao-morde"></a>
 
 > 🎯 **Não pegou nada ao isco? (carpa/gato — checklist)** Apanhar predador a spinner ≠ apanhar carpa ao fundo. O que falha quase sempre:
 > - ⏰ **Hora** — carpa/barbo mordem ao **amanhecer/anoitecer**; peixe-gato **à noite**. Meio-dia de sol = lento.
@@ -329,6 +337,22 @@ clipa → leader fluoro fino 0,18–0,22 → colher pequena 0–3 g
 - 💡 **Dica:** truta é **arisca** → aproxima-te **baixo e sem barulho**, fio fino, cores naturais em água limpa. Amanhecer/anoitecer.
 - ⚠️ **Só nos rios** (não nas 4 barragens) e com **época/defeso** + zonas reguladas → [🏞️ Rios](RIOS.md) · [⚖️ Regras](REGRAS.md).
 - 🛒 [colheres](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651) · [leader fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545).
+
+<a id="ex-siluro"></a>
+
+## 🟫 Siluro · 💪 cana grande, de margem, à noite (amostra ou isco)
+
+> ⚠️ **Lê isto primeiro:** o siluro passa dos **30–100 kg**. A [cana grande + Sofi](KIT-PESADO.md) com **0,40 (~8 kg)** só segura um **pequeno/médio** (uns poucos kg) — um grande **parte ou leva a linha toda**. Para os monstros = **equipamento dedicado**. Mas **de margem dá para tentar**, e um pequeno já é luta a sério.
+
+```
+amostra: cana grande → 0,40 → leader grosso 0,50–0,60 (anti-abrasão) → vinil GRANDE (15–20 cm) em jig pesado
+isco:    cana grande → chumbo corrido → leader grosso → anzol forte 1/0–4/0 + bola de minhocas
+```
+- ✅ **Melhor (amostra):** **vinil grande / shad 15–20 cm** em **jig pesado**, recolhido **devagar junto ao fundo** com **pausas**; ou **spinnerbait / amostra de vibração**. Atira aos **baixios e estrutura** (troncos, pedras) ao **anoitecer/noite**.
+- ➕ **Também dá (isco/boia):** **bola grande de minhocas** ao fundo (chumbo corrido) ou sob **boia grande**, junto a estrutura, à noite, com guizo. ⚠️ **Isco de peixe (vivo/morto) é ILEGAL** — nada de carpa viva/enguia; usa **minhocas / não-peixe**.
+- 💡 **Dica:** caça pela **vibração + cheiro** → recolha **lenta**, isco cheiroso. **Leader grosso** anti-abrasão (boca áspera). **Freio suave + deixa correr** (o 1.º arranque é brutal). Luva para pegar o queixo.
+- 📍 **Onde:** **Idanha / Rio Ponsul** (os monstros estão no rio a jusante) e **Castelo do Bode** (raro). **Em Odivelas não há siluro.**
+- 🛒 anzol forte [grande](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) · vinil grande de predador · cana → [💪 Kit Pesado](KIT-PESADO.md).
 
 ## 🏞️ Caso especial — barragem funda (ex. Castelo do Bode)
 

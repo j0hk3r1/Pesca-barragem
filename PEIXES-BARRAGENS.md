@@ -133,3 +133,5 @@ Conjunto leve (carreto (reel) 2500, trançado (braid / main line) ~5–6 kg, flu
 - **Peixe-gato grande (Alqueva)** e **siluro (Idanha, Castelo do Bode)** — **NÃO se pescam neste material.** Se pegar, partes. Disciplina pesada à parte.
 
 **Regra mental:** siluro e peixes-gato grandes = intocáveis neste equipamento. Carpa 10 kg+ e sandre grande = bycatch que vais provavelmente perder. Para os apanhar a sério → [**💪 Kit Pesado**](KIT-PESADO.md) (cana de fundo 4,20 m + Sofi M2).
+
+> 🟫 **Tentar o siluro de margem** (à amostra/isco, com a cana grande) — pequeno/médio dá, grande parte: [setup do siluro](EXEMPLOS-MODULAR.md#ex-siluro).
