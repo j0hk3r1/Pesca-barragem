@@ -37,8 +37,8 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 
 | Carreto | Linha-mãe | Para |
 |---|---|---|
-| 🪶 **WXM 100** | trançado [TX4 0,12–0,16](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) + leader fluoro | amostra (predador) — sensível, longe |
-| 🪶 **RFT 100** | trançado [TX4 0,16–0,20](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) ou mono 0,25 | amostra ou boia |
+| 🪶 **WXM 100** | trançado [TX4 0,12](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) (~5–6 kg) + leader fluoro | amostra (predador) — sensível, longe |
+| 🪶 **RFT 100** | trançado [TX4 0,12](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) + leader fluoro | amostra ou boia |
 | 💪 **Sofi A** | mono [LINE 100 0,40](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (~11 kg) | carpa / gato 10–15 kg |
 | 💪 **Sofi B** | [trançado de siluro 50–80 lb](https://www.decathlon.pt/todos-os-desportos/pesca-predadores-em-agua-doce/pesca-ao-siluro) | siluro / gato grande (Idanha/Alqueva) |
 | ⚙️ **velhos pequenos** | mono fina 0,20–0,25 | boia / fundo leve (peixe pequeno) |
