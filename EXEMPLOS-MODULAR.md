@@ -355,7 +355,7 @@ boia:    cana grande → batente/pérola → boia grande → leader grosso → a
   - ⚠️ **Odivelas: não há siluro; Alqueva: o "gato" é pequeno, não siluro.**
 
 <img src="img/siluro-spots.png" alt="Mapa dos spots de siluro de margem em Portugal — Belver, Idanha, Castelo do Bode, Caneiras, Porto de Muge, Aguieira" width="720" height="828">
-- 🛒 anzol forte [grande](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) · vinil grande de predador · [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) · cana grande → [📏 Tamanhos](TAMANHOS.md#fundo).
+- 🛒 single forte [Simples](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450) ou [Wide Gap 1/0](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) (garateia "de siluro" = só p/ isco vivo) · [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) · cana grande → [📏 Tamanhos](TAMANHOS.md#fundo).
 
 ## 🏞️ Caso especial — barragem funda (ex. Castelo do Bode)
 
