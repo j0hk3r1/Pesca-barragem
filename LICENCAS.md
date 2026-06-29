@@ -52,6 +52,28 @@ Aqui precisas da **geral + licença especial diária**, comprada **no ponto loca
 | **Lagoas Serra da Estrela** (Vale do Rossim) | **só em provas** (licença coletiva 120 €/lagoa) | sem época individual em 2026; sem morte | via **clube/associação** que organiza a prova (ICNF Manteigas) |
 | **Zêzere em Oleiros** (Cambas/Mosteiro) | — (**águas livres**) | só licença geral | nenhum — **só a geral** |
 
+### 🗺️ Onde é o troço (NÃO é o rio todo)
+
+Cada concessão é só um **pedaço marcado** do rio — no terreno há **placas** nos limites. **Fora desse pedaço = águas livres** (só a licença geral). Limites oficiais:
+
+**🔵 Rio Alva** (~7,4 km, entre Lavegadas e S. Martinho da Cortiça):
+- 📍 **Início** (montante): [40.2489, -8.1632](https://www.google.com/maps?q=40.2488704,-8.1632354)
+- 📍 **Divisão A/B** ("a castinceira"): [40.2446, -8.1881](https://www.google.com/maps?q=40.2446000,-8.1880775) — **Lote A** (montante) = **sempre sem morte** · **Lote B** (jusante) = **com morte** em dias certos
+- 📍 **Fim** (jusante): [40.2541, -8.2063](https://www.google.com/maps?q=40.2540845,-8.2063371)
+- 🗺️ Mapa oficial → [edital ICNF (PDF)](https://www.icnf.pt/api/file/doc/9278b17ce4bbf86c)
+
+**🔵 Rio Ceira — Colmeal–Cabreira** (~13 km):
+- Da **confluência da Ribeira de Carrimá** (junto à Retorta) até à **ponte nova da Cabreira**.
+- 📍 [Ponte da Cabreira](https://www.google.com/maps/search/Ponte+da+Cabreira+Gois) · 🗺️ [edital (PDF)](https://www.cm-gois.pt/cmgois/uploads/document/file/1217/edital_30_2018___concessao_de_pesca_desportiva___rio_ceira.pdf)
+
+**🟡 Ribeira da Isna — Malhadal** (~2,9 km):
+- De **100 m a montante da ponte pedonal** (a jusante de Cabrieira) até ao **açude do Corregacho**.
+- 📍 [Cabrieira](https://www.google.com/maps/search/Cabrieira+Proenca-a-Nova) · 🗺️ [regulamento (PDF)](https://api.cm-proencanova.pt/uploads/1/3/Municipio/Atividade/Juridico/Regulamentos/Regulamento%20Zona%20de%20Pesca%20Malhadal.pdf)
+
+> 💡 **Na dúvida no terreno:** procura as **placas/sinais** da concessão — marcam onde começa e acaba. **Dentro** = precisas da licença especial; **fora** = só a geral.
+
+---
+
 ### 📍 Pontos de venda (morada · ☎ · 🗺️)
 
 **🔵 Rio Alva** — geral + especial:
