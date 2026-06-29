@@ -85,6 +85,8 @@ cana → mono 0,35 → [pérola] → AZEITONA furada (desliza) → [pérola] →
 
 Diagramas (chumbo corrido + paternoster) nos setups **[Carpa](EXEMPLOS-MODULAR.md#ex-carpa)** e **[Barbo](EXEMPLOS-MODULAR.md#ex-barbo)**. Iscos: minhoca, milho, pão, carne/chouriço (peixe-gato).
 
+> 🪝 **Que anzol p/ carpa com a 0,40?** Escolhe pelo **isco**, não pelo peso (a 0,40 e o freio é que seguram o peixe): **milho → #8–6** · **boilie / massa grande / fiambre → #6–4**. Sempre **arame forte** (forjado) — um #6 forte aguenta carpa de 10 kg+; um fino endireita. Boilie/chufa/fiambre vão no **[hair rig](ISCOS.md)**. Tabela completa → [📏 Tamanhos](TAMANHOS.md).
+
 ---
 
 ## 📍 Distância — agora chegas longe

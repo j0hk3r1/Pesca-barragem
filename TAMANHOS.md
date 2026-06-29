@@ -36,6 +36,19 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 | Carpa (massa grande, boilie) | Massa, boilie | **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) 4** ou **[Simples 4](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450)** | — |
 | Achigã (minhoca inteira) | Minhoca | **[Simples](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450) 2 ou 1/0** | Funciona; arame um pouco grosso p/ minhoca |
 | Achigã (vinil/plásticos) | Soft plastics (Texas) | **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) 1/0-3/0** | CAPERLAN [Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) — Decathlon vende (ver [Material](MATERIAL.md)) |
+| Truta (só nos rios) | Colher/vinil · minhoca/larva (onde permitido) | **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) #10–8** (isco) · ou o anzol da própria amostra | Arame fino, água limpa, fio fino → [🏞️ Rios](RIOS.md) |
+
+### 📊 A linha aguenta o quê + que anzol (maximizar)
+
+A **linha** decide o **peixe máximo** que aguentas (com freio + cana); o **anzol** escolhe-se pelo **isco/boca**, **não** pelo peso do peixe. Para peixe grande, o segredo é **arame forte** (forjado), mesmo num anzol pequeno.
+
+| Setup (elo fraco) | Peixe realista (máx.) | Isco típico | Anzol |
+|---|---|---|---|
+| 🪶 **Leve** — fluoro 0,20–0,25 (**~3–4 kg**) | achigã 2–3 kg · carpa/barbo até ~4–5 kg · boga, perca, truta de rio | milho, massa, minhoca, larva | **#14–#6** (boga/perca #14 · carpa-milho #10–8 · minhoca/carne #8–6) |
+| 💪 **Pesado** — mono **0,40** (**~7–10 kg**) | **carpa 8–15 kg** · barbo grande · peixe-gato-canal | milho, massa, **boilie**, fiambre | **#8–#4** (milho #8–6 · boilie/massa grande #6–4) |
+| 🐟 **Truta** (rio) — fluoro 0,18–0,22 | truta 0,2–1 kg | colher/vinil · minhoca/larva | amostra: o anzol dela · isco: **#10–8** |
+
+> ⚠️ **O anzol não "aguenta" o peixe — a linha + o freio + a cana é que aguentam.** Um **#6 de arame forte** segura uma carpa de 10 kg se deres linha; um **#14 fino endireita** num peixe grande. Logo: peixe grande = anzol escolhido pelo isco, mas de **arame forte**. Para a tua [💪 cana grande com 0,40](KIT-PESADO.md) e carpa → **#8–6 no milho, #6–4 no boilie/massa**.
 
 ### 🛒 Se só queres 1-2 anzóis
 1. **[CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) #14** (olhal (eye), fino) → peixe de boca pequena (perca-sol, boga, ruivaco) + carpa em milho.

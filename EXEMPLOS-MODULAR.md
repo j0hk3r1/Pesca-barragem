@@ -153,6 +153,14 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
   - 🎯 **Fisga** dispara bolas/boilies a 40–60 m · **spomb** (foguete) para distância + precisão.
   - 📌 **Truque:** prende a linha no **clip da bobina** à tua distância → todos os lançamentos caem no mesmo sítio; aponta a um **ponto na margem oposta** para a direção.
 
+> 🎯 **Não pegou nada ao isco? (carpa/gato — checklist)** Apanhar predador a spinner ≠ apanhar carpa ao fundo. O que falha quase sempre:
+> - ⏰ **Hora** — carpa/barbo mordem ao **amanhecer/anoitecer**; peixe-gato **à noite**. Meio-dia de sol = lento.
+> - 🌾 **Sem engodo** — tens de **chamar** o peixe ao sítio (milho + [engodo](ISCOS.md)) e **esperar**. Sem isso podes estar a pescar onde não há peixe.
+> - 🪨 **Isco no fundo?** — carpa/gato comem **no fundo**. Mede a profundidade; boia mal afinada = isco a meia-água, no vazio.
+> - 🏋️ **Sente o chumbo** — com chumbo fixo/pesado a carpa **cospe** o isco. Usa **chumbo corrido** + **linha frouxa** + guizo (leva sem sentir o peso).
+> - 📍 **Sítio** — junto a **estrutura / margem / juncos**, não a meio do nada.
+> - 🤫 **Mexeste demais** — lançar/recolher a toda a hora **espanta**. Engodar, esperar, paciência.
+
 ## 💪 Força — o que aguenta + freio (drag)
 
 Elo mais fraco = **leader fluoro 0,20–0,25 mm (~2,8–4,5 kg)**. É aí que parte — de propósito, salva o resto.
