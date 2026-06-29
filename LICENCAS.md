@@ -60,6 +60,7 @@ Cada concessão é só um **pedaço marcado** do rio — no terreno há **placas
 - 📍 **Início** (montante): [40.2489, -8.1632](https://www.google.com/maps?q=40.2488704,-8.1632354)
 - 📍 **Divisão A/B** ("a castinceira"): [40.2446, -8.1881](https://www.google.com/maps?q=40.2446000,-8.1880775) — **Lote A** (montante) = **sempre sem morte** · **Lote B** (jusante) = **com morte** em dias certos
 - 📍 **Fim** (jusante): [40.2541, -8.2063](https://www.google.com/maps?q=40.2540845,-8.2063371)
+- 🧭 **Os 2 limites juntos no Google Maps** → [início → fim](https://www.google.com/maps/dir/40.2488704,-8.1632354/40.2540845,-8.2063371) *(ignora a rota sugerida — é só para veres os 2 pinos)*
 - 🗺️ Mapa oficial → [edital ICNF (PDF)](https://www.icnf.pt/api/file/doc/9278b17ce4bbf86c)
 
 <img src="img/alva-concessao.png" alt="Mapa do troço de concessão do Rio Alva — semáforo" width="700" height="580">
