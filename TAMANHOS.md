@@ -4,6 +4,12 @@
 
 **Regra base:** o anzol (hook) escolhe-se pelo **isco (bait) / boca do peixe**, não pelo peso do peixe. O destorcedor (swivel) leva-se sempre **pequeno** (nunca é o elo fraco).
 
+> 🧵 **A linha fina dos anzóis montados (o "empate") — devo mudar?** É **de propósito**, não é defeito. Esse fio curto do anzol (o **empate / ramal**) **deve ser mais fino que a linha-mãe**:
+> - **Menos visível** junto ao isco = **mais picadas**; e é **elo fraco de propósito** — se enroscas, parte só o anzol (não perdes a montagem nem deixas o peixe a arrastar linha).
+> - **MAS tem de aguentar o peixe-alvo.** Os montados pequenos (#14, #10) trazem empate fino = **para peixe pequeno** (boga, perca, carpita) → **não mexas**.
+> - 🐟 **Para carpa grande na [cana grande](KIT-PESADO.md):** esse empate fino é **fraco demais** → usa **anzol de olhal** atado a **~0,28–0,30 mm** (~5–6 kg), **um degrau mais fino que a tua 0,40** mas forte p/ a carpa. **Não** ligues a 0,40 inteira a um anzol minúsculo (fica visível + menos picadas).
+> - **Regra:** empate = **um degrau mais fino que a linha-mãe**, nunca tão fino que não segure o peixe.
+
 ---
 
 ## 🎨 Cores (discreto vs vistoso)
