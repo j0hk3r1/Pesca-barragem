@@ -11,7 +11,7 @@
 ## 1️⃣ Licença Geral (ICNF) — obrigatória sempre
 
 - **Quem:** todos com **16+** (menores isentos, mas só a pescar **acompanhados** por titular).
-- **Onde comprar:** **caixa Multibanco** (o **talão é o título**, leva CC + NIF) · ou balcões dos **departamentos regionais do ICNF**.
+- **Onde comprar:** **caixa Multibanco** → *Pagamentos e Outros Serviços → Estado e Sector Público → Licenciamento de Pesca Lúdica → **Pesca Águas Doces** → tipo (Nacional/Regional) → nº CC → NIF*. O **talão MB é a própria licença**. Ou balcões do **ICNF**. **Não há portal online.**
 - **Tipo:** **anual** (ano civil) — **Nacional** (todo o país) ou **Regional** (Norte/Centro/Sul). **Não há "diária" na geral.**
 - **Preço (aprox., confirmar):** Nacional ~**20 €** · Regional ~**12 €** · não-residentes têm 7/30 dias.
 - ⚠️ **Não confundir com o BMAR** — esse é pesca **no mar** (DGRM), não serve para águas interiores.
@@ -42,7 +42,7 @@
 
 ## 4️⃣ Concessões dos rios — licença especial + onde comprar
 
-Aqui precisas da **geral + licença especial diária**, comprada **no ponto local** (não há online):
+Aqui precisas da **geral + licença especial diária**, comprada **no ponto local** (não há online). *(Na lei atual chamam-se **ZPL concessionadas**; nos editais ainda lês "concessão" — é o mesmo.)*
 
 | Rio / troço | Especial (preço/dia) | Regras-chave | 🛒 Onde comprar |
 |---|---|---|---|
@@ -52,7 +52,25 @@ Aqui precisas da **geral + licença especial diária**, comprada **no ponto loca
 | **Lagoas Serra da Estrela** (Vale do Rossim) | **só em provas** (licença coletiva 120 €/lagoa) | sem época individual em 2026; sem morte | via **clube/associação** que organiza a prova (ICNF Manteigas) |
 | **Zêzere em Oleiros** (Cambas/Mosteiro) | — (**águas livres**) | só licença geral | nenhum — **só a geral** |
 
-> 📍 **GPS/moradas dos pontos de venda:** a confirmar (estou a localizá-los) — entram aqui assim que estiverem certos.
+### 📍 Pontos de venda (morada · ☎ · 🗺️)
+
+**🔵 Rio Alva** — geral + especial:
+- **C.M. Vila Nova de Poiares** · Largo da República, 3350-156 V.N. Poiares · ☎ 239 420 850 · dias úteis 8:30–16:00 · [🗺️ Maps](https://www.google.com/maps/search/C%C3%A2mara+Municipal+Vila+Nova+de+Poiares)
+- **Junta de Freguesia de Lavegadas** · Rua São José 41, 3350-052 Igreja Nova · ☎ 239 455 667
+- Também: Café Vale do Tronco (V.N. Poiares) · Café O Cantinho (Mucelão, Arganil) · Centro de Convívio da Mucela.
+
+**🔵 Rio Ceira** — concessão **Colmeal–Cabreira** (Góis tem 3 concessões; é esta):
+- **Associação Florestal do Concelho de Góis** · Praceta Teófilo Braga 3, 3330-345 Góis · ☎ 235 778 828 · 9–13h / 14–17h · [🗺️ Maps](https://www.google.com/maps?q=40.15742,-8.11033)
+- Também: Posto de Turismo de Góis · cafés locais.
+
+**🟡 Ribeira da Isna / Malhadal** (Proença-a-Nova):
+- **C.M. Proença-a-Nova** · Av. do Colégio, 6150-401 Proença-a-Nova · ☎ 274 670 000 · dias úteis 9–16h · [🗺️ Maps](https://www.google.com/maps/search/C%C3%A2mara+Municipal+Proen%C3%A7a-a-Nova)
+- **Posto de Turismo** (fins de semana) · Parque Urbano Comendador João Martins · ☎ 939 623 269
+
+**⛰️ Lagoas da Estrela** (só em provas — licença coletiva 120 €/lagoa, via balcões ICNF):
+- Guarda ☎ 271 208 400 · Viseu ☎ 232 427 510 · **PNSE Manteigas** (Rua 1.º de Maio) ☎ 275 980 060 · ICNF-Seia ☎ 238 001 060
+
+**🟢 Zêzere em Oleiros + as 4 barragens** → **não precisam de especial**, só a **geral** (Multibanco).
 
 ---
 
