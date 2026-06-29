@@ -57,6 +57,16 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 > ⚠️ **O anzol não "aguenta" o peixe — a linha + freio + cana é que aguentam.** Um **#6 de arame forte** segura carpa de 10 kg se deres linha; um **#14 fino endireita**. Logo: peixe grande = anzol pelo **isco**, mas de **arame forte**. E **siluro 20 kg+ só com trançado** num Sofi (não na 0,40) → [setup do siluro](EXEMPLOS-MODULAR.md#ex-siluro). Que isco em cada anzol → [🍞 Iscos](ISCOS.md).
 
 
+> 🎒 **Não queres andar com mil fios? 4 leaders chegam:**
+> - **0,14** (fluoro) → peixe pequeno: boga, perca-sol, pimpão, gato-negro
+> - **0,25** (fluoro) → achigã/sandre + barbo/carpa até ~6 kg
+> - **0,35** (mono) → carpa/gato grande 10–15 kg
+> - **0,55** (mono) → siluro
+>
+> Os 2 **finos** em **fluoro** (invisível, onde conta); os 2 **grossos** em **mono** (mais barato — no peixe grande conta força/abrasão, não invisibilidade). Cada leader = **um degrau mais fino que a linha-mãe**.
+
+---
+
 <a id="fundo"></a>
 
 ### 💪 Fundo a distância — cana grande / Sofi (carpa · gato · siluro)
