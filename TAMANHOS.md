@@ -7,7 +7,7 @@
 > 🧵 **A linha fina dos anzóis montados (o "empate") — devo mudar?** É **de propósito**, não é defeito. Esse fio curto do anzol (o **empate / ramal**) **deve ser mais fino que a linha-mãe**:
 > - **Menos visível** junto ao isco = **mais picadas**; e é **elo fraco de propósito** — se enroscas, parte só o anzol (não perdes a montagem nem deixas o peixe a arrastar linha).
 > - **MAS tem de aguentar o peixe-alvo.** Os montados pequenos (#14, #10) trazem empate fino = **para peixe pequeno** (boga, perca, carpita) → **não mexas**.
-> - 🐟 **Para carpa grande na [cana grande](KIT-PESADO.md):** esse empate fino é **fraco demais** → usa **anzol de olhal** atado a **~0,28–0,30 mm** (~5–6 kg), **um degrau mais fino que a tua 0,40** mas forte p/ a carpa. **Não** ligues a 0,40 inteira a um anzol minúsculo (fica visível + menos picadas).
+> - 🐟 **Para carpa grande na **cana grande**:** esse empate fino é **fraco demais** → usa **anzol de olhal** atado a **~0,28–0,30 mm** (~5–6 kg), **um degrau mais fino que a tua 0,40** mas forte p/ a carpa. **Não** ligues a 0,40 inteira a um anzol minúsculo (fica visível + menos picadas).
 > - **Regra:** empate = **um degrau mais fino que a linha-mãe**, nunca tão fino que não segure o peixe.
 
 ---
@@ -41,21 +41,32 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 | 🪶 **RFT 100** | trançado [TX4 0,12](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) + leader fluoro | amostra ou boia |
 | 💪 **Sofi M2** | mono [LINE 100 0,40](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (~11 kg) | carpa / gato 10–15 kg |
 | 💪 **Sofi verde** | [trançado](https://www.decathlon.pt/todos-os-desportos/pesca-predadores-em-agua-doce/pesca-ao-siluro) **~0,30 (≈27 kg / 60 lb)** — ex. TX4 33/100; chega de sobra (o elo fraco é o **carreto/freio velho**, não a linha; subir não ajuda) | siluro (Tejo/Idanha) |
-| ⚙️ **velhos pequenos** | mono fina 0,20–0,25 | boia / fundo leve (peixe pequeno) |
+| ⚙️ **velhos pequenos** | mono fina [LINE 4X4](https://www.decathlon.pt/p/fio-de-pesca-line-4x4-250-m/194133/c4m8407160) 0,20–0,25 | boia / fundo leve (peixe pequeno) |
 
 **B) Leader (empate) por peixe + peso** — afina **só a ponta** ao alvo do dia. A linha-mãe forte **não afasta os pequenos**; o que conta é o **empate + anzol + isco**:
 
 | Peixe (peso) | Leader / empate | Anzol | Chumbo / peso |
 |---|---|---|---|
-| 🟡 Boga·perca·pimpão (<0,5 kg) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) 0,12–0,14 · 30–40 cm | [CARP POLE #14](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) | boia 0,5–1 g + chumbos pinça |
+| 🟡 Boga·perca·pimpão (<0,5 kg) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) 0,12–0,14 · 30–40 cm | [CARP POLE #14](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) | [boia](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) 0,5–1 g + [chumbos pinça](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) |
 | 🟢 Achigã·sandre (1–3 kg) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) 0,20–0,25 · 50–100 cm | [Texan 1/0–3/0](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) (vinil) | jig 3–10 g |
 | 🔵 Barbo·carpa média (4–6 kg) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545)/mono 0,25–0,28 · 40–60 cm | [SN HOOK WORM #8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) (#6 iscos grandes) | [chumbo 40–80 g](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) |
-| 🔵 Carpa·gato grande (10–15 kg) | mono 0,30–0,35 · 40–60 cm | [SN HOOK WORM #6–4](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) / [Simples #4](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450) | [azeitona 60–100 g](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) |
-| 🟤 Peixe-gato-negro (<0,5 kg) | mono 0,25 · 30–40 cm | [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) | boia ou [azeitona](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) |
-| 🟫 Siluro (20 kg+) | fluoro/mono **0,50–0,60** · ~1 m | anzol forte 1/0–4/0 ([siluro](https://www.decathlon.pt/todos-os-desportos/pesca-predadores-em-agua-doce/pesca-ao-siluro)) | [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) ou chumbo grande |
+| 🔵 Carpa·gato grande (10–15 kg) | [mono](https://www.decathlon.pt/p/fio-de-pesca-line-4x4-250-m/194133/c4m8407160) 0,30–0,35 · 40–60 cm | [SN HOOK WORM #6–4](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) / [Simples #4](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450) | [azeitona 60–100 g](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) |
+| 🟤 Peixe-gato-negro (<0,5 kg) | [mono](https://www.decathlon.pt/p/fio-de-pesca-line-4x4-250-m/194133/c4m8407160) 0,25 · 30–40 cm | [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) | boia ou [azeitona](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) |
+| 🟫 Siluro (20 kg+) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545)/mono **0,50–0,60** · ~1 m | anzol forte 1/0–4/0 ([siluro](https://www.decathlon.pt/todos-os-desportos/pesca-predadores-em-agua-doce/pesca-ao-siluro)) | [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) ou chumbo grande |
 
 > ⚠️ **O anzol não "aguenta" o peixe — a linha + freio + cana é que aguentam.** Um **#6 de arame forte** segura carpa de 10 kg se deres linha; um **#14 fino endireita**. Logo: peixe grande = anzol pelo **isco**, mas de **arame forte**. E **siluro 20 kg+ só com trançado** num Sofi (não na 0,40) → [setup do siluro](EXEMPLOS-MODULAR.md#ex-siluro). Que isco em cada anzol → [🍞 Iscos](ISCOS.md).
 
+
+<a id="fundo"></a>
+
+### 💪 Fundo a distância — cana grande / Sofi (carpa · gato · siluro)
+Peixe grande ao **fundo (ledger)**: cana pousada na forquilha + **guizo**. Montagem passo-a-passo → [Carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [Siluro](EXEMPLOS-MODULAR.md#ex-siluro).
+- 🧵 **Linha:** carpa = **mono 0,40** (estica, perdoa o freio velho aos trancos); siluro = **trançado ~0,30 (27 kg)** + leader grosso. *Braid só p/ mais distância — precisa de freio bem suave.*
+- ⚙️ **O freio é o fusível:** regula **suave (~2–3 kg ≈ ⅓ da linha)**, nunca travado; o peixe ganha-se com **freio + flexão + dar linha**. ⚠️ **Serviça os Sofi antes** — drag de 60 anos gripado parte linha (testa c/ balança).
+- 🎯 **Shock leader** se lanças 80–100 g com força: ~3–4 m de mono **0,50** (regra ~0,10 mm/25 g) — absorve o sacão e evita o chumbo soltar-se.
+- 📏 **Alcance ~40–90 m** ao fundo (vs ~20–30 m no leve). Não bombardeies — carpa/barbo andam a **10–30 m**.
+
+---
 
 ### 🛒 Se só queres 1-2 anzóis
 1. **[CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) #14** (olhal (eye), fino) → peixe de boca pequena (perca-sol, boga, ruivaco) + carpa em milho.

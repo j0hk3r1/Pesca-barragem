@@ -143,7 +143,7 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 
 <a id="sol"></a>
 
-> ☀️ **Sol forte e calor (meio-dia)?** A hora mais difícil — o peixe está parado, no fresco. **Lançar a 100 m não é a solução** (e nem lá chegas — o [kit pesado](KIT-PESADO.md) faz ~40–90 m, o leve ~20–30 m). Vai onde o peixe está:
+> ☀️ **Sol forte e calor (meio-dia)?** A hora mais difícil — o peixe está parado, no fresco. **Lançar a 100 m não é a solução** (e nem lá chegas — a cana de fundo faz ~40–90 m, o leve ~20–30 m). Vai onde o peixe está:
 > - 🌳 **Sombra** — árvores que tapam, juncos, troncos: fresco + abrigo. Pesca **encostado a isso**.
 > - 🕳️ **Fundo = fresco** — a água funda é mais fria → isco ao fundo **no sítio mais fundo que alcances**, não "longe por longe".
 > - 🌬️ **Margem do vento** — pesca a margem **para onde o vento sopra**: empurra comida + oxigénio + frescura, e o peixe vai atrás.
@@ -189,11 +189,11 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~2,8–4,5 kg)**. É aí que pa
 | Achigã (2–3 kg), barbo normal, boga, perca-sol, peixe-gato-negro | ✅ **Confortável** |
 | Sandre 1–3 kg, carpa/barbo 4–8 kg | ⚠️ **No limite** — freio suave, água aberta |
 | Carpa 10 kg+, sandre 4–8 kg | ❌ **Acima** — bycatch que vais perder |
-| Siluro / peixe muito grande | ❌ **Intocável** — [setup pesado](KIT-PESADO.md) à parte |
+| Siluro / peixe muito grande | ❌ **Intocável** — [setup pesado](TAMANHOS.md#fundo) à parte |
 
 **Freio (drag):** põe a **~⅓ do leader = ~1,5–2 kg**. Nunca no máximo (os **~6 kg** do carreto leve são só folga); o **leader é o fusível** — peixe grande, deixa correr.
 
-➡️ Peixe grande (carpa 10 kg+) = [💪 Kit Pesado](KIT-PESADO.md). Forças/diâmetros por carreto → [📏 Tamanhos](TAMANHOS.md#anzol).
+➡️ Peixe grande (carpa 10 kg+) = [📏 fundo (Tamanhos)](TAMANHOS.md#fundo). Forças/diâmetros por carreto → [📏 Tamanhos](TAMANHOS.md#anzol).
 
 ---
 
@@ -245,7 +245,7 @@ fio → chumbo corrido 60–100 g → barril (batente)
 - ✅ **Melhor:** **ao fundo (ledger)** com **milho** (o mais fácil), boilie ou massa + **engodo** de milho/farinha. Lança, pousa, espera o guizo.
 - ➕ **Também dá:** **boia deslizante** em água funda (diagrama abaixo) · **pão à superfície** no verão (água quente parada).
 - 💡 **Dica:** com chumbo pesado a carpa **auto-ferra** — espera a cana **arrancar**, não ferres ao primeiro toque.
-- 🛒 [azeitona furada](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Cana → [💪 Kit Pesado](KIT-PESADO.md).
+- 🛒 [azeitona furada](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Cana grande (fundo) → [📏 Tamanhos](TAMANHOS.md#fundo).
 
 <img src="img/ex-carpa-deslizante.svg" alt="Carpa — boia deslizante (água funda)" width="490" height="472">
 
@@ -333,7 +333,7 @@ clipa → leader fluoro fino 0,18–0,22 → colher pequena 0–3 g
 
 ## 🟫 Siluro · 💪 cana grande, de margem, ao anoitecer (isco ao fundo · boia)
 
-> ⚠️ **Lê isto primeiro:** o siluro passa dos **30–100 kg**. A tua [cana](KIT-PESADO.md) é **potente** (curva de teste ~2 kg ≈ 4,4 lb — **classe de peixe grande**) e o **trançado 27 kg sobra** — dás luta a um siluro **médio**. Num **gigante**, o que cede **não é a cana a "partir num número"** (uma cana parte é por *high-stick* ou por estar velha/danificada) — é o **conjunto antigo** (carreto, freio, linha, nós), seres **out-músculado p/ a estrutura**, e **não dever forçar à bruta uma cana de 60 anos**. Monstros = **equipamento dedicado**. Mas **de margem dá para tentar** (não precisas de barco), e um médio já é luta a sério.
+> ⚠️ **Lê isto primeiro:** o siluro passa dos **30–100 kg**. A tua **cana grande** é **potente** (curva de teste ~2 kg ≈ 4,4 lb — **classe de peixe grande**) e o **trançado 27 kg sobra** — dás luta a um siluro **médio**. Num **gigante**, o que cede **não é a cana a "partir num número"** (uma cana parte é por *high-stick* ou por estar velha/danificada) — é o **conjunto antigo** (carreto, freio, linha, nós), seres **out-músculado p/ a estrutura**, e **não dever forçar à bruta uma cana de 60 anos**. Monstros = **equipamento dedicado**. Mas **de margem dá para tentar** (não precisas de barco), e um médio já é luta a sério.
 
 ```
 amostra: cana grande → 0,40 → leader grosso 0,50–0,60 (anti-abrasão) → vinil GRANDE (15–20 cm) em jig pesado
@@ -355,7 +355,7 @@ boia:    cana grande → batente/pérola → boia grande → leader grosso → a
   - ⚠️ **Odivelas: não há siluro; Alqueva: o "gato" é pequeno, não siluro.**
 
 <img src="img/siluro-spots.png" alt="Mapa dos spots de siluro de margem em Portugal — Belver, Idanha, Castelo do Bode, Caneiras, Porto de Muge, Aguieira" width="720" height="828">
-- 🛒 anzol forte [grande](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) · vinil grande de predador · [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) · cana → [💪 Kit Pesado](KIT-PESADO.md).
+- 🛒 anzol forte [grande](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) · vinil grande de predador · [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) · cana grande → [📏 Tamanhos](TAMANHOS.md#fundo).
 
 ## 🏞️ Caso especial — barragem funda (ex. Castelo do Bode)
 

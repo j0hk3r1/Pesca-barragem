@@ -2,7 +2,7 @@
 
 O material por **setup**: **leve** (spinning + boia) e **pesado** (fundo). **Não conheces algum nome? Clica no link — vês logo o que é.**
 
-> 📏 Mapa **carreto → linha-mãe** e **anzol por peixe** → [Tamanhos](TAMANHOS.md#anzol). Setup pesado (Sofi) → [💪 Kit Pesado](KIT-PESADO.md).
+> 📏 Mapa **carreto → linha-mãe** e **anzol por peixe** → [Tamanhos](TAMANHOS.md#anzol). Setup pesado (Sofi) → [📏 Tamanhos](TAMANHOS.md#fundo).
 
 ---
 
@@ -30,9 +30,9 @@ Cobre quase todos os peixes ao teu alcance: achigã, perca-sol, boga, ruivaco, c
 
 ## 💪 Setup pesado — fundo
 
-Carretos **Sofi** com **linha mais forte** e acessórios próprios, para carpa 10 kg+, barbo grande e peixe-gato. Montagens (chumbo corrido / paternoster), força, distância e checklist → [💪 Kit Pesado](KIT-PESADO.md).
+Carretos **Sofi** com **linha mais forte** e acessórios próprios, para carpa 10 kg+, barbo grande e peixe-gato. Montagem ledger → [Carpa](EXEMPLOS-MODULAR.md#ex-carpa); linha/freio/shock leader → [📏 Tamanhos](TAMANHOS.md#fundo).
 
-- 🧵 **Linha** — mono [LINE 100 0,40](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (~11 kg) no Sofi M2 p/ carpa; **trançado de siluro** no Sofi verde p/ peixe grande. Porquê mono, fusível e shock leader → [💪 Kit Pesado](KIT-PESADO.md).
+- 🧵 **Linha** — mono [LINE 100 0,40](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (~11 kg) no Sofi M2 p/ carpa; **trançado de siluro** no Sofi verde p/ peixe grande. Porquê mono, fusível e shock leader → [📏 Tamanhos](TAMANHOS.md#fundo).
 - ⚖️ **Chumbadas 60–100 g** (perto → longe) — [azeitona furada (até 60 g)](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548); as tuas de **~100 g** p/ longe
 - 🔘 **Batentes + pérolas** — [Nós de bloqueio c/ pérolas](https://www.decathlon.pt/p/nos-de-bloqueio-de-pesca-a-inglesa-com-boia-deslizante-conjunto-de-5/355294/m8883379)
 - 🪜 **Forquilhas** (cana pousada) — [dianteira (estaca V)](https://www.decathlon.pt/p/suportes-de-canas-pesca-agua-doce-estaca-telescopica-cabeca-v-45-70/X8328117/m8328117) + [traseira](https://www.decathlon.pt/p/suporte-dobravel-de-cana-de-pesca-em-agua-doce-plastico/314162/m8328113)

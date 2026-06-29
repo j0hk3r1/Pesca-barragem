@@ -11,4 +11,3 @@
 - [⚖️ Regras (peixe/tamanhos)](REGRAS.md)
 - [💳 Licenças (onde comprar)](LICENCAS.md)
 - [🪢 Nós (qual usar)](NOS.md)
-- [💪 Kit Pesado (Sofi)](KIT-PESADO.md)

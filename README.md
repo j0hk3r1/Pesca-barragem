@@ -30,7 +30,7 @@ Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol,
 
 > 📋 **Setup completo** (linha-mãe linkada + leader/anzol/chumbo **por peixe e peso**) → [📏 Tamanhos](TAMANHOS.md#anzol). **Carpa e gato usam quase a mesma linha** — muda só a **ponta**; por isso **2 Sofi = 2 setups** (trocas o carreto em 10 s).
 >
-> ⚖️ Na água, **máx. 2 canas montadas** por pescador → [Regras](REGRAS.md). O setup pesado (Sofi) → [💪 Kit Pesado](KIT-PESADO.md).
+> ⚖️ Na água, **máx. 2 canas montadas** por pescador → [Regras](REGRAS.md). O setup pesado (Sofi) → [📏 Tamanhos](TAMANHOS.md#fundo).
 
 ---
 
@@ -57,8 +57,6 @@ Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol,
 | ⚖️ [**Regras**](REGRAS.md) | Tamanhos mínimos, devolver/abater, nº de canas, isco |
 | 💳 [**Licenças & onde comprar**](LICENCAS.md) | Geral + concessões dos rios + onde comprar + defeso |
 | 🪢 [**Nós**](NOS.md) | Que nó usar onde + vídeo |
-| 💪 [**Kit Pesado**](KIT-PESADO.md) | Setup pesado (Sofi): carpa/gato, ledger |
-
 ---
 
 > ⚖️ **Antes de ir:** precisas de **licença** (ICNF, Multibanco), há **mínimos de tamanho** e espécies a **abater vs devolver**. Tudo o que evita multa → [⚖️ Regras](REGRAS.md) · [💳 Licenças](LICENCAS.md).

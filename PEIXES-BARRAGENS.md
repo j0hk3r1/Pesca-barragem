@@ -17,7 +17,7 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 - **Boga / ruivaco** → [à boia](EXEMPLOS-MODULAR.md#ex-boga) · **Perca-sol** → [boia fácil](EXEMPLOS-MODULAR.md#ex-perca)
 - **Peixe-gato-negro** → [fundo cheiroso](EXEMPLOS-MODULAR.md#ex-gato) · **Pimpão** → [boia](EXEMPLOS-MODULAR.md#ex-pimpao)
 
-> Peixe grande (carpa 8 kg+, barbo grande) ao fundo a distância = [💪 Kit Pesado](KIT-PESADO.md).
+> Peixe grande (carpa 8 kg+, barbo grande) ao fundo a distância = [📏 fundo (Tamanhos)](TAMANHOS.md#fundo).
 > 🍞 Que isco pôr no anzol (massa, milho, receitas) → [Iscos & engodo](ISCOS.md).
 
 ---
@@ -127,6 +127,6 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 
 - ✅ **Setup leve cobre bem:** achigã 2–3 kg, barbo normal, truta, e todos os peixes-pasto.
 - ⚠️ **No limite:** carpa/barbo 4–8 kg, sandre 1–3 kg — freio suave, água aberta.
-- ❌ **Acima → setup pesado:** carpa 10 kg+, gato-canal, siluro → [💪 Kit Pesado](KIT-PESADO.md) (Sofi). Que linha/anzol por peixe e peso → [📏 Tamanhos](TAMANHOS.md#anzol).
+- ❌ **Acima → setup pesado:** carpa 10 kg+, gato-canal, siluro → [📏 fundo (Tamanhos)](TAMANHOS.md#fundo). Que linha/anzol por peixe e peso → [📏 Tamanhos](TAMANHOS.md#anzol).
 
 > 🟫 **Tentar o siluro de margem** (à amostra/isco, com a cana grande) — pequeno/médio dá, grande parte: [setup do siluro](EXEMPLOS-MODULAR.md#ex-siluro).

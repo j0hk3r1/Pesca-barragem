@@ -31,4 +31,4 @@
 
 ---
 
-> 🎒 **Antes de sair de casa:** [Material](MATERIAL.md) · [Tamanhos & setups](TAMANHOS.md#anzol) · [Kit Pesado](KIT-PESADO.md) · [Os teus carretos](README.md)
+> 🎒 **Antes de sair de casa:** [Material](MATERIAL.md) · [Tamanhos & setups](TAMANHOS.md#anzol) · [Os teus carretos](README.md)
