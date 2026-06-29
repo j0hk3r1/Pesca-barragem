@@ -30,6 +30,8 @@ São só **2 conjuntos de material** (linha/anzóis): o **🪶 leve** serve as *
 > ⚙️ **Carretos:** o **WXM** (4 rolamentos, freio ~5–6 kg) é o melhor → fica na amostra. O **RFT** (1 rolamento, freio 3,2 kg) também pesca amostra, mas brilha na **boia**. O antigo (3,2:1, lento) → boia/passeio na telescópica. **Só podes ter 2 canas montadas** ao mesmo tempo → [⚖️ Regras](REGRAS.md).
 >
 > 🔄 **1 cana grande, 2 Sofi = 2 setups prontos.** Trocar o carreto leva 10 s → tens um com **0,40 mono** (carpa) e outro com **linha mais forte / trançado** (peixe-gato/[siluro](EXEMPLOS-MODULAR.md#ex-siluro)) e trocas conforme o alvo. **Carpa e gato usam quase a mesma linha** — o que muda é a **ponta** (anzol/leader/isco), por isso pré-faz **montagens de ponta** ("carpa", "gato", "boia") em enroladores e encaixa a que precisas.
+>
+> 📋 **Tabela completa carreto → linha-mãe → leader (por peixe e peso)** → [📏 Tamanhos](TAMANHOS.md#anzol).
 
 > Canas em detalhe: [🎣 As canas pequenas](CANA.md) · [💪 Kit Pesado](KIT-PESADO.md) (a grande).
 
