@@ -333,7 +333,7 @@ clipa → leader fluoro fino 0,18–0,22 → colher pequena 0–3 g
 
 ## 🟫 Siluro · 💪 cana grande, de margem, ao anoitecer (isco ao fundo · boia)
 
-> ⚠️ **Lê isto primeiro:** o siluro passa dos **30–100 kg**. Mesmo com o **trançado 27 kg** (Sofi verde), o limite **não é a linha — é a [cana](KIT-PESADO.md)**: parte a **~11 kg** de tração, por isso só **dominas um pequeno/médio** (uns kg); um **gigante manda na cana, não o seguras**. Para os monstros = **equipamento dedicado**. Mas **de margem dá para tentar** (não precisas de barco), e um médio já é luta a sério.
+> ⚠️ **Lê isto primeiro:** o siluro passa dos **30–100 kg**. A tua [cana](KIT-PESADO.md) é **potente** (curva de teste ~2 kg ≈ 4,4 lb — **classe de peixe grande**) e o **trançado 27 kg sobra** — dás luta a um siluro **médio**. Num **gigante**, o que cede **não é a cana a "partir num número"** (uma cana parte é por *high-stick* ou por estar velha/danificada) — é o **conjunto antigo** (carreto, freio, linha, nós), seres **out-músculado p/ a estrutura**, e **não dever forçar à bruta uma cana de 60 anos**. Monstros = **equipamento dedicado**. Mas **de margem dá para tentar** (não precisas de barco), e um médio já é luta a sério.
 
 ```
 amostra: cana grande → 0,40 → leader grosso 0,50–0,60 (anti-abrasão) → vinil GRANDE (15–20 cm) em jig pesado
