@@ -57,13 +57,13 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 > ⚠️ **O anzol não "aguenta" o peixe — a linha + freio + cana é que aguentam.** Um **#6 de arame forte** segura carpa de 10 kg se deres linha; um **#14 fino endireita**. Logo: peixe grande = anzol pelo **isco**, mas de **arame forte**. E **siluro 20 kg+ só com trançado** num Sofi (não na 0,40) → [setup do siluro](EXEMPLOS-MODULAR.md#ex-siluro). Que isco em cada anzol → [🍞 Iscos](ISCOS.md).
 
 
-> 🎒 **Não queres andar com mil fios? 4 leaders chegam:**
-> - **0,14** (fluoro) → peixe pequeno: boga, perca-sol, pimpão, gato-negro
-> - **0,25** (fluoro) → achigã/sandre + barbo/carpa até ~6 kg
-> - **0,35** (mono) → carpa/gato grande 10–15 kg
-> - **0,55** (mono) → siluro
+> 🎒 **Não queres andar com mil fios? 4 leaders chegam — e já tens 2 (0,23 e 0,50):**
+> - **0,14** → peixe pequeno: boga, perca-sol, pimpão, gato-negro · *comprar (fluoro)*
+> - **0,23** ✅ **já tens** → achigã/sandre + barbo/carpa média (~5–6 kg)
+> - **0,35** → carpa/gato grande 10–15 kg · *comprar (mono)*
+> - **0,50** ✅ **já tens** → siluro
 >
-> Os 2 **finos** em **fluoro** (invisível, onde conta); os 2 **grossos** em **mono** (mais barato — no peixe grande conta força/abrasão, não invisibilidade). Cada leader = **um degrau mais fino que a linha-mãe**.
+> Cada leader = **um degrau mais fino que a linha-mãe**. Finos (0,14/0,23) ganham em **fluoro** (invisível); grossos (0,35/0,50) em **mono** chegam (conta força/abrasão). → **Só falta comprar o 0,14 e o 0,35.**
 
 ---
 
