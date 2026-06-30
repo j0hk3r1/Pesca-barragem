@@ -45,6 +45,8 @@ Iscos **naturais, caseiros e de loja** (milho, massa, fiambre, boilie…) para a
 
 > 🐛 **Asticô (maggot) — cores & guardar:** **branco** (geral / inverno / água limpa) · **vermelho** (perca, boga) · **bronze** (rio, barbo). Mete 2–3 no anzol. Guarda no **frigorífico** com **farelo ou serradura** — o frio impede que virem casulo (caster).
 
+> 🪱 **Minhoca — apanhar & iscar:** apanha-as **à noite com lanterna** na relva molhada (depois de regar / à chuva), luz indireta, puxa **devagar** p/ não partir. No anzol: **passa-a por areia** primeiro (fixa-se, não escorrega); 2 de cada vez se pequenas. **Quanto maior a minhoca, maior o barbo.**
+
 > 🪝 **Hair rig (cabelo) — p/ boilie/chufa/isco duro:** o isco vai num **fio curto ao lado do anzol**, não espetado. O peixe suga o isco, o **anzol nu** entra na boca e fisga sozinho. É a base da pesca à carpa moderna.
 
 ---

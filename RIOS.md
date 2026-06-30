@@ -24,6 +24,8 @@ Spots de **rio** (e uma lagoa de montanha), diferentes das [4 barragens](PEIXES-
 
 > 🎣 **Perto de Oleiros**, o **Rio Zêzere** (praias de Cambas/Mosteiro) é destino forte de **achigã** desportivo (barco, visitantes ES/FR).
 
+> 🐠 **Outros rios de barbo/carpa no Centro** (vistos em vídeos — confirma sempre licença/edital): **Rio Nabão** (Tomar — barbo grande; na cidade, da **Ponte dos Arcos p/ jusante**, é **obrigatório soltar**) · **Rio Lis** (Leiria) · **Bª de Fagilde / Riodão** (barbo XXL na corrente, esvazia com chuva) · **Aguieira** (carpa nas **entradas de ribeiros**; tem siluro).
+
 > 🔗 **Como pescar cada peixe** (mesmos setups das barragens): 🐟 [Truta](EXEMPLOS-MODULAR.md#ex-truta) · 🟢 [Achigã](EXEMPLOS-MODULAR.md#ex-achiga) · 🔵 [Barbo](EXEMPLOS-MODULAR.md#ex-barbo) · 🟡 [Boga](EXEMPLOS-MODULAR.md#ex-boga). Predador/truta = **amostra**; barbo/boga = **boia ou fundo leve**.
 
 ---

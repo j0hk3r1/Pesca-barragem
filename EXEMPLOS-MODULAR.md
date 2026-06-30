@@ -157,6 +157,7 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 - **Spinning (achigã/perca):** atira p/ junto de **estrutura** (pedras, troncos, vegetação, paredão). Recolhe com **paragens** — ataque vem na pausa/queda. Manhã cedo / fim de tarde.
 - **Boia (carpa/barbo/boga/peixe-gato):** atira, deixa assentar, **vê a boia**. Afunda/foge → **ferra**. Paciência. Anoitecer = peixe-gato.
 - **Água:** limpa → fino + cores naturais. Turva → cor importa pouco (cheiro/vibração).
+- **Tempo:** **chuva / encoberto = boa pesca** — os predadores naturais (corvos-marinhos, garças) caçam menos e o peixe anda mais confiante.
 
 <a id="ao-fundo"></a>
 
@@ -191,7 +192,7 @@ Elo mais fraco = **leader fluoro 0,20–0,25 mm (~2,8–4,5 kg)**. É aí que pa
 | Carpa 10 kg+, sandre 4–8 kg | ❌ **Acima** — bycatch que vais perder |
 | Siluro / peixe muito grande | ❌ **Intocável** — [setup pesado](TAMANHOS.md#fundo) à parte |
 
-**Freio (drag):** põe a **~⅓ do leader = ~1,5–2 kg**. Nunca no máximo (os **~6 kg** do carreto leve são só folga); o **leader é o fusível** — peixe grande, deixa correr.
+**Freio (drag):** põe a **~⅓ do leader = ~1,5–2 kg**. Nunca no máximo (os **~6 kg** do carreto leve são só folga); o **leader é o fusível** — peixe grande, deixa correr. Mantém o **carreto a ceder** e a **ponta da cana sempre dobrada** (linha esticada) — ponta a endireitar = peixe perdido.
 
 ➡️ Peixe grande (carpa 10 kg+) = [📏 fundo (Tamanhos)](TAMANHOS.md#fundo). Forças/diâmetros por carreto → [📏 Tamanhos](TAMANHOS.md#anzol).
 
@@ -229,7 +230,7 @@ clipa → leader 60–100 cm → vinil pequeno em jig head (até ~10 g) ou drops
 ```
 - ✅ **Melhor:** **vinil (shad) jigado no fundo** (sobe-e-desce) junto a estrutura funda — troncos, rochas, drop-offs.
 - ➕ **Também dá:** **dropshot** da margem (bom no inverno) · **crankbait fundo** ou trolling de barco.
-- 💡 **Dica:** andam em **cardume** e em **pouca luz** (amanhecer/anoitecer/noite); insiste onde sentes toques. Cores **verde-escuro** (limpa) / **preto** (escura). Época **mar–mai**. ⚠️ Sandre 4 kg+ acima do material leve.
+- 💡 **Dica:** andam em **cardume** e em **pouca luz** (amanhecer/anoitecer/noite); insiste onde sentes toques. Cores **verde-escuro** (limpa) / **preto** (escura). Época **mar–mai** (e boa no **outono**, com o arrefecimento) — vinil **devagar junto a muros/margem**. ⚠️ Sandre 4 kg+ acima do material leve.
 - 🛒 vinil [YUBARI](https://www.decathlon.pt/p/amostra-flexivel-de-pesca-do-achiga-yubari-stick-bait-worm-pumpkin-worm-x-10/355324/c213m8883482) + anzol forte [Texan](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969).
 
 <a id="ex-carpa"></a>
@@ -243,8 +244,8 @@ fio → chumbo corrido 60–100 g → barril (batente)
     → leader 40–60 cm → anzol #8–6 + milho / boilie / massa
 ```
 - ✅ **Melhor:** **ao fundo (ledger)** com **milho** (o mais fácil), boilie ou massa + **engodo** de milho/farinha. Lança, pousa, espera o guizo.
-- ➕ **Também dá:** **boia deslizante** em água funda (diagrama abaixo) · **pão à superfície** no verão (água quente parada).
-- 💡 **Dica:** com chumbo pesado a carpa **auto-ferra** — espera a cana **arrancar**, não ferres ao primeiro toque.
+- ➕ **Também dá:** **boia deslizante** em água funda (diagrama abaixo) · **pão à superfície** no verão · **carpa à vista** = monta levíssima (chumbo **1 g** + **1 bago de milho** no anzol #6, **sem hair rig** — p/ peixe visível/desconfiado).
+- 💡 **Dica:** com chumbo pesado a carpa **auto-ferra** — espera a cana **arrancar**, não ferres ao primeiro toque. Spots: **entradas de ribeiros** (sobretudo após chuva — oxigénio + comida); peixe desconfiado → aproxima-te discreto, engoda pouco.
 - 🛒 [azeitona furada](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Cana grande (fundo) → [📏 Tamanhos](TAMANHOS.md#fundo).
 
 <img src="img/ex-carpa-deslizante.svg" alt="Carpa — boia deslizante (água funda)" width="490" height="472">
@@ -258,12 +259,13 @@ fio → chumbo corrido 60–100 g → barril (batente)
 <img src="img/ex-paternoster.svg" alt="Barbo ao fundo — paternoster" width="470" height="470">
 
 ```
-fundo (chumbo corrido ou paternoster) → leader 40–60 cm
-    → anzol #8–6 + minhoca / milho / larva
+corrente: chumbada corrida 20–25 g + chumbo 1 g "de morder" (batente) → leader 40–60 cm
+          → anzol #6–4 + MINHOCA GRANDE / milho
 ```
-- ✅ **Melhor:** **ao fundo** (chumbo corrido ou paternoster) com **minhoca**, milho ou larva, nas **embocaduras dos afluentes**.
-- ➕ **Também dá:** cai muitas vezes em **vinil de achigã** (bycatch) · **feeder** · mosca (avançado).
-- 💡 **Dica:** gosta de **alguma corrente** e fundo de gravilha; o **paternoster** mantém o isco visível em fundo mole. Engodo de farinhas + milho.
+- ✅ **Melhor:** **ao fundo na corrente** com **minhoca grande** (o isco-rei do barbo) — lança p/ a corrente e **deixa a chumbada arrastar até parar encostada ao barranco**: *"onde a chumbada para, param os peixes"*. Nas **embocaduras dos afluentes**, quebras de corrente e remoinhos.
+- 💧 **Água turva = MAIS fácil** — o barbo não vê onde se enroscar e luta menos; em água cristalina é "bandido", enrosca em tudo. **Depois da chuva** é boa altura.
+- ➕ **Também dá:** milho/larva · **pão a arrastar** no fundo (chumbo ~5 g) · feeder · cai em **vinil de achigã** (bycatch).
+- 💡 **Dica:** anzol **#6–4** (grande, porque a minhoca é grande); o **chumbo de morder** à frente impede a chumbada de descer até ao anzol. Pré-desova (até ~mar) andam gordos na corrente. Engodo de farinhas + milho.
 - 🛒 igual ao [Fundo da carpa](EXEMPLOS-MODULAR.md#ex-carpa).
 
 <a id="ex-boga"></a>
@@ -325,7 +327,7 @@ clipa → leader fluoro fino 0,18–0,22 → colher pequena 0–3 g
 ```
 - ✅ **Melhor:** **colher (spinner) pequena** 0–3 g — lança e recolhe, o mais fácil no rio. Pesca **contra a corrente** ou a atravessar, junto a **pedras e poços**.
 - ➕ **Também dá:** **vinil pequeno** em jig leve · **mosca** (cana de mosca, avançado) · minhoca/asticot **onde for permitido**.
-- 💡 **Dica:** truta é **arisca** → aproxima-te **baixo e sem barulho**, fio fino, cores naturais em água limpa. Amanhecer/anoitecer.
+- 💡 **Dica:** truta é **arisca** → aproxima-te **baixo e sem barulho**, fio fino, cores naturais em água limpa. Amanhecer/anoitecer. **Na abertura (1 mar) a água está fria e alta** → peixe **inativo no fundo das fossas**; só ativa com **sol** (a tarde rende mais). Procura-a em **fossas fundas** e na **cauda das corredeiras**.
 - ⚠️ **Só nos rios** (não nas 4 barragens) e com **época/defeso** + zonas reguladas → [🏞️ Rios](RIOS.md) · [⚖️ Regras](REGRAS.md).
 - 🛒 [colheres](https://www.decathlon.pt/p/kit-colheres-rotativas-pesca-de-predadores/171832/c255m8405651) · [leader fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545).
 
@@ -340,18 +342,19 @@ amostra: cana grande → 0,40 → leader grosso 0,50–0,60 (anti-abrasão) → 
 fundo:   cana grande → chumbo corrido → leader grosso → anzol forte 1/0–4/0 + bola de minhocas
 boia:    cana grande → batente/pérola → boia grande → leader grosso → anzol → isco suspenso (regulas a profundidade)
 ```
-- ✅ **Fundo (isco — o TEU método):** **bola de minhocas** (ou **fígado/chouriço** — cheiro forte) em **chumbo corrido**, num **poço fundo / junto à parede / estrutura**. **Cana pousada na forquilha + guizo** — lanças uma vez e esperas (a cana grande pesa demais p/ andar a recolher).
+- ✅ **Fundo (isco — o TEU método):** **bola de minhocas** (ou **fígado/chouriço** — cheiro forte) em **chumbo corrido**, num **poço fundo / junto à parede / estrutura** (muitas vezes mesmo **à beira, no fundo junto à 1ª pedra** — não precisas lançar longe). **Cana pousada na forquilha + guizo** — lanças uma vez e esperas (a cana grande pesa demais p/ andar a recolher).
 - ✨ **Amostra (só se tiveres cana de predador forte):** vinil/shad 15–20 cm em jig pesado, devagar com pausas. ⚠️ **Não dá com o teu material:** a cana de fundo é **pesada demais p/ lançar-e-recolher** o dia todo, e o spinning leve (~5 kg) é **fraco p/ um grande**. Para ti = **isco**, não amostra.
 - 🎈 **Boia com isco suspenso — NÃO tem de ser ao fundo:** o siluro **anda na coluna de água**, não é só de fundo. Regula o isco **~1 m acima do fundo** (longe do lodo/pedras); no **verão/noite sobem** → mete a **meia-água ou perto da superfície (1–2 m)**. Os vídeos do siluro **à tona são reais** — é assim que se apanham no calor.
 - ⏰ **Quando:** **anoitecer/madrugada** + **verão** (água quente, Jun–Set) = a melhor altura. ⚠️ **Licença geral:** só de **meia hora antes do nascer a meia hora depois do pôr-do-sol** (DL 112/2017). A **pesca noturna** só é legal no **carp fishing** em ZPL que a preveja — **não há (ainda) exceção para siluro** (está só em proposta). Para o siluro, fica-te pelo **crepúsculo legal**.
-- ⚠️ **Isco de peixe (vivo/morto) é ILEGAL** em águas interiores — nada de carpa viva/enguia/peixinho; usa **minhocas, fígado, chouriço, massa** (não-peixe). **Leader grosso 0,50–0,60** anti-abrasão (boca áspera).
-- 🥊 **Aguentar e trazer um grande (não o levantas — cansa-lo):** **nunca levantes pela cana** (high-stick = parte) nem pela linha. Cana a **~45°** a fazer de mola; **dá linha** quando ele arranca (o **freio** trabalha — o 1.º arranque é brutal) e **bombeia**: baixa a cana a recolher, levanta devagar p/ ganhar linha. Repete até **cansar**. Depois trá-lo ao **raso** e **aterra na margem** — pega o **queixo com luva** (lip grip) ou **encalha-o na areia**, **nunca a erguer com a cana/linha**.
+- ⚠️ **Isco de peixe (vivo/morto) é ILEGAL** em águas interiores — nada de carpa viva/enguia/peixinho; usa **minhocas, fígado, chouriço, massa** (não-peixe). **Leader grosso 0,50–0,60** anti-abrasão (boca áspera; em fundo muito **rochoso** sobe a **0,80–0,90** — ele foge p/ as pedras e corta).
+- 🥊 **Aguentar e trazer um grande (não o levantas — cansa-lo):** **nunca levantes pela cana** (high-stick = parte) nem pela linha. Cana a **~45°** a fazer de mola; **dá linha** quando ele arranca (o **freio** trabalha — o 1.º arranque é brutal) e **bombeia**: baixa a cana a recolher, levanta devagar p/ ganhar linha. Repete até **cansar**. Depois trá-lo ao **raso** e **aterra na margem** — pega o **queixo com luva** (lip grip) ou **encalha-o na areia**, **nunca a erguer com a cana/linha**. É um **jogo de paciência** (vem à tona 5–6× antes de render); **trava-o cedo** p/ o tirar das pedras. Antes de soltar, **reanima-o na água**. ⚠️ Muitas canas partem no **desembarque** atrapalhado, não na luta.
 - 📍 **Onde (margem), por ordem de probabilidade:**
   - ⭐ **Belver / Praia Fluvial da Ortiga** (Tejo, Mação) — **a melhor de PT**: população mais densa do país; é o troço onde o ICNF tirou **2,3 t** em 2026. **GPS 39.4831, −8.0018**.
   - 🎯 **Idanha-a-Nova / Rio Ponsul** — infestado; o **recorde nacional (~102 kg à cana, 2025)** saiu do **Ponsul**. Bons pontos: a **ponte velha** da estrada Castelo Branco–Malpica do Tejo (sobre o Ponsul) e a **Praia Fluvial da barragem** (Marechal Carmona, GPS 39°58'34"N 7°10'51"W); há **guia local que faz siluro apeado** (de margem).
   - **Tejo (Ribatejo)** — pesqueiros de margem com siluro em **Aldeia de Caneiras** (Santarém) e **Porto de Muge / ponte D. Amélia** (Salvaterra — saíram lá vários **>30 kg à cana**). ⚠️ O troço **Ortiga ↔ ponte da Chamusca é Zona de Pesca Profissional** — pesca lúdica casual **proibida** aí (os concursos de siluro são exceção federada); pesca-se livre **a jusante** da ponte da Chamusca (p. ex. Ribeira de Santarém).
   - **Castelo do Bode** (Zêzere) — confirmado (foz do rio Alge); margem nas praias fluviais (Aldeia do Mato, Lago Azul).
   - **Aguieira** (Mondego) — siluro **existe mas sem pescaria provada**; só vale uma exploração.
+  - **Maranhão** (Alentejo) — siluro presente (estudo LIFE PREDATOR), pescaria a crescer.
   - ⚠️ **Odivelas: não há siluro; Alqueva: o "gato" é pequeno, não siluro.**
 
 <img src="img/siluro-spots.png" alt="Mapa dos spots de siluro de margem em Portugal — Belver, Idanha, Castelo do Bode, Caneiras, Porto de Muge, Aguieira" width="720" height="828">
