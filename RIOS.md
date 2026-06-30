@@ -2,7 +2,7 @@
 
 Spots de **rio** (e uma lagoa de montanha), diferentes das [4 barragens](PEIXES-BARRAGENS.md). Aqui entra a **truta** 🐟 — que nas barragens não há.
 
-> ⚠️ **Muitos destes troços são concessões / zonas reguladas** (Alva, Ceira-Góis, Lagoas da Estrela, Isna): precisam de **licença própria + edital** — a licença geral não chega. Confirma sempre antes de ir → [⚖️ Regras & licença](REGRAS.md). Quase todos são **praias fluviais** (cuidado com zona balnear em época de banhos).
+> ⚠️ **Alguns destes troços são concessões / zonas reguladas** (Ceira-Góis, Lagoas da Estrela, Isna): precisam de **licença própria + edital**. **O Alva nos campings (Arganil/Côja/Bica/3 Entradas) é águas livres** (só a geral, isco+amostra) — a concessão "só-mosca" do Alva é **só em Poiares, a jusante**. Confirma sempre antes de ir → [⚖️ Regras & licença](REGRAS.md). Quase todos são **praias fluviais** (cuidado com zona balnear).
 
 ---
 
@@ -37,9 +37,10 @@ Spots de **rio** (e uma lagoa de montanha), diferentes das [4 barragens](PEIXES-
 ## 🌊 Por rio
 
 ### 🔵 Rio Alva — Arganil · Côja · Três Entradas · Bica
-- **Peixes:** barbo, boga, escalo, carpa e achigã no troço médio; **truta** a montante (e na **Rib. de Pomares**, na Bica).
-- **Concessão (gerida pela Câmara de V.N. Poiares):** precisa **licença especial diária** (residentes ~1–2 €, outros **~5 €**; "com morte" sobe a 10–15 €). **Troço A = sem morte · troço B = com morte**, em **dias alternados**. Só **iscos artificiais**, anzol **sem barbela**, 1 cana, do nascer ao pôr do sol. **Achigã: todo o ano, devolução proibida** (invasor). ⚠️ Há **2 editais em transição** → **confirma com a câmara/junta** antes de ir.
-- **Como:** achigã a [vinil/amostra](EXEMPLOS-MODULAR.md#ex-achiga); barbo/boga a [boia ou fundo leve](EXEMPLOS-MODULAR.md#ex-boga); truta (a montante) a [colher](EXEMPLOS-MODULAR.md#ex-truta).
+- **Peixes:** barbo, boga, escalo, carpa e achigã; **truta** nos **afluentes salmonícolas** — **Alvôco** (3 Entradas) e **Rib. de Pomares** (Bica) — até 31 jul.
+- **Licença: nestes spots o Alva é ÁGUAS LIVRES** → só a **licença geral**, e podes usar **isco E amostra**. ✅
+- ⚠️ **Não confundir:** a concessão **só-mosca** (fly-only, anzol sem barbela, licença diária) da **Câmara de V.N. Poiares** é **apenas um troço lá em baixo** (freguesias de **Lavegadas / S. Martinho da Cortiça**, ~20 km a jusante de Côja) — **não se aplica a Arganil/Côja/Bica/3 Entradas**. ([Edital 12/2025](https://www.jfsaomiguelpoiares.pt/ficheiros/fic707_1743514998.pdf))
+- **Como:** barbo/boga/carpa a [fundo/boia](EXEMPLOS-MODULAR.md#ex-boga) com **isco**; achigã a [vinil/amostra](EXEMPLOS-MODULAR.md#ex-achiga) (**devolução proibida** em rio — matar); truta nos **afluentes salmonícolas** (Alvôco/Pomares, até 31 jul) a [colher](EXEMPLOS-MODULAR.md#ex-truta).
 
 ### 🔵 Rio Ceira — Góis
 - Rio **clássico de truta**; o troço de Góis já leva boga, barbo e escalo a jusante.
@@ -48,7 +49,7 @@ Spots de **rio** (e uma lagoa de montanha), diferentes das [4 barragens](PEIXES-
 
 ### 🟢 Rio Zêzere — Valhelhas · Janeiro de Baixo · Oleiros (Cambas)
 - **Valhelhas (alto):** água fria = **truta** + boga/escalo. **Janeiro de Baixo (médio):** barbo, boga, achigã, carpa. **Cambas/Mosteiro (Oleiros):** **achigã** de barco.
-- 📋 **Licença:** o Zêzere em **Oleiros é águas livres** → só a **licença geral** (sem concessão, boa notícia). Valhelhas/Janeiro de Baixo: confirma se o troço tem ZPL local.
+- 📋 **Licença: o Zêzere é ÁGUAS LIVRES** em Valhelhas, Janeiro de Baixo e Cambas → só a **licença geral** (isco + amostra). **Valhelhas** é água **salmonícola** (truta): 1 cana, isco = **só minhoca/anzol simples, sem asticot**. 🐟 **Bónus:** no Zêzere a época da truta vai até **31 ago** (exceção, não 31 jul — confirma c/ ICNF Guarda).
 - **Como:** truta no alto a [colher/mosca](EXEMPLOS-MODULAR.md#ex-truta); achigã a [vinil](EXEMPLOS-MODULAR.md#ex-achiga); barbo/boga a [boia](EXEMPLOS-MODULAR.md#ex-boga).
 
 ### 🟡 Ribeira da Isna — Aldeia Ruiva · Bostelim · Oleiros (vila)
@@ -78,7 +79,8 @@ Spots de **rio** (e uma lagoa de montanha), diferentes das [4 barragens](PEIXES-
 
 | Local | Tipo | Licença especial |
 |---|---|---|
-| **Alva** (Poiares/Arganil) | concessão (câmara) | ✅ diária ~1–5 € (10–15 € c/ morte) |
+| **Alva** — campings (Arganil/Côja/Bica/3 Entradas) | **águas livres** | ❌ só geral (isco+amostra) |
+| **Alva** — só troço de **Poiares** (a jusante) | concessão **só-mosca** | ✅ diária — *não afeta os campings* |
 | **Ceira** (Góis) | concessão (município) | ✅ diária 2–5 €, máx. 18/dia |
 | **Vale do Rossim / Lagoas** | zona reservada | ✅ **só em provas** (120 €/lagoa, coletiva) |
 | **Isna / Malhadal** (Proença) | concessão municipal ⚠️ | ✅ diária 1–5 €, máx. 10/dia — *confirma c/ câmara* |

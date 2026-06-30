@@ -46,7 +46,7 @@ Aqui precisas da **geral + licença especial diária**, comprada **no ponto loca
 
 | Rio / troço | Especial (preço/dia) | Regras-chave | 🛒 Onde comprar |
 |---|---|---|---|
-| **Rio Alva** (V.N. Poiares/Arganil) | residente ~1–2 € · outros ~5 € (c/ morte 10–15 €) | troço A sem morte / B com morte, dias alternados; **só artificiais, sem barbela**; achigã devolução proibida | Câmara de **V.N. Poiares** · **Junta de Lavegadas** · Centro de Convívio de **Mucela** · cafés (Mucelão) |
+| **Rio Alva** — só troço de **Poiares** (Lavegadas) ⚠️ *não os campings a montante* | residente ~1–2 € · outros ~5 € (c/ morte 10–15 €) | troço A sem morte / B com morte, dias alternados; **só mosca/artificiais, sem barbela**; achigã devolução proibida | Câmara de **V.N. Poiares** · **Junta de Lavegadas** · Centro de Convívio de **Mucela** · cafés (Mucelão) |
 | **Rio Ceira** (Góis) | residente 2 € · outros ~5 €; **máx 18/dia** | só **truta, barbo, boga** (sem achigã); truta 10/dia, mín 20 cm; sem barco | **Associação Florestal do Concelho de Góis** · Câmara de Góis |
 | **Ribeira da Isna / Malhadal** (Proença-a-Nova) | residente 1–1,5 € · outros 4,99 €; **máx 10/dia** | só presencial; ⚠️ regulamento antigo — **confirmar** | **Câmara M. de Proença-a-Nova** (dias úteis 9–16h) · **Posto de Turismo** (fins de semana) · ☎ 274 670 000 |
 | **Lagoas Serra da Estrela** (Vale do Rossim) | **só em provas** (licença coletiva 120 €/lagoa) | sem época individual em 2026; sem morte | via **clube/associação** que organiza a prova (ICNF Manteigas) |
