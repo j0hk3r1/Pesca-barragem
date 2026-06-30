@@ -11,3 +11,4 @@
 - [⚖️ Regras (peixe/tamanhos)](REGRAS.md)
 - [💳 Licenças (onde comprar)](LICENCAS.md)
 - [🪢 Nós (qual usar)](NOS.md)
+- [🏕️ Campings (planeamento)](CAMPINGS.md)
