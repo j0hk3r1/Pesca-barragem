@@ -28,6 +28,10 @@ Spots de **rio** (e uma lagoa de montanha), diferentes das [4 barragens](PEIXES-
 
 > 🔗 **Como pescar cada peixe** (mesmos setups das barragens): 🐟 [Truta](EXEMPLOS-MODULAR.md#ex-truta) · 🟢 [Achigã](EXEMPLOS-MODULAR.md#ex-achiga) · 🔵 [Barbo](EXEMPLOS-MODULAR.md#ex-barbo) · 🟡 [Boga](EXEMPLOS-MODULAR.md#ex-boga). Predador/truta = **amostra**; barbo/boga = **boia ou fundo leve**.
 
+> 🗺️ **Ler o rio** (≠ barragem — mais fino + corrente): lança **curto** à **veia / cauda do poço / atrás da pedra**, e **deixa arrastar**.
+
+<img src="img/rio-distancia.svg" alt="Ler o rio (vista de cima): rápido, poço/fossa, pedra com remoinho e sombra; onde estão truta, achigã, barbo e boga/escalo; lança curto e deixa arrastar" width="760" height="440">
+
 ---
 
 ## 🌊 Por rio

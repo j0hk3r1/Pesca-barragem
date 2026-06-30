@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="760" height="440" fill="#0d1117"/>
+  <text x="20" y="28" fill="#f0c000" font-size="18" font-weight="bold">🏞️ Ler o rio — onde estão os peixes (vista de cima)</text>
+  <text x="20" y="48" fill="#8b949e" font-size="12.5">Rio = fino + corrente. Lanças CURTO (3–15 m) à veia / cauda do poço / atrás da pedra → e deixas ARRASTAR.</text>
+
+  <!-- far bank -->
+  <rect x="0" y="60" width="760" height="42" fill="#3a2e1f"/>
+  <text x="660" y="86" fill="#6b5836" font-size="11">margem oposta</text>
+
+  <!-- water -->
+  <rect x="0" y="102" width="760" height="268" fill="#0b2a3a" opacity="0.55"/>
+
+  <!-- deep pool -->
+  <ellipse cx="350" cy="248" rx="128" ry="80" fill="#06202e" opacity="0.85"/>
+  <text x="312" y="214" fill="#5aa0c8" font-size="11" font-weight="bold">poço / fossa</text>
+  <text x="312" y="228" fill="#8b949e" font-size="10">fundo, calmo</text>
+
+  <!-- riffle (broken water, left) -->
+  <g stroke="#bfe6ff" stroke-width="2" opacity="0.55">
+    <line x1="92" y1="150" x2="117" y2="150"/><line x1="132" y1="168" x2="157" y2="168"/>
+    <line x1="97" y1="190" x2="122" y2="190"/><line x1="142" y1="210" x2="167" y2="210"/>
+    <line x1="92" y1="232" x2="117" y2="232"/><line x1="137" y1="252" x2="162" y2="252"/>
+    <line x1="102" y1="274" x2="127" y2="274"/>
+  </g>
+  <text x="90" y="132" fill="#bfe6ff" font-size="11" font-weight="bold">rápido</text>
+  <text x="90" y="300" fill="#8b949e" font-size="10">raso, oxigenado</text>
+
+  <!-- seam (veia) between fast and slow -->
+  <line x1="206" y1="104" x2="232" y2="368" stroke="#f0c000" stroke-width="2" stroke-dasharray="6 5" opacity="0.65"/>
+  <text x="196" y="356" fill="#f0c000" font-size="10" transform="rotate(-84 196 356)">veia (corrente ↔ calma)</text>
+
+  <!-- rock + eddy -->
+  <ellipse cx="545" cy="172" rx="22" ry="15" fill="#6b6f76"/>
+  <text x="527" y="156" fill="#c9d1d9" font-size="10">pedra</text>
+  <path d="M567 180 q26 9 9 31" stroke="#7fd3ff" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <text x="572" y="214" fill="#8b949e" font-size="10">remoinho atrás</text>
+
+  <!-- tree (near bank, shade) -->
+  <ellipse cx="650" cy="378" rx="62" ry="34" fill="#1d3b2a"/>
+  <text x="612" y="356" fill="#5fd35f" font-size="10">sombra / árvore</text>
+
+  <!-- flow arrows -->
+  <g stroke="#7fd3ff" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M120 120 l34 0 m-7 -5 l7 5 l-7 5"/>
+    <path d="M430 120 l34 0 m-7 -5 l7 5 l-7 5"/>
+  </g>
+  <text x="660" y="118" fill="#7fd3ff" font-size="11" opacity="0.85">corrente →</text>
+
+  <!-- near bank + angler -->
+  <rect x="0" y="370" width="760" height="70" fill="#3a2e1f"/>
+  <circle cx="60" cy="398" r="9" fill="#c9d1d9"/>
+  <line x1="60" y1="407" x2="60" y2="428" stroke="#c9d1d9" stroke-width="3"/>
+  <line x1="60" y1="414" x2="108" y2="392" stroke="#b8a55a" stroke-width="2"/>
+  <text x="20" y="362" fill="#e5d98a" font-size="12" font-weight="bold">tu / margem</text>
+
+  <!-- FISH -->
+  <!-- truta: head of pool, below riffle / behind rock -->
+  <ellipse cx="270" cy="165" rx="15" ry="7" fill="#e0884a"/><path d="M285 165 l10 -6 l0 12 z" fill="#e0884a"/>
+  <text x="253" y="150" fill="#e0884a" font-size="11.5" font-weight="bold">Truta</text>
+  <text x="300" y="166" fill="#8b949e" font-size="10">abaixo do rápido · cauda do poço · atrás da pedra</text>
+
+  <!-- achigã: pool, near structure -->
+  <ellipse cx="352" cy="270" rx="16" ry="8" fill="#5fd35f"/><path d="M368 270 l11 -7 l0 14 z" fill="#5fd35f"/>
+  <text x="332" y="292" fill="#5fd35f" font-size="11.5" font-weight="bold">Achigã</text>
+  <text x="395" y="292" fill="#8b949e" font-size="10">poço calmo, junto a estrutura</text>
+
+  <!-- barbo: in the run / current -->
+  <ellipse cx="455" cy="322" rx="18" ry="9" fill="#5fa8ff"/><path d="M473 322 l12 -7 l0 14 z" fill="#5fa8ff"/>
+  <text x="433" y="346" fill="#5fa8ff" font-size="11.5" font-weight="bold">Barbo</text>
+  <text x="497" y="346" fill="#8b949e" font-size="10">na corrente / quebras · fundo de gravilha</text>
+
+  <!-- boga/escalo: slack margin under tree -->
+  <ellipse cx="650" cy="332" rx="13" ry="6" fill="#e6c84a"/><path d="M663 332 l9 -5 l0 10 z" fill="#e6c84a"/>
+  <text x="600" y="318" fill="#e6c84a" font-size="11.5" font-weight="bold">Boga · escalo</text>
+  <text x="612" y="304" fill="#8b949e" font-size="10">água calma, sob árvores</text>
+</svg>
