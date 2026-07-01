@@ -23,7 +23,7 @@ Resumo do que importa para a pesca **lúdica em águas interiores** (barragens).
 ## 🐟 Tamanhos mínimos & defeso
 | Espécie | Tamanho mínimo | Defeso (não pescar) |
 |---|---|---|
-| **Achigã** (em albufeira) | **20 cm** | ~**15 Mar – 15 Mai** |
+| **Achigã** (em albufeira) | **20 cm** | **16 Mar – 14 Mai** |
 | Truta | 20 cm | fora de ~1 Mar – 31 Jul |
 | Sável | 35 cm | — |
 | **Sandre, lúcio, siluro** (exóticos) | sem mínimo | sem defeso (captura incentivada) |

@@ -307,7 +307,7 @@ boia ou chumbo de fundo → leader 30–40 cm → anzol #6–8 + chouriço / fí
 
 > 🎯 **Queres um gato GRANDE (troféu)? Não é no Alqueva.** O "gato" do Alqueva — **negro** e **"canal/americano"** — fica **pequeno**: quase sempre **<1 kg** (os channel catfish medidos em PT deram ~0,65 kg). **Não há pescaria de troféu de gato no Alqueva.**
 > - O verdadeiro **gato gigante de PT é o siluro** (3 a 100 kg+) — e está no **Tejo (Belver)**, **Zêzere (Castelo do Bode)** e **Ponsul (Idanha)**, **não** no Alqueva.
-> - Para o teu amigo querer um monstro → **[setup do siluro](EXEMPLOS-MODULAR.md#ex-siluro)** (mesma ideia: chumbo corrido, anzol forte 1/0–4/0, isco cheiroso, cana grande + camaroeiro).
+> - Para o teu amigo querer um monstro → **[setup do siluro](EXEMPLOS-MODULAR.md#ex-siluro)** (mesma ideia: chumbo corrido, anzol forte 4/0–6/0, isco cheiroso, cana grande + camaroeiro).
 
 <a id="ex-pimpao"></a>
 
@@ -358,7 +358,7 @@ boia:    cana grande → batente/pérola → boia grande → leader grosso → a
   - ⚠️ **Odivelas: não há siluro; Alqueva: o "gato" é pequeno, não siluro.**
 
 <img src="img/siluro-spots.png" alt="Mapa dos spots de siluro de margem em Portugal — Belver, Idanha, Castelo do Bode, Caneiras, Porto de Muge, Aguieira" width="720" height="828">
-- 🛒 **isco:** [HOOK Octopus 4/0–6/0](https://www.decathlon.pt/p/anzol-de-olhal-para-pesca-no-mar-hook-inox-octopus-eye/_/R-p-150313) (forte, curvo · quase circle) · **vinil/shad:** [Texan Wide Gap 4/0](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) · [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) · cana grande → [📏 Tamanhos](TAMANHOS.md#fundo). *(garateia/treble só p/ isco vivo.)*
+- 🛒 **isco:** [HOOK Octopus 4/0–6/0](https://www.decathlon.pt/p/anzol-de-olhal-para-pesca-no-mar-hook-inox-octopus-eye/_/R-p-150313) (forte, curvo · quase circle) · **vinil/shad:** [Texan Wide Gap 4/0](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) · [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) · cana grande → [📏 Tamanhos](TAMANHOS.md#fundo). *(garateia/treble: dispensa — o single forte chega, e isco de peixe é ilegal.)*
 
 ## 🏞️ Caso especial — barragem funda (ex. Castelo do Bode)
 

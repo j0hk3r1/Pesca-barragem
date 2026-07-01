@@ -97,7 +97,7 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 
 **Dicas:** Não é Alqueva — achigã raramente +3 kg, mas **sandre estabelecido, troféus de 4 kg+ reais**. Lagostim-vermelho abundantíssimo alimenta tudo.
 
-**Mínimos/defeso:** achigã 20 cm, truta 20 cm. ⚠️ **15 Mar–15 Mai = defeso do ACHIGÃ** (não da truta). Truta: época ~fim Mar a início Ago (varia por edital). Exóticos (sandre/siluro/lúcio): **sem mínimo nem defeso** (captura incentivada).
+**Mínimos/defeso:** achigã 20 cm, truta 20 cm. ⚠️ **16 Mar–14 Mai = defeso do ACHIGÃ** (não da truta). Truta: época ~fim Mar a início Ago (varia por edital). Exóticos (sandre/siluro/lúcio): **sem mínimo nem defeso** (captura incentivada).
 
 ---
 

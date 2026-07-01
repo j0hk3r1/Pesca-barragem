@@ -57,6 +57,8 @@ Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol,
 | ⚖️ [**Regras**](REGRAS.md) | Tamanhos mínimos, devolver/abater, nº de canas, isco |
 | 💳 [**Licenças & onde comprar**](LICENCAS.md) | Geral + concessões dos rios + onde comprar + defeso |
 | 🪢 [**Nós**](NOS.md) | Que nó usar onde + vídeo |
+| 🏕️ [**Campings**](CAMPINGS.md) | Planeamento da semana de campismo *(temporária)* |
+
 ---
 
 > ⚖️ **Antes de ir:** precisas de **licença** (ICNF, Multibanco), há **mínimos de tamanho** e espécies a **abater vs devolver**. Tudo o que evita multa → [⚖️ Regras](REGRAS.md) · [💳 Licenças](LICENCAS.md).

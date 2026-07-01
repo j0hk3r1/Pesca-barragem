@@ -7,7 +7,7 @@
 > 🧵 **A linha fina dos anzóis montados (o "empate") — devo mudar?** É **de propósito**, não é defeito. Esse fio curto do anzol (o **empate / ramal**) **deve ser mais fino que a linha-mãe**:
 > - **Menos visível** junto ao isco = **mais picadas**; e é **elo fraco de propósito** — se enroscas, parte só o anzol (não perdes a montagem nem deixas o peixe a arrastar linha).
 > - **MAS tem de aguentar o peixe-alvo.** Os montados pequenos (#14, #10) trazem empate fino = **para peixe pequeno** (boga, perca, carpita) → **não mexas**.
-> - 🐟 **Para carpa grande na **cana grande**:** esse empate fino é **fraco demais** → usa **anzol de olhal** atado a **~0,28–0,30 mm** (~5–6 kg), **um degrau mais fino que a tua 0,40** mas forte p/ a carpa. **Não** ligues a 0,40 inteira a um anzol minúsculo (fica visível + menos picadas).
+> - 🐟 **Para carpa grande na cana grande:** esse empate fino é **fraco demais** → usa **anzol de olhal** atado a **~0,28–0,30 mm** (~5–6 kg), **um degrau mais fino que a tua 0,40** mas forte p/ a carpa. **Não** ligues a 0,40 inteira a um anzol minúsculo (fica visível + menos picadas).
 > - **Regra:** empate = **um degrau mais fino que a linha-mãe**, nunca tão fino que não segure o peixe.
 
 ---
@@ -50,20 +50,20 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 | 🟡 Boga·perca·pimpão (<0,5 kg) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) 0,12–0,14 · 30–40 cm | [CARP POLE #14](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) | [boia](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) 0,5–1 g + [chumbos pinça](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) |
 | 🟢 Achigã·sandre (1–3 kg) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) 0,20–0,25 · 50–100 cm | [Texan 1/0–3/0](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) (vinil) | jig 3–10 g |
 | 🔵 Barbo·carpa média (4–6 kg) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545)/mono 0,25–0,28 · 40–60 cm | [SN HOOK WORM #8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) (#6 iscos grandes) | [chumbo 40–80 g](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) |
-| 🔵 Carpa·gato grande (10–15 kg) | [mono](https://www.decathlon.pt/p/fio-de-pesca-line-4x4-250-m/194133/c4m8407160) 0,30–0,35 · 40–60 cm | **hair rig:** [Carpa 500 Wide #4](https://www.decathlon.pt/p/anzol-para-pesca-da-carpa-500-wide/334841/m8651819) (boilie/milho) · **isco no anzol:** [SN HOOK WORM #4](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) | [azeitona 60–100 g](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) |
+| 🔵 Carpa·gato grande (10–15 kg) | [fluoro 0,62](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) ✅ (c/ linha-mãe trançado) ou mono 0,30–0,35 (c/ mono 0,40) · 40–60 cm | **hair rig:** [Carpa 500 Wide #4](https://www.decathlon.pt/p/anzol-para-pesca-da-carpa-500-wide/334841/m8651819) (boilie/milho) · **isco no anzol:** [SN HOOK WORM #4](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) | [azeitona 60–100 g](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) |
 | 🟤 Peixe-gato-negro (<0,5 kg) | [mono](https://www.decathlon.pt/p/fio-de-pesca-line-4x4-250-m/194133/c4m8407160) 0,25 · 30–40 cm | [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) | boia ou [azeitona](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) |
 | 🟫 Siluro (20 kg+) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545)/mono **0,50–0,60** · ~1 m | **isco:** [HOOK Octopus 4/0–6/0](https://www.decathlon.pt/p/anzol-de-olhal-para-pesca-no-mar-hook-inox-octopus-eye/_/R-p-150313) (forte, curvo · quase circle) · **vinil:** [Texan Wide Gap 4/0](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) | [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) ou chumbo grande |
 
 > ⚠️ **O anzol não "aguenta" o peixe — a linha + freio + cana é que aguentam.** Um **#6 de arame forte** segura carpa de 10 kg se deres linha; um **#14 fino endireita**. Logo: peixe grande = anzol pelo **isco**, mas de **arame forte**. E **siluro 20 kg+ só com trançado** num Sofi (não na 0,40) → [setup do siluro](EXEMPLOS-MODULAR.md#ex-siluro). Que isco em cada anzol → [🍞 Iscos](ISCOS.md).
 
 
-> 🎒 **Não queres andar com mil fios? 4 leaders chegam — e já tens 2 (0,23 e 0,50):**
+> 🎒 **Não queres andar com mil fios? 4 leaders chegam — e já tens 3 (0,23 · 0,50 · 0,62):**
 > - **0,14** → peixe pequeno: boga, perca-sol, pimpão, gato-negro · *comprar (fluoro)*
 > - **0,23** ✅ **já tens** → achigã/sandre + barbo/carpa média (~5–6 kg)
-> - **0,35** → carpa/gato grande 10–15 kg · *comprar (mono)*
-> - **0,50** ✅ **já tens** → siluro
+> - **0,62** ✅ **já tens** (fluoro soft, ~20 kg) → carpa/gato grande 10–15 kg
+> - **0,50** ✅ **já tens** → siluro (em fundo muito rochoso sobe a 0,80–0,90)
 >
-> Cada leader = **um degrau mais fino que a linha-mãe**. Finos (0,14/0,23) ganham em **fluoro** (invisível); grossos (0,35/0,50) em **mono** chegam (conta força/abrasão). → **Só falta comprar o 0,14 e o 0,35.**
+> Cada leader = **um degrau mais fino que a linha-mãe**. Finos (0,14/0,23) ganham em **fluoro** (invisível); grossos em **mono ou fluoro** (conta força/abrasão). → **Só falta comprar o 0,14.**
 
 ---
 
@@ -73,7 +73,7 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 Peixe grande ao **fundo (ledger)**: cana pousada na forquilha + **guizo**. Montagem passo-a-passo → [Carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [Siluro](EXEMPLOS-MODULAR.md#ex-siluro).
 - 🧵 **Linha:** carpa = **mono 0,40** (estica, perdoa o freio velho aos trancos); siluro = **trançado ~0,30 (27 kg)** + leader grosso. *Braid só p/ mais distância — precisa de freio bem suave.*
 - ⚙️ **O freio é o fusível:** regula **suave (~2–3 kg ≈ ⅓ da linha)**, nunca travado; o peixe ganha-se com **freio + flexão + dar linha**. ⚠️ **Serviça os Sofi antes** — drag de 60 anos gripado parte linha (testa c/ balança).
-- 🎯 **Shock leader** se lanças 80–100 g com força: ~3–4 m de mono **0,50** (regra ~0,10 mm/25 g) — absorve o sacão e evita o chumbo soltar-se.
+- 🎯 **Shock leader** se lanças 80–100 g com força: **~2 comprimentos de cana (6–8 m)** de mono **0,50** (regra ~0,10 mm/25 g) — assim o nó fica **na bobine** no lançamento e é o mono a levar o sacão, não o nó.
 - 📏 **Alcance ~40–90 m** ao fundo (vs ~20–30 m no leve). Não bombardeies — carpa/barbo andam a **10–30 m**.
 
 ---
@@ -82,7 +82,7 @@ Peixe grande ao **fundo (ledger)**: cana pousada na forquilha + **guizo**. Monta
 1. **[CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) #14** (olhal (eye), fino) → peixe de boca pequena (perca-sol, boga, ruivaco) + carpa em milho.
 2. **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) #8** (montado) → cavalo-de-batalha: carpa, barbo, peixe-gato com minhoca/massa/milho (#6 p/ iscos grandes/carne).
 
-Estes dois cobrem **~90%**. Junta **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) #8** para um meio-termo. O **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969)** só se fizeres achigã em vinil.
+Estes dois cobrem **~90%**. O **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969)** só se fizeres achigã em vinil.
 
 > ⚠️ **#16 não existe na CAPERLAN** — o #14 é o teu mínimo fino. Para vinil de achigã usa o **CAPERLAN [Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969)** (wide-gap, vendido pela Decathlon).
 
@@ -149,7 +149,7 @@ A **barbela** (farpa / barb) é o dente que impede o anzol de recuar ao entrar.
 ---
 
 ## 📋 Specs dos produtos
-- **[TX4 braid](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473)** — diâmetros 0,12 / 0,16 / 0,20 / 0,25 / 0,30 / 0,33 mm (bobinas 150 m e 300 m). ⭐ 4,5 (295 aval).
+- **[TX4 braid](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473)** — diâmetros 0,12 / 0,16 / 0,20 / 0,25 / 0,30 / 0,33 mm (bobinas 130 m e 300 m). ⭐ 4,5 (295 aval).
 - **[Fluoro Soft](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545)** — gama 0,128 → 0,81 mm, Made in Japan. ⭐ 4,7 (45 aval). Leader: 0,20–0,25.
 - **[CARP POLE](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260)** — soltos c/ olhal, tamanhos 10/12/14, anzol VMC. ⭐ 4,7 (74 aval).
 - **[SN HOOK WORM](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081)** — montados, tamanhos 4/6/8/10/12. ⭐ 4,7 (53 aval).
