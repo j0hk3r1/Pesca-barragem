@@ -1,28 +1,32 @@
 # 🏕️ Campings — onde pescar *(planeamento — temporário)*
 
-> 🗒️ **Secção provisória** para escolher o camping da semana (última de julho). **Para apagar depois.**
-> Em **todos** podes fazer **isco + amostra (spinners)**. Ordenado pela **melhor/mais fácil pesca**.
-> 🚗 Distâncias = **por estrada** até à **estação exata** (coords OSM confirmadas); tempo OSRM (na serra o Google pode dar +10–20%) → **rota** para o exato.
-> 🚙 **a Idanha** = de carro até ao parque de campismo de Idanha (onde vais a seguir).
+> 🗒️ **Secção provisória** para escolher o camping da semana (última de julho / início de agosto). **Para apagar depois.**
+> **Ordenado por tempo de carro até ao comboio** (o que pediste — mais rápido primeiro). O **🎣 #N** em cada linha = **ranking de pesca** (achigã · carpa · barbo · **siluro**; #1 = melhor para ti). No verão o achigã/barbo/carpa estão **todos abertos**.
+> 🚉 tempo OSRM (km entre parênteses; na serra o Google pode dar +10-20%) · **🚗 rota** = link Google Maps. 🚙 **a Idanha** = tempo até ao teu destino a seguir.
 
-| # | Parque | Pesca (isco + amostra) | 🚉 Comboio mais perto | 🚙 a Idanha |
-|:--:|---|---|---|---|
-| 🥇 | **[Janeiro de Baixo](https://maps.app.goo.gl/14h66Zbx4grfxbUe9)** | ✅ **tudo** · águas livres · zero burocracia · *sem truta* | Covilhã · 54 km · 1h01 · [🚗 rota](https://www.google.com/maps/dir/40.0469,-7.8017/40.27754,-7.49606) | 98 km · 1h44 |
-| 🥈 | **[Bostelim](https://maps.app.goo.gl/bBMzkPKDRi4sub4D7)** | ✅ **tudo** · águas livres total | Abrantes · 42 km · 41 min · [🚗 rota](https://www.google.com/maps/dir/39.7243,-8.1082/39.44031,-8.19420) | 117 km · 1h54 |
-| 🥉 | **[Ponte 3 Entradas](https://maps.app.goo.gl/aVAmC3K9SkPrn5sW9)** | ✅ **tudo + truta** (Alvôco) · mais variedade | Carregal do Sal · 36 km · 40 min · [🚗 rota](https://www.google.com/maps/dir/40.3069,-7.8714/40.43322,-8.00751) | 130 km · 2h09 |
-| 4 | **[Côja](https://maps.app.goo.gl/cM6kYSG47AZr83uM8)** | ✅ **tudo** · praia/açude p/ o grupo | Santa Comba Dão · 26 km · 28 min · [🚗 rota](https://www.google.com/maps/dir/40.2669,-7.9953/40.39052,-8.12453) | 145 km · 2h26 |
-| 5 | **[Bica](https://maps.app.goo.gl/bYgcRRZn97h7Bwis8)** | ✅ **tudo + truta** (Rib. Pomares) | Carregal do Sal · 42 km · 47 min · [🚗 rota](https://www.google.com/maps/dir/40.2691,-7.8979/40.43322,-8.00751) | 138 km · 2h18 |
-| 6 | **[Arganil](https://maps.app.goo.gl/b9q7FXuvDJaz3fop7)** | ✅ **tudo** · águas livres | Santa Comba Dão · 28 km · 28 min · [🚗 rota](https://www.google.com/maps/dir/40.2415,-8.0677/40.39052,-8.12453) | 160 km · 2h39 |
-| ⭐ | **[Valhelhas](https://maps.app.goo.gl/2EVm2XWwgsatSoS96)** | ✅ **tudo** · **truta até 31 ago** · melhor comboio | **Belmonte-Manteigas · 14 km · 16 min** · [🚗 rota](https://www.google.com/maps/dir/40.4039,-7.4059/40.33329,-7.33637) | 103 km · 1h33 |
-| 7 | **[Góis](https://maps.app.goo.gl/dP8VabQA9g6FnMBN9)** | ✅ tudo · **licença €5/dia**, máx 18/dia, sem asticot | Coimbra-B · 45 km · 45 min · [🚗 rota](https://www.google.com/maps/dir/40.1544,-8.1140/40.22472,-8.44034) | 146 km · 2h30 |
-| 8 | **[Oleiros](https://maps.app.goo.gl/AzDsnMPi73s4NYxD8)** | ✅ tudo · rio de truta (*fecha 31 jul*) | Castelo Branco · 60 km · 57 min · [🚗 rota](https://www.google.com/maps/dir/39.9209,-7.8929/39.81822,-7.49067) | 100 km · 1h43 |
-| ⚠️ | **[Aldeia Ruiva](https://maps.app.goo.gl/sNK1iGL7S18cRgTLA)** | ⚠️ provável — **confirmar** (concessão Malhadal? ☎ 274 670 000) | Castelo Branco · 57 km · 46 min · [🚗 rota](https://www.google.com/maps/dir/39.7686,-7.9820/39.81822,-7.49067) | 103 km · 1h35 |
-| ❌ | **[Vale do Rossim](https://maps.app.goo.gl/UesscZTNGjLLHcPV9)** | ❌ **não dá** — só provas (lindo p/ acampar, mas sem pesca) | Gouveia · 33 km · 35 min · [🚗 rota](https://www.google.com/maps/dir/40.4037,-7.5893/40.5733142,-7.6020064) | 139 km · 2h08 |
+| ⏱️ | Parque | Pesca (🎣 = ranking) | 🚉 Comboio (tempo) | 🚙 a Idanha |
+|:--:|---|---|---|:--:|
+| 1 | **[Valhelhas](https://maps.app.goo.gl/2EVm2XWwgsatSoS96)** | 🎣 **#10** · ✅ tudo + truta (fim de época) · fresco (Serra, Zêzere) | **Belmonte-Manteigas · 16 min** (14 km) · [🚗 rota](https://www.google.com/maps/dir/40.4038896,-7.4058788/40.33329,-7.33637) | **1h25** (102 km) |
+| 2 | **[Montargil](https://maps.app.goo.gl/qj4d3dA5ShuHtSGU7)** | 🎣 **#3** · ✅ **achigã top + carpa + barbo** · águas livres · meca carpfishing · *(siluro incerto)* | Ponte de Sor · **23 min** (23 km) · [🚗 rota](https://www.google.com/maps/dir/39.1005556,-8.1447222/39.2653972,-8.0129495) | **2h20** (162 km) |
+| 3 | **[Côja](https://maps.app.goo.gl/cM6kYSG47AZr83uM8)** | 🎣 **#6** · ✅ tudo · praia/açude p/ o grupo (rio Alva) | Santa Comba Dão · **28 min** (26 km) · [🚗 rota](https://www.google.com/maps/dir/40.2669195,-7.9952734/40.39052,-8.12453) | **2h20** (145 km) |
+| 4 | **[Arganil](https://maps.app.goo.gl/b9q7FXuvDJaz3fop7)** | 🎣 **#9** · ✅ tudo · águas livres (rio Alva) | Santa Comba Dão · **28 min** (28 km) · [🚗 rota](https://www.google.com/maps/dir/40.2414505,-8.0677102/40.39052,-8.12453) | **2h33** (160 km) |
+| 5 | **[Avis · Maranhão](https://maps.app.goo.gl/89yWXkCQteE9vM2V6)** | 🎣 **#2** · ✅ **achigã top + carpa + siluro** · águas livres · meca carpfishing | Ponte de Sor · **32 min** (31 km) · [🚗 rota](https://www.google.com/maps/dir/39.0567628,-7.9114065/39.2653972,-8.0129495) | **2h23** (173 km) |
+| 6 | **[Ponte 3 Entradas](https://maps.app.goo.gl/aVAmC3K9SkPrn5sW9)** | 🎣 **#5** · ✅ **tudo + truta** (Alvôco) · rio, mais variedade | Santa Comba Dão · **33 min** (30 km) · [🚗 rota](https://www.google.com/maps/dir/40.3069441,-7.8714116/40.39052,-8.12453) | **2h03** (130 km) |
+| 7 | **[Idanha](https://maps.app.goo.gl/8pLzvZFUQQs8PAz66)** | 🎣 **#1** · ✅ **siluro (recorde!) + sandre + achigã + carpa** · águas livres · **é a tua base** | Alcains · **36 min** (33 km) · [🚗 rota](https://www.google.com/maps/dir/39.9490546,-7.1852648/39.9199653,-7.4362786) | **é a base** |
+| 8 | **[Foz d'Alge](https://maps.app.goo.gl/VtmdHZApUuhGjXCa6)** | 🎣 **#4** · ✅ **siluro + achigã + carpa + sandre** (Castelo do Bode) · *+truta na ribeira de Alge = concessão à parte* | Tomar · **38 min** (40 km) · [🚗 rota](https://www.google.com/maps/dir/39.826173,-8.2737092/39.5984812,-8.4128096) | **2h13** (150 km) |
+| 9 | **[Bica](https://maps.app.goo.gl/bYgcRRZn97h7Bwis8)** | 🎣 **#7** · ✅ **tudo + truta** (Rib. Pomares) | Santa Comba Dão · **40 min** (36 km) · [🚗 rota](https://www.google.com/maps/dir/40.2691387,-7.8979023/40.39052,-8.12453) | **2h12** (138 km) |
+| 10 | **[Góis](https://maps.app.goo.gl/dP8VabQA9g6FnMBN9)** | 🎣 **#11** · ✅ tudo mas **licença ZPL €5/dia**, máx 18/dia, sem asticot (rio Ceira) | Coimbra-B · **45 min** (45 km) · [🚗 rota](https://www.google.com/maps/dir/40.154376,-8.1139598/40.22472,-8.44034) | **2h23** (146 km) |
+| 11 | **[Janeiro de Baixo](https://maps.app.goo.gl/14h66Zbx4grfxbUe9)** | 🎣 **#8** · ✅ tudo · águas livres · **mais perto de Idanha** · sem truta (Zêzere) | Fundão · **50 min** (47 km) · [🚗 rota](https://www.google.com/maps/dir/40.0468872,-7.8017461/40.1413338,-7.4965006) | **1h37** (97 km) |
+| 12 | **[Oleiros](https://maps.app.goo.gl/AzDsnMPi73s4NYxD8)** | 🎣 **#12** · ⚠️ rio de **truta** (época a fechar ~início ago) — última semana de julho ainda apanhas; depois coarse | Castelo Branco · **57 min** (60 km) · [🚗 rota](https://www.google.com/maps/dir/39.92093,-7.892907/39.81822,-7.49067) | **1h36** (100 km) |
 
 ---
 
-**🚉 Estações confirmadas (coords OSM, ativas CP):** Belmonte-Manteigas · Covilhã · Castelo Branco (Beira Baixa) · Carregal do Sal · Santa Comba Dão · Gouveia (Beira Alta) · Coimbra-B (Norte) · Abrantes.
+**🚉 Estações ativas (CP):** Alcains · Fundão · Castelo Branco · Belmonte-Manteigas (Beira Baixa) · Santa Comba Dão (Beira Alta) · Coimbra-B (Norte) · Tomar (Ramal de Tomar) · Ponte de Sor (Leste). *(Idanha, Montargil e Avis não têm linha própria → estação ativa mais próxima **por tempo de carro**. **Alcains é apeadeiro** — confirma que o comboio pretendido lá pára.)*
 
-**⚖️ Em todos:** licença geral ICNF (€12–21, Multibanco). Rios de truta (Valhelhas, Oleiros, afluentes do Alva) = **1 cana, isco só minhoca/anzol simples**. **Achigã em rio = abater** (invasor). O Alva nos campings é **águas livres** (a concessão só-mosca é só em Poiares, a jusante).
+**⚖️ Em todos:** licença geral ICNF (Multibanco). **Máx 2 canas** por pescador (3 só em carpfishing autorizado). **Verão (jul/ago):** achigã · barbo · carpa **abertos** (mín. 20 cm). **Invasores** (siluro, sandre, achigã, gato-negro) **não se devolvem vivos** — confirma no edital anual. Rios de truta (Valhelhas, Oleiros, ribeira de Alge, afluentes do Alva) = regras de **salmonídeos** (época a fechar, iscos limitados). A única **concessão que pede licença à parte** que confirmei é a **ribeira de Alge** (truta, Câmara de Figueiró dos Vinhos).
 
-**🏆 Resumo:** pescar tudo sem chatices → **Janeiro de Baixo** (e o mais perto de Idanha). Variedade + grupo → **3 Entradas / Côja**. Truta + comboio → **Valhelhas** (14 km da estação). Fora → **Vale do Rossim**.
+**🏆 Resumo:**
+- **Melhor pesca para ti** (🎣): #1 **Idanha** (siluro + é a tua base) · #2 **Maranhão** · #3 **Montargil** · #4 **Foz d'Alge** — as barragens quentes (achigã/carpa/**siluro**, época quente).
+- **Comboio mais rápido:** **Valhelhas** (16 min) · **Montargil** (23 min) · **Côja/Arganil** (28 min).
+- **Mais perto de Idanha:** **Janeiro de Baixo** (1h37).
+- ⚠️ **Nota honesta:** Idanha/Maranhão/Montargil no pico de agosto são **muito quentes** — top para pescar, menos para o convívio; os da Serra (Valhelhas, Janeiro de Baixo) são mais frescos.
