@@ -50,9 +50,9 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 | 🟡 Boga·perca·pimpão (<0,5 kg) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) 0,12–0,14 · 30–40 cm | [CARP POLE #14](https://www.decathlon.pt/p/anzol-carp-pole-para-a-pesca-direta-de-carpa/150242/m8371260) | [boia](https://www.decathlon.pt/p/boia-polivalente-de-pesca-mtch-100-visi-x3/359268/m8919567) 0,5–1 g + [chumbos pinça](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) |
 | 🟢 Achigã·sandre (1–3 kg) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545) 0,20–0,25 · 50–100 cm | [Texan 1/0–3/0](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) (vinil) | jig 3–10 g |
 | 🔵 Barbo·carpa média (4–6 kg) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545)/mono 0,25–0,28 · 40–60 cm | [SN HOOK WORM #8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) (#6 iscos grandes) | [chumbo 40–80 g](https://www.decathlon.pt/p/caixa-com-lastro-de-pesca-6-divisorias/7814/m4451823) |
-| 🔵 Carpa·gato grande (10–15 kg) | [mono](https://www.decathlon.pt/p/fio-de-pesca-line-4x4-250-m/194133/c4m8407160) 0,30–0,35 · 40–60 cm | [SN HOOK WORM #6–4](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) / [Simples #4](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450) | [azeitona 60–100 g](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) |
+| 🔵 Carpa·gato grande (10–15 kg) | [mono](https://www.decathlon.pt/p/fio-de-pesca-line-4x4-250-m/194133/c4m8407160) 0,30–0,35 · 40–60 cm | **hair rig:** [Carpa 500 Wide #4](https://www.decathlon.pt/p/anzol-para-pesca-da-carpa-500-wide/334841/m8651819) (boilie/milho) · **isco no anzol:** [SN HOOK WORM #4](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) | [azeitona 60–100 g](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) |
 | 🟤 Peixe-gato-negro (<0,5 kg) | [mono](https://www.decathlon.pt/p/fio-de-pesca-line-4x4-250-m/194133/c4m8407160) 0,25 · 30–40 cm | [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) | boia ou [azeitona](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) |
-| 🟫 Siluro (20 kg+) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545)/mono **0,50–0,60** · ~1 m | single forte 1/0–4/0: [Simples](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450) ou [Wide Gap 1/0](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) | [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) ou chumbo grande |
+| 🟫 Siluro (20 kg+) | [fluoro](https://www.decathlon.pt/p/fio-de-pesca-fluorocarbono-100percent-soft/376353/m8978545)/mono **0,50–0,60** · ~1 m | **isco:** [HOOK Octopus 4/0–6/0](https://www.decathlon.pt/p/anzol-de-olhal-para-pesca-no-mar-hook-inox-octopus-eye/_/R-p-150313) (forte, curvo · quase circle) · **vinil:** [Texan Wide Gap 4/0](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) | [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) ou chumbo grande |
 
 > ⚠️ **O anzol não "aguenta" o peixe — a linha + freio + cana é que aguentam.** Um **#6 de arame forte** segura carpa de 10 kg se deres linha; um **#14 fino endireita**. Logo: peixe grande = anzol pelo **isco**, mas de **arame forte**. E **siluro 20 kg+ só com trançado** num Sofi (não na 0,40) → [setup do siluro](EXEMPLOS-MODULAR.md#ex-siluro). Que isco em cada anzol → [🍞 Iscos](ISCOS.md).
 
@@ -103,7 +103,7 @@ O número dá-se pelo **gape** (abertura: do **bico** à **haste**) — **não**
 | ~14–15 mm | **1/0** |
 | ~16–18 mm | **2/0** |
 
-> Aproximado (varia com o modelo). **Nº maior = anzol mais pequeno.** A grossura do arame (ex. 0,6 mm) = a **força**, não o tamanho.
+> Aproximado (varia com o modelo). **Números normais (1→14): nº maior = mais pequeno.** Mas a partir de **1/0** a escala vira *aught* e **inverte**: `1/0 · 2/0 · 3/0 · 4/0 · 5/0 · 6/0 →` **nº maior = MAIOR**. Ou seja, o **#6 da carpa** é pequeno mas o **6/0 do siluro** é enorme — mesmo dígito, escalas opostas. As duas juntam-se no meio: `… 4 · 2 · 1 │ 1/0 · 2/0 …`. A grossura do arame (ex. 0,6 mm) = a **força**, não o tamanho.
 
 ### 🪝 Barbela (com ou sem)
 A **barbela** (farpa / barb) é o dente que impede o anzol de recuar ao entrar.
@@ -116,7 +116,7 @@ A **barbela** (farpa / barb) é o dente que impede o anzol de recuar ao entrar.
 
 ## 🔗 Destorcedor
 
-> Em TODAS as escalas — anzol, barril e snap — **nº maior = mais pequeno** (e mais fraco). Sem armadilhas.
+> **Barril e snap:** nº maior = mais pequeno (e mais fraco). (⚠️ Nos **anzóis** cuidado: os tamanhos **/0** invertem — nº maior = maior; ver a tabela de gape acima.)
 
 **[BARRIL preto](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759)** (barrel swivel) (junção da boia (float) / anti-torção (anti-twist) 30-45 cm acima da colher):
 

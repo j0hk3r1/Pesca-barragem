@@ -246,7 +246,7 @@ fio → chumbo corrido 60–100 g → barril (batente)
 - ✅ **Melhor:** **ao fundo (ledger)** com **milho** (o mais fácil), boilie ou massa + **engodo** de milho/farinha. Lança, pousa, espera o guizo.
 - ➕ **Também dá:** **boia deslizante** em água funda (diagrama abaixo) · **pão à superfície** no verão · **carpa à vista** = monta levíssima (chumbo **1 g** + **1 bago de milho** no anzol #6, **sem hair rig** — p/ peixe visível/desconfiado).
 - 💡 **Dica:** com chumbo pesado a carpa **auto-ferra** — espera a cana **arrancar**, não ferres ao primeiro toque. Spots: **entradas de ribeiros** (sobretudo após chuva — oxigénio + comida); peixe desconfiado → aproxima-te discreto, engoda pouco.
-- 🛒 [azeitona furada](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081). Cana grande (fundo) → [📏 Tamanhos](TAMANHOS.md#fundo).
+- 🛒 [azeitona furada](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548) · [barril nº14](https://www.decathlon.pt/p/destorcedor-de-barril-de-pesca-black-nickel/350475/c1m8842759) · [SN HOOK WORM #6–8](https://www.decathlon.pt/p/anzois-de-pesca-a-truta-sn-hook-worm/126170/m8349081) (isco no anzol) · **hair rig carpa grande:** [Carpa 500 Wide #4](https://www.decathlon.pt/p/anzol-para-pesca-da-carpa-500-wide/334841/m8651819). Cana grande (fundo) → [📏 Tamanhos](TAMANHOS.md#fundo).
 
 <img src="img/ex-carpa-deslizante.svg" alt="Carpa — boia deslizante (água funda)" width="490" height="472">
 
@@ -339,7 +339,7 @@ clipa → leader fluoro fino 0,18–0,22 → colher pequena 0–3 g
 
 ```
 amostra: cana grande → 0,40 → leader grosso 0,50–0,60 (anti-abrasão) → vinil GRANDE (15–20 cm) em jig pesado
-fundo:   cana grande → chumbo corrido → leader grosso → anzol forte 1/0–4/0 + bola de minhocas
+fundo:   cana grande → chumbo corrido → leader grosso → anzol forte 4/0–6/0 (Octopus) + bola de minhocas
 boia:    cana grande → batente/pérola → boia grande → leader grosso → anzol → isco suspenso (regulas a profundidade)
 ```
 - ✅ **Fundo (isco — o TEU método):** **bola de minhocas** (ou **fígado/chouriço** — cheiro forte) em **chumbo corrido**, num **poço fundo / junto à parede / estrutura** (muitas vezes mesmo **à beira, no fundo junto à 1ª pedra** — não precisas lançar longe). **Cana pousada na forquilha + guizo** — lanças uma vez e esperas (a cana grande pesa demais p/ andar a recolher).
@@ -358,7 +358,7 @@ boia:    cana grande → batente/pérola → boia grande → leader grosso → a
   - ⚠️ **Odivelas: não há siluro; Alqueva: o "gato" é pequeno, não siluro.**
 
 <img src="img/siluro-spots.png" alt="Mapa dos spots de siluro de margem em Portugal — Belver, Idanha, Castelo do Bode, Caneiras, Porto de Muge, Aguieira" width="720" height="828">
-- 🛒 single forte [Simples](https://www.decathlon.pt/p/anzol-simples-pesca/150250/m8374450) ou [Wide Gap 1/0](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) (garateia "de siluro" = só p/ isco vivo) · [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) · cana grande → [📏 Tamanhos](TAMANHOS.md#fundo).
+- 🛒 **isco:** [HOOK Octopus 4/0–6/0](https://www.decathlon.pt/p/anzol-de-olhal-para-pesca-no-mar-hook-inox-octopus-eye/_/R-p-150313) (forte, curvo · quase circle) · **vinil/shad:** [Texan Wide Gap 4/0](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) · [boia siluro 200 g](https://www.decathlon.pt/p/boia-pesca-do-siluro-cat-spirit-200g/384289/m9015778) · cana grande → [📏 Tamanhos](TAMANHOS.md#fundo). *(garateia/treble só p/ isco vivo.)*
 
 ## 🏞️ Caso especial — barragem funda (ex. Castelo do Bode)
 
