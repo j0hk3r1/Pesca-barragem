@@ -29,4 +29,3 @@
 - **Melhor pesca para ti** (🎣): #1 **Idanha** (siluro + é a tua base) · #2 **Maranhão** · #3 **Montargil** · #4 **Foz d'Alge** — as barragens quentes (achigã/carpa/**siluro**, época quente).
 - **Comboio mais rápido:** **Valhelhas** (16 min) · **Montargil** (23 min) · **Côja/Arganil** (28 min).
 - **Mais perto de Idanha:** **Janeiro de Baixo** (1h37).
-- ⚠️ **Nota honesta:** Idanha/Maranhão/Montargil no pico de agosto são **muito quentes** — top para pescar, menos para o convívio; os da Serra (Valhelhas, Janeiro de Baixo) são mais frescos.
