@@ -88,41 +88,14 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 | **Encher carreto** | até **~2 mm da borda** | pouco = embaraça; demais = salta |
 
 ## 🌊 Profundidade
-- **Boia fixa** → só até **profundidade = comprimento da cana** (~2–3 m). Água rasa/margens.
-- **Boia deslizante** → corre no fio até um **nó-batente** que pões à profundidade que quiseres → pescas **água funda** (Castelo do Bode, canais do Alqueva).
-- **Regra do isco:** ajusta até ficar **rente ao fundo** (carpa, barbo, peixe-gato) ou a **meia-água** (perca, boga). Mede o fundo: chumbo pesado no anzol e vê onde a boia assenta.
-- **Chumbo (boia):** junta chumbo de pinça até a boia ficar **quase submersa** (só ponta à mostra).
-- **Spinning:** deixa a amostra **afundar contando** (1, 2, 3… ≈ 30 cm/seg) p/ escolher a camada; recolhe a profundidades diferentes até achar o peixe.
 
 <a id="boia-deslizante"></a>
 
-### 🟠 Boia fixa vs deslizante (em detalhe)
-
-**As duas boias ficam SEMPRE à tona** (à superfície) — é onde vês a mordida. Nenhuma vai para debaixo de água. ❗
-
-**A diferença NÃO é "podes ajustar a profundidade"** (isso fazes nas duas). É conseguires **LANÇAR quando pescas fundo:**
-
-<img src="img/boia-porque.svg" alt="Porquê deslizante" width="720" height="490">
-
-- **Fixa a 5 m:** a boia fica presa 5 m acima do anzol. Mas a tua cana só tem ~2 m → ficas com **5 m de fio pendurado da ponta** → **não consegues lançar**. Por isso a fixa só serve até **profundidade ≤ comprimento da cana**.
-- **Deslizante a 5 m:** ao lançar, a boia escorrega para baixo e fica **tudo junto (~30 cm)** → lanças fácil. Ao cair, o chumbo puxa a linha e a boia volta à **tona**, com o isco aos 5 m. → Pescas fundo **e** consegues lançar.
-
-➡️ Resumindo: **mesma profundidade, fixa não dá p/ lançar se for funda; deslizante dá.**
-
-**📌 Fixa (fixed float)** — boia **presa num ponto do fio** (por borrachinhas/silicones). Profundidade = distância anzol→boia, e é **fixa**.
-- ✅ Simples, sensível — ótima p/ ver mordidas subtis. **Quando:** água rasa / margens / ≤ 2–3 m (perca-sol, boga, achigã pequeno).
-- ❌ Só pescas até **profundidade ≤ comprimento da cana**. Mais fundo → não consegues lançar.
-
-**🎚️ Deslizante (sliding float)** — boia **corre livre** no fio entre dois batentes:
-
-<img src="img/boia-mecanismo.svg" alt="Boia deslizante — mecanismo" width="720" height="512">
-
-- 🔴 **Nó-batente (stop knot)** — fica **em cima**, à distância do anzol = **a profundidade que queres**. É ele que **trava** a boia ao subir. Mexes o nó → mudas a profundidade.
-- ⚪ **Stop / missanga de baixo** — junto ao destorcedor; impede a boia de descer até ao anzol.
-- **No lançamento** a boia escorrega para **baixo** até ao stop → montagem **curta e compacta** → lanças longe. **Na água** o chumbo puxa a linha e a boia desliza até o nó-batente bater no topo → o isco fica à profundidade marcada.
-- ✅ Pescas **muito mais fundo** que o comprimento da cana. ❌ Mais peças, um pouco menos sensível.
-
-> **Regra:** raso → **fixa**. Fundo (>2–3 m) → **deslizante**.
+- **Boia fixa** (presa por borrachinhas) → só até **profundidade = comprimento da cana** (~2–3 m), senão não consegues lançar. Água rasa/margens.
+- **Boia deslizante** → corre no fio até um **nó-batente** que pões à profundidade que quiseres (missanga em baixo trava-a junto ao destorcedor); no lançamento desliza tudo junto → pescas **água funda** (Castelo do Bode, canais do Alqueva). Diagrama na [carpa](EXEMPLOS-MODULAR.md#ex-carpa). **Regra: raso → fixa · fundo (>2–3 m) → deslizante.**
+- **Regra do isco:** ajusta até ficar **rente ao fundo** (carpa, barbo, peixe-gato) ou a **meia-água** (perca, boga). Mede o fundo: chumbo pesado no anzol e vê onde a boia assenta.
+- **Chumbo (boia):** junta chumbo de pinça até a boia ficar **quase submersa** (só ponta à mostra).
+- **Spinning:** deixa a amostra **afundar contando** (1, 2, 3… ≈ 30 cm/seg) p/ escolher a camada; recolhe a profundidades diferentes até achar o peixe.
 
 ## 📍 Distância de lançamento (onde estão os peixes)
 
