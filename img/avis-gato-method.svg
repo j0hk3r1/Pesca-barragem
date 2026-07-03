@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="480" viewBox="0 0 560 480" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="560" height="480" fill="#0d1117"/>
+  <text x="20" y="32" fill="#c98a4b" font-size="19" font-weight="bold">🟤 GATO-NEGRO ao method feeder — Avis</text>
+  <text x="20" y="54" fill="#8b949e" font-size="13">fim de tarde → meia hora após o pôr-do-sol (limite legal) · 30-50 m, linha no clip</text>
+
+  <rect x="0" y="70" width="560" height="330" fill="#0b2a3a" opacity="0.4"/>
+  <line x1="0" y1="70" x2="560" y2="70" stroke="#7fd3ff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.7"/>
+  <text x="505" y="64" fill="#7fd3ff" font-size="12">água</text>
+
+  <!-- mainline diagonal to bottom -->
+  <line x1="90" y1="78" x2="185" y2="330" stroke="#b8a55a" stroke-width="2.5"/>
+  <text x="60" y="120" fill="#e5d98a" font-size="13" font-weight="bold" transform="rotate(69 60 120)">linha-mãe</text>
+
+  <!-- bead + stop -->
+  <circle cx="185" cy="332" r="5" fill="#d95f02"/>
+  <text x="120" y="310" fill="#8b949e" font-size="11">pérola + batente (semi-fixo)</text>
+
+  <!-- method feeder loaded, on bottom -->
+  <g>
+    <ellipse cx="235" cy="352" rx="46" ry="24" fill="#5c4630" stroke="#8a6d3b" stroke-width="2"/>
+    <line x1="200" y1="342" x2="270" y2="342" stroke="#9aa0a6" stroke-width="2.5"/>
+    <line x1="200" y1="352" x2="272" y2="352" stroke="#9aa0a6" stroke-width="2.5"/>
+    <line x1="202" y1="362" x2="270" y2="362" stroke="#9aa0a6" stroke-width="2.5"/>
+  </g>
+  <text x="196" y="322" fill="#e5d98a" font-size="13" font-weight="bold">method feeder semi-fixo</text>
+  <text x="290" y="345" fill="#c9d1d9" font-size="12">mistura apertada:</text>
+  <text x="290" y="361" fill="#b5484d" font-size="12.5" font-weight="bold">pão ralado + farinha + SANGUE + alho</text>
+  <text x="290" y="377" fill="#8b949e" font-size="11">(engodo de CHEIRO — o gato caça pelo olfato)</text>
+
+  <!-- short hooklink + hook + chouriço -->
+  <line x1="270" y1="366" x2="318" y2="380" stroke="#7fd3ff" stroke-width="2"/>
+  <text x="248" y="396" fill="#7fd3ff" font-size="11">hooklink 10-15 cm</text>
+  <path d="M320 381 q6 12 -3 18 q-9 5 -14 -3" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <rect x="324" y="384" width="15" height="12" rx="3" fill="#a33d2f" stroke="#c9553f"/>
+  <text x="352" y="390" fill="#e5d98a" font-size="13" font-weight="bold">SN WORM nº 6 + chouriço</text>
+  <text x="352" y="406" fill="#8b949e" font-size="11">(fígado serve · ponta do anzol livre)</text>
+
+  <!-- bolt effect arrow -->
+  <path d="M285 300 h180" fill="none" stroke="#f0913d" stroke-width="2" marker-end="url(#arr)"/>
+  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6 z" fill="#f0913d"/></marker></defs>
+  <text x="280" y="288" fill="#f0913d" font-size="12" font-weight="bold">pega → sente o peso → FERRA-SE SOZINHO</text>
+
+  <rect x="0" y="414" width="560" height="66" fill="#3a2e1f"/>
+  <line x1="0" y1="414" x2="560" y2="414" stroke="#6b5836" stroke-width="2"/>
+  <text x="30" y="435" fill="#5fa8ff" font-size="12.5">▸ Relança a cada 10-15 min ao início — cada lançamento engoda o spot. Clip = mesmo sítio.</text>
+  <text x="30" y="453" fill="#8b949e" font-size="12">▸ Cana na forquilha + guizo. Gato de 30-50 cm garantido — "qualquer isco ao fundo = gato".</text>
+  <text x="30" y="471" fill="#b5484d" font-size="12" font-weight="bold">▸ ⚠️ Espinhos picam: pega por trás, com alicate. Invasor → não devolver vivo.</text>
+</svg>

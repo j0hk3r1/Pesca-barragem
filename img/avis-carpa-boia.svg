@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="500" viewBox="0 0 560 500" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="560" height="500" fill="#0d1117"/>
+  <text x="20" y="32" fill="#5fa8ff" font-size="19" font-weight="bold">🔵 CARPA à boia — Avis</text>
+  <text x="20" y="54" fill="#8b949e" font-size="13">a montagem dos relatos (12-16 carpas/sessão) · margem, amanhecer + fim de tarde</text>
+
+  <rect x="0" y="70" width="560" height="360" fill="#0b2a3a" opacity="0.4"/>
+  <line x1="0" y1="70" x2="560" y2="70" stroke="#7fd3ff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.7"/>
+  <text x="505" y="64" fill="#7fd3ff" font-size="12">água</text>
+
+  <!-- float at surface -->
+  <ellipse cx="150" cy="86" rx="9" ry="22" fill="#d95f02" stroke="#f0913d" stroke-width="1.5"/>
+  <line x1="150" y1="58" x2="150" y2="66" stroke="#f0913d" stroke-width="3"/>
+  <text x="180" y="84" fill="#e5d98a" font-size="13" font-weight="bold">boia MTCH 2-3 g (das grandes)</text>
+  <text x="180" y="100" fill="#8b949e" font-size="11">carpa leva-a DE VEZ · mergulhinhos = alburnos</text>
+
+  <!-- line down -->
+  <line x1="150" y1="108" x2="150" y2="255" stroke="#b8a55a" stroke-width="2"/>
+
+  <!-- bulk shots grouped low -->
+  <circle cx="150" cy="262" r="6" fill="#7d7f85" stroke="#b0b3b8"/>
+  <circle cx="150" cy="276" r="6" fill="#7d7f85" stroke="#b0b3b8"/>
+  <circle cx="150" cy="290" r="6" fill="#7d7f85" stroke="#b0b3b8"/>
+  <text x="180" y="272" fill="#c9d1d9" font-size="13" font-weight="bold">chumbos AGRUPADOS em baixo</text>
+  <text x="180" y="288" fill="#8b949e" font-size="11">isco desce rápido = os alburnos não o roubam a meio</text>
+
+  <!-- swivel -->
+  <ellipse cx="150" cy="315" rx="10" ry="6" fill="none" stroke="#9aa0a6" stroke-width="2"/>
+  <text x="180" y="319" fill="#8b949e" font-size="12">barril nº 14</text>
+
+  <!-- leader -->
+  <line x1="150" y1="321" x2="150" y2="396" stroke="#7fd3ff" stroke-width="2"/>
+  <text x="180" y="365" fill="#7fd3ff" font-size="12">fluoro 0,23 · 30-40 cm</text>
+
+  <!-- hook + corn ON bottom -->
+  <path d="M150 398 q0 14 -10 14 q-9 0 -9 -9" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <circle cx="158" cy="416" r="6" fill="#ffd21e" stroke="#e0b400"/>
+  <circle cx="169" cy="419" r="6" fill="#ffd21e" stroke="#e0b400"/>
+  <text x="190" y="404" fill="#e5d98a" font-size="13" font-weight="bold">CARP POLE nº 10 + 1-2 bagos de milho</text>
+  <text x="190" y="421" fill="#f0913d" font-size="12" font-weight="bold">isco POUSADO no fundo (mede primeiro!)</text>
+
+  <!-- groundbait balls -->
+  <circle cx="465" cy="419" r="9" fill="#8a6d3b" opacity="0.85"/>
+  <circle cx="493" cy="422" r="8" fill="#8a6d3b" opacity="0.85"/>
+  <circle cx="519" cy="418" r="9" fill="#8a6d3b" opacity="0.85"/>
+  <text x="458" y="398" fill="#b08a52" font-size="11">engodo (bolas)</text>
+
+  <rect x="0" y="430" width="560" height="70" fill="#3a2e1f"/>
+  <line x1="0" y1="430" x2="560" y2="430" stroke="#6b5836" stroke-width="2"/>
+  <text x="30" y="453" fill="#5fa8ff" font-size="12.5">▸ Engodo: 3-4 bolas ao chegar, +1 a cada 20-30 min — sempre no MESMO ponto.</text>
+  <text x="30" y="472" fill="#8b949e" font-size="12">▸ Freio suave (~⅓ do leader) e deixa correr — as de 2-3 kg dão luta a sério no material leve.</text>
+  <text x="30" y="490" fill="#8b949e" font-size="12">▸ Carpa maior que 65 cm: foto e à água (lei).</text>
+</svg>

@@ -19,17 +19,20 @@
 > Direções/distâncias **diferentes** para as duas canas, e engoda os 2 spots separados — a luta numa não espanta a outra. (Máx. legal: 2 canas.)
 
 ### 🟠 Montagem da boia (carpa)
-```
-linha-mãe → boia MTCH (2-3 g) → chumbos agrupados em baixo
-→ barril nº14 → fluoro 0,23 · 30-40 cm → CARP POLE nº 10 + milho
-```
+
+<img src="img/avis-carpa-boia.svg" alt="Carpa à boia em Avis — boia MTCH, chumbos agrupados, milho pousado no fundo" width="560" height="500">
+
 - **Isco POUSADO no fundo** (carpa pasta no fundo): mede primeiro — chumbo no anzol, ajusta até a boia ficar direita, soma um palmo.
 - Chumbos **agrupados junto ao barril** = desce rápido pelos alburnos (praga à superfície).
 - Picada de carpa = boia **vai-se embora de vez** (mergulhinhos = alburnos). Freio suave, deixa correr.
 - Fundos reais: 3-12 m — se a fixa não chegar, passa a **deslizante** (nó-batente + pérola).
 
 ### 🧺 Method feeder (gato + carpa grande)
+
+<img src="img/avis-gato-method.svg" alt="Gato-negro ao method feeder em Avis — semi-fixo, mistura de sangue, chouriço no anzol" width="560" height="480">
+
 - Semi-fixo (efeito bolt) · mistura apertada à volta do feeder · ponta do anzol livre.
+- **P/ gato, mistura de CHEIRO:** pão ralado + farinha + **sangue de talho + alho** (caça pelo olfato) → [receitas](ISCOS.md). P/ carpa grande: a mistura normal + 2-3 bagos no pêlo (500 Wide nº 6).
 - **Relança a cada 10-15 min** ao início — cada lançamento engoda o spot. Linha no **clip** = cai sempre no mesmo sítio.
 - Receita local (morador): *hair rig auto-ferrante + cesto de engodo + milho no cabelo* — é literalmente isto.
 
@@ -50,6 +53,8 @@ linha-mãe → boia MTCH (2-3 g) → chumbos agrupados em baixo
 **Existe mesmo:** as estatísticas oficiais das provas (ICNF 2001-07) registam barbo todos os anos (3ª espécie, ~4% das capturas — raro mas presente), e os locais lembram-no como **o troféu histórico** de Avis ("quando vazaram a barragem havia verdadeiros monstros junto à comporta"; "os maiores que vi, não cabiam na caixa de uma 4L"). Relatos independentes de **6-8 kg** — mas **nunca ninguém publicou foto**: podes ser o primeiro. 😄
 
 **Onde/quando:** **braço do Ervedal** (2 fontes com 18 anos de intervalo: "Ervedal para barbos, Benavila para carpas") · **embocaduras** das ribeiras · no verão estão nos **fundões — de manhã cedo** (e ao pôr-do-sol).
+
+<img src="img/avis-barbo-fundo.svg" alt="Barbo grande ao fundo em Avis — azeitona corrida, molho de minhocas, anzol 4-6, freio aberto" width="560" height="500">
 
 **Para os GRANDES (receita local, 2024):**
 - **Fundo com iscada GRANDE de minhoca** (várias minhocas num molho — não 1 minhoquinha)

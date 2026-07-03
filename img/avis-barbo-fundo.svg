@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="500" viewBox="0 0 560 500" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="560" height="500" fill="#0d1117"/>
+  <text x="20" y="32" fill="#5fa8ff" font-size="19" font-weight="bold">🔵 BARBO grande ao fundo — Avis</text>
+  <text x="20" y="54" fill="#8b949e" font-size="13">a receita local p/ os 6-8 kg · fundões de MANHÃ cedo (e pôr-do-sol) · Ervedal / embocaduras</text>
+
+  <rect x="0" y="70" width="560" height="340" fill="#0b2a3a" opacity="0.4"/>
+  <line x1="0" y1="70" x2="560" y2="70" stroke="#7fd3ff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.7"/>
+  <text x="505" y="64" fill="#7fd3ff" font-size="12">água</text>
+
+  <!-- mainline diagonal -->
+  <line x1="90" y1="78" x2="200" y2="330" stroke="#b8a55a" stroke-width="2.5"/>
+  <text x="62" y="120" fill="#e5d98a" font-size="13" font-weight="bold" transform="rotate(66 62 120)">linha 0,22-0,25</text>
+  <text x="205" y="120" fill="#8b949e" font-size="11">("não gostam de fios grossos" — evita 0,30+)</text>
+
+  <!-- running olive lead -->
+  <path d="M185 340 q16 -24 32 0 q-2 28 -16 34 q-14 -6 -16 -34 z" fill="#7d7f85" stroke="#b0b3b8"/>
+  <circle cx="201" cy="327" r="4" fill="none" stroke="#c9d1d9" stroke-width="2"/>
+  <text x="232" y="340" fill="#c9d1d9" font-size="13" font-weight="bold">azeitona corrida 40-80 g</text>
+  <text x="232" y="356" fill="#8b949e" font-size="11">corre no fio — ele pega sem sentir o peso</text>
+
+  <!-- bead + swivel stop -->
+  <circle cx="201" cy="382" r="4" fill="#d95f02"/>
+  <ellipse cx="201" cy="396" rx="10" ry="6" fill="none" stroke="#9aa0a6" stroke-width="2"/>
+  <text x="226" y="378" fill="#8b949e" font-size="12">pérola + barril nº 14 (batente)</text>
+
+  <!-- leader along bottom -->
+  <line x1="201" y1="402" x2="258" y2="406" stroke="#7fd3ff" stroke-width="2"/>
+  <text x="130" y="421" fill="#7fd3ff" font-size="11">leader 40-60 cm</text>
+
+  <!-- hook + worm bundle -->
+  <path d="M262 404 q8 12 -2 19 q-10 6 -16 -3" fill="none" stroke="#c9d1d9" stroke-width="2.5"/>
+  <path d="M260 398 q14 -10 22 2 q8 12 -6 14" fill="none" stroke="#c96a6a" stroke-width="3.5"/>
+  <path d="M266 408 q16 -4 18 8 q2 10 -10 10" fill="none" stroke="#b5484d" stroke-width="3.5"/>
+  <path d="M256 410 q-6 12 6 16 q10 4 14 -6" fill="none" stroke="#d98a8a" stroke-width="3.5"/>
+  <text x="310" y="398" fill="#e5d98a" font-size="13" font-weight="bold">anzol nº 4-6 forte</text>
+  <text x="300" y="417" fill="#f0913d" font-size="12.5" font-weight="bold">+ MOLHO de minhocas (iscada grande!)</text>
+
+  <rect x="0" y="430" width="560" height="70" fill="#3a2e1f"/>
+  <line x1="0" y1="430" x2="560" y2="430" stroke="#6b5836" stroke-width="2"/>
+  <text x="30" y="452" fill="#f0913d" font-size="12.5" font-weight="bold">▸ FREIO BEM ABERTO: arranques enormes — e quando parece rendido, volta a arrancar.</text>
+  <text x="30" y="471" fill="#8b949e" font-size="12">▸ nº 10 já custou lá uma cana partida. Alternativa p/ os maiores: cauda de lagostim descascada.</text>
+  <text x="30" y="490" fill="#8b949e" font-size="12">▸ Engodo: farinhas claras a curta distância. ⚠️ Gatos devoram minhoca — bycatch garantido.</text>
+</svg>
