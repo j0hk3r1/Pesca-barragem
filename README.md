@@ -58,6 +58,7 @@ Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol,
 | 💳 [**Licenças & onde comprar**](LICENCAS.md) | Geral + concessões dos rios + onde comprar + defeso |
 | 🪢 [**Nós**](NOS.md) | Que nó usar onde + vídeo |
 | 🏕️ [**Campings**](CAMPINGS.md) | Planeamento da semana de campismo *(temporária)* |
+| 🎏 [**Avis — Maranhão**](AVIS.md) | Guia da semana: plano 2 canas, iscos, spots GPS *(temporária)* |
 
 ---
 
