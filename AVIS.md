@@ -45,13 +45,20 @@ linha-mãe → boia MTCH (2-3 g) → chumbos agrupados em baixo
 
 ---
 
-## 🔵 Barbo — o bónus escondido (6-8 kg nos relatos)
+## 🔵 Barbo — o troféu histórico escondido (6-8 kg nos relatos)
 
-Relatos locais (2024) garantem **barbos de 6-8 kg** — e o **braço do Ervedal (Horta das Rosas)** é a zona apontada para eles.
-- **Fundo/feeder com minhoca grande** (o isco-rei) ou milho — a mesma cana do method serve: **minhoca espetada no anzol** em vez do pêlo.
-- Anzol **SN WORM nº 6-4** · leader 0,23-0,28 · **amanhecer/anoitecer**.
-- Procura as **embocaduras** (onde as ribeiras entram nos braços) — o barbo gosta de alguma corrente.
-- ⚠️ O mesmo aviso do fundo: os gatos também adoram minhoca — conta com bycatch.
+**Existe mesmo:** as estatísticas oficiais das provas (ICNF 2001-07) registam barbo todos os anos (3ª espécie, ~4% das capturas — raro mas presente), e os locais lembram-no como **o troféu histórico** de Avis ("quando vazaram a barragem havia verdadeiros monstros junto à comporta"; "os maiores que vi, não cabiam na caixa de uma 4L"). Relatos independentes de **6-8 kg** — mas **nunca ninguém publicou foto**: podes ser o primeiro. 😄
+
+**Onde/quando:** **braço do Ervedal** (2 fontes com 18 anos de intervalo: "Ervedal para barbos, Benavila para carpas") · **embocaduras** das ribeiras · no verão estão nos **fundões — de manhã cedo** (e ao pôr-do-sol).
+
+**Para os GRANDES (receita local, 2024):**
+- **Fundo com iscada GRANDE de minhoca** (várias minhocas num molho — não 1 minhoquinha)
+- Anzol **nº 4-6** forte *(um nº 10 lá já custou uma cana partida — pequeno demais)* · linha **0,22-0,25** ("não gostam de fios grossos", evita 0,30+)
+- **Freio bem aberto**: arranques enormes — e quando parece rendido, **volta a arrancar** (é a marca dele)
+
+**Para números:** curiosamente o **feeder fino seleciona carpa** — o barbo lá sai mais **à boia/inglesa** (isco a rasar o fundo, anzol nº 14 fino, 0,16-0,18). Se as carpas não largam o method, é a cana da boia que te dá o barbo.
+
+**Iscos por ordem local:** minhoca (o rei) · **cauda de lagostim descascada** (dica tuga: "o melhor para os maiores") · milho · queijo duro. Engodo de **farinhas claras a curta distância** no verão. ⚠️ Os gatos devoram iscos animais — conta com bycatch.
 
 ➡️ [Montagem do barbo em detalhe](EXEMPLOS-MODULAR.md#ex-barbo)
 
