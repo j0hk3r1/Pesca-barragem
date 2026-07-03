@@ -45,6 +45,18 @@ linha-mãe → boia MTCH (2-3 g) → chumbos agrupados em baixo
 
 ---
 
+## 🔵 Barbo — o bónus escondido (6-8 kg nos relatos)
+
+Relatos locais (2024) garantem **barbos de 6-8 kg** — e o **braço do Ervedal (Horta das Rosas)** é a zona apontada para eles.
+- **Fundo/feeder com minhoca grande** (o isco-rei) ou milho — a mesma cana do method serve: **minhoca espetada no anzol** em vez do pêlo.
+- Anzol **SN WORM nº 6-4** · leader 0,23-0,28 · **amanhecer/anoitecer**.
+- Procura as **embocaduras** (onde as ribeiras entram nos braços) — o barbo gosta de alguma corrente.
+- ⚠️ O mesmo aviso do fundo: os gatos também adoram minhoca — conta com bycatch.
+
+➡️ [Montagem do barbo em detalhe](EXEMPLOS-MODULAR.md#ex-barbo)
+
+---
+
 ## 📍 Spots (zonas oficiais FPPD + fóruns)
 
 | Spot | Pesqueiros · acesso | Diz-se | 📍 |
@@ -55,6 +67,8 @@ linha-mãe → boia MTCH (2-3 g) → chumbos agrupados em baixo
 | **Horta das Rosas (Ervedal)** | 50 · fraco | braço leste; Ervedal dá **barbos** | [39.051, -7.837](https://www.google.com/maps?q=39.0507,-7.8374) |
 | **Entre Pontes** | 40 · fraco | pontes da estrada Avis↔Benavila | zona central |
 | **Paredão** | — | os "monstros" ferram-se lá (e partem tudo) | [39.037, -7.928](https://www.google.com/maps?q=39.037,-7.928) ⚠️ respeitar zona de segurança |
+| **Horta dos Frades** | dica de veterano (2007) | braço **a poente** de Avis — fundo onde "as carpas pastam, muito localizado, **pouca pressão**" | sem registo em mapas (lado SW/Carapeta) — **pergunta a um local** |
+| **Fábrica do Leite** | dica de veterano (2007) | zona **funda** perto de Avis — "saem grandes carpas" ao fundo | referência local — pergunta no Clube Náutico |
 
 > **Pesqueiro** = posto de competição numerado na margem: mato limpo, acesso à água, spot batido. Fora de prova, pesca-se lá à vontade.
 
@@ -65,7 +79,18 @@ linha-mãe → boia MTCH (2-3 g) → chumbos agrupados em baixo
 - **Águas livres** → licença geral ICNF chega. Máx. **2 canas**.
 - **Carpa >65 cm devolve-se** por lei (Portaria 108/2018). Foto e à água.
 - **Gato-negro = invasor** → não devolver vivo.
-- **Noite:** pesca só até **meia hora após o pôr-do-sol**. (Há 6 zonas de **carpfishing noturno** legal no Maranhão — ICNF, 3 canas, só carpfishing — mas o gato à noite fica de fora.)
+- **Noite:** pesca só até **meia hora após o pôr-do-sol** — EXCETO **carpfishing noturno** nas 6 zonas delimitadas pelo ICNF (só carpa: 3 canas, hair rig, a 250 m de habitações; o gato à noite fica de fora). **As 6 zonas (cada uma = troço de margem entre os 2 pontos):**
+
+| Zona | Onde fica | 📍 Limites (WGS84) |
+|:--:|---|---|
+| 1 | perto de Avis | [39.07022, -7.90081](https://www.google.com/maps?q=39.07022,-7.90081) ↔ [39.06931, -7.90378](https://www.google.com/maps?q=39.06931,-7.90378) |
+| 2 | braço de Benavila (norte) | [39.12783, -7.86183](https://www.google.com/maps?q=39.12783,-7.86183) ↔ [39.11819, -7.85158](https://www.google.com/maps?q=39.11819,-7.85158) |
+| 3 | Benavila | [39.11086, -7.87789](https://www.google.com/maps?q=39.11086,-7.87789) ↔ [39.10800, -7.88292](https://www.google.com/maps?q=39.10800,-7.88292) |
+| 4 | Avis (junto à vila) | [39.06647, -7.89992](https://www.google.com/maps?q=39.06647,-7.89992) ↔ [39.06481, -7.89961](https://www.google.com/maps?q=39.06481,-7.89961) |
+| 5 | braço do Ervedal | [39.04378, -7.78978](https://www.google.com/maps?q=39.04378,-7.78978) ↔ [39.04828, -7.80344](https://www.google.com/maps?q=39.04828,-7.80344) |
+| 6 | Carapeta (SW) | [39.04219, -7.93228](https://www.google.com/maps?q=39.04219,-7.93228) ↔ [39.03478, -7.94464](https://www.google.com/maps?q=39.03478,-7.94464) |
+
+  *(Fonte: [ICNF carpfishing noturno](https://www.icnf.pt/pesca/pescaludicaedesportiva/carpfishingnoturno). Zonas 1 e 4 = a minutos do camping.)*
 - Provas nacionais são em **outubro** → julho/agosto sem conflitos de zona.
 
 ---
