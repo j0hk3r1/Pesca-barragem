@@ -6,13 +6,6 @@
 
 ---
 
-## ✅ Boom Festival: NÃO há em 2026 — albufeira sossegada
-
-**Em 2026 não há Boom** — o festival passou a anos ímpares e [o próximo é **18-25 de julho de 2027**](https://observador.pt/2025/07/25/boom-festival-regressa-a-idanha-a-nova-de-18-a-25-de-julho-de-2027/) (o Being Gathering de 2026 foi 1-5 de julho, acaba muito antes de chegares). A tua quinzena apanha a **albufeira em modo calmo**. 🧘
-- ✅ **A margem NE/E (lado do Boomland) É pescável**: o interior da herdade é privado, mas a **faixa da margem tem servidão de uso público** ([Lei 54/2005](https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1377&tabela=leis), 30 m) e o [plano oficial da albufeira](https://www.cm-idanhanova.pt/media/18513/Folheto_Abufeira_Idanha.pdf) permite expressamente *"pesca desportiva desde que disponham de acesso público"* em todo o plano de água (só exclui a zona da barragem). Em ano de festival (2027) o acesso fecha nessa zona; **em 2026 circula-se e pesca-se**. *(Só uma nota: a coordenada [39.976, -7.181] que circula nos fóruns como "praia fluvial" é o interior do recinto, longe da água — a margem real fica a O disso.)*
-
----
-
 ## 🚴 Os pontos de bike (lado do campismo)
 
 O [plano oficial da albufeira (POAAP)](https://www.cm-idanhanova.pt/media/18513/Folheto_Abufeira_Idanha.pdf) marca os **"Pontos Preferenciais de Pesca Lúdica" precisamente na metade sul/sudeste — junto ao campismo, pontão e rampas**. Ou seja: estás hospedado em cima da zona oficial de pesca. 🎯
@@ -23,7 +16,9 @@ O [plano oficial da albufeira (POAAP)](https://www.cm-idanhanova.pt/media/18513/
 | **2. Cantinho do Sahur** (margem sul) | [39.94432, -7.19411](https://www.google.com/maps?q=39.9443217,-7.1941102) ✅ | merendas **em cima da água**, entre campismo e parede — base confortável; fundo a cair para o fundão: **carpa + tentativa de siluro ao crepúsculo** |
 | **3. Fundão junto à parede** | [39.9447, -7.2011](https://www.google.com/maps?q=39.9447,-7.2011) ✅ (OSM) | a água **mais funda** da albufeira — **sandre a vinil** no fundo rochoso, carpa grande · ⚠️ **respeitar a zona de segurança sinalizada** do paredão/descarregador |
 | **4. Pontas rochosas a N do braço** | ~39.955, -7.196 *(aprox.)* | cabeços/pontas (satélite) — **achigã/sandre a vinil** ao nascer do sol |
-| **Braços a explorar** (POAAP) | — | Rib. das **Barrocas** (SO) e das **Fragas** (E, fora do Boomland) são os braços do teu lado; a **cauda norte** (entrada do Ponsul) fica longe de bike |
+| **Braços a explorar** (POAAP) | — | Rib. das **Barrocas** (SO) e das **Fragas** (E) são os braços do teu lado; a **cauda norte** (entrada do Ponsul) fica longe de bike |
+
+> ⚖️ **Toda a margem é pescável** — a faixa da margem tem **servidão de uso público** ([Lei 54/2005](https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1377&tabela=leis), 30 m) mesmo onde o terreno atrás é privado, e o [plano oficial](https://www.cm-idanhanova.pt/media/18513/Folheto_Abufeira_Idanha.pdf) permite *"pesca desportiva desde que disponham de acesso público"* em todo o plano de água — a única exclusão é a zona da barragem. *(Nota: a coordenada [39.976, -7.181] que circula nos fóruns como "praia fluvial" fica longe da água — ignora-a.)*
 
 ---
 

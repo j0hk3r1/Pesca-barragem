@@ -59,7 +59,7 @@ Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol,
 | 🪢 [**Nós**](NOS.md) | Que nó usar onde + vídeo |
 | 🏕️ [**Campings**](CAMPINGS.md) | Planeamento da semana de campismo *(temporária)* |
 | 🎏 [**Avis — Maranhão**](AVIS.md) | Guia da semana: plano 2 canas, iscos, spots GPS *(temporária)* |
-| 🏞️ [**Idanha — M. Carmona**](IDANHA.md) | Guia da quinzena: pontos de bike, siluro em Malpica, Boom *(temporária)* |
+| 🏞️ [**Idanha — M. Carmona**](IDANHA.md) | Guia da quinzena: pontos de bike, siluro em Malpica *(temporária)* |
 
 ---
 
