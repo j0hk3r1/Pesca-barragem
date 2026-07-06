@@ -69,6 +69,37 @@
 
 ---
 
+## 🟢 Achigã — de margem (marginal, mas dá)
+
+Honestidade primeiro: o Maranhão é água de **carpa/ablete**, não de spinning — o achigã é só [~0,15% das capturas em prova](https://www.icnf.pt/api/file/doc/c3bd81fd35bf22e0) e os relatos recentes de margem são escassos. Mas existe e sai:
+- 🎯 **O spot com relato concreto:** a **ilha submersa em frente ao campismo** — ["achigãs a atacar à volta da ilha, 20-30 cm de água em cima"](https://www.pesqueiro.pt/index.php?topic=20843.0) (2018). Vinil verde no Texan (offset).
+- **Onde procurar:** margens **rochosas e inclinadas** (Clube Náutico, pontes, Ervedal) — o oposto das arenosas rasas de Benavila/Carapeta. Cover: braços estreitos, moitas pendentes, arbustos alagados. O **paredão** concentra peixe visível.
+- **Hora:** **nascer do sol** e sai cedo ("às 8h já era tarde"); vinil na lenha durante o dia.
+- **Tamanho:** há de [3-5 kg mas raramente picam](https://www.pesqueiro.pt/index.php?topic=38123.0) (fartura de presa natural); populações oscilam muito ano a ano.
+- 🛒 O teu **[Texan Wide Gap](https://www.decathlon.pt/p/anzol-de-pesca-de-predadores-texan-wide-gap-abertura-larga/357866/m8911969) + vinil YUBARI** é exatamente o rig → [Achigã](EXEMPLOS-MODULAR.md#ex-achiga).
+
+---
+
+## 🐟 Peixe-almofada — a francesa das tardes (alburno · pimpão · perca-sol)
+
+Quando as carpas não colaboram, isto dá **ação non-stop** — e o alburno é a **pesca do momento** no Maranhão:
+- 🐟 **Alburno (ablete):** há **imensidões** — [ganham-se provas com 400-500 abletes](https://www.pesqueiro.pt/index.php?topic=16049.0). **Boia + asticot a meia-água** = garantido (⚠️ rente ao fundo = gato). A **[inglesa a meia-água](https://www.geralforum.com/board/threads/locais-de-pesca-descricao-tecnicas-utilizadas.1487/)** é excelente no verão. Exótico a sul do Douro → **não devolver** (fritam-se, "petinga alentejana").
+- ⚪ **Pimpão:** 2ª espécie em biomassa, mas vem no meio (o de [1,9 kg foi ao feeder + minhoca nº10](https://www.pesqueiro.pt/index.php?topic=38123.0)). Milho / asticot / minhoca.
+- 🟡 **Perca-sol:** abundante (40-60 g), morde o dia todo — o peixe de treinar a ferrar.
+- 💡 **Dica local de engodo:** farinha que faz **nuvem** na água → pesca **fora da nuvem, para o lado**; anzol de **haste maior** que o da carpa (desferra mais rápido). Asticot solto e abundante no calor.
+- 🛒 Boia MTCH + CARP POLE nº14 + asticot. *(Trigo congelado p/ engodo: loja Sodarca, Avis.)*
+
+---
+
+## 🦞 Lagostim — apanha-o (e é isco grátis de barbo)
+
+Há lagostim-vermelho quase de certeza (registos GBIF por toda a zona de Avis), e é **legal apanhá-lo SEM licença** ([DL 112/2017, art. 47](https://files.diariodarepublica.pt/1s/2017/09/17200/0527605296.pdf)):
+- **Como:** camaroeiro, **balança/ratel** (rede com isco no fundo) ou à mão. ⚠️ **Covo/nassa = só pesca profissional** (infração na lúdica).
+- ⚠️ **Mata na hora:** é invasor → **não o transportes vivo nem o devolvas** ([DL 92/2019](https://diariodarepublica.pt/dr/detalhe/decreto-lei/92-2019-123025739)).
+- 🎣 **Cauda descascada = isco de topo p/ barbo grande** — e é **legal** (a proibição de isco cobre só *peixes*; lagostim é crustáceo). Fluxo limpo: **apanha → mata → usa a cauda no mesmo sítio**.
+
+---
+
 ## 📍 Spots (zonas oficiais FPPD + fóruns)
 
 | Spot | Pesqueiros · acesso | Diz-se | 📍 |
@@ -86,11 +117,20 @@
 
 ---
 
+## 🌊 Água & condições (fim de julho)
+
+- 💧 **Nível:** chega ao verão **cheia e desce devagar** — projeção p/ fim jul 2026 ~**72-76%** (SNIRH/ARBVS); margens acessíveis, sem seca extrema. O braço de **Benavila** (arenoso) é o que fica mais exposto; a **ilha submersa** do campismo fica com 20-30 cm à tona no fim do verão.
+- ⚠️ **Cianobactérias:** houve [bloom em maio 2023](https://quercus.pt/2023/05/quercus-alerta-para-proliferacao-de-cianobacterias-na-albufeira-do-maranhao-avis/) (espuma/manchas azuis, escorrências do olival) — **sem recorrência noticiada desde**. No calor, **evita a espuma azul** junto à margem e pondera antes de consumir o peixe.
+- 🏖️ **Praia Fluvial do Clube Náutico** = qualidade **"Excelente"** / Bandeira Azul, mesmo ao pé da tenda (água limpa + bar/restaurante). Época balnear **1 jul-31 ago** → não pescar na zona balnear nesse período.
+
+---
+
 ## ⚖️ Regras específicas (verificado)
 
 - **Águas livres** → licença geral ICNF chega. Máx. **2 canas**.
-- **Carpa >65 cm devolve-se** por lei (Portaria 108/2018). Foto e à água.
-- **Gato-negro = invasor** → não devolver vivo.
+- **Carpa >65 cm devolve-se** por lei ([Portaria 108/2018](https://www.fppd.pt/portaria-1082018/)). Foto e à água.
+- **Gato-negro = invasor** → **devolução proibida** ([abate-se, não se devolve vivo](https://www.fppd.pt/portaria-1082018/)). Fica pequeno (um palmo, quase sempre <1 kg) — é **praga/bycatch, não troféu**; para monstros é o **siluro em [Idanha](PEIXES-BARRAGENS.md#dam-idanha)**, não o gato daqui.
+- 🐍 **Enguia:** se ferrares uma, **devolve** — a **pesca lúdica da enguia é proibida** em água doce ([Portaria 108/2018](https://www.fppd.pt/portaria-1082018/); saiu das espécies pescáveis lúdicas). Não a podes reter.
 - **Noite:** pesca só até **meia hora após o pôr-do-sol** — EXCETO **carpfishing noturno** nas 6 zonas delimitadas pelo ICNF (só carpa: 3 canas, hair rig, a 250 m de habitações; o gato à noite fica de fora). **As 6 zonas (cada uma = troço de margem entre os 2 pontos):**
 
 | Zona | Onde fica | 📍 Limites (WGS84) |
