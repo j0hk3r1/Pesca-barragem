@@ -16,7 +16,7 @@ Encontra a ligação que estás a fazer e usa o nó da linha:
 | — alternativa universal ao de cima | **Uni** | 🟢 | [▶ animado](https://www.animatedknots.com/uni-knot) |
 | **Juntar trançado ↔ leader fluoro** — o melhor (fino, passa nos anéis) | **FG** | 🔴 | [▶ animado](https://www.animatedknots.com/fg-knot) |
 | — juntar trançado ↔ leader, mais fácil | **Albright** | 🟡 | [▶ animado](https://www.animatedknots.com/albright-knot) |
-| — juntar trançado ↔ leader, mais fácil ainda | **Double Uni** | 🟡 | [▶ animado](https://www.animatedknots.com/double-uni-knot) |
+| — juntar trançado ↔ leader, mais fácil ainda | **Double Uni** | 🟡 | [▶ animado](https://www.netknots.com/fishing_knots/double-uni-knot) |
 | **Laço no topo do leader** — para clipar no snap (sistema modular) | **Perfection loop** | 🟡 | [▶ animado](https://www.animatedknots.com/perfection-loop-knot) |
 | — laço, mais fácil | **Surgeon's loop** | 🟢 | [▶ animado](https://www.animatedknots.com/surgeons-loop-knot) |
 | **Anzol de olhal, fisgada direta** (avançado, opcional) | **Snell** | 🔴 | [▶ animado](https://www.animatedknots.com/snell-knot) |
@@ -29,7 +29,7 @@ Encontra a ligação que estás a fazer e usa o nó da linha:
 
 1. **Palomar** — para **tudo o que ligas ao trançado** (snap, destorcedor). É o nó-base do [sistema modular](EXEMPLOS-MODULAR.md). [▶](https://www.animatedknots.com/palomar-knot)
 2. **Clinch melhorado** — o **fluoro/mono ao anzol** e ao destorcedor. O nó do dia-a-dia. [▶](https://www.animatedknots.com/improved-clinch-knot)
-3. **Double Uni** — quando precisas de **juntar o trançado ao leader** sem te chatear com o FG. [▶](https://www.animatedknots.com/double-uni-knot)
+3. **Double Uni** — quando precisas de **juntar o trançado ao leader** sem te chatear com o FG. [▶](https://www.netknots.com/fishing_knots/double-uni-knot)
 
 Com estes três montas tudo o que está em [**Montagens & como pescar**](EXEMPLOS-MODULAR.md).
 

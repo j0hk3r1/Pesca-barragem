@@ -50,7 +50,7 @@ O [plano oficial da albufeira (POAAP)](https://www.cm-idanhanova.pt/media/18513/
 - Aqui são **da época fria** ([guia local](https://www.guiadacidade.pt/en/poi-barragem-marechal-carmona-20448)) — no verão, fundões de manhã cedo, sem contar com muito. A receita de Avis (iscada grande de minhoca) vale igual.
 
 ### ⚠️ O rio Ponsul perto do campismo — esquece no verão
-A jusante da barragem **o leito fica praticamente seco no verão** (a água de rega sai por [canal condutor](https://sir.dgadr.gov.pt/images/conteudos/regadios/barragens/BarragemIdanhaAHIdanha.pdf), não pelo rio; caudal ecológico "por executar") — só pegos parados. O Ponsul pescável é o de **Malpica** (regolfo do Cedillo). O curso alto (Penha Garcia, açude do Pego) é praia fluvial bonita, não pesqueiro.
+A jusante da barragem **o leito fica praticamente seco no verão** (a água de rega sai por [canal condutor](https://cnpgb.apambiente.pt/content/idanha), não pelo rio; caudal ecológico "por executar") — só pegos parados. O Ponsul pescável é o de **Malpica** (regolfo do Cedillo). O curso alto (Penha Garcia, açude do Pego) é praia fluvial bonita, não pesqueiro.
 
 ---
 
