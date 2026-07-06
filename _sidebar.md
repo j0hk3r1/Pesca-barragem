@@ -13,3 +13,4 @@
 - [🪢 Nós (qual usar)](NOS.md)
 - [🏕️ Campings (planeamento)](CAMPINGS.md)
 - [🎏 Avis — Maranhão (a semana)](AVIS.md)
+- [🏞️ Idanha — M. Carmona (a quinzena)](IDANHA.md)

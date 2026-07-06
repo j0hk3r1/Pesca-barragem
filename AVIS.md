@@ -129,7 +129,7 @@ Há lagostim-vermelho quase de certeza (registos GBIF por toda a zona de Avis), 
 
 - **Águas livres** → licença geral ICNF chega. Máx. **2 canas**.
 - **Carpa >65 cm devolve-se** por lei ([Portaria 108/2018](https://www.fppd.pt/portaria-1082018/)). Foto e à água.
-- **Gato-negro = invasor** → **devolução proibida** ([abate-se, não se devolve vivo](https://www.fppd.pt/portaria-1082018/)). Fica pequeno (um palmo, quase sempre <1 kg) — é **praga/bycatch, não troféu**; para monstros é o **siluro em [Idanha](PEIXES-BARRAGENS.md#dam-idanha)**, não o gato daqui.
+- **Gato-negro = invasor** → **devolução proibida** ([abate-se, não se devolve vivo](https://www.fppd.pt/portaria-1082018/)). Fica pequeno (um palmo, quase sempre <1 kg) — é **praga/bycatch, não troféu**; para monstros é o **siluro em [Idanha](IDANHA.md)**, não o gato daqui.
 - 🐍 **Enguia:** se ferrares uma, **devolve** — a **pesca lúdica da enguia é proibida** em água doce ([Portaria 108/2018](https://www.fppd.pt/portaria-1082018/); saiu das espécies pescáveis lúdicas). Não a podes reter.
 - **Noite:** pesca só até **meia hora após o pôr-do-sol** — EXCETO **carpfishing noturno** nas 6 zonas delimitadas pelo ICNF (só carpa: 3 canas, hair rig, a 250 m de habitações; o gato à noite fica de fora). **As 6 zonas (cada uma = troço de margem entre os 2 pontos):**
 

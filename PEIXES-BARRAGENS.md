@@ -119,7 +119,7 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 
 **⚠️ Atenção:** truta-fário só esporádica (desce dos afluentes — a sério é nas ribeiras frias); escalo (*S. pyrenaicus*) nativo; gambúsia/alburno/enguia provável mas não confirmado.
 
-**Dicas:** Reservatório de predador + carpa/barbo, **não** é lago de truta. Boa pesca de margem. Stock de achigã reduzido por furtivismo — apanha-se, mas modesto. Confirma regras com ICNF / CM Idanha-a-Nova.
+**Dicas:** Reservatório de predador + carpa/barbo, **não** é lago de truta. Boa pesca de margem. Achigã presente mas modesto (a causa "furtivismo" que circula não tem confirmação documental). Confirma regras com ICNF / CM Idanha-a-Nova. **Guia prático da quinzena** (pontos de bike, siluro em Malpica) → [🏞️ Idanha](IDANHA.md).
 
 ---
 
