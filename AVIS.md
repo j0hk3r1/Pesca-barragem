@@ -2,7 +2,7 @@
 
 > 🗒️ Guia prático para a semana de campismo em Avis. Baseado em **relatos reais de 2007-2025** (fóruns, provas FPPD, locais). *(Secção temporária, como os Campings.)*
 
-**A água em 1 parágrafo:** provavelmente **a barragem com mais carpas de Portugal** — médias de **0,5-3 kg em quantidade industrial** (sessões reais: 12-22 carpas; nas provas de 72h fazem-se 100+ kg/dupla). Grandes (10 kg+) existem mas são fantasmas — os relatos acabam em anzol/linha partidos. ⚠️ O **fundo está infestado de peixe-gato-negro** (30-50 cm, "toneladas") — qualquer isco pousado = gato. Por isso: **carpa à boia de dia · gato ao fundo ao anoitecer.**
+**A água em 1 parágrafo:** provavelmente [**a barragem com mais carpas de Portugal**](https://www.pesqueiro.pt/index.php?topic=20843.0) — médias de **0,5-3 kg em quantidade industrial** (sessões reais: [12-16 à boia](https://web.archive.org/web/20080317055117/http://pescador.com.pt/livre/viewtopic.php?f=16&t=1922), ["22 ao feeder"](https://www.youtube.com/watch?v=7M3comwFv9g); nas provas de 72h fazem-se [100+ kg/dupla](https://www.fppd.pt/wp-content/uploads/2025/Agua%20Doce/Classifica%C3%A7%C3%B5es/Camp.%20Nac.%20Carpas%20-%202025.pdf)). Grandes (10 kg+) existem mas são fantasmas — [os relatos acabam em anzol/linha partidos](https://www.pesqueiro.pt/index.php?topic=31951.0). ⚠️ O **fundo está infestado de peixe-gato-negro** (30-50 cm, ["toneladas"](https://www.pesqueiro.pt/index.php?topic=38123.0)) — [qualquer isco pousado = gato](https://www.pesqueiro.pt/index.php?topic=16049.0). Por isso: **carpa à boia de dia · gato ao fundo ao anoitecer.**
 
 ---
 
@@ -34,7 +34,7 @@
 - Semi-fixo (efeito bolt) · mistura apertada à volta do feeder · ponta do anzol livre.
 - **P/ gato, mistura de CHEIRO:** pão ralado + farinha + **sangue de talho + alho** (caça pelo olfato) → [receitas](ISCOS.md). P/ carpa grande: a mistura normal + 2-3 bagos no pêlo (500 Wide nº 6).
 - **Relança a cada 10-15 min** ao início — cada lançamento engoda o spot. Linha no **clip** = cai sempre no mesmo sítio.
-- Receita local (morador): *hair rig auto-ferrante + cesto de engodo + milho no cabelo* — é literalmente isto.
+- [Receita local (morador)](https://www.youtube.com/watch?v=7M3comwFv9g): *hair rig auto-ferrante + cesto de engodo + milho no cabelo* — é literalmente isto.
 
 ---
 
@@ -42,28 +42,28 @@
 
 - 🥇 **Milho doce e asticot** — os únicos consensuais. Milho p/ carpa; asticot rende mas **à boia chama os alburnos**.
 - 🟤 **Gato:** chouriço / fígado / minhoca ao fundo — "qualquer isco ao fundo = gato", nem precisas de esforço.
-- ❌ **Boilies às cegas NÃO** — só funcionam com **engodagem prévia de 2 dias a 1 semana** (relatos: "morango/tutti-frutti, nem um toque"). Para uma semana de férias, esquece.
-- **Engodo carpa:** pão ralado + farinha de milho + milho + asticot → bolas de tangerina; 3-4 ao chegar, reforço a cada 20-30 min, **sempre no mesmo ponto**.
-- Verão = farinhas **claras** + asticot branco/milho (dica de guia de competição local).
+- ❌ **Boilies às cegas NÃO** — só funcionam com **engodagem prévia de 2 dias a 1 semana** ([relato 2007: "morango/tutti-frutti, nem um toque"](https://web.archive.org/web/20080317055117/http://pescador.com.pt/livre/viewtopic.php?f=16&t=1922)). Para uma semana de férias, esquece.
+- **Engodo carpa:** [pão ralado + farinha de milho + milho + asticot](https://web.archive.org/web/20080317055117/http://pescador.com.pt/livre/viewtopic.php?f=16&t=1922) → bolas de tangerina; 3-4 ao chegar, reforço a cada 20-30 min, **sempre no mesmo ponto**.
+- Verão = farinhas **claras** + asticot branco/milho ([guia de competição local, 2006](https://www.geralforum.com/board/threads/locais-de-pesca-descricao-tecnicas-utilizadas.1487/)).
 
 ---
 
 ## 🔵 Barbo — o troféu histórico escondido (6-8 kg nos relatos)
 
-**Existe mesmo:** as estatísticas oficiais das provas (ICNF 2001-07) registam barbo todos os anos (3ª espécie, ~4% das capturas — raro mas presente), e os locais lembram-no como **o troféu histórico** de Avis ("quando vazaram a barragem havia verdadeiros monstros junto à comporta"; "os maiores que vi, não cabiam na caixa de uma 4L"). Relatos independentes de **6-8 kg** — mas **nunca ninguém publicou foto**: podes ser o primeiro. 😄
+**Existe mesmo:** as [estatísticas oficiais das provas (ICNF 2001-07)](https://www.icnf.pt/api/file/doc/c3bd81fd35bf22e0) registam barbo todos os anos (3ª espécie, ~4% das capturas — raro mas presente), e os locais lembram-no como **o troféu histórico** de Avis ([2024: "quando vazaram a barragem havia verdadeiros monstros junto à comporta"; "os maiores que vi, não cabiam na caixa de uma 4L"](https://www.pesqueiro.pt/index.php?topic=38123.0)). Relatos independentes de [**6-8 kg**](https://www.pesqueiro.pt/index.php?topic=38123.0) — mas **nunca ninguém publicou foto**: podes ser o primeiro. 😄
 
-**Onde/quando:** **braço do Ervedal** (2 fontes com 18 anos de intervalo: "Ervedal para barbos, Benavila para carpas") · **embocaduras** das ribeiras · no verão estão nos **fundões — de manhã cedo** (e ao pôr-do-sol).
+**Onde/quando:** **braço do Ervedal** (2 fontes com 18 anos de intervalo: [guia 2006](https://www.geralforum.com/board/threads/locais-de-pesca-descricao-tecnicas-utilizadas.1487/) + [2024: "Ervedal para barbos, Benavila para carpas"](https://www.pesqueiro.pt/index.php?topic=38123.0)) · **embocaduras** das ribeiras · no verão estão nos **fundões — de manhã cedo** (e ao pôr-do-sol).
 
 <img src="img/avis-barbo-fundo.svg" alt="Barbo grande ao fundo em Avis — azeitona corrida, molho de minhocas, anzol 4-6, freio aberto" width="560" height="500">
 
-**Para os GRANDES (receita local, 2024):**
+**Para os GRANDES ([receita local, 2024](https://www.pesqueiro.pt/index.php?topic=38123.0)):**
 - **Fundo com iscada GRANDE de minhoca** (várias minhocas num molho — não 1 minhoquinha)
 - Anzol **nº 4-6** forte *(um nº 10 lá já custou uma cana partida — pequeno demais)* · linha **0,22-0,25** ("não gostam de fios grossos", evita 0,30+)
 - **Freio bem aberto**: arranques enormes — e quando parece rendido, **volta a arrancar** (é a marca dele)
 
-**Para números:** curiosamente o **feeder fino seleciona carpa** — o barbo lá sai mais **à boia/inglesa** (isco a rasar o fundo, anzol nº 14 fino, 0,16-0,18). Se as carpas não largam o method, é a cana da boia que te dá o barbo.
+**Para números:** curiosamente o [**feeder fino seleciona carpa** — o barbo lá sai mais **à boia/inglesa**](https://www.pesqueiro.pt/index.php?topic=37882.0) (isco a rasar o fundo, anzol nº 14 fino, 0,16-0,18 — [técnica em detalhe: artigo "Pesca de Barbos"](https://www.pesqueiro.pt/index.php?topic=165.0)). Se as carpas não largam o method, é a cana da boia que te dá o barbo.
 
-**Iscos por ordem local:** minhoca (o rei) · **cauda de lagostim descascada** (dica tuga: "o melhor para os maiores") · milho · queijo duro. Engodo de **farinhas claras a curta distância** no verão. ⚠️ Os gatos devoram iscos animais — conta com bycatch.
+**Iscos por ordem local:** minhoca (o rei) · [**cauda de lagostim descascada** ("o melhor para os maiores")](https://www.pesqueiro.pt/index.php?topic=23463.0) · milho · queijo duro. Engodo de **farinhas claras a curta distância** no verão ([guia 2006](https://www.geralforum.com/board/threads/locais-de-pesca-descricao-tecnicas-utilizadas.1487/)). ⚠️ Os gatos devoram iscos animais — conta com bycatch.
 
 ➡️ [Montagem do barbo em detalhe](EXEMPLOS-MODULAR.md#ex-barbo)
 
@@ -73,14 +73,14 @@
 
 | Spot | Pesqueiros · acesso | Diz-se | 📍 |
 |---|---|---|---|
-| **Clube Náutico / campismo** | 20 · razoável | "feeder e à boia, deu para brincar bastante" (2015) · ilha submersa em frente | [39.0571, -7.9116](https://www.google.com/maps?q=39.0571,-7.9116) — **a pé da tenda** |
-| **Carapeta** | **100 · bom** | a maior zona de prova; margens batidas/engodadas há anos | [39.039, -7.931](https://www.google.com/maps?q=39.0387,-7.9310) |
-| **Benavila 1+2** | 120 · bom | **a zona de carpa** — o Nacional 2016 foi lá (597 kg); "carpas loucas à superfície" | braço NE · [39.10, -7.88](https://www.google.com/maps?q=39.10,-7.88) |
-| **Horta das Rosas (Ervedal)** | 50 · fraco | braço leste; Ervedal dá **barbos** | [39.051, -7.837](https://www.google.com/maps?q=39.0507,-7.8374) |
+| **Clube Náutico / campismo** | 20 · razoável | ["feeder e à boia, deu para brincar bastante" (2015)](https://www.pesqueiro.pt/index.php?topic=8807.0) · ilha submersa em frente | [39.0571, -7.9116](https://www.google.com/maps?q=39.0571,-7.9116) — **a pé da tenda** |
+| **Carapeta** | **100 · bom** | a maior zona de prova ([FPPD](https://www.fppd.pt/locais-de-pesca-agua-doce/)); margens batidas/engodadas há anos | [39.039, -7.931](https://www.google.com/maps?q=39.0387,-7.9310) *(Monte da Carapeta — margem adjacente)* |
+| **Benavila 1+2** | 120 · bom | **a zona de carpa** — o [Nacional 2016 foi lá (597 kg)](https://web.archive.org/web/20161110175030/http://www.cm-avis.pt/menu-1/1023-albufeira-do-maranhao-recebeu-etapa-decisiva-do-campeonato-nacional-de-pesca-a-carpa); ["carpas loucas à superfície"](https://www.pesqueiro.pt/index.php?topic=20843.0) | braço NE · [~39.10, -7.88](https://www.google.com/maps?q=39.10,-7.88) *(aprox.)* |
+| **Horta das Rosas (Ervedal)** | 50 · fraco | braço leste; [Ervedal dá **barbos**](https://www.pesqueiro.pt/index.php?topic=38123.0) | [~39.051, -7.837](https://www.google.com/maps?q=39.0507,-7.8374) *(aprox. — bica homónima; a zona noturna 5 abaixo dá o troço exato)* |
 | **Entre Pontes** | 40 · fraco | pontes da estrada Avis↔Benavila | zona central |
 | **Paredão** | — | os "monstros" ferram-se lá (e partem tudo) | [39.037, -7.928](https://www.google.com/maps?q=39.037,-7.928) ⚠️ respeitar zona de segurança |
-| **Horta dos Frades** | dica de veterano (2007) | braço **a poente** de Avis — fundo onde "as carpas pastam, muito localizado, **pouca pressão**" | sem registo em mapas (lado SW/Carapeta) — **pergunta a um local** |
-| **Fábrica do Leite** | dica de veterano (2007) | zona **funda** perto de Avis — "saem grandes carpas" ao fundo | referência local — pergunta no Clube Náutico |
+| **Horta dos Frades** | [dica de veterano (2007)](https://web.archive.org/web/20080317055117/http://pescador.com.pt/livre/viewtopic.php?f=16&t=1922) | braço **a poente** de Avis — fundo onde "as carpas pastam, muito localizado, **pouca pressão**" | sem registo em mapas (lado SW/Carapeta) — **pergunta a um local** |
+| **Fábrica do Leite** | [dica de veterano (2007)](https://web.archive.org/web/20080317055117/http://pescador.com.pt/livre/viewtopic.php?f=16&t=1922) | zona **funda** perto de Avis — "saem grandes carpas" ao fundo | referência local — pergunta no Clube Náutico |
 
 > **Pesqueiro** = posto de competição numerado na margem: mato limpo, acesso à água, spot batido. Fora de prova, pesca-se lá à vontade.
 
@@ -99,7 +99,7 @@
 | 2 | braço de Benavila (norte) | [39.12783, -7.86183](https://www.google.com/maps?q=39.12783,-7.86183) ↔ [39.11819, -7.85158](https://www.google.com/maps?q=39.11819,-7.85158) |
 | 3 | Benavila | [39.11086, -7.87789](https://www.google.com/maps?q=39.11086,-7.87789) ↔ [39.10800, -7.88292](https://www.google.com/maps?q=39.10800,-7.88292) |
 | 4 | Avis (junto à vila) | [39.06647, -7.89992](https://www.google.com/maps?q=39.06647,-7.89992) ↔ [39.06481, -7.89961](https://www.google.com/maps?q=39.06481,-7.89961) |
-| 5 | braço do Ervedal | [39.04378, -7.78978](https://www.google.com/maps?q=39.04378,-7.78978) ↔ [39.04828, -7.80344](https://www.google.com/maps?q=39.04828,-7.80344) |
+| 5 | braço leste (Figueira e Barros / Ervedal) | [39.04378, -7.78978](https://www.google.com/maps?q=39.04378,-7.78978) ↔ [39.04828, -7.80344](https://www.google.com/maps?q=39.04828,-7.80344) |
 | 6 | Carapeta (SW) | [39.04219, -7.93228](https://www.google.com/maps?q=39.04219,-7.93228) ↔ [39.03478, -7.94464](https://www.google.com/maps?q=39.03478,-7.94464) |
 
   *(Fonte: [ICNF carpfishing noturno](https://www.icnf.pt/pesca/pescaludicaedesportiva/carpfishingnoturno). Zonas 1 e 4 = a minutos do camping.)*
