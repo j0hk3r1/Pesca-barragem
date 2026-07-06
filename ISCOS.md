@@ -67,6 +67,8 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 
 > 📏 **Quanto deitar?** No anzol = **1 isco** (1 cubo de fiambre / 2 grãos de milho). A **iscar/engodar** = uma **mão-cheia** de cada vez (~10–20 bolas/grãos/cubos) e **reforça pouco** a cada **20–30 min**. **Regra:** se há peixe mas não morde, **já deitaste de mais**.
 
+> 🏆 **Doutrina de competição (fóruns tugas, [2006-07](https://www.geralforum.com/board/threads/engodagem.60770/)):** em barragem (fundo inclinado) **nunca engodes para lá da boia** — rola declive abaixo · bolas **achatadas** em margem íngreme (não rolam) · **quanto mais fundo, mais colante** · repassa a massa húmida pela peneira (grumos alimentam demais) · a **cor do asticot deve bater com a do engodo** · base barata dos competidores: **farinha 115 (ração de pintos)**.
+
 > 🎯 **Predadores (achigã, sandre) NÃO se engodam** — caçam à vista/vibração; procura **estrutura** ([Achigã](EXEMPLOS-MODULAR.md#ex-achiga) · [Sandre](EXEMPLOS-MODULAR.md#ex-sandre)). Engodo é para **peixe-pasto** e **peixe-gato** — e cada um pede um tipo diferente:
 
 ### 🐟 Peixe-pasto (carpa · barbo · boga · pimpão) — engodo "comida"

@@ -130,12 +130,13 @@ Ponta da linha-mãe com **1 snap fixo** → encaixas boia / leader+amostra / amo
 - **Spinning (achigã/perca):** atira p/ junto de **estrutura** (pedras, troncos, vegetação, paredão). Recolhe com **paragens** — ataque vem na pausa/queda. Manhã cedo / fim de tarde.
 - **Boia (carpa/barbo/boga/peixe-gato):** atira, deixa assentar, **vê a boia**. Afunda/foge → **ferra**. Paciência. Anoitecer = peixe-gato.
 - **Água:** limpa → fino + cores naturais. Turva → cor importa pouco (cheiro/vibração).
-- **Tempo:** **chuva / encoberto = boa pesca** — os predadores naturais (corvos-marinhos, garças) caçam menos e o peixe anda mais confiante.
+- **Tempo:** **chuva / encoberto = boa pesca** — os predadores naturais (corvos-marinhos, garças) caçam menos e o peixe anda mais confiante. **Trovoada a formar-se** (pressão a cair) = peixe em força; dia seguinte à frente fria = tudo no fundo. **Lua:** de dia é irrelevante ([3 anos de registos de um forista: "completamente aleatório"](https://www.pesqueiro.pt/index.php?topic=4121.0)).
 
 <a id="ao-fundo"></a>
 
 ## 🪨 Ao fundo: esperar, renovar e engodar longe
 - **Deixa a cana na forquilha** com **guizo** na ponta — esperar **é** a pesca, não recolhas a toda a hora.
+- **Trava a linha no fim do lançamento** (dedo na bobine antes do peso cair) — o empate estica à frente do peso e **não se enleia** ([o remédio dos veteranos](https://www.pesqueiro.pt/index.php?topic=24658.0); vale para fundo e boia).
 - **Renovar o isco se não morder:** mole/cheiroso (fiambre, fígado, massa, pão) **~20–30 min** (o cheiro lava-se); duro (boilie, milho, chufa) aguenta **1–3 h**. Verifica também após qualquer **"toque" que não pegou** — pode ter sido roubado (atenção ao **lagostim**).
 - **Vais engodando** sempre ao **mesmo ponto**, pouco e muitas vezes — **sem recolher**; só recolhes para renovar/relançar.
 - **Engodar longe** (à mão só ~15–20 m):

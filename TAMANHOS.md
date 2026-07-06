@@ -72,7 +72,7 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 ### 💪 Fundo a distância — cana grande / Sofi (carpa · gato · siluro)
 Peixe grande ao **fundo (ledger)**: cana pousada na forquilha + **guizo**. Montagem passo-a-passo → [Carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [Siluro](EXEMPLOS-MODULAR.md#ex-siluro).
 - 🧵 **Linha:** carpa = **mono 0,40** (estica, perdoa o freio velho aos trancos); siluro = **trançado ~0,30 (27 kg)** + leader grosso. *Braid só p/ mais distância — precisa de freio bem suave.*
-- ⚙️ **O freio é o fusível:** regula **suave (~2–3 kg ≈ ⅓ da linha)**, nunca travado; o peixe ganha-se com **freio + flexão + dar linha**. ⚠️ **Serviça os Sofi antes** — drag de 60 anos gripado parte linha (testa c/ balança).
+- ⚙️ **O freio é o fusível:** regula **suave (~2–3 kg ≈ ⅓ da linha)**, nunca travado; o peixe ganha-se com **freio + flexão + dar linha**. ⚠️ **Serviça os Sofi antes** — drag de 60 anos gripado parte linha (testa c/ balança). **Com trançado, doutrina dos fóruns:** freio **ainda mais aberto + dedo na bobine** a travar as corridas ([o freio fechado é a causa nº 1 de anzóis e canas partidos](https://www.pesqueiro.pt/index.php?topic=31968.0)) — e os barbos grandes [**fingem render-se** junto à margem](https://www.pesqueiro.pt/index.php?topic=38123.0): não apertes quando ele encostar.
 - 🎯 **Shock leader** se lanças 80–100 g com força: **~2 comprimentos de cana (6–8 m)** de mono **0,50** (regra ~0,10 mm/25 g) — assim o nó fica **na bobine** no lançamento e é o mono a levar o sacão, não o nó.
 - 📏 **Alcance ~40–90 m** ao fundo (vs ~20–30 m no leve). Não bombardeies — carpa/barbo andam a **10–30 m**.
 

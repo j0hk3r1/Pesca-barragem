@@ -26,6 +26,9 @@
 - Chumbos **agrupados junto ao barril** = desce rápido pelos alburnos (praga à superfície).
 - Picada de carpa = boia **vai-se embora de vez** (mergulhinhos = alburnos). Freio suave, deixa correr.
 - Fundos reais: 3-12 m — se a fixa não chegar, passa a **deslizante** (nó-batente + pérola).
+- ☀️ **No verão as carpas sobem na coluna** — [a inglesa a meia-água dá "excelentes provas" no calor](https://www.geralforum.com/board/threads/locais-de-pesca-descricao-tecnicas-utilizadas.1487/) (validado em provas no próprio Maranhão): se o fundo não render, **sobe o isco**.
+- ⏰ **Hora de ouro: fim de tarde, a partir da sombra (~17h30)** — [ao almoço a atividade "desce abruptamente"](https://www.pesqueiro.pt/index.php?topic=33068.0). Manhã de verão com carpas à tona = [estão a **respirar** (oxigénio baixo), não a comer](https://www.pesqueiro.pt/index.php?topic=33075.0). E [**1h-1h30 sem toque → muda de posta**](https://www.pesqueiro.pt/index.php?topic=19712.0) (circulam em zonas restritas).
+- 🎯 **Engoda AQUÉM da boia, nunca para lá** — [em fundo inclinado o engodo rola declive abaixo](https://www.geralforum.com/board/threads/engodagem.60770/) e ficas a pescar fora dele. E **sonda também à frente** do pesqueiro (um buraco engole o engodo).
 
 ### 🧺 Method feeder (gato + carpa grande)
 
@@ -45,6 +48,8 @@
 - ❌ **Boilies às cegas NÃO** — só funcionam com **engodagem prévia de 2 dias a 1 semana** ([relato 2007: "morango/tutti-frutti, nem um toque"](https://web.archive.org/web/20080317055117/http://pescador.com.pt/livre/viewtopic.php?f=16&t=1922)). Para uma semana de férias, esquece.
 - **Engodo carpa:** [pão ralado + farinha de milho + milho + asticot](https://web.archive.org/web/20080317055117/http://pescador.com.pt/livre/viewtopic.php?f=16&t=1922) → bolas de tangerina; 3-4 ao chegar, reforço a cada 20-30 min, **sempre no mesmo ponto**.
 - Verão = farinhas **claras** + asticot branco/milho ([guia de competição local, 2006](https://www.geralforum.com/board/threads/locais-de-pesca-descricao-tecnicas-utilizadas.1487/)).
+- 🥇 **Anti-gato: TRIGO cozido** — ["pegam menos no trigo e no milho, mas atiram-se a tudo que mexe"](https://www.pesqueiro.pt/index.php?topic=20843.0): quando a praga atacar, engoda e isca **trigo** (asticot/minhoca é buffet de gato).
+- 🎯 Truques finos dos fóruns: [**milho trincado ao meio**](https://www.pesqueiro.pt/index.php?topic=11980.0) (larga cheiro) · [**2 asticots iscados por pontas opostas**](https://www.pesqueiro.pt/index.php?topic=38674.0) (contorcem em sentidos contrários — ataque "quase instantâneo") · [**asticot da COR do engodo**](https://www.geralforum.com/board/threads/engodagem.60770/) (desferras resolvidas em prova).
 
 ---
 
@@ -104,16 +109,18 @@ Há lagostim-vermelho quase de certeza (registos GBIF por toda a zona de Avis), 
 
 | Spot | Pesqueiros · acesso | Diz-se | 📍 |
 |---|---|---|---|
-| **Clube Náutico / campismo** | 20 · razoável | ["feeder e à boia, deu para brincar bastante" (2015)](https://www.pesqueiro.pt/index.php?topic=8807.0) · ilha submersa em frente | [39.0571, -7.9116](https://www.google.com/maps?q=39.0571,-7.9116) — **a pé da tenda** |
-| **Carapeta** | **100 · bom** | a maior zona de prova ([FPPD](https://www.fppd.pt/locais-de-pesca-agua-doce/)); margens batidas/engodadas há anos | [39.039, -7.931](https://www.google.com/maps?q=39.0387,-7.9310) *(Monte da Carapeta — margem adjacente)* |
+| **Clube Náutico / campismo** | 20 · razoável | troço **"atrás do Parque de Campismo"** ([FPPD](https://www.fppd.pt/locais-de-pesca-agua-doce/)) · ["feeder e à boia, deu para brincar bastante" (2015)](https://www.pesqueiro.pt/index.php?topic=8807.0) · ilha submersa em frente | [39.0571, -7.9116](https://www.google.com/maps?q=39.0571,-7.9116) — **a pé da tenda** |
+| **Carapeta** | **100 · bom** | a maior zona de prova — troço **Vale de Peles ↔ Canto das Figueiras** ([FPPD](https://www.fppd.pt/locais-de-pesca-agua-doce/)); margens batidas/engodadas há anos | [39.039, -7.931](https://www.google.com/maps?q=39.0387,-7.9310) *(Monte da Carapeta — margem adjacente)* |
 | **Benavila 1+2** | 120 · bom | **a zona de carpa** — o [Nacional 2016 foi lá (597 kg)](https://web.archive.org/web/20161110175030/http://www.cm-avis.pt/menu-1/1023-albufeira-do-maranhao-recebeu-etapa-decisiva-do-campeonato-nacional-de-pesca-a-carpa); ["carpas loucas à superfície"](https://www.pesqueiro.pt/index.php?topic=20843.0) | braço NE · [~39.10, -7.88](https://www.google.com/maps?q=39.10,-7.88) *(aprox.)* |
 | **Horta das Rosas (Ervedal)** | 50 · fraco | braço leste; [Ervedal dá **barbos**](https://www.pesqueiro.pt/index.php?topic=38123.0) | [~39.051, -7.837](https://www.google.com/maps?q=39.0507,-7.8374) *(aprox. — bica homónima; a zona noturna 5 abaixo dá o troço exato)* |
-| **Entre Pontes** | 40 · fraco | pontes da estrada Avis↔Benavila | zona central |
+| **Entre Pontes** | 40 · fraco | troço **entre as duas pontes de Avis** ([FPPD](https://www.fppd.pt/locais-de-pesca-agua-doce/)) | zona central |
 | **Paredão** | — | os "monstros" ferram-se lá (e partem tudo) | [39.037, -7.928](https://www.google.com/maps?q=39.037,-7.928) ⚠️ respeitar zona de segurança |
 | **Horta dos Frades** | [dica de veterano (2007)](https://web.archive.org/web/20080317055117/http://pescador.com.pt/livre/viewtopic.php?f=16&t=1922) | braço **a poente** de Avis — fundo onde "as carpas pastam, muito localizado, **pouca pressão**" | sem registo em mapas (lado SW/Carapeta) — **pergunta a um local** |
 | **Fábrica do Leite** | [dica de veterano (2007)](https://web.archive.org/web/20080317055117/http://pescador.com.pt/livre/viewtopic.php?f=16&t=1922) | zona **funda** perto de Avis — "saem grandes carpas" ao fundo | referência local — pergunta no Clube Náutico |
 
 > **Pesqueiro** = posto de competição numerado na margem: mato limpo, acesso à água, spot batido. Fora de prova, pesca-se lá à vontade.
+>
+> 🗣️ Spot citado em provas de carpa ([CCD, 2023](https://www.ccdtranquilidade.pt/pesca-barragemdomaranhao-2023/)): **"junto ao antigo restaurante do achigã"** — carpas "de dimensões colossais". Sem coordenada — pergunta a um local.
 
 ---
 
