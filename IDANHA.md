@@ -9,7 +9,7 @@
 ## ✅ Boom Festival: NÃO há em 2026 — albufeira sossegada
 
 **Em 2026 não há Boom** — o festival passou a anos ímpares e [o próximo é **18-25 de julho de 2027**](https://observador.pt/2025/07/25/boom-festival-regressa-a-idanha-a-nova-de-18-a-25-de-julho-de-2027/) (o Being Gathering de 2026 foi 1-5 de julho, acaba muito antes de chegares). A tua quinzena apanha a **albufeira em modo calmo**. 🧘
-- ⛔ Mesmo sem festival, a **margem NE/E (Boomland, [39.972, -7.180](https://www.google.com/maps?q=39.972,-7.180)) é terreno privado do festival, todo o ano** — riscar do mapa de pesca. *(Nota: a coordenada que circula nos fóruns como "praia fluvial da barragem" é afinal o recinto — confirmado por satélite.)*
+- ✅ **A margem NE/E (lado do Boomland) É pescável**: o interior da herdade é privado, mas a **faixa da margem tem servidão de uso público** ([Lei 54/2005](https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1377&tabela=leis), 30 m) e o [plano oficial da albufeira](https://www.cm-idanhanova.pt/media/18513/Folheto_Abufeira_Idanha.pdf) permite expressamente *"pesca desportiva desde que disponham de acesso público"* em todo o plano de água (só exclui a zona da barragem). Em ano de festival (2027) o acesso fecha nessa zona; **em 2026 circula-se e pesca-se**. *(Só uma nota: a coordenada [39.976, -7.181] que circula nos fóruns como "praia fluvial" é o interior do recinto, longe da água — a margem real fica a O disso.)*
 
 ---
 
