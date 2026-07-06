@@ -6,12 +6,10 @@
 
 ---
 
-## ⚠️ Boom Festival: 21-28 de julho — mesmo na albufeira
+## ✅ Boom Festival: NÃO há em 2026 — albufeira sossegada
 
-O [**Boom Festival 2026 é de 21 a 28 de julho**](https://festmore.com/events/boom-festival-2026), no **Boomland — a margem NE/E desta albufeira** (30 mil pessoas):
-- **Liga ao campismo a reservar antes** (☎ 277 201 029) — a região esgota nessa semana.
-- Estradas cheias até ~29 de julho; depois disso, **agosto é paz total**.
-- ⛔ A **margem NE/E (Boomland, [39.972, -7.180](https://www.google.com/maps?q=39.972,-7.180)) é privada** — riscar do mapa de pesca. *(Nota: a coordenada que circula nos fóruns como "praia fluvial da barragem" é afinal o recinto do festival — confirmado por satélite.)*
+**Em 2026 não há Boom** — o festival passou a anos ímpares e [o próximo é **18-25 de julho de 2027**](https://observador.pt/2025/07/25/boom-festival-regressa-a-idanha-a-nova-de-18-a-25-de-julho-de-2027/) (o Being Gathering de 2026 foi 1-5 de julho, acaba muito antes de chegares). A tua quinzena apanha a **albufeira em modo calmo**. 🧘
+- ⛔ Mesmo sem festival, a **margem NE/E (Boomland, [39.972, -7.180](https://www.google.com/maps?q=39.972,-7.180)) é terreno privado do festival, todo o ano** — riscar do mapa de pesca. *(Nota: a coordenada que circula nos fóruns como "praia fluvial da barragem" é afinal o recinto — confirmado por satélite.)*
 
 ---
 
