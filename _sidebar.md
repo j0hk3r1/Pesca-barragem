@@ -14,3 +14,4 @@
 - [🏕️ Campings (planeamento)](CAMPINGS.md)
 - [🎏 Avis — Maranhão (a semana)](AVIS.md)
 - [🏞️ Idanha — M. Carmona (a quinzena)](IDANHA.md)
+- [🌊 Arganil — Alva & Fronhas (a semana)](ARGANIL.md)

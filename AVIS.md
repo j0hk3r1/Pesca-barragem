@@ -53,6 +53,8 @@
 
 ---
 
+<a id="barbo"></a>
+
 ## 🔵 Barbo — o troféu histórico escondido (6-8 kg nos relatos)
 
 **Existe mesmo:** as [estatísticas oficiais das provas (ICNF 2001-07)](https://www.icnf.pt/api/file/doc/c3bd81fd35bf22e0) registam barbo todos os anos (3ª espécie, ~4% das capturas — raro mas presente), e os locais lembram-no como **o troféu histórico** de Avis ([2024: "quando vazaram a barragem havia verdadeiros monstros junto à comporta"; "os maiores que vi, não cabiam na caixa de uma 4L"](https://www.pesqueiro.pt/index.php?topic=38123.0)). Relatos independentes de [**6-8 kg**](https://www.pesqueiro.pt/index.php?topic=38123.0) — mas **nunca ninguém publicou foto**: podes ser o primeiro. 😄
@@ -95,6 +97,8 @@ Quando as carpas não colaboram, isto dá **ação non-stop** — e o alburno é
 - 🛒 Boia MTCH + CARP POLE nº14 + asticot. *(Trigo congelado p/ engodo: loja Sodarca, Avis.)*
 
 ---
+
+<a id="lagostim"></a>
 
 ## 🦞 Lagostim — apanha-o (e é isco grátis de barbo)
 

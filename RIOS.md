@@ -2,7 +2,7 @@
 
 Spots de **rio** (e uma lagoa de montanha), diferentes das [4 barragens](PEIXES-BARRAGENS.md). Aqui entra a **truta** 🐟 — que nas barragens não há.
 
-> ⚠️ **Alguns destes troços são concessões / zonas reguladas** (Ceira-Góis, Lagoas da Estrela, Isna): precisam de **licença própria + edital**. **O Alva nos campings (Arganil/Côja/Bica/3 Entradas) é águas livres** (só a geral, isco+amostra) — a concessão "só-mosca" do Alva é **só em Poiares, a jusante**. Confirma sempre antes de ir → [⚖️ Regras & licença](REGRAS.md). Quase todos são **praias fluviais** (cuidado com zona balnear).
+> ⚠️ **Alguns destes troços são concessões / zonas reguladas** (Ceira-Góis, Lagoas da Estrela, Isna): precisam de **licença própria + edital**. **O Alva nos campings (Arganil/Côja/Bica/3 Entradas) é águas livres** (só a geral, isco+amostra) — mas o Alva tem agora **4 ZPL** espalhadas (Penalva de Alva, Ronqueira, Poiares só-mosca, Mondalva — detalhe na secção do Alva e em [Arganil](ARGANIL.md)). Confirma sempre antes de ir → [⚖️ Regras & licença](REGRAS.md). Quase todos são **praias fluviais** (cuidado com zona balnear).
 
 ---
 
@@ -39,8 +39,9 @@ Spots de **rio** (e uma lagoa de montanha), diferentes das [4 barragens](PEIXES-
 ### 🔵 Rio Alva — Arganil · Côja · Três Entradas · Bica
 - **Peixes:** barbo, boga, escalo, carpa e achigã; **truta** nos **afluentes salmonícolas** — **Alvôco** (3 Entradas) e **Rib. de Pomares** (Bica) — até 31 jul.
 - **Licença: nestes spots o Alva é ÁGUAS LIVRES** → só a **licença geral**, e podes usar **isco E amostra**. ✅
-- ⚠️ **Não confundir:** a concessão **só-mosca** (fly-only, anzol sem barbela, licença diária) da **Câmara de V.N. Poiares** é **apenas um troço lá em baixo** (freguesias de **Lavegadas / S. Martinho da Cortiça**, ~20 km a jusante de Côja) — **não se aplica a Arganil/Côja/Bica/3 Entradas**. ([Edital 12/2025](https://www.jfsaomiguelpoiares.pt/ficheiros/fic707_1743514998.pdf))
-- **Como:** barbo/boga/carpa a [fundo/boia](EXEMPLOS-MODULAR.md#ex-boga) com **isco**; achigã a [vinil/amostra](EXEMPLOS-MODULAR.md#ex-achiga) (**devolução proibida** em rio — matar); truta nos **afluentes salmonícolas** (Alvôco/Pomares, até 31 jul) a [colher](EXEMPLOS-MODULAR.md#ex-truta).
+- ⚠️ **Mas há 4 ZPL no Alva (2026)** — troços com licença especial do dia, [lista ICNF Coimbra](https://www.icnf.pt/pesca/pescaludicaedesportiva/zpludica/coimbra): **Penalva de Alva/O. Hospital** ([1,9 km, LE 2-3,50 €, iscos naturais ok](https://www.icnf.pt/api/file/doc/65bce9ceb09401e9)) · **Ronqueira** junto a Secarias ([só 410 m, LE 0,50-2,50 €](https://www.icnf.pt/api/file/doc/c2dfdb70d59340af)) · **Poiares só-mosca** a jusante da barragem de Fronhas ([7,4 km, pluma apenas, isco natural PROIBIDO](https://www.icnf.pt/api/file/doc/9278b17ce4bbf86c) — renovada como ZPL em jun 2026) · **Mondalva** no baixo Alva ([12,2 km + 6 afluentes fechados](https://www.icnf.pt/api/file/doc/1c602b33d7809624)). **Nenhuma apanha os campings** — Côja/Arganil/Sarzedo continuam livres.
+- 🌊 A **albufeira de Fronhas** (achigã graúdo, sandre, barbo) fica a 10-20 min do camping de Arganil → guia completo em [**Arganil — Alva & Fronhas**](ARGANIL.md).
+- **Como:** barbo/boga/carpa a [fundo/boia](EXEMPLOS-MODULAR.md#ex-boga) com **isco**; achigã a [vinil/amostra](EXEMPLOS-MODULAR.md#ex-achiga) (**devolução proibida** em rio — matar); truta nos **afluentes salmonícolas** (Alvôco/Pomares, até 31 jul) a [colher](EXEMPLOS-MODULAR.md#ex-truta) — ⚠️ Pomares, Folques e Mata são [concessões da CM Arganil](https://www.cm-arganil.pt/balcao-online/regulamento-da-concessao-de-pesca-da-ribeira-de-pomares/) (licença própria).
 
 ### 🔵 Rio Ceira — Góis
 - Rio **clássico de truta**; o troço de Góis já leva boga, barbo e escalo a jusante.
@@ -72,15 +73,15 @@ Spots de **rio** (e uma lagoa de montanha), diferentes das [4 barragens](PEIXES-
 
 **1. Licença geral (ICNF) — sempre obrigatória** (16+; menores isentos mas acompanhados). Tira-se no **Multibanco** (o talão é o título) ou nos balcões do ICNF; é **anual** (Nacional/Regional). **Não há "diária" na geral** — *não confundir com o BMAR, que é pesca no mar.*
 
-**2. Época da TRUTA: 1 mar – 31 jul** (fechado ago–fev). Mín. **20 cm** (21 cm no Alva). Limite/dia **varia por zona** (4–10).
+**2. Época da TRUTA: 1 mar – 31 jul** (fechado ago–fev). Mín. **20 cm** nacional ([Portaria 108/2018](https://diariodarepublica.pt/dr/detalhe/portaria/108-2018-115090161)); os editais das ZPL apertam (21 cm em Poiares, 25 cm em Mondalva). Limite/dia **varia por zona** (2–10, só nas ZPL). ⚠️ Em **águas salmonícolas** (Alvôco, rib. de Pomares/Folques/Mata, alto Zêzere): no defeso da truta **não se pesca lá NADA**, 1 cana, **asticot proibido** ([DL 112/2017, art. 6.º e 13.º](https://files.diariodarepublica.pt/1s/2017/09/17200/0527205293.pdf)). O Alva em Arganil/Côja **não é salmonícola** (a classificação [acaba na Ponte de Sandomil, Seia](https://www.icnf.pt/api/file/doc/41e5094993c716dd)).
 > ⚠️ O **16 mar – 14 jun** é o **defeso dos ciprinídeos nativos** (boga, escalo, barbo) — **não** da truta. Nessas datas, boga/barbo estão protegidos mesmo na época da truta.
 
 **3. Precisa de licença ESPECIAL (além da geral)?**
 
 | Local | Tipo | Licença especial |
 |---|---|---|
-| **Alva** — campings (Arganil/Côja/Bica/3 Entradas) | **águas livres** | ❌ só geral (isco+amostra) |
-| **Alva** — só troço de **Poiares** (a jusante) | concessão **só-mosca** | ✅ diária — *não afeta os campings* |
+| **Alva** — campings (Arganil/Côja/Bica/3 Entradas) + **albufeira de Fronhas** | **águas livres** | ❌ só geral (isco+amostra) — ver [Arganil](ARGANIL.md) |
+| **Alva** — 4 ZPL (Penalva · Ronqueira · **Poiares só-mosca** · Mondalva) | ZPL | ✅ diária 0,50-15 € — *nenhuma nos campings* |
 | **Ceira** (Góis) | concessão (município) | ✅ diária 2–5 €, máx. 18/dia |
 | **Vale do Rossim / Lagoas** | zona reservada | ✅ **só em provas** (120 €/lagoa, coletiva) |
 | **Isna / Malhadal** (Proença) | concessão municipal ⚠️ | ✅ diária 1–5 €, máx. 10/dia — *confirma c/ câmara* |
