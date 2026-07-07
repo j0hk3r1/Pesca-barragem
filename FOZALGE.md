@@ -69,7 +69,7 @@ A [**Pista de Pesca do Poeiro**](https://www.cm-figueirodosvinhos.pt/index.php/d
 
 ## 🟫 Siluro — honestidade: raro a sério
 
-[Uma captura fez notícia regional em 2021](https://tomarnarede.pt/destaque/siluro-pescado-na-albufeira-de-castelo-do-bode/) — e não há relatos de 2022-2026 nos fóruns abertos. Presente mas **sem população tipo Tejo**: não montes uma cana dedicada; se vier, vem no fundo da carpa. (O paraíso do siluro continua a ser [a expedição de Idanha](IDANHA.md).)
+[Uma captura fez notícia regional em 2021](https://tomarnarede.pt/destaque/siluro-pescado-na-albufeira-de-castelo-do-bode/) — e não há relatos de 2022-2026 nos fóruns abertos. E o detalhe dessa captura afasta-a ainda mais de ti: foi em **fevereiro** (inverno), por um [pescador local que sai **de barco, de madrugada, do lado de Ferreira do Zêzere**](https://mediotejo.net/ferreira-do-zezere-pescador-captura-carpa-de-12-quilos-na-albufeira-de-castelo-do-bode/) (o mesmo da carpa de 12 kg; sítio e isco nunca publicados). O ["crocodilo" de 2011](https://omirante.pt/semanario/2011-07-28/sociedade/2011-07-27-crocodilo-da-albufeira-do-castelo-do-bode-foi-despromovido-a-peixe-gato) foi só um **avistamento** de ~1,5 m junto ao paredão. Presente mas **sem população tipo Tejo**: não montes uma cana dedicada; se vier, vem no fundo da carpa. (O paraíso do siluro continua a ser [a expedição de Idanha](IDANHA.md).)
 
 ## 🐟 Truta — fechada e fora de alcance em agosto
 
