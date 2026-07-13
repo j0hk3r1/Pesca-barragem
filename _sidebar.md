@@ -16,3 +16,4 @@
 - [🏞️ Idanha — M. Carmona (a quinzena)](IDANHA.md)
 - [🌊 Arganil — Alva & Fronhas (a semana)](ARGANIL.md)
 - [🛶 Foz d'Alge — C. do Bode (a semana)](FOZALGE.md)
+- [🌾 Magos — Salvaterra (day-trip)](MAGOS.md)

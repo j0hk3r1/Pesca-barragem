@@ -13,7 +13,8 @@
 - **Quem:** todos com **16+** (menores isentos, mas só a pescar **acompanhados** por titular).
 - **Onde comprar:** **caixa Multibanco** → *Pagamentos e Outros Serviços → Estado e Sector Público → Licenciamento de Pesca Lúdica → **Pesca Águas Doces** → tipo (Nacional/Regional) → nº CC → NIF*. O **talão MB é a própria licença**. Ou balcões do **ICNF**. **Não há portal online.**
 - **Tipo:** **anual** (ano civil) — **Nacional** (todo o país) ou **Regional** (Norte/Centro/Sul). **Não há "diária" na geral.**
-- **Preço (aprox., confirmar):** Nacional ~**20 €** · Regional ~**12 €** · não-residentes têm 7/30 dias.
+- **Preço 2026 (oficial, [tabela de taxas ICNF](https://www.icnf.pt/pesca/pescataxas)):** Nacional **23,93 €** · Regional **14,34 €** · não-residentes 7 dias **17,92 €** / 30 dias **23,93 €**.
+- **Âmbito das regionais:** Norte = a norte do Douro (inclusive) · Centro = **entre Tejo e Douro** (inclusive) · Sul = a sul do Tejo (inclusive). Se pescas dos 2 lados do Tejo (ex.: Magos + Arganil) → compra a **Nacional**.
 - ⚠️ **Não confundir com o BMAR** — esse é pesca **no mar** (DGRM), não serve para águas interiores.
 - [Info ICNF](https://www.icnf.pt/pesca/pescaludicaedesportiva/licencas)
 
