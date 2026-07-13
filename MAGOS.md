@@ -2,7 +2,7 @@
 
 > 🗒️ Guia rápido para o dia de pesca a partir de Lisboa: a **albufeira de carpa mais perto de casa que se pesca só com a licença geral** — zero telefonemas, zero senhas. Paredão: [38.9966, -8.6887](https://www.google.com/maps?q=38.9966,-8.6887) ✅ (Foros de Salvaterra, Salvaterra de Magos). Fontes linkadas no texto; coordenadas auditadas (Nominatim/OSM). *(Secção temporária, como as dos campings.)*
 
-**A água em 1 parágrafo:** albufeira de rega de **90 ha** construída em 1938 para os arrozais da vala de Magos ([ficha oficial CNPGB](https://cnpgb.apambiente.pt/content/magos)) — rasa, quente, fértil: água de **ciprinídeo**. Manda a **carpa** (com pimpão atrás), o achigã existe ([pesqueiro catalogado](https://www.pesca-pt.com/pesqueiro.php?id=246)), e é a **casa da associação Pica e Puxa** (1.ª divisão nacional de feeder), que lá pesca todos os fins de semana e mantém as margens limpas ([O Mirante, mar 2024](https://omirante.pt/cultura-e-lazer/2024-03-12-Barragem-de-Magos-e-a-casa-dos-pescadores-da-associacao-Pica-e-Puxa-b9895da4)). Água parada e provas de bóia/feeder = margens habituadas a pescadores. Não é praia balnear, por isso pesca-se o dia todo.
+**A água em 1 parágrafo:** albufeira de rega de **90 ha** construída em 1938 para os arrozais da vala de Magos ([ficha oficial CNPGB](https://cnpgb.apambiente.pt/content/magos): 3,4 hm³, paredão de terra com 400 m de comprimento e 15 m de altura — **a água mais funda está encostada ao paredão**; o resto é raso) — quente e fértil: água de **ciprinídeo**. Manda a **carpa** (com pimpão atrás), o achigã existe ([pesqueiro catalogado](https://www.pesca-pt.com/pesqueiro.php?id=246)), e é a **casa da associação Pica e Puxa** (1.ª divisão nacional de feeder), que lá pesca todos os fins de semana e mantém as margens limpas ([O Mirante, mar 2024](https://omirante.pt/cultura-e-lazer/2024-03-12-Barragem-de-Magos-e-a-casa-dos-pescadores-da-associacao-Pica-e-Puxa-b9895da4)). Água parada e provas de bóia/feeder = margens habituadas a pescadores. Não é praia balnear, por isso pesca-se o dia todo.
 
 ---
 
@@ -30,6 +30,17 @@
 
 > 💡 É água de competição de bóia/feeder — se vires **marcas de pesqueiro numeradas** na margem, é sinal de fundo limpo e batido: engoda aí sem medo.
 
+## 🥣 A receita local (relato de sessão real)
+
+Um [relato de setembro no fórum O Sítio do Pescador](https://web.archive.org/web/20191225232854/https://forum.pescador.com.pt/viewtopic.php?t=16877) (2013, recuperado do arquivo — o fórum fechou) é praticamente um manual de Magos:
+
+- **Várias carpas, todas ao fundo** com **method/mola + milho** (do LIDL, sem vergonha) e o **anzol a palmo e meio da mola**;
+- Engodo **Sensas 3000 carpas** com aditivos carpix/aromix **+ um punhado do próprio isco** misturado — [a doutrina de engodo que já tens](ISCOS.md);
+- A **inglesa (bóia) esteve fraca** nesse dia — em Magos o fundo tende a bater a bóia para carpa;
+- A lição cara: **duas linhas partidas por carretos travados** com as canas sozinhas — exatamente o [truque do freio aberto/dedo na bobine](TAMANHOS.md) que já está no guia. Com os sinos na cana, freio **sempre** aberto.
+
+Mais sinais de vida: [sessão de verão em vídeo (Os Manos da Pesca, ago 2023)](https://www.youtube.com/watch?v=0Za28tSyK_U) e [é a barragem habitual de quem mora na linha de VFX](https://caes-caca-pesca-natu.forumeiros.com/t7214-pesca-carpa-e-achiga-onde-pescar-perto-de-lisboa) (fórum, 2012).
+
 ## 📍 Spots
 
 | Spot | 📍 | Notas |
@@ -53,7 +64,3 @@
 | **Vala Real** (Azambuja) | [39.0403, -8.8668](https://www.google.com/maps?q=39.0403,-8.8668) | 52 min (56 km) | carpa/barbo em vala de água lenta ([pesca-pt](https://www.pesca-pt.com/pesqueiro.php?id=375)) |
 
 > Tudo **águas livres a montante de Vila Franca de Xira** → a mesma licença geral serve. *(A jusante de VFX o Tejo passa a regime marítimo — outra licença, não vás.)*
-
-## 🔔 Bónus: o campo de testes do alarme
-
-Água parada, sem corrente nem maré a tensionar a linha = **o cenário limpo para estrear o alarme de toque**: os disparos que tiveres são picadas, não rio. E os pimpões são geradores de toques profissionais — numa tarde afinas a mola, o debounce e o volume do buzzer. Monta o alarme na cana de fundo (Sofi) e pesca à boia ao lado enquanto esperas.
