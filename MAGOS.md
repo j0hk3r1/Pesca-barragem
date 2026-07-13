@@ -26,7 +26,7 @@
 | **Alvo** | **pimpão + carpa pequena** — a pesca garantida | **carpa** — o objetivo do dia | achigã — a aposta lateral |
 | **Quando** | o dia todo | manhã cedo + fim de tarde | pontas do dia |
 | **Onde** | margens das provas (pesqueiros batidos) | zona mais funda, perto do paredão | vegetação e estrutura das pontas rasas |
-| **Com quê** | milho/minhoca, fino | **method/chumbada com milho** + engodo prévio ([doutrina de Avis](AVIS.md)) | texas/vinil devagar, cores naturais |
+| **Com quê** | milho/minhoca, anzol #14-10, [montagem do pimpão](EXEMPLOS-MODULAR.md#ex-pimpao) — calor = isco a **meia-água** | **method/chumbada com milho** + engodo prévio ([doutrina de Avis](AVIS.md)) | texas/vinil devagar, cores naturais |
 
 > 💡 É água de competição de bóia/feeder — se vires **marcas de pesqueiro numeradas** na margem, é sinal de fundo limpo e batido: engoda aí sem medo.
 
