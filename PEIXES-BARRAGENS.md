@@ -79,9 +79,7 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 
 ## 🏞️ 3. Barragem de Castelo do Bode (Centro, Rio Zêzere)
 
-**O que é:** Albufeira **funda, fria e de água muito limpa** (2.ª maior de PT em volume, ~1.095 hm³). Origem de água de Lisboa. Cristalina = táticas finas, cores naturais. Sobretudo barco/caiaque (margens são encostas íngremes; acesso pelas praias fluviais).
-
-> 📏 **Parede ~115 m de altura** ≠ profundidade da água. Profundidade máx. da água ~**90 m** junto à parede (sem valor oficial; muito menos no resto do lago).
+**O que é:** albufeira **funda, fria e cristalina** (reserva de água de Lisboa) — táticas finas e cores naturais. Terreno, spots e estado da água → **guia [🛶 Foz d'Alge](FOZALGE.md)**; aqui fica a ficha de espécies.
 
 | Nome PT | Típico | Grande | Como apanhar |
 |---|---|---|---|
@@ -97,8 +95,6 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 - **Truta** — a pescaria a sério é **no rio/afluentes frios a montante, NÃO no lago**. Arco-íris só por repovoamento ICNF.
 - **Lúcio (Esox lucius)** — existe em PT como invasor (sobretudo Guadiana); mal documentado em Castelo do Bode. O predador desta albufeira é o **lúcio-perca/sandre** — peixe diferente, não confundir.
 
-**Dicas:** Não é Alqueva — achigã raramente +3 kg, mas **sandre estabelecido, troféus de 4 kg+ reais**. Lagostim-vermelho abundantíssimo alimenta tudo. **Guia prático da semana** (canal do Zêzere, Pista do Poeiro, spots auditados) → [🛶 Foz d'Alge](FOZALGE.md).
-
 **Mínimos/defeso:** achigã 20 cm, truta 20 cm. ⚠️ **16 Mar–14 Mai = defeso do ACHIGÃ** (não da truta). Truta: época ~fim Mar a início Ago (varia por edital). Exóticos (sandre/siluro/lúcio): **sem mínimo nem defeso** (captura incentivada).
 
 ---
@@ -107,7 +103,7 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 
 ## 🏞️ 4. Barragem Marechal Carmona / Idanha (Beira Baixa, Rio Ponsul)
 
-**O que é:** Albufeira quente interior (bacia do Tejo, parede 1946). Ciprinídeos + predadores introduzidos. **Destaque = siluro** — o **rio** Ponsul (a jusante da barragem) deu o maior siluro documentado à cana em PT (**102 kg / 2,33 m**, mai 2025); o stock pesado está no rio, não dentro da albufeira. Tríade: achigã + sandre + siluro, com guias profissionais.
+**O que é:** albufeira quente do rio Ponsul — carpa dominante + tríade achigã/sandre/siluro. ⚠️ O reino do **siluro é o RIO a jusante** (recorde nacional de 102 kg), não a albufeira. Terreno, pontos de bike e a expedição a Malpica → **guia [🏞️ Idanha](IDANHA.md)**; aqui fica a ficha de espécies.
 
 | Nome PT | Típico | Grande | Como apanhar |
 |---|---|---|---|
@@ -121,7 +117,6 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 
 **⚠️ Atenção:** truta-fário só esporádica (desce dos afluentes — a sério é nas ribeiras frias); escalo (*S. pyrenaicus*) nativo; gambúsia/alburno/enguia provável mas não confirmado.
 
-**Dicas:** Reservatório de predador + carpa/barbo, **não** é lago de truta. Boa pesca de margem. Achigã presente mas modesto (a causa "furtivismo" que circula não tem confirmação documental). Confirma regras com ICNF / CM Idanha-a-Nova. **Guia prático da quinzena** (pontos de bike, siluro em Malpica) → [🏞️ Idanha](IDANHA.md).
 
 ---
 
