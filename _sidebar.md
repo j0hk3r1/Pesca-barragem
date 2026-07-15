@@ -17,3 +17,4 @@
 - [🌊 Arganil — Alva & Fronhas (a semana)](ARGANIL.md)
 - [🛶 Foz d'Alge — C. do Bode (a semana)](FOZALGE.md)
 - [🌾 Magos — Salvaterra (day-trip)](MAGOS.md)
+- [🌳 Minutos — Montemor (day-trip)](MINUTOS.md)
