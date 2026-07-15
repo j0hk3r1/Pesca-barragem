@@ -78,14 +78,30 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 
 ### 🧁 Method mix "Banana Split" — a receita da casa p/ carpa
 
-Mistura caseira para **method feeder** (estreia em Minutos, jul 2026) — **cada aditivo tem pedigree verificado**:
-- **Secos:** 5 medidas de pão ralado · 3 de farinha de milho · 2 de sêmola/cuscuz · 1 colher de açúcar · pitada de sal · 1-2 colheres de **proteína em pó sabor banana** — leite/whey em pó é [ingrediente clássico de engodo que faz "nuvem" leitosa na água](https://targetbaits.co.uk/blog/milk-powders-in-bait-what-they-do-why-they-matter-how-to-use-them/), e [banana é sabor de carpa reconhecido](https://baitmix.com/100-most-popular-carp-bait-flavors/) ([até há method mix comercial de banana](https://www.amazon.com/Carp-Baits-Groundbait-Chum-Feeder/dp/B0D2BRH3KF)); doces rendem no verão.
-- **Poção de hidratação:** a água da lata do milho (truque da casa: doce + amido) + **2 colheres de sopa de melaço** ([dose recomendada: até uns 30 ml/kg](https://www.britishaquafeeds.com/molasses); [dissolve em água quente primeiro](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/) — usado há décadas p/ [carpa, barbo e tenca](https://barbel.co.uk/forum/threads/molasses.14514/)) + **1 colher de chá de aroma de baunilha** (fake serve — a vanilina é [o aditivo clássico dos boilies](https://advancedhookbaits.co.uk/collections/range-vanillin), tipicamente [uns 30 g de açúcar baunilhado por kg](https://fishforcarp.co.uk/how-to-make-carp-fishing-flavors/)).
-- **Na margem:** hidrata aos poucos com a poção, repousa 10 min, retifica. Ponto certo: **aperta → bloco; esfrega → migalhas.** Junta milho esmagado + **punhado de asticots vivos na hora**.
-- **No method:** camada de mix, anzol com milho (molhado na poção), fecha com mix, aperta — e 3-4 asticots espetados na bola.
-- Teste do balde: a bola aguenta o mergulho e abre em 5-10 min. Desfaz à entrada = seca; inteira aos 20 min = molhada (corrige com pão ralado).
+> 🔬 **O que a ciência diz que apanha carpa:** o gatilho alimentar são **aminoácidos + betaína + nucleótidos** dissolvidos na água ([fisiologia gustativa da carpa](https://www.researchgate.net/publication/286828804_Gustatory_response_of_common_carp_Cyprinus_carpio_to_variable_concentrations_of_two_stimulatory_amino_acids)); o aroma só "acorda e chama" o peixe (olfato = sentido de distância), quem fecha é a **comida**. Por isso a mistura organiza-se por **função**, não por perfume — e **1 aroma chega** ([misturas menos potentes rendem mais e por mais tempo](https://www.fishingmagic.com/forums/threads/all-about-flavours.379721/); os aromas líquidos lavam-se, [o que fica no fundo são os óleos das partículas](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/)).
 
-> 💡 Leva os **secos já misturados** num saco e a poção num frasco — hidratar só na margem, ajustas ao dia. E doses são teto, não meta: **sabor a mais afasta** (a caixa lá em cima) — sobretudo em sítios muito pescados, [onde a baunilha já é cheiro conhecido](https://fishforcarp.co.uk/how-to-make-carp-fishing-flavors/).
+**Lote de dia — uns 850 g de mistura (1 sessão):**
+
+| Função | Ingrediente | Gramas | Porquê (ciência) |
+|---|---|:--:|---|
+| 🧱 **Base** (veículo + nuvem) | pão ralado | **300 g** | desfaz-se, faz nuvem, transporta tudo |
+| | farinha de milho | **180 g** | açúcares + liga |
+| | sêmola / cuscuz | **120 g** | dá "grão", segura no anzol |
+| 🪨 **Fica no fundo** (óleo lento) | cânhamo cozido | **150 g** | [o óleo persiste horas](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/) — ao contrário do aroma · *(ou 12 g de óleo de cânhamo na poção)* |
+| 🎯 **Gatilho** (betaína) | melaço | **30 g** (~1½ c. sopa) | [contém 4-7% de betaína](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/), que [faz a carpa saborear tudo mais intenso](https://carp-austria.com/en/feeding-boilies/) — não é "só doce" · [dissolve em água quente](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/) |
+| 🥛 **Comida** (aminoácidos + nuvem) | whey/proteína (banana) | **30 g** | [proteína de leite = nuvem leitosa + aminoácidos](https://targetbaits.co.uk/blog/milk-powders-in-bait-what-they-do-why-they-matter-how-to-use-them/) |
+| | açúcar | **15 g** | carpa gulosa |
+| | sal | **3 g** (pitada) | realça |
+| 🐛 **Comida viva** (o topo) | asticots vivos | **1-2 mãos**, na hora | comida que mexe = gatilho visual + químico |
+| 🌽 **Isco + partícula** | milho (lata, esmagado) | **~100 g** | o teu anzol + partícula no engodo |
+| 🍦 **Aroma** (opcional, 1 só) | banana **ou** baunilha | **2-3 ml** (gotas) | só "chama"; [fake serve](https://advancedhookbaits.co.uk/collections/range-vanillin) · **não somes 2** |
+
+- **Líquido:** a **água da lata do milho** + água q.b. até ao ponto (uns 250-350 ml) — junta o melaço morno aqui.
+- **Na margem:** hidrata aos poucos, repousa 10 min, retifica. Ponto certo: **aperta → bloco; esfrega → migalhas.** Junta o milho e os asticots **na hora**.
+- **No method:** camada de mix, anzol com milho, fecha com mix, aperta — e 3-4 asticots espetados na bola.
+- **Teste do balde:** a bola afunda direita e abre em 5-10 min. Desfaz à entrada = seca (mais água); inteira aos 20 min = molhada (mais pão ralado).
+
+> 💡 Leva os **secos já misturados** num saco e o melaço num frasco — hidrata só na margem. **O esforço vai para a comida** (cânhamo, whey, asticots, milho — o que tem aminoácidos), não para o perfume: um aroma dominante chega, dois ou três não somam. ⚠️ **Óleo de peixe:** ótimo atrativo mas é **zona cinzenta legal** (peixe como engodo é proibido; óleo é derivado) → em águas interiores fica pelo cânhamo/vegetal. **Sem balança na margem?** As proporções que interessam são **base 3:2:1** (pão:farinha:sêmola) e o resto "a olho" pela textura.
 
 ### 🟤 Peixe-gato — engodo "cheiro" (chum)
 Caça pelo **olfato** (super sensível a cheiros/aminoácidos) → aqui o engodo é **cheiro forte**, não comida fina. → [Peixe-gato](EXEMPLOS-MODULAR.md#ex-gato)
