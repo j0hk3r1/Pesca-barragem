@@ -76,6 +76,17 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 - **Carpa / barbo:** junta **milho, grão cozido, partículas**; adoça com **mel / baunilha / açúcar**. → [Carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [Barbo](EXEMPLOS-MODULAR.md#ex-barbo)
 - **Boga / peixe pequeno:** mistura **mais fina** (pão ralado + farinha + **farinha de amendoim**, pouca partícula) — só para os **manter**, não encher. → [Boga](EXEMPLOS-MODULAR.md#ex-boga)
 
+### 🧁 Method mix "Banana Split" — a receita da casa p/ carpa
+
+Mistura caseira para **method feeder** (testada a estrear em Minutos, jul 2026):
+- **Secos:** 5 medidas de pão ralado · 3 de farinha de milho · 2 de sêmola/cuscuz · 1 colher de açúcar · pitada de sal · 1-2 colheres de **proteína em pó sabor banana** (nubla a água e liga)
+- **Poção de hidratação:** a água da lata do milho + **2-3 colheres de sopa de melaço** + **1 colher de chá de aroma de baunilha** (fake serve — ver caixa da vanilina acima), morna para dissolver
+- **Na margem:** hidrata aos poucos com a poção, repousa 10 min, retifica. Ponto certo: **aperta → bloco; esfrega → migalhas.** Junta milho esmagado + **punhado de asticots vivos na hora**.
+- **No method:** camada de mix, anzol com milho (molhado na poção), fecha com mix, aperta — e 3-4 asticots espetados na bola.
+- Teste do balde: a bola aguenta o mergulho e abre em 5-10 min. Desfaz à entrada = seca; inteira aos 20 min = molhada (corrige com pão ralado).
+
+> 💡 Leva os **secos já misturados** num saco e a poção num frasco — hidratar só na margem, ajustas ao dia.
+
 ### 🟤 Peixe-gato — engodo "cheiro" (chum)
 Caça pelo **olfato** (super sensível a cheiros/aminoácidos) → aqui o engodo é **cheiro forte**, não comida fina. → [Peixe-gato](EXEMPLOS-MODULAR.md#ex-gato)
 - **O que resulta:** fígado, **sangue** (de talho), miúdos de frango, **ração de cão/gato** gorda, **queijo forte**, chouriço — ou **grãos fermentados** (trigo/milho de molho 1–2 dias até azedar).
