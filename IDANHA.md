@@ -1,6 +1,6 @@
 # 🏞️ Idanha — Barragem Marechal Carmona *(guia das 2 semanas)*
 
-> 🗒️ Guia prático para a quinzena em Idanha-a-Nova (campismo junto à albufeira, pesca de **bike + margem**). Fontes linkadas no texto; coordenadas auditadas. *(Secção temporária, como Avis/Campings.)*
+> 🗒️ Guia prático para a quinzena em Idanha-a-Nova (campismo junto à albufeira, pesca de **bike + margem**). Fontes linkadas no texto; coordenadas auditadas. *(Secção temporária.)**
 
 **A água em 1 parágrafo:** a albufeira (78 hm³, rio Ponsul) é o [**principal polo de pesca de competição da região de Castelo Branco**](https://www.guiadacidade.pt/en/poi-barragem-marechal-carmona-20448) — capturas dominadas por **carpa** (verão), com **sandre e achigã** presentes e barbo/boga mais na época fria. O **siluro é a estrela do concelho, MAS o reino dele é o rio Ponsul lá em baixo** (ponte de Malpica — o [recorde nacional de 102 kg](https://www.publico.pt/2025/05/02/azul/noticia/siluro-102-quilos-capturado-afluente-tejo-especie-invasora-afectado-rios-portugueses-2131761) saiu de lá, **de margem**): na albufeira em si **não há uma única captura documentada** — é aposta, não certeza.
 

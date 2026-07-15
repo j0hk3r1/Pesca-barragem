@@ -15,7 +15,6 @@
   - [🪢 Nós (qual usar)](NOS.md)
 
 - **🗺️ Sítios (a crescer)**
-  - [🏕️ Campings (planeamento)](CAMPINGS.md)
   - [🎏 Avis — Maranhão](AVIS.md)
   - [🏞️ Idanha — M. Carmona](IDANHA.md)
   - [🌊 Arganil — Alva & Fronhas](ARGANIL.md)
