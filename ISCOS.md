@@ -78,14 +78,14 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 
 ### 🧁 Method mix "Banana Split" — a receita da casa p/ carpa
 
-Mistura caseira para **method feeder** (testada a estrear em Minutos, jul 2026):
-- **Secos:** 5 medidas de pão ralado · 3 de farinha de milho · 2 de sêmola/cuscuz · 1 colher de açúcar · pitada de sal · 1-2 colheres de **proteína em pó sabor banana** (nubla a água e liga)
-- **Poção de hidratação:** a água da lata do milho + **2-3 colheres de sopa de melaço** + **1 colher de chá de aroma de baunilha** (fake serve — ver caixa da vanilina acima), morna para dissolver
+Mistura caseira para **method feeder** (estreia em Minutos, jul 2026) — **cada aditivo tem pedigree verificado**:
+- **Secos:** 5 medidas de pão ralado · 3 de farinha de milho · 2 de sêmola/cuscuz · 1 colher de açúcar · pitada de sal · 1-2 colheres de **proteína em pó sabor banana** — leite/whey em pó é [ingrediente clássico de engodo que faz "nuvem" leitosa na água](https://targetbaits.co.uk/blog/milk-powders-in-bait-what-they-do-why-they-matter-how-to-use-them/), e [banana é sabor de carpa reconhecido](https://baitmix.com/100-most-popular-carp-bait-flavors/) ([até há method mix comercial de banana](https://www.amazon.com/Carp-Baits-Groundbait-Chum-Feeder/dp/B0D2BRH3KF)); doces rendem no verão.
+- **Poção de hidratação:** a água da lata do milho (truque da casa: doce + amido) + **2 colheres de sopa de melaço** ([dose recomendada: até ~30 ml/kg](https://www.britishaquafeeds.com/molasses); [dissolve em água quente primeiro](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/) — usado há décadas p/ [carpa, barbo e tenca](https://barbel.co.uk/forum/threads/molasses.14514/)) + **1 colher de chá de aroma de baunilha** (fake serve — a vanilina é [o aditivo clássico dos boilies](https://advancedhookbaits.co.uk/collections/range-vanillin), tipicamente [~30 g de açúcar baunilhado por kg](https://fishforcarp.co.uk/how-to-make-carp-fishing-flavors/)).
 - **Na margem:** hidrata aos poucos com a poção, repousa 10 min, retifica. Ponto certo: **aperta → bloco; esfrega → migalhas.** Junta milho esmagado + **punhado de asticots vivos na hora**.
 - **No method:** camada de mix, anzol com milho (molhado na poção), fecha com mix, aperta — e 3-4 asticots espetados na bola.
 - Teste do balde: a bola aguenta o mergulho e abre em 5-10 min. Desfaz à entrada = seca; inteira aos 20 min = molhada (corrige com pão ralado).
 
-> 💡 Leva os **secos já misturados** num saco e a poção num frasco — hidratar só na margem, ajustas ao dia.
+> 💡 Leva os **secos já misturados** num saco e a poção num frasco — hidratar só na margem, ajustas ao dia. E doses são teto, não meta: **sabor a mais afasta** (a caixa lá em cima) — sobretudo em sítios muito pescados, [onde a baunilha já é cheiro conhecido](https://fishforcarp.co.uk/how-to-make-carp-fishing-flavors/).
 
 ### 🟤 Peixe-gato — engodo "cheiro" (chum)
 Caça pelo **olfato** (super sensível a cheiros/aminoácidos) → aqui o engodo é **cheiro forte**, não comida fina. → [Peixe-gato](EXEMPLOS-MODULAR.md#ex-gato)
