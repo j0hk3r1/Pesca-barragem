@@ -2,6 +2,8 @@
 
 Tamanhos realistas. Espécies incertas marcadas com **⚠️ Atenção**. Em todas precisas de **licença de pesca lúdica (ICNF)** + respeitar tamanhos mínimos e defesos → tudo em [**⚖️ Regras & licença**](REGRAS.md).
 
+> 🗺️ **Guias práticos por sítio** (spots GPS, receitas locais, estado da água) — secção **Sítios** da barra lateral: [Maranhão/Avis](AVIS.md) · [Idanha](IDANHA.md) · [Fronhas/Arganil](ARGANIL.md) · [C. do Bode/Foz d'Alge](FOZALGE.md) · [Magos](MAGOS.md) · [Minutos](MINUTOS.md). Esta página é a **ficha de espécies**; os guias são o terreno.
+
 > 🐟 **Truta?** Não nas barragens (água quente) — só nos **rios** frios → [🏞️ Rios (Centro & Estrela)](RIOS.md).
 
 ---
@@ -95,7 +97,7 @@ Cada peixe liga ao **exemplo de montagem** (com diagrama + material linkado à D
 - **Truta** — a pescaria a sério é **no rio/afluentes frios a montante, NÃO no lago**. Arco-íris só por repovoamento ICNF.
 - **Lúcio (Esox lucius)** — existe em PT como invasor (sobretudo Guadiana); mal documentado em Castelo do Bode. O predador desta albufeira é o **lúcio-perca/sandre** — peixe diferente, não confundir.
 
-**Dicas:** Não é Alqueva — achigã raramente +3 kg, mas **sandre estabelecido, troféus de 4 kg+ reais**. Lagostim-vermelho abundantíssimo alimenta tudo.
+**Dicas:** Não é Alqueva — achigã raramente +3 kg, mas **sandre estabelecido, troféus de 4 kg+ reais**. Lagostim-vermelho abundantíssimo alimenta tudo. **Guia prático da semana** (canal do Zêzere, Pista do Poeiro, spots auditados) → [🛶 Foz d'Alge](FOZALGE.md).
 
 **Mínimos/defeso:** achigã 20 cm, truta 20 cm. ⚠️ **16 Mar–14 Mai = defeso do ACHIGÃ** (não da truta). Truta: época ~fim Mar a início Ago (varia por edital). Exóticos (sandre/siluro/lúcio): **sem mínimo nem defeso** (captura incentivada).
 

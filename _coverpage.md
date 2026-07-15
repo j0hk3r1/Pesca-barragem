@@ -5,8 +5,8 @@
 > Setup completo para **barragens e rios** portugueses — material, montagens, nós, peixes.
 
 - 🛒 Material **da Decathlon** — tudo com link para clicar
-- 🎯 5 carretos · setup leve (amostra/boia) + pesado (fundo) · iniciante
-- 🐟 Barragens: Alqueva · Odivelas · Castelo do Bode · Idanha
+- 🎯 Setup leve (amostra/boia) + pesado (fundo) · braid vs mono · iniciante
+- 🐟 Barragens & guias de sítio: Alqueva · C. do Bode · Idanha · Maranhão · Magos · Minutos…
 - 🏞️ Rios: Alva · Ceira · Zêzere · Serra da Estrela (truta)
 
 [⚡ No sítio (guia rápido)](NOSITIO.md)

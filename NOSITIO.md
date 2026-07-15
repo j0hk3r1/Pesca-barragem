@@ -31,4 +31,4 @@
 
 ---
 
-> 🎒 **Antes de sair de casa:** [Material](MATERIAL.md) · [Tamanhos & setups](TAMANHOS.md#anzol) · [Os teus carretos](README.md)
+> 🎒 **Antes de sair de casa:** [Material](MATERIAL.md) · [Braid vs mono & linhas](TAMANHOS.md#anzol) · [Guias de sítio](README.md) (secção 🗺️ na barra lateral)

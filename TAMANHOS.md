@@ -1,6 +1,6 @@
 # 📏 Tamanhos & cores
 
-> **Hub dos setups:** os teus **5 carretos** e que linha cada um → **Tabela A**. Depois afina o **leader + anzol** ao peixe → **Tabela B**.
+> **Hub dos setups:** que **linha-mãe** (grossura/kg, braid vs mono) → primeira secção. Depois afina o **leader + anzol** ao peixe → tabela por peixe.
 
 **Regra base:** o anzol (hook) escolhe-se pelo **isco (bait) / boca do peixe**, não pelo peso do peixe. O destorcedor (swivel) leva-se sempre **pequeno** (nunca é o elo fraco).
 
@@ -29,21 +29,22 @@ Regra: **o que o peixe vê debaixo de água = discreto** (leader, anzol, destorc
 
 ---
 
-## 🎣 Os teus setups — carreto · linha-mãe · leader
+## 🎣 Linha-mãe — braid vs mono e que grossura
 
 <a id="anzol"></a>
 
-**A) Setup base — que linha-mãe em cada carreto** (esquece a cana; manda o **carreto + linha**):
+**A) Braid (trançado) ou mono? A decisão em 30 segundos:**
 
-| Carreto | Linha-mãe | Para |
+| | 🧵 **Mono** | 🪢 **Braid (trançado)** |
 |---|---|---|
-| 🪶 **WXM 100** | trançado [TX4 0,12](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) (~5–6 kg) + leader fluoro | amostra (predador) — sensível, longe |
-| 🪶 **RFT 100** | trançado [TX4 0,12](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) + leader fluoro | amostra ou boia |
-| 💪 **Sofi M2** | mono [LINE 100 0,40](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (~11 kg) | carpa / gato 10–15 kg |
-| 💪 **Sofi verde** | [TX4 33/100](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) **(27,5 kg / 60 lb)** — chega de sobra (o elo fraco é o **carreto/freio velho**, não a linha; subir não ajuda) | siluro (Tejo/Idanha) |
-| ⚙️ **velhos pequenos** | mono fina [LINE 4X4](https://www.decathlon.pt/p/fio-de-pesca-line-4x4-250-m/194133/c4m8407160) 0,20–0,25 | boia / fundo leve (peixe pequeno) |
+| **Elasticidade** | **estica ~10-25%** → perdoa ferradas brutas, freios velhos aos trancos e carpa a arrancar perto | **zero** → sensibilidade total e ferra instantânea a distância |
+| **Melhor para** | **carpa/fundo a curta distância** (5-30 m) · bóia · **vara rígida** (o mono é o amortecedor que ela não tem) | **amostra/predador** (sentes tudo) · **siluro** (força bruta) · feeder a longa distância com **vara que dobre** |
+| **Grossuras típicas** | bóia 0,18-0,22 · fundo médio **0,28-0,30 (uns 7 kg)** · carpa/gato grande **0,35-0,40 (9-11 kg)** | amostra **0,12-0,16 (5-9 kg)** · siluro **0,30 (27 kg)** |
+| **Senões** | degrada c/ sol e anos (**testa linha velha com a balança antes de confiar**) · mais grosso = lança menos | é visível e abrasa → **precisa SEMPRE de leader** (fluoro/mono) · exige freio suave |
 
-**B) Leader (empate) por peixe + peso** — afina **só a ponta** ao alvo do dia. A linha-mãe forte **não afasta os pequenos**; o que conta é o **empate + anzol + isco**:
+> **Regras de ouro:** vara rígida + braid = anzóis arrancados (rígido pede mono) · braid a menos de 20 m de carpa = a mesma coisa (sem topshot de mono) · linha-mãe forte **não afasta os pequenos** — o que o peixe avalia é o **empate + anzol + isco**. Produtos de referência: [TX4 braid](https://www.decathlon.pt/p/multifilamento-de-pesca-com-amostra-4-fibras-tx4-130-m-caqui/362170/c109m8933473) · [mono LINE 100](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703). *(Que carreto/cana usa cada linha é contigo — [arquivo de kits](arquivo/kits-2026-07.md).)*
+
+**B) Leader (empate) por peixe + peso** — afina **só a ponta** ao alvo do dia:
 
 | Peixe (peso) | Leader / empate | Anzol | Chumbo / peso |
 |---|---|---|---|

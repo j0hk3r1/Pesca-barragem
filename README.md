@@ -16,21 +16,13 @@ Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol,
 
 ---
 
-## 🎣 Os teus 5 carretos — e que setup cada um
+## 🎣 Canas & carretos — o princípio
 
-**Esquece a cana** (pões cada carreto onde quiseres) — manda o **carreto + linha-mãe**. Depois afinas a **ponta** (leader/anzol) ao peixe.
+**Esquece a marca da cana** — o que manda é **carreto + linha-mãe** adequados ao peso do peixe, e depois afinas a **ponta** (leader/anzol) ao peixe do dia. Que grossura/kg de linha, braid vs mono, e que anzol por peixe → [📏 Tamanhos](TAMANHOS.md#anzol).
 
-| Carreto | Linha-mãe | Para |
-|---|---|---|
-| 🪶 **WXM 100** | trançado 0,12 + leader fluoro | amostra (predador) — a principal |
-| 🪶 **RFT 100** | trançado 0,12 + leader fluoro | amostra ou boia |
-| 💪 **Sofi M2** | mono 0,40 (~11 kg) | carpa / gato 10–15 kg |
-| 💪 **Sofi verde** | trançado de siluro | siluro (Tejo/Idanha) |
-| ⚙️ **velhos pequenos** | mono fina 0,20–0,25 | boia / fundo leve (peixe pequeno) |
-
-> 📋 **Setup completo** (linha-mãe linkada + leader/anzol/chumbo **por peixe e peso**) → [📏 Tamanhos](TAMANHOS.md#anzol). **Carpa e gato usam quase a mesma linha** — muda só a **ponta**; por isso **2 Sofi = 2 setups** (trocas o carreto em 10 s).
+> 🧰 Que carreto pões em que cana é **decisão tua e muda com a frota** (a fotografia dos kits de julho 2026 está guardada em [arquivo](arquivo/kits-2026-07.md)).
 >
-> ⚖️ Na água, **máx. 2 canas montadas** por pescador → [Regras](REGRAS.md). O setup pesado (Sofi) → [📏 Tamanhos](TAMANHOS.md#fundo).
+> ⚖️ Na água, **máx. 2 canas montadas** por pescador → [Regras](REGRAS.md). Setup pesado (fundo/peixe grande) → [📏 Tamanhos](TAMANHOS.md#fundo).
 
 ---
 

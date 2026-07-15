@@ -32,7 +32,7 @@ Cobre quase todos os peixes ao teu alcance: achigã, perca-sol, boga, ruivaco, c
 
 Carretos **Sofi** com **linha mais forte** e acessórios próprios, para carpa 10 kg+, barbo grande e peixe-gato. Montagem ledger → [Carpa](EXEMPLOS-MODULAR.md#ex-carpa); linha/freio/shock leader → [📏 Tamanhos](TAMANHOS.md#fundo).
 
-- 🧵 **Linha** — mono [LINE 100 0,40](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (~11 kg) no Sofi M2 p/ carpa; **trançado de siluro** no Sofi verde p/ peixe grande. Porquê mono, fusível e shock leader → [📏 Tamanhos](TAMANHOS.md#fundo).
+- 🧵 **Linha** — mono [LINE 100 0,40](https://www.decathlon.pt/p/fio-de-pesca-a-carpa-line-100-castanho-300-m/149435/m8355703) (uns 11 kg) p/ carpa/gato; **trançado (uns 27 kg)** p/ siluro. Braid vs mono, fusível e shock leader → [📏 Tamanhos](TAMANHOS.md#anzol).
 - ⚖️ **Chumbadas 60–100 g** (perto → longe) — [azeitona furada (até 60 g)](https://www.decathlon.pt/p/lastro-de-pesca-azeitonas-perfuradas/7820/m4451548); as tuas de **~100 g** p/ longe
 - 🔘 **Batentes + pérolas** — [Nós de bloqueio c/ pérolas](https://www.decathlon.pt/p/nos-de-bloqueio-de-pesca-a-inglesa-com-boia-deslizante-conjunto-de-5/355294/m8883379)
 - 🪜 **Forquilhas** (cana pousada) — [dianteira (estaca V)](https://www.decathlon.pt/p/suportes-de-canas-pesca-agua-doce-estaca-telescopica-cabeca-v-45-70/X8328117/m8328117) + [traseira](https://www.decathlon.pt/p/suporte-dobravel-de-cana-de-pesca-em-agua-doce-plastico/314162/m8328113)
