@@ -94,14 +94,17 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 | | sal | **3 g** (pitada) | realça |
 | 🐛 **Comida viva** (o topo) | asticots vivos | **1-2 mãos**, na hora | comida que mexe = gatilho visual + químico |
 | 🌽 **Isco + partícula** | milho (lata, esmagado) | **~100 g** | o teu anzol + partícula no engodo |
-| 🍦 **Aroma** (opcional, 1 só) | banana **ou** baunilha | **2-3 ml** (gotas) | só "chama"; [fake serve](https://advancedhookbaits.co.uk/collections/range-vanillin) · **não somes 2** |
+
+> 🚫 **Aroma em frasco: não é preciso.** O **whey de banana já traz o cheiro** (e é comida a sério) — juntar-lhe baunilha/banana por cima é duplicar o "anúncio", que é [o efeito mais fraco e o que se lava primeiro](https://www.fishingmagic.com/forums/threads/all-about-flavours.379721/). Se **não** usares whey de sabor, aí sim mete **um** aroma (2-3 ml). Nunca dois.
 
 - **Líquido:** a **água da lata do milho** + água q.b. até ao ponto (uns 250-350 ml) — junta o melaço morno aqui.
 - **Na margem:** hidrata aos poucos, repousa 10 min, retifica. Ponto certo: **aperta → bloco; esfrega → migalhas.** Junta o milho e os asticots **na hora**.
 - **No method:** camada de mix, anzol com milho, fecha com mix, aperta — e 3-4 asticots espetados na bola.
 - **Teste do balde:** a bola afunda direita e abre em 5-10 min. Desfaz à entrada = seca (mais água); inteira aos 20 min = molhada (mais pão ralado).
 
-> 💡 Leva os **secos já misturados** num saco e o melaço num frasco — hidrata só na margem. **O esforço vai para a comida** (cânhamo, whey, asticots, milho — o que tem aminoácidos), não para o perfume: um aroma dominante chega, dois ou três não somam. ⚠️ **Óleo de peixe:** ótimo atrativo mas é **zona cinzenta legal** (peixe como engodo é proibido; óleo é derivado) → em águas interiores fica pelo cânhamo/vegetal. **Sem balança na margem?** As proporções que interessam são **base 3:2:1** (pão:farinha:sêmola) e o resto "a olho" pela textura.
+> ☀️ **No calor (a tua pesca):** engodo rico **azeda ao sol e mata o pesqueiro** → (1) mistura mais **húmida/solta** para abrir depressa e fazer atividade; (2) **pouco e muitas vezes**, nunca despejar (o method é feito para isto); (3) mistura e asticots **à sombra/geleira**, hidrata fresco na margem.
+
+> 💡 Leva os **secos já misturados** num saco e o melaço num frasco — hidrata só na margem. **O esforço vai para a comida** (cânhamo, whey, asticots, milho — o que tem aminoácidos), não para o perfume. ⚠️ **Óleo de peixe:** ótimo atrativo mas é **zona cinzenta legal** (peixe como engodo é proibido; óleo é derivado) → em águas interiores fica pelo cânhamo/vegetal. **Sem balança na margem?** As proporções que interessam são **base 3:2:1** (pão:farinha:sêmola) e o resto "a olho" pela textura.
 
 ### 🟤 Peixe-gato — engodo "cheiro" (chum)
 Caça pelo **olfato** (super sensível a cheiros/aminoácidos) → aqui o engodo é **cheiro forte**, não comida fina. → [Peixe-gato](EXEMPLOS-MODULAR.md#ex-gato)
