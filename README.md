@@ -53,7 +53,8 @@ Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol,
 | 🏞️ [**Idanha — M. Carmona**](IDANHA.md) | Guia da quinzena: pontos de bike, siluro em Malpica *(temporária)* |
 | 🌊 [**Arganil — Alva & Fronhas**](ARGANIL.md) | Guia da semana: rio à porta + achigã técnico em Fronhas *(temporária)* |
 | 🛶 [**Foz d'Alge — C. do Bode**](FOZALGE.md) | Guia da semana: canal do Zêzere à porta, sandre, Pista do Poeiro *(temporária)* |
-| 🌾 [**Magos — Salvaterra**](MAGOS.md) | Day-trip de Lisboa: carpa a 1h só com a licença geral *(temporária)* |
+| 🏆 [**Pego do Altar — Alcácer**](PEGOALTAR.md) | Day-trip: carpa/barbo de margem, achigã de números *(temporária)* |
+| 🌾 [**Magos — Salvaterra**](MAGOS.md) | Day-trip a 1h — ⛔ evitar no verão (eutrofização) *(temporária)* |
 | 🌳 [**Minutos — Montemor**](MINUTOS.md) | Day-trip: água grande a 1h30, achigã + noturna legal *(temporária)* |
 
 ---
