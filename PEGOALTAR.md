@@ -15,7 +15,25 @@
 
 Estrada: **EN253** (Alcácer ↔ Montemor). Do Minutos fica a **58 min · 53 km** — dá para trocar de plano a meio da viagem.
 
-> 🚙 **Acessibilidade (relato de quem tem carro baixo, [jan-2022](https://www.pesqueiro.pt/index.php?topic=31989.0)):** *"A zona do paredão e Santa Susana têm uns acessos bons; **em Santa Susana até dá bem para andar paralelo à água** uma boa distância sem problemas."* ⚠️ A exceção: o **atalho de terra para a "zona plana" do paredão tem pedras soltas** — um forista teve dificuldade em subi-lo de volta ([2020](https://www.pesqueiro.pt/index.php?topic=27493.0)). Com a albufeira alta, os **braços da estrada Alcáçovas ↔ Sta. Margarida do Sado ficam quase junto à estrada**, terreno fácil.
+> 🚙 **Acessibilidade (relato de quem tem carro baixo, [jan-2022](https://www.pesqueiro.pt/index.php?topic=31989.0)):** *"A zona do paredão e Santa Susana têm uns acessos bons; **em Santa Susana até dá bem para andar paralelo à água** uma boa distância sem problemas."* ⚠️ A exceção: o **atalho de terra para a "zona plana" do paredão tem pedras soltas** — um forista teve dificuldade em subi-lo de volta ([2020](https://www.pesqueiro.pt/index.php?topic=27493.0)).
+
+---
+
+## 📍 Os spots (auditados na geometria OSM)
+
+**A albufeira é grande: 671 ha e ~10 km de comprimento** (medido no polígono OSM), toda para **leste do paredão** — "ir ao Pego do Altar" não chega, escolhe o ponto. Estes são os sítios onde **uma estrada chega mesmo à água** (distância via↔margem calculada; chegada de carro confirmada por routing):
+
+| Spot | 📍 margem | Acesso | Notas |
+|---|---|---|---|
+| 🥇 **"Zona plana" do paredão** | [38.4197, -8.3921](https://www.google.com/maps?q=38.4197,-8.3921) ✅ | estrada **a 16 m da água** · 82 min de Lisboa | **É este o spot dos relatos** — fica a **~120 m a norte do paredão**, e bate com o *"zona plana, perto da parede (150 m)"* onde saíram [carpas e barbos](https://www.pesqueiro.pt/index.php?topic=27493.0). ⚠️ pedras soltas no atalho |
+| 🥈 **Santa Susana — margem** | [38.4465, -8.3790](https://www.google.com/maps?q=38.4465,-8.3790) ✅ | Rua da Liberdade **a 39 m da água** · 83 min | a margem onde *"dá bem para andar paralelo à água"* — a zona da aldeia/restaurante, do [relato dos 50 achigãs](https://www.pesqueiro.pt/index.php?topic=30549.0) |
+| 🥉 **Cauda SE** | [38.3963, -8.3105](https://www.google.com/maps?q=38.3963,-8.3105) ✅ | caminho **a 20 m da água** · 88 min | braço sul-nascente, longe de tudo — água mais rasa e quente, **barbo/boga** |
+| **Braço leste** | [38.4283, -8.3183](https://www.google.com/maps?q=38.4283,-8.3183) ✅ | caminho **a 11 m da água** · 103 min | o mais isolado (a estrada acaba a 160 m — resto a pé) |
+| **Margem norte (CM 1066)** | [38.4424, -8.3666](https://www.google.com/maps?q=38.4424,-8.3666) ✅ | caminho municipal **a 14 m da água** | ⚠️ o routing dá **2h20** (volta enorme) — só se já estiveres do lado norte |
+
+> ⚠️ **Honestidade sobre os caminhos:** os acessos à cauda e aos braços são **caminhos de terra sem estatuto de acesso no OSM** — em Alentejo isso costuma significar **atravessar herdades**. Os únicos dois confirmados por pescadores são o **paredão** e **Santa Susana** — começa por esses. Se encontrares portão fechado, não insistas.
+
+> 💡 **Regra do dia:** com a albufeira alta (76-81%), os **braços da estrada Alcáçovas ↔ Sta. Margarida do Sado ficam quase junto à estrada** e o terreno é fácil ([relato jan-2022](https://www.pesqueiro.pt/index.php?topic=31989.0)) — vale espreitar de carro pela EN253 a caminho.
 
 ## ⚖️ Legal
 
@@ -42,7 +60,17 @@ Estrada: **EN253** (Alcácer ↔ Montemor). Do Minutos fica a **58 min · 53 km*
 
 ## 🔵 Carpa & barbo — a receita local (é isto que vais fazer)
 
-- **O spot**: *"apanhei lá carpas e barbos, na **zona plana, perto da parede da barragem (150 m)**"* ([jun-2020](https://www.pesqueiro.pt/index.php?topic=27493.0)); *"pouco achigã mas **muito barbo e carpa**"* (ago-2020, mesmo tópico). *"Sempre foi uma barragem com uns belos barbos"* ([2021](https://www.pesqueiro.pt/index.php?topic=30549.0)).
+> 📊 **A prova de que há carpa (e é a espécie dominante)** — dados oficiais do [relatório ICNF de provas de pesca desportiva 2001-2009](https://www.icnf.pt/api/file/doc/78ad2f7144880a05) (tabelas 5.2.45/46): *"Nestes concursos foram capturadas **maioritariamente carpas**, seguindo-se barbos, pimpões e bordalos."*
+>
+> | Prova (4 h) | 🐟 Carpas | Barbos | Bogas | Bordalos | Pimpões | kg de carpa |
+> |---|:--:|:--:|:--:|:--:|:--:|:--:|
+> | Maio 2002 · 24 pescadores | **140** | 22 | — | — | 10 | 53 kg |
+> | Junho 2004 · 55 pescadores | **322** | 16 | — | 25 | — | 251 kg |
+> | **Julho 2005** · 62 pescadores | **450** | 75 | 300 | 50 | 30 | 160 kg |
+>
+> **Lê-se assim:** em **julho** (a tua época), 450 carpas em 4 h com 62 pescadores = **~7 carpas por pescador**. Tamanho médio: **~780 g** (2004) e **~355 g** (2005) → **carpa de números, não de troféu**. A boga aparece em força no verão (300 numa prova). ⚠️ Dados de 2001-2005 e a **seca de 2017** abalou a albufeira — mas a estrutura da população (água de ciprinídeo dominada por carpa) mantém-se nos relatos de 2020-21 *(inferência)*.
+
+- **O spot**: *"apanhei lá carpas e barbos, na **zona plana, perto da parede da barragem (150 m)**"* ([jun-2020](https://www.pesqueiro.pt/index.php?topic=27493.0)) — **georreferenciado na tabela de spots acima**; *"pouco achigã mas **muito barbo e carpa**"* (ago-2020, mesmo tópico). *"Sempre foi uma barragem com uns belos barbos"* ([2021](https://www.pesqueiro.pt/index.php?topic=30549.0)).
 - 🥇 **A receita do barbo no verão** ([relato detalhado, jul-2021](https://www.pesqueiro.pt/index.php?topic=30549.0)): **madrugada e pôr-do-sol** (aproximam-se da margem no calor) · **oliva de 8 g a correr** · **anzol #12 em 0,16 direto** · **milho** · **engodar pouco** · procura **zonas mais fundas entrecaladas com baixios**.
 - Nota: fio 0,16 é fino para barbo grande — sobe para 0,20-0,25 se quiseres margem ([Tamanhos](TAMANHOS.md#anzol)); o relato usa fino porque *"não gostam de fios grossos"* (mesma doutrina de Avis).
 - Carpa: cena de **volume, não de troféu** — [há carpfishing lá documentado](https://www.youtube.com/watch?v=z4z6YnrYKnI) (ago-2020) mas ninguém publicou pesos grandes. → [montagem carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo)
