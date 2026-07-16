@@ -95,6 +95,16 @@ Estrada: **EN253** (Alcácer ↔ Montemor). Do Minutos fica a **58 min · 53 km*
 - Santa Susana tem ~100 habitantes e quase nenhum comércio — **leva o isco e a água de casa**.
 - 💳 Licença: Multibanco (Nacional ou Regional Sul) → [Licenças](LICENCAS.md).
 
+## 🗓️ A coreografia do dia (o plano executável)
+
+1. **Chega cedo à zona plana** ([38.4197, -8.3921](https://www.google.com/maps?q=38.4197,-8.3921)) e escolhe **2 pontos**: um a 15-20 m, outro a 35-40 m (ou noutra direção), com **5-10 m entre eles**.
+2. **Põe as duas mesas — fase dos arames**: 6-8 lançamentos de **mola espiral** carregada com a mistura **mais solta** (abre rápido), a cada 2-3 min, sempre ao mesmo ponto (**clip + marca no horizonte**). Pode ir sem anzol — é engodar, não pescar. Uns 200-300 g de comida num círculo de 2 m por prato.
+3. **Troca para o method + cabelo** (mistura apertada) e pesca por cima dos pratos. ⚠️ **Mudar de feeder muda o peso** → o primeiro lançamento reconfirma o clip. Recarga a cada 10-15 min na primeira hora.
+4. **A primeira carpa decide**: as duas canas convergem para a linha vencedora — pratos separados 5-10 m, nunca em cima um do outro.
+5. **Anzóis: pequenos** — o peixe médio é 355-780 g (boca pequena): **#8-14 com 1-2 milhos no cabelo** apanha o que lá está *e* o grande que aparecer; anzol grande só perde picadas. O #6 fica na caixa para reação se aparecer peixe melhor. 💡 **Milho falso (impresso/plástico) no cabelo junto com um real** = o alburno não te rouba o isco e o conjunto quase-neutro mexe-se natural.
+6. **Meio-dia**: sombra/Mondina, mantém um prato alimentado (meia dúzia de cargas por hora). **Fim de tarde**: repete no prato quente.
+7. **Plano B (a manhã morreu ou o grupo quer ação)**: **Santa Susana** ([38.4465, -8.3790](https://www.google.com/maps?q=38.4465,-8.3790)) com a **cana leve** — boia + asticot = achigã miúdo e alburno sem tempos mortos ([o relato dos 50](https://www.pesqueiro.pt/index.php?topic=30549.0) foi ali). **Divisão da água: paredão = fundo/carpa · Santa Susana = ação/peixe pequeno.**
+
 ## ✅ Checklist
 
 - [ ] Licença (talão MB) + cartão de cidadão
