@@ -1,8 +1,10 @@
-# 🐟 Guia de Peixes — 4 Barragens
+# 🐟 Peixes por barragem — ficha de espécies
 
-Tamanhos realistas. Espécies incertas marcadas com **⚠️ Atenção**. Em todas precisas de **licença de pesca lúdica (ICNF)** + respeitar tamanhos mínimos e defesos → tudo em [**⚖️ Regras & licença**](REGRAS.md).
+**Esta página é a referência de espécies** (que peixe, tamanhos reais, método) — o **terreno** (spots GPS, acessos, receitas locais, estado da água) está nos **guias de sítio**, secção 🗺️ **Sítios** da barra lateral.
 
-> 🗺️ **Guias práticos por sítio** (spots GPS, receitas locais, estado da água) — secção **Sítios** da barra lateral: [Maranhão/Avis](AVIS.md) · [Idanha](IDANHA.md) · [Fronhas/Arganil](ARGANIL.md) · [C. do Bode/Foz d'Alge](FOZALGE.md) · [Magos](MAGOS.md) · [Minutos](MINUTOS.md). Esta página é a **ficha de espécies**; os guias são o terreno.
+Tamanhos realistas. Espécies incertas marcadas com **⚠️ Atenção**. Em todas precisas de **licença de pesca lúdica (ICNF)** + respeitar tamanhos mínimos e defesos → [**⚖️ Regras & licença**](REGRAS.md).
+
+> 🗺️ **Já tens guia de sítio:** [Maranhão/Avis](AVIS.md) · [Idanha](IDANHA.md) · [Fronhas/Arganil](ARGANIL.md) · [C. do Bode/Foz d'Alge](FOZALGE.md) · [Magos](MAGOS.md) · [Minutos](MINUTOS.md). **Só ficha (ainda sem guia de terreno):** Alqueva e Odivelas — ficam aqui em baixo.
 
 > 🐟 **Truta?** Não nas barragens (água quente) — só nos **rios** frios → [🏞️ Rios (Centro & Estrela)](RIOS.md).
 

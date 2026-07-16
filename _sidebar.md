@@ -21,3 +21,5 @@
   - [🛶 Foz d'Alge — C. do Bode](FOZALGE.md)
   - [🌾 Magos — Salvaterra](MAGOS.md)
   - [🌳 Minutos — Montemor](MINUTOS.md)
+  - [🐟 Alqueva — só ficha](PEIXES-BARRAGENS.md#dam-alqueva)
+  - [🐟 Odivelas — só ficha](PEIXES-BARRAGENS.md#dam-odivelas)
