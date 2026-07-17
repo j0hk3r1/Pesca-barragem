@@ -82,22 +82,25 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 
 > 🔬 **O que a ciência diz que apanha carpa:** o gatilho alimentar são **aminoácidos + betaína + nucleótidos** dissolvidos na água ([fisiologia gustativa da carpa](https://www.researchgate.net/publication/286828804_Gustatory_response_of_common_carp_Cyprinus_carpio_to_variable_concentrations_of_two_stimulatory_amino_acids)); o aroma só "acorda e chama" o peixe (olfato = sentido de distância), quem fecha é a **comida**. Por isso a mistura organiza-se por **função**, não por perfume — e **1 aroma chega** ([misturas menos potentes rendem mais e por mais tempo](https://www.fishingmagic.com/forums/threads/all-about-flavours.379721/); os aromas líquidos lavam-se, [o que fica no fundo são os óleos das partículas](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/)).
 
-**Lote base — uns 930 g de secos (≈1,2 kg hidratado):**
+**Receita para 1 kg de mistura** (≈1,3 kg hidratada):
 
-> ⚖️ **Quanto precisas mesmo?** A **~40 g por carga de method**, duas canas uma manhã (pratos + pesca) gastam **1,5-2 kg**. Este lote é **meia dose para 2 canas** → **faz lote duplo** se fores pescar o dia com duas canas. Sobrar é melhor que ficar a ver pratos por alimentar.
+> ⚖️ **Quanto fazer?** A **~40 g por carga de method**, **duas canas uma manhã** (pôr as mesas + pescar) gastam **1,5-2 kg** → **faz 2 kg (dobra tudo)**. 1 kg chega para **uma cana** ou uma sessão curta. Sobrar é melhor que ficar a ver pratos por alimentar.
 
-| Função | Ingrediente | Gramas | Porquê (ciência) |
+| Função | Ingrediente | Por 1 kg | Porquê (ciência) |
 |---|---|:--:|---|
-| 🧱 **Base** (veículo + nuvem) | pão ralado | **300 g** | desfaz-se, faz nuvem, transporta tudo |
-| | farinha de milho | **180 g** | açúcares + liga |
-| | sêmola / cuscuz | **120 g** | dá "grão", segura no anzol |
-| 🪨 **Fica no fundo** (óleo lento) | cânhamo cozido | **150 g** | [o óleo persiste horas](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/) — ao contrário do aroma · *(alternativa: **óleo, 10-15 ml/kg** na poção — ver caixa)* |
-| 🎯 **Gatilho** (betaína) | melaço | **30 g** (~1½ c. sopa) | [contém 4-7% de betaína](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/), que [faz a carpa saborear tudo mais intenso](https://carp-austria.com/en/feeding-boilies/) — não é "só doce" · [dissolve em água quente](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/) |
+| 🧱 **Base** (veículo + nuvem) | pão ralado | **330 g** | desfaz-se, faz nuvem, transporta tudo — é a base de todos os engodos |
+| | farinha de milho | **200 g** | açúcares + liga *(mais que isto = pasta pesada que não abre)* |
+| | sêmola / cuscuz | **130 g** | dá "grão", segura no anzol |
+| 🪨 **Fica no fundo** (óleo lento) | cânhamo cozido | **160 g** | [o óleo persiste horas](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/) — ao contrário do aroma · *(alternativa: **óleo, 10-15 ml/kg** na poção — ver caixa)* |
+| 🌽 **Isco + partícula** | milho (lata, esmagado) | **110 g** | o teu anzol + partícula no engodo |
+| 🎯 **Gatilho** (betaína) | melaço | **30 g** | [contém 4-7% de betaína](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/), que [faz a carpa saborear tudo mais intenso](https://carp-austria.com/en/feeding-boilies/) — **não é "só doce"** · [dissolve em água quente](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/) · teto: [uns 30 ml/kg](https://www.britishaquafeeds.com/molasses) |
 | 🥛 **Comida** (aminoácidos + nuvem) | whey/proteína (banana) | **30 g** | [proteína de leite = nuvem leitosa + aminoácidos](https://targetbaits.co.uk/blog/milk-powders-in-bait-what-they-do-why-they-matter-how-to-use-them/) |
-| | açúcar | **15 g** | carpa gulosa |
-| | sal | **3 g** (pitada) | realça |
+| | açúcar | **15 g** | doce · marginal (o melaço e o milho já adoçam) |
+| | sal | **3 g** (pitada) | realça · marginal |
 | 🐛 **Comida viva** (o topo) | asticots vivos | **1-2 mãos**, na hora | comida que mexe = gatilho visual + químico |
-| 🌽 **Isco + partícula** | milho (lata, esmagado) | **~100 g** | o teu anzol + partícula no engodo |
+| 💧 **Líquido** | água da lata do milho + água | **300-400 ml** | até ao ponto — ver teste abaixo |
+
+> 🥇 **Se tivesses de cortar tudo menos três:** **melaço** (betaína — o único que amplifica os outros), **asticots** (comida viva) e **cânhamo** (óleo que fica) — com **milho no anzol**. O resto é logística: leva a comida ao fundo e faz a nuvem.
 
 > 🚫 **Aroma em frasco: não é preciso.** O **whey de banana já traz o cheiro** (e é comida a sério) — juntar-lhe baunilha/banana por cima é duplicar o "anúncio", que é [o efeito mais fraco e o que se lava primeiro](https://www.fishingmagic.com/forums/threads/all-about-flavours.379721/). Se **não** usares whey de sabor, aí sim mete **um** aroma (2-3 ml). Nunca dois.
 
