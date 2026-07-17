@@ -88,11 +88,11 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 
 | Função | Ingrediente | Por 1 kg | Porquê (ciência) |
 |---|---|:--:|---|
-| 🧱 **Base** (veículo + nuvem) | pão ralado | **330 g** | desfaz-se, faz nuvem, transporta tudo — é a base de todos os engodos |
-| | farinha de milho | **200 g** | açúcares + liga *(mais que isto = pasta pesada que não abre)* |
-| | sêmola / cuscuz | **130 g** | dá "grão", segura no anzol |
-| 🪨 **Fica no fundo** (óleo lento) | cânhamo cozido | **160 g** | [o óleo persiste horas](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/) — ao contrário do aroma · *(alternativa: **óleo, 10-15 ml/kg** na poção — ver caixa)* |
-| 🌽 **Isco + partícula** | milho (lata, esmagado) | **110 g** | o teu anzol + partícula no engodo |
+| 🧱 **Base** (veículo + nuvem) | pão ralado | **350 g** | desfaz-se, faz nuvem, transporta tudo — é a base de todos os engodos |
+| | farinha de milho | **210 g** | açúcares + liga *(mais que isto = pasta pesada que não abre)* |
+| | sêmola / cuscuz | **140 g** | dá "grão", segura no anzol |
+| 🌽 **Partícula** (fica no fundo) | milho (lata, esmagado) | **220 g** | açúcares + aminoácidos · **é o que segura o cardume no prato** — e é o teu anzol (coerência engodo↔isco) |
+| 🛢️ **Slick** (cheiro que sobe) | óleo (cânhamo > vegetal) | **10-15 ml** | película que espalha cheiro — no verão dispersa bem · ⚠️ teto físico: mais **sela a bola** |
 | 🎯 **Gatilho** (betaína) | melaço | **30 g** | [contém 4-7% de betaína](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/), que [faz a carpa saborear tudo mais intenso](https://carp-austria.com/en/feeding-boilies/) — **não é "só doce"** · [dissolve em água quente](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/) · teto: [uns 30 ml/kg](https://www.britishaquafeeds.com/molasses) |
 | 🥛 **Comida** (aminoácidos + nuvem) | whey/proteína (banana) | **30 g** | [proteína de leite = nuvem leitosa + aminoácidos](https://targetbaits.co.uk/blog/milk-powders-in-bait-what-they-do-why-they-matter-how-to-use-them/) |
 | | açúcar | **15 g** | doce · marginal (o melaço e o milho já adoçam) |
@@ -100,7 +100,9 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 | 🐛 **Comida viva** (o topo) | asticots vivos | **1-2 mãos**, na hora | comida que mexe = gatilho visual + químico |
 | 💧 **Líquido** | água da lata do milho + água | **300-400 ml** | até ao ponto — ver teste abaixo |
 
-> 🥇 **Se tivesses de cortar tudo menos três:** **melaço** (betaína — o único que amplifica os outros), **asticots** (comida viva) e **cânhamo** (óleo que fica) — com **milho no anzol**. O resto é logística: leva a comida ao fundo e faz a nuvem.
+> 🥇 **Se tivesses de cortar tudo menos três:** **melaço** (betaína — o único que amplifica os outros), **asticots** (comida viva) e **milho** (partícula que segura + o anzol). O resto é logística: leva a comida ao fundo e faz a nuvem.
+
+> 🌾 **Upgrade quando houver (2-3 € numa loja de pesca): 160 g de cânhamo cozido** no lugar de 60-80 g de pão ralado. Faz o que o óleo **não** faz: o óleo dá o *slick* que se dispersa; o cânhamo é **partícula com óleo lá dentro** que fica horas no fundo a largar cheiro devagar — [é o que persiste quando tudo o resto já se lavou](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/). Coze 30-40 min até os grãos abrirem e mostrarem o gérmen branco.
 
 > 🚫 **Aroma em frasco: não é preciso.** O **whey de banana já traz o cheiro** (e é comida a sério) — juntar-lhe baunilha/banana por cima é duplicar o "anúncio", que é [o efeito mais fraco e o que se lava primeiro](https://www.fishingmagic.com/forums/threads/all-about-flavours.379721/). Se **não** usares whey de sabor, aí sim mete **um** aroma (2-3 ml). Nunca dois.
 
