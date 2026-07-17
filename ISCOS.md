@@ -82,14 +82,16 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 
 > 🔬 **O que a ciência diz que apanha carpa:** o gatilho alimentar são **aminoácidos + betaína + nucleótidos** dissolvidos na água ([fisiologia gustativa da carpa](https://www.researchgate.net/publication/286828804_Gustatory_response_of_common_carp_Cyprinus_carpio_to_variable_concentrations_of_two_stimulatory_amino_acids)); o aroma só "acorda e chama" o peixe (olfato = sentido de distância), quem fecha é a **comida**. Por isso a mistura organiza-se por **função**, não por perfume — e **1 aroma chega** ([misturas menos potentes rendem mais e por mais tempo](https://www.fishingmagic.com/forums/threads/all-about-flavours.379721/); os aromas líquidos lavam-se, [o que fica no fundo são os óleos das partículas](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/)).
 
-**Lote de dia — uns 850 g de mistura (1 sessão):**
+**Lote base — uns 930 g de secos (≈1,2 kg hidratado):**
+
+> ⚖️ **Quanto precisas mesmo?** A **~40 g por carga de method**, duas canas uma manhã (pratos + pesca) gastam **1,5-2 kg**. Este lote é **meia dose para 2 canas** → **faz lote duplo** se fores pescar o dia com duas canas. Sobrar é melhor que ficar a ver pratos por alimentar.
 
 | Função | Ingrediente | Gramas | Porquê (ciência) |
 |---|---|:--:|---|
 | 🧱 **Base** (veículo + nuvem) | pão ralado | **300 g** | desfaz-se, faz nuvem, transporta tudo |
 | | farinha de milho | **180 g** | açúcares + liga |
 | | sêmola / cuscuz | **120 g** | dá "grão", segura no anzol |
-| 🪨 **Fica no fundo** (óleo lento) | cânhamo cozido | **150 g** | [o óleo persiste horas](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/) — ao contrário do aroma · *(ou 12 g de óleo de cânhamo na poção)* |
+| 🪨 **Fica no fundo** (óleo lento) | cânhamo cozido | **150 g** | [o óleo persiste horas](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/) — ao contrário do aroma · *(alternativa: **óleo, 10-15 ml/kg** na poção — ver caixa)* |
 | 🎯 **Gatilho** (betaína) | melaço | **30 g** (~1½ c. sopa) | [contém 4-7% de betaína](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/), que [faz a carpa saborear tudo mais intenso](https://carp-austria.com/en/feeding-boilies/) — não é "só doce" · [dissolve em água quente](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/) |
 | 🥛 **Comida** (aminoácidos + nuvem) | whey/proteína (banana) | **30 g** | [proteína de leite = nuvem leitosa + aminoácidos](https://targetbaits.co.uk/blog/milk-powders-in-bait-what-they-do-why-they-matter-how-to-use-them/) |
 | | açúcar | **15 g** | carpa gulosa |
@@ -98,6 +100,8 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 | 🌽 **Isco + partícula** | milho (lata, esmagado) | **~100 g** | o teu anzol + partícula no engodo |
 
 > 🚫 **Aroma em frasco: não é preciso.** O **whey de banana já traz o cheiro** (e é comida a sério) — juntar-lhe baunilha/banana por cima é duplicar o "anúncio", que é [o efeito mais fraco e o que se lava primeiro](https://www.fishingmagic.com/forums/threads/all-about-flavours.379721/). Se **não** usares whey de sabor, aí sim mete **um** aroma (2-3 ml). Nunca dois.
+
+> 🛢️ **Óleo — dose e limite:** **10-15 ml/kg** (1 c. sopa), até 20-30 no verão (dispersa melhor no quente; no frio quase não trabalha). **O teto é físico:** óleo a mais **sela a bola** e o method não abre — se brilhar ou colar aos dedos, passaste. **Cânhamo** é o de referência; ⚠️ **óleo de peixe** é ótimo atrativo mas **zona cinzenta legal** em águas interiores (peixe como engodo é proibido; óleo é derivado) → fica pelo vegetal. Nota honesta: qualquer óleo dá o *slick* (física), mas o poder de atração do de peixe vem do **perfil de ácidos gordos** — azeite/vegetal fazem o efeito mecânico, não o mesmo apelo *(opinião fundamentada, não medição)*.
 
 - **Líquido:** a **água da lata do milho** + água q.b. até ao ponto (uns 250-350 ml) — junta o melaço morno aqui.
 - **Na margem:** hidrata aos poucos, repousa 10 min, retifica. Ponto certo: **aperta → bloco; esfrega → migalhas.** Junta o milho e os asticots **na hora**.
