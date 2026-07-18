@@ -7,7 +7,7 @@
 > ## 🎣 Relato da casa — 17 jul 2026 (testado no terreno!)
 > **6 carpas comuns, 3 por pescador**, das **10h às 16:30** — ou seja, na **pior janela do dia** (sol a pino, calor de julho) e mesmo assim rendeu. Carpas de bom tamanho, **acima da média de 355-780 g** dos dados de 2005 (a recuperação pós-seca é real). Uma saiu ao **milho num method feeder impresso em 3D** 😎.
 > - **Setup usado:** Resifight + FX4000FA · Multicolor + carreto grande, ambas ao method com milho.
-> - 💡 **A lição do dia:** tentaram agrupar os lançamentos (clip + marca) e falhavam sempre → **largaram isso e mandaram o method para a água na boa — e deu à mesma.** *Precisão milimétrica só compensa a longa distância (30-40 m+); perto, manda para a água e pesca — o peixe patrulha a margem e encontra.*
+> - 💡 **A lição do dia:** a uns **30-50 m** (distância a que a precisão já *devia* contar), tentaram agrupar os lançamentos (clip + marca), falhavam sempre → **largaram isso e mandaram o method para a água na boa — deu à mesma.** *Moral: com água boa e peixe com fome, o agrupamento perfeito é um luxo, não um requisito. Vale a pena a partir do momento em que o peixe está fininho — aí a precisão faz a diferença; num dia bom, linha na água > linha a ser relançada.*
 > - **Se em pleno meio-dia deu 6, de madrugada rende bem mais.** A água confirma-se — carpa de margem a sério.
 
 ---
