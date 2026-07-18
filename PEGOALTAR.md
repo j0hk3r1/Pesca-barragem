@@ -5,7 +5,10 @@
 **A água em 1 parágrafo:** albufeira de rega de 1949 ([ficha CNPGB](https://cnpgb.apambiente.pt/content/pego-do-altar), gerida pela Associação de Beneficiários do Vale do Sado) — **água histórica do achigã** (das primeiras povoadas do país) mas quem manda hoje é **carpa e barbo**, e — o que interessa — **pescam-se de margem**, com relatos concretos. O achigã é de **números, não de troféus**: a seca de 2017 levou muito peixe e desde aí o padrão são 200-300 g ([relato 2020](https://www.pesqueiro.pt/index.php?topic=27493.0)), mas 2026 mostra recuperação clara ([1,26 kg ao popper junto ao paredão, jun-2026](https://www.youtube.com/watch?v=IHJTB4DOqMc) · [“boas indicações da saúde da população”, mar-2026](https://www.youtube.com/watch?v=wXFUQNE-TkU)). Bónus: **restaurante à beira de água** e alburno em quantidade industrial para os miúdos e os impacientes.
 
 > ## 🎣 Relato da casa — 17 jul 2026 (testado no terreno!)
-> **6 carpas comuns, 3 por pescador**, das **10h às 16:30** — ou seja, na **pior janela do dia** (sol a pino, calor de julho) e mesmo assim rendeu. Carpas de bom tamanho, **acima da média de 355-780 g** dos dados de 2005 (a recuperação pós-seca é real). Uma delas saiu ao **milho num method feeder impresso em 3D** 😎. **A lição:** se em pleno meio-dia deu 6, de **madrugada** (como o plano manda) rende bem mais. A água confirma-se — carpa de margem a sério.
+> **6 carpas comuns, 3 por pescador**, das **10h às 16:30** — ou seja, na **pior janela do dia** (sol a pino, calor de julho) e mesmo assim rendeu. Carpas de bom tamanho, **acima da média de 355-780 g** dos dados de 2005 (a recuperação pós-seca é real). Uma saiu ao **milho num method feeder impresso em 3D** 😎.
+> - **Setup usado:** Resifight + FX4000FA · Multicolor + carreto grande, ambas ao method com milho.
+> - 💡 **A lição do dia:** tentaram agrupar os lançamentos (clip + marca) e falhavam sempre → **largaram isso e mandaram o method para a água na boa — e deu à mesma.** *Precisão milimétrica só compensa a longa distância (30-40 m+); perto, manda para a água e pesca — o peixe patrulha a margem e encontra.*
+> - **Se em pleno meio-dia deu 6, de madrugada rende bem mais.** A água confirma-se — carpa de margem a sério.
 
 ---
 
