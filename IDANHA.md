@@ -202,7 +202,7 @@ braid/mono forte → chumbo corrido (ou semi-fixo) → destorcedor forte
 1. **Viu o peixe a alimentar-se de barbos na véspera** — e **voltou no dia seguinte** ao mesmo sítio. O siluro tem **fidelidade ao sítio** (documentada em telemetria): se o vês uma vez, volta lá;
 2. *"Fui pela margem e quando o vi, **tive de entrar na água**, o rio estava baixo, com cerca de metro e meio, para ser preciso no lançamento"*;
 3. **Isco artificial branco de 25 cm**, lançado a **~20 m**, mordeu à **8.ª tentativa** — insistência no mesmo peixe;
-4. Trançado, luta de **~30 min**, deu ~25 m de linha. **Precisou da mulher e de dois amigos** para o tirar da água.
+4. Trançado, luta de **uns 30 min**, deu uns 25 m de linha. **Precisou da mulher e de dois amigos** para o tirar da água.
 
 ➡️ **Tradução:** aqui a **pesca à vista bate a espera** — e é por isso que o horário do crepúsculo importa menos neste troço: **se vês o peixe, a hora é a que for**. Leva binóculos e anda pela margem à procura de atividade (barbos a fugir, remoinhos, dorsos).
 
