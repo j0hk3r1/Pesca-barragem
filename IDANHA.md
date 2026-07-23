@@ -178,10 +178,64 @@ braid/mono forte → chumbo corrido (ou semi-fixo) → destorcedor forte
 
 ---
 
-**O sítio a sério continua a ser o rio Ponsul em baixo — expedição de carro:** a [**Ponte Velha do Ponsul** (estrada CB→Malpica): **39.76623, -7.44781**](https://www.google.com/maps?q=39.76623,-7.44781) ✅ · **51 km · 52 min** do campismo. É o troço do [recorde de 102 kg (2025, **de margem!**)](https://www.publico.pt/2025/05/02/azul/noticia/siluro-102-quilos-capturado-afluente-tejo-especie-invasora-afectado-rios-portugueses-2131761) e de um [~20 kg em 2019 no mesmo spot](https://www.reconquista.pt/articles/castelo-branco-siluro-com-quase-20-quilos-capturado-no-ponsul); o [LIFE PREDATOR tirou 1.200 kg num troço de 10 km](https://wilder.pt/historias/siluro-projecto-life-predator-quer-travar-invasao-do-tejo-por-peixe-gigante) desta zona.
-- **A técnica que fez o recorde** (e é 100% legal): *sight-fishing* de margem — o guia viu o siluro **a caçar barbos junto à ponte**, lançou-lhe uma **amostra branca de 25 cm** umas 8 vezes a uns 20 m, luta de 30 min. Tradução para ti: **amostra/vinil grande e CLARO, lançado a peixe visível ou a zonas de barbos**, ou o teu fundo com minhocas. Isco de peixe = ilegal, lembra. → [setup do siluro](EXEMPLOS-MODULAR.md#ex-siluro)
-- **A ponte dá mais que siluro:** [2 siluros numa tarde, o maior de 25 kg (2019)](http://www.reconquista.pt/articles/ponsul-rio-continua-a-ter-siluros-gigantes-) · relato de fórum antigo: **10 barbos de 2-5 kg numa tarde** ao fundo na desova (anzol forte, **chumbada 100 g** — a corrente lá é forte, multi 0,20) · e [alburnos ao asticot à vontade — há um local que pesca lá **todos os fins de semana**](https://forumdacasa.com/discussion/29559/8/topico-da-pesca/).
-- 🎏 Bónus na albufeira: a Naturpesca faz lá [**pesca apeada a barbos e carpas à mosca**](https://guias-naturpesca.com/pesca-e-peixes/) — sinal de que os ciprinídeos andam ao alcance da margem.
+<a id="ponsul-siluro"></a>
+
+## 🟫 A EXPEDIÇÃO: baixo Ponsul (Malpica/Lentiscais) — onde o siluro está mesmo
+
+**Isto não é a albufeira — é o troço a jusante, ~50 min de carro**, e é a diferença entre 1-3% e uma hipótese a sério. O troço tem **12,7 km** entre a ponte e a foz (bate com o *"troço de 10 km"* de onde o [LIFE PREDATOR tirou 1.200 kg em 3 dias, out-2024](https://www.reconquista.pt/articles/investigadores-retiram-1200-quilos-de-siluro-do-rio-), um exemplar com +90 kg).
+
+> 📐 **Correção técnica:** este troço é **regolfo da barragem de Cedillo** (Tejo Internacional, explorada pela **Iberdrola**), não do Fratel — a foz do Ponsul fica 1,9 km a montante de Cedillo, e o Fratel está ~25 km mais abaixo. Isto importa porque **quem manda no teu nível de água são os espanhóis**.
+
+### 📍 Os dois pontos (coordenadas verificadas em OSM)
+
+| Spot | 📍 | Acesso | Porquê |
+|---|---|---|---|
+| 🥇 **Cais Fluvial dos Lentiscais** | [39.73611, -7.49476](https://www.google.com/maps?q=39.7361123,-7.4947635) ✅ | **estrada alcatroada até ao cais** — carro a <40 m da água; a CM anuncia [*"espaços de lazer, estacionamento e zona intermodal"*](https://www.cm-castelobranco.pt/visitante/lazer-para-todos/cais-fluvial-dos-lentiscais/) (☎ 272 330 339) | é **daqui** que o LIFE PREDATOR retirou os 1.200 kg · água navegável (operam catamarãs de 80 lugares) |
+| 🥈 **Ponte Velha do Ponsul** (CB→Malpica) | [39.76623, -7.44781](https://www.google.com/maps?q=39.76623,-7.44781) ✅ | ⚠️ **sem parque mapeado**; os caminhos que descem à água são `access=agricultural` — provavelmente estaciona-se na berma da **EN 18-8** e vai-se a pé *(não verificado no terreno)* | **é o spot do recorde nacional** e de um [~20 kg em 2019](https://www.reconquista.pt/articles/castelo-branco-siluro-com-quase-20-quilos-capturado-no-ponsul) (e um de 50 kg em 2015) · é a **cabeça do regolfo** |
+
+*(A ponte rodoviária atual fica ~100 m a jusante da Velha, na EN 18-8.)*
+
+### 🎯 A técnica que fez o recorde — e é de MARGEM, de DIA
+
+[Relato integral no JN](https://www.jn.pt/pais/artigo/pesca-siluro-gigante-de-233-metros-e-102-quilos-no-rio-ponsul/17760839): **domingo 27 abr 2025, "pouco depois do meio-dia"** — plena luz do dia. E o método é replicável:
+
+1. **Viu o peixe a alimentar-se de barbos na véspera** — e **voltou no dia seguinte** ao mesmo sítio. O siluro tem **fidelidade ao sítio** (documentada em telemetria): se o vês uma vez, volta lá;
+2. *"Fui pela margem e quando o vi, **tive de entrar na água**, o rio estava baixo, com cerca de metro e meio, para ser preciso no lançamento"*;
+3. **Isco artificial branco de 25 cm**, lançado a **~20 m**, mordeu à **8.ª tentativa** — insistência no mesmo peixe;
+4. Trançado, luta de **~30 min**, deu ~25 m de linha. **Precisou da mulher e de dois amigos** para o tirar da água.
+
+➡️ **Tradução:** aqui a **pesca à vista bate a espera** — e é por isso que o horário do crepúsculo importa menos neste troço: **se vês o peixe, a hora é a que for**. Leva binóculos e anda pela margem à procura de atividade (barbos a fugir, remoinhos, dorsos).
+
+📋 **Setup real de quem lá pesca** ([vídeo de jun-2026, Rio Ponsul](https://www.youtube.com/watch?v=lSzb04KJ77A)): cana **CW 50-200 g**, carreto de siluro, **amostra de 400 g**. Ou seja: material bem acima do teu — a tua Multicolor (100-300 g) é o que mais se aproxima.
+
+### ⚖️ Legal — verificado, e há uma armadilha
+
+- **✅ Águas livres.** Confirmado nas três listas ICNF (jul-2026): **não é ZPP** (só há 9 no país; as do Tejo são Ortiga e Constância/Barquinha, muito mais abaixo), **não é concessão** (a única de C. Branco é a Alb. do Pepa) e **não é zona reservada** (as 10 são todas a norte).
+- ⚠️ **ARMADILHA: o siluro é de DEVOLUÇÃO PROIBIDA** ([ICNF, Notas](https://icnf.pt/pesca/pescaludicaedesportiva/notas) — consta da lista *"devolução proibida em todas as massas de água"*; [DL 92/2019](https://diariodarepublica.pt/dr/detalhe/decreto-lei/92-2019-123025739), invasora prioritária). **Não podes fazer catch-and-release.** Pensa nisto antes de ires atrás de um peixe de 50 kg: o que fazes com ele depois? Um peixe grande demais para transportar e que não podes devolver é um problema real, não teórico.
+- 🏞️ **Estás dentro do Parque Natural do Tejo Internacional** (todos os pontos). Não encontrei proibição de pesca de margem (o PNTI é categoria VI, uso sustentável), mas **não consegui ler o regulamento atual** — ⚠️ **liga ao ICNF antes de ires**, sobretudo por causa do acesso motorizado a caminhos dentro do parque.
+
+### 💧 Água e segurança — o aviso a sério
+
+O nível **é da Iberdrola**, e pode desabar: em **out-2019 desceu mais de 10 metros em três semanas** e **os dois cais ficaram inoperacionais** ([CM](https://www.cmjornal.pt/portugal/detalhe/rio-ponsul-em-castelo-branco-tem-agua-com-minimos-historicos)). A APA explicou: *"resulta de descargas extraordinárias na barragem de Cedillo"* para cumprir a Convenção de Albufeira.
+
+➡️ **Verifica o nível antes de fazer 50 min de carro.** E se entrares na água (como o guia fez), lembra-te que estás a 5 km de um regolfo controlado por terceiros — não é o sítio para andar distraído dentro de água.
+
+### 📅 Melhor época para MARGEM: abril-junho *(inferência fundamentada)*
+
+| Captura | Data | Modo |
+|---|---|---|
+| **Recorde 102 kg** | **abr 2025**, ~12h30 | **margem/dentro de água** |
+| ~20 kg | mai 2019 | margem (ponte velha) |
+| 2,35 m | dez 2025 | barco |
+| +100 kg (Lentiscais) | jul 2026 | barco |
+
+**Todas as capturas de margem documentadas são da primavera** — coincide com a desova (**fev-jun**, [estudo MARE com ~700 exemplares do Ponsul](https://www.mare-centre.pt/pt/siluro_reproducao)), com o peixe nas zonas rasas, e com "o rio estava baixo" — **água baixa e clara é o que torna possível a pesca à vista**. De barco apanha-se o ano todo; de margem, o que está provado é a primavera.
+
+### 🧭 Guia local
+
+**Joaquim Jonqueres** (o do recorde), negócio **"Luso Outdoors"** sediado em Malpica: [Luso Outdoors Fishing no Facebook](https://www.facebook.com/lusooutdoorsfishing/) — *"Experiências de pesca guiada no Rio Ponsul e Tejo"*. ⚠️ **Não há contactos nem preços públicos** (o Facebook exige login) e **os relatos dele em 2025-26 são de barco** — se quiseres margem, pergunta diretamente.
+
+> **A ponte dá mais que siluro:** relato de fórum antigo dá **10 barbos de 2-5 kg numa tarde** ao fundo (anzol forte, chumbada 100 g — a corrente lá é forte) e [alburnos ao asticot à vontade](https://forumdacasa.com/discussion/29559/8/topico-da-pesca/). Não vais lá para vir de mãos a abanar.
 
 ### 🔵 Barbo · boga
 - Aqui são **da época fria** ([guia local](https://www.guiadacidade.pt/en/poi-barragem-marechal-carmona-20448)) — no verão, fundões de manhã cedo, sem contar com muito. A receita de Avis (iscada grande de minhoca) vale igual.
