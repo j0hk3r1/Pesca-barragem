@@ -62,7 +62,7 @@ Estrada: **EN253** (Alcácer ↔ Montemor). Do Minutos fica a **58 min · 53 km*
 | **Alvo** | **carpa + barbo** — os donos da casa | **achigã pequeno + alburno** — ação non-stop | achigã ao amanhecer |
 | **Quando** | **madrugada e pôr-do-sol** | o dia todo | nascer do sol |
 | **Onde** | **zona plana a ~150 m do paredão**; braços fundos entrecalados com baixios | margem ao pé do restaurante | junto ao paredão, coberturas, pedras, troncos |
-| **Com quê** | [Banana Split](ISCOS.md) + milho · **engodar POUCO** | asticot/minhoca, anzol pequeno | popper/hula popper de manhã · wacky rig |
+| **Com quê** | [Banana Split](ISCOS.md#banana-split) + milho · **engodar POUCO** | asticot/minhoca, anzol pequeno | popper/hula popper de manhã · wacky rig |
 
 ## 🔵 Carpa & barbo — a receita local (é isto que vais fazer)
 
@@ -114,7 +114,7 @@ Estrada: **EN253** (Alcácer ↔ Montemor). Do Minutos fica a **58 min · 53 km*
 ## ✅ Checklist
 
 - [ ] Licença (talão MB) + cartão de cidadão
-- [ ] Method + [Banana Split](ISCOS.md) + milho · **engodar pouco** (calor)
+- [ ] Method + [Banana Split](ISCOS.md#banana-split) + milho · **engodar pouco** (calor)
 - [ ] Olivas 8 g + anzóis #12 (barbo, receita local)
 - [ ] Boia + asticot (achigã pequeno/alburno — ação o dia todo)
 - [ ] Amostras de superfície p/ a madrugada no paredão

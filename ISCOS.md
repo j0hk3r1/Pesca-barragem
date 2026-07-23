@@ -73,12 +73,11 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 
 > 🎯 **Predadores (achigã, sandre) NÃO se engodam** — caçam à vista/vibração; procura **estrutura** ([Achigã](EXEMPLOS-MODULAR.md#ex-achiga) · [Sandre](EXEMPLOS-MODULAR.md#ex-sandre)). Engodo é para **peixe-pasto** e **peixe-gato** — e cada um pede um tipo diferente:
 
-### 🐟 Peixe-pasto (carpa · barbo · boga · pimpão) — engodo "comida"
-- **Base:** pão ralado + farinha de milho + milho doce esmagado + água → bolas do tamanho de uma **tangerina**.
-- **Carpa / barbo:** junta **milho, grão cozido, partículas**; adoça com **mel / baunilha / açúcar**. → [Carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [Barbo](EXEMPLOS-MODULAR.md#ex-barbo)
-- **Boga / peixe pequeno:** mistura **mais fina** (pão ralado + farinha + **farinha de amendoim**, pouca partícula) — só para os **manter**, não encher. → [Boga](EXEMPLOS-MODULAR.md#ex-boga)
+> 🍳 **As receitas da casa são DUAS** — uma por perfil, e não se misturam: a **doce** (peixe-pasto) e a de **cheiro** (predador de olfato). Vão-se afinando com cada pescaria.
 
-### 🧁 Method mix "Banana Split" — a receita da casa p/ carpa
+<a id="banana-split"></a>
+
+### 🧁 A DOCE — "Banana Split" · carpa · barbo · peixe-pasto
 
 > 🔬 **O que a ciência diz que apanha carpa:** o gatilho alimentar são **aminoácidos + betaína + nucleótidos** dissolvidos na água ([fisiologia gustativa da carpa](https://www.researchgate.net/publication/286828804_Gustatory_response_of_common_carp_Cyprinus_carpio_to_variable_concentrations_of_two_stimulatory_amino_acids)); o aroma só "acorda e chama" o peixe (olfato = sentido de distância), quem fecha é a **comida**. Por isso a mistura organiza-se por **função**, não por perfume — e **1 aroma chega** ([misturas menos potentes rendem mais e por mais tempo](https://www.fishingmagic.com/forums/threads/all-about-flavours.379721/); os aromas líquidos lavam-se, [o que fica no fundo são os óleos das partículas](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/)).
 
@@ -115,17 +114,42 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 
 > ☀️ **No calor (a tua pesca):** engodo rico **azeda ao sol e mata o pesqueiro** → (1) mistura mais **húmida/solta** para abrir depressa e fazer atividade; (2) **pouco e muitas vezes**, nunca despejar (o method é feito para isto); (3) mistura e asticots **à sombra/geleira**, hidrata fresco na margem.
 
-> 💡 Leva os **secos já misturados** num saco e o melaço num frasco — hidrata só na margem. **O esforço vai para a comida** (cânhamo, whey, asticots, milho — o que tem aminoácidos), não para o perfume. ⚠️ **Óleo de peixe:** ótimo atrativo mas é **zona cinzenta legal** (peixe como engodo é proibido; óleo é derivado) → em águas interiores fica pelo cânhamo/vegetal. **Sem balança na margem?** As proporções que interessam são **base 3:2:1** (pão:farinha:sêmola) e o resto "a olho" pela textura.
+> 💡 Leva os **secos já misturados** num saco e o melaço num frasco — hidrata só na margem. **Sem balança?** O que interessa é a **base 3:2:1** (pão:farinha:sêmola); o resto vai a olho pela textura.
+>
+> 🐟 **Variação para peixe pequeno** (boga, alburno, pimpão): mistura **mais fina e sem partícula** — corta o milho e a sêmola, sobe o pão ralado. É para os **manter**, não encher.
 
-### 🟤 Peixe-gato — engodo "cheiro" (chum)
-Caça pelo **olfato** (super sensível a cheiros/aminoácidos) → aqui o engodo é **cheiro forte**, não comida fina. → [Peixe-gato](EXEMPLOS-MODULAR.md#ex-gato)
-- **O que resulta:** fígado, **sangue** (de talho), miúdos de frango, **ração de cão/gato** gorda, **queijo forte**, chouriço — ou **grãos fermentados** (trigo/milho de molho 1–2 dias até azedar).
-- **Turbina o cheiro:** alho, cebola em pó, **erva-doce (anis)**.
-- **Como:** atira só **bocadinhos** para "temperar a água" e mantê-los por perto — **não para os alimentar**. Melhor ao **anoitecer/noite**.
+<a id="caldo-do-bicho"></a>
 
-> 🐱 **Comida de gato/cão — vale (e é barata)!** **Húmida (lata)** = ótimo **chum** oleoso e fedorento → esmaga no engodo ou mete no feeder/saco PVA; liga com **pão ralado** p/ segurar. **Seca (croquete)** = boa como **loose feed** e até **isco** num cabelo/band (amolece na água, tipo pellet). ⚠️ Escolhe **sabor carne/frango, NÃO peixe** (atum/salmão) — isco/engodo de peixe é **ilegal**. Guarda a boa para os gatos. 😼
+### 🍲 A DE CHEIRO — "Caldo do Bicho" · siluro · peixe-gato
 
-> 🍯 **Receita cheiro (rápida):** pão duro embebido em **sangue** (ou ração húmida) + **alho**; deixa **azedar 1–2 dias** num frasco fechado. Atira bolas pequenas ao pôr-do-sol.
+> 🔬 **A ciência por trás:** o siluro/gato deteta comida sobretudo por **olfato e paladar** — tem recetores gustativos em **lábios, barbilhões, barbatanas e pele**, e o *channel catfish* deteta **aminoácidos a 1 parte em 100 milhões**. Os mais estimulantes são **L-alanina e L-arginina**; a **betaína sozinha é fraca, mas fortemente sinérgica** com alanina, glutâmico, arginina e glicina. Ou seja: o alvo é o **cocktail**, não um ingrediente milagroso. A visão é quase irrelevante — o que ganha é o que **larga pluma química continuamente**.
+
+**Receita para 1 kg:**
+
+| Função | Ingrediente | Por 1 kg | Porquê (ciência) |
+|---|---|:--:|---|
+| 🥩 **Presa / sangue** | **fígado de galinha** picado | **200 g** | [o sangue em decomposição sinaliza refeição](https://www.ewash.org/what-is-blood-bait-for-catfish/) e larga aminoácidos em contínuo; **acima de 13 °C amolece e liberta um rebentamento de cheiro** |
+| | **lagostim** esmagado (se apanhares) | **100 g** | é a **presa nº1** em albufeira ibérica ([96 estômagos no Tejo](https://doi.org/10.3390/fishes4040058)) — grátis e legal |
+| 🧱 **Base** | ração de cão/gato (croquete) esmagada | **400 g** | proteína + óleo; é a base das receitas caseiras de pellets |
+| | pão ralado | **200 g** | liga e transporta |
+| 🧪 **Gatilho químico** | **gelatina em pó** | **30 g** | o **cocktail completo**: glicina 27-35%, prolina 10-18%, glutâmico 10-12%, alanina 8-11%, **arginina 8-9%** — e ainda liga a bola |
+| | **melaço** | **30 g** | **betaína** — o sinergista que amplifica todos os aminoácidos acima |
+| | **MSG** (aji-no-moto) | **5 g** | [glutamato atrai por estímulo olfativo E gustativo](https://www.globalseafood.org/advocate/attractants-the-basics/), com estudos em **bagre-africano** · dose 0,4-0,5%/kg |
+| | **extrato de levedura** (Marmite / lev. cerveja) | **10 g** | **nucleótidos** — o terceiro gatilho da fisiologia, a par de aminoácidos e betaína |
+| | **alho** em pó | **5 g** | a **alicina e os compostos de enxofre estimulam os recetores olfativos** e [persistem muito tempo na água](https://baitium.com/blogs/news/are-fish-attracted-to-garlic) — resposta positiva confirmada em carpa e bagre |
+| 🛢️ **Slick** | óleo | **15 ml** | pluma que sobe |
+
+**Preparação — e o truque tem base científica:**
+1. Dissolve **gelatina + melaço + MSG em água morna**, junta ao resto e amassa. Pouca água: queres massa, não papa.
+2. **Deixa azedar 1-2 dias** em frasco fechado, fora de casa. Não é folclore: a **decomposição liberta aminoácidos e proteínas** — exatamente as moléculas que ele deteta a 1:100.000.000.
+3. ⚠️ **Ponto diferente do da carpa:** aqui queres bolas **compactas e duradouras** — o engodo de siluro larga cheiro **durante horas**, não se abre em 10 min. A gelatina trabalha a teu favor.
+4. **Dose e ritmo:** 1-2 kg num raio de 5-10 m à volta do isco, e **deixa estar** — reforço a cada **3-4 h**, nunca de 15 em 15 min (ele tem audição excecional; relançar espanta).
+
+> 🥇 **Se cortasses tudo menos três:** **fígado** (sangue + aminoácidos), **gelatina** (o cocktail) e **melaço** (o sinergista). Com lagostim, se apanhares.
+>
+> 🚫 **O que NÃO entra:** peixe (ilegal), e **nada de doce/frutado** — perfil errado, é o oposto da Banana Split. Não se misturam as duas.
+>
+> 🐱 **Ração de cão/gato:** a **húmida (lata)** é o melhor *chum* (oleosa e fedorenta); a **seca (croquete)** serve de base e até de isco no cabelo. ⚠️ Escolhe **carne/frango, não peixe** (atum/salmão) — engodo de peixe é ilegal.
 
 > ⚠️ **Nunca peixe** (vivo, morto ou ovas) no engodo nem no isco — **ilegal** em águas interiores. Mesmo para o peixe-gato, usa sempre **não-peixe** (carne, fígado, queijo, grão, pão).
 

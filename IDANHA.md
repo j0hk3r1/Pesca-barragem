@@ -129,7 +129,7 @@ Surpresa: **o siluro engoda-se** (ao contrário do que quase toda a gente assume
 | **Escala do engodo** | ~40 g por carga | no Ebro: **5-10 kg por engodada**, num círculo de ~20 m² à volta do isco ⚠️ |
 | **Chumbo** | 30-60 g | **175-350 g** (Ebro) — para segurar a montagem, não para lançar |
 
-⚠️ **Escala isso para a tua realidade:** os 5-10 kg são de pesca profissionalizada com barco, sessões de vários dias, num sítio onde se **sabe** que há siluros. Para uma tarde de margem numa água onde ele é hipótese, **1-2 kg de pellets grandes / pedaços de fígado / lagostim esmagado num raio de 5-10 m à volta do isco** é o análogo honesto. E como a tua janela legal é curta, o engodo terá pouco tempo para trabalhar — mais uma razão para tratar isto como bilhete de lotaria.
+⚠️ **Escala isso para a tua realidade:** os 5-10 kg são de pesca profissionalizada com barco, sessões de vários dias, num sítio onde se **sabe** que há siluros. Para uma tarde de margem numa água onde ele é hipótese, **1-2 kg de [Caldo do Bicho](ISCOS.md#caldo-do-bicho) (a receita da casa) num raio de 5-10 m à volta do isco** é o análogo honesto. E como a tua janela legal é curta, o engodo terá pouco tempo para trabalhar — mais uma razão para tratar isto como bilhete de lotaria.
 
 **🕳️ E a tua intuição sobre o sítio fundo: estás certo — mas o alvo é a QUEBRA.** Há uma tensão real entre as fontes, e vale a pena veres as duas:
 - **Ciência (Belver, telemetria):** no verão a mediana é **3,2 m em julho** — está raso, junto à margem;
