@@ -147,11 +147,27 @@ braid/mono forte → chumbo corrido (ou semi-fixo) → destorcedor forte
    → anzol único grande (4/0-6/0; 6/0-10/0 p/ iscos grandes)
    → lagostim / fígado / molho de minhocas
 ```
-- **Chumbo corrido** = ele leva o isco sem sentir resistência (melhor em água pescada); **semi-fixo** = auto-ferra, melhor com canas pousadas e sinos. Para ti: **corrido** e ferra tu.
-- **Isco suspenso 20-40 cm do fundo** (bolinha de esferovite/cortiça no cabelo) espalha melhor a pluma e tira-o do limo.
 - **Baixo grosso obrigatório** — a boca dele é lixa e gasta linha fina.
-- **Fígado desfaz-se no lançamento** → prende com rede de isco/meia de nylon.
 - 🔔 Cana pousada + sinos, freio aberto. → [setup completo do siluro](EXEMPLOS-MODULAR.md#ex-siluro)
+
+**⚖️ Chumbo corrido ou paternoster? Depende do FUNDO:**
+
+| | 🎣 **Chumbo corrido** (o default) | ⚓ **Paternoster** |
+|---|---|---|
+| **Ganha quando** | fundo **limpo / duro / gravilha** | fundo **mole, lodo, vegetação** |
+| **Vantagem** | ele leva o isco **sem sentir os 200-300 g** — e ferras tu (essencial numa boca óssea) | **garante a altura mecanicamente**: varias o comprimento das derivações e pões o isco à altura que quiseres |
+| **Senão** | com pop-up, se o chumbo se enterrar no lodo o isco sobe menos do que julgas | ele sente o chumbo mais cedo · enrosca mais no lançamento |
+
+> 🕳️ **Porque se levanta o isco 20-40 cm (a razão é mais forte do que parece):** um isco **enterrado no lodo larga cheiro numa só direção** — levantado, dispersa a **360°**. Num fundo mole de albufeira em julho o isco **afunda em minutos** e passa a isco morto sem tu dares por nada. Junta-se a isso a **anóxia do fundo estratificado** (abaixo da termoclina é "água morta"), que é a razão de os bagres suspenderem a meia-coluna no verão. **20-40 cm é a zona certa** (10-25 cm nas fontes americanas, 20-50 nas europeias) — e em lodo fofo, mais alto.
+
+> 🧪 **Teste de 2 minutos para decidir:** lança o chumbo sozinho, deixa assentar 30 s, recolhe devagar. Vem **limpo e a "rasgar"** → fundo duro → **corrido + pop-up**. Vem com **lodo preto e a linha a "colar"** → **paternoster**. Cheira a **ovo podre** (sulfureto) → lodo anóxico → sobe bem o isco ou muda de sítio.
+> **Leva os dois:** monta corrido e mete um destorcedor extra + 30 cm de linha na caixa — converte em paternoster em 2 minutos.
+
+**🌽 Como segurar isco mole no cabelo (o truque dos "milhos" grandes):**
+
+- **Salsicha / carne firme** → **cabelo + um milho grande (impresso ou de borracha) como batente**. Funciona bem: a carne não se desfaz, só escorrega — e o batente resolve isso.
+- **Fígado** → o batente **não chega**: o problema não é escorregar, é **desintegrar-se**. Embrulha-o em **rede de isco ou meia de nylon** (quadrado de ~7 cm, faz uma bola do tamanho de um berlinde) — *"quando o bagre morde, esmaga o saco e liberta um rebentamento de cheiro, e o anzol encontra o alvo através do material fino"*. Alternativa: **fio de coser** enrolado à volta. E aí o **milho grande serve de fecho da rede** em vez de nó.
+- 💡 **Bónus da impressora:** se imprimires os milhos **com uma bolsa de ar por dentro**, ganham a terceira função — **pop-up**: compensam o peso do anzol e ajudam a levantar o isco os tais 20-40 cm. (Maciços em PLA afundam devagar — densidade ~1,24 — mas não levantam nada.)
 
 #### ⚖️ Legal (o que não muda)
 
