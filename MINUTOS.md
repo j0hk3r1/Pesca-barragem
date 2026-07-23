@@ -51,7 +51,7 @@ O relato mais rico é de [junho de 2025, com onda de calor de 44 °C](https://ww
 
 ## 🔵 Carpa — confirmada, mas a receita és tu que a escreves
 
-Os vídeos provam que [se fazem sessões de carpa](https://www.youtube.com/watch?v=wjbes6Htgrk) ([desde 2019](https://www.youtube.com/watch?v=hWzp7ze8yP4)) — mas **ninguém publicou iscos, pesos nem zonas**. Plano à prova de água grande: escolhe UMA margem das zonas de noturna (são margens de carpfishing por definição oficial), **engoda com fartura** (milho + method, água de 530 ha dilui timidez), pesca as pontas do dia e dá 2-3 h antes de mudar. Se a tua sessão render, o teu relato passa a ser a primeira receita local publicada. 😄
+Os vídeos provam que [se fazem sessões de carpa](https://www.youtube.com/watch?v=wjbes6Htgrk) ([desde 2019](https://www.youtube.com/watch?v=hWzp7ze8yP4)) — mas **ninguém publicou iscos, pesos nem zonas**. Plano à prova de água grande: escolhe UMA margem das zonas de noturna (são margens de carpfishing por definição oficial), **engoda com fartura** (milho + method, água de 530 ha dilui timidez), pesca as pontas do dia e dá 2-3 h antes de mudar.
 
 ## 🟣 Lucioperca — a incógnita interessante
 

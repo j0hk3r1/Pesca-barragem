@@ -18,30 +18,24 @@ Iscos **naturais, caseiros e de loja** (milho, massa, fiambre, boilie…) para a
 | **Grão / chufa / partículas** (cozido) | carpa, barbo | [carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
 | **Queijo** (duro) | carpa, barbo | [carpa](EXEMPLOS-MODULAR.md#ex-carpa) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
 | **Larva (asticô) / minhoca** | boga, perca, barbo, tudo | [boga](EXEMPLOS-MODULAR.md#ex-boga) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
-| **Carne / chouriço / fígado** | peixe-gato-negro | [peixe-gato](EXEMPLOS-MODULAR.md#ex-gato) |
+| **Lagostim** (cauda ou inteiro) | **siluro**, barbo grande | [siluro](#isco-siluro) · [barbo](EXEMPLOS-MODULAR.md#ex-barbo) |
+| **Fígado / carne / chouriço** | **siluro**, peixe-gato | [siluro](#isco-siluro) · [peixe-gato](EXEMPLOS-MODULAR.md#ex-gato) |
 
 ---
 
 ## 🥖 Iscos & receitas
 
-- **Massa de pão** — miolo de pão + gotas de água até ficar moldável. Bolinha à volta do anzol. (O mais simples e barato.)
-- **Pão, 3 formas:** **flake** (pedaço beliscado no anzol — incha e fofa na água) · **punch** (discos pequenos tirados com punção, p/ boga/peixe pequeno) · **côdea** (flutua → carpa à **superfície** no verão).
-- **Massa de farinha** — 100 g de farinha de trigo + água até massa **firme**. Opcional: mel, baunilha, alho em pó ou queijo ralado. Amassa e **repousa ~15 min**.
-- **Massa de sêmola** — 100 g de sêmola + água quente até pasta firme. **Aguenta melhor no anzol** que o pão (boa p/ lançar longe).
-- **Milho doce** — de lata, 1–2 grãos no anzol. O clássico da carpa. **Pronto a usar**.
-- **Fiambre / luncheon meat** — cubo de carne enlatada no anzol (ou no cabelo). **Barato e mortífero p/ carpa e barbo**; sela na frigideira p/ aguentar e dá-lhe **alho**.
-- **Boilie** — bolinha dura cozida (comprada, com sabor). Vai no **hair rig** (cabelo), não espetada — ver caixa. Carpa.
-- **Chufa (tiger nut)** — tubérculo doce e crocante, a carpa adora. ⚠️ **Tóxica crua** → tem de ser preparada (ver abaixo).
-- **Grão-de-bico** — cozido mas **firme**. Carpa e barbo. (Ver preparação abaixo.)
-- **Queijo** — cubinhos pequenos de queijo **duro**. Carpa e barbo em algumas barragens.
-- **Arroz cozido** — bem cozido mas não desfeito; alguns grãos no anzol.
-- **Larva (asticô) / minhoca** — isco vivo universal; boga e perca-sol adoram. Minhoca apanha quase tudo.
+- **Milho doce** — de lata, 1-2 grãos no anzol (ou no cabelo). O clássico da carpa, **pronto a usar**. Truque: **trincado ao meio larga mais cheiro**.
+- **Minhoca / asticot** — isco vivo universal. Minhoca apanha quase tudo; asticot é o rei do peixe pequeno.
+- **Pão** — **flake** (pedaço beliscado, incha na água) · **punch** (discos com punção, p/ peixe pequeno) · **côdea** (flutua → carpa à superfície no verão).
+- **Massa** — miolo de pão amassado com gotas de água, ou 100 g de farinha/sêmola + água até ficar **firme**. A de sêmola **aguenta melhor** no lançamento longo.
+- **Fiambre / luncheon meat** — cubo no anzol ou no cabelo. **Barato e mortífero p/ carpa e barbo**; sela na frigideira p/ aguentar e esfrega **alho**.
+- **Boilie** — bolinha dura comprada, vai no **hair rig**, não espetada. Carpa.
+- **Grão-de-bico / chufa** — cozidos mas firmes. ⚠️ **têm de ser preparados** (ver abaixo; chufa crua é tóxica).
+- **Lagostim** — cauda descascada ou inteiro. **Siluro e barbo grande** → [detalhe abaixo](#isco-siluro).
+- **Fígado de galinha** — o isco de cheiro. **Siluro e peixe-gato** → [detalhe abaixo](#isco-siluro).
 
-> 🍯 **Receita rápida (carpa/boga):** 2 fatias de pão de forma + 1 c. de chá de mel + 1 c. de sopa de farinha. Amassa até bola consistente; faz bolinhas do tamanho de uma ervilha.
-
-> 🌟 **Sabores** (mel, baunilha, açúcar, alho, queijo) aumentam a atração — sobretudo em água fria ou turva, onde o peixe procura pelo cheiro.
-
-> 🍦 **Baunilha: pode ser fake.** O aroma ativo é a **vanilina** — o **aroma/açúcar baunilhado** do supermercado (artificial) é exatamente o que os boilies usam e resulta igual. Não precisas de baunilha natural/favas. ⚠️ **Pouco**: sabor a mais **afasta** o peixe.
+> 🍦 **Baunilha: pode ser fake.** O aroma ativo é a **vanilina** — o aroma/açúcar baunilhado do supermercado é exatamente o que os boilies usam. ⚠️ **Pouco**: sabor a mais **afasta**.
 
 > 🐛 **Asticô (maggot) — cores & guardar:** **branco** (geral / inverno / água limpa) · **vermelho** (perca, boga) · **bronze** (rio, barbo). Mete 2–3 no anzol. Guarda no **frigorífico** com **farelo ou serradura** — o frio impede que virem casulo (caster).
 
@@ -112,7 +106,7 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 - **No method:** camada de mix, anzol com milho, fecha com mix, aperta — e 3-4 asticots espetados na bola.
 - **Teste do balde:** a bola afunda direita e abre em 5-10 min. Desfaz à entrada = seca (mais água); inteira aos 20 min = molhada (mais pão ralado).
 
-> ☀️ **No calor (a tua pesca):** engodo rico **azeda ao sol e mata o pesqueiro** → (1) mistura mais **húmida/solta** para abrir depressa e fazer atividade; (2) **pouco e muitas vezes**, nunca despejar (o method é feito para isto); (3) mistura e asticots **à sombra/geleira**, hidrata fresco na margem.
+> ☀️ **No calor:** engodo rico **azeda ao sol e mata o pesqueiro** → (1) mistura mais **húmida/solta** para abrir depressa e fazer atividade; (2) **pouco e muitas vezes**, nunca despejar (o method é feito para isto); (3) mistura e asticots **à sombra/geleira**, hidrata fresco na margem.
 
 > 💡 Leva os **secos já misturados** num saco e o melaço num frasco — hidrata só na margem. **Sem balança?** O que interessa é a **base 3:2:1** (pão:farinha:sêmola); o resto vai a olho pela textura.
 >
@@ -146,6 +140,23 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 4. **Dose e ritmo:** 1-2 kg num raio de 5-10 m à volta do isco, e **deixa estar** — reforço a cada **3-4 h**, nunca de 15 em 15 min (ele tem audição excecional; relançar espanta).
 
 > 🥇 **Se cortasses tudo menos três:** **fígado** (sangue + aminoácidos), **gelatina** (o cocktail) e **melaço** (o sinergista). Com lagostim, se apanhares.
+
+<a id="isco-siluro"></a>
+
+#### 🦞 Isco de siluro — a hierarquia
+
+Assim como o milho é o isco da carpa, o **lagostim é o isco do siluro na Ibéria** — porque é o que ele come todos os dias:
+
+| | Isco | Base | Como montar |
+|:--:|---|---|---|
+| 🥇 | **Lagostim** | **ciência direta**: em albufeira ibérica os crustáceos são **~90% da dieta**, lagostim dominante ([96 estômagos no Tejo](https://doi.org/10.3390/fishes4040058)) | **inteiro** (anzol pela cauda a sair no dorso, pinças esmagadas ou tiradas — é por aí que larga cheiro) · **partido ao meio** larga muito mais · **2-3 caudas descascadas** no cabelo |
+| 🥈 | **Fígado de galinha** | larga **sangue e aminoácidos em contínuo** — o mecanismo de deteção dominante; acima de 13 °C **amolece e larga um rebentamento de cheiro** | ⚠️ desfaz-se: embrulha em **rede/meia de nylon** (quadrado de 7 cm, bola de berlinde) ou enrola **fio de coser** |
+| 🥉 | **Molho de minhocas** (5-6 grandes) | prática consolidada, sempre disponível | direto no anzol grande |
+| 4 | **Pellets de halibut** 20-28 mm | o "isco estrela" do verão no Ebro | 2-3 no cabelo |
+
+- **Vantagens do lagostim:** é **grátis** e está no próprio sítio (apanha-lo com camaroeiro enquanto pescas), é **legal** (crustáceo, não espécie piscícola, apanha sem licença → [regras](AVIS.md#lagostim)), e é **firme** — aguenta no anzol sem rede. ⚠️ Mata-o na hora: é invasor, não se transporta vivo.
+- **Plano de dia:** monta a 1.ª cana com **fígado** (trabalha já) e apanha lagostim enquanto ela pesca; a 2.ª cana leva **lagostim** quando tiveres meia dúzia.
+- **Isco firme (salsicha/carne)** no cabelo segura-se com um **batente** (um milho grande serve); **isco mole (fígado)** precisa de rede — o batente não impede que se desintegre.
 >
 > 🚫 **O que NÃO entra:** peixe (ilegal), e **nada de doce/frutado** — perfil errado, é o oposto da Banana Split. Não se misturam as duas.
 >

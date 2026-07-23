@@ -72,7 +72,7 @@ Os relatos de 2010-2025 contam todos a mesma história: **águas claras e crista
 
 - Época: **1 mar - 31 jul** → em agosto, truta que venha ao anzol **volta logo à água**. O Alva em Arganil nem é água salmonícola ([a classificação acaba na Ponte de Sandomil, Seia](https://www.icnf.pt/api/file/doc/41e5094993c716dd)) — mas os **afluentes são** (Alvôco, rib. de Pomares, Folques, Mata) e em agosto estão **totalmente proibidos** (no defeso da truta não se pesca lá **nada** — [DL 112/2017, art. 6.º](https://files.diariodarepublica.pt/1s/2017/09/17200/0527205293.pdf)); Pomares/Folques/Mata são aliás [concessões da CM Arganil](https://www.cm-arganil.pt/balcao-online/regulamento-da-concessao-de-pesca-da-ribeira-de-pomares/).
 - Se um dia voltares na época: o troço de fama nacional é a [ZPL só-mosca de V.N. Poiares](https://www.icnf.pt/api/file/doc/9278b17ce4bbf86c) a jusante do paredão (recebeu um [Mundial júnior de pesca à mosca em 2008](http://mouramorta.blogspot.com/2008/03/conhece-bem-o-nosso-rio-alva.html); [relato com trutas de 43 e 50 cm](http://www.trutas.com.pt/noticias/2015/07/terras-do-alva-trutas-do-alva/)) — pluma apenas, licença do dia ~5 €.
-- 🏆 A lenda local: [**“O Monstro do Alva” — truta de 4,5 kg / 70 cm tirada nas Fronhas em 1993**](http://www.trutas.com.pt/noticias/2010/02/o-monstro-do-alva-45kg-de-pura-forca/), com um Rapala lançado a um cardume de bogas em fuga. Se vires bogas a saltar do nada… lança lá para dentro. 😉
+- 🏆 A lenda local: [**“O Monstro do Alva” — truta de 4,5 kg / 70 cm tirada nas Fronhas em 1993**](http://www.trutas.com.pt/noticias/2010/02/o-monstro-do-alva-45kg-de-pura-forca/), com um Rapala lançado a um cardume de bogas em fuga. Se vires bogas a saltar em fuga, lança lá para dentro.
 
 ## 🦞 Lagostim
 

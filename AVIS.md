@@ -1,6 +1,6 @@
 # 🏕️ Avis — Barragem do Maranhão *(guia da semana)*
 
-> 🗒️ Guia prático para a semana de campismo em Avis. Baseado em **relatos reais de 2007-2025** (fóruns, provas FPPD, locais). *(Secção temporária.)**
+> 🗒️ Guia prático para a semana de campismo em Avis. Baseado em **relatos reais de 2007-2025** (fóruns, provas FPPD, locais). *(Secção temporária.)*
 
 **A água em 1 parágrafo:** provavelmente [**a barragem com mais carpas de Portugal**](https://www.pesqueiro.pt/index.php?topic=20843.0) — médias de **0,5-3 kg em quantidade industrial** (sessões reais: [12-16 à boia](https://web.archive.org/web/20080317055117/http://pescador.com.pt/livre/viewtopic.php?f=16&t=1922), ["22 ao feeder"](https://www.youtube.com/watch?v=7M3comwFv9g); nas provas de 72h fazem-se [100+ kg/dupla](https://www.fppd.pt/wp-content/uploads/2025/Agua%20Doce/Classifica%C3%A7%C3%B5es/Camp.%20Nac.%20Carpas%20-%202025.pdf)). Grandes (10 kg+) existem mas são fantasmas — [os relatos acabam em anzol/linha partidos](https://www.pesqueiro.pt/index.php?topic=31951.0). ⚠️ O **fundo está infestado de peixe-gato-negro** (30-50 cm, ["toneladas"](https://www.pesqueiro.pt/index.php?topic=38123.0)) — [qualquer isco pousado = gato](https://www.pesqueiro.pt/index.php?topic=16049.0). Por isso: **carpa à boia de dia · gato ao fundo ao anoitecer.**
 
@@ -57,7 +57,7 @@
 
 ## 🔵 Barbo — o troféu histórico escondido (6-8 kg nos relatos)
 
-**Existe mesmo:** as [estatísticas oficiais das provas (ICNF 2001-07)](https://www.icnf.pt/api/file/doc/c3bd81fd35bf22e0) registam barbo todos os anos (3ª espécie, ~4% das capturas — raro mas presente), e os locais lembram-no como **o troféu histórico** de Avis ([2024: "quando vazaram a barragem havia verdadeiros monstros junto à comporta"; "os maiores que vi, não cabiam na caixa de uma 4L"](https://www.pesqueiro.pt/index.php?topic=38123.0)). Relatos independentes de [**6-8 kg**](https://www.pesqueiro.pt/index.php?topic=38123.0) — mas **nunca ninguém publicou foto**: podes ser o primeiro. 😄
+**Existe mesmo:** as [estatísticas oficiais das provas (ICNF 2001-07)](https://www.icnf.pt/api/file/doc/c3bd81fd35bf22e0) registam barbo todos os anos (3ª espécie, ~4% das capturas — raro mas presente), e os locais lembram-no como **o troféu histórico** de Avis ([2024: "quando vazaram a barragem havia verdadeiros monstros junto à comporta"; "os maiores que vi, não cabiam na caixa de uma 4L"](https://www.pesqueiro.pt/index.php?topic=38123.0)). Relatos independentes de [**6-8 kg**](https://www.pesqueiro.pt/index.php?topic=38123.0) — mas **nunca ninguém publicou foto**.
 
 **Onde/quando:** **braço do Ervedal** (2 fontes com 18 anos de intervalo: [guia 2006](https://www.geralforum.com/board/threads/locais-de-pesca-descricao-tecnicas-utilizadas.1487/) + [2024: "Ervedal para barbos, Benavila para carpas"](https://www.pesqueiro.pt/index.php?topic=38123.0)) · **embocaduras** das ribeiras · no verão estão nos **fundões — de manhã cedo** (e ao pôr-do-sol).
 
