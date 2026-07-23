@@ -16,7 +16,7 @@ O [plano oficial da albufeira (POAAP)](https://www.cm-idanhanova.pt/media/18513/
 | **2. Cantinho do Sahur** (margem sul) | [39.94432, -7.19411](https://www.google.com/maps?q=39.9443217,-7.1941102) ✅ | merendas **em cima da água**, entre campismo e parede — base confortável; fundo a cair: **carpa + [siluro ao crepúsculo](#siluro)** (pesca a quebra a 3-6 m, não o fundão) |
 | **3. Fundão junto à parede** | [39.9447, -7.2011](https://www.google.com/maps?q=39.9447,-7.2011) ✅ (OSM) | a água **mais funda** — **sandre a vinil** no fundo rochoso, carpa grande · ⚠️ zona de segurança do paredão · 🟫 **no verão NÃO é aqui o siluro** (ver secção) |
 | **4. Pontas rochosas a N do braço** | ~39.955, -7.196 *(aprox.)* | cabeços/pontas (satélite) — **achigã/sandre a vinil** ao nascer do sol |
-| **Braços e cauda** (POAAP) | — | Rib. das **Barrocas** (SO) e das **Fragas** (E) são os braços do teu lado; a **cauda norte** (entrada do Ponsul) fica longe de bike — mas é **onde o siluro está no verão** ([porquê](#siluro)) |
+| **Braços e cauda** (POAAP) | — | Rib. das **Barrocas** (SO) e das **Fragas** (E) são os braços do lado do campismo; a **cauda norte** (entrada do Ponsul) fica longe de bike — mas é **onde o siluro está no verão** ([porquê](#siluro)) |
 
 > ⚖️ **Toda a margem é pescável** — a faixa da margem tem **servidão de uso público** ([Lei 54/2005](https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1377&tabela=leis), 30 m) mesmo onde o terreno atrás é privado, e o [plano oficial](https://www.cm-idanhanova.pt/media/18513/Folheto_Abufeira_Idanha.pdf) permite *"pesca desportiva desde que disponham de acesso público"* em todo o plano de água — a única exclusão é a zona da barragem. *(Nota: a coordenada [39.976, -7.181] que circula nos fóruns como "praia fluvial" fica longe da água — ignora-a.)*
 
@@ -116,11 +116,11 @@ Ordem de importância dos sentidos ([revisão Copp et al. 2009](https://invasibe
 
 #### 🥜 A TÉCNICA — "carpa está para method feeder, siluro está para… **pellets ao fundo**"
 
-Surpresa: **o siluro engoda-se** (ao contrário do que quase toda a gente assume). A modalidade análoga ao teu method feeder chama-se **"pesca a pellets"** e é das mais praticadas no Ebro/Mequinenza — inclusive **de margem** ([guia detalhada](https://pescaex.com/siluros-con-pellets)):
+**O siluro engoda-se** — ao contrário do que se assume. A modalidade análoga ao method feeder chama-se **"pesca a pellets"** e é das mais praticadas no Ebro/Mequinenza — inclusive **de margem** ([guia detalhada](https://pescaex.com/siluros-con-pellets)):
 
 > *"Quando se engoda em quantidade, o cheiro e o valor nutritivo fazem o siluro associar aquilo a comida, permitindo concentrar um bom número de peixes no local certo."* E no **verão**, com corrente nula, *"a ação de engodar resulta muito eficaz"*.
 
-**A diferença de filosofia vs. carpa** — e é isto que muda a tua tarde:
+**A diferença de filosofia vs. carpa:**
 
 | | 🐟 Carpa (method feeder) | 🟫 Siluro (pellets ao fundo) |
 |---|---|---|
@@ -129,9 +129,9 @@ Surpresa: **o siluro engoda-se** (ao contrário do que quase toda a gente assume
 | **Escala do engodo** | ~40 g por carga | no Ebro: **5-10 kg por engodada**, num círculo de ~20 m² à volta do isco ⚠️ |
 | **Chumbo** | 30-60 g | **175-350 g** (Ebro) — para segurar a montagem, não para lançar |
 
-⚠️ **Escala isso para a tua realidade:** os 5-10 kg são de pesca profissionalizada com barco, sessões de vários dias, num sítio onde se **sabe** que há siluros. Para uma tarde de margem numa água onde ele é hipótese, **1-2 kg de [Caldo do Bicho](ISCOS.md#caldo-do-bicho) (a receita da casa) num raio de 5-10 m à volta do isco** é o análogo honesto. E como a tua janela legal é curta, o engodo terá pouco tempo para trabalhar — mais uma razão para tratar isto como bilhete de lotaria.
+⚠️ **Escala:** os 5-10 kg são de pesca com barco, sessões de vários dias, em sítio com siluros confirmados. Para uma tarde de margem: **1-2 kg de [Caldo do Bicho](ISCOS.md#caldo-do-bicho) num raio de 5-10 m à volta do isco**. Com janela legal curta, o engodo tem pouco tempo para trabalhar.
 
-**🕳️ E a tua intuição sobre o sítio fundo: estás certo — mas o alvo é a QUEBRA.** Há uma tensão real entre as fontes, e vale a pena veres as duas:
+**🕳️ Sítio fundo? O alvo é a QUEBRA.** As fontes divergem — e a divergência resolve-se:
 - **Ciência (Belver, telemetria):** no verão a mediana é **3,2 m em julho** — está raso, junto à margem;
 - **Prática (Ebro, verão):** *"os siluros procuram agora as **poças profundas** onde passam longas horas de inatividade semienterrados no fundo de lodo"*;
 - **A reconciliação está na própria frase espanhola:** *"buscaremos as **poças profundas depois de longas planícies de águas rasas**"* — ou seja, **a transição raso→fundo**. É onde ele descansa (fundo) e para onde sai a caçar (raso), e é isso que explica o pico ao crepúsculo.
@@ -200,7 +200,7 @@ braid/mono forte → chumbo corrido (ou semi-fixo) → destorcedor forte
 
 **Isto não é a albufeira — é o troço a jusante, ~50 min de carro**, e é a diferença entre 1-3% e uma hipótese a sério. O troço tem **12,7 km** entre a ponte e a foz (bate com o *"troço de 10 km"* de onde o [LIFE PREDATOR tirou 1.200 kg em 3 dias, out-2024](https://www.reconquista.pt/articles/investigadores-retiram-1200-quilos-de-siluro-do-rio-), um exemplar com +90 kg).
 
-> 📐 **Correção técnica:** este troço é **regolfo da barragem de Cedillo** (Tejo Internacional, explorada pela **Iberdrola**), não do Fratel — a foz do Ponsul fica 1,9 km a montante de Cedillo, e o Fratel está ~25 km mais abaixo. Isto importa porque **quem manda no teu nível de água são os espanhóis**.
+> 📐 **Correção técnica:** este troço é **regolfo da barragem de Cedillo** (Tejo Internacional, explorada pela **Iberdrola**), não do Fratel — a foz do Ponsul fica 1,9 km a montante de Cedillo, e o Fratel está ~25 km mais abaixo. Isto importa porque **quem manda no nível da água são os espanhóis**.
 
 ### 📍 Os dois pontos (coordenadas verificadas em OSM)
 
@@ -222,7 +222,7 @@ braid/mono forte → chumbo corrido (ou semi-fixo) → destorcedor forte
 
 ➡️ **Tradução:** aqui a **pesca à vista bate a espera** — e é por isso que o horário do crepúsculo importa menos neste troço: **se vês o peixe, a hora é a que for**. Leva binóculos e anda pela margem à procura de atividade (barbos a fugir, remoinhos, dorsos).
 
-📋 **Setup real de quem lá pesca** ([vídeo de jun-2026, Rio Ponsul](https://www.youtube.com/watch?v=lSzb04KJ77A)): cana **CW 50-200 g**, carreto de siluro, **amostra de 400 g**. Ou seja: material bem acima do teu — a tua Multicolor (100-300 g) é o que mais se aproxima.
+📋 **Setup real de quem lá pesca** ([vídeo de jun-2026, Rio Ponsul](https://www.youtube.com/watch?v=lSzb04KJ77A)): cana **CW 50-200 g**, carreto de siluro, **amostra de 400 g**. Material de classe acima do de carpa: exige cana de 100-300 g no mínimo.
 
 ### ⚖️ Legal — verificado, e há uma armadilha
 
@@ -251,7 +251,7 @@ O nível **é da Iberdrola**, e pode desabar: em **out-2019 desceu mais de 10 me
 
 **Joaquim Jonqueres** (o do recorde), negócio **"Luso Outdoors"** sediado em Malpica: [Luso Outdoors Fishing no Facebook](https://www.facebook.com/lusooutdoorsfishing/) — *"Experiências de pesca guiada no Rio Ponsul e Tejo"*. ⚠️ **Não há contactos nem preços públicos** (o Facebook exige login) e **os relatos dele em 2025-26 são de barco** — se quiseres margem, pergunta diretamente.
 
-> **A ponte dá mais que siluro:** relato de fórum antigo dá **10 barbos de 2-5 kg numa tarde** ao fundo (anzol forte, chumbada 100 g — a corrente lá é forte) e [alburnos ao asticot à vontade](https://forumdacasa.com/discussion/29559/8/topico-da-pesca/). Não vais lá para vir de mãos a abanar.
+> **A ponte dá mais que siluro:** relato de fórum antigo dá **10 barbos de 2-5 kg numa tarde** ao fundo (anzol forte, chumbada 100 g — a corrente lá é forte) e [alburnos ao asticot à vontade](https://forumdacasa.com/discussion/29559/8/topico-da-pesca/).
 
 ### 🔵 Barbo · boga
 - Aqui são **da época fria** ([guia local](https://www.guiadacidade.pt/en/poi-barragem-marechal-carmona-20448)) — no verão, fundões de manhã cedo, sem contar com muito. A receita de Avis (iscada grande de minhoca) vale igual.
