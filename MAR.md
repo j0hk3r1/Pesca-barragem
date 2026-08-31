@@ -183,13 +183,42 @@ mãe → destorcedor
 - 📏 **Mínimos:** robalo **36 cm** · dourada **19 cm** · linguado **24 cm** · máx. **10 kg/dia** por pescador.
 - 🐟 **Isco de peixe é LEGAL aqui** (sardinha, cavala) — a proibição das águas interiores acaba em VFX.
 
-## 🛒 Onde comprar isco
+## 🛒 Lojas de isco (OSM, verificadas)
 
-⚠️ **Não há loja de pesca confirmada na zona oriental de Lisboa** (a "Pescópeixe" da Matinha aparecia em diretórios mas **não está no OSM nem no Google Maps** — provavelmente fechou). Alternativas:
-- **Decathlon** (Colombo, Amoreiras, Alfragide) — asticot e minhoca de mar congelada; casulo raramente
-- Lojas de pesca de bairro em **Almada/Cacilhas** (do outro lado) e na linha de Cascais
-- **Sesimbra e Ericeira** têm lojas junto aos portos — se fores lá, compra no local
-- 💡 **Casulo é o isco que vale a pena procurar** — se encontrares uma casa que o venda em Lisboa, marca-a aqui.
+🗺️ **[Todas no mapa](https://www.google.com/maps/dir/38.73143,-9.13595/38.67127,-9.17084/38.66700,-9.18792/38.67332,-9.23142/38.46351,-9.10051/38.52194,-8.88330)**
+
+| Loja | 📍 | Onde | Perto de |
+|---|---|---|---|
+| 🥇 **Casa Diana** | [38.73143, -9.13595](https://www.google.com/maps?q=38.73143,-9.13595) ✅ · ☎ 213 192 940 | R. Pascoal de Melo 62, **Arroios** | **1 km de casa** — a pé! *(loja de caça e pesca)* |
+| **Go Fishing Portugal** | [38.67127, -9.17084](https://www.google.com/maps?q=38.67127,-9.17084) ✅ | Pragal, **Almada** | passagem para a Caparica |
+| **Aquatorres** | [38.66700, -9.18792](https://www.google.com/maps?q=38.66700,-9.18792) ✅ | Banática, **Caparica/Trafaria** | a caminho da Caparica |
+| **Sal e Pesca** | [38.67332, -9.23142](https://www.google.com/maps?q=38.67332,-9.23142) ✅ · ☎ 212 950 280 | Av. Bulhão Pato, **Caparica** | **em cima das praias da Caparica** |
+| **Zimbromotor** | [38.46351, -9.10051](https://www.google.com/maps?q=38.46351,-9.10051) ✅ · ☎ 212 686 650 | Av. João Paulo II, **Sesimbra** | para os dias de Sesimbra |
+| **Casa Pita** | [38.52194, -8.88330](https://www.google.com/maps?q=38.52194,-8.88330) ✅ | Fontaínhas, **Setúbal** | para o Sado/Figueirinha |
+
+> ⚠️ **Horários não confirmados** em nenhuma — liga antes, sobretudo ao domingo e depois das 19h. ⚠️ A "Pescópeixe" da Matinha que circula em diretórios **não existe no OSM nem no Maps** — provavelmente fechou.
+
+## 🧊 Isco de congelador — para os dias de semana
+
+A jogada para pescar às 18h sem passar na loja: **stock em casa**. O que aguenta congelado e o que não:
+
+| Isco | Congela? | Validade | Notas |
+|---|:--:|---|---|
+| 🥇 **Camarão cru** (com casca) | ✅✅ | meses | **o melhor congelável** — do supermercado serve. ⚠️ **cru, nunca cozido** (o cozimento destrói o cheiro) · amarra com **fio elástico**, que descongelado fica mole |
+| 🥇 **Lula / pota** (tiras) | ✅✅ | meses | **o rei da durabilidade no anzol** — aguenta lançamentos e ladrões de isco; supermercado, barato |
+| **Sardinha / cavala** (em pedaços) | ✅✅ | meses | legal no mar ⚠️ (proibido nas barragens) · muito cheiro · congela **já cortada em tiras** |
+| **Ameijoa / mexilhão** (sem casca) | ✅ | ~2 meses | dourada e sargo adoram · mole → fio elástico obrigatório |
+| **Caranguejo** (verde, mole) | ✅ | ~2 meses | dourada e robalo · congela inteiro |
+| ❌ **Casulo / minhoca do mar** | ❌ | — | **morre e desfaz-se** — só fresco. É o melhor isco, mas obriga a passar na loja |
+| ❌ Amêijoa viva, camarão vivo | ❌ | — | o valor é estarem vivos |
+
+**Como montar o congelador de pesca:**
+1. **Porções individuais** em sacos de congelação (uma sessão por saco) — não descongeles um bloco inteiro para 3 horas de pesca;
+2. **Salga ligeira antes de congelar** (sal grosso 30 min, escorre, congela): endurece a carne, aguenta muito mais no anzol e não perde cheiro. É o truque clássico do surfcasting;
+3. **Descongela na geleira a caminho** — nunca à temperatura ambiente (fica papa);
+4. **Não recongelar** o que sobrou descongelado — perde tudo o que interessa.
+
+> 💡 **O plano dos dias de semana:** congelador com **camarão cru + tiras de lula** (as duas mais versáteis) para saíres de casa direto para a muralha. **Casulo fresco fica para os dias planeados** — passas na loja de propósito, e é aí que a pescaria é a sério.
 
 ## 🪱 Iscos
 
