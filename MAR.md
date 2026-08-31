@@ -288,7 +288,10 @@
 
 ## ⛔ Época balnear — a regra que fecha as praias
 
-⚠️ **Correção importante:** o edital de 2011 que circula na net **foi revogado**. Vale o **[Edital 733/2019 da Capitania de Lisboa](https://dre.tretas.org/dre/3737642/edital-733-2019-de-12-de-junho)** — e a região tem **três capitanias com três regras diferentes**:
+> 🆕 **A LEI MUDOU EM AGOSTO DE 2026.** A Portaria 569/90 (que ainda circula em fóruns) foi **revogada a 6-ago-2026** pela **[Portaria n.º 330/2026/1](https://diariodarepublica.pt/dr/detalhe/portaria/330-2026-1154555263)** — *"aprova as normas reguladoras da pesca comercial e da pesca lúdica nas águas interiores não marítimas do rio Tejo"*. Verificado no Diário da República.
+> **E o artigo dos "sinais da APL"** que se cita por aí (art. 21.º n.º 7) **já não existia desde 2011**.
+
+⚠️ Além da portaria, vale o **Edital 733/2019 da Capitania de Lisboa** — e a região tem **três capitanias com três regras diferentes**:
 
 | Capitania | Onde | Regra nas praias |
 |---|---|---|
@@ -297,6 +300,10 @@
 | **Setúbal** | do Galherão para sul (Sesimbra, Arrábida, Sado) | **só nas praias concessionadas**, sem distância definida — a mais permissiva |
 
 E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/0000200039.pdf) confirma: **praticamente todas as praias aqui são águas balneares** — Almada tem **22**, Sesimbra 6, Mafra 8, Cascais 15.
+
+> 🎯 **A descoberta que muda o mapa mental: as zonas proibidas do edital de Lisboa aplicam-se SÓ AO ESTUÁRIO.**
+> O texto é explícito — proíbe *"nas **águas interiores não marítimas do rio Tejo**"*, que acabam na linha **Bugio ↔ Forte de S. Julião**. **A costa oceânica da Caparica fica FORA** dessa lista: lá não valem os canais, nem os 300 m de cais, nem os "1 mai-15 out".
+> ⚠️ **Mas a Caparica continua fechada na época** por outra via: a **[Portaria 14/2014, art. 8.º n.º 1 c)](https://diariodarepublica.pt/dr/detalhe/portaria/14-2014-568578)** proíbe pescar *"nos planos de água associados às **concessões balneares**"* — regra nacional que não depende do edital.
 
 | Praia | Época balnear 2026 | Pescável a partir de |
 |---|---|---|
@@ -322,10 +329,15 @@ E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/00
 
 ## ⚖️ Legal — o resto
 
-- 💳 **Licença marítima (DGRM)** — obrigatória, tira-se online. A do ICNF **não vale** aqui.
-- 🌙 **Noturna é LEGAL** no marítimo (ao contrário das barragens) — e é a melhor hora do robalo.
-- 🐟 **Isco de peixe é LEGAL** (sardinha, cavala) — a proibição das águas interiores acaba em VFX.
-- 📏 **Mínimos:** robalo **36 cm** · dourada **19 cm** · linguado **24 cm** · máx. **10 kg/dia**.
+- 💳 **Licença marítima (DGRM)** — obrigatória (**8 €/ano** ou 2 €/dia). A do ICNF **não vale** aqui.
+- 🎣 **Máximo 2 canas** por pescador · **3 anzóis** por cana, abertura mínima 8 mm ([Portaria 330/2026/1, art. 10.º](https://diariodarepublica.pt/dr/detalhe/portaria/330-2026-1154555263)).
+- 🌙 **Noturna apeada é LEGAL** — a portaria nova só proíbe do pôr ao nascer do sol **de bordo de embarcações** e na **apanha**. De terra, pode.
+- 📏 **5 metros mínimos entre pescadores** (Portaria 14/2014).
+- 🐟 **Isco de peixe é LEGAL** (sardinha, cavala). ⚠️ **Ovas de peixe: proibidas.**
+- 🦪 **Apanha lúdica não precisa de licença**, mas ⚠️ **amêijoa-japonesa é proibida** e há **editais de interdição de bivalves** — confirma antes de apanhar.
+- 📏 **Limites diários:** 10 kg + o maior exemplar · 2 kg de não-peixes · 0,5 L de minhocas.
+- ⚠️ **Tamanhos mínimos:** os que circulam (robalo 36 · dourada 19 · linguado 24) vinham do anexo da portaria revogada. A nova remete para os **"tamanhos mínimos de referência de conservação"** da UE — os valores mantêm-se na prática, mas **confirma na DGRM** antes de guardar peixe no limite.
+- 🚫 **Retenção proibida:** enguia, sável, savelha, lampreia · **corvina** interdita de 1 a 30 de junho.
 
 **Distâncias que se acumulam** (além da regra balnear) — verificar no local:
 
@@ -335,6 +347,10 @@ E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/00
 | **100 m** | docas, marinas, embarcadouros, pontões de atracação, rampas, estaleiros, unidades militares, **fortes**, faróis, esgotos sinalizados |
 | **50 m** | pilares da Ponte 25 de Abril |
 | — | **dentro** de docas e marinas · **canais de navegação** nomeados (Alfeite, Seixal/Trindade, Barreiro, Montijo, Alcochete, Cabo Ruivo, Cala do Norte/Póvoa…) |
+
+⚠️ **O RAP da APL acrescenta mais uma camada** ([Regulamento de Autoridade Portuária](https://www.portodelisboa.pt/documents/20121/157903/Regulamento_de_Autoridade_Portu%C3%A1ria_da_APL.pdf), ponto 10.8): proíbe pesca *"a toda e qualquer embarcação **ou pessoa**"* — abrange quem pesca de terra — em docas e acessos, **a menos de 150 m de cais e terminais acostáveis**, e **a menos de 300 m das zonas de banhos** na época. ⚠️ Nota a contradição: **150 m no RAP vs 300 m no edital** — na dúvida, usa o maior.
+
+📞 **Para tirar dúvidas sobre um spot concreto** — manda coordenadas GPS e foto para **capitania.lisboa@amn.pt** (☎ **210 911 100**, dias úteis 9h-12h30) e pede confirmação por escrito. Para a Caparica: Delegação Marítima da Trafaria ☎ 212 950 823.
 
 ⚠️ **Áreas marinhas protegidas:** **AMP das Avencas** (Parede) — só 1 linha com 1 anzol e cartão próprio · **Parque Marinho Luiz Saldanha** (Arrábida) — pesca proibida nas zonas de Proteção Total e Parcial. **Trata toda a costa sul da Arrábida como suspeita** até confirmares o zonamento.
 
