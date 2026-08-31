@@ -338,7 +338,16 @@ E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/00
 - 🐟 **Isco de peixe é LEGAL** (sardinha, cavala). ⚠️ **Ovas de peixe: proibidas.**
 - 🦪 **Apanha lúdica não precisa de licença**, mas ⚠️ **amêijoa-japonesa é proibida** e há **editais de interdição de bivalves** — confirma antes de apanhar.
 - 📏 **Limites diários:** 10 kg + o maior exemplar · 2 kg de não-peixes · 0,5 L de minhocas.
-- ⚠️ **Tamanhos mínimos:** os que circulam (robalo 36 · dourada 19 · linguado 24) vinham do anexo da portaria revogada. A nova remete para os **"tamanhos mínimos de referência de conservação"** da UE — os valores mantêm-se na prática, mas **confirma na DGRM** antes de guardar peixe no limite.
+- 📏 **Tamanhos mínimos — [tabela oficial DGRM de 26-fev-2026](https://www.dgrm.pt/documents/20143/121101/Tabela+de+Tamanhos+M%C3%ADnimos+de+Captura+26-02-26.pdf/df575e44-0111-1bbe-99aa-f11895a6cb33)** (confirmados no documento):
+
+| Espécie | Mín. | Espécie | Mín. |
+|---|:--:|---|:--:|
+| **Robalo-legítimo** | **36 cm** | Sargo legítimo | 17 cm |
+| **Dourada** | **19 cm** | Sargo safia | 17 cm |
+| **Linguados** | **24 cm** | Sargo bicudo | 22 cm |
+| Corvina-legítima | **42 cm** | Sargo veado | 27 cm |
+| Tainhas | 20 cm | Pargo-legítimo | 20 cm |
+| Choco-vulgar | 10 cm | | |
 - 🚫 **Retenção proibida:** enguia, sável, savelha, lampreia · **corvina** interdita de 1 a 30 de junho.
 
 **Distâncias que se acumulam** (além da regra balnear) — verificar no local:
@@ -355,6 +364,22 @@ E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/00
 📞 **Para tirar dúvidas sobre um spot concreto** — manda coordenadas GPS e foto para **capitania.lisboa@amn.pt** (☎ **210 911 100**, dias úteis 9h-12h30) e pede confirmação por escrito. Para a Caparica: Delegação Marítima da Trafaria ☎ 212 950 823.
 
 ⚠️ **Áreas marinhas protegidas:** **AMP das Avencas** (Parede) — só 1 linha com 1 anzol e cartão próprio · **Parque Marinho Luiz Saldanha** (Arrábida) — pesca proibida nas zonas de Proteção Total e Parcial. **Trata toda a costa sul da Arrábida como suspeita** até confirmares o zonamento.
+
+
+### 📖 O que diz o FAQ oficial da DGRM *(ago-2026)*
+
+Respostas literais do [FAQ da Pesca Lúdica](https://www.dgrm.pt/documents/20143/121104/FAQ-Pesca+Ludica+2026_08.pdf/9669422f-b7a9-25f5-708f-3cd1f06ba21d) — a fonte que resolve as dúvidas que os fóruns não resolvem:
+
+| Pergunta | Resposta oficial |
+|---|---|
+| **Pescar de um molhe de barra de porto?** | ✅ **"Sim, pode ser feita pesca apeada"** — mas a Capitania pode limitar por edital em certas condições de mar. *Consultar a capitania da área.* |
+| **A menos de 100 m de doca, porto de abrigo, estaleiro ou aquicultura?** | ❌ **Não** — e a distância conta **em terra (nas margens) ou na água**, em qualquer tipo de água |
+| **A menos de 100 m de esgoto?** | ❌ Não, **desde que esteja devidamente assinalado** |
+| **De noite em praia concessionada, na época balnear?** | ⚠️ **Depende do edital da capitania local** — podem autorizar ou proibir; *"é essencial consultar os regulamentos específicos de cada Capitania"* |
+| **Distância mínima entre pescadores** | **5 metros** |
+| **Luz como chamariz, a pescar à cana** | ✅ autorizada (nada a proíbe) |
+
+⚖️ **As coimas:** **100 a 1000 €** (pessoa singular) por pescar em zona interdita, a menos de 100 m das estruturas, ou a menos de 5 m de outro pescador sem acordo dele.
 
 ## 📍 As zonas
 
