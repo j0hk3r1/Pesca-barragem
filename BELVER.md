@@ -16,11 +16,11 @@
 
 | # | Spot | 📍 | A pé do campismo | Porquê |
 |---|---|---|:--:|---|
-| 🥇 | **Rampa da Praia Fluvial de Ortiga** | [39.48309, -8.00180](https://www.google.com/maps?q=39.48309,-8.00180) ✅ | **289 m** | **é aqui que saíram as 2,3 t** e o siluro de 2 m |
+| 🥇 | **Rampa da Praia Fluvial de Ortiga** | [39.48309, -8.00180](https://www.google.com/maps?q=39.48309,-8.00180) ✅ | **289 m** | rampa de betão (OSM ✅), a base natural do troço · *(o LIFE PREDATOR operou **em Belver**, mas nenhuma fonte nomeia esta rampa — não confirmado)* |
 | 🥈 | **Braço da Rib. de Eiras** (~900 m acima da foz) | [39.48584, -8.00205](https://www.google.com/maps?q=39.48584,-8.00205) ✅ | 523 m | 2 vídeos de **siluro à cana, da margem** ([2018](https://www.youtube.com/watch?v=sfRSzhORw9g) · [2021](https://www.youtube.com/watch?v=soHF2mhVxYg)) |
 | 🥉 | **Pontões flutuantes** | [39.48285, -8.00128](https://www.google.com/maps?q=39.48285,-8.00128) ✅ | 154 m | acesso fácil, água imediata |
 | 4 | **Limite montante da ZPL** (1,21 km) | [39.48832, -8.00204](https://www.google.com/maps?q=39.48832,-8.00204) ✅ | ~1 km | fim da zona licenciada |
-| 5 | **Tejo a JUSANTE do paredão** | [39.47935, -8.00355](https://www.google.com/maps?q=39.47935,-8.00355) ✅ | 404 m | água de turbinamento — peixe atordoado · ⚠️ **perigoso**, ver segurança |
+| 5 | **Tejo a JUSANTE do paredão** | [39.47935, -8.00355](https://www.google.com/maps?q=39.47935,-8.00355) ✅ | 404 m | água de turbinamento — peixe atordoado · ⚠️ **perigoso** (ver segurança) · ⚠️ está **dentro da ZPP**: lúdica permitida, mas conta com **redes e tresmalhos fixos na água** |
 | 6 | **Praia Fluvial do Alamal** (margem esq.) | [39.48831, -7.96766](https://www.google.com/maps?q=39.48831,-7.96766) ✅ | 9,2 km carro | [siluro marcado pelo MARE/FRISK](https://www.youtube.com/watch?v=hQsSu3wzoUY) · [captura de margem](https://www.youtube.com/watch?v=aN6VpxI2GKo) |
 | ⛔ | Junto ao paredão / foz da ribeira | [paredão real: 39.47958, -7.99908](https://www.google.com/maps?q=39.47958,-7.99908) ✅ | — | **NÃO PESCAR** — ver Legal |
 
@@ -45,6 +45,8 @@
 - 🐟 **Siluro: DP** (sem defeso, sem limite, sem tamanho mínimo) e **retenção obrigatória** — não pode ser devolvido nem transportado vivo (Portaria 360/2017 art. 4.º n.º 3). Cada siluro apanhado tem de ser abatido.
 - ⛔ **Não pescar junto ao paredão** ([DL 107/2009 art. 23.º b)](https://files.diariodarepublica.pt/gratuitos/1s/2009/05/09400.pdf) — contraordenação grave) nem a **menos de 50 m da eclusa de peixes** (Lei 7/2008 art. 18.º i), coima 250-2000 €). **Regra prática: não passar a linha de boias.**
 - 🚫 **Isco de peixe (vivo/morto) e ovas: proibido** (DL 112/2017 art. 13.º).
+- 📅 **Defesos na ZPL:** achigã **16 mar-14 mai** (máx. 6, ≥20 cm) · barbo e boga **16 mar-14 jun** · escalo-do-sul e bordalo = devolução obrigatória · **carpa sem limite nem tamanho** · pesca todos os dias do ano.
+- ⚠️ **Contradição nos documentos do ICNF:** o despacho de 2023 reduziu a ZPL para **13 ha**, mas o edital e a cartografia ainda dizem **31 ha** (cobrindo também a frente de água de Ortiga e margem até ao paredão). **Na dúvida, compra a diária** — cobre-te em qualquer das versões.
 - ✅ **Máx. 2 canas** · o spot 5 (jusante) é **ZPP mas permite pesca lúdica** ([edital ZPP](https://www.icnf.pt/api/file/doc/14e76c52784c11fc)).
 
 ## 🕐 Janela legal (setembro/outubro)
@@ -84,6 +86,7 @@ Belver é **fio-de-água com 80,7 MW**; o volume útil pode escoar em **~5-6 h a
 - **Loja de pesca:** Casa Rosado, Abrantes (~25 km) ☎ 241 361 739 · *(horário/stock de minhoca não confirmado)* · alternativa com sábado confirmado: Nova Pesca, Torres Novas (55 km)
 - **Comer:** "A Lena" (Estrada da Barragem, ☎ 241 573 457 — vende licenças, fecha 4ª) · "O Bigodes" ☎ 964 677 705
 - **Compras/combustível:** Mação (12 km) ou Abrantes (25 km) — **nada em Ortiga**
+- 💧 **Água a 89%** (18.360 de 20.570 dam³, [SNIRH 24-ago-2026](https://apambiente.pt/sites/default/files/_SNIAMB_Agua/DRH/MonitorizacaoAvaliacao/BoletimAlbufeiras/Semanal.pdf)) — muito acima da média de agosto (~55%)
 - 🚗 **De Lisboa: 112 min · 165 km**
 
 ## ❓ Lacunas
