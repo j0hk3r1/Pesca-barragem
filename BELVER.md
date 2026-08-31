@@ -28,6 +28,15 @@
 
 > ⚠️ **Coordenada armadilha:** o que o Google Maps dá como "Barragem de Belver" (39.48198, -8.00125) é o **apeadeiro ferroviário**, não o paredão.
 
+## 🎫 Antes de ir — checklist
+
+| # | O quê | Como | Quanto |
+|:--:|---|---|---|
+| 1 | **Licença nacional** de pesca lúdica | **Multibanco** (Serviços Públicos → ICNF) ou balcão ICNF · ⚠️ **não existe online** · anual | [23,93 €](https://www.icnf.pt/pesca/pescataxas) |
+| 2 | 📞 **Ligar ao campismo** | **241 573 464** · campismo@cm-macao.pt — confirmar vaga, preço 2026 e sobretudo **se há licenças ZPL disponíveis** (só 35/dia p/ não residentes) | — |
+| 3 | **Licença diária da ZPL** | **presencial à chegada**: Parque de Campismo de Ortiga ou Restaurante **"A Lena"** (☎ 241 573 457, fecha 4ª) · levar **cartão de cidadão + licença nacional** | **3 €** |
+| 4 | **Minhocas** (isco nº 1) | Casa Rosado, Abrantes ☎ 241 361 739 (~25 km) — ou trazer de Lisboa | — |
+
 ## ⚖️ Legal (verificado em fonte primária)
 
 - 🎫 **A água a pé é uma ZPL** — [Despacho VPCD_PS/506/2023](https://www.icnf.pt/api/file/doc/9251bc5086e17ced): abrange **o braço da ribeira de Eiras, 1,21 km** a partir da linha perpendicular ao eixo da barragem (13 ha). O corpo principal da albufeira ficou de fora.

@@ -21,6 +21,13 @@
 | **Braço da Sagolga** | *coord por auditar* | — | 2.ª zona oficial de pesca (POAM art. 13.º); navegação sem motor permitida |
 | ⛔ **Paredão + parque EN2** | — | — | **PESCA PROIBIDA** — 250 m em redor |
 
+## 🎫 Antes de ir
+
+| # | O quê | Como | Quanto |
+|:--:|---|---|---|
+| 1 | **Licença nacional** de pesca lúdica | **Multibanco** (Serviços Públicos → ICNF) ou balcão · ⚠️ **não existe online** | [23,93 €](https://www.icnf.pt/pesca/pescataxas) |
+| 2 | **Mais nada** | águas livres — **sem ZPL nem licença diária**, ao contrário de [Belver](BELVER.md) | — |
+
 ## ⚖️ Legal
 
 - ✅ **Águas livres** — só a [licença nacional](LICENCAS.md) (23,93 €). Sem ZPL nem concessão.
