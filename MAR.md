@@ -171,6 +171,7 @@
     if(typeof L==='undefined') return;
     el.dataset.pronto='1';
     var mapa=L.map(el).setView([38.72,-9.13], 12);
+    var MAPA_REF=mapa, CAMADAS_REF={}, LEGENDA_ID='mapa-legenda';
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
       maxZoom:18, attribution:'© OpenStreetMap'}).addTo(mapa);
 
@@ -216,6 +217,29 @@
       var leg=document.getElementById('mapa-legenda');
       if(leg) leg.innerHTML='<span style="opacity:.7">⚠️ não deu para carregar as zonas.</span>';
     });
+
+    // camada das praias balneares (só proibidas dentro da época)
+    fetch('data-praias.json').then(function(r){return r.json();}).then(function(ps){
+      var g=L.layerGroup(), hoje=new Date(), ano=hoje.getFullYear(), ativas=0;
+      ps.forEach(function(p){
+        var ini=new Date(ano+'-'+p.i+'T00:00:00'), fim=new Date(ano+'-'+p.f+'T23:59:59');
+        var dentro = hoje>=ini && hoje<=fim;
+        if(dentro) ativas++;
+        var cor = dentro ? '#e67e22' : '#95a5a6';
+        L.circle([p.la,p.lo],{radius:p.r,color:cor,fillColor:cor,fillOpacity:dentro?0.18:0.05,weight:dentro?2:1,dashArray:dentro?null:'4'})
+         .bindPopup('<b>🏖️ '+p.n+'</b><br>época: '+p.i.split('-').reverse().join('/')+' a '+p.f.split('-').reverse().join('/')+
+           '<br>capitania: '+p.j+' · raio <b>'+p.r+' m</b><br><b>'+(dentro?'⛔ PROIBIDO agora':'✅ fora de época')+'</b>').addTo(g);
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['praia balnear'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="praia balnear"> '+
+        '<span style="color:#e67e22">■</span> praias balneares ('+ativas+' em época de '+ps.length+')</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="praia balnear"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
   }
   // carregar Leaflet e esperar pelo div
   if(typeof L==='undefined'){
