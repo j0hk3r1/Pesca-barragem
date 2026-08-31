@@ -176,7 +176,7 @@
 
     var CORES={'pontão':'#e74c3c','doca/marina':'#c0392b','terminal fluvial':'#8e44ad','cais acostável':'#8e44ad','farol':'#d35400','unidade militar':'#7f8c8d'};
     var SPOTS=[
-      ['Parque Ribeirinho Oriente',38.74464,-9.09699,'583 m do cais mais próximo'],
+      ['Parque Ribeirinho Oriente (norte)',38.74735,-9.09692,'237 m do pontão · ⚠️ mais a sul há um pontão a 95 m'],
       ['Cais do Adamastor (PdN)',38.75818,-9.09109,'⚠️ 101 m do pontão — no limite'],
       ['Algés / Dafundo',38.694,-9.227,'não é água balnear'],
       ['Pontão do Rio Judeu (Seixal)',38.6264,-9.1101,'1996 m da praia balnear'],
@@ -322,7 +322,7 @@ E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/00
 
 | Zona | 📍 | 🚲 de Picoas | Alvos | Nota |
 |---|---|:--:|---|---|
-| 🥇 **Parque Ribeirinho Oriente** (Marvila) ✅ *o ano todo* | muralha [38.74464, -9.09699](https://www.google.com/maps?q=38.74464,-9.09699) ✅ · norte [38.74735, -9.09692](https://www.google.com/maps?q=38.74735,-9.09692) ✅ | 🚲 **30 min** · 🚗 10 min | robalo, linguado, dourada, taínha | **medido por mim:** o pin da muralha está a **583 m** do cais mais próximo (regra: 300 m) ✅ · o pin norte a 352 m, mais apertado · pesca do **meio para norte**, e afasta-te de qualquer cais com atividade |
+| 🥇 **Parque Ribeirinho Oriente** (Marvila) ✅ *o ano todo* | 🎯 **usa o do NORTE: [38.74735, -9.09692](https://www.google.com/maps?q=38.74735,-9.09692)** ✅ · ⚠️ o do meio (38.74464) fica a **95 m de um pontão** | 🚲 **30 min** · 🚗 10 min | robalo, linguado, dourada, taínha | **medido:** o pin **norte está a 237 m** do pontão mais próximo ✅ · o do meio a **95 m** 🔴 (dentro dos 100) — *o pontão está desativado e em ruínas (relato da casa), o que é argumento a favor, mas não vale a pena discutir: **sobe 300 m para norte** e o problema desaparece* |
 | 🥈 **Cais do Adamastor / Passeio dos Navegadores** (PdN) 🟠 | [38.75818, -9.09109](https://www.google.com/maps?q=38.758182784270204,-9.091092320153646) ✅ | 🚲 ~38 min · 🚗 12 min | robalo, dourada, taínha | ⚠️ **medido: pontão mais próximo a 101 m** — cumpre a regra dos 100 m **por 1 metro**. Andar uns passos para sul põe-te ilegal · **caminha para NORTE** pela ribeirinha para ganhar margem (a ~500 m estás fora dos 300 m de tudo) · spot popular |
 | 🥈 **Algés / Dafundo** ✅ *o ano todo* | ~[38.694, -9.227](https://www.google.com/maps?q=38.694,-9.227) *(aprox.)* | 🚲 ~36-40 min | robalo, dourada | areal + esporão · **não são águas balneares** → sem restrição de banhos · ⚠️ lodaçal na baixa-mar: pescar de meia enchente a meia vazante · ⚠️ 100 m da Doca de Pedrouços |
 | 🏖️ **Costa da Caparica** ⛔ *até 30 set* | praia principal ~[38.642, -9.232](https://www.google.com/maps?q=38.642,-9.232) *(aprox.)* · Fonte da Telha [38.57191, -9.19614](https://www.google.com/maps?q=38.57191,-9.19614) ✅ | 🚗 **17 min sem trânsito · ~40 min na prática** (ponte) · 16 km | robalo, sargo, dourada | **surfcasting clássico** — praia aberta, é aqui que as pirâmides de 120-150 g e o shock leader 0,6 fazem sentido · escolhe as **covas entre bancos de areia** (vêem-se na maré baixa) |
