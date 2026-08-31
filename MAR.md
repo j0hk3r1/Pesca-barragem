@@ -128,7 +128,15 @@
 
 ## ⛔ ATENÇÃO — época balnear (é AGORA)
 
-**Proibido pescar em áreas balneares, durante a época, a menos de 200 m da linha da praia** ([edital da Capitania](http://dalhelinha.blogspot.com/2012/05/legislacao-restricoes-pesca-no-tejo.html)). E verifiquei a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/0000200039.pdf): **praticamente todas as praias aqui listadas são águas balneares oficiais** — Almada tem **22**, Sesimbra 6, Mafra 8.
+⚠️ **Correção importante:** o edital de 2011 que circula na net **foi revogado**. Vale o **[Edital 733/2019 da Capitania de Lisboa](https://dre.tretas.org/dre/3737642/edital-733-2019-de-12-de-junho)** — e a região tem **três capitanias com três regras diferentes**:
+
+| Capitania | Onde | Regra nas praias |
+|---|---|---|
+| **Lisboa (CPL)** | de S. Julião da Barra ao paralelo do Galherão; Tejo até VFX | **200 m** da linha da praia, **1 mai → 15 out** *(data fixa, não a época balnear)* |
+| **Cascais** | tudo a poente de S. Julião da Barra (Cascais, Sintra, **Mafra/Ericeira**) | **300 m** da borda de água durante o período balnear — **inclui os esporões** |
+| **Setúbal** | do Galherão para sul (Sesimbra, Arrábida, Sado) | **só nas praias concessionadas**, sem distância definida — a mais permissiva |
+
+E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/0000200039.pdf) confirma: **praticamente todas as praias aqui são águas balneares** — Almada tem **22**, Sesimbra 6, Mafra 8, Cascais 15.
 
 | Praia | Época balnear 2026 | Pescável a partir de |
 |---|---|---|
@@ -146,6 +154,16 @@
 >
 > 💡 E há a via das horas: a época balnear tem **vigilância diurna** — muitos pescam ao **amanhecer e depois do pôr-do-sol**, quando a praia não está em uso. A lei diz *"durante a época"*, não *"durante o horário"* — portanto é **zona cinzenta, não permissão**. Decide informado.
 
+### 📅 Quando abre cada zona
+
+| Zona | Abre a |
+|---|---|
+| **Sesimbra** (Califórnia, Ouro, Meco, Bicas) · **Ericeira/Mafra** · **Sintra** | **14 set** |
+| **Setúbal** (Figueirinha, Albarquel, Galapos…) | **16 set** ⚠️ Galapos/Portinho estão no Parque Marinho — verificar zonamento |
+| Praias do **Seixal** e Ponta dos Corvos | 16 set *(editais de banhistas)* |
+| **Costa da Caparica** (22 praias) · **Oeiras** · **Cascais** | **1 out** |
+| ⚖️ *Leitura literal do edital de Lisboa* | **16 out** — a CPL fixa a janela em **1 mai-15 out**, independentemente da época balnear. **A leitura segura é esperar por 16 de outubro** nas praias sob jurisdição de Lisboa (Caparica, Oeiras). |
+
 ## 📍 As zonas
 
 🗺️ **[Margem sul num mapa](https://www.google.com/maps/dir/38.65017,-9.10464/38.70248,-8.98169/38.75661,-8.96556)** — Ponta dos Corvos → Montijo → Alcochete.
@@ -154,13 +172,19 @@
 
 | Zona | 📍 | 🚲 de Picoas | Alvos | Nota |
 |---|---|:--:|---|---|
-| 🥇 **Parque Ribeirinho Oriente** (Marvila) ✅ *o ano todo* | muralha [38.74464, -9.09699](https://www.google.com/maps?q=38.74464,-9.09699) ✅ · norte [38.74735, -9.09692](https://www.google.com/maps?q=38.74735,-9.09692) ✅ | 🚲 **30 min** · 🚗 10 min | robalo, linguado, dourada, taínha | frente aberta, **fora das zonas proibidas** · pesca do **meio para norte** (a doca do Poço do Bispo a sul obriga a 300 m) |
+| 🥇 **Parque Ribeirinho Oriente** (Marvila) ✅ *o ano todo* | muralha [38.74464, -9.09699](https://www.google.com/maps?q=38.74464,-9.09699) ✅ · norte [38.74735, -9.09692](https://www.google.com/maps?q=38.74735,-9.09692) ✅ | 🚲 **30 min** · 🚗 10 min | robalo, linguado, dourada, taínha | **medido por mim:** o pin da muralha está a **583 m** do cais mais próximo (regra: 300 m) ✅ · o pin norte a 352 m, mais apertado · pesca do **meio para norte**, e afasta-te de qualquer cais com atividade |
 | 🥈 **Algés / Dafundo** ✅ *o ano todo* | ~[38.694, -9.227](https://www.google.com/maps?q=38.694,-9.227) *(aprox.)* | 🚲 ~36-40 min | robalo, dourada | areal + esporão · **não são águas balneares** → sem restrição de banhos · ⚠️ lodaçal na baixa-mar: pescar de meia enchente a meia vazante · ⚠️ 100 m da Doca de Pedrouços |
 | 🏖️ **Costa da Caparica** ⛔ *até 30 set* | praia principal ~[38.642, -9.232](https://www.google.com/maps?q=38.642,-9.232) *(aprox.)* · Fonte da Telha [38.57191, -9.19614](https://www.google.com/maps?q=38.57191,-9.19614) ✅ | 🚗 **17 min sem trânsito · ~40 min na prática** (ponte) · 16 km | robalo, sargo, dourada | **surfcasting clássico** — praia aberta, é aqui que as pirâmides de 120-150 g e o shock leader 0,6 fazem sentido · escolhe as **covas entre bancos de areia** (vêem-se na maré baixa) |
 | ⚓ **Setúbal / Sado** ⛔ *até 15 set* | Figueirinha [38.48428, -8.94504](https://www.google.com/maps?q=38.48428,-8.94504) ✅ | 🚗 51 min sem trânsito · **~70 min na prática** (ponte) · 48 km | robalo, choco (primavera), sargo | **outro estuário** = marés com horário próprio (por isso está na tabela) · muralhas e cais em Setúbal, praia na Figueirinha |
 | 🌊 **Ericeira / costa oeste** ⛔ *até 13 set* | P. dos Pescadores [38.96431, -9.41855](https://www.google.com/maps?q=38.96431,-9.41855) ✅ | 🚗 **41 min · 49 km** (sem ponte — tempo fiável) | robalo de rocha, sargo | pesca de **rocha** — mais braça, mais perigo, e o robalo grande da rebentação · ⚠️ só com mar pequeno |
 | 🐙 **Sesimbra** ⛔ *até 13 set* | P. da Califórnia [38.44131, -9.09431](https://www.google.com/maps?q=38.44131,-9.09431) ✅ | 🚗 39 min sem trânsito · **~60 min na prática** (ponte) · 39 km | sargo, choco, polvo | zona de rocha e porto; a mais abrigada quando o oeste está mau |
-| 🧱 **Ponta dos Corvos** (Seixal) ✅ *o ano todo* | [38.65017, -9.10464](https://www.google.com/maps?q=38.65017,-9.10464) ✅ | 🚗 **27 min · 18 km** (estrada a 31 m) | robalo, choco, dourada | **língua de sapal a entrar no estuário** — corrente dos dois lados, zona clássica de robalo · sem restrição balnear |
+| ⚠️ **Ponta dos Corvos** (Seixal) | [38.65017, -9.10464](https://www.google.com/maps?q=38.65017,-9.10464) ✅ | 🚗 27 min · 18 km | robalo, choco | ⚠️ **CORREÇÃO: tem edital de banhistas** (CPL 67/2026, **21 jul → 15 set**) mesmo não constando da portaria → **200 m proibidos até 15 set**. Pescável fora disso ou bem afastado |
+| 🧱 **Pontão do Rio Judeu** (Seixal) ✅ | [38.6264, -9.1101](https://www.google.com/maps?q=38.6264,-9.1101) ✅ | 🚗 **19 min · 20 km** | robalo, dourada, choco | **1996 m** da praia balnear mais próxima — o mais folgado do Seixal · ⚠️ o Canal do Seixal é proibido: pesca da margem, não para dentro do canal |
+| 🧱 **Pontão das Cavaquinhas** (Arrentela) ✅ | [38.6321, -9.1063](https://www.google.com/maps?q=38.6321,-9.1063) ✅ | 🚗 20 min · 22 km | robalo, dourada | 1326 m da praia balnear |
+| 🧱 **Praia da Trafaria** (margem do Tejo) ✅ | [38.6738, -9.2328](https://www.google.com/maps?q=38.6738,-9.2328) ✅ | 🚗 **18 min · 16 km** | robalo, dourada | **não consta** da portaria (as 22 balneares de Almada são as oceânicas) · ⚠️ verificar no local os 300 m do cais do Silopor e do ferry |
+| 🧱 **Porto Brandão** (Almada) ✅ | [38.6768, -9.2072](https://www.google.com/maps?q=38.6768,-9.2072) ✅ | 🚗 **17 min · 14 km** | robalo | não balnear · ⚠️ 300 m do cais do ferry; Canal do Alfeite e unidade militar a nascente |
+| 🏖️ **Praia da Adiça** (sul da Fonte da Telha) ✅ | [38.5583, -9.1901](https://www.google.com/maps?q=38.5583,-9.1901) ✅ | 🚗 30 min · 24 km | robalo, dourada, sargo | 🎯 **praia OCEÂNICA legal agora** — não consta da portaria e fica **1599 m** da Fonte da Telha · acesso a pé pela areia, sem apoios |
+| ⚓ **Setúbal — frente ao jardim** ✅ | [38.5204, -8.8942](https://www.google.com/maps?q=38.5204,-8.8942) ✅ | 🚗 41 min · 49 km | robalo, choco, sargo | 🏆 **o único ponto da região com autorização ESCRITA e nominal** — o edital de Setúbal excetua expressamente o troço entre o Cais 3 e o Clube Naval, e entre o clube e o Cais 2 |
 | 🧱 **Ponte-Cais de Alcochete** ✅ *o ano todo* | [38.75661, -8.96556](https://www.google.com/maps?q=38.75661,-8.96556) ✅ | 🚗 **34 min · 35 km** (estrada **a 0 m**) | robalo, dourada, choco | **estacionas em cima do cais** · frente ao estuário largo, zona de sapal e corrente |
 | 🧱 **Cais dos Pescadores** (Montijo) ✅ *o ano todo* | [38.70248, -8.98169](https://www.google.com/maps?q=38.70248,-8.98169) ✅ | 🚗 31 min · 33 km (335 m a pé) | robalo, dourada | passeio ribeirinho · ⚠️ **cais de pesca = respeitar os 100 m de pontões e rampas** |
 | ⛔ **Cais do Sodré → Torre de Belém** | — | — | — | **evitar**: docas, marinas, terminais e a Torre (forte) criam zonas de exclusão que cobrem quase todo o troço |
