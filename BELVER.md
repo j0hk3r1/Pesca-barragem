@@ -6,6 +6,8 @@
 
 ⚠️ **A tensão do sítio:** o siluro é noturno e **a pesca noturna aqui é ilegal, sem exceção** — joga-se a primeira e a última hora legal.
 
+> 👥 **Contas com companhia — é o senão de Belver.** Água conhecida, ZPL com **65 licenças diárias para residentes** (contra 35 para os de fora), praia fluvial, campismo e rampa de barcos: **o troço é pescado.** Consequências práticas: (1) **chega cedo** para escolher posto — nos melhores spots quem chega primeiro fica; (2) as **35 licenças de não residente podem esgotar** num fim de semana bom → daí a chamada prévia; (3) peixe pescado = peixe mais desconfiado, o que valoriza a **primeira hora legal** (06:30-08:00), quando ainda não há ninguém. Em [Montargil](MONTARGIL.md) há muito mais margem por pescador — menos peixe, mais espaço.
+
 ---
 
 ## 📍 Spots (coordenadas verificadas em OSM)

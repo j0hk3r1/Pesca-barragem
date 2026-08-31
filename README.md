@@ -54,6 +54,7 @@ Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol,
 | 🌊 [**Arganil — Alva & Fronhas**](ARGANIL.md) | Guia da semana: rio à porta + achigã técnico em Fronhas *(temporária)* |
 | 🛶 [**Foz d'Alge — C. do Bode**](FOZALGE.md) | Guia da semana: canal do Zêzere à porta, sandre, Pista do Poeiro *(temporária)* |
 | 🏆 [**Pego do Altar — Alcácer**](PEGOALTAR.md) | Day-trip: carpa/barbo de margem, achigã de números *(temporária)* |
+| 🌊 [**Mar & estuário — Lisboa**](MAR.md) | Muralhas e praias de bike, **tabela de marés ao vivo**, paternoster *(temporária)* |
 | 🟫 [**Belver / Ortiga**](BELVER.md) | Siluro: ~300/km², dorme-se a 289 m do spot *(temporária)* |
 | 🌾 [**Montargil — Ponte de Sor**](MONTARGIL.md) | Águas livres a 1h40, zonas oficiais de pesca + siluro raro *(temporária)* |
 | 🌾 [**Magos — Salvaterra**](MAGOS.md) | Day-trip a 1h — ⛔ evitar no verão (eutrofização) *(temporária)* |
