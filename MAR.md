@@ -136,9 +136,13 @@
 | **Ericeira** (Pescadores, Ribeira de Ilhas, Coxos…) | 13 jun → **13 set** | **14 de setembro** |
 | **Sesimbra** (Califórnia, Ouro, Meco…) | 4 jun → **13 set** | **14 de setembro** |
 | **Setúbal** (Figueirinha) | 4 jun → **15 set** | **16 de setembro** |
-| 🧱 **Estuário em Lisboa** (Parque Ribeirinho, Algés) | **não é água balnear** ✅ | **o ano todo** |
+| 🧱 **Estuário em Lisboa** (Parque Ribeirinho, Algés/Dafundo) | **não é água balnear** ✅ | **o ano todo** |
+| 🧱 **Margem sul do estuário** (Seixal, Barreiro, Montijo, Alcochete, Moita) | **não são águas balneares** ✅ | **o ano todo** |
+| ⛔ Oeiras (Caxias, Paço d'Arcos, Sto. Amaro, Torre) | 1 jun → 30 set | 1 de outubro |
 
-> ✅ **A saída legal enquanto a época dura:** o **estuário** (Parque Ribeirinho Oriente, Algés/Dafundo) — **zero ocorrências de Lisboa na portaria**, logo sem restrição de banhos. É o teu spot até setembro.
+> ✅ **A saída legal enquanto a época dura: o ESTUÁRIO.** Verificado por grep à portaria inteira — **zero ocorrências do concelho de Lisboa** e **zero em Seixal, Barreiro, Montijo, Alcochete e Moita**. Logo, sem restrição de banhos:
+> - **Parque Ribeirinho Oriente** e **Algés/Dafundo** (o areal de Algés/Dafundo não consta; as balneares de Oeiras começam em **Caxias**, mais a poente) — pescáveis o ano todo;
+> - **Toda a margem sul do estuário** — Seixal, Barreiro, Montijo, Alcochete: água de robalo, dourada e choco, sem restrição balnear.
 >
 > 💡 E há a via das horas: a época balnear tem **vigilância diurna** — muitos pescam ao **amanhecer e depois do pôr-do-sol**, quando a praia não está em uso. A lei diz *"durante a época"*, não *"durante o horário"* — portanto é **zona cinzenta, não permissão**. Decide informado.
 
