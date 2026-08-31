@@ -11,6 +11,7 @@
 <div id="mares-app">A carregar marés…</div>
 
 <script>
+
 (function(){
   var LOCAIS = {
     estuario: {nome:'🧱 Tejo — muralha/Algés', lat:38.68, lon:-9.32, sol_lat:38.72, sol_lon:-9.15, lag:25, carro:'🚲 30-40 min'},
@@ -118,6 +119,44 @@
   }
   if(document.getElementById('mares-app')) carrega('estuario');
 })();
+
+// ===== tabela de épocas balneares =====
+(function(){
+  // [nome, mês-dia início, mês-dia fim, regra]
+  var Z = [
+    ['🏖️ Costa da Caparica (22 praias) · Oeiras', '06-01','09-30','Lisboa: 200 m · janela fixa 1 mai-15 out'],
+    ['🌊 Cascais (15 praias)',                     '05-01','09-30','Cascais: 300 m · inclui esporões'],
+    ['🌊 Ericeira/Mafra · Sintra',                 '06-13','09-13','Cascais: 300 m · inclui esporões'],
+    ['🐙 Sesimbra (Califórnia, Ouro, Meco…)',      '06-04','09-13','Setúbal: só praias concessionadas'],
+    ['⚓ Setúbal (Figueirinha, Albarquel…)',        '06-04','09-15','Setúbal: só praias concessionadas'],
+    ['🧱 Praias do Seixal · Ponta dos Corvos',      '07-21','09-15','edital de banhistas CPL 67-70'],
+    ['🧱 Praia de Alburrica (Barreiro)',            '06-06','09-06','edital de banhistas CPL 29'],
+    ['⚖️ Jurisdição de Lisboa — leitura literal',   '05-01','10-15','o edital fixa 1 mai-15 out, independente da época'],
+    ['🧱 ESTUÁRIO (Parque Ribeirinho, margem sul)', null,  null,   'não são águas balneares — sem restrição']
+  ];
+  function d(md, ano){ return new Date(ano+'-'+md+'T00:00:00'); }
+  var hoje=new Date(), ano=hoje.getFullYear();
+  var linhas = Z.map(function(z){
+    if(!z[1]) return '<tr style="background:#eef8f4"><td><b>'+z[0]+'</b></td><td colspan="2">✅ <b>pescável todo o ano</b></td><td style="font-size:.88em;opacity:.75">'+z[3]+'</td></tr>';
+    var ini=d(z[1],ano), fim=d(z[2],ano);
+    var dentro = hoje>=ini && hoje<=fim;
+    var abre = new Date(fim.getTime()+86400000);
+    if(!dentro && hoje>fim) abre = new Date(d(z[1],ano+1).getTime()); // já passou: mostra quando volta a fechar
+    var fmt=function(x){return String(x.getDate()).padStart(2,'0')+'/'+String(x.getMonth()+1).padStart(2,'0');};
+    var dias = Math.ceil((abre-hoje)/86400000);
+    return '<tr'+(dentro?'':' style="background:#eef8f4"')+'>'+
+      '<td><b>'+z[0]+'</b></td>'+
+      '<td style="white-space:nowrap">'+fmt(ini)+' → '+fmt(fim)+'</td>'+
+      '<td style="white-space:nowrap"><b>'+(dentro
+          ? '⛔ fechado · abre '+fmt(abre)+(dias>0?' (faltam '+dias+' dias)':'')
+          : '✅ ABERTO')+'</b></td>'+
+      '<td style="font-size:.88em;opacity:.75">'+z[3]+'</td></tr>';
+  }).join('');
+  var el=document.getElementById('epocas-app');
+  if(el) el.innerHTML='<table><thead><tr><th>Zona</th><th>Época balnear</th><th>Estado hoje</th><th>Regra</th></tr></thead><tbody>'+linhas+'</tbody></table>'+
+    '<p style="font-size:.85em;opacity:.7">Estado calculado à data de hoje. ⚠️ As datas são as de 2026 — reconfirma a portaria do ano em curso.</p>';
+})();
+
 </script>
 
 > ⏰ **A janela é a tua:** semana **18h-22h** · fim de semana **08h-22h** — e a tabela corta sempre a ½h depois do pôr-do-sol (limite legal na praia; na muralha do estuário a noturna é legal e podes esticar).
@@ -161,43 +200,7 @@ E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/00
 
 <div id="epocas-app">A calcular…</div>
 
-<script>
-(function(){
-  // [nome, mês-dia início, mês-dia fim, regra]
-  var Z = [
-    ['🏖️ Costa da Caparica (22 praias) · Oeiras', '06-01','09-30','Lisboa: 200 m · janela fixa 1 mai-15 out'],
-    ['🌊 Cascais (15 praias)',                     '05-01','09-30','Cascais: 300 m · inclui esporões'],
-    ['🌊 Ericeira/Mafra · Sintra',                 '06-13','09-13','Cascais: 300 m · inclui esporões'],
-    ['🐙 Sesimbra (Califórnia, Ouro, Meco…)',      '06-04','09-13','Setúbal: só praias concessionadas'],
-    ['⚓ Setúbal (Figueirinha, Albarquel…)',        '06-04','09-15','Setúbal: só praias concessionadas'],
-    ['🧱 Praias do Seixal · Ponta dos Corvos',      '07-21','09-15','edital de banhistas CPL 67-70'],
-    ['🧱 Praia de Alburrica (Barreiro)',            '06-06','09-06','edital de banhistas CPL 29'],
-    ['⚖️ Jurisdição de Lisboa — leitura literal',   '05-01','10-15','o edital fixa 1 mai-15 out, independente da época'],
-    ['🧱 ESTUÁRIO (Parque Ribeirinho, margem sul)', null,  null,   'não são águas balneares — sem restrição']
-  ];
-  function d(md, ano){ return new Date(ano+'-'+md+'T00:00:00'); }
-  var hoje=new Date(), ano=hoje.getFullYear();
-  var linhas = Z.map(function(z){
-    if(!z[1]) return '<tr style="background:#eef8f4"><td><b>'+z[0]+'</b></td><td colspan="2">✅ <b>pescável todo o ano</b></td><td style="font-size:.88em;opacity:.75">'+z[3]+'</td></tr>';
-    var ini=d(z[1],ano), fim=d(z[2],ano);
-    var dentro = hoje>=ini && hoje<=fim;
-    var abre = new Date(fim.getTime()+86400000);
-    if(!dentro && hoje>fim) abre = new Date(d(z[1],ano+1).getTime()); // já passou: mostra quando volta a fechar
-    var fmt=function(x){return String(x.getDate()).padStart(2,'0')+'/'+String(x.getMonth()+1).padStart(2,'0');};
-    var dias = Math.ceil((abre-hoje)/86400000);
-    return '<tr'+(dentro?'':' style="background:#eef8f4"')+'>'+
-      '<td><b>'+z[0]+'</b></td>'+
-      '<td style="white-space:nowrap">'+fmt(ini)+' → '+fmt(fim)+'</td>'+
-      '<td style="white-space:nowrap"><b>'+(dentro
-          ? '⛔ fechado · abre '+fmt(abre)+(dias>0?' (faltam '+dias+' dias)':'')
-          : '✅ ABERTO')+'</b></td>'+
-      '<td style="font-size:.88em;opacity:.75">'+z[3]+'</td></tr>';
-  }).join('');
-  var el=document.getElementById('epocas-app');
-  if(el) el.innerHTML='<table><thead><tr><th>Zona</th><th>Época balnear</th><th>Estado hoje</th><th>Regra</th></tr></thead><tbody>'+linhas+'</tbody></table>'+
-    '<p style="font-size:.85em;opacity:.7">Estado calculado à data de hoje. ⚠️ As datas são as de 2026 — reconfirma a portaria do ano em curso.</p>';
-})();
-</script>
+
 
 ## ⚖️ Legal — o resto
 
