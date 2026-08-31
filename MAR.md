@@ -203,27 +203,65 @@ mãe → destorcedor
 
 > ⚠️ **Horários não confirmados** em nenhuma — liga antes, sobretudo ao domingo e depois das 19h. ⚠️ A "Pescópeixe" da Matinha que circula em diretórios **não existe no OSM nem no Maps** — provavelmente fechou.
 
-## 🧊 Isco de congelador — para os dias de semana
+## 🧊 Isco de congelador — o guia
 
-A jogada para pescar às 18h sem passar na loja: **stock em casa**. O que aguenta congelado e o que não:
+Para sair de casa às 18h sem passar na loja. Investigado em fóruns PT, ES e UK — cada linha com fonte.
 
-| Isco | Congela? | Validade | Notas |
-|---|:--:|---|---|
-| 🥇 **Camarão cru** (com casca) | ✅✅ | meses | **o melhor congelável** — do supermercado serve. ⚠️ **cru, nunca cozido** (o cozimento destrói o cheiro) · amarra com **fio elástico**, que descongelado fica mole |
-| 🥇 **Lula / pota** (tiras) | ✅✅ | meses | **o rei da durabilidade no anzol** — aguenta lançamentos e ladrões de isco; supermercado, barato |
-| **Sardinha / cavala** (em pedaços) | ✅✅ | meses | legal no mar ⚠️ (proibido nas barragens) · muito cheiro · congela **já cortada em tiras** |
-| **Ameijoa / mexilhão** (sem casca) | ✅ | ~2 meses | dourada e sargo adoram · mole → fio elástico obrigatório |
-| **Caranguejo** (verde, mole) | ✅ | ~2 meses | dourada e robalo · congela inteiro |
-| ❌ **Casulo / minhoca do mar** | ❌ | — | **morre e desfaz-se** — só fresco. É o melhor isco, mas obriga a passar na loja |
-| ❌ Amêijoa viva, camarão vivo | ❌ | — | o valor é estarem vivos |
+### Ranking (0-5)
 
-**Como montar o congelador de pesca:**
-1. **Porções individuais** em sacos de congelação (uma sessão por saco) — não descongeles um bloco inteiro para 3 horas de pesca;
-2. **Salga ligeira antes de congelar** (sal grosso 30 min, escorre, congela): endurece a carne, aguenta muito mais no anzol e não perde cheiro. É o truque clássico do surfcasting;
-3. **Descongela na geleira a caminho** — nunca à temperatura ambiente (fica papa);
-4. **Não recongelar** o que sobrou descongelado — perde tudo o que interessa.
+| Isco | Robalo | Dourada | Dura no anzol | Onde comprar |
+|---|:--:|:--:|:--:|---|
+| 🥇 **Lula/pota NÃO lavada** | 4 | 3 | **5** | peixaria ou loja asiática — ⚠️ **não** a "lula limpa ultracongelada" do super (é **branqueada** para consumo humano e perde o cheiro) |
+| 🥇 **Camarão CRU com casca** | 4 | 4 | 3 | supermercado, congelados crus |
+| 🥇 **Lingueirão/navalha congelado** | 4 | 4 | 3 (5 salgado) | peixaria/congelados — congelado **vivo** para consumo, logo qualidade equivalente ao apanhado |
+| **Sardinha/cavala inteira** | 4 | 1 | 2 (**4 em salmoura**) | super/peixaria · ⚠️ **filetes já cortados: não** — *"they just fall apart"* |
+| **Tita/casulo SALGADO** | 3 | **5** | 4 | comprar a mais numa ida à loja e salgar |
+| **Mexilhão** (congelar p/ abrir, depois salgar) | 2 | 4 | 1 cru / **4 salgado** | super |
+| **Amêijoa/berbigão** | 1 | 3 | 1 (3 c/ sal) | super · ⚠️ [*"congeladas perdem muito das características, ficam macias e com pouco cheiro"*](https://www.pesca-pt.com/iscos-de-pesca) |
+| ❌ **Minhoca do mar / casulo por salgar** | 1 | 1 | 1 | *"perdem todas as qualidades, são 90% água"* |
+| ❌ Camarão **cozido** · mexilhão/amêijoa **já cozidos** | — | — | — | o cozimento mata o cheiro |
+| ❌ Caranguejo (verde/mole) | 4 vivo / 2 congelado | 4 vivo / 2 congelado | — | *"não se destaca pelo cheiro mas pelas vibrações; morto não se mexe"* → **isco de apanhar, não de congelar** |
 
-> 💡 **O plano dos dias de semana:** congelador com **camarão cru + tiras de lula** (as duas mais versáteis) para saíres de casa direto para a muralha. **Casulo fresco fica para os dias planeados** — passas na loja de propósito, e é aí que a pescaria é a sério.
+> 🥇 **A regra que resume tudo** ([World Sea Fishing](https://www.worldseafishing.com/threads/frozen-bait-from-supermarket.42677283/)): ***"anything not cooked frozen is a good bait"*** — e prefere a **peixaria** à secção dos congelados processados.
+
+### 🧂 Salga — é isto que separa isco bom de papa
+
+**Sardinha/cavala — salmoura** ([receita de fórum ES, verificada](https://foro.latabernadelpuerto.com/showthread.php?t=42599)):
+- **¼ a ⅓ de sal por parte de água**, dissolver até ficar quase xaroposo · **6 horas** · **mantém FRIO** o tempo todo (*"senão acabam literalmente cozidas"*) · depois fileta.
+- Resultado: *"os filetes ficam duros que baste para não se desfazerem no anzol antes de chegar ao fundo"*. ⚠️ **Não uses sal grossa a seco** em peixe gordo — *"resseca, queima-se e perde as gorduras e óleos"*.
+
+**Tita/casulo — o método que permite RECONGELAR** ([fórum ES, verificado](https://www.pescamediterraneo2.com/foros/topic/32901-conservar-titas-congeladas/)):
+1. Abrir em canal, tirar só as tripas indispensáveis · 2. **NÃO lavar** (*"que fiquem impregnadas do seu sumo"*) · 3. Tirar o nervo · 4. Tupperware, polvilhar com pouco sal, **frigorífico ~12 h** · 5. Enxaguar **só um pouco** e congelar.
+- *"Não chegam a congelar de todo e guardam a textura como se estivessem acabadas de morrer… as que não gastares podes voltar a congelar e ficam exatamente na mesma."*
+- 💡 **Truque:** guarda o líquido que largam ao cortar, congela-as dentro dele, e **molha o isco nesse líquido antes de cada lançamento**.
+
+**Minhoca-preta — salga a seco** ([WSF, verificado](https://www.worldseafishing.com/threads/re-freezing-frozen-bait.190864/)): *"uma colher de chá por 5 minhocas"*, sobre papel de cozinha, **30 min**, virar de vez em quando, sacudir o excesso, embrulhar **individualmente** em papel e agrupar em alumínio. *"Duram meses assim."* ⚠️ **Minhoca vermelha não se salga** — *"papa instantânea"*.
+
+### ❄️ Como congelar (o melhor conselho técnico da pesquisa)
+
+De um capitão de charter, [citado num fórum ES](https://foro.latabernadelpuerto.com/showthread.php?t=42599):
+- **Seca ao máximo cada pedaço** antes de congelar — *"se há restos líquidos congelados, é porque foi recongelado ou perdeu a parte mais importante do isco: a gordura e o sangue"*;
+- **Pacotes o mais pequenos possível** → congelam mais depressa (e resolvem as porções);
+- **Não esmagar** — *"no isco esmagado rompem-se muitas fibras; ao descongelar fica com hematomas por onde se desintegra"*;
+- **Tira o ar** (queimadura de congelação = manchas roxas = isco seco e mole).
+
+**Descongelar:** devagar, ao natural — nada de micro-ondas nem água morna. Truque de campo: leva a lula num **termo de boca larga** e tira 2 de cada vez, para o resto não descongelar.
+
+**Recongelar:** ✅ lula (*"congelo vezes sem conta até começar a ficar amarelada"*) e cavala inteira · ❌ galeota, caranguejo, filetes moles.
+
+### 🧵 Fio elástico — doutrina de 5 países
+
+Obrigatório em tudo o que é mole: amêijoa, tita, lingueirão (aqui o anzol fura o **pé**, a parte firme), caranguejo. **10-20 voltas apertadas + 2 nós.** Alternativa barata: **fio de meia de senhora**. ⚠️ **Não** em sardinha já mole — *"só a cortas"*; primeiro salmoura, depois elástico.
+
+### 🎯 Por espécie
+
+**Dourada** — tritura conchas: **lingueirão + camarão cru + tita salgada + amêijoa**. Procura zonas com bancos naturais de amêijoa/berbigão. É sensível a **movimento**; a doutrina francesa e espanhola dá o **caranguejo verde** como isco-rei… mas esse tem de ser vivo, não entra no congelador. Camarão: deixa a **cabeça** no anzol a largar sucos.
+
+**Robalo** — predador: **sardinha** (consenso ibérico nº 1 de margem), **lula**, **camarão cru**, **lingueirão**. Cocktail que aparece nos fóruns: **minhoca enfiada dentro da lula inteira**. E a janela dele bate certo contigo: *"ao entardecer-noite perdem a desconfiança"*.
+
+> 💡 **A rotina de dias de semana:** **lula não-lavada** em porções de 2-3 pedaços + **camarão cru com casca** + **sardinha em salmoura**. Cobre robalo e dourada, sai de casa direto para a muralha. **Casulo fresco fica para os dias planeados.**
+
+> ⚠️ **Honestidade:** **não existe nenhum teste comparativo controlado** de fresco vs congelado nestas espécies — tudo o que está aqui é relato de pescadores experientes, não medição. O baseline honesto dos próprios fóruns: *"o isco congelado não é tão eficaz, mas ao menos tira-te do aperto"*. E a perda que te custa mais é nos **iscos de dourada** (bivalves e vermes); os de robalo (lula, sardinha, camarão) são precisamente os que melhor congelam.
 
 ## 🪱 Iscos
 
