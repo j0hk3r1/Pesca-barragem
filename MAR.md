@@ -44,24 +44,51 @@
     (sun.daily.time||[]).forEach(function(d,i){
       sol[d]={nascer:new Date(sun.daily.sunrise[i]), por:new Date(sun.daily.sunset[i])};
     });
+    // avalia a MINHA janela: semana 18-22h · fim de semana 08h-22h
+    function avalia(k, ev, amp, s){
+      var d=new Date(k+'T12:00:00'), fds=(d.getDay()===0||d.getDay()===6);
+      var ini=new Date(k+(fds?'T08:00:00':'T18:00:00')), fim=new Date(k+'T22:00:00');
+      if(s.por){ var lim=new Date(s.por.getTime()+30*60000); if(lim<fim) fim=lim; } // até ½h após o pôr-do-sol (praia)
+      var horas=(fim-ini)/3600000; if(horas<=0) return {n:0, txt:'—', porque:'sem janela'};
+      // movimento na janela: % do tempo fora de estofo (±45 min de PM/BM)
+      var passos=0, mexe=0;
+      for(var t=ini.getTime(); t<=fim.getTime(); t+=900000){
+        passos++;
+        var perto=ev.some(function(e){return Math.abs(e.t-t)<45*60000;});
+        if(!perto) mexe++;
+      }
+      var pct = passos? mexe/passos : 0;
+      // enchente na janela? (entre BM e PM seguinte)
+      var ench=false;
+      for(var i=0;i<ev.length-1;i++){
+        if(ev[i].tipo==='BM' && ev[i+1].tipo==='PM'){
+          if(ev[i+1].t>ini && ev[i].t<fim) ench=true;
+        }
+      }
+      var pontos = (amp>=2.6?3:amp>=2.0?2:amp>=1.6?1:0) + (pct>=0.7?2:pct>=0.5?1:0) + (ench?1:0);
+      var estrelas = pontos>=5?'⭐⭐⭐':pontos>=3?'⭐⭐':pontos>=2?'⭐':'—';
+      var porque = [amp>=2.6?'vivas':amp<1.6?'mortas':'', ench?'enchente':'', pct>=0.7?'':(pct<0.5?'estofo':'')].filter(Boolean).join(' · ');
+      return {n:pontos, txt:estrelas, porque:porque||'ok', janela:hm(ini)+'-'+hm(fim), fds:fds};
+    }
+
     var linhas=Object.keys(dias).sort().slice(0,10).map(function(k){
       var ev=dias[k], alts=ev.map(function(e){return e.alt;});
       var amp=Math.max.apply(null,alts)-Math.min.apply(null,alts);
-      var d=new Date(k+'T12:00:00');
-      // nota: amplitude (vivas) + haver movimento no fim de tarde
-      var estrelas = amp>=2.6?'⭐⭐⭐' : amp>=2.0?'⭐⭐' : amp>=1.6?'⭐':'—';
-      var s=sol[k]||{}, por=s.por?hm(s.por):'—', nasc=s.nascer?hm(s.nascer):'—';
+      var d=new Date(k+'T12:00:00'), s=sol[k]||{};
+      var a=avalia(k, ev, amp, s);
+      var por=s.por?hm(s.por):'—';
       var mares=ev.map(function(e){return e.tipo+' '+hm(e.t);}).join(' · ');
-      return '<tr'+(amp>=2.6?' style="background:#eef8f4"':'')+'>'+
-        '<td><b>'+DIAS[d.getDay()]+' '+k.slice(8)+'/'+k.slice(5,7)+'</b></td>'+
-        '<td>'+mares+'</td>'+
-        '<td style="text-align:center">'+amp.toFixed(1)+' m</td>'+
-        '<td style="text-align:center">'+estrelas+'</td>'+
-        '<td style="white-space:nowrap">'+nasc+' → '+por+'</td></tr>';
+      return '<tr'+(a.n>=5?' style="background:#eef8f4"':'')+'>'+
+        '<td><b>'+DIAS[d.getDay()]+' '+k.slice(8)+'/'+k.slice(5,7)+'</b>'+(a.fds?' 🎉':'')+'</td>'+
+        '<td style="white-space:nowrap"><b>'+a.janela+'</b></td>'+
+        '<td style="font-size:.92em">'+mares+'</td>'+
+        '<td style="text-align:center">'+amp.toFixed(1)+'</td>'+
+        '<td style="text-align:center"><b>'+a.txt+'</b><br><span style="font-size:.8em;opacity:.7">'+a.porque+'</span></td>'+
+        '<td style="white-space:nowrap">'+por+'</td></tr>';
     }).join('');
     return '<p style="margin:.2em 0 .6em"><b>📍 '+local+'</b> · <span style="opacity:.7;font-size:.9em">'+
       'PM=preia-mar · BM=baixa-mar · horas já com +'+LAG+' min de desfasamento</span></p>'+
-      '<table><thead><tr><th>Dia</th><th>Marés</th><th>Amplitude</th><th>Nota</th><th>Sol</th></tr></thead><tbody>'+linhas+'</tbody></table>';
+      '<table><thead><tr><th>Dia</th><th>A minha janela</th><th>Marés</th><th>Ampl.</th><th>Nota</th><th>Pôr-sol</th></tr></thead><tbody>'+linhas+'</tbody></table>';
   }
 
   function carrega(chave){
@@ -77,7 +104,8 @@
             'border:1px solid '+(k===chave?'#0a7d5a':'#ccc')+';background:'+(k===chave?'#0a7d5a':'#fff')+';color:'+(k===chave?'#fff':'#333')+'">'+
             LOCAIS[k].nome+'</button>';
         }).join('')+'</div>'+ render(res[0], res[1], LOCAIS[chave].nome)+
-        '<p style="font-size:.85em;opacity:.7;margin-top:.6em">⭐⭐⭐ marés vivas (mais corrente = mais peixe) · ⭐ mortas. '+
+        '<p style="font-size:.85em;opacity:.7;margin-top:.6em">A nota já cruza a <b>tua janela</b> (semana 18h-22h · fim de semana 08h-22h 🎉, sempre até ½h após o pôr-do-sol) com amplitude, movimento de maré e haver enchente. '+
+        '⭐⭐⭐ = dia a aproveitar · — = poupa as pernas. '+
         'Dados <a href="https://open-meteo.com" target="_blank">Open-Meteo</a>, modelo — confirma no <a href="https://tabuademares.com/pt/lisboa" target="_blank">tabuademares</a>.</p>';
       el.querySelectorAll('button[data-l]').forEach(function(b){
         b.onclick=function(){ el.innerHTML='A carregar…'; carrega(b.getAttribute('data-l')); };
@@ -89,6 +117,8 @@
   if(document.getElementById('mares-app')) carrega('estuario');
 })();
 </script>
+
+> ⏰ **A janela é a tua:** semana **18h-22h** · fim de semana **08h-22h** — e a tabela corta sempre a ½h depois do pôr-do-sol (limite legal na praia; na muralha do estuário a noturna é legal e podes esticar).
 
 > 🌊 **Como ler:** o que manda é **água a MEXER** — os estofos (½h à volta da PM e da BM) são mortos. **Enchente** traz o peixe para a margem; **primeiras 2 h de vazante** ainda são boas; **fim de vazante** o peixe recuou para o canal. Marés vivas amplificam tudo.
 
