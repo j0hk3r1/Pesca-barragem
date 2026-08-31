@@ -13,12 +13,14 @@
 <script>
 (function(){
   var LOCAIS = {
-    estuario: {nome:'Muralha / estuário', lat:38.745, lon:-9.097, sol_lat:38.745, sol_lon:-9.097},
-    praia:    {nome:'Algés / Dafundo',    lat:38.68,  lon:-9.32,  sol_lat:38.694, sol_lon:-9.227}
+    estuario: {nome:'🧱 Tejo — muralha/Algés', lat:38.68, lon:-9.32, sol_lat:38.72, sol_lon:-9.15, lag:25, carro:'🚲 30-40 min'},
+    caparica: {nome:'🏖️ Caparica',            lat:38.62, lon:-9.26, sol_lat:38.64, sol_lon:-9.23, lag:0,  carro:'🚗 25 min'},
+    sado:     {nome:'⚓ Setúbal / Sado',       lat:38.47, lon:-8.95, sol_lat:38.52, sol_lon:-8.89, lag:20, carro:'🚗 45 min'},
+    ericeira: {nome:'🌊 Ericeira / Costa Oeste',lat:38.96, lon:-9.43, sol_lat:38.96, sol_lon:-9.42, lag:0,  carro:'🚗 45 min'},
+    sesimbra: {nome:'🐙 Sesimbra',             lat:38.42, lon:-9.11, sol_lat:38.44, sol_lon:-9.10, lag:0,  carro:'🚗 45 min'}
   };
-  var LAG = 25; // min de desfasamento da maré p/ montante (estimado)
 
-  function extremos(ts, sl){
+  function extremos(ts, sl, LAG){
     var out=[];
     for (var i=1;i<sl.length-1;i++){
       if (sl[i]==null||sl[i-1]==null||sl[i+1]==null) continue;
@@ -26,7 +28,7 @@
       if(!up && !dn) continue;
       var den=(sl[i-1]-2*sl[i]+sl[i+1]);
       var off=den? 0.5*(sl[i-1]-sl[i+1])/den : 0;
-      var t=new Date(ts[i]); t.setMinutes(t.getMinutes()+off*60+LAG);
+      var t=new Date(ts[i]); t.setMinutes(t.getMinutes()+off*60+(LAG||0));
       out.push({t:t, tipo:up?'PM':'BM', alt:sl[i]});
     }
     return out;
@@ -34,8 +36,8 @@
   var hm=function(d){return String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');};
   var DIAS=['dom','seg','ter','qua','qui','sex','sáb'];
 
-  function render(marine, sun, local){
-    var h=marine.hourly, evs=extremos(h.time,h.sea_level_height_msl), dias={};
+  function render(marine, sun, L){
+    var local=L.nome, h=marine.hourly, evs=extremos(h.time,h.sea_level_height_msl,L.lag), dias={};
     evs.forEach(function(e){
       var k=e.t.toISOString().slice(0,10);
       (dias[k]=dias[k]||[]).push(e);
@@ -86,8 +88,8 @@
         '<td style="text-align:center"><b>'+a.txt+'</b><br><span style="font-size:.8em;opacity:.7">'+a.porque+'</span></td>'+
         '<td style="white-space:nowrap">'+por+'</td></tr>';
     }).join('');
-    return '<p style="margin:.2em 0 .6em"><b>📍 '+local+'</b> · <span style="opacity:.7;font-size:.9em">'+
-      'PM=preia-mar · BM=baixa-mar · horas já com +'+LAG+' min de desfasamento</span></p>'+
+    return '<p style="margin:.2em 0 .6em"><b>📍 '+local+'</b> · '+L.carro+' · <span style="opacity:.7;font-size:.9em">'+
+      'PM=preia-mar · BM=baixa-mar'+(L.lag?' · +'+L.lag+' min de desfasamento':'')+'</span></p>'+
       '<table><thead><tr><th>Dia</th><th>A minha janela</th><th>Marés</th><th>Ampl.</th><th>Nota</th><th>Pôr-sol</th></tr></thead><tbody>'+linhas+'</tbody></table>';
   }
 
@@ -98,12 +100,12 @@
       fetch('https://api.open-meteo.com/v1/forecast?latitude='+L.sol_lat+'&longitude='+L.sol_lon+'&daily=sunrise,sunset&timezone=Europe%2FLisbon&forecast_days=10').then(function(r){return r.json();})
     ]).then(function(res){
       el.innerHTML =
-        '<div style="margin-bottom:.8em">'+
+        '<div style="margin-bottom:.8em;display:flex;flex-wrap:wrap;gap:.4em">'+
         Object.keys(LOCAIS).map(function(k){
-          return '<button data-l="'+k+'" style="margin-right:.5em;padding:.35em .8em;border-radius:8px;cursor:pointer;'+
+          return '<button data-l="'+k+'" style="padding:.35em .8em;border-radius:8px;cursor:pointer;font-size:.92em;'+
             'border:1px solid '+(k===chave?'#0a7d5a':'#ccc')+';background:'+(k===chave?'#0a7d5a':'#fff')+';color:'+(k===chave?'#fff':'#333')+'">'+
             LOCAIS[k].nome+'</button>';
-        }).join('')+'</div>'+ render(res[0], res[1], LOCAIS[chave].nome)+
+        }).join('')+'</div>'+ render(res[0], res[1], LOCAIS[chave])+
         '<p style="font-size:.85em;opacity:.7;margin-top:.6em">A nota já cruza a <b>tua janela</b> (semana 18h-22h · fim de semana 08h-22h 🎉, sempre até ½h após o pôr-do-sol) com amplitude, movimento de maré e haver enchente. '+
         '⭐⭐⭐ = dia a aproveitar · — = poupa as pernas. '+
         'Dados <a href="https://open-meteo.com" target="_blank">Open-Meteo</a>, modelo — confirma no <a href="https://tabuademares.com/pt/lisboa" target="_blank">tabuademares</a>.</p>';
@@ -130,7 +132,10 @@
 |---|---|:--:|---|---|
 | 🥇 **Parque Ribeirinho Oriente** (Marvila) | muralha [38.74464, -9.09699](https://www.google.com/maps?q=38.74464,-9.09699) ✅ · norte [38.74735, -9.09692](https://www.google.com/maps?q=38.74735,-9.09692) ✅ | **30 min** | robalo, linguado, dourada, taínha | frente aberta, **fora das zonas proibidas** · pesca do **meio para norte** (a doca do Poço do Bispo a sul obriga a 300 m) |
 | 🥈 **Algés / Dafundo** | ~[38.694, -9.227](https://www.google.com/maps?q=38.694,-9.227) *(aprox.)* | ~36-40 min | robalo, dourada | areal + esporão · **não são águas balneares** → sem restrição de banhos · ⚠️ lodaçal na baixa-mar: pescar de meia enchente a meia vazante · ⚠️ 100 m da Doca de Pedrouços |
-| **Costa da Caparica** | — | carro | surfcasting clássico | praia aberta, para as padradas com pirâmides |
+| 🏖️ **Costa da Caparica** | ~[38.64, -9.23](https://www.google.com/maps?q=38.64,-9.23) *(aprox.)* | 🚗 25 min | robalo, sargo, dourada | **surfcasting clássico** — praia aberta, é aqui que as pirâmides de 120-150 g e o shock leader 0,6 fazem sentido · escolhe as **covas entre bancos de areia** (vêem-se na maré baixa) |
+| ⚓ **Setúbal / Sado** | ~[38.52, -8.89](https://www.google.com/maps?q=38.52,-8.89) *(aprox.)* | 🚗 45 min | robalo, choco (primavera), sargo | **outro estuário** = marés com horário próprio (por isso está na tabela) · muralhas e cais em Setúbal, praia na Figueirinha |
+| 🌊 **Ericeira / costa oeste** | ~[38.96, -9.42](https://www.google.com/maps?q=38.96,-9.42) *(aprox.)* | 🚗 45 min | robalo de rocha, sargo | pesca de **rocha** — mais braça, mais perigo, e o robalo grande da rebentação · ⚠️ só com mar pequeno |
+| 🐙 **Sesimbra** | ~[38.44, -9.10](https://www.google.com/maps?q=38.44,-9.10) *(aprox.)* | 🚗 45 min | sargo, choco, polvo | zona de rocha e porto; a mais abrigada quando o oeste está mau |
 | ⛔ **Cais do Sodré → Torre de Belém** | — | — | — | **evitar**: docas, marinas, terminais e a Torre (forte) criam zonas de exclusão que cobrem quase todo o troço |
 
 > ⚠️ **As regras que criam as zonas proibidas** ([edital da Capitania](http://dalhelinha.blogspot.com/2012/05/legislacao-restricoes-pesca-no-tejo.html)): proibido **nas docas e marinas** · a **<100 m** de acessos a docas/marinas/embarcadouros, pontões, rampas, unidades militares e **fortes** · a **<300 m de cais acostáveis** · em áreas balneares na época, a <200 m da praia.
