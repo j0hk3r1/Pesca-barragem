@@ -32,18 +32,18 @@
 <script>
 var CORES={'pontão':'#e74c3c','doca/marina':'#c0392b','terminal fluvial':'#8e44ad','cais acostável':'#8e44ad','farol':'#d35400','unidade militar':'#7f8c8d'};
 var SPOTS=[
-  ['Parque Ribeirinho Oriente (norte)',38.74735,-9.09692,'237 m do pontão · 30 min de bike · ⚠️ mais a sul há um pontão a 95 m'],
-  ['Cais do Adamastor (PdN)',38.75818,-9.09109,'⚠️ 101 m do pontão — no limite; anda p/ norte'],
-  ['Algés / Dafundo',38.694,-9.227,'não é água balnear'],
-  ['Pontão do Rio Judeu (Seixal)',38.6264,-9.1101,'1996 m da praia balnear · 19 min'],
-  ['Pontão das Cavaquinhas',38.6321,-9.1063,'1326 m da praia balnear'],
-  ['Trafaria',38.6738,-9.2328,'margem do Tejo, não balnear · 18 min'],
-  ['Porto Brandão',38.6768,-9.2072,'não balnear · 17 min'],
-  ['Cais dos Pescadores (Montijo)',38.70248,-8.98169,'Montijo sem balneares · 31 min'],
-  ['Ponte-Cais de Alcochete',38.75661,-8.96556,'estaciona em cima do cais · 34 min'],
-  ['Cais de Alhos Vedros (Moita)',38.6619,-9.0231,'Moita sem balneares'],
-  ['Praia da Adiça',38.5583,-9.1901,'praia oceânica · 1599 m da Fonte da Telha'],
-  ['Setúbal — frente ao jardim',38.5204,-8.8942,'🏆 autorização ESCRITA no edital de Setúbal']
+  ['Parque Ribeirinho Oriente (norte)',38.74735,-9.09692,'237 m do pontão · 30 min de bike'],
+  ['Cais do Adamastor (PdN) — 100 m a norte',38.75905,-9.09079,'⚠️ o cais em si fica a 89 m de um pontão; este ponto está limpo'],
+  ['Algés — 300 m a nascente do terminal',38.69140,-9.22611,'⚠️ o Dafundo fica dentro dos 300 m do terminal de Pedrouços'],
+  ['Rio Judeu — 100 m do pontão',38.62576,-9.10929,'⚠️ não pescar EM CIMA do pontão (100 m)'],
+  ['Cavaquinhas — 100 m do pontão',38.63274,-9.10549,'⚠️ idem: afastar-se do pontão'],
+  ['Trafaria — 150 m a SO da estação',38.67313,-9.23429,'⚠️ a estação fluvial obriga a 300 m'],
+  ['Porto Brandão — 200 m a sul',38.67506,-9.20660,'⚠️ a estação fluvial obriga a 300 m'],
+  ['Montijo — 300 m a NE do cais',38.70481,-8.97996,'⚠️ o Cais dos Pescadores é cais acostável (300 m)'],
+  ['Alcochete — 250 m a NE do ponte-cais',38.75773,-8.96307,'⚠️ o ponte-cais e um farol obrigam a 100 m'],
+  ['Cais de Alhos Vedros (Moita)',38.66190,-9.02310,'limpo'],
+  ['Praia da Adiça',38.55830,-9.19010,'praia oceânica · 1599 m da Fonte da Telha'],
+  ['Setúbal — frente ao jardim',38.52040,-8.89420,'🏆 autorização ESCRITA no edital de Setúbal']
 ];
 var mapa=L.map('mapa').setView([38.72,-9.13],12);
 var MAPA_REF=mapa, CAMADAS_REF={}, LEGENDA_ID='legenda';
