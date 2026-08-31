@@ -152,9 +152,14 @@
           : '✅ ABERTO')+'</b></td>'+
       '<td style="font-size:.88em;opacity:.75">'+z[3]+'</td></tr>';
   }).join('');
-  var el=document.getElementById('epocas-app');
-  if(el) el.innerHTML='<table><thead><tr><th>Zona</th><th>Época balnear</th><th>Estado hoje</th><th>Regra</th></tr></thead><tbody>'+linhas+'</tbody></table>'+
+  var html='<table><thead><tr><th>Zona</th><th>Época balnear</th><th>Estado hoje</th><th>Regra</th></tr></thead><tbody>'+linhas+'</tbody></table>'+
     '<p style="font-size:.85em;opacity:.7">Estado calculado à data de hoje. ⚠️ As datas são as de 2026 — reconfirma a portaria do ano em curso.</p>';
+  // o div pode ainda não existir quando o script corre (está mais abaixo na página) → tenta até 20×
+  var t=0, iv=setInterval(function(){
+    var el=document.getElementById('epocas-app');
+    if(el){ el.innerHTML=html; clearInterval(iv); }
+    else if(++t>20) clearInterval(iv);
+  }, 150);
 })();
 
 </script>
