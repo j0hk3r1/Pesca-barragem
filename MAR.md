@@ -249,8 +249,18 @@
 <div id="mapa-legal" style="height:520px;border:1px solid #e2e6ea;border-radius:12px;margin:.6em 0"></div>
 <div id="mapa-legenda" style="font-size:.9em;margin-bottom:1.2em"></div>
 
-> 🔴 vermelho = **zona proibida** (raio da regra à volta de cada estrutura) · 🟢 verde = **spots verificados** · Clica num círculo para ver o que é e porquê.
-> ⚠️ **O mapa é um AUXILIAR, não a lei.** Vem do OpenStreetMap (pode ter estruturas em falta) e não cobre praias balneares nem placas no local. **Placa manda sempre.**
+🔗 **[Abrir o mapa em ecrã inteiro](mapa.html)** *(guarda nos favoritos do telemóvel — funciona offline depois de aberto uma vez)*
+
+**Como ler:**
+- 🔴 **Círculo vermelho = zona proibida** — o raio é o da regra que se aplica àquela estrutura (100 m ou 300 m). Clica para ver qual.
+- 🟢 **Pin verde = spot verificado por mim** — não é só "legal": é **legal + com acesso confirmado + com peixe**.
+
+> ❓ **"Fora dos círculos já posso?"** — **provavelmente sim, mas não é garantido.** O mapa não mostra três coisas:
+> 1. **Praias balneares** (são troços de costa, não pontos) — a Caparica está fora de todos os círculos e está proibida até outubro. Vê a tabela das épocas;
+> 2. **Placas no local** — a lei diz literalmente que para pesca de terra mandam *"os sinais colocados pela Administração do Porto de Lisboa"*. **Placa manda sempre**;
+> 3. **Estruturas que faltem ao OpenStreetMap** — a base é boa mas não é oficial.
+>
+> ➡️ **Portanto:** fora dos círculos = provavelmente legal · **pin verde = verificado**.
 
 ## ⛔ Época balnear — a regra que fecha as praias
 

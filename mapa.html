@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>🗺️ Onde posso pescar — Lisboa</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;height:100%;font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#1c2530}
+  #topo{padding:.55em .9em;background:#0a7d5a;color:#fff;display:flex;align-items:center;gap:.7em;flex-wrap:wrap}
+  #topo b{font-size:1.02rem}
+  #topo a{color:#cdebe0;text-decoration:none;font-size:.88rem}
+  #mapa{height:calc(100% - 122px);width:100%}
+  #legenda{padding:.5em .9em;background:#f6f8f9;border-top:1px solid #e2e6ea;font-size:.85rem;line-height:2}
+  #legenda label{margin-right:.9em;white-space:nowrap;cursor:pointer}
+  .aviso{background:#fff8e6;border-left:3px solid #e6a817;padding:.45em .8em;font-size:.83rem;margin:0}
+  @media(max-width:600px){#mapa{height:calc(100% - 150px)}}
+</style>
+</head>
+<body>
+<div id="topo">
+  <b>🗺️ Onde posso pescar</b>
+  <span style="opacity:.85;font-size:.85rem">Lisboa &amp; estuário</span>
+  <a href="index.html#/MAR" style="margin-left:auto">← guia completo</a>
+</div>
+<p class="aviso">🔴 proibido (raio da regra) · 🟢 spot verificado · <b>auxiliar, não é a lei</b> — não mostra praias balneares nem placas. <b>Placa manda sempre.</b></p>
+<div id="mapa"></div>
+<div id="legenda">a carregar…</div>
+
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+var CORES={'pontão':'#e74c3c','doca/marina':'#c0392b','terminal fluvial':'#8e44ad','cais acostável':'#8e44ad','farol':'#d35400','unidade militar':'#7f8c8d'};
+var SPOTS=[
+  ['Parque Ribeirinho Oriente',38.74464,-9.09699,'583 m do cais mais próximo · 30 min de bike'],
+  ['Cais do Adamastor (PdN)',38.75818,-9.09109,'⚠️ 101 m do pontão — no limite; anda p/ norte'],
+  ['Algés / Dafundo',38.694,-9.227,'não é água balnear'],
+  ['Pontão do Rio Judeu (Seixal)',38.6264,-9.1101,'1996 m da praia balnear · 19 min'],
+  ['Pontão das Cavaquinhas',38.6321,-9.1063,'1326 m da praia balnear'],
+  ['Trafaria',38.6738,-9.2328,'margem do Tejo, não balnear · 18 min'],
+  ['Porto Brandão',38.6768,-9.2072,'não balnear · 17 min'],
+  ['Cais dos Pescadores (Montijo)',38.70248,-8.98169,'Montijo sem balneares · 31 min'],
+  ['Ponte-Cais de Alcochete',38.75661,-8.96556,'estaciona em cima do cais · 34 min'],
+  ['Cais de Alhos Vedros (Moita)',38.6619,-9.0231,'Moita sem balneares'],
+  ['Praia da Adiça',38.5583,-9.1901,'praia oceânica · 1599 m da Fonte da Telha'],
+  ['Setúbal — frente ao jardim',38.5204,-8.8942,'🏆 autorização ESCRITA no edital de Setúbal']
+];
+var mapa=L.map('mapa').setView([38.72,-9.13],12);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap'}).addTo(mapa);
+SPOTS.forEach(function(s){
+  L.circleMarker([s[1],s[2]],{radius:8,color:'#0a7d5a',fillColor:'#27ae60',fillOpacity:.92,weight:2})
+   .addTo(mapa).bindPopup('<b>🎣 '+s[0]+'</b><br>'+s[3]);
+});
+fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
+  var cam={};
+  zs.forEach(function(z){
+    var cor=CORES[z.t]||'#e74c3c';
+    var c=L.circle([z.la,z.lo],{radius:z.r,color:cor,fillColor:cor,fillOpacity:.13,weight:1})
+      .bindPopup('<b>⛔ '+z.t+'</b>'+(z.n?'<br>'+z.n:'')+'<br>proibido a menos de <b>'+z.r+' m</b>');
+    (cam[z.t]=cam[z.t]||L.layerGroup()).addLayer(c);
+  });
+  Object.keys(cam).forEach(function(k){cam[k].addTo(mapa);});
+  var leg=document.getElementById('legenda');
+  leg.innerHTML=Object.keys(cam).map(function(k){
+    return '<label><input type="checkbox" checked data-c="'+k+'"> <span style="color:'+(CORES[k]||'#e74c3c')+'">■</span> '+k+' ('+zs.filter(function(x){return x.t===k;}).length+')</label>';
+  }).join('')+'<label><span style="color:#27ae60">●</span> spots verificados ('+SPOTS.length+')</label>';
+  leg.querySelectorAll('input[data-c]').forEach(function(cb){
+    cb.onchange=function(){var k=cb.getAttribute('data-c'); cb.checked?cam[k].addTo(mapa):mapa.removeLayer(cam[k]);};
+  });
+}).catch(function(){document.getElementById('legenda').textContent='⚠️ não deu para carregar as zonas.';});
+// localizar-me
+L.control.locate=null;
+var btn=L.control({position:'topleft'});
+btn.onAdd=function(){var d=L.DomUtil.create('div','leaflet-bar');
+  d.innerHTML='<a href="#" title="Onde estou" style="font-size:18px;text-align:center;line-height:26px">📍</a>';
+  d.onclick=function(e){e.preventDefault();
+    if(navigator.geolocation) navigator.geolocation.getCurrentPosition(function(p){
+      var ll=[p.coords.latitude,p.coords.longitude];
+      mapa.setView(ll,16);
+      L.circleMarker(ll,{radius:9,color:'#2980b9',fillColor:'#3498db',fillOpacity:.9}).addTo(mapa).bindPopup('📍 Estás aqui').openPopup();
+    });
+    return false;};
+  return d;};
+btn.addTo(mapa);
+</script>
+</body>
+</html>
