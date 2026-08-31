@@ -199,6 +199,24 @@ E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/00
 })();
 </script>
 
+## ⚖️ Legal — o resto
+
+- 💳 **Licença marítima (DGRM)** — obrigatória, tira-se online. A do ICNF **não vale** aqui.
+- 🌙 **Noturna é LEGAL** no marítimo (ao contrário das barragens) — e é a melhor hora do robalo.
+- 🐟 **Isco de peixe é LEGAL** (sardinha, cavala) — a proibição das águas interiores acaba em VFX.
+- 📏 **Mínimos:** robalo **36 cm** · dourada **19 cm** · linguado **24 cm** · máx. **10 kg/dia**.
+
+**Distâncias que se acumulam** (além da regra balnear) — verificar no local:
+
+| Proibido a menos de | De quê |
+|:--:|---|
+| **300 m** | cais acostáveis |
+| **100 m** | docas, marinas, embarcadouros, pontões de atracação, rampas, estaleiros, unidades militares, **fortes**, faróis, esgotos sinalizados |
+| **50 m** | pilares da Ponte 25 de Abril |
+| — | **dentro** de docas e marinas · **canais de navegação** nomeados (Alfeite, Seixal/Trindade, Barreiro, Montijo, Alcochete, Cabo Ruivo, Cala do Norte/Póvoa…) |
+
+⚠️ **Áreas marinhas protegidas:** **AMP das Avencas** (Parede) — só 1 linha com 1 anzol e cartão próprio · **Parque Marinho Luiz Saldanha** (Arrábida) — pesca proibida nas zonas de Proteção Total e Parcial. **Trata toda a costa sul da Arrábida como suspeita** até confirmares o zonamento.
+
 ## 📍 As zonas
 
 🗺️ **[Margem sul num mapa](https://www.google.com/maps/dir/38.65017,-9.10464/38.70248,-8.98169/38.75661,-8.96556)** — Ponta dos Corvos → Montijo → Alcochete.
@@ -240,13 +258,6 @@ mãe → destorcedor
 - **Estações deslizantes** (nós de stop + missangas + destorcedor) em vez de laços fixos: ajustas a altura na margem e não enfraqueces a espinha.
 - 🪢 **Nó mãe→shock leader:** [Slim Beauty](NOS.md) (fino, passa nas anilhas) ou cirurgião de 3 voltas (mais forte, mais rápido).
 
-## ⚖️ Legal
-
-- 💳 **Licença marítima (DGRM)** — obrigatória, tira-se online. A do ICNF **não vale** aqui.
-- 🌙 **Noturna é LEGAL** no marítimo (ao contrário das águas interiores) — e é a melhor hora do robalo.
-- 📏 **Mínimos:** robalo **36 cm** · dourada **19 cm** · linguado **24 cm** · máx. **10 kg/dia** por pescador.
-- 🐟 **Isco de peixe é LEGAL aqui** (sardinha, cavala) — a proibição das águas interiores acaba em VFX.
-
 ## 🛒 Lojas de isco (OSM, verificadas)
 
 🗺️ **[Todas no mapa](https://www.google.com/maps/dir/38.73143,-9.13595/38.67127,-9.17084/38.66700,-9.18792/38.67332,-9.23142/38.46351,-9.10051/38.52194,-8.88330)**
@@ -261,6 +272,18 @@ mãe → destorcedor
 | **Casa Pita** | [38.52194, -8.88330](https://www.google.com/maps?q=38.52194,-8.88330) ✅ | Fontaínhas, **Setúbal** | para o Sado/Figueirinha |
 
 > ⚠️ **Horários não confirmados** em nenhuma — liga antes, sobretudo ao domingo e depois das 19h. ⚠️ A "Pescópeixe" da Matinha que circula em diretórios **não existe no OSM nem no Maps** — provavelmente fechou.
+
+## 🪱 Iscos — fresco
+
+| Isco | Alvos | Nota |
+|---|---|---|
+| 🥇 **Casulo / minhoca do mar** | tudo | o isco histórico do Tejo — o melhor que há, mas **não congela** |
+| **Camarão cru** | robalo, dourada | com casca segura melhor |
+| **Sardinha / cavala** (pedaço) | robalo, enguia à noite | legal no marítimo |
+| **Lingueirão** | dourada, robalo | anzol pelo **pé** (a parte firme) |
+| **Caranguejo verde** (vivo) | dourada | isco-rei da dourada — mas **só vivo** |
+| **Pão** (à superfície) | taínha | a "carpa à côdea", versão salgada |
+| **Amostras** (vinil, minnow 7-14 g) | robalo | cana de spinning, **paralelo à muralha** ao entardecer |
 
 ## 🧊 Isco de congelador — o guia
 
@@ -321,16 +344,6 @@ Obrigatório em tudo o que é mole: amêijoa, tita, lingueirão (aqui o anzol fu
 > 💡 **A rotina de dias de semana:** **lula não-lavada** em porções de 2-3 pedaços + **camarão cru com casca** + **sardinha em salmoura**. Cobre robalo e dourada, sai de casa direto para a muralha. **Casulo fresco fica para os dias planeados.**
 
 > ⚠️ **Honestidade:** **não existe nenhum teste comparativo controlado** de fresco vs congelado nestas espécies — tudo o que está aqui é relato de pescadores experientes, não medição. O baseline honesto dos próprios fóruns: *"o isco congelado não é tão eficaz, mas ao menos tira-te do aperto"*. E a perda que te custa mais é nos **iscos de dourada** (bivalves e vermes); os de robalo (lula, sardinha, camarão) são precisamente os que melhor congelam.
-
-## 🪱 Iscos
-
-| Isco | Alvos | Nota |
-|---|---|---|
-| 🥇 **Casulo / minhoca do mar** | tudo | o isco histórico do Tejo — o que o pessoal usa |
-| **Camarão** | robalo, dourada | fresco > congelado; congelado precisa de **fio elástico** para segurar |
-| **Sardinha / cavala** (pedaço) | robalo, enguia à noite | legal no marítimo |
-| **Pão** (à superfície) | taínha | a "carpa à côdea", versão salgada |
-| Amostras (vinil, minnow 7-14 g) | robalo | com a cana de spinning, **paralelo à muralha** ao entardecer |
 
 ## 💡 Doutrina da muralha
 
