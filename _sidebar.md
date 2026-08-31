@@ -19,6 +19,8 @@
   - [🏞️ Idanha — M. Carmona](IDANHA.md)
   - [🌊 Arganil — Alva & Fronhas](ARGANIL.md)
   - [🛶 Foz d'Alge — C. do Bode](FOZALGE.md)
+  - [🟫 Belver / Ortiga — siluro](BELVER.md)
+  - [🌾 Montargil — Ponte de Sor](MONTARGIL.md)
   - [🏆 Pego do Altar — Alcácer](PEGOALTAR.md)
   - [🌳 Minutos — Montemor](MINUTOS.md)
   - [🌾 Magos — Salvaterra ⛔ verão](MAGOS.md)
