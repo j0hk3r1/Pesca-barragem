@@ -24,6 +24,8 @@
 | 6 | **Praia Fluvial do Alamal** (margem esq.) | [39.48831, -7.96766](https://www.google.com/maps?q=39.48831,-7.96766) ✅ | 9,2 km carro | [siluro marcado pelo MARE/FRISK](https://www.youtube.com/watch?v=hQsSu3wzoUY) · [captura de margem](https://www.youtube.com/watch?v=aN6VpxI2GKo) |
 | ⛔ | Junto ao paredão / foz da ribeira | [paredão real: 39.47958, -7.99908](https://www.google.com/maps?q=39.47958,-7.99908) ✅ | — | **NÃO PESCAR** — ver Legal |
 
+> 🗣️ **Dica de um local** (comentário em vídeo do spot): *"Fica em **Ortiga onde desagua a Ribeira de Eiras** — basta chegares à Praia Fluvial de Ortiga e perguntar onde fica a ribeira. Nesta zona vão aparecendo."* → foz em [39.48000, -7.99586](https://www.google.com/maps?q=39.48000,-7.99586) ✅, ~350 m a pé do campismo. ⚠️ **Fica perto da zona do paredão: pesca do lado de FORA da linha de boias**, subindo a ribeira.
+
 > ⚠️ **Coordenada armadilha:** o que o Google Maps dá como "Barragem de Belver" (39.48198, -8.00125) é o **apeadeiro ferroviário**, não o paredão.
 
 ## ⚖️ Legal (verificado em fonte primária)
