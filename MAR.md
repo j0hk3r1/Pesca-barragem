@@ -162,6 +162,77 @@
   }, 150);
 })();
 
+
+// ===== mapa legal =====
+(function(){
+  function iniciaMapa(){
+    var el=document.getElementById('mapa-legal');
+    if(!el || el.dataset.pronto) return;
+    if(typeof L==='undefined') return;
+    el.dataset.pronto='1';
+    var mapa=L.map(el).setView([38.72,-9.13], 12);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+      maxZoom:18, attribution:'© OpenStreetMap'}).addTo(mapa);
+
+    var CORES={'pontão':'#e74c3c','doca/marina':'#c0392b','terminal fluvial':'#8e44ad','cais acostável':'#8e44ad','farol':'#d35400','unidade militar':'#7f8c8d'};
+    var SPOTS=[
+      ['Parque Ribeirinho Oriente',38.74464,-9.09699,'583 m do cais mais próximo'],
+      ['Cais do Adamastor (PdN)',38.75818,-9.09109,'⚠️ 101 m do pontão — no limite'],
+      ['Algés / Dafundo',38.694,-9.227,'não é água balnear'],
+      ['Pontão do Rio Judeu (Seixal)',38.6264,-9.1101,'1996 m da praia balnear'],
+      ['Pontão das Cavaquinhas',38.6321,-9.1063,'1326 m da praia balnear'],
+      ['Trafaria',38.6738,-9.2328,'margem do Tejo, não balnear'],
+      ['Porto Brandão',38.6768,-9.2072,'não balnear'],
+      ['Cais dos Pescadores (Montijo)',38.70248,-8.98169,'Montijo sem balneares'],
+      ['Ponte-Cais de Alcochete',38.75661,-8.96556,'Alcochete sem balneares'],
+      ['Cais de Alhos Vedros (Moita)',38.6619,-9.0231,'Moita sem balneares'],
+      ['Praia da Adiça',38.5583,-9.1901,'1599 m da Fonte da Telha']
+    ];
+    SPOTS.forEach(function(s){
+      L.circleMarker([s[1],s[2]],{radius:7,color:'#0a7d5a',fillColor:'#27ae60',fillOpacity:.9,weight:2})
+       .addTo(mapa).bindPopup('<b>🎣 '+s[0]+'</b><br>'+s[3]);
+    });
+
+    fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
+      var camadas={};
+      zs.forEach(function(z){
+        var cor=CORES[z.t]||'#e74c3c';
+        var c=L.circle([z.la,z.lo],{radius:z.r,color:cor,fillColor:cor,fillOpacity:.13,weight:1})
+          .bindPopup('<b>⛔ '+z.t+'</b>'+(z.n?'<br>'+z.n:'')+'<br>proibido a menos de <b>'+z.r+' m</b>');
+        (camadas[z.t]=camadas[z.t]||L.layerGroup()).addLayer(c);
+      });
+      Object.keys(camadas).forEach(function(k){ camadas[k].addTo(mapa); });
+      var leg=document.getElementById('mapa-legenda');
+      if(leg) leg.innerHTML='<b>Camadas</b> (clica para ligar/desligar): '+
+        Object.keys(camadas).map(function(k){
+          return '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer">'+
+            '<input type="checkbox" checked data-c="'+k+'"> <span style="color:'+(CORES[k]||'#e74c3c')+'">■</span> '+k+' ('+zs.filter(function(x){return x.t===k;}).length+')</label>';
+        }).join('')+' <label style="white-space:nowrap"><span style="color:#27ae60">●</span> spots ('+SPOTS.length+')</label>';
+      if(leg) leg.querySelectorAll('input[data-c]').forEach(function(cb){
+        cb.onchange=function(){ var k=cb.getAttribute('data-c');
+          if(cb.checked) camadas[k].addTo(mapa); else mapa.removeLayer(camadas[k]); };
+      });
+    }).catch(function(){
+      var leg=document.getElementById('mapa-legenda');
+      if(leg) leg.innerHTML='<span style="opacity:.7">⚠️ não deu para carregar as zonas.</span>';
+    });
+  }
+  // carregar Leaflet e esperar pelo div
+  if(typeof L==='undefined'){
+    var css=document.createElement('link'); css.rel='stylesheet';
+    css.href='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css';
+    document.head.appendChild(css);
+    var s=document.createElement('script');
+    s.src='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js';
+    s.onload=function(){ var t=0,iv=setInterval(function(){ iniciaMapa();
+      if(document.getElementById('mapa-legal') || ++t>25) clearInterval(iv); },200); };
+    document.head.appendChild(s);
+  } else {
+    var t2=0,iv2=setInterval(function(){ iniciaMapa();
+      if(document.getElementById('mapa-legal') || ++t2>25) clearInterval(iv2); },200);
+  }
+})();
+
 </script>
 
 > ⏰ **A janela é a tua:** semana **18h-22h** · fim de semana **08h-22h** — e a tabela corta sempre a ½h depois do pôr-do-sol (limite legal na praia; na muralha do estuário a noturna é legal e podes esticar).
@@ -172,6 +243,14 @@
 > 🌊 **E a direção:** o que manda é **água a MEXER** — os estofos (½h à volta da PM e da BM) são mortos. **Enchente** traz o peixe para a margem; **primeiras 2 h de vazante** ainda são boas; **fim de vazante** o peixe recuou para o canal. Marés vivas amplificam tudo.
 
 ---
+
+## 🗺️ Mapa — onde podes e onde não
+
+<div id="mapa-legal" style="height:520px;border:1px solid #e2e6ea;border-radius:12px;margin:.6em 0"></div>
+<div id="mapa-legenda" style="font-size:.9em;margin-bottom:1.2em"></div>
+
+> 🔴 vermelho = **zona proibida** (raio da regra à volta de cada estrutura) · 🟢 verde = **spots verificados** · Clica num círculo para ver o que é e porquê.
+> ⚠️ **O mapa é um AUXILIAR, não a lei.** Vem do OpenStreetMap (pode ter estruturas em falta) e não cobre praias balneares nem placas no local. **Placa manda sempre.**
 
 ## ⛔ Época balnear — a regra que fecha as praias
 
