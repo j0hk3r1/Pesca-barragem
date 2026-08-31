@@ -92,6 +92,36 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 
+
+    // camada ICNF — aguas interiores (dados oficiais: ZPR, ZPP, concessoes)
+    fetch('data-icnf.json').then(function(r){return r.json();}).then(function(gj){
+      var grupos={};
+      L.geoJSON(gj,{
+        style:function(f){return {color:f.properties.cor,weight:3,opacity:.75};},
+        onEachFeature:function(f,l){
+          var p=f.properties;
+          l.bindPopup('<b>'+p.tipo+'</b><br>'+(p.nome?'<b>'+p.nome+'</b><br>':'')+
+            (p.rio?'rio: '+p.rio+'<br>':'')+(p.ent?'gestor: '+p.ent+'<br>':'')+
+            (p.dip?'<i>'+p.dip+'</i><br>':'')+
+            (p.mont?'<small>montante: '+p.mont+'</small><br>':'')+
+            (p.jus?'<small>jusante: '+p.jus+'</small><br>':'')+
+            '<small style="opacity:.7">fonte: ICNF (oficial)</small>');
+          (grupos[p.tipo]=grupos[p.tipo]||L.layerGroup()).addLayer(l);
+        }
+      });
+      var leg=document.getElementById(LEGENDA_ID);
+      Object.keys(grupos).forEach(function(k){
+        var cor=(k.indexOf('Reservada')>=0?'#c0392b':k.indexOf('Profissional')>=0?'#8e44ad':'#e67e22');
+        var n=gj.features.filter(function(f){return f.properties.tipo===k;}).length;
+        if(leg) leg.insertAdjacentHTML('beforeend',
+          '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" data-c="'+k+'"> '+
+          '<span style="color:'+cor+'">━</span> '+k+' ('+n+')</label>');
+        var cb=leg&&leg.querySelector('input[data-c="'+k+'"]');
+        if(cb) cb.onchange=function(){ cb.checked?grupos[k].addTo(MAPA_REF):MAPA_REF.removeLayer(grupos[k]); };
+      });
+      if(leg) leg.insertAdjacentHTML('beforeend','<div style="opacity:.65;font-size:.9em;margin-top:.3em">🏞️ as camadas do ICNF (águas interiores/rios) vêm desligadas — liga para veres.</div>');
+    }).catch(function(){});
+
 // localizar-me
 L.control.locate=null;
 var btn=L.control({position:'topleft'});

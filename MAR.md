@@ -330,6 +330,7 @@ E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/00
 ## ⚖️ Legal — o resto
 
 - 💳 **Licença marítima (DGRM)** — obrigatória (**8 €/ano** ou 2 €/dia). A do ICNF **não vale** aqui.
+- 🚨 **ROBALO: registo de capturas OBRIGATÓRIO.** Por [regulamento europeu](https://www.dgrm.pt/sistema-eletronico-de-registo-de-capturas-recfishing), as capturas de **robalo** (e atum-rabilho e espadins) têm de ser comunicadas **eletronicamente e no próprio dia** através da app **RecFishing** ([Android](https://play.google.com/store/apps/details?id=eu.europa.publications.recfishing) · [iOS](https://apps.apple.com/pt/app/recfishing/id6746253374), grátis). Apoio: app_pescaludica@dgrm.pt · ☎ 213 035 805.
 - 🎣 **Máximo 2 canas** por pescador · **3 anzóis** por cana, abertura mínima 8 mm ([Portaria 330/2026/1, art. 10.º](https://diariodarepublica.pt/dr/detalhe/portaria/330-2026-1154555263)).
 - 🌙 **Noturna apeada é LEGAL** — a portaria nova só proíbe do pôr ao nascer do sol **de bordo de embarcações** e na **apanha**. De terra, pode.
 - 📏 **5 metros mínimos entre pescadores** (Portaria 14/2014).
