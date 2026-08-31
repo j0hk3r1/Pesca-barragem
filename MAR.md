@@ -122,11 +122,14 @@
 
 > ⏰ **A janela é a tua:** semana **18h-22h** · fim de semana **08h-22h** — e a tabela corta sempre a ½h depois do pôr-do-sol (limite legal na praia; na muralha do estuário a noturna é legal e podes esticar).
 
-> 🌊 **Como ler:** o que manda é **água a MEXER** — os estofos (½h à volta da PM e da BM) são mortos. **Enchente** traz o peixe para a margem; **primeiras 2 h de vazante** ainda são boas; **fim de vazante** o peixe recuou para o canal. Marés vivas amplificam tudo.
+> 🌊 **A regra das marés (leia-se com atenção — é contraintuitivo):** o que manda **não é a maré cheia** — é a **água a MEXER**. O instante da preia-mar e o da baixa-mar são o **estofo**: a água pára para inverter e as picadas morrem. A doutrina clássica *"2 h antes e 2 h depois da preia-mar"* não contradiz isto: essas 4 horas são precisamente **água a correr**, com o estofo da preia-mar no meio a ser o pior ponto delas. A tabela desconta **±45 min** à volta de cada PM/BM e conta o resto como tempo útil.
+> *(Doutrina de pescadores consolidada, não medição — vale a pena registares as tuas picadas por fase de maré e ver se a tua água tem padrão próprio.)*
+
+> 🌊 **E a direção:** o que manda é **água a MEXER** — os estofos (½h à volta da PM e da BM) são mortos. **Enchente** traz o peixe para a margem; **primeiras 2 h de vazante** ainda são boas; **fim de vazante** o peixe recuou para o canal. Marés vivas amplificam tudo.
 
 ---
 
-## ⛔ ATENÇÃO — época balnear (é AGORA)
+## ⛔ Época balnear — a regra que fecha as praias
 
 ⚠️ **Correção importante:** o edital de 2011 que circula na net **foi revogado**. Vale o **[Edital 733/2019 da Capitania de Lisboa](https://dre.tretas.org/dre/3737642/edital-733-2019-de-12-de-junho)** — e a região tem **três capitanias com três regras diferentes**:
 
@@ -148,21 +151,53 @@ E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/00
 | 🧱 **Margem sul do estuário** (Seixal, Barreiro, Montijo, Alcochete, Moita) | **não são águas balneares** ✅ | **o ano todo** |
 | ⛔ Oeiras (Caxias, Paço d'Arcos, Sto. Amaro, Torre) | 1 jun → 30 set | 1 de outubro |
 
-> ✅ **A saída legal enquanto a época dura: o ESTUÁRIO.** Verificado por grep à portaria inteira — **zero ocorrências do concelho de Lisboa** e **zero em Seixal, Barreiro, Montijo, Alcochete e Moita**. Logo, sem restrição de banhos:
+> ✅ **A saída durante a época balnear: o ESTUÁRIO.** Verificado por grep à portaria inteira — **zero ocorrências do concelho de Lisboa** e **zero em Seixal, Barreiro, Montijo, Alcochete e Moita**. Logo, sem restrição de banhos:
 > - **Parque Ribeirinho Oriente** e **Algés/Dafundo** (o areal de Algés/Dafundo não consta; as balneares de Oeiras começam em **Caxias**, mais a poente) — pescáveis o ano todo;
 > - **Toda a margem sul do estuário** — Seixal, Barreiro, Montijo, Alcochete: água de robalo, dourada e choco, sem restrição balnear.
 >
 > 💡 E há a via das horas: a época balnear tem **vigilância diurna** — muitos pescam ao **amanhecer e depois do pôr-do-sol**, quando a praia não está em uso. A lei diz *"durante a época"*, não *"durante o horário"* — portanto é **zona cinzenta, não permissão**. Decide informado.
 
-### 📅 Quando abre cada zona
+### 📅 Épocas — atualiza sozinho
 
-| Zona | Abre a |
-|---|---|
-| **Sesimbra** (Califórnia, Ouro, Meco, Bicas) · **Ericeira/Mafra** · **Sintra** | **14 set** |
-| **Setúbal** (Figueirinha, Albarquel, Galapos…) | **16 set** ⚠️ Galapos/Portinho estão no Parque Marinho — verificar zonamento |
-| Praias do **Seixal** e Ponta dos Corvos | 16 set *(editais de banhistas)* |
-| **Costa da Caparica** (22 praias) · **Oeiras** · **Cascais** | **1 out** |
-| ⚖️ *Leitura literal do edital de Lisboa* | **16 out** — a CPL fixa a janela em **1 mai-15 out**, independentemente da época balnear. **A leitura segura é esperar por 16 de outubro** nas praias sob jurisdição de Lisboa (Caparica, Oeiras). |
+<div id="epocas-app">A calcular…</div>
+
+<script>
+(function(){
+  // [nome, mês-dia início, mês-dia fim, regra]
+  var Z = [
+    ['🏖️ Costa da Caparica (22 praias) · Oeiras', '06-01','09-30','Lisboa: 200 m · janela fixa 1 mai-15 out'],
+    ['🌊 Cascais (15 praias)',                     '05-01','09-30','Cascais: 300 m · inclui esporões'],
+    ['🌊 Ericeira/Mafra · Sintra',                 '06-13','09-13','Cascais: 300 m · inclui esporões'],
+    ['🐙 Sesimbra (Califórnia, Ouro, Meco…)',      '06-04','09-13','Setúbal: só praias concessionadas'],
+    ['⚓ Setúbal (Figueirinha, Albarquel…)',        '06-04','09-15','Setúbal: só praias concessionadas'],
+    ['🧱 Praias do Seixal · Ponta dos Corvos',      '07-21','09-15','edital de banhistas CPL 67-70'],
+    ['🧱 Praia de Alburrica (Barreiro)',            '06-06','09-06','edital de banhistas CPL 29'],
+    ['⚖️ Jurisdição de Lisboa — leitura literal',   '05-01','10-15','o edital fixa 1 mai-15 out, independente da época'],
+    ['🧱 ESTUÁRIO (Parque Ribeirinho, margem sul)', null,  null,   'não são águas balneares — sem restrição']
+  ];
+  function d(md, ano){ return new Date(ano+'-'+md+'T00:00:00'); }
+  var hoje=new Date(), ano=hoje.getFullYear();
+  var linhas = Z.map(function(z){
+    if(!z[1]) return '<tr style="background:#eef8f4"><td><b>'+z[0]+'</b></td><td colspan="2">✅ <b>pescável todo o ano</b></td><td style="font-size:.88em;opacity:.75">'+z[3]+'</td></tr>';
+    var ini=d(z[1],ano), fim=d(z[2],ano);
+    var dentro = hoje>=ini && hoje<=fim;
+    var abre = new Date(fim.getTime()+86400000);
+    if(!dentro && hoje>fim) abre = new Date(d(z[1],ano+1).getTime()); // já passou: mostra quando volta a fechar
+    var fmt=function(x){return String(x.getDate()).padStart(2,'0')+'/'+String(x.getMonth()+1).padStart(2,'0');};
+    var dias = Math.ceil((abre-hoje)/86400000);
+    return '<tr'+(dentro?'':' style="background:#eef8f4"')+'>'+
+      '<td><b>'+z[0]+'</b></td>'+
+      '<td style="white-space:nowrap">'+fmt(ini)+' → '+fmt(fim)+'</td>'+
+      '<td style="white-space:nowrap"><b>'+(dentro
+          ? '⛔ fechado · abre '+fmt(abre)+(dias>0?' (faltam '+dias+' dias)':'')
+          : '✅ ABERTO')+'</b></td>'+
+      '<td style="font-size:.88em;opacity:.75">'+z[3]+'</td></tr>';
+  }).join('');
+  var el=document.getElementById('epocas-app');
+  if(el) el.innerHTML='<table><thead><tr><th>Zona</th><th>Época balnear</th><th>Estado hoje</th><th>Regra</th></tr></thead><tbody>'+linhas+'</tbody></table>'+
+    '<p style="font-size:.85em;opacity:.7">Estado calculado à data de hoje. ⚠️ As datas são as de 2026 — reconfirma a portaria do ano em curso.</p>';
+})();
+</script>
 
 ## 📍 As zonas
 
@@ -183,7 +218,7 @@ E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/00
 | 🧱 **Pontão das Cavaquinhas** (Arrentela) ✅ | [38.6321, -9.1063](https://www.google.com/maps?q=38.6321,-9.1063) ✅ | 🚗 20 min · 22 km | robalo, dourada | 1326 m da praia balnear |
 | 🧱 **Praia da Trafaria** (margem do Tejo) ✅ | [38.6738, -9.2328](https://www.google.com/maps?q=38.6738,-9.2328) ✅ | 🚗 **18 min · 16 km** | robalo, dourada | **não consta** da portaria (as 22 balneares de Almada são as oceânicas) · ⚠️ verificar no local os 300 m do cais do Silopor e do ferry |
 | 🧱 **Porto Brandão** (Almada) ✅ | [38.6768, -9.2072](https://www.google.com/maps?q=38.6768,-9.2072) ✅ | 🚗 **17 min · 14 km** | robalo | não balnear · ⚠️ 300 m do cais do ferry; Canal do Alfeite e unidade militar a nascente |
-| 🏖️ **Praia da Adiça** (sul da Fonte da Telha) ✅ | [38.5583, -9.1901](https://www.google.com/maps?q=38.5583,-9.1901) ✅ | 🚗 30 min · 24 km | robalo, dourada, sargo | 🎯 **praia OCEÂNICA legal agora** — não consta da portaria e fica **1599 m** da Fonte da Telha · acesso a pé pela areia, sem apoios |
+| 🏖️ **Praia da Adiça** (sul da Fonte da Telha) ✅ | [38.5583, -9.1901](https://www.google.com/maps?q=38.5583,-9.1901) ✅ | 🚗 30 min · 24 km | robalo, dourada, sargo | 🎯 **praia oceânica sem restrição balnear** — não consta da portaria e fica **1599 m** da Fonte da Telha · acesso a pé pela areia, sem apoios |
 | ⚓ **Setúbal — frente ao jardim** ✅ | [38.5204, -8.8942](https://www.google.com/maps?q=38.5204,-8.8942) ✅ | 🚗 41 min · 49 km | robalo, choco, sargo | 🏆 **o único ponto da região com autorização ESCRITA e nominal** — o edital de Setúbal excetua expressamente o troço entre o Cais 3 e o Clube Naval, e entre o clube e o Cais 2 |
 | 🧱 **Ponte-Cais de Alcochete** ✅ *o ano todo* | [38.75661, -8.96556](https://www.google.com/maps?q=38.75661,-8.96556) ✅ | 🚗 **34 min · 35 km** (estrada **a 0 m**) | robalo, dourada, choco | **estacionas em cima do cais** · frente ao estuário largo, zona de sapal e corrente |
 | 🧱 **Cais dos Pescadores** (Montijo) ✅ *o ano todo* | [38.70248, -8.98169](https://www.google.com/maps?q=38.70248,-8.98169) ✅ | 🚗 31 min · 33 km (335 m a pé) | robalo, dourada | passeio ribeirinho · ⚠️ **cais de pesca = respeitar os 100 m de pontões e rampas** |
