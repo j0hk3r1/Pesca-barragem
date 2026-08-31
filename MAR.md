@@ -126,18 +126,34 @@
 
 ---
 
+## ⛔ ATENÇÃO — época balnear (é AGORA)
+
+**Proibido pescar em áreas balneares, durante a época, a menos de 200 m da linha da praia** ([edital da Capitania](http://dalhelinha.blogspot.com/2012/05/legislacao-restricoes-pesca-no-tejo.html)). E verifiquei a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/0000200039.pdf): **praticamente todas as praias aqui listadas são águas balneares oficiais** — Almada tem **22**, Sesimbra 6, Mafra 8.
+
+| Praia | Época balnear 2026 | Pescável a partir de |
+|---|---|---|
+| **Costa da Caparica** (22 praias, incl. Fonte da Telha, S. João, Rainha, Sereia…) | **1 jun → 30 set** | **1 de outubro** |
+| **Ericeira** (Pescadores, Ribeira de Ilhas, Coxos…) | 13 jun → **13 set** | **14 de setembro** |
+| **Sesimbra** (Califórnia, Ouro, Meco…) | 4 jun → **13 set** | **14 de setembro** |
+| **Setúbal** (Figueirinha) | 4 jun → **15 set** | **16 de setembro** |
+| 🧱 **Estuário em Lisboa** (Parque Ribeirinho, Algés) | **não é água balnear** ✅ | **o ano todo** |
+
+> ✅ **A saída legal enquanto a época dura:** o **estuário** (Parque Ribeirinho Oriente, Algés/Dafundo) — **zero ocorrências de Lisboa na portaria**, logo sem restrição de banhos. É o teu spot até setembro.
+>
+> 💡 E há a via das horas: a época balnear tem **vigilância diurna** — muitos pescam ao **amanhecer e depois do pôr-do-sol**, quando a praia não está em uso. A lei diz *"durante a época"*, não *"durante o horário"* — portanto é **zona cinzenta, não permissão**. Decide informado.
+
 ## 📍 As zonas
 
 > ⏱️ **Sobre os tempos:** medidos por routing **sem trânsito**. Tudo o que atravessa a **Ponte 25 de Abril** (Caparica, Sesimbra, Setúbal) leva facilmente **+20-30 min** em hora de ponta ou fim de semana de verão — conta com o dobro. Ericeira e o Parque Ribeirinho não dependem da ponte, e os tempos batem certo.
 
 | Zona | 📍 | 🚲 de Picoas | Alvos | Nota |
 |---|---|:--:|---|---|
-| 🥇 **Parque Ribeirinho Oriente** (Marvila) | muralha [38.74464, -9.09699](https://www.google.com/maps?q=38.74464,-9.09699) ✅ · norte [38.74735, -9.09692](https://www.google.com/maps?q=38.74735,-9.09692) ✅ | 🚲 **30 min** · 🚗 10 min | robalo, linguado, dourada, taínha | frente aberta, **fora das zonas proibidas** · pesca do **meio para norte** (a doca do Poço do Bispo a sul obriga a 300 m) |
-| 🥈 **Algés / Dafundo** | ~[38.694, -9.227](https://www.google.com/maps?q=38.694,-9.227) *(aprox.)* | 🚲 ~36-40 min | robalo, dourada | areal + esporão · **não são águas balneares** → sem restrição de banhos · ⚠️ lodaçal na baixa-mar: pescar de meia enchente a meia vazante · ⚠️ 100 m da Doca de Pedrouços |
-| 🏖️ **Costa da Caparica** | praia principal ~[38.642, -9.232](https://www.google.com/maps?q=38.642,-9.232) *(aprox.)* · Fonte da Telha [38.57191, -9.19614](https://www.google.com/maps?q=38.57191,-9.19614) ✅ | 🚗 **17 min sem trânsito · ~40 min na prática** (ponte) · 16 km | robalo, sargo, dourada | **surfcasting clássico** — praia aberta, é aqui que as pirâmides de 120-150 g e o shock leader 0,6 fazem sentido · escolhe as **covas entre bancos de areia** (vêem-se na maré baixa) |
-| ⚓ **Setúbal / Sado** | Figueirinha [38.48428, -8.94504](https://www.google.com/maps?q=38.48428,-8.94504) ✅ | 🚗 51 min sem trânsito · **~70 min na prática** (ponte) · 48 km | robalo, choco (primavera), sargo | **outro estuário** = marés com horário próprio (por isso está na tabela) · muralhas e cais em Setúbal, praia na Figueirinha |
-| 🌊 **Ericeira / costa oeste** | P. dos Pescadores [38.96431, -9.41855](https://www.google.com/maps?q=38.96431,-9.41855) ✅ | 🚗 **41 min · 49 km** (sem ponte — tempo fiável) | robalo de rocha, sargo | pesca de **rocha** — mais braça, mais perigo, e o robalo grande da rebentação · ⚠️ só com mar pequeno |
-| 🐙 **Sesimbra** | P. da Califórnia [38.44131, -9.09431](https://www.google.com/maps?q=38.44131,-9.09431) ✅ | 🚗 39 min sem trânsito · **~60 min na prática** (ponte) · 39 km | sargo, choco, polvo | zona de rocha e porto; a mais abrigada quando o oeste está mau |
+| 🥇 **Parque Ribeirinho Oriente** (Marvila) ✅ *o ano todo* | muralha [38.74464, -9.09699](https://www.google.com/maps?q=38.74464,-9.09699) ✅ · norte [38.74735, -9.09692](https://www.google.com/maps?q=38.74735,-9.09692) ✅ | 🚲 **30 min** · 🚗 10 min | robalo, linguado, dourada, taínha | frente aberta, **fora das zonas proibidas** · pesca do **meio para norte** (a doca do Poço do Bispo a sul obriga a 300 m) |
+| 🥈 **Algés / Dafundo** ✅ *o ano todo* | ~[38.694, -9.227](https://www.google.com/maps?q=38.694,-9.227) *(aprox.)* | 🚲 ~36-40 min | robalo, dourada | areal + esporão · **não são águas balneares** → sem restrição de banhos · ⚠️ lodaçal na baixa-mar: pescar de meia enchente a meia vazante · ⚠️ 100 m da Doca de Pedrouços |
+| 🏖️ **Costa da Caparica** ⛔ *até 30 set* | praia principal ~[38.642, -9.232](https://www.google.com/maps?q=38.642,-9.232) *(aprox.)* · Fonte da Telha [38.57191, -9.19614](https://www.google.com/maps?q=38.57191,-9.19614) ✅ | 🚗 **17 min sem trânsito · ~40 min na prática** (ponte) · 16 km | robalo, sargo, dourada | **surfcasting clássico** — praia aberta, é aqui que as pirâmides de 120-150 g e o shock leader 0,6 fazem sentido · escolhe as **covas entre bancos de areia** (vêem-se na maré baixa) |
+| ⚓ **Setúbal / Sado** ⛔ *até 15 set* | Figueirinha [38.48428, -8.94504](https://www.google.com/maps?q=38.48428,-8.94504) ✅ | 🚗 51 min sem trânsito · **~70 min na prática** (ponte) · 48 km | robalo, choco (primavera), sargo | **outro estuário** = marés com horário próprio (por isso está na tabela) · muralhas e cais em Setúbal, praia na Figueirinha |
+| 🌊 **Ericeira / costa oeste** ⛔ *até 13 set* | P. dos Pescadores [38.96431, -9.41855](https://www.google.com/maps?q=38.96431,-9.41855) ✅ | 🚗 **41 min · 49 km** (sem ponte — tempo fiável) | robalo de rocha, sargo | pesca de **rocha** — mais braça, mais perigo, e o robalo grande da rebentação · ⚠️ só com mar pequeno |
+| 🐙 **Sesimbra** ⛔ *até 13 set* | P. da Califórnia [38.44131, -9.09431](https://www.google.com/maps?q=38.44131,-9.09431) ✅ | 🚗 39 min sem trânsito · **~60 min na prática** (ponte) · 39 km | sargo, choco, polvo | zona de rocha e porto; a mais abrigada quando o oeste está mau |
 | ⛔ **Cais do Sodré → Torre de Belém** | — | — | — | **evitar**: docas, marinas, terminais e a Torre (forte) criam zonas de exclusão que cobrem quase todo o troço |
 
 > ⚠️ **As regras que criam as zonas proibidas** ([edital da Capitania](http://dalhelinha.blogspot.com/2012/05/legislacao-restricoes-pesca-no-tejo.html)): proibido **nas docas e marinas** · a **<100 m** de acessos a docas/marinas/embarcadouros, pontões, rampas, unidades militares e **fortes** · a **<300 m de cais acostáveis** · em áreas balneares na época, a <200 m da praia.
