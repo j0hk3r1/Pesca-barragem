@@ -469,6 +469,27 @@ mãe → destorcedor
 | **Pão** (à superfície) | taínha | a "carpa à côdea", versão salgada |
 | **Amostras** (vinil, minnow 7-14 g) | robalo | cana de spinning, **paralelo à muralha** ao entardecer |
 
+
+### 🏪 Iscos na Decathlon (Oriente) — preços e veredito
+
+Cruzado com a investigação de iscos congeláveis. **Marca VALBAITS/STARBAITS**, iscos vivos e congelados.
+
+| Isco | € | Veredito |
+|---|:--:|---|
+| 🥇 **Lulas congeladas** | **1,70** | 🎯 **a pechincha** — nº1 em durabilidade no anzol, o mais barato da lista. Congelador |
+| 🥇 **Casulo** (vivo) | **2,70** | o isco histórico do Tejo — robalo, dourada, linguado, taínha. **O principal** |
+| 🥇 **Coreano XL / Jumbo** | **3,70** | minhoca-do-mar grande = **isco de robalo**; o tamanho seleciona peixe maior |
+| 🥈 **Casulo salgado** | **2,70** | tratado para **aguentar e recongelar** — dourada. Para ter sempre em casa |
+| 🥈 Coreano verde | 2,60 | versão pequena — peixe médio |
+| 🥈 Navalha/lingueirão | 2,90 | boa (robalo/dourada) mas **mole: exige fio elástico**; anzol pelo pé |
+| 😐 Sardinha congelada | 3,30 | funciona (robalo à noite) mas há no supermercado mais barata · passar por **salmoura** |
+| 😐 Caranguejo | 2,30 | é o isco-rei da dourada **mas só vivo** — congelado perde as vibrações, que é o que vale nele |
+| ❌ **Camarão congelado** | **5,90** | **o mais caro da lista** — camarão **cru com casca do supermercado** faz o mesmo por metade |
+| 🏞️ Minhoca da terra | 2,15 | é para **água doce** (barragens), não para o mar |
+| ❓ Camarinha · Bomboca | 1,85 · 2,80 | não identificados com segurança — perguntar na loja antes de comprar |
+
+> 🛒 **A compra-tipo (~8 €):** casulo + coreano XL + lulas · **e nunca esquecer o fio elástico**.
+
 ## 🧊 Isco de congelador — o guia
 
 Para sair de casa às 18h sem passar na loja. Investigado em fóruns PT, ES e UK — cada linha com fonte.
