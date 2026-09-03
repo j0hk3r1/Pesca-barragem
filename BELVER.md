@@ -30,6 +30,34 @@
 
 > ⚠️ **Coordenada armadilha:** o que o Google Maps dá como "Barragem de Belver" (39.48198, -8.00125) é o **apeadeiro ferroviário**, não o paredão.
 
+## 🎯 Onde, em concreto — o que as fontes dizem (set-2026)
+
+**Todas as capturas grandes documentadas são no último km acima do paredão.** Nenhuma fonte aponta sítio melhor num raio de 10 km; o único "paraíso" citado é Fratel, a 25+ km.
+
+| Evidência | Onde | Fonte |
+|---|---|---|
+| 2,00 m / 60 kg (jul-2026) | "perto da barragem de Belver … zona onde têm sido registados vários exemplares de grande porte" | [O Mirante](https://www.youtube.com/watch?v=Vn_PLHIhxJc) |
+| 1,80 m / 45 kg **+ 6 siluros no mesmo dia**, à cana · *"já apanhei muitos com 30 kg e 1,60 m"* | "perto da barragem, na praia fluvial de Ortiga" | [Tomar na Rede](https://tomarnarede.pt/destaque/pescador-de-tomar-captura-siluro-gigante-no-rio-tejo-c-video/) |
+| 254 siluros / 2,3 t num dia (mai-2026) | "junto à praia de Ortiga", troço de 4,5 km até Belver · motivo: desova do barbo | [Médio Tejo](https://mediotejo.net/megaoperacao-contra-especie-invasora-captura-254-siluros-na-praia-de-ortiga/) |
+| **Telemetria MARE:** *"entre Abril e Maio juntam-se nas bocas de ribeiras em Belver"* (F. Ribeiro) | fozes das ribeiras | [Wilder](https://wilder.pt/historias/siluro-projecto-life-predator-quer-travar-invasao-do-tejo-por-peixe-gigante) |
+| 25 kg à cana + vídeos de margem · *"apanham-se em toda esta zona mas só com calor"* | Ribeira de Eiras | [Arlindo Marques, comentários](https://www.youtube.com/watch?v=sfRSzhORw9g) |
+| Siluros marcados pelo MARE/FRISK | Praia do Alamal | [FRISK](https://www.youtube.com/watch?v=hQsSu3wzoUY) |
+
+**Fozes de ribeira a montante do paredão, ≤ 10 km** (OSM, distância ao campismo): **Eiras 0,7 km** · Torre Cimeira 1,0 · **Belver 3,5 (junto ao Alamal)** · Alvisquer 4,6 · Figueiras 4,9 · Canas 5,7. A jusante (ZPP, água turbinada): Lampreia 1,1 · Ortiga 1,9 · Carregal/Boas Eiras/Fernando 3,8-4,3.
+
+**Extra fora da tabela:** **Ponte de Belver** (pilares) [39.48731, -7.96748](https://www.google.com/maps?q=39.48731,-7.96748) — 3 km, estrutura + corrente, fora da ZPL (só licença nacional); há [vídeo de pesca](https://www.youtube.com/watch?v=rwgIH1bRp2Q) mas sem siluro documentado.
+
+**Para setembro:** a agregação nas fozes é abril-maio; em setembro o peixe caça espalhado, mas a água funda continua junto ao paredão e o local diz "só com calor". MARE: *"mais ativo durante a noite"* — a noturna no Tejo está proposta, **não aprovada**. → **06:33 é a melhor hora do dia.** Sem batimetria pública nem relatos datados de setembro.
+
+**Tática:** ALTA na foz da Ribeira de Eiras (fora das boias, subindo a ribeira) + CORRIDA na bacia da rampa, a 100-200 m — engodar as duas ao chegar e ficar quieto. Só mudar de ares (Alamal / Ponte de Belver) depois do meio-dia sem bicadas.
+
+**Dos comentários (set-2026):**
+- 📍 **Coordenada dada por um local** para o siluro da ribeira: [39.489518, -8.002333](https://www.google.com/maps?q=39.489518,-8.002333) ([comentário](https://www.youtube.com/watch?v=SBOhb9UbsVg)) — ~800 m acima do campismo, **~130 m para lá do limite montante da ZPL** → aí só é preciso a licença nacional.
+- ⚠️ **A ribeira seca no fim do verão**: [vídeo 9-set-2022](https://www.youtube.com/watch?v=dYkIj1uP0Z8) "está seca e já tem peixe morto". Se o braço estiver seco/parado, o peixe está na **foz e na bacia**, não na ribeira. Confirmar à chegada.
+- 🚫 **Sem embarcações na ZPL** — relato de mai-2026: pescador de pato foi avisado de que a concessão **só permite pesca de margem**; nem pato nem barco ([comentário](https://www.youtube.com/watch?v=4F0dET9liog)). ⚠️ Engodar a partir de um barco insuflável dentro da ZPL é arriscar a mesma interpretação.
+- 🐟 Maior da operação de mai-2026: **2,15 m / 125 kg**.
+- Isco citado por pescadores do Tejo: *"fígado, moelas, tripas … com boia grande"* — a boia como alternativa ao chumbo para pousar o isco à altura certa.
+
 ## 🎫 Antes de ir — checklist
 
 | # | O quê | Como | Quanto |
