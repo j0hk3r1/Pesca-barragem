@@ -54,7 +54,7 @@
 **Dos comentários (set-2026):**
 - 📍 **Coordenada dada por um local** para o siluro da ribeira: [39.489518, -8.002333](https://www.google.com/maps?q=39.489518,-8.002333) ([comentário](https://www.youtube.com/watch?v=SBOhb9UbsVg)) — ~800 m acima do campismo, **~130 m para lá do limite montante da ZPL** → aí só é preciso a licença nacional.
 - ⚠️ **A ribeira seca no fim do verão**: [vídeo 9-set-2022](https://www.youtube.com/watch?v=dYkIj1uP0Z8) "está seca e já tem peixe morto". Se o braço estiver seco/parado, o peixe está na **foz e na bacia**, não na ribeira. Confirmar à chegada.
-- 🚫 **Sem embarcações na ZPL** — relato de mai-2026: pescador de pato foi avisado de que a concessão **só permite pesca de margem**; nem pato nem barco ([comentário](https://www.youtube.com/watch?v=4F0dET9liog)). ⚠️ Engodar a partir de um barco insuflável dentro da ZPL é arriscar a mesma interpretação.
+- ⚠️ **Embarcações na ZPL — por confirmar.** Relato de mai-2026: pescador de pato foi avisado por um popular de que a concessão **só permite pesca de margem** ([comentário](https://www.youtube.com/watch?v=4F0dET9liog)). **Não consta do [edital](https://www.icnf.pt/api/file/doc/3d8092efc0748269)** (7 artigos, sem qualquer cláusula sobre embarcações; art. 7.º remete para a lei geral). Caiaque sem cana é navegação, não pesca. → **Perguntar na receção ao comprar a diária:** "pode-se engodar/pescar de caiaque?"
 - 🐟 Maior da operação de mai-2026: **2,15 m / 125 kg**.
 - Isco citado por pescadores do Tejo: *"fígado, moelas, tripas … com boia grande"* — a boia como alternativa ao chumbo para pousar o isco à altura certa.
 
