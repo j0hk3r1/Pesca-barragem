@@ -1,0 +1,26 @@
+<!doctype html><html lang="pt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Belver / Ortiga — spots</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+<style>html,body,#m{height:100%;margin:0}#leg{position:absolute;z-index:1000;bottom:10px;left:10px;background:#fff;padding:8px 10px;border-radius:8px;font:13px system-ui;box-shadow:0 1px 4px #0004;max-width:320px}#loc{position:absolute;z-index:1000;top:10px;right:10px;background:#fff;border:0;border-radius:8px;padding:8px 10px;font:14px system-ui;box-shadow:0 1px 4px #0004;cursor:pointer}</style></head><body>
+<div id="m"></div><button id="loc">📍 Onde estou</button>
+<div id="leg"><b>Belver / Ortiga — siluro (set-2026)</b><br>🟢 1-2 melhores · 🟢 3 ribeira (seca no fim do verão) · ⚪ 4 pontões · 🟣 limite ZPL · 🟠 jusante (perigo/redes) · 🔴 paredão interdito<br><small>Não passar a linha de boias. 06:33 é a melhor hora. <a href="BELVER.md" onclick="location.href='./#/BELVER';return false">← guia</a></small></div>
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+var map=L.map('m').setView([39.4845,-8.0005],15);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
+var P=[
+ ['C',39.48223,-8.00288,'#1d4ed8','<b>Campismo de Ortiga</b><br>241 573 464 · vende a diária ZPL'],
+ ['1',39.48000,-7.99586,'#15803d','<b>🥇 Foz da Ribeira de Eiras</b><br>Pescar FORA da linha de boias, subindo a ribeira.<br>Telemetria MARE + dica de local. 350 m a pé.<br><a target=_blank href="https://www.youtube.com/watch?v=sfRSvhORw9g">vídeo</a>'],
+ ['2',39.48309,-8.00180,'#15803d','<b>🥈 Bacia da rampa / praia fluvial</b><br>60 kg (jul-2026) e 45 kg + 6 num dia. Lançar para o leito antigo. 289 m.<br><a target=_blank href="https://www.youtube.com/watch?v=Vn_PLHIhxJc">vídeo 60 kg</a>'],
+ ['3',39.48584,-8.00205,'#65a30d','<b>🥉 Braço da ribeira</b><br>3 vídeos de siluro da margem. ⚠️ Seca no fim do verão — se estiver parada, o peixe está na foz.<br><a target=_blank href="https://www.youtube.com/watch?v=soHF2mhVxYg">vídeo 2021</a>'],
+ ['3*',39.489518,-8.002333,'#65a30d','<b>Coordenada dada por um local</b><br>~130 m para lá do limite da ZPL → só licença nacional.<br><a target=_blank href="https://www.youtube.com/watch?v=SBOhb9UbsVg">comentário</a>'],
+ ['4',39.48285,-8.00128,'#737373','<b>Pontões flutuantes</b><br>Água imediata. 154 m. Sem captura documentada.'],
+ ['Z',39.48832,-8.00204,'#7c3aed','<b>Limite montante da ZPL</b><br>1,21 km do eixo da barragem (Despacho 506/2023).'],
+ ['!',39.47935,-8.00355,'#d97706','<b>⚠️ Jusante do paredão</b><br>Turbinamento sem aviso · ZPP com redes fixas · sem captura documentada.'],
+ ['X',39.47958,-7.99908,'#dc2626','<b>⛔ Paredão</b><br>NÃO pescar (DL 107/2009 art. 23.º) nem a <50 m da eclusa. Regra prática: não passar as boias.']
+];
+P.forEach(function(p){L.circleMarker([p[1],p[2]],{radius:11,color:'#fff',weight:2,fillColor:p[3],fillOpacity:1}).addTo(map).bindPopup(p[4]).bindTooltip(p[0],{permanent:true,direction:'center',className:'lbl'});});
+var st=document.createElement('style');st.textContent='.lbl{background:none;border:0;box-shadow:none;color:#fff;font:bold 12px system-ui}';document.head.appendChild(st);
+document.getElementById('loc').onclick=function(){map.locate({setView:true,maxZoom:17});};
+map.on('locationfound',function(e){L.circle(e.latlng,{radius:Math.min(e.accuracy,60),color:'#1d4ed8'}).addTo(map);});
+</script></body></html>

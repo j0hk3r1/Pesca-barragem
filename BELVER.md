@@ -10,7 +10,12 @@
 
 ## 📍 Spots — do melhor para o pior
 
-🗺️ [Mapa com todos os pinos](https://www.google.com/maps/dir/39.48223,-8.00288/39.48000,-7.99586/39.48309,-8.00180/39.48584,-8.00205/39.48285,-8.00128/39.48831,-7.96766/39.48731,-7.96748) — 1.º pino = campismo, depois pela ordem da tabela *(ignora a rota)*.
+[![Mapa dos spots de Belver/Ortiga](belver-mapa.png)](belver-mapa.html)
+
+🗺️ **[Abrir mapa interativo (com "onde estou")](belver-mapa.html)** · [Google Maps com os pinos](https://www.google.com/maps/dir/39.48223,-8.00288/39.48000,-7.99586/39.48309,-8.00180/39.48584,-8.00205/39.48285,-8.00128/39.48831,-7.96766/39.48731,-7.96748) *(1.º pino = campismo; ignora a rota)*.
+
+<div id="mapa-belver" style="height:420px;border:1px solid #e2e6ea;border-radius:12px;margin:.6em 0"></div>
+<script>(function(){function go(){var el=document.getElementById('mapa-belver');if(!el||el.dataset.ok||typeof L==='undefined')return;el.dataset.ok=1;var map=L.map(el).setView([39.4845,-8.0005],15);L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);var P=[['C',39.48223,-8.00288,'#1d4ed8','Campismo'],['1',39.48000,-7.99586,'#15803d','🥇 Foz da Rib. de Eiras — fora das boias'],['2',39.48309,-8.00180,'#15803d','🥈 Bacia da rampa'],['3',39.48584,-8.00205,'#65a30d','🥉 Braço da ribeira (seca no fim do verão)'],['3*',39.489518,-8.002333,'#65a30d','Coordenada de um local — fora da ZPL'],['4',39.48285,-8.00128,'#737373','Pontões'],['Z',39.48832,-8.00204,'#7c3aed','Limite ZPL 1,21 km'],['!',39.47935,-8.00355,'#d97706','⚠️ Jusante — perigo/redes'],['X',39.47958,-7.99908,'#dc2626','⛔ Paredão — não pescar']];P.forEach(function(p){L.circleMarker([p[1],p[2]],{radius:10,color:'#fff',weight:2,fillColor:p[3],fillOpacity:1}).addTo(map).bindPopup('<b>'+p[0]+'</b> '+p[4]).bindTooltip(p[0],{permanent:true,direction:'center',className:'lbl-bv'});});if(!document.getElementById('lbl-bv-css')){var st=document.createElement('style');st.id='lbl-bv-css';st.textContent='.lbl-bv{background:none;border:0;box-shadow:none;color:#fff;font:bold 11px system-ui}';document.head.appendChild(st);}}if(typeof L==='undefined'){var css=document.createElement('link');css.rel='stylesheet';css.href='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css';document.head.appendChild(css);var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js';s.onload=function(){var t=0,iv=setInterval(function(){go();var e=document.getElementById('mapa-belver');if((e&&e.dataset.ok)||++t>25)clearInterval(iv);},200);};document.head.appendChild(s);}else{var t2=0,iv2=setInterval(function(){go();var e=document.getElementById('mapa-belver');if((e&&e.dataset.ok)||++t2>25)clearInterval(iv2);},200);}})();</script>
 
 | # | Spot | 📍 | Do campismo | Porquê | Senão |
 |:--:|---|---|:--:|---|---|
@@ -85,7 +90,7 @@ Belver é fio-de-água (80,7 MW); o volume útil escoa em **~5-6 h a plena carga
 - **Loja de pesca:** Casa Rosado, Abrantes (~25 km) ☎ 241 361 739 *(horário/minhoca não confirmados)* · com sábado confirmado: Nova Pesca, Torres Novas (55 km)
 - **Comer:** "A Lena" (☎ 241 573 457, vende diárias, fecha 4ª) · "O Bigodes" ☎ 964 677 705
 - **Compras/combustível:** Mação (12 km) ou Abrantes (25 km) — **nada em Ortiga**
-- 💧 **Água a 89%** ([SNIRH 24-ago-2026](https://apambiente.pt/sites/default/files/_SNIAMB_Agua/DRH/MonitorizacaoAvaliacao/BoletimAlbufeiras/Semanal.pdf)) — muito acima da média de agosto (~55%)
+- 💧 **Água a 92%** (18 859 de 20 570 dam³, [SNIRH 31-ago-2026](https://apambiente.pt/sites/default/files/_SNIAMB_Agua/DRH/MonitorizacaoAvaliacao/BoletimAlbufeiras/Semanal.pdf)) — muito acima da média de agosto (~55%); Fratel 83%
 - 🚗 **De Lisboa: 112 min · 165 km**
 
 ## ❓ Lacunas
