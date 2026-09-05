@@ -93,6 +93,12 @@ Belver é fio-de-água (80,7 MW); o volume útil escoa em **~5-6 h a plena carga
 - 💧 **Água a 92%** (18 859 de 20 570 dam³, [SNIRH 31-ago-2026](https://apambiente.pt/sites/default/files/_SNIAMB_Agua/DRH/MonitorizacaoAvaliacao/BoletimAlbufeiras/Semanal.pdf)) — muito acima da média de agosto (~55%); Fratel 83%
 - 🚗 **De Lisboa: 112 min · 165 km**
 
+## 📓 Relatos
+
+| Data | Sítio | Horas | Condições | Resultado | Lição |
+|---|---|---|---|---|---|
+| **5-set-2026** | margem norte da bacia, [39.4833, -7.9974](https://www.google.com/maps?q=39.483322,-7.997385) (~430 m do paredão) · 4 canas (ALTA miúdos + CORRIDA minhocas) · engodo Caldo do Bicho | 06:00-21:00 | sem vento, sol, água a 92 % · **fundo 2-4 m aos 40 m** (contagem do chumbo) | **0 peixes · iscos sempre inteiros** · ninguém à volta apanhou nada | Isco intacto 15 h = água sem peixe a comer, não montagem. Aquela margem é plataforma rasa — a dedução de 15-25 m pelas cotas estava errada. **Em setembro, de dia, só onde a contagem der ≥ 8 s**: mais perto do canto do paredão, mais longe para o meio, ou a bacia da rampa; senão, só as 2 últimas horas |
+
 ## ❓ Lacunas
 
 - Batimetria da albufeira e relatos datados de setembro: não existem públicos.
