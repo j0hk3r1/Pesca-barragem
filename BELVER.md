@@ -46,7 +46,8 @@ Lei: ½h antes do nascer a ½h depois do pôr-do-sol ([DL 112/2017 art. 14.º](h
 
 ## 🎣 Como pescar
 
-- **Plano:** 2 canas a 100-200 m — uma na **foz da ribeira**, outra na **bacia da rampa**. Engodar as duas ao chegar, **ficar quieto**, reforçar só de 3-4 em 3-4 h (o siluro ouve; relançar afasta). Mudar de ares (Alamal / Ponte) só depois do meio-dia sem bicadas.
+- **O que apanhou siluro aqui (6-set-2026):** **spinning junto à margem** — vinil 10-15 cm em jig, trabalhado devagar ao longo de **árvores, sombra e raízes** a 5-10 m da margem, de manhã. O peixe estava em água rasa e ignorou isco natural o dia inteiro. Leader **0,6 mono, 60-80 cm** à frente do braid (a boca é lixa).
+- **Canas de fundo (o que não apanhou a 5-set em 15 h):** 2 canas a 100-200 m — uma na **foz da ribeira**, outra na **bacia da rampa**. Engodar ao chegar, **ficar quieto**, reforçar só de 3-4 em 3-4 h. Contar o chumbo primeiro: **≥ 8 s aos 40 m** ou muda. Mudar de ares só depois do meio-dia sem bicadas.
 - **Montagens:** paternoster com estação a 40 cm do chumbo e estralho 25-30 cm com flutuador (isco a ~40 cm do fundo) **ou** chumbo corrido com estralho 40-50 cm pousado. Estralho 0,6 · anzol octopus **3/0-4/0** · **fusível** de mono 9-10 kg entre destorcedor e chumbo (parte o chumbo, não a montagem) · chumbo redondo 60-80 g. **1 anzol por cana** (DL 112/2017 art. 12.º n.º 5).
 - **Iscos legais:** **molho de 4-6 minhocas** ✅ · **coração/moela de galinha** 2-3 cm ✅ · fígado ✅ *(leitura da lei)* · boilies/pellets ✅ · lagostim ⚠️ zona cinzenta · **peixe e ovas ❌** (art. 13.º). Pescadores do Tejo: *"fígado, moelas, tripas… com boia grande"*.
 - **Engodo:** [Caldo do Bicho](ISCOS.md#caldo-do-bicho), 1-2 kg por zona à chegada, **à mão da margem** (ver embarcações em Legal).
@@ -98,7 +99,8 @@ Belver é fio-de-água (80,7 MW); o volume útil escoa em **~5-6 h a plena carga
 
 | Data | Sítio | Horas | Condições | Resultado | Lição |
 |---|---|---|---|---|---|
-| **5-set-2026** | margem norte da bacia, [39.4833, -7.9974](https://www.google.com/maps?q=39.483322,-7.997385) (~430 m do paredão) · 4 canas (ALTA miúdos + CORRIDA minhocas) · engodo Caldo do Bicho | 06:00-21:00 | sem vento, sol, água a 92 % · **fundo 2-4 m aos 40 m** (contagem do chumbo) | **0 peixes · iscos sempre inteiros** · ninguém à volta apanhou nada | Isco intacto 15 h = água sem peixe a comer, não montagem. Aquela margem é plataforma rasa — a dedução de 15-25 m pelas cotas estava errada. **Em setembro, de dia, só onde a contagem der ≥ 8 s**: mais perto do canto do paredão, mais longe para o meio, ou a bacia da rampa; senão, só as 2 últimas horas |
+| **5-set-2026** | margem norte da bacia, [39.4833, -7.9974](https://www.google.com/maps?q=39.483322,-7.997385) (~430 m do paredão) · 4 canas (ALTA miúdos + CORRIDA minhocas) · engodo Caldo do Bicho | 06:00-21:00 | sem vento, sol, água a 92 % · **fundo 2-4 m aos 40 m** (contagem do chumbo) | **0 peixes · iscos sempre inteiros** · ninguém à volta apanhou nada | Isco intacto 15 h ≠ água sem peixe (ver 6-set: o peixe estava lá, sem fome). Fundo raso: a dedução de 15-25 m pelas cotas estava errada. Ao crepúsculo, **1 lúcio-perca** no pontão, vinil em jig |
+| **6-set-2026** | **o mesmo sítio**, debaixo de uma árvore colada à margem, água rasa | **~10:00**, sol | cana de spinning leve · braid 18 kg **sem leader** · vinil 10-15 cm junto à margem | **siluro ~11 kg / ~1,1 m** · pega pela boca com luva · abatido (DP) | **Estrutura + movimento > profundidade + isco parado.** O siluro estava a 5-10 m da margem, à sombra, e ignorou fígado/coração 15 h; atacou uma amostra a passar. Em setembro, trabalhar vinil ao longo das árvores e raízes da margem. **Leader 0,6 no braid** — 11 kg sem leader foi sorte |
 
 ## ❓ Lacunas
 
