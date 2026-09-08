@@ -434,12 +434,96 @@ Respostas literais do [FAQ da Pesca Lúdica](https://www.dgrm.pt/documents/20143
 
 ## 🎣 Montagens
 
-**Paternoster** (a montagem do fundo salgado — segura o isco acima do lodo):
+### 🧭 Porque é que vês medidas tão diferentes
+
+Três montagens diferentes andam com o mesmo nome. **O comprimento do estralho não é preferência — é consequência de qual delas estás a usar:**
+
+| Montagem | Estralho | Porquê |
+|---|:--:|---|
+| **Flapper / paternoster** — estralhos acima do chumbo, anzóis soltos | **30-45 cm** | têm de ser **mais curtos que o espaço entre estações**, senão os anzóis tocam-se e enrolam |
+| **Clipped down** — estralhos presos a clipes no corpo, soltam-se no impacto | **70-150 cm** | vão presos durante o voo, por isso podem ser compridos. É a montagem de **praia, para lançar longe** |
+| **Chumbo corrido / linha longa** — **um** anzol, chumbo a correr na madre | **60 cm a 1,8 m** | não há nada por baixo para enrolar. É a **montagem clássica de robalo** — e é o "metro de estralho junto ao peso" que se vê por aí |
+
+**A regra que resolve tudo** ([Sea Angler](https://www.seaangler.co.uk/fishing-tips/rigs/two-hook-flapper-rig-for-beach-and-shore-fishing/)): *"Make the length of line between snoods long enough so that the two hooks do not touch, and therefore do not tangle."*
+
+**Os números de referência** ([Ultima UK, 1-up-1-down](https://www.ultimauk.com/ultima-the-best-sea-line/sea-rigs/the-1-up-1-down-rig-how-to-make-it-work-effectively/) · [Norrik](https://norrik.com/fishing-rigs/flapper-rig/) · [Talk Sea Fishing](https://www.talkseafishing.co.uk/forums/threads/length-of-snood.1770/)):
+- corpo **1,8-2,4 m** · estralhos **30-45 cm** · estações **30-60 cm** entre si
+- **fundo sujo ou maré a correr → 30-45 cm** · **fundo limpo e água parada → 60-90 cm** (o isco move-se mais natural)
+- 🌙 **noite → mais curto; dia → mais comprido** — de noite o peixe está menos desconfiado e não precisa da apresentação solta ([Surfcasting Pura Paixão](https://www.youtube.com/watch?v=a1OxBWKsSCo))
+- ⚠️ o mesmo vídeo dá o critério prático: **duas enleadas e encurtas.** Não insistas por teimosia
+
+### 🎣 A montagem da muralha — 2 anzóis, à escala
+
+<div style="overflow-x:auto">
+<svg viewBox="0 0 420 470" style="display:block;width:100%;max-width:380px;margin:.6em auto;background:#fbfcfc;border:1px solid #e2e6ea;border-radius:10px" role="img" aria-label="Montagem paternoster de dois anzóis para a muralha">
+<g fill="none" stroke="#33505a" stroke-linecap="round">
+  <path d="M132 6 V30" stroke-width="2.4"/>
+  <path d="M132 52 V128" stroke-width="2.4"/>
+  <path d="M132 130 V152" stroke-width="2.4"/>
+  <path d="M132 156 V288" stroke-width="2.4"/>
+  <path d="M132 292 V376" stroke-width="2.4"/>
+  <path d="M148 140 H196 V186" stroke-width="1.5"/>
+  <path d="M196 186 V204 a7 7 0 0 0 14 0 V199" stroke-width="1.5"/>
+  <path d="M210 199 l-3 4" stroke-width="1.5"/>
+  <path d="M148 292 H190 V330" stroke-width="1.5"/>
+  <path d="M190 330 V348 a7 7 0 0 0 14 0 V343" stroke-width="1.5"/>
+  <path d="M204 343 l-3 4" stroke-width="1.5"/>
+</g>
+<g fill="#1b2f36">
+  <rect x="128" y="34" width="8" height="9" rx="2"/><rect x="124" y="126" width="16" height="4" rx="1"/>
+  <rect x="124" y="152" width="16" height="4" rx="1"/><rect x="124" y="288" width="16" height="4" rx="1"/>
+  <rect x="124" y="314" width="16" height="4" rx="1"/><rect x="128" y="380" width="8" height="8" rx="2"/>
+  <circle cx="132" cy="140" r="5.5"/><circle cx="132" cy="302" r="5.5"/>
+  <path d="M120 396 q12 -8 24 0 l-6 40 h-12 z"/>
+</g>
+<g fill="#fbfcfc" stroke="#1b2f36" stroke-width="2">
+  <circle cx="132" cy="30" r="4"/><circle cx="132" cy="48" r="4"/>
+  <circle cx="132" cy="376" r="4"/><circle cx="132" cy="392" r="4"/>
+</g>
+<g fill="#fbfcfc" stroke="#1b2f36" stroke-width="1.6"><circle cx="145" cy="140" r="3.5"/><circle cx="145" cy="302" r="3.5"/></g>
+<g fill="#e8d8c3" stroke="#c9a87c"><ellipse cx="193" cy="192" rx="6" ry="12"/><ellipse cx="199" cy="198" rx="6" ry="12"/><ellipse cx="188" cy="336" rx="5" ry="10"/></g>
+<g stroke="#b8471f" stroke-width="1.1" fill="none"><path d="M187 184 h18 M187 191 h18 M187 198 h18 M183 330 h14 M183 337 h14"/></g>
+<g stroke="#0e7490" stroke-width="1.2" fill="none">
+  <path d="M100 52 H110 M100 128 H110 M105 52 V128"/>
+  <path d="M100 140 H110 M100 300 H110 M105 140 V300"/>
+  <path d="M100 302 H110 M100 396 H110 M105 302 V396"/>
+</g>
+<g fill="#0e7490" font-family="system-ui,sans-serif" font-weight="700" font-size="14" text-anchor="end">
+  <text x="94" y="95">25 cm</text><text x="94" y="222">50 cm</text><text x="94" y="352">35 cm</text>
+</g>
+<g fill="#12242b" font-family="system-ui,sans-serif" font-weight="600" font-size="12">
+  <text x="146" y="16">madre 0,6</text><text x="146" y="40">destorcedor · Palomar</text>
+  <text x="14" y="138">ESTAÇÃO 1</text><text x="14" y="300">ESTAÇÃO 2</text>
+  <text x="220" y="150">estralho fluoro 0,35</text><text x="220" y="164">40 cm · ROBALO</text>
+  <text x="220" y="192">molho de 2-3 navalhas</text>
+  <text x="214" y="292">estralho fluoro 0,35</text><text x="214" y="306">30 cm · DOURADA</text>
+  <text x="214" y="336">1 navalha, pé no anzol</text>
+  <text x="152" y="420">chumbo 60-100 g</text>
+</g>
+<g fill="#57707a" font-family="system-ui,sans-serif" font-size="11">
+  <text x="14" y="150">missanga + destorcedor</text><text x="14" y="312">missanga + destorcedor</text>
+  <text x="220" y="206">anzol 8,3 mm · elástico 12 voltas</text>
+  <text x="214" y="350">anzol 8,3 mm c/ barbelas</text>
+  <text x="152" y="434">garra se houver corrente</text>
+  <text x="94" y="238" text-anchor="end">estralho &lt; 50</text>
+</g>
+<g stroke="#57707a" fill="none"><path d="M14 452 H406" stroke-width="1.6"/><path d="M26 452 l-5 7 M66 452 l-5 7 M106 452 l-5 7 M146 452 l-5 7 M186 452 l-5 7 M226 452 l-5 7 M266 452 l-5 7 M306 452 l-5 7 M346 452 l-5 7 M386 452 l-5 7" stroke-width=".9"/></g>
+</svg>
+</div>
+
+**Porquê estas medidas:** 50 cm entre estações → nada acima de 50. O de cima leva **40 cm** (o robalo testa o isco antes de engolir; a folga deixa-o acompanhar o puxão) e o de baixo **30 cm** (a dourada come colada ao fundo, e ainda sobram 5 cm de folga até ao chumbo). Ambos dentro dos 30-45 cm de referência.
+
+> 💡 **Deixa o peixe votar:** se só picar em baixo, o grande não está lá — passa as duas para pequeno. Se a de cima levar toques e a de baixo vier limpa, sobe as duas. É o mesmo leque das distâncias, aplicado ao tamanho.
+
+**Paternoster — o esquema em texto:**
 ```
 mãe → destorcedor
-  ├─ estralho 20-35 cm → anzol + isco   (estação a 20 cm do chumbo)
-  ├─ estralho 20-35 cm → anzol + isco   (estação 40 cm acima)
-  └─ chumbo 60-80 g (garra/pirâmide)
+  ├─ 25 cm
+  ├─ ESTAÇÃO 1 → estralho 40 cm → anzol + isco    (robalo)
+  ├─ 50 cm                    ⚠️ estralho < 50
+  ├─ ESTAÇÃO 2 → estralho 30 cm → anzol + isco    (dourada)
+  ├─ 35 cm
+  └─ destorcedor → chumbo 60-100 g (garra/pirâmide)
 ```
 - **Estralhos curtos (20-35 cm) na muralha** — a regra: **estralho < distância entre estações**, senão emaranha ([doutrina UK de pier fishing](https://www.planetseafishing.com/wp-content/uploads/downloads/psf-book-of-rigs.pdf)). Na praia usam-se compridos (70-150 cm) porque o problema lá é o voo do lançamento, não a corrente.
 - **Robalo: montagem de 1 anzol com estralho longo (70 cm-1,8 m)** — *running ledger*, é a montagem clássica de estuário.
