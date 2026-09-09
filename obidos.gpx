@@ -2,19 +2,19 @@
 <gpx version="1.1" creator="Pesca Barragem" xmlns="http://www.topografix.com/GPX/1/1" xmlns:osmand="https://osmand.net">
 <metadata><name>Lagoa de Óbidos — pesca</name><desc>Spots por ordem, alvos de lançamento, zonas legais, rampas e bancos de areia | Actualizado a 2026-09-09 | https://j0hk3r1.github.io/Pesca-barragem/</desc><time>2026-09-09T00:00:00Z</time></metadata>
 <wpt lat="39.40372" lon="-9.21098">
-  <name>#5 · Ponta do Espichel — a ponta da língua de areia</name>
+  <name>#1 · Ponta do Espichel — a ponta da língua de areia</name>
   <desc>#5 do ranking. A maior mancha de água aberta de toda a lagoa. Fica na ponta da língua de areia que sai do teu spot A — andas 177 m pela areia para fora e ficas com água funda dos dois lados. Parques na Ecopista e vais a pé.💧 92% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para NNE, sem banco pelo meio🚗 Estrada a 315 m · parque a 944 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1132 m (limite: 100 m)📍 o teu spot A a 177 m · pesqueiro «Ponta do Espichel» a 17 m | Lançamento 11 m para NNE, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.39529" lon="-9.21906">
-  <name>#1 · Braço sudoeste — canal estreito com acesso de carro</name>
+  <name>#2 · Braço sudoeste — canal estreito com acesso de carro</name>
   <desc>#1 do ranking. Canal estreito, água escura encostada à margem dos dois lados. Há um caminho de terra que desce até à água e sítio para deixar o carro. É o tipo de sítio onde a corrente de maré fica concentrada.💧 65% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para ENE, sem banco pelo meio🚗 Estrada a 52 m · parque a 0 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1005 m (limite: 100 m)📍 pesqueiro «Ponta Branca» a 6 m | Lançamento 11 m para ENE, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.40364" lon="-9.20088">
-  <name>#2 · Ponta da Ardonia — o mais perto do sítio das aves</name>
+  <name>#3 · Ponta da Ardonia — o mais perto do sítio das aves</name>
   <desc>#2 do ranking. Zona Livre, água limpa à frente. Fica a 1,3 km do sítio onde a Mariya vai ver aves — é o ponto legal mais próximo dela.💧 48% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para SO, sem banco pelo meio🚗 Estrada a 28 m · parque a 248 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1845 m (limite: 100 m)📍 pesqueiro «Ponta da Ardonia» a 127 m | Lançamento 11 m para SO, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
@@ -26,7 +26,7 @@
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.39052" lon="-9.22436">
-  <name>#3 · Extremo sul da lagoa</name>
+  <name>#5 · Extremo sul da lagoa</name>
   <desc>#3 do ranking. Ponta sul, isolado, estrada a 27 m. ⚠️ A rampa mais próxima está a 316 m — folgado, mas confirma no local.💧 48% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para E, sem banco pelo meio🚗 Estrada a 27 m · parque a 238 m⚖️ Zona de Utilização Livre · rampa mais próxima a 316 m (limite: 100 m) | Lançamento 11 m para E, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
@@ -50,7 +50,7 @@
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.3957" lon="-9.21128">
-  <name>#12 · Braço sudoeste, margem norte</name>
+  <name>#9 · Braço sudoeste, margem norte</name>
   <desc>#12 do ranking. Mesmo canal do #1, do outro lado. ⚠️ Estrada a 330 m — dá caminhada.💧 45% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para N, sem banco pelo meio🚗 Estrada a 330 m · parque a 670 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1519 m (limite: 100 m) | Lançamento 11 m para N, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
@@ -62,13 +62,13 @@
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.42769" lon="-9.22051">
-  <name>#9 · Junto ao Cais da Foz do Arelho</name>
+  <name>#11 · Junto ao Cais da Foz do Arelho</name>
   <desc>#9 do ranking. ⚠️ Rampa a 202 m e na zona que fecha de 13 jun a 13 set. Fora da época balnear é livre.💧 39% de água que não seca num raio de 150 m · 9% de banco de areia🎯 Água logo a 11 m para S, sem banco pelo meio🚗 Estrada a 64 m · parque a 95 m⚖️ Zona de Utilização Livre · rampa mais próxima a 202 m (limite: 100 m)📍 parque de merendas a 124 m · pesqueiro «do Cais» a 104 m | Lançamento 11 m para S, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#f1c40f</osmand:color><osmand:icon>special_symbol_exclamation_mark</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.42274" lon="-9.20823">
-  <name>#11 · Ponta do Carro — margem nascente norte</name>
+  <name>#12 · Ponta do Carro — margem nascente norte</name>
   <desc>#11 do ranking. ⚠️ 20% de banco de areia à frente e rampa a 260 m. Na zona que fecha na época balnear.💧 27% de água que não seca num raio de 150 m · 20% de banco de areia🎯 Água logo a 11 m para S, sem banco pelo meio🚗 Estrada a 15 m · parque a 96 m⚖️ Zona de Utilização Livre · rampa mais próxima a 260 m (limite: 100 m)📍 pesqueiro «Ponta do Carro» a 229 m | Lançamento 11 m para S, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#f1c40f</osmand:color><osmand:icon>special_symbol_exclamation_mark</osmand:icon><osmand:background>circle</osmand:background></extensions>
@@ -92,61 +92,61 @@
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.39544" lon="-9.21864">
-  <name>#1 — lançar ENE 40 m</name>
+  <name>#2 — lançar ENE 40 m</name>
   <desc>Alvo de lançamento. A 40 m ficas a 27 m da margem mais próxima. Rumo principal.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
 <wpt lat="39.39552" lon="-9.21843">
-  <name>#1 — lançar ENE 60 m</name>
+  <name>#2 — lançar ENE 60 m</name>
   <desc>Alvo de lançamento. A 60 m ficas a 37 m da margem mais próxima. Rumo principal.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
 <wpt lat="39.39559" lon="-9.21822">
-  <name>#1 — lançar ENE 80 m</name>
+  <name>#2 — lançar ENE 80 m</name>
   <desc>Alvo de lançamento. A 80 m ficas a 45 m da margem mais próxima. Rumo principal.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
 <wpt lat="39.39506" lon="-9.21843">
-  <name>#1 — lançar ESE 60 m</name>
+  <name>#2 — lançar ESE 60 m</name>
   <desc>Alvo de lançamento. A 60 m ficas a 20 m da margem mais próxima. Rumo alternativo.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
 <wpt lat="39.39482" lon="-9.21871">
-  <name>#1 — lançar SSE 60 m</name>
+  <name>#2 — lançar SSE 60 m</name>
   <desc>Alvo de lançamento. A 60 m ficas a 24 m da margem mais próxima. Rumo alternativo.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
 <wpt lat="39.40366" lon="-9.21144">
-  <name>#5 — lançar O 40 m</name>
+  <name>#1 — lançar O 40 m</name>
   <desc>Alvo de lançamento. A 40 m ficas a 35 m da margem mais próxima. Rumo principal.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
 <wpt lat="39.40363" lon="-9.21167">
-  <name>#5 — lançar O 60 m</name>
+  <name>#1 — lançar O 60 m</name>
   <desc>Alvo de lançamento. A 60 m ficas a 54 m da margem mais próxima. Rumo principal.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
 <wpt lat="39.4036" lon="-9.2119">
-  <name>#5 — lançar O 80 m</name>
+  <name>#1 — lançar O 80 m</name>
   <desc>Alvo de lançamento. A 80 m ficas a 73 m da margem mais próxima. Rumo principal.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
 <wpt lat="39.40395" lon="-9.21161">
-  <name>#5 — lançar ONO 60 m</name>
+  <name>#1 — lançar ONO 60 m</name>
   <desc>Alvo de lançamento. A 60 m ficas a 39 m da margem mais próxima. Rumo alternativo.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
 <wpt lat="39.40334" lon="-9.21147">
-  <name>#5 — lançar SO 60 m</name>
+  <name>#1 — lançar SO 60 m</name>
   <desc>Alvo de lançamento. A 60 m ficas a 40 m da margem mais próxima. Rumo alternativo.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
@@ -212,13 +212,13 @@
   <extensions><osmand:color>#c0392b</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>octagon</osmand:background></extensions>
 </wpt>
 <trk>
-  <name>#1 — linha de lançamento ENE</name>
+  <name>#2 — linha de lançamento ENE</name>
   <desc>Rumo principal de lançamento.</desc>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:width>thick</osmand:width></extensions>
   <trkseg><trkpt lat="39.39529" lon="-9.21906"></trkpt><trkpt lat="39.39544" lon="-9.21864"></trkpt><trkpt lat="39.39552" lon="-9.21843"></trkpt><trkpt lat="39.39559" lon="-9.21822"></trkpt></trkseg>
 </trk>
 <trk>
-  <name>#5 — linha de lançamento O</name>
+  <name>#1 — linha de lançamento O</name>
   <desc>Rumo principal de lançamento.</desc>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:width>thick</osmand:width></extensions>
   <trkseg><trkpt lat="39.40372" lon="-9.21098"></trkpt><trkpt lat="39.40366" lon="-9.21144"></trkpt><trkpt lat="39.40363" lon="-9.21167"></trkpt><trkpt lat="39.4036" lon="-9.2119"></trkpt></trkseg>

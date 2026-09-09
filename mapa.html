@@ -245,7 +245,7 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
       var leg=document.getElementById(LEGENDA_ID);
       if(leg) leg.insertAdjacentHTML('beforeend',
         '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="lançamentos"> '+
-        '<span style="color:#e74c3c">━</span> para onde lançar (#1 e #5)</label>');
+        '<span style="color:#e74c3c">━</span> para onde lançar (#1 e #2)</label>');
       if(leg){ var cb=leg.querySelector('input[data-c="lançamentos"]');
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});

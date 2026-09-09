@@ -31,9 +31,9 @@
     sesimbra: {nome:'🐙 Sesimbra',               lat:38.42, lon:-9.11, sol_lat:38.44, sol_lon:-9.10, lag:0,  noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 39-60 min (ponte)'},
     // Óbidos tem correção própria (+33 min, medida contra a TideTime em 6 eventos)
     // e a maré ainda demora a entrar na lagoa: a fase de M2 sobe 80° da barra ao
-    // fundo = 166 min. No #5, a 63% do canal, dá +1h44 médio. A BM atrasa ~36 min
+    // fundo = 166 min. No #1, a 63% do canal, dá +1h44 médio. A BM atrasa ~36 min
     // mais que a PM — é isso que produz enchente de 5 h e vazante de 7 h.
-    obidos:   {nome:'🟢 Lagoa de Óbidos (spot #5)', lat:39.43, lon:-9.235, sol_lat:39.404, sol_lon:-9.211,
+    obidos:   {nome:'🟢 Lagoa de Óbidos (spot #1)', lat:39.43, lon:-9.235, sol_lat:39.404, sol_lon:-9.211,
                corr:{PM:33,BM:33}, lagPM:68, lagBM:140, lagoa:true, noturna:true, atenua:0.54,
                cal:'✅ calibrado · ±6 min contra 2 fontes', carro:'🚗 ~1h15'}
   };
@@ -525,7 +525,7 @@
       var leg=document.getElementById(LEGENDA_ID);
       if(leg) leg.insertAdjacentHTML('beforeend',
         '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="lançamentos"> '+
-        '<span style="color:#e74c3c">━</span> para onde lançar (#1 e #5)</label>');
+        '<span style="color:#e74c3c">━</span> para onde lançar (#1 e #2)</label>');
       if(leg){ var cb=leg.querySelector('input[data-c="lançamentos"]');
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
@@ -905,37 +905,35 @@ O Anexo I do Regulamento das Lagoas lista **9 oficiais** na lagoa: *Cais da Lota
 
 Em vez de me fiar nos nomes do OpenStreetMap, varri **a margem inteira de 40 em 40 metros** — 1101 pontos — e fiquei só com os que passam em tudo: **água em frente classificada como Zona de Utilização Livre**, **mais de 100 m de qualquer rampa**, e **água que não seca ao alcance de lançamento**. Sobraram **702**. Destes, os 12 melhores, separados uns dos outros por pelo menos 500 m:
 
-![Os 12 spots na Lagoa de Óbidos](obidos-spots.jpg)
-
 | # | Onde | Água aberta<br>*(raio 150 m)* | Lançamento | Estrada | Rampa | |
 |---|---|---|---|---|---|---|
-| **5** | **⭐ Ponta do Espichel — a ponta da língua de areia**<br>[39.40372, -9.21098](https://www.google.com/maps?q=39.40372,-9.21098) | **92%** | 11 m NNE | 315 m | 1132 m | **o melhor** |
-| **1** | **⭐ Braço sudoeste — canal estreito**<br>[39.39529, -9.21906](https://www.google.com/maps?q=39.39529,-9.21906) | **65%** | 11 m ENE | 52 m | 1005 m | carro à beira de água |
-| **2** | **Ponta da Ardonia**<br>[39.40364, -9.20088](https://www.google.com/maps?q=39.40364,-9.20088) | **48%** | 11 m SO | 28 m | 1845 m | o mais perto da Mariya |
+| **1** | **⭐ Ponta do Espichel — a ponta da língua de areia**<br>[39.40372, -9.21098](https://www.google.com/maps?q=39.40372,-9.21098) | **92%** | 11 m NNE | 315 m | 1132 m | **o melhor** |
+| **2** | **⭐ Braço sudoeste — canal estreito**<br>[39.39529, -9.21906](https://www.google.com/maps?q=39.39529,-9.21906) | **65%** | 11 m ENE | 52 m | 1005 m | carro à beira de água |
+| **3** | **Ponta da Ardonia**<br>[39.40364, -9.20088](https://www.google.com/maps?q=39.40364,-9.20088) | **48%** | 11 m SO | 28 m | 1845 m | o mais perto da Mariya |
 | **4** | **Clube de Vela**<br>[39.40895, -9.20208](https://www.google.com/maps?q=39.40895,-9.20208) | **44%** | 11 m O | 53 m | 1562 m | merendas a 176 m |
-| **3** | **Extremo sul da lagoa**<br>[39.39052, -9.22436](https://www.google.com/maps?q=39.39052,-9.22436) | **48%** | 11 m E | 27 m | 316 m |  |
+| **5** | **Extremo sul da lagoa**<br>[39.39052, -9.22436](https://www.google.com/maps?q=39.39052,-9.22436) | **48%** | 11 m E | 27 m | 316 m |  |
 | **6** | **Margem sul, 400 m a poente do teu spot**<br>[39.4031, -9.21693](https://www.google.com/maps?q=39.4031,-9.21693) | **48%** | 11 m E | 43 m | 931 m |  |
 | **7** | **Margem sul, 400 m a nascente do teu spot**<br>[39.40771, -9.21475](https://www.google.com/maps?q=39.40771,-9.21475) | **43%** | 11 m N | 38 m | 591 m |  |
 | **8** | **Margem nascente, junto às merendas do sul**<br>[39.39949, -9.19839](https://www.google.com/maps?q=39.39949,-9.19839) | **29%** | 11 m OSO | 58 m | 2267 m |  |
-| **12** | **Braço sudoeste, margem norte**<br>[39.3957, -9.21128](https://www.google.com/maps?q=39.3957,-9.21128) | **45%** | 11 m N | 330 m | 1519 m | 330 m a pé |
+| **9** | **Braço sudoeste, margem norte**<br>[39.3957, -9.21128](https://www.google.com/maps?q=39.3957,-9.21128) | **45%** | 11 m N | 330 m | 1519 m | 330 m a pé |
 | **10** | **Musaranhos — extremo sudoeste**<br>[39.38599, -9.22563](https://www.google.com/maps?q=39.38599,-9.22563) | **34%** | 11 m OSO | 60 m | 213 m |  |
-| **9** | **Junto ao Cais da Foz do Arelho**<br>[39.42769, -9.22051](https://www.google.com/maps?q=39.42769,-9.22051) | **39%** | 11 m S | 64 m | 202 m | ⚠️ fecha na época balnear |
-| **11** | **Ponta do Carro**<br>[39.42274, -9.20823](https://www.google.com/maps?q=39.42274,-9.20823) | **27%** | 11 m S | 15 m | 260 m | ⚠️ 20% de banco · fecha na época |
+| **11** | **Junto ao Cais da Foz do Arelho**<br>[39.42769, -9.22051](https://www.google.com/maps?q=39.42769,-9.22051) | **39%** | 11 m S | 64 m | 202 m | ⚠️ fecha na época balnear |
+| **12** | **Ponta do Carro**<br>[39.42274, -9.20823](https://www.google.com/maps?q=39.42274,-9.20823) | **27%** | 11 m S | 15 m | 260 m | ⚠️ 20% de banco · fecha na época |
 
-> ⭐ **Se levas um só na cabeça, leva o #5.** É onde tens **92% de água que não seca à volta** — o valor mais alto de toda a lagoa. E é a **ponta da língua de areia que sai do teu spot**: deixas o carro na Ecopista, andas **177 m pela areia para fora** e ficas com água funda dos dois lados. Não precisas de lançar longe.
+> ⭐ **Se levas um só na cabeça, leva o #1.** É onde tens **92% de água que não seca à volta** — o valor mais alto de toda a lagoa. E é a **ponta da língua de areia que sai do teu spot**: deixas o carro na Ecopista, andas **177 m pela areia para fora** e ficas com água funda dos dois lados. Não precisas de lançar longe.
 >
-> 🚗 **Se preferes chegar de carro à água, é o #1** — canal estreito no braço sudoeste, com um caminho de terra que desce até à margem. Água escura encostada aos dois lados: é onde a corrente de maré fica apertada.
+> 🚗 **Se preferes chegar de carro à água, é o #2** — canal estreito no braço sudoeste, com um caminho de terra que desce até à margem. Água escura encostada aos dois lados: é onde a corrente de maré fica apertada.
 >
 > 🏖️ **Se forem os dois, é o #4** — Clube de Vela, com parque de merendas a 176 m e margem limpa.
 
 > 📐 **Como isto foi feito, e o que não prova.** *"Água aberta"* é a percentagem de superfície, num raio de 150 m, que **não fica a seco na baixa-mar** — medido numa imagem aérea apanhada em maré baixa. *"Lançamento"* é a distância da margem a essa água; **11 m é o mínimo da grelha**, quer dizer *"a água começa logo aos teus pés"*. Estrada e rampa são distâncias calculadas sobre dados do OpenStreetMap.
 > **Isto diz-te onde há água que não seca — não diz a profundidade.** Não existe batimetria pública desta lagoa. Um sítio com 92% de água aberta pode ainda assim ter meio metro de fundo. Serve para escolher a margem antes de sair de casa; a profundidade descobres no local.
 
-### 🎯 #1 ou #5? — e para onde lançar em cada um
+### 🎯 #2 ou #1? — e para onde lançar em cada um
 
 Medi o perfil da água a partir de cada um: de quanto em quanto metros de lançamento, **a que distância ficas da margem mais próxima**. É geometria da água que não seca, medida em imagem aérea a **0,92 m/pixel**.
 
-| Lançamento | **#1** rumo **ENE** | **#5** rumo **O** |
+| Lançamento | **#2** rumo **ENE** | **#1** rumo **O** |
 |---|---|---|
 | 25 m | 12 m da margem | 20 m |
 | 40 m | 27 m | 35 m |
@@ -945,33 +943,54 @@ Medi o perfil da água a partir de cada um: de quanto em quanto metros de lança
 
 Os dois perfis dizem coisas diferentes:
 
-- No **#1**, o número **sobe até aos 80 m e depois desce** — é a assinatura de um **canal**. A 80 m estás no meio dele, com margem dos dois lados a ~45 m. Toda a maré que enche e vaza aquele braço passa por ali.
-- No **#5**, o número **sobe sempre** — estás a sair para o meio de uma bacia larga. Aos 100 m tens 87 m de água aberta à volta e continua a abrir.
+- No **#2**, o número **sobe até aos 80 m e depois desce** — é a assinatura de um **canal**. A 80 m estás no meio dele, com margem dos dois lados a ~45 m. Toda a maré que enche e vaza aquele braço passa por ali.
+- No **#1**, o número **sobe sempre** — estás a sair para o meio de uma bacia larga. Aos 100 m tens 87 m de água aberta à volta e continua a abrir.
 
-> 🥇 **Para pescar, escolhia o #1.** Não é por ter mais água — tem menos. É por ter **menos**:
+> 🥇 **Para pescar, escolhia o #2.** Não é por ter mais água — tem menos. É por ter **menos**:
 >
-> 1. **O peixe é obrigado a passar por ali.** Num canal estreito, o peixe que sobe com a enchente e desce com a vazante concentra-se numa secção pequena. No #5, tem 300 m de largura para se espalhar e podes estar a 50 m do sítio certo sem saber.
+> 1. **O peixe é obrigado a passar por ali.** Num canal estreito, o peixe que sobe com a enchente e desce com a vazante concentra-se numa secção pequena. No #1, tem 300 m de largura para se espalhar e podes estar a 50 m do sítio certo sem saber.
 > 2. **A corrente é mais forte.** Passa o mesmo volume de água por uma secção mais apertada. E o conselho de quem lá pesca — *"fins da enchente, inícios da vazante"* — é todo sobre corrente.
-> 3. **O carro fica na água.** Estrada a 52 m e sítio para estacionar à beira. No #5 são **315 m até à estrada e 944 m até um parque** — com o material, duas vezes por dia, e à noite.
+> 3. **O carro fica na água.** Estrada a 52 m e sítio para estacionar à beira. No #1 são **315 m até à estrada e 944 m até um parque** — com o material, duas vezes por dia, e à noite.
 > 4. **Fica a 15 min da casa** que estás a ver.
 >
 > ⚠️ **Estado disto:** o perfil da água é **medido**. A conclusão de que o canal pesca melhor é **raciocínio** meu a partir da geometria e de como funciona a pesca em maré — **não tenho relatos de capturas em nenhum dos dois**. O único relato que tenho da lagoa é o conselho geral do local das Caldas.
 
-**🎯 Onde pôr o isco no #1** — [39.39529, -9.21906](https://www.google.com/maps?q=39.39529,-9.21906)
+#### 🎯 Onde pôr as duas canas no #1 — [39.40372, -9.21098](https://www.google.com/maps?q=39.40372,-9.21098)
 
-| | |
+Varri os **360° a partir da ponta**, de 15 em 15 graus. O resultado responde à pergunta de pôr uma para cada lado:
+
+| Sector | O que lá está |
 |---|---|
-| **Rumo principal** | **ENE (65°)** — lança **60 a 80 m**. Alvo a 60 m: [39.39552, -9.21843](https://www.google.com/maps?q=39.39552,-9.21843) |
-| **Alternativos** | **ESE (115°)** e **SSE (150°)** — os dois abrem para lá dos 60 m |
-| **Não passes dos 100 m** | a ENE a 100 m já estás a subir para a outra margem |
+| **SO → NO (225°-315°)** | ✅ **o lado bom** — 90° de água aberta, e é o único que abre para lá dos 60 m |
+| **S → SSO (180°-210°)** | 🟡 há água, mas **rasa e curta** — 24-29 m de afastamento aos 40 m, e fecha aos 80 |
+| **N → SE (0°-165°)** | ❌ é a língua de areia e o raso atrás dela. Aos 60 m já é terra |
 
-Com duas canas: **uma a ENE aos 70-80 m** (meio do canal) e **outra a ESE aos 60 m**, para cobrires duas linhas de passagem em vez de uma.
+> 🎯 **Portanto: não é esquerda e direita da ponta — a água boa está toda de um lado.** Mas dentro desses 90° dá para abrir bem as duas canas, e vale a pena porque cobrem fundos diferentes:
 
-**🎯 E no #5, se fores lá** — [39.40372, -9.21098](https://www.google.com/maps?q=39.40372,-9.21098)
+| Cana | Rumo | Distância | A que ficas da margem |
+|---|---|---|---|
+| 🥇 **Cana do avô** *(100 g)* | **OSO 255°** | **60-80 m** | 54 → 74 m — **o perfil mais fundo da ponta** |
+| 🥈 **Resifight** *(60 g)* | **SO 225°** | **40-60 m** | 31 → 40 m — o flanco sul, mais raso |
 
-**Oeste (260°)**, a partir dos 40 m e sem limite prático — alvo a 60 m: [39.40363, -9.21167](https://www.google.com/maps?q=39.40363,-9.21167). Alternativa ONO (295°). Não lances para nascente: é o lado da língua de areia.
+São **30° de separação**: não se enrolam, e apanhas duas profundidades diferentes em vez de duas linhas lado a lado no mesmo sítio. Se ao fim de uma hora só uma delas produzir, passas as duas para esse rumo.
 
-> 🏖️ **A língua de areia do #5 não te corta a retirada.** Comparei a mesma zona em duas imagens aéreas, uma de maré alta e outra de maré baixa: **está seca nas duas**. Não é um banco que aparece e desaparece. Ressalva: as duas imagens são de marés normais, não sei o que faz numa maré viva grande.
+**Se quiseres o máximo de água aberta**, o rumo mais aberto de todos é **O 270°** — aos 100 m tens **88 m** de água à volta, o valor mais alto da lagoa. Mas aos 60 m o OSO é melhor (54 contra 50), e 60-80 m é onde vais pescar.
+
+⚠️ **Não lances entre N e SE.** Aos 60 m já estás em cima da língua de areia.
+
+#### 🎯 E no #2, o braço sudoeste — [39.39529, -9.21906](https://www.google.com/maps?q=39.39529,-9.21906)
+
+Aqui é o contrário: por seres um canal, tens água dos dois lados **mas com formatos diferentes**.
+
+| Cana | Rumo | Distância | A que ficas da margem |
+|---|---|---|---|
+| 🥇 **Cana do avô** *(100 g)* | **ENE 60°** | **60-80 m** | 32 → 39 m · perfil limpo, sobe direito |
+| 🥈 **Resifight** *(60 g)* | **SE 135°** | **80-100 m** | 39 → 58 m · **é o que mais abre**, mas tens de passar dos 60 m |
+
+**70° de separação** — cobres o canal em duas direcções.
+
+⚠️ **A SE há um alto aos 40 m** (o afastamento cai para 0-4 m). Ou lanças curto, aos 25 m, ou passas dos 60 m. **Não deixes a montagem aos 40 m nesse rumo.**
+⚠️ **Entre OSO e NNO (240°-345°) é terra.** Esse é o lado onde tu estás.
 
 **As linhas de lançamento estão desenhadas no mapa** — camada *"para onde lançar"*, a vermelho o rumo principal e a laranja tracejado os alternativos. Cada ponto branco é uma distância de lançamento.
 
@@ -1016,15 +1035,15 @@ Cada ponto traz a descrição completa: distância de lançamento, rumo, se há 
 
 | | Veredicto |
 |---|---|
-| **[39.40528, -9.21136](https://www.google.com/maps?q=39.40528,-9.21136)** · margem sul na Ecopista | ✅ **Bom, e é onde estacionas.** Água a 18 m para N sem banco, rampa a 988 m, ETAR a 407 m. **Anda mais 177 m pela areia e ficas no #5.** |
+| **[39.40528, -9.21136](https://www.google.com/maps?q=39.40528,-9.21136)** · margem sul na Ecopista | ✅ **Bom, e é onde estacionas.** Água a 18 m para N sem banco, rampa a 988 m, ETAR a 407 m. **Anda mais 177 m pela areia e ficas no #1.** |
 | **[39.41486, -9.22050](https://www.google.com/maps?q=39.41486,-9.22050)** · margem norte | ⚠️ **Há melhores.** Zona Livre, mas a rampa está a **165 m** (limite 100 m) e a água que não seca a **118 m para NE com banco pelo meio** — na baixa-mar lanças para areia. |
 
 ### 🐦 Os dois pontos das aves — e onde pescas em cada um
 
 | | Onde ela fica | Podes pescar aí? | Spot legal mais próximo |
 |---|---|---|---|
-| **1** | [39.39813, -9.20018](https://www.google.com/maps?q=39.39813,-9.20018) | ⚠️ está **em terra**, a 193 m da água da Zona Livre | ✅ **#8 a apenas 216 m** — [39.39949, -9.19839](https://www.google.com/maps?q=39.39949,-9.19839) |
-| **2** | [39.39983, -9.18685](https://www.google.com/maps?q=39.39983,-9.18685) | ⛔ **não** — a 14 m da bacia da Barrosa | #8, a 992 m |
+| **2** | [39.39813, -9.20018](https://www.google.com/maps?q=39.39813,-9.20018) | ⚠️ está **em terra**, a 193 m da água da Zona Livre | ✅ **#8 a apenas 216 m** — [39.39949, -9.19839](https://www.google.com/maps?q=39.39949,-9.19839) |
+| **3** | [39.39983, -9.18685](https://www.google.com/maps?q=39.39983,-9.18685) | ⛔ **não** — a 14 m da bacia da Barrosa | #8, a 992 m |
 
 **No ponto 1 ficam praticamente juntos.** O **#8** é Zona de Utilização Livre, tem a rampa mais próxima a **2234 m** (o limite são 100), e há um **parque de merendas a 185 m** do sítio dela. É o melhor arranjo dos dois: ela senta-se, tu andas 216 m e pescas.
 
@@ -1067,9 +1086,9 @@ Escalando pela distância ao longo do canal a partir da barra:
 |---|---|---|
 | Foz do Arelho, à barra | 0 | — |
 | #4 Clube de Vela | 3,6 km | **+1h36** |
-| #5 e o teu spot A | 3,7-3,9 km | **+1h44** |
-| #1 braço sudoeste | 4,3 km | **+1h57** |
-| #2 e #8, junto às aves | 4,7-5,0 km | **+2h12** |
+| #1 e o teu spot A | 3,7-3,9 km | **+1h44** |
+| #2 braço sudoeste | 4,3 km | **+1h57** |
+| #3 e #8, junto às aves | 4,7-5,0 km | **+2h12** |
 | Fundo da Barrosa | 6,1 km | +2h46 |
 
 > ⚠️ **Estado:** os 166 min e a atenuação da amplitude são **medidos e publicados**; a repartição pela distância ao longo do canal é **interpolação minha** e assume que a onda de maré avança a velocidade constante — não é bem assim. **Conta com ±20 min** e confirma na primeira maré a olhar para a água.
@@ -1088,9 +1107,9 @@ Escalando pela distância ao longo do canal a partir da barra:
 
 **A tabela do topo desta página** dá a maré do oceano. Para Peniche/Foz do Arelho o Open-Meteo adianta **+33 min** — medido em 6 eventos contra a TideTime, desvio 1,2 min. Soma o atraso da tabela acima e tens a hora no teu spot.
 
-### 📅 Sábado 12 no #5 — hora a hora
+### 📅 Sábado 12 no #1 — hora a hora
 
-Marés do oceano calibradas (+33 min) mais o atraso local do #5 (+1h44 médio). **Sol nasce 07:15, põe-se 19:50.**
+Marés do oceano calibradas (+33 min) mais o atraso local do #1 (+1h44 médio). **Sol nasce 07:15, põe-se 19:50.**
 
 **Preia-mar 05:17 · baixa-mar 12:29 · preia-mar 17:31.** Altura da maré ali: **~1,7 m** — no oceano são 3,05 m.
 
@@ -1139,7 +1158,7 @@ A [**Resifight 500 3,00 m X-Heavy**](https://www.decathlon.pt/p/cana-de-pesca-ao
 |---|---|
 | **40-100 g** | a lagoa pede **50-60 g** — o teu chumbo de 60 g cai **a meio da janela dela**, que é onde uma cana lança melhor e mostra melhor as picadas |
 | **Semi-parabólica** | dobra ao longo do branco: amortece a ferragem e não arranca o anzol da boca mole da dourada |
-| **3 m** | curta para surf, **certa para margem de lagoa** — chegas aos 60-80 m que precisas no #1 e no #5 |
+| **3 m** | curta para surf, **certa para margem de lagoa** — chegas aos 60-80 m que precisas no #2 e no #1 |
 
 **A telescópica grande fica em casa.** Foi feita para meter 150 g dentro da rebentação; aqui não há ondulação nenhuma e os lançamentos são curtos.
 
@@ -1166,11 +1185,11 @@ O que o peixe inspecciona são os **últimos 30-60 cm, junto ao isco** — e ess
 
 | Onde | Água começa a | Precisas de lançar longe? |
 |---|---|---|
-| **#5 / spot A** *(a tua manhã)* | **11-18 m** da margem | ❌ **não** — o 0,60 não te tira nada |
-| **#1** *(a tarde)* | 11 m, mas o meio do canal está aos 80 m | ⚠️ ajuda, mas aos 60 m já estás bem |
+| **#1 / spot A** *(a tua manhã)* | **11-18 m** da margem | ❌ **não** — o 0,60 não te tira nada |
+| **#2** *(a tarde)* | 11 m, mas o meio do canal está aos 80 m | ⚠️ ajuda, mas aos 60 m já estás bem |
 
-> ✅ **Veredicto: mantém o 0,60 na Resifight este fim de semana.** No #5 a água começa aos 11 m — não há distância nenhuma a ganhar, e às 6h30 da manhã, no escuro, com duas canas para montar, não é altura de andar a refazer nós.
-> 🔧 Se um dia quiseres mesmo lançar longe no #1, aí sim troca por 1,5 m de fluoro. Mas é optimização, não correcção.
+> ✅ **Veredicto: mantém o 0,60 na Resifight este fim de semana.** No #1 a água começa aos 11 m — não há distância nenhuma a ganhar, e às 6h30 da manhã, no escuro, com duas canas para montar, não é altura de andar a refazer nós.
+> 🔧 Se um dia quiseres mesmo lançar longe no #2, aí sim troca por 1,5 m de fluoro. Mas é optimização, não correcção.
 
 > 🎯 **E o fluoro? Nas duas — mas só nos estralhos.**
 > O peixe só inspecciona os **últimos 30-60 cm**, junto ao isco. É aí que o fluoro trabalha, e é igual nas duas canas: **estralhos de fluoro 0,28-0,35**.
@@ -1187,7 +1206,7 @@ O que o peixe inspecciona são os **últimos 30-60 cm, junto ao isco** — e ess
 |---|---|---|
 | **50 g de correr** | 🥇 **Resifight — montagem de corrida** | é literalmente para isto: corre na linha-mãe, o peixe puxa e não sente peso. A melhor arma para dourada desconfiada e para a estofa |
 | **60 g** | 🥇 **Resifight — fundo de 2 anzóis** | a meio da janela 40-100 g da cana. **É o teu chumbo por defeito** |
-| **100 g** | 🥈 **Cana do avô** | para quando 60 g começar a arrastar — o pico da enchente de sábado (14h-16h) e o canal do #1 |
+| **100 g** | 🥈 **Cana do avô** | para quando 60 g começar a arrastar — o pico da enchente de sábado (14h-16h) e o canal do #2 |
 | **120-150 g** | 🏠 **ficam em casa** | passam da potência da Resifight e a lagoa não pede tanto. Isso é chumbo de rebentação |
 
 > 🎯 **A regra no local:** começas com **60 g na Resifight**. Se o chumbo arrastar e a montagem vier para a margem, **passas para a cana do avô com 100 g** — que é exactamente o trabalho dela. Não andes a lutar com 60 g num sítio onde não segura.
@@ -1211,11 +1230,11 @@ O que o peixe inspecciona são os **últimos 30-60 cm, junto ao isco** — e ess
 
 Vais levá-la, e é meio caminho andado — é uma cana de **surfcasting**, pesada, e o avô pescava com chumbos de **~100 g**.
 
-**Isso dá-lhe um trabalho próprio na lagoa, e é um bom trabalho:** a enchente de sábado à tarde é a **corrente mais forte do fim de semana** (88-99% entre as 14:00 e as 16:00), e o **#1 é um canal estreito onde a corrente aperta ainda mais**. É aí que um chumbo de 60 g começa a arrastar e um de 100 g segura — e 100 g é onde ela trabalha, não onde a Resifight trabalha.
+**Isso dá-lhe um trabalho próprio na lagoa, e é um bom trabalho:** a enchente de sábado à tarde é a **corrente mais forte do fim de semana** (88-99% entre as 14:00 e as 16:00), e o **#2 é um canal estreito onde a corrente aperta ainda mais**. É aí que um chumbo de 60 g começa a arrastar e um de 100 g segura — e 100 g é onde ela trabalha, não onde a Resifight trabalha.
 
 | Cana | Chumbo | Onde brilha |
 |---|---|---|
-| **Cana do avô** (surf, ~100 g) | **100 g** | corrente forte — a enchente da tarde, e o canal do #1 |
+| **Cana do avô** (surf, ~100 g) | **100 g** | corrente forte — a enchente da tarde, e o canal do #2 |
 | **Resifight 500** (40-100 g) | **60 g** · 50 g de correr | corrente fraca, estofa, e a picada fina da dourada |
 
 **São as tuas duas canas, e dá exactamente o limite legal de 2.** Uma segura o fundo na corrente, a outra é a fina.
@@ -1453,11 +1472,11 @@ Para sair de casa às 18h sem passar na loja. Investigado em fóruns PT, ES e UK
 
 | Isco | Robalo | Dourada | Dura no anzol | Onde comprar |
 |---|:--:|:--:|:--:|---|
-| 🥇 **Lula/pota NÃO lavada** | 4 | 3 | **5** | peixaria ou loja asiática — ⚠️ **não** a "lula limpa ultracongelada" do super (é **branqueada** para consumo humano e perde o cheiro) |
+| 🥇 **Lula/pota NÃO lavada** | 4 | 3 | **1** | peixaria ou loja asiática — ⚠️ **não** a "lula limpa ultracongelada" do super (é **branqueada** para consumo humano e perde o cheiro) |
 | 🥇 **Camarão CRU com casca** | 4 | 4 | 3 | supermercado, congelados crus |
 | 🥇 **Lingueirão/navalha congelado** | 4 | 4 | 3 (5 salgado) | peixaria/congelados — congelado **vivo** para consumo, logo qualidade equivalente ao apanhado |
 | **Sardinha/cavala inteira** | 4 | 1 | 2 (**4 em salmoura**) | super/peixaria · ⚠️ **filetes já cortados: não** — *"they just fall apart"* |
-| 🥇 **Casulo / tita SALGADO** | **5** | 4 | 4 | Decathlon 2,70 € · 🌙 fosforescente · **2 meses a -15/-20 °C** — ou salgar em casa (receita abaixo) |
+| 🥇 **Casulo / tita SALGADO** | **1** | 4 | 4 | Decathlon 2,70 € · 🌙 fosforescente · **2 meses a -15/-20 °C** — ou salgar em casa (receita abaixo) |
 | **Mexilhão** (congelar p/ abrir, depois salgar) | 2 | 4 | 1 cru / **4 salgado** | super |
 | **Amêijoa/berbigão** | 1 | 3 | 1 (3 c/ sal) | super · ⚠️ [*"congeladas perdem muito das características, ficam macias e com pouco cheiro"*](https://www.pesca-pt.com/iscos-de-pesca) |
 | ❌ **Minhoca do mar / casulo POR salgar** | 1 | 1 | 1 | *"perdem todas as qualidades, são 90% água"* — é a salga que faz a diferença, não o frio |
