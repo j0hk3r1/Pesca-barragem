@@ -890,8 +890,30 @@ A lagoa é **águas interiores não oceânicas sob jurisdição da Capitania de 
 | 🤿 Caça submarina | **proibida** *(art. 13.º)* | — |
 | 🚤 De barco, do pôr ao nascer do Sol | proibido *(art. 12.º n.º 2)* — **de terra é na mesma** | — |
 
-**Tamanhos mínimos (Anexo II):** robalo 36 · dourada 19 · linguado 24 · solha 25 · tainha 20 · safio 58 · enguia 22 cm.
-⚠️ Onde o mínimo **nacional** for maior, manda o nacional — o robalo hoje são **42 cm**, não os 36 de 1990.
+### 📏 O que podes levar para casa
+
+Manda sempre **o maior** dos dois: o mínimo da lagoa (Anexo II da Portaria 567/90) ou o **nacional** ([tabela oficial da DGRM, 26-fev-2026](https://www.dgrm.pt/documents/20143/121101/Tabela+de+Tamanhos+M%C3%ADnimos+de+Captura+26-02-26.pdf/df575e44-0111-1bbe-99aa-f11895a6cb33)). Para o que sai desta lagoa dá isto:
+
+| Espécie | Mínimo | |
+|---|:--:|---|
+| 🥇 **Robalo** | **36 cm** | o mesmo nos dois |
+| 🥇 **Dourada** | **19 cm** | o mesmo nos dois |
+| **Linguado** | **24 cm** | o mesmo nos dois |
+| **Sargo legítimo** e **safia** | **17 cm** | só na tabela nacional |
+| **Sargo bicudo** | 22 cm · **veado** 27 cm | |
+| **Salmonete** | **18 cm** | |
+| **Tainha** | **20 cm** | |
+| **Solha-legítima** | **27 cm** | nacional (a lagoa dizia 25) |
+| **Solha-das-pedras** | **25 cm** | a lagoa (nacional são 22) |
+| **Safio / congro** | **58 cm** | |
+| **Corvina** | **42 cm** | ⚠️ retenção **interdita de 1 a 30 de junho** |
+| **Choco** | **10 cm** | |
+
+> ⛔ **A enguia não se leva, ponto.** O Anexo II de 1990 dá-lhe 22 cm, mas **a retenção de enguia está hoje proibida** a nível nacional. Se apanhares uma, devolve.
+>
+> ℹ️ **Espécie sem mínimo publicado pode ser retida em qualquer tamanho** — mas a baila e o peixe miúdo que ali abunda não valem o transporte.
+
+**Quanto podes levar:** **10 kg de peixe ou cefalópodes por dia**, e o **exemplar maior não conta**. Bivalves e outros organismos que não sejam peixe: **2 kg**. Se cavares isco, **0,5 litros de minhoca e afins** — o casulo não entra nessa conta.
 
 ### 📢 Editais em vigor da Capitania de Peniche
 
@@ -1470,6 +1492,26 @@ Na Resifight usas o **50 g**; na cana do avô podes juntar dois para chegares ao
 ⚖️ **Regra da lagoa: máx. 2 canas, máx. 3 anzóis por cana.** Duas de fundo com 2 anzóis cada = 4 anzóis na água, dentro da lei.
 
 **Na caixa:** chumbos de 50 (correr), 60 e 100 g · fluoro 0,28 e 0,35 · anzóis de **8,3 mm** · destorcedores · contas · **ancinho e balde** *(ver o isco)* · **dedeira ou luva** se pescares com a trançada à vista · e o camaroeiro, que a margem é baixa e lamacenta.
+
+### ⏱️ De quanto em quanto tempo verificar o isco
+
+Depois do diagnóstico do primeiro lançamento, o ritmo é este:
+
+| Isco | Verifica a cada | Porquê |
+|---|:--:|---|
+| **Navalha** | **20-30 min** | é mole, e ali há muito peixe pequeno. Passado isso ou já foi, ou já não cheira |
+| **Tira de choco salgada** | **45-60 min** | aguenta — é para isso que a levas |
+| **Bomboca** | **45-60 min** | isco duro, mesma lógica |
+
+**Três excepções que mandam recolher já:**
+
+1. **Sentiste picadas e não ferrou** — o isco foi-se, ou está esfarrapado. Não vale a pena esperar.
+2. **A cana deu um toque seco e ficou frouxa** — pode ser peixe que levou tudo, pode ser erva a bater na linha. Vê.
+3. **A montagem começou a vir para a margem** — arrastou, e a essa altura já trouxe erva.
+
+> ⏳ **O truque de aproveitar a maré:** re-isca **na estofa**, que é quando a água está parada e a pescaria é fraca de qualquer maneira. Assim não gastas os minutos de corrente forte a mexer no anzol. No sábado isso é por volta das **12:30** (baixa-mar) e das **17:30** (preia-mar).
+
+⚠️ **Não caias no vício de recolher de 10 em 10 minutos.** Cada recolha tira-te a montagem da água e mexe o fundo. Se o isco está a durar, deixa-o trabalhar.
 
 ### 🔍 O primeiro lançamento é um diagnóstico
 
