@@ -1145,25 +1145,39 @@ A [**Resifight 500 3,00 m X-Heavy**](https://www.decathlon.pt/p/cana-de-pesca-ao
 
 **O FX 4000 chega bem:** travão prático **4 kg** (máximo 8,5) contra peixe de 1-3 kg, **170 m de 0,35 mm**, 5,2:1, 320 g.
 
-#### 🧵 A linha: a trançada fica, o 0,60 sai da frente
+#### 🧵 Shock leader: fica numa cana, sai da outra
 
-A **trançada de 27 kg pode ficar**. Braid de 27 kg anda pelos **0,32-0,40 mm** — mais ou menos o diâmetro de um mono 0,30, mas quatro vezes mais forte. E não estica, o que numa lagoa de picadas finas é a favor.
+**A regra que decide, e é só uma:** o shock leader **existe para o lançamento, não para o peixe**. Precisas dele quando a **linha-mãe é mais fraca do que o chumbo exige**. A conta é ~**10 lb de leader por onça de chumbo**:
 
-O **topshot de 0,60 são só ~10 m**, portanto não é a linha toda a travar-te — mas esses 10 m ficam justamente **na ponta, à volta do isco**, que é onde mais estorvam:
+| Cana | Linha-mãe | Chumbo | Leader que a conta pede | Tens? | Veredicto |
+|---|---|---|---|---|---|
+| **Cana do avô** | Tournament 0,33 → **~8-9 kg** | 60-80 g *(2,1-2,8 oz)* | **9,5 a 12,7 kg** | mãe fica **abaixo** | ✅ **shock leader 0,60 FICA** |
+| **Resifight 500** | trançada **27 kg** | 40 g *(1,4 oz)* | 6,4 kg | mãe tem **4× a mais** | ❌ **0,60 SAI** |
 
-| | Com 10 m de 0,60 na ponta | Com fluoro 0,30-0,35 |
+Na cana do avô isto **não é opcional**: a mãe de 8-9 kg está abaixo do que 80 g pedem. Sem o 0,60, mais cedo ou mais tarde estalas no lançamento e mandas **80 gramas de chumbo pelo ar**. Foi por isso que to mandei fazer, e continua certo.
+
+Na Resifight é o contrário: a trançada de 27 kg já tem quatro vezes a margem, portanto o 0,60 não está a proteger nada — só a estorvar onde interessa.
+
+> 🎯 **E o fluoro? Nas duas — mas só nos estralhos.**
+> O peixe só inspecciona os **últimos 30-60 cm**, junto ao isco. É aí que o fluoro trabalha, e é igual nas duas canas: **estralhos de fluoro 0,28-0,35**.
+> O shock leader nem chega perto do anzol — acaba no destorcedor, antes da montagem.
+
+> ❌ **Shock leader de fluoro? Não.** O shock leader é **mono**, e por três razões:
+> 1. **A função dele é esticar.** É isso que absorve o tranco do lançamento. O fluoro estica muito menos que o mono — faz pior o único trabalho que tem.
+> 2. **É mais rígido.** O nó que liga a mãe ao leader tem de passar pelos passadores a cada lançamento; em fluoro fica mais volumoso e sai pior da bobina.
+> 3. **Nunca chega ao peixe** — acaba no destorcedor. Gastar fluoro em 10 m que o peixe não vê é deitar dinheiro fora.
+
+**Resumindo as duas montagens da ponta:**
+
+| | Cana do avô | Resifight 500 |
 |---|---|---|
-| **Onde está** | os últimos 10 m, à volta do chumbo e dos anzóis | idem |
-| **Dourada** | peixe desconfiado, em 1-2 m de água clara sobre areia | ⭐ muito melhor |
-| **Arrasto na corrente** | o dobro do diâmetro nesses 10 m — pede mais chumbo | menos chumbo chega |
-| **Lançamento** | 0,60 nos passadores trava | passa melhor |
+| Mãe | Tournament 0,33 branco | trançada 27 kg |
+| A seguir | **10 m de mono 0,60** *(shock leader)* | **1,5 m de fluoro 0,30-0,35** |
+| Depois | destorcedor → montagem | destorcedor → montagem |
+| Estralhos | **fluoro 0,28-0,35** | **fluoro 0,28-0,35** |
+| Chumbo | 60-80 g | 40 g |
 
-> 🔧 **O que fazer:**
-> 1. 🥇 **Substitui os 10 m de 0,60 por 1,5 m de fluoro 0,30-0,35** (nó FG ou Albright para juntar à trançada). A trançada mostra a picada, o fluoro é invisível e aguenta a areia.
-> 2. 🥈 Se preferires manter mono na ponta, **0,28-0,30**, não 0,60.
-> 3. ⚠️ **Com trançada e 50-60 g, protege o dedo** — dedeira ou luva. A trançada corta, e 27 kg não parte para te avisar.
-
-**Não precisas de shock leader:** pela regra das 10 lb por onça, 60 g pedem ~9 kg e tu tens 27 na trançada. O fluoro na ponta é por invisibilidade e abrasão, não por força.
+⚠️ **Com trançada e 40 g na Resifight, protege o dedo** — dedeira ou luva. A trançada corta e 27 kg não parte para te avisar. Na cana do avô o 0,60 já te protege o dedo, que é meia razão de ele existir.
 
 #### 🎣 E a cana do avô
 
@@ -1178,11 +1192,7 @@ Vais levá-la, e é meio caminho andado — é uma cana de **surfcasting**, pesa
 
 **São as tuas duas canas, e dá exactamente o limite legal de 2.** Uma segura o fundo na corrente, a outra é a fina.
 
-> 🔍 **Duas verificações antes de sair de casa**, que valem a viagem:
-> - **As argolas.** Ela tem 3 e não sabemos se falta alguma. Passa um pedaço de meia de nylon ou um cotonete por dentro de cada uma: **se prender, a argola está riscada** e vai cortar a trançada no lançamento. Numa argola riscada, mono aguenta, trançada não.
-> - **O porta-carretos.** Aperta o carreto e abana. Se folgar, ao lançar 80 g salta.
->
-> Se alguma argola prender, a solução para este fim de semana é pôr-lhe **mono** em vez de trançada — mono passa por argola riscada sem se cortar.
+✅ **Está restaurada** — passadores, porta-carretos e verniz novos. Passadores novos significa que podes lançar sem medo de linha cortada, que era o único risco real que ela tinha.
 
 > ⚠️ **A de spinning fica em casa** se levares estas duas — o limite são **2 canas por pescador**. Se quiseres atirar amostras à boca do canal, trocas, não acrescentas.
 
