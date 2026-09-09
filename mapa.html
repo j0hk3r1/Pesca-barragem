@@ -133,6 +133,26 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 
+    // bancos que ficam a seco/raso na baixa-mar — extraidos de imagem aerea de mare baixa
+    fetch('data-areia.json').then(function(r){return r.json();}).then(function(as){
+      var g=L.layerGroup();
+      as.forEach(function(p){
+        L.polygon(p,{color:'#c9a227',fillColor:'#f4d03f',fillOpacity:0.45,weight:1})
+         .bindPopup('<b>🏖️ Banco de areia</b><br>Fica <b>a seco ou muito raso na baixa-mar</b>. Não lances para aqui — '+
+           'passa por cima.<br><span style="opacity:.7;font-size:.9em">Classificado por mim a partir de imagem aérea '+
+           'apanhada em maré baixa (banda vermelha). <b>Não é batimetria oficial</b> — a barra migra e a lagoa assoreia, '+
+           'confirma no local.</span>').addTo(g);
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['bancos de areia'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="bancos de areia"> '+
+        '<span style="color:#f4d03f">■</span> bancos de areia de Óbidos (baixa-mar)</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="bancos de areia"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
     // rampas e pontoes da Lagoa de Obidos — 100 m proibidos cada (Edital 24/2014 de Peniche)
     fetch('data-rampas.json').then(function(r){return r.json();}).then(function(rs){
       var g=L.layerGroup();
@@ -165,7 +185,9 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
         L.circleMarker([p.la,p.lo],{radius:4,color:e.c,fillColor:e.c,fillOpacity:0.85,weight:1})
          .bindPopup('<b>🎣 '+p.n+'</b><br>'+e.t+
            '<br><a href="https://www.google.com/maps?q='+p.la+','+p.lo+'" target="_blank">abrir no Maps</a>'+
-           '<br><span style="opacity:.7;font-size:.9em">pesqueiro mapeado no OpenStreetMap — indica que alguém pesca ali, não que seja legal</span>').addTo(g);
+           '<br><span style="opacity:.7;font-size:.9em">⚠️ <b>Fia-te na posição, não no nome.</b> 48 dos 58 vêm de '+
+           'um só contribuidor do OSM (2018-2021) e o Google discorda em pelo menos um caso. Marcar aqui significa '+
+           'que alguém pesca no sítio — não que seja legal.</span>').addTo(g);
       });
       g.addTo(MAPA_REF);
       CAMADAS_REF['pesqueiros'] = g;
@@ -185,6 +207,8 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
         var e=EST[s.v];
         L.circleMarker([s.la,s.lo],{radius:9,color:e.c,fillColor:e.f,fillOpacity:.95,weight:2})
          .bindPopup('<b>'+e.i+' '+s.n+'</b><br>'+s.d+
+           (s.cast?'<br><br>🎯 <b>Lançamento: '+s.cast+' m para '+s.rumo+'</b>'+
+             (s.banco?' — <b>com banco de areia pelo meio</b>':' — sem banco pelo meio'):'')+
            '<br><a href="https://www.google.com/maps?q='+s.la+','+s.lo+'" target="_blank">abrir no Maps</a>').addTo(g);
       });
       g.addTo(MAPA_REF);

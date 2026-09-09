@@ -323,6 +323,26 @@
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 
+    // bancos que ficam a seco/raso na baixa-mar — extraidos de imagem aerea de mare baixa
+    fetch('data-areia.json').then(function(r){return r.json();}).then(function(as){
+      var g=L.layerGroup();
+      as.forEach(function(p){
+        L.polygon(p,{color:'#c9a227',fillColor:'#f4d03f',fillOpacity:0.45,weight:1})
+         .bindPopup('<b>🏖️ Banco de areia</b><br>Fica <b>a seco ou muito raso na baixa-mar</b>. Não lances para aqui — '+
+           'passa por cima.<br><span style="opacity:.7;font-size:.9em">Classificado por mim a partir de imagem aérea '+
+           'apanhada em maré baixa (banda vermelha). <b>Não é batimetria oficial</b> — a barra migra e a lagoa assoreia, '+
+           'confirma no local.</span>').addTo(g);
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['bancos de areia'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="bancos de areia"> '+
+        '<span style="color:#f4d03f">■</span> bancos de areia de Óbidos (baixa-mar)</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="bancos de areia"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
     // rampas e pontoes da Lagoa de Obidos — 100 m proibidos cada (Edital 24/2014 de Peniche)
     fetch('data-rampas.json').then(function(r){return r.json();}).then(function(rs){
       var g=L.layerGroup();
@@ -355,7 +375,9 @@
         L.circleMarker([p.la,p.lo],{radius:4,color:e.c,fillColor:e.c,fillOpacity:0.85,weight:1})
          .bindPopup('<b>🎣 '+p.n+'</b><br>'+e.t+
            '<br><a href="https://www.google.com/maps?q='+p.la+','+p.lo+'" target="_blank">abrir no Maps</a>'+
-           '<br><span style="opacity:.7;font-size:.9em">pesqueiro mapeado no OpenStreetMap — indica que alguém pesca ali, não que seja legal</span>').addTo(g);
+           '<br><span style="opacity:.7;font-size:.9em">⚠️ <b>Fia-te na posição, não no nome.</b> 48 dos 58 vêm de '+
+           'um só contribuidor do OSM (2018-2021) e o Google discorda em pelo menos um caso. Marcar aqui significa '+
+           'que alguém pesca no sítio — não que seja legal.</span>').addTo(g);
       });
       g.addTo(MAPA_REF);
       CAMADAS_REF['pesqueiros'] = g;
@@ -375,6 +397,8 @@
         var e=EST[s.v];
         L.circleMarker([s.la,s.lo],{radius:9,color:e.c,fillColor:e.f,fillOpacity:.95,weight:2})
          .bindPopup('<b>'+e.i+' '+s.n+'</b><br>'+s.d+
+           (s.cast?'<br><br>🎯 <b>Lançamento: '+s.cast+' m para '+s.rumo+'</b>'+
+             (s.banco?' — <b>com banco de areia pelo meio</b>':' — sem banco pelo meio'):'')+
            '<br><a href="https://www.google.com/maps?q='+s.la+','+s.lo+'" target="_blank">abrir no Maps</a>').addTo(g);
       });
       g.addTo(MAPA_REF);
@@ -475,55 +499,49 @@ E a [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/00
 > O texto é explícito — proíbe *"nas **águas interiores não marítimas do rio Tejo**"*, que acabam na linha **Bugio ↔ Forte de S. Julião**. **A costa oceânica da Caparica fica FORA** dessa lista: lá não valem os canais, nem os 300 m de cais, nem os "1 mai-15 out".
 > ⚠️ **Mas a Caparica continua fechada de dia na época** por outra via: a **[Portaria 14/2014, art. 8.º n.º 1 c)](https://diariodarepublica.pt/dr/detalhe/portaria/14-2014-568578)** proíbe pescar *"nos planos de água associados às **concessões balneares**, nos termos dos respetivos POOC"*. E o POOC daqui **diz a hora** — ver a caixa a seguir.
 
-### 🌓 A regra que estava mal aqui: não é «água balnear», e acaba ao pôr-do-sol
+### 🌓 Concessão, unidade balnear, água balnear — o que fecha a praia
 
-Andei a escrever *água balnear* onde a lei diz outra coisa. **Água balnear** é uma designação de **qualidade da água** (a portaria que lista as praias analisadas). **Concessão balnear** é um **título de ocupação de um pedaço de areal**. Não são a mesma coisa, e é a segunda que conta. Fui ver até ao fim, e o que a lei diz é melhor do que eu pensava.
+**Água balnear** é uma designação de *qualidade da água* — diz que a praia é analisada e vigiada, e **não é o que gera a proibição**. O que fecha a praia é a **concessão balnear** e, nesta costa, o tipo de praia. E há uma hora.
 
-A Portaria 14/2014 não fixa distância nenhuma — **remete para o POOC**. O POOC desta costa toda (de Alcobaça ao Cabo Espichel: Óbidos, Peniche, Ericeira, Cascais, **Caparica**, Sesimbra) é o **POC-ACE**, e o seu regulamento das praias diz, no **art. 17.º**, repetido **quatro vezes** — uma para cada tipo de praia, I a V:
+A Portaria 14/2014 não fixa distância nenhuma — remete para o POOC. O POOC daqui (**POC-ACE**, de Alcobaça ao Cabo Espichel: Óbidos, Peniche, Ericeira, Cascais, **Caparica**, Sesimbra) diz, no **art. 17.º**, repetido quatro vezes, uma por cada tipo de praia de I a V:
 
 > *"A utilização do plano de água associado às praias marítimas classificadas (…) está sujeita às seguintes regras: (…) **b) Interdição da prática de pesca lúdica durante a época balnear no período diário, entre o nascer e o ocaso do Sol**"*
-> — [Regulamento de Gestão das Praias Marítimas e do Domínio Hídrico da Orla Costeira (POC-ACE)](https://apambiente.pt/sites/default/files/_SNIAMB_Agua/DLPC/POC/POC_A-CE/1_ACE_RegulamentoPraias.pdf), art. 17.º n.os 2 b), 3 b), 4 b) e 5 b)
+> — [Regulamento de Gestão das Praias Marítimas do POC-ACE](https://apambiente.pt/sites/default/files/_SNIAMB_Agua/DLPC/POC/POC_A-CE/1_ACE_RegulamentoPraias.pdf), art. 17.º n.os 2 b), 3 b), 4 b) e 5 b)
 
-**O que isto muda, nas duas direcções:**
+| | Regra |
+|---|---|
+| **Onde** | **todas** as praias marítimas classificadas, tipos I a V — tenham concessão ou não |
+| **Quando** | apenas *"no período diário, **entre o nascer e o ocaso do Sol**"*, e só dentro da época balnear |
+| **Logo** | 🌙 **de noite, na época balnear, na praia, é legal** nesta costa |
 
-| | Antes escrevi | O que a lei diz |
-|---|---|---|
-| **Onde** | só nas praias *concessionadas* | ❌ **mais largo** — em **todas** as praias marítimas classificadas, dos tipos I a V, tenham concessão ou não |
-| **Quando** | «durante a época» → zona cinzenta ao amanhecer/anoitecer | ✅ **mais estreito** — só *"no período diário, entre o nascer e o ocaso do Sol"*. **Depois do pôr-do-sol é permitido, escrito** |
+O [Edital de Praia](https://www.amn.pt/Documents/Editais%20Praia/Edital%20de%20Praia%20-%20Continente%20e%20Madeira%20-%20Lingua%20portuguesa.pdf) afixado em cada praia diz o mesmo com outras palavras — entre as actividades interditas: *"**Pesca lúdica, nas unidades balneares entre o nascer e pôr do sol**"*. O mesmo edital nomeia a **Unidade Balnear** e o **concessionário** daquela praia.
 
-Portanto: **de noite, na época balnear, na praia, é legal** nesta costa. Não é interpretação minha — é a alínea b). O que o [Edital de Praia](https://www.amn.pt/Documents/Editais%20Praia/Edital%20de%20Praia%20-%20Continente%20e%20Madeira%20-%20Lingua%20portuguesa.pdf) que está afixado em cada praia repete, com outras palavras: entre as actividades interditas, *"**Pesca lúdica, nas unidades balneares entre o nascer e pôr do sol**"*.
+> ⚠️ **Os editais das capitanias apertam mais, e mandam.** O art. 17.º é o mínimo; por cima dele **Lisboa** impõe 200 m de 1 mai a 15 out e **Cascais** 300 m durante o período balnear, **sem excepção de horário no texto** — aí não contes com a noite. **Setúbal** é a mais folgada: só *"praias **CONCESSIONADAS**, nelas incluídas os esporões de proteção dunar, durante a época balnear"*, sem distância e sem hora.
 
-> ⚠️ **Mas os editais das capitanias podem apertar mais, e apertam.** O art. 17.º é o mínimo nacional; por cima dele, **Lisboa** impõe 200 m de 1 mai a 15 out e **Cascais** 300 m durante o período balnear, **sem excepção de horário no texto**. Onde o edital fixa distância, é a distância que manda. **Setúbal é a excepção**: só fala em *"praias **CONCESSIONADAS**, nelas incluídas os esporões de proteção dunar, durante a época balnear"* — sem distância e sem hora.
+**A cadeia, com recibos:**
 
-**A cadeia toda, com recibos:**
+| Fonte | O que diz |
+|---|---|
+| [Portaria 14/2014, art. 8.º n.º 1 c)](https://diariodarepublica.pt/dr/detalhe/portaria/14-2014-568578) | proíbe *"nos planos de água associados às **concessões balneares**, nos termos dos respetivos POOC"* |
+| [POC-ACE, art. 17.º](https://apambiente.pt/sites/default/files/_SNIAMB_Agua/DLPC/POC/POC_A-CE/1_ACE_RegulamentoPraias.pdf) | *"entre o nascer e o ocaso do Sol"*, praias tipo I a V |
+| Mesmo regulamento, definição ii) | *"**Licença ou concessão balnear** — título de utilização privativa de uma praia, **ou parte dela**, destinada à instalação **em área delimitada** (…) dos respetivos apoios de praia"* |
+| [Edital de Praia (AMN)](https://www.amn.pt/Documents/Editais%20Praia/Edital%20de%20Praia%20-%20Continente%20e%20Madeira%20-%20Lingua%20portuguesa.pdf), 4.1 c) | interdita *"Pesca lúdica, nas **unidades balneares** entre o nascer e pôr do sol"* |
+| [FAQ DGRM 2018, p. 6](https://www.dgrm.pt/documents/20143/0/FAQ-PescaLudica2018.pdf/730e6d56-1f8c-66a2-a020-aecc016685bb) | sanciona a pesca *"em distâncias inferiores às legalmente estabelecidas em relação às **orlas das praias concessionadas**"* — coima **200 a 2000 €** |
+| [FAQ DGRM ago-2026, p. 8](https://www.dgrm.pt/documents/20143/121104/FAQ-Pesca+Ludica+2026_08.pdf/9669422f-b7a9-25f5-708f-3cd1f06ba21d) | a lei nacional deixa às capitanias *"restringir ou autorizar a pesca lúdica noturna em praias e áreas **concessionadas**"* |
 
-| Fonte | O que diz | Palavra usada |
-|---|---|---|
-| [Portaria 14/2014, art. 8.º n.º 1 c)](https://diariodarepublica.pt/dr/detalhe/portaria/14-2014-568578) | proíbe *"nos planos de água associados às **concessões balneares**, nos termos dos respetivos POOC"* | **concessão** |
-| [POC-ACE, Regulamento das Praias, art. 17.º](https://apambiente.pt/sites/default/files/_SNIAMB_Agua/DLPC/POC/POC_A-CE/1_ACE_RegulamentoPraias.pdf) | *"entre o nascer e o ocaso do Sol"*, praias tipo I a V | **praia classificada** |
-| Mesmo regulamento, definição ii) | *"**Licença ou concessão balnear** — título de utilização privativa de uma praia, **ou parte dela**, destinada à instalação **em área delimitada** (…) dos respetivos apoios de praia"* | **concessão = área delimitada** |
-| [Edital de Praia (modelo AMN)](https://www.amn.pt/Documents/Editais%20Praia/Edital%20de%20Praia%20-%20Continente%20e%20Madeira%20-%20Lingua%20portuguesa.pdf), ponto 4.1 c) | interdita *"Pesca lúdica, **nas unidades balneares** entre o nascer e pôr do sol"*; o edital nomeia a **Unidade Balnear** e o **concessionário** de cada praia | **unidade balnear** |
-| [FAQ DGRM 2018, p. 6](https://www.dgrm.pt/documents/20143/0/FAQ-PescaLudica2018.pdf/730e6d56-1f8c-66a2-a020-aecc016685bb) | *"O exercício da pesca lúdica em distâncias inferiores às legalmente estabelecidas em relação às **orlas das praias concessionadas** durante a época balnear"* — coima **200 a 2000 €** | **praia concessionada** |
-| [FAQ DGRM ago-2026, p. 8](https://www.dgrm.pt/documents/20143/121104/FAQ-Pesca+Ludica+2026_08.pdf/9669422f-b7a9-25f5-708f-3cd1f06ba21d) | a lei nacional deixa às capitanias *"restringir ou autorizar a pesca lúdica noturna em praias e áreas **concessionadas**"*, *"sendo essencial consultar os regulamentos específicos de cada Capitania"* | **concessionada** |
+### 🗣️ O que dizem os pescadores
 
-### 🗣️ Relatos de quem lá pesca — pedi-te para os procurar e cá estão
-
-Do tópico *["Pesca apeada a partir de praias concessionadas, durante a época balnear"](https://www.pesqueiro.pt/index.php?topic=22704.0)* do Pesqueiro (12 988 leituras). Notas: os utilizadores estão identificados pelo n.º de mensagens, que é o que dá para aferir experiência; e **eles próprios não estão de acordo** — o que já diz alguma coisa.
+Do tópico *["Pesca apeada a partir de praias concessionadas, durante a época balnear"](https://www.pesqueiro.pt/index.php?topic=22704.0)* do Pesqueiro (12 988 leituras). Os utilizadores estão identificados pelo n.º de mensagens — e **não estão todos de acordo**, o que por si já diz alguma coisa.
 
 | Quem | O que diz |
 |---|---|
-| **carlosfishcarlos** *(7 303 msg)* | *"Na ilha de Tavira **pesco na época balnear, desde que fora da área concessionada**."* |
-| **antoniopereira** *(7 537 msg)* | *"Na época balnear nas praias concessionadas não se pode pescar de dia. Ou seja não se pode pescar entre o nascer e o pôr do Sol. **Resumindo só se pode pescar de noite.** No entanto existem praias concessionadas que nem depois do pôr do sol se pode pescar."* |
-| **carlosfishcarlos** | *"Certas praias têm **placas que delimitam as concessões**, fora da área delimitada pelas placas pode-se pescar."* · *"O que gera alguma confusão é que em algumas praias **a área concessionada é igual ao tamanho do areal**."* |
+| **carlosfishcarlos** *(7 303 msg)* | *"Na ilha de Tavira **pesco na época balnear, desde que fora da área concessionada**."* · *"Certas praias têm **placas que delimitam as concessões**, fora da área delimitada pelas placas pode-se pescar."* |
+| **antoniopereira** *(7 537 msg)* | *"Na época balnear nas praias concessionadas não se pode pescar de dia (…) entre o nascer e o pôr do Sol. **Resumindo só se pode pescar de noite.**"* |
 | **Nelson Peres** *(22 595 msg)* | *"Podemos pescar nas praias concessionadas, **fora da zona de concessões**. (…) **Na minha zona pesco de dia tranquilamente ao lado das concessões, o pior que me aconteceu foi ter que mostrar a licença.**"* |
-| **PMiranda** *(363 msg)* | Discorda: *"não se pode praticar pesca lúdica em qualquer hora do dia ou da noite nas zonas de áreas concessionadas"*. Mas dá a dica prática melhor do tópico ⬇️ |
+| **PMiranda** *(363 msg)* | Leitura mais fechada: *"não se pode praticar pesca lúdica em qualquer hora do dia ou da noite nas zonas de áreas concessionadas"* — mas está a citar a **Portaria 868/2006**, que já foi revogada |
 
-> 🎯 **A dica que vale o tópico todo:** *"As zonas exactas de concessão de cada praia podem ser vistas (…) escolhendo o ficheiro que se encontra no **«Perfil da Água Balnear (PAB)»** para a praia em questão. **Cada praia terá a mesma informação num painel disposto à entrada da praia.** Outra informação disponível no mesmo painel inclui o edital de praia."*
-> Ou seja: **o PAB e o painel à entrada da praia mostram-te a linha da concessão.** É o documento que resolve a dúvida no terreno, praia a praia.
-
-**Como ler isto:** a prática de campo (**pescar ao lado da concessão, sem chatices**) bate certo com o art. 17.º do POC-ACE e com o antoniopereira. O PMiranda tem a leitura mais conservadora, herdada da **Portaria 868/2006** — que fixava 300 m *sem excepção de horário* e que **já foi revogada** pela Portaria 14/2014. É daí que vem metade da confusão que anda pela internet.
-
-**Em nenhuma destas fontes aparece «água balnear».** A expressão nunca é a que gera a proibição — serve para saber se a praia é analisada e vigiada, não se podes lá pescar. *(Estado: medido — grep às seis fontes acima.)*
+> 🎯 **A dica que vale o tópico todo:** *"As zonas exactas de concessão de cada praia podem ser vistas (…) escolhendo o ficheiro que se encontra no **«Perfil da Água Balnear (PAB)»** para a praia em questão. **Cada praia terá a mesma informação num painel disposto à entrada da praia.**"*
+> É assim que resolves a dúvida no terreno, praia a praia: **o painel à entrada mostra-te a linha da concessão**.
 
 | Praia | Época balnear 2026 | Pescável a partir de |
 |---|---|---|
@@ -539,7 +557,7 @@ Do tópico *["Pesca apeada a partir de praias concessionadas, durante a época b
 > - **Parque Ribeirinho Oriente** e **Algés/Dafundo** (o areal de Algés/Dafundo não consta; as balneares de Oeiras começam em **Caxias**, mais a poente) — pescáveis o ano todo;
 > - **Toda a margem sul do estuário** — Seixal, Barreiro, Montijo, Alcochete: água de robalo, dourada e choco, sem restrição balnear.
 >
-> 💡 **E há a via das horas — e já não é zona cinzenta.** O POC-ACE, art. 17.º, proíbe a pesca lúdica na época balnear *"no período diário, **entre o nascer e o ocaso do Sol**"*. **Depois do pôr-do-sol a praia abre.** Ver a caixa acima. ⚠️ Excepto onde o edital da capitania fixar distância sem falar em horas — **Lisboa (200 m) e Cascais (300 m)**; aí não contes com a noite.
+> 🌙 **A via das horas.** O POC-ACE, art. 17.º, proíbe a pesca lúdica na época balnear *"no período diário, **entre o nascer e o ocaso do Sol**"*. **Depois do pôr-do-sol a praia abre.** ⚠️ Excepto onde o edital da capitania fixa distância sem falar em horas — **Lisboa (200 m) e Cascais (300 m)**; aí não contes com a noite.
 
 ### 📅 Épocas — atualiza sozinho
 
@@ -696,7 +714,7 @@ A vizinha da Lagoa de Albufeira, regime **oposto**: em Albufeira a pesca está f
 | 🟣 **Condicionada permanente** | **Braço da Barrosa** | ⛔ **proibida o ano todo** | arts. 12.º n.º 2 + 13.º n.º 1 a) |
 | 🔴 **Interdita** | **Poça das Ferrarias** | ⛔⛔ *"não são permitidas **quaisquer** atividades (…) a pesca, a apanha de animais marinhos"* | arts. 10.º n.º 2 + 11.º n.º 1 |
 
-> 🎯 **A descoberta boa: a zona norte é sazonal, não permanente.** Eu tinha-a escrito como "fora da zona livre" e ponto. O art. 12.º n.º 3 diz *"a vigorar anualmente **durante a época balnear**"*. **A partir de 14 de setembro a lagoa abre toda** (menos Barrosa e Ferrarias).
+> 🗓️ **A zona norte é sazonal.** O art. 12.º n.º 3 fecha-a *"a vigorar anualmente **durante a época balnear**"*. **A partir de 14 de setembro a lagoa abre toda**, menos o Braço da Barrosa e a Poça das Ferrarias, que estão fechados o ano inteiro.
 
 ### 💳 Licença: a do **MAR**, não a do ICNF
 
@@ -727,76 +745,125 @@ O **[Edital n.º 24/2014 da Capitania de Peniche](https://www.amn.pt/DGAM/Capita
 
 O Anexo I do Regulamento das Lagoas lista **9 oficiais** na lagoa: *Cais da Lota · Penedo Furado · Parque de Caravanas* (Caldas da Rainha) e *Casalito 1 · Casalito 2 · Casal da Lapinha · Cais do Bom Sucesso · Braço da Barrosa* (Óbidos), mais dois centros náuticos. Estão desenhadas no mapa as **10 que o OpenStreetMap tem** — ⚠️ **o OSM pode não ter todas**, portanto olha à volta antes de lançar.
 
-### 📍 Os teus três pontos
+### 📍 Onde pescar — pontos verificados
 
-| Ponto | Veredicto | Porquê |
+Cada um foi testado contra as zonas legais, contra os 100 m das rampas, e contra uma **imagem aérea apanhada em maré baixa** para saber a que distância está a água que não seca e se há banco de areia pelo meio.
+
+| Ponto | | Lançamento | Legal |
+|---|---|---|---|
+| **[39.40528, -9.21136](https://www.google.com/maps?q=39.40528,-9.21136)** · margem sul, na Ecopista | ✅ **o melhor** | **18 m para N, sem banco** | Zona Livre · rampa a 988 m · ETAR a 407 m |
+| **[39.40464, -9.20159](https://www.google.com/maps?q=39.40464,-9.20159)** · Ponta da Ardonia | ✅ | **18 m para SO, sem banco** | Zona Livre · o mais perto do sítio das aves (1,3 km) |
+| **[39.40809, -9.21602](https://www.google.com/maps?q=39.40809,-9.21602)** · margem sul, 500 m a norte | ✅ | **18 m para N, sem banco** | Zona Livre · alternativa imediata |
+| **[39.41051, -9.20231](https://www.google.com/maps?q=39.41051,-9.20231)** · Clube de Vela | ✅ | **30 m para SO, sem banco** | Zona Livre · **parque de merendas a 50 m** |
+| **[39.39790, -9.21603](https://www.google.com/maps?q=39.39790,-9.21603)** · extremo sul | ⚠️ | 41 m para NE, **com banco** | Zona Livre · só na maré cheia |
+| **[39.41486, -9.22050](https://www.google.com/maps?q=39.41486,-9.22050)** · margem norte | ⚠️ | **118 m para NE, com banco** | Zona Livre, mas **rampa a 165 m** (limite: 100 m) |
+| **[39.40021, -9.18683](https://www.google.com/maps?q=39.40021,-9.18683)** · Barrosa | ⛔ | 30 m para O, com banco | **não pescar** — ver abaixo |
+
+> 🎯 **Se só levas um ponto na cabeça, leva o primeiro.** É o único da lista com água boa a 18 m, sem banco pelo meio, sem nada a apertar e com estacionamento à beira. Dá para pescar em qualquer estado de maré.
+>
+> 🏖️ **Se forem os dois:** o **Clube de Vela** tem parque de merendas a 50 m e margem limpa — ela fica instalada, tu pescas ao lado.
+
+### 🐦 O ponto onde a Mariya vai ver aves — [39.40021, -9.18683](https://www.google.com/maps?q=39.40021,-9.18683)
+
+**Ver aves ali não tem restrição nenhuma.** Pescar é que não.
+
+O ponto fica na bacia que o OpenStreetMap chama **"Barrosa"**, a **622 m** do que chama **"Braço da Barrosa"** — e o Braço da Barrosa está **fechado à pesca todo o ano** (art. 12.º n.º 2 + art. 13.º n.º 1 a). A lei diz *"confinada ao Braço da Barrosa"* e remete para o Modelo Territorial do POC-ACE, que **não está publicado online** — [na APA só estão](https://apambiente.pt/agua/programa-da-orla-costeira-alcobaca-cabo-espichel) as Diretivas, o Relatório e o Programa de Execução. É plausível que "Braço da Barrosa" signifique o braço todo, incluindo esta bacia.
+
+Somando: há um **pontão/embarcadouro oficial no Braço da Barrosa** com os seus 100 m, e é a zona mais assoreada da lagoa — a imagem de maré baixa mostra **banco de areia entre a margem e a água**, e os estudos hidrodinâmicos dão *2 dias* de renovação de água junto à barra contra *3 semanas* no interior.
+
+> ✅ **O que fazer:** ela fica lá; tu vais para a **[Ponta da Ardonia](https://www.google.com/maps?q=39.40464,-9.20159)**, a **1,3 km**, que é Zona Livre e tem água a 18 m sem banco. *(A distância é medida; a leitura do "Braço da Barrosa" é cautela minha — a geometria oficial não existe publicada.)*
+
+### ⚠️ Os nomes dos pesqueiros não são de fiar — as coordenadas são
+
+**48 dos 58 pesqueiros** que estão no mapa vêm de **um só contribuidor do OpenStreetMap**, entre 2018 e 2021. E há conflito com o Google: o nome **"Bico dos Corvos"** aparece no OSM em [39.39790, -9.21603](https://www.google.com/maps?q=39.39790,-9.21603) (extremo sul) e no Google em [39.42463, -9.22733](https://www.google.com/maps?q=39.42463,-9.22733) (noroeste, junto ao Bom Sucesso) — **3,2 km de distância**.
+
+Verifiquei os dois: **ambos caem em Zona de Utilização Livre**, portanto nenhum te mete em sarilhos. Mas a lição fica:
+
+> 🎯 **Navega pelas coordenadas e pelas zonas coloridas, não pelos nomes.** Os nomes servem para conversar com quem lá está; as coordenadas e a cor da zona é que estão verificadas.
+
+### 🏖️ Os bancos de areia — a camada mais útil do mapa
+
+A lagoa está assoreada e a maior parte dela é raso. Extraí os bancos de uma **imagem aérea apanhada em maré baixa**: **1,64 km², 29% da área da lagoa**, fica a seco ou quase.
+
+Estão a **amarelo** no mapa. A regra é simples: **não lances para o amarelo, lança para lá dele.** É isso que quer dizer "lançar para os canais".
+
+> ⚠️ **O que isto é e não é.** É a classificação de uma imagem aérea, não batimetria oficial — **não existe batimetria pública desta lagoa**. A barra migra, a lagoa assoreia e a imagem tem a data que tem. Serve para escolher a margem antes de sair de casa; no local, **olha para a água na baixa-mar** e confirma. Também tentei separar os canais fundos por cor da água e **não é fiável aqui**: o escuro tanto é fundo como são prados de ervas marinhas — a lagoa perdeu ~150 ha para elas e para o assoreamento.
+
+### 🌊 A maré manda? Manda — mas menos do que no mar
+
+**Sim, a maré importa, e não dá para pescar o dia todo com a mesma expectativa.** Os números:
+
+| | Fora, no oceano | Dentro da lagoa |
 |---|---|---|
-| **A · [39.40528, -9.21136](https://www.google.com/maps?q=39.40528,-9.21136)** — Ponta do Espichel | ✅ **vai** | Zona Livre · 10-15 m da água · pesqueiro mapeado a 160 m · rampa mais próxima a **988 m** · ETAR a 407 m (regra 100 m) · a 2854 m da linha norte. Nada aperta. |
-| **B · [39.41486, -9.22050](https://www.google.com/maps?q=39.41486,-9.22050)** — margem norte | ⚠️ **dá, mas com atenção** | Zona Livre, mas há uma **rampa a 165 m** — só **65 m de folga** sobre os 100 m. Fica para o lado sul e confirma no local. |
-| **M · [39.40021, -9.18683](https://www.google.com/maps?q=39.40021,-9.18683)** — onde a Mariya vai ver aves | ⛔ **não pesques aqui** | Ver a seguir. |
+| **Amplitude** | 2 a 4 m | **1 a 2 m** — cai para cerca de metade |
+| **Duração da enchente** | ~6 h | **~5 h** |
+| **Duração da vazante** | ~6 h | **~7 h** |
 
-### 🐦 O ponto das aves — porque é que digo que não
+A lagoa é **dominada pela enchente**: a maré entra em 5 h e sai em 7 h. Como entra o mesmo volume em menos tempo, **a corrente de enchente é mais forte que a de vazante** — e é a corrente que põe o peixe a comer. É por isso que o conselho de quem lá pesca é *"fins da enchente e inícios da vazante"*: apanhas o pico da corrente que entra e o virar do maço.
 
-Este é o único sítio onde a resposta honesta é *não sei ao certo, e por isso não*.
+| Momento | Vale a pena? |
+|---|---|
+| 🟢 **Última hora e meia de enchente** | **a melhor janela** — corrente máxima, água nova a entrar, peixe a subir com ela |
+| 🟢 **Primeira hora de vazante** | **segunda melhor** — o peixe recua e passa pelos mesmos sítios |
+| 🟡 Meio da enchente | razoável, com corrente |
+| 🔴 Estofa da preia-mar | água parada, o pior |
+| 🔴 Baixa-mar num spot com banco | ficas a lançar para areia seca |
 
-O ponto fica dentro da bacia que o OpenStreetMap chama **"Barrosa"**, a **622 m** do que o OSM chama **"Braço da Barrosa"** — que está **fechado à pesca o ano todo**. O problema: **a lei não publica a geometria.** Diz *"confinada ao Braço da Barrosa"* e remete para o Modelo Territorial do POC-ACE, que existe em 7 folhas mas **não está online** — [procurei na APA](https://apambiente.pt/agua/programa-da-orla-costeira-alcobaca-cabo-espichel) e só lá estão as Diretivas, o Relatório e o Programa de Execução.
+⚠️ **No inverno marítimo** a amplitude da maré dentro da lagoa **cai mais 50%** e a dominância da enchente aumenta ainda mais — o efeito da maré é menor, mas a janela da enchente é ainda mais concentrada.
 
-É perfeitamente plausível que "Braço da Barrosa" na lei signifique o **braço todo**, incluindo esta bacia — o OSM é que o separou em dois. E há um **pontão/embarcadouro oficial no Braço da Barrosa** (Anexo I), com os seus 100 m.
+**A que horas é a maré:** a tabela do topo desta página dá a maré do **oceano**. Para Peniche/Foz do Arelho o Open-Meteo adianta **+33 min** (medido em 6 eventos contra a TideTime, desvio 1,2 min, intervalo +31 a +34) — repara que é simétrico, ao contrário de Lisboa, onde o estuário distorce (+74 PM / +45 BM).
 
-Somando: é também a parte **mais assoreada e de pior renovação de água** da lagoa — os estudos hidrodinâmicos dão *2 dias* de renovação junto à barra contra *3 semanas* nas zonas interiores, e a notícia de out-2025 no [Jornal das Caldas](https://jornaldascaldas.pt/2025/10/30/aumento-da-area-de-pesca-na-lagoa-de-obidos-e-criacao-de-infraestruturas-de-apoio-aos-pe) fala em *"150 hectares perdidos devido às ervas marinhas e ao assoreamento"*, com o vice-presidente das Caldas a apontar *"a parte debilitada da lagoa, desde o Cais Palafítico da Barrosa até à aberta"*.
+> ⏱️ **Dentro da lagoa atrasa mais.** A barra é estreita e está assoreada. Não encontrei número publicado para o desfasamento no sector sul, por isso **conta com cerca de 1 h de atraso face à barra e confirma no primeiro dia a olhar para a água**. *(A calibração oceânica é medida; o atraso interior é estimado.)*
 
-> 🎯 **Solução prática:** ela fica lá — **ver aves não tem restrição nenhuma** — e tu vais para a **Ponta da Ardonia ([39.40464, -9.20159](https://www.google.com/maps?q=39.40464,-9.20159))**, que é Zona Livre, é pesqueiro mapeado e fica a **1,3 km** dela. Ou para o spot A, a 10 min de carro. *(Estado: a distância é medida; a leitura do "Braço da Barrosa" é **opinião cautelosa**, não facto — não consegui a geometria oficial.)*
+### ⚙️ O setup — o que levar e como montar
 
-### 🎣 Como se pesca a lagoa — o que dizem quem lá pesca
+Duas canas, é o máximo que a lagoa permite. A montagem que fizemos para a muralha do Tejo serve, **encurtada e aliviada**: aqui não há ondulação nem fundo sujo, há **corrente de maré, água rasa e peixe desconfiado**.
 
-O tópico mais útil que encontrei é literalmente sobre o teu spot. Em 2021 um pescador foi *"perto da ponta do espichel"* com anzol 2/0, minhoca e amostras, e **não apanhou nada**. A resposta veio de um local das Caldas da Rainha ([Pesqueiro, tópico 30772](https://www.pesqueiro.pt/index.php?topic=30772.0)):
+**🥇 Cana 1 — fundo, dois anzóis** *(a que trabalha sozinha)*
 
-> *"Costumo ir para lá pescar. Têm saído alguns peixinhos, muito peixe pequeno como se pode imaginar. Com algumas surpresas pelo meio. **Fins da enchente e inícios da vazante, a lançar para os canais.** Como há muito peixe miúdo, **iscadas maiores e mais resistentes**. Depois é escolher **sítios que permitam chegar aos canais mais fundos no lançamento**. Iscos já usei **lingueirão, mexilhão, camarita, casulo, coreano**… Depende dos dias e da fome."*
+| Peça | O que usar |
+|---|---|
+| Madre | mono 0,28-0,30 ou trançada 0,16 |
+| Chumbo | **30-60 g** conforme a corrente — começa nos 40 g |
+| Estralho de cima | fluoro **0,30-0,35**, **50-60 cm** |
+| Estralho de baixo | fluoro **0,28-0,30**, **30-40 cm** |
+| Anzóis | **n.º 4 a 1/0** — os teus de mar de 8,3 mm servem |
+| Nós | Palomar nas argolas, cirurgião nos estralhos |
 
-Isso são as três chaves todas: **maré certa · canal · isco grande e rijo.** A lagoa é rasa e está assoreada — quem lança para o raso não apanha nada.
+**🥈 Cana 2 — corrida** *(para dourada desconfiada e para a estofa)*
+
+Chumbo corrediço na madre → conta amortecedora → destorcedor → **60-80 cm de fluoro 0,30** → anzol n.º 4-2. Peso 30-50 g. É a que ganha quando a água está parada e o peixe não pega no fundo fixo.
+
+**🥉 Se quiseres andar a mexer** — spinning leve, vinil de 7-12 cm ou spinner #2-3, leader de fluoro 0,30, 7-20 g. À boca dos canais, na enchente, ao robalo. É a tua cana pequena com o mono 0,30 que já lhe puseste.
+
+⚠️ **Regra da lagoa: máximo 2 canas por pescador e 3 anzóis por cana.** Duas canas de fundo com 2 anzóis cada = 4 anzóis na água, dentro da lei.
+
+**O que levar na caixa:** chumbos de 30, 40 e 60 g · fluoro 0,28 e 0,35 · anzóis 4, 2 e 1/0 · destorcedores · contas · uma caixa para o isco vivo · **um ancinho e um balde** (ver a seguir) · e o camaroeiro, que a margem é baixa e lamacenta.
+
+### 🎣 Como pescar — o resumo
 
 | Chave | O que fazer |
 |---|---|
-| ⏱️ **Maré** | **fim da enchente e início da vazante.** Não é o meio da maré nem a estofa longa |
-| 🎯 **Onde** | escolher margem de onde o **lançamento chega ao canal** — não é o spot mais bonito, é o que alcança fundo |
-| 🪱 **Isco** | **grande e resistente**: lingueirão, mexilhão, camarita, casulo, coreana. Isco mole é destruído pelo peixe miúdo |
-| 🐟 **Espécies** | robalo, dourada, baila, linguado, sargo, salmonete, tainha, enguia, choco, polvo — e já apareceu **corvina** |
+| ⏱️ **Maré** | **fim da enchente, início da vazante.** Não a estofa |
+| 🎯 **Onde** | margem de onde o lançamento **passe o amarelo** do mapa |
+| 🪱 **Isco** | **grande e resistente** — lingueirão, mexilhão, camarita, casulo, coreana. Há muito peixe miúdo que destrói isco mole |
+| 🐟 **Espécies** | robalo, dourada, baila, linguado, sargo, salmonete, tainha, enguia, choco, polvo — e já saiu corvina |
+| 🚫 **Erro clássico** | lançar 20 m para o raso e esperar. É o que faz branquear ali |
 
-> 🛰️ **Como encontrar os canais:** liga a camada **satélite** no mapa acima. Os canais aparecem como faixas escuras no meio do raso claro — é a única maneira fiável, porque **não há batimetria pública desta lagoa**. Tentei derivá-la do OpenStreetMap e não dá: dos 94 polígonos que lá estão, só **2** são intertidais, o resto é duna e sapal. Chegar lá na baixa-mar e olhar também resolve.
-
-### 🪱 O isco está lá — de graça
-
-Da [reportagem do Rafael Reis na Lobo do Mar](https://danielfilipers.wixsite.com/revistalobodomar/post/%C3%A0-descoberta-da-lagoa-de-%C3%B3bidos):
+### 🪱 O isco apanha-se lá, de graça
 
 > *"Nas margens, **durante a maré baixa** podemos ainda apanhar **casulo, caranguejos e várias espécies de vermes e anelídeos** para usar como isco."*
+> — [Rafael Reis, Lobo do Mar](https://danielfilipers.wixsite.com/revistalobodomar/post/%C3%A0-descoberta-da-lagoa-de-%C3%B3bidos)
 
-Chega uma hora antes da baixa-mar com um ancinho e um balde e não gastas nada. O casulo daqui é o mesmo *Diopatra* que compraste na Decathlon.
+Chega **uma hora antes da baixa-mar** com ancinho e balde e não gastas nada. O casulo daqui é o mesmo *Diopatra neapolitana* que compras na loja. Também há berbigão, lingueirão e mexilhão nas margens.
 
-### ⚙️ Setups para a lagoa
+⚠️ **Para isco, sim; para comer, não** sem verificar. A apanha de bivalves tem zonas fechadas por saúde pública e regras próprias — consulta o [IPMA](https://www.ipma.pt/pt/bivalves/) antes de levares marisco para casa.
 
-A montagem da muralha serve, **encurtada**: aqui não há ondulação nem fundo sujo, há corrente de maré e peixe desconfiado em água rasa.
+### 🐙 Ao choco — a montagem de quem lá pesca
 
-| | Montagem | Peso | Quando |
-|---|---|---|---|
-| 🥇 **Fundo, 2 anzóis** | **pescador-de-fundo** — estralhos de fluoro **0,28-0,35**, o de cima 50-60 cm, o de baixo 30-40 cm, anzóis **n.º 4 a 1/0** | **30-60 g** conforme a corrente | robalo e dourada de fundo, o teu pão-e-manteiga |
-| 🥈 **Corrida** | chumbo corrediço na madre + destorcedor + **60-80 cm** de fluoro 0,30 | 30-50 g | dourada desconfiada, água parada na estofa |
-| 🥉 **Spinning** | vinil 7-12 cm ou spinner #2-3, leader fluoro 0,30 | 7-20 g | robalo à boca dos canais, na enchente |
+A partir de setembro entra choco na lagoa. Montagem do Rafael Reis: **destorcedor triplo** na madre; da argola de baixo, **um palmo** de nylon até ao chumbo; da que sobra, **dois palmos de fluorocarbono** com um clip para prender a toneira. Chumbo de **20 a 60 g** — *"em 90% das vezes uso chumbadas de 30 g"*.
 
-⚠️ **Máximo 2 canas** — não 3. É a regra da lagoa.
-
-**Ao choco** (a partir de setembro), a montagem do Rafael Reis: destorcedor triplo na madre; **um palmo** de nylon até ao chumbo (20-60 g, "em 90% das vezes 30 g"); **dois palmos** de fluorocarbono com clip para a toneira.
-
-### 🌊 Maré — calibrei o Open-Meteo para aqui
-
-| | Valor |
-|---|---|
-| **Referência oceânica** | Peniche / Foz do Arelho |
-| **Erro do Open-Meteo** | adianta **+33 min** (PM e BM igual) |
-| **Medido em** | 6 eventos, 9-10 set 2026, contra a TideTime · desvio 1,2 min · intervalo +31 a +34 |
-
-Repara que é **diferente de Lisboa** (onde é +74 PM / +45 BM): aqui não há estuário a distorcer, o erro é simétrico.
-
-> ⚠️ **Mas isto é a maré no OCEANO, à barra.** Dentro da lagoa **atrasa mais e a amplitude cai** — a barra é estreita e está assoreada. Não encontrei número publicado para o desfasamento, por isso **não o invento**. Regra prática: no sector sul (o teu spot A) conta com **atraso da ordem de 1 h** face à barra, e confirma no primeiro dia a olhar para a água. *(Estado: a calibração oceânica é medida; o atraso interior é estimado.)*
+Duas toneiras de cores diferentes ao mesmo tempo até perceberes qual está a funcionar naquele dia, e depois iguala as duas.
 
 ### 🏕️ Dormir lá — o que a lei diz
 
