@@ -1152,11 +1152,25 @@ A [**Resifight 500 3,00 m X-Heavy**](https://www.decathlon.pt/p/cana-de-pesca-ao
 | Cana | Linha-mãe | Chumbo | Leader que a conta pede | Tens? | Veredicto |
 |---|---|---|---|---|---|
 | **Cana do avô** | Tournament 0,33 → **~8-9 kg** | 100 g *(3,5 oz)* | **~16 kg** | mãe fica **muito abaixo** | ✅ **shock leader 0,60 FICA** |
-| **Resifight 500** | trançada **27 kg** | 60 g *(2,1 oz)* | 9,5 kg | mãe tem **quase 3× a mais** | ❌ **0,60 SAI** |
+| **Resifight 500** | trançada **27 kg** | 60 g *(2,1 oz)* | 9,5 kg | mãe tem **quase 3× a mais** | 🤷 **não precisas — mas podes deixar** |
 
-Na cana do avô isto **não é opcional**: a mãe de 8-9 kg está abaixo do que 80 g pedem. Sem o 0,60, mais cedo ou mais tarde estalas no lançamento e mandas **80 gramas de chumbo pelo ar**. Foi por isso que to mandei fazer, e continua certo.
+Na cana do avô isto **não é opcional**: a mãe de 8-9 kg é metade do que 100 g pedem. Sem o 0,60, mais cedo ou mais tarde estalas no lançamento e mandas **100 gramas de chumbo pelo ar**. Foi por isso que to mandei fazer, e continua certo.
 
-Na Resifight é o contrário: a trançada de 27 kg já tem quatro vezes a margem, portanto o 0,60 não está a proteger nada — só a estorvar onde interessa.
+Na Resifight a trançada de 27 kg já tem margem de sobra, portanto o 0,60 **não está a proteger nada**. Mas isso não quer dizer que faça mal:
+
+#### 🤔 O 0,60 na Resifight espanta o peixe? **Não.**
+
+O que o peixe inspecciona são os **últimos 30-60 cm, junto ao isco** — e esses são o teu **estralho de fluoro**. O topshot acaba no destorcedor, antes da montagem: fica a meio metro do anzol e deitado no fundo. É por isso que na carpa e no surf se usa há décadas linha grossa na mãe com empates finos — e apanha-se à mesma.
+
+**O que o 0,60 te custa mesmo é distância de lançamento**, não peixe. E aí a pergunta é onde vais estar:
+
+| Onde | Água começa a | Precisas de lançar longe? |
+|---|---|---|
+| **#5 / spot A** *(a tua manhã)* | **11-18 m** da margem | ❌ **não** — o 0,60 não te tira nada |
+| **#1** *(a tarde)* | 11 m, mas o meio do canal está aos 80 m | ⚠️ ajuda, mas aos 60 m já estás bem |
+
+> ✅ **Veredicto: mantém o 0,60 na Resifight este fim de semana.** No #5 a água começa aos 11 m — não há distância nenhuma a ganhar, e às 6h30 da manhã, no escuro, com duas canas para montar, não é altura de andar a refazer nós.
+> 🔧 Se um dia quiseres mesmo lançar longe no #1, aí sim troca por 1,5 m de fluoro. Mas é optimização, não correcção.
 
 > 🎯 **E o fluoro? Nas duas — mas só nos estralhos.**
 > O peixe só inspecciona os **últimos 30-60 cm**, junto ao isco. É aí que o fluoro trabalha, e é igual nas duas canas: **estralhos de fluoro 0,28-0,35**.
@@ -1183,10 +1197,11 @@ Na Resifight é o contrário: a trançada de 27 kg já tem quatro vezes a margem
 | | Cana do avô | Resifight 500 |
 |---|---|---|
 | Mãe | Tournament 0,33 branco | trançada 27 kg |
-| A seguir | **10 m de mono 0,60** *(shock leader)* | **1,5 m de fluoro 0,30-0,35** |
+| A seguir | **10 m de mono 0,60** *(shock leader — obrigatório)* | **o 0,60 que já lá tens** *(opcional)* |
 | Depois | destorcedor → montagem | destorcedor → montagem |
 | Estralhos | **fluoro 0,28-0,35** | **fluoro 0,28-0,35** |
 | Chumbo | **100 g** | **60 g** fixo · **50 g** de correr |
+| Dedo | o 0,60 protege | ⚠️ dedeira ou luva se tirares o 0,60 |
 
 ✅ **As contas do shock leader com estes chumbos:** 100 g = 3,5 oz → pede ~**16 kg**, e o teu mono 0,60 dá 20-24 kg ✓. Na Resifight, 60 g = 2,1 oz → pede ~9,5 kg, e a trançada tem 27 ✓.
 
