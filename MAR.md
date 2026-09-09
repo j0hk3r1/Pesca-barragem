@@ -919,24 +919,26 @@ Em vez de me fiar nos nomes do OpenStreetMap, varri **a margem inteira de 40 em 
 
 | # | Onde | Água aberta<br>*(raio 150 m)* | Lançamento | Estrada | Rampa | |
 |---|---|---|---|---|---|---|
-| **1** | **⭐ Ponta do Espichel — a ponta da língua de areia**<br>[39.40372, -9.21098](https://www.google.com/maps?q=39.40372,-9.21098) | **92%** | 11 m NNE | 315 m | 1132 m | **o melhor** |
-| **2** | **⭐ Braço sudoeste — canal estreito**<br>[39.39529, -9.21906](https://www.google.com/maps?q=39.39529,-9.21906) | **65%** | 11 m ENE | 52 m | 1005 m | carro à beira de água |
-| **3** | **Ponta da Ardonia**<br>[39.40364, -9.20088](https://www.google.com/maps?q=39.40364,-9.20088) | **48%** | 11 m SO | 28 m | 1845 m | o mais perto da Mariya |
-| **4** | **Clube de Vela**<br>[39.40895, -9.20208](https://www.google.com/maps?q=39.40895,-9.20208) | **44%** | 11 m O | 53 m | 1562 m | merendas a 176 m |
-| **5** | **Extremo sul da lagoa**<br>[39.39052, -9.22436](https://www.google.com/maps?q=39.39052,-9.22436) | **48%** | 11 m E | 27 m | 316 m |  |
-| **6** | **Margem sul, 400 m a poente do teu spot**<br>[39.4031, -9.21693](https://www.google.com/maps?q=39.4031,-9.21693) | **48%** | 11 m E | 43 m | 931 m |  |
-| **7** | **Margem sul, 400 m a nascente do teu spot**<br>[39.40771, -9.21475](https://www.google.com/maps?q=39.40771,-9.21475) | **43%** | 11 m N | 38 m | 591 m |  |
-| **8** | **Margem nascente, junto às merendas do sul**<br>[39.39949, -9.19839](https://www.google.com/maps?q=39.39949,-9.19839) | **29%** | 11 m OSO | 58 m | 2267 m |  |
-| **9** | **Braço sudoeste, margem norte**<br>[39.3957, -9.21128](https://www.google.com/maps?q=39.3957,-9.21128) | **45%** | 11 m N | 330 m | 1519 m | 330 m a pé |
-| **10** | **Musaranhos — extremo sudoeste**<br>[39.38599, -9.22563](https://www.google.com/maps?q=39.38599,-9.22563) | **34%** | 11 m OSO | 60 m | 213 m |  |
-| **11** | **Junto ao Cais da Foz do Arelho**<br>[39.42769, -9.22051](https://www.google.com/maps?q=39.42769,-9.22051) | **39%** | 11 m S | 64 m | 202 m | ⚠️ fecha na época balnear |
-| **12** | **Ponta do Carro**<br>[39.42274, -9.20823](https://www.google.com/maps?q=39.42274,-9.20823) | **27%** | 11 m S | 15 m | 260 m | ⚠️ 20% de banco · fecha na época |
+| **1** | **⭐ Ponta do Espichel — a ponta da língua de areia**<br>[39.40372, -9.21098](https://www.google.com/maps?q=39.40372,-9.21098) | **92%** | 11 m | 315 m | 1132 m | **o melhor** |
+| **2** | **⭐ Braço sudoeste — canal estreito**<br>[39.39529, -9.21906](https://www.google.com/maps?q=39.39529,-9.21906) | **65%** | 11 m | 52 m | 1005 m | carro à beira de água |
+| **3** | **Ponta da Ardonia**<br>[39.40364, -9.20088](https://www.google.com/maps?q=39.40364,-9.20088) | **48%** | 11 m | 28 m | 1845 m | o mais perto da Mariya |
+| **4** | **Clube de Vela**<br>[39.40895, -9.20208](https://www.google.com/maps?q=39.40895,-9.20208) | **44%** | 11 m | 53 m | 1562 m | merendas a 176 m |
+| **5** | **Extremo sul da lagoa**<br>[39.39052, -9.22436](https://www.google.com/maps?q=39.39052,-9.22436) | **48%** | 11 m | 27 m | 316 m |  |
+| **6** | **Margem sul, 400 m a poente do teu spot**<br>[39.4031, -9.21693](https://www.google.com/maps?q=39.4031,-9.21693) | **48%** | 11 m | 43 m | 931 m |  |
+| **7** | **Margem sul, 400 m a nascente do teu spot**<br>[39.40771, -9.21475](https://www.google.com/maps?q=39.40771,-9.21475) | **43%** | 11 m | 38 m | 591 m |  |
+| **8** | **Margem nascente, junto às merendas do sul**<br>[39.39949, -9.19839](https://www.google.com/maps?q=39.39949,-9.19839) | **29%** | 11 m | 58 m | 2267 m |  |
+| **9** | **Braço sudoeste, margem norte**<br>[39.3957, -9.21128](https://www.google.com/maps?q=39.3957,-9.21128) | **45%** | 11 m | 330 m | 1519 m | 330 m a pé |
+| **10** | **Musaranhos — extremo sudoeste**<br>[39.38599, -9.22563](https://www.google.com/maps?q=39.38599,-9.22563) | **34%** | 11 m | 60 m | 213 m |  |
+| **11** | **Junto ao Cais da Foz do Arelho**<br>[39.42769, -9.22051](https://www.google.com/maps?q=39.42769,-9.22051) | **39%** | 11 m | 64 m | 202 m | ⚠️ fecha na época balnear |
+| **12** | **Ponta do Carro**<br>[39.42274, -9.20823](https://www.google.com/maps?q=39.42274,-9.20823) | **27%** | 11 m | 15 m | 260 m | ⚠️ 20% de banco · fecha na época |
 
 > ⭐ **Se levas um só na cabeça, leva o #1.** É onde tens **92% de água que não seca à volta** — o valor mais alto de toda a lagoa. E é a **ponta da língua de areia que sai do teu spot**: deixas o carro na Ecopista, andas **177 m pela areia para fora** e ficas com água funda dos dois lados. Não precisas de lançar longe.
 >
 > 🚗 **Se preferes chegar de carro à água, é o #2** — canal estreito no braço sudoeste, com um caminho de terra que desce até à margem. Água escura encostada aos dois lados: é onde a corrente de maré fica apertada.
 >
 > 🏖️ **Se forem os dois, é o #4** — Clube de Vela, com parque de merendas a 176 m e margem limpa.
+
+> 🧭 **Os rumos de lançamento só estão calculados a sério para o #1 e o #2** — nesses dois desci a imagem aérea a 0,92 m/pixel e varri os 360°. Para os outros dez, a coluna dá só a distância; o rumo lê-lo no local, ou no mapa com a camada de satélite ligada.
 
 > 📐 **Como isto foi feito, e o que não prova.** *"Água aberta"* é a percentagem de superfície, num raio de 150 m, que **não fica a seco na baixa-mar** — medido numa imagem aérea apanhada em maré baixa. *"Lançamento"* é a distância da margem a essa água; **11 m é o mínimo da grelha**, quer dizer *"a água começa logo aos teus pés"*. Estrada e rampa são distâncias calculadas sobre dados do OpenStreetMap.
 > **Isto diz-te onde há água que não seca — não diz a profundidade.** Não existe batimetria pública desta lagoa. Um sítio com 92% de água aberta pode ainda assim ter meio metro de fundo. Serve para escolher a margem antes de sair de casa; a profundidade descobres no local.
@@ -1055,8 +1057,8 @@ Cada ponto traz a descrição completa: distância de lançamento, rumo, se há 
 
 | | Onde ela fica | Podes pescar aí? | Spot legal mais próximo |
 |---|---|---|---|
-| **2** | [39.39813, -9.20018](https://www.google.com/maps?q=39.39813,-9.20018) | ⚠️ está **em terra**, a 193 m da água da Zona Livre | ✅ **#8 a apenas 216 m** — [39.39949, -9.19839](https://www.google.com/maps?q=39.39949,-9.19839) |
-| **3** | [39.39983, -9.18685](https://www.google.com/maps?q=39.39983,-9.18685) | ⛔ **não** — a 14 m da bacia da Barrosa | #8, a 992 m |
+| **1** | [39.39813, -9.20018](https://www.google.com/maps?q=39.39813,-9.20018) | ⚠️ está **em terra**, a 193 m da água da Zona Livre | ✅ **#8 a apenas 216 m** — [39.39949, -9.19839](https://www.google.com/maps?q=39.39949,-9.19839) |
+| **2** | [39.39983, -9.18685](https://www.google.com/maps?q=39.39983,-9.18685) | ⛔ **não** — a 14 m da bacia da Barrosa | #8, a 992 m |
 
 **No ponto 1 ficam praticamente juntos.** O **#8** é Zona de Utilização Livre, tem a rampa mais próxima a **2234 m** (o limite são 100), e há um **parque de merendas a 185 m** do sítio dela. É o melhor arranjo dos dois: ela senta-se, tu andas 216 m e pescas.
 
@@ -1146,20 +1148,26 @@ Marés do oceano calibradas (+33 min) mais o atraso local do #1 (+1h44 médio). 
 | **17:31** | **PREIA-MAR** | +0,83 m | ~0% | água parada |
 | 18:45 | vazante | +0,72 m | 34% | ▓▓▓ |
 
-**Duas coisas puxam em sentidos diferentes, e as duas contam:**
+**Duas leituras diferentes, e não concordam — vale a pena saber isso:**
 
-- 💨 **A corrente é máxima a meio da maré** — 15:00 na enchente, 09:00 na vazante. É física.
-- 🐟 **Mas o peixe está acessível da margem perto da preia-mar.** A lagoa tem **29% da área a seco na baixa-mar**: com pouca água, o peixe não sobe às margens nem aos rasos. É por isso que o conselho de quem lá pesca é *"fins da enchente e inícios da vazante"* — não é pela corrente, é porque é quando o peixe está ao teu alcance.
+| | Diz o quê | Aponta para |
+|---|---|---|
+| 💨 **A física** | a corrente é máxima **a meio da maré** — 15:00 na enchente, 09:00 na vazante | **14:30 – 17:00** |
+| 🐟 **O local das Caldas** | *"fins da enchente e inícios da vazante"* — na lagoa 29% fica a seco, e o peixe só sobe às margens com água | **16:30 – 18:30** |
 
-> 🎯 **Se acordas às 6, vai.** Às 06:00 apanhas o **topo da maré a começar a vazar** — nível ainda a +0,79 m e corrente a subir de 21% para 69% às 09:00 — com o **nascer do sol às 07:15 mesmo a meio**. É a combinação das duas coisas: água alta *e* corrente a ganhar, mais a primeira luz. **A melhor janela da manhã é 06:30 – 09:30.**
+As duas fazem sentido e medem coisas diferentes: uma mede **água a mexer**, a outra mede **peixe ao teu alcance**. Estão desencontradas cerca de duas horas, e **não tenho como decidir entre elas** — o meu modelo é um modelo, ele pesca lá.
+
+> ✅ **A resposta que não te obriga a escolher: fica das 14:30 às 18:30.** Quatro horas que cobrem as duas leituras. Começas com a corrente no máximo e acabas na preia-mar com o peixe em cima das margens. **Não arrumes às 17:00**, que é onde as duas leituras se separam.
 >
-> 🔁 **E se aguentares o dia todo, volta às 14:00.** A enchente da tarde é a **corrente mais forte do dia** (88-99% entre as 14:00 e as 16:00) e leva-te até à preia-mar das 17:31. **14:00 – 18:30** é a melhor janela do fim de semana inteiro.
+> 🌅 **E de manhã, 06:30 – 09:30** — aí não há conflito. Chegas logo a seguir à preia-mar das 05:17 (o *"início da vazante"* do local), a corrente sobe de 21% para 69% às 09:00, e o nascer do sol às 07:15 cai a meio. As duas leituras apontam para o mesmo sítio.
 >
-> 📊 **Onde é que a manhã fica no ranking do dia:** corri a pontuação para as 24 horas de sábado. **14:30-17:00 dá 0,74** (o melhor), a enchente da madrugada 0,69, **a tua manhã 06:45-09:15 dá 0,61** e o anoitecer 0,60. A manhã vale **83% do melhor momento do dia** — vale bem a pena, e o 3.º e o 4.º lugar estão tão perto que a diferença cabe dentro do erro do modelo.
+> 📊 **Onde é que a manhã fica no dia:** pontuei as 24 horas. **14:30-17:00 dá 0,74** (o topo), a enchente da madrugada 0,69, **a tua manhã 06:45-09:15 dá 0,61**, o anoitecer 0,60. A manhã vale **83% do melhor momento** — vale bem a pena.
 >
 > 😴 **O que podes saltar:** 10:00 às 13:30 — maré a esvaziar e depois parada, com o nível no fundo. É quando os bancos de areia ficam à mostra.
 
 ⚠️ **Precisão disto:** as horas das marés do oceano estão verificadas contra **duas fontes independentes** — a TideTime (calibração, desvio 1,2 min) e a tabuademares para este fim de semana, que dá **PM 04:05 e 16:20** no sábado contra os meus 04:09 e 16:23: **erro de 3 a 6 min**. O atraso de +1h44 vem da fase de M2 publicada, repartida por mim ao longo do canal — **conta ±20 min**. A curva de corrente é um modelo sinusoidal entre os extremos: serve para comparar horas entre si, **não é uma velocidade real em nós**.
+
+> 🔒 **Estas horas estão fechadas.** As marés do oceano batem certo com duas fontes independentes (3 a 6 min de erro) e o atraso da lagoa vem de fase de M2 publicada. O que pode ainda mexer é o **vento**, e isso não muda a maré — muda só qual dos dois spots te dá o vento nas costas.
 
 **Domingo vemos na sexta**, mais perto, para apanhar a previsão de vento certa.
 
@@ -1265,13 +1273,81 @@ Duas canas, o máximo que a lagoa permite. Ambas podem levar corrida, porque ten
 >
 > | Onde | Abertura | Qual dos teus |
 > |---|---|---|
-> | **Estralho de cima** *(robalo, molho de 2 navalhas)* | **9,9 mm** | os de carpa |
-> | **Estralho de baixo** *(dourada, 1 navalha)* | **8,3 mm** | os de mar com barbelas — as barbelas seguram a navalha mole |
+> | **Estralho de cima** *(robalo, 2 navalhas)* | **8,3 mm** | os de mar com barbelas |
+> | **Estralho de baixo** *(dourada, 1 navalha)* | **8,3 mm** | idem — as barbelas seguram a navalha mole |
 > | **Corrida** | **8,3 mm** | idem |
 >
 > ⚠️ Os teus **octopus de 15 mm ficam em casa** — são para peixe de 10 kg, e o que sai da lagoa anda em 1-3 kg.
 
 **🥇 Fundo de 2 anzóis** — *a montagem base, é a que trabalha sozinha enquanto esperas*
+
+<div style="overflow-x:auto">
+<svg viewBox="0 0 460 512" style="display:block;width:100%;max-width:400px;margin:.6em auto;background:#fbfcfc;border:1px solid #e2e6ea;border-radius:10px" role="img" aria-label="Montagem de fundo de dois anzóis para a Lagoa de Óbidos, à escala">
+<g fill="none" stroke="#33505a" stroke-linecap="round">
+  <path d="M136 4 V18" stroke-width="2.6"/>
+  <path d="M136 18 V34" stroke-width="4" opacity=".5"/>
+  <path d="M136 62 V142" stroke-width="2.6"/>
+  <path d="M136 165 V354" stroke-width="2.6"/>
+  <path d="M136 377 V466" stroke-width="2.6"/>
+</g>
+<g fill="none" stroke="#0e7490" stroke-width="1.5" stroke-linecap="round">
+  <path d="M153 152 H252 V300"/><path d="M252 300 V316 a8 8 0 0 0 16 0 V310"/><path d="M268 310 l-3 4"/>
+  <path d="M153 364 H228 V440"/><path d="M228 440 V454 a7 7 0 0 0 14 0 V449"/><path d="M242 449 l-3 4"/>
+</g>
+<g fill="#233034">
+  <rect x="132" y="44" width="8" height="9" rx="2"/>
+  <rect x="128" y="140" width="16" height="4" rx="1"/><rect x="128" y="161" width="16" height="4" rx="1"/>
+  <rect x="128" y="352" width="16" height="4" rx="1"/><rect x="128" y="373" width="16" height="4" rx="1"/>
+  <circle cx="136" cy="152" r="5.5"/><circle cx="136" cy="364" r="5.5"/>
+  <circle cx="136" cy="480" r="13"/>
+</g>
+<g fill="#fbfcfc" stroke="#233034" stroke-width="2">
+  <circle cx="136" cy="40" r="4.5"/><circle cx="136" cy="58" r="4.5"/>
+</g>
+<g fill="#fbfcfc" stroke="#233034" stroke-width="1.6">
+  <circle cx="149" cy="152" r="4"/><circle cx="149" cy="364" r="4"/>
+</g>
+<g fill="#c9b79c" stroke="#233034" stroke-width=".9">
+  <ellipse cx="248" cy="300" rx="6" ry="13"/><ellipse cx="256" cy="307" rx="6" ry="13"/>
+  <ellipse cx="224" cy="440" rx="5" ry="11"/>
+</g>
+<rect x="231" y="424" width="10" height="13" rx="4" fill="#e0b03a" stroke="#233034" stroke-width="1"/>
+<g stroke="#b8471f" stroke-width="1.2" fill="none">
+  <path d="M100 62 H112 M100 142 H112 M106 62 V142"/>
+  <path d="M100 152 H112 M100 360 H112 M106 152 V360"/>
+  <path d="M100 364 H112 M100 472 H112 M106 364 V472"/>
+</g>
+<g fill="#b8471f" font-family="system-ui,sans-serif" font-weight="700" font-size="15" text-anchor="end">
+  <text x="94" y="107">25 cm</text><text x="94" y="252">60 cm</text><text x="94" y="424">40 cm</text>
+</g>
+<g fill="#b8471f" font-family="system-ui,sans-serif" font-weight="700" font-size="15">
+  <text x="262" y="164">50 cm</text><text x="250" y="376">30 cm</text>
+</g>
+<g fill="#12242b" font-family="system-ui,sans-serif" font-weight="600" font-size="12.5">
+  <text x="150" y="14">Tournament 0,33</text>
+  <text x="150" y="47">destorcedor · PALOMAR</text>
+  <text x="18" y="150">ESTAÇÃO 1</text><text x="18" y="362">ESTAÇÃO 2</text>
+  <text x="262" y="150">estralho fluoro 0,30-0,35</text>
+  <text x="278" y="296">anzol 8,3 mm · ROBALO</text>
+  <text x="250" y="362">estralho fluoro 0,28-0,30</text>
+  <text x="250" y="436">anzol 8,3 mm · DOURADA</text>
+  <text x="156" y="478">chumbo 100 g</text>
+</g>
+<g fill="#5c6c70" font-family="system-ui,sans-serif" font-size="11.5">
+  <text x="150" y="30">→ shock leader mono 0,60 · 10 m</text>
+  <text x="18" y="163">2 nós de stop</text><text x="18" y="175">+ missanga</text><text x="18" y="187">+ destorcedor</text>
+  <text x="278" y="309">2 navalhas, elástico</text><text x="278" y="321">rabo curto, 2-3 cm</text>
+  <text x="94" y="268" text-anchor="end">estralho &lt; 60</text>
+  <text x="250" y="449">1 navalha · milho de esponja</text>
+  <text x="156" y="491">com garra se houver corrente</text>
+</g>
+<g stroke="#b9c4c2" fill="none">
+  <path d="M14 500 H446" stroke-width="2"/>
+  <path d="M24 500 l-6 8 M64 500 l-6 8 M104 500 l-6 8 M144 500 l-6 8 M184 500 l-6 8 M224 500 l-6 8 M264 500 l-6 8 M304 500 l-6 8 M344 500 l-6 8 M384 500 l-6 8 M424 500 l-6 8" stroke-width="1"/>
+</g>
+</svg>
+</div>
+
 
 | Peça | Cana do avô | Resifight 500 |
 |---|---|---|
@@ -1280,7 +1356,7 @@ Duas canas, o máximo que a lagoa permite. Ambas podem levar corrida, porque ten
 | **Chumbo** | **100 g** | **60 g** |
 | **Estralho de cima** | fluoro **0,30-0,35** · **50 cm** | idem |
 | **Estralho de baixo** | fluoro **0,28-0,30** · **30 cm** | idem |
-| **Anzóis** *(abertura)* | **9,9 mm** em cima · **8,3 mm** em baixo | idem |
+| **Anzóis** *(abertura)* | **8,3 mm** nos dois — os de mar com barbelas | idem |
 | **Nós** | Palomar nas argolas · cirurgião nos estralhos | idem |
 
 > 📏 **Os vãos entre estações, e porque é que a medida do estralho depende deles.**
@@ -1310,6 +1386,68 @@ Duas canas, o máximo que a lagoa permite. Ambas podem levar corrida, porque ten
 
 **🥈 Corrida** — *para dourada desconfiada e para a estofa*
 
+<div style="overflow-x:auto">
+<svg viewBox="0 0 460 512" style="display:block;width:100%;max-width:400px;margin:.6em auto;background:#fbfcfc;border:1px solid #e2e6ea;border-radius:10px" role="img" aria-label="Montagem de corrida para a Lagoa de Óbidos, à escala">
+<g fill="none" stroke="#33505a" stroke-linecap="round">
+  <path d="M136 4 V18" stroke-width="2.6"/>
+  <path d="M136 18 V34" stroke-width="4" opacity=".5"/>
+  <path d="M136 62 V286" stroke-width="2.6"/>
+  <path d="M142 158 L184 196" stroke-width="2.6"/>
+</g>
+<path d="M136 324 V452" fill="none" stroke="#0e7490" stroke-width="1.5"/>
+<g fill="none" stroke="#0e7490" stroke-width="1.5" stroke-linecap="round">
+  <path d="M136 452 V468 a8 8 0 0 0 16 0 V462"/><path d="M152 462 l-3 4"/>
+</g>
+<g fill="#233034">
+  <rect x="132" y="44" width="8" height="9" rx="2"/><rect x="132" y="308" width="8" height="8" rx="2"/>
+  <circle cx="136" cy="290" r="5.5"/><circle cx="194" cy="206" r="12"/>
+</g>
+<g fill="#fbfcfc" stroke="#233034" stroke-width="2">
+  <circle cx="136" cy="40" r="4.5"/><circle cx="136" cy="58" r="4.5"/>
+  <circle cx="136" cy="140" r="8"/><circle cx="136" cy="155" r="4"/>
+  <circle cx="136" cy="304" r="4.5"/><circle cx="136" cy="320" r="4.5"/>
+</g>
+<g fill="#c9b79c" stroke="#233034" stroke-width=".9">
+  <ellipse cx="132" cy="452" rx="6" ry="13"/><rect x="140" y="446" width="9" height="20" rx="2"/>
+</g>
+<g stroke="#b8471f" stroke-width="1.2" fill="none">
+  <path d="M100 62 H112 M100 286 H112 M106 62 V286"/>
+  <path d="M100 324 H112 M100 460 H112 M106 324 V460"/>
+  <path d="M116 120 V172 M112 126 l4 -6 4 6 M112 166 l4 6 4 -6"/>
+</g>
+<g fill="#b8471f" font-family="system-ui,sans-serif" font-weight="700" font-size="15" text-anchor="end">
+  <text x="94" y="178">70 cm</text><text x="94" y="396">70 cm</text>
+</g>
+<g fill="#12242b" font-family="system-ui,sans-serif" font-weight="600" font-size="12.5">
+  <text x="150" y="14">trançada 27 kg</text>
+  <text x="150" y="47">destorcedor · PALOMAR</text>
+  <text x="18" y="132">desliza livre</text>
+  <text x="152" y="150">destorcedor a correr</text>
+  <text x="212" y="204">chumbo 50 g de correr</text>
+  <text x="150" y="313">destorcedor · PALOMAR</text>
+  <text x="150" y="392">estralho fluoro 0,30</text>
+  <text x="166" y="452">anzol 8,3 mm</text>
+</g>
+<g fill="#5c6c70" font-family="system-ui,sans-serif" font-size="11.5">
+  <text x="150" y="30">→ o topshot 0,60 que já lá tens</text>
+  <text x="18" y="145">o peixe leva</text><text x="18" y="157">70 cm sem</text><text x="18" y="169">sentir peso</text>
+  <text x="94" y="194" text-anchor="end">curso do chumbo</text>
+  <text x="212" y="217">sem fusível — o fundo é areia</text>
+  <text x="150" y="293">missanga (batente)</text>
+  <text x="150" y="405">sem flutuação</text>
+  <text x="166" y="465">navalha ou tira de choco</text>
+</g>
+<g stroke="#b9c4c2" fill="none">
+  <path d="M14 488 H446" stroke-width="2"/>
+  <path d="M24 488 l-6 8 M64 488 l-6 8 M104 488 l-6 8 M144 488 l-6 8 M184 488 l-6 8 M224 488 l-6 8 M264 488 l-6 8 M304 488 l-6 8 M344 488 l-6 8 M384 488 l-6 8 M424 488 l-6 8" stroke-width="1"/>
+</g>
+<g stroke="#6f8f5e" stroke-width="1.6" fill="none" stroke-linecap="round">
+  <path d="M300 486 c6 -10 10 4 16 -8 M330 486 c5 -12 9 2 14 -10 M360 486 c6 -9 11 5 16 -7"/>
+</g>
+</svg>
+</div>
+
+
 Chumbo de correr na madre → conta amortecedora → destorcedor → **70 cm de fluoro 0,30** → anzol de **8,3 mm**.
 Na Resifight usas o **50 g**; na cana do avô podes juntar dois para chegares ao peso que a corrente pedir.
 
@@ -1331,7 +1469,7 @@ Na Resifight usas o **50 g**; na cana do avô podes juntar dois para chegares ao
 
 ⚖️ **Regra da lagoa: máx. 2 canas, máx. 3 anzóis por cana.** Duas de fundo com 2 anzóis cada = 4 anzóis na água, dentro da lei.
 
-**Na caixa:** chumbos de 50 (correr), 60 e 100 g · fluoro 0,28 e 0,35 · anzóis de **8,3 e 9,9 mm** · destorcedores · contas · **ancinho e balde** *(ver o isco)* · **dedeira ou luva** se pescares com a trançada à vista · e o camaroeiro, que a margem é baixa e lamacenta.
+**Na caixa:** chumbos de 50 (correr), 60 e 100 g · fluoro 0,28 e 0,35 · anzóis de **8,3 mm** · destorcedores · contas · **ancinho e balde** *(ver o isco)* · **dedeira ou luva** se pescares com a trançada à vista · e o camaroeiro, que a margem é baixa e lamacenta.
 
 ### 🔍 O primeiro lançamento é um diagnóstico
 
@@ -1363,7 +1501,7 @@ Lança, deixa assentar, **estica a linha** e dá-lhe **10-15 minutos**. Depois r
 | Volume de um milho | ~1 cm³ |
 | **Impulsão** | **~0,07 g** |
 
-**70 miligramas.** Um anzol de 9,9 mm sozinho pesa 300-500 mg. A esponja não levanta a navalha nem se levanta a si própria.
+**70 miligramas.** Um anzol de 8,3 mm sozinho pesa 300-500 mg. A esponja não levanta a navalha nem se levanta a si própria.
 
 **O que ela é, então:** um **atractor visual e batente de isco** — dá cor, dá volume, e impede que a navalha escorregue pela curva do anzol abaixo.
 
@@ -1384,6 +1522,19 @@ Lança, deixa assentar, **estica a linha** e dá-lhe **10-15 minutos**. Depois r
 | 🥈 **Mexilhão · berbigão** | margens na baixa-mar | moles — bons quando o peixe está fino |
 | 🥉 **Camarita · coreana** | loja | da lista do local |
 | 🥉 **Caranguejo** | margens na baixa-mar | p/ sargo e robalo |
+
+#### 🔪 Como iscar a navalha
+
+Nem cabeça-com-rabo-solto, nem tudo enrolado — o meio-termo, e a razão é o peixe miúdo.
+
+1. **O anzol entra pela parte rija** — o pé, o músculo. É essa que aguenta o lançamento. Enfia ao longo dela, não de través.
+2. **O resto vai amarrado à haste** com elástico, em espiral, 10-12 voltas. Fica um pacote compacto que não se desfaz no ar.
+3. **Deixa só 2-3 cm de rabo livre.**
+4. **A ponta do anzol fica de fora.** Se estiver enterrada no isco, não ferra — e num anzol de 8,3 mm isso acontece depressa.
+
+> ⚠️ **Porque não deixar o rabo comprido à corrente:** dá movimento e cheiro, mas com *"muito peixe pequeno"* é o que eles atacam primeiro. Levam-te o rabo, tu sentes picadelas, ferras a seco e recolhes com o anzol vazio — **nunca chegaram ao anzol**. Com 2-3 cm continuas a ter cheiro, e quem morde tem de chegar ao anzol para levar alguma coisa.
+>
+> 🪝 **No anzol de cima, com duas navalhas:** não as ponhas em fila a fazer um chouriço. **Lado a lado ao longo da haste**, amarradas juntas — volume compacto, mais fácil de lançar, sem rabos a mais. **O cheiro é o que traz a dourada, não a silhueta** — isco amarrado liberta cheiro na mesma, só não se desfaz.
 
 **🦑 O problema que vais ter, e a solução.** O local avisa duas vezes: *"muito peixe pequeno como é habitual na lagoa"*. As tuas navalhas são **moles** e vão ser depenadas. A dica veio dos comentários de um vídeo de pesca na Foz do Arelho:
 
@@ -1434,7 +1585,7 @@ Duas toneiras de cores diferentes ao mesmo tempo até perceberes qual está a fu
 | 🎯 **Onde** | margem de onde o lançamento **passe o amarelo** do mapa |
 | 🧭 **Rumo** | no #1, **OSO 255° aos 60-80 m** e **SO 225° aos 40-60 m** |
 | 🪱 **Isco** | **grande e resistente.** Navalha num anzol, **tira de choco** no outro |
-| 🪝 **Anzóis** | **9,9 mm** em cima (carpa) · **8,3 mm** em baixo (mar, c/ barbelas) |
+| 🪝 **Anzóis** | **8,3 mm** nos dois — os de mar, que as barbelas seguram a navalha |
 | 🐟 **Espécies** | robalo, dourada, baila, linguado, sargo, salmonete, tainha, enguia, choco, polvo — e já saiu corvina |
 | 🚫 **Erro clássico** | lançar 20 m para o raso e esperar. É o que faz branquear ali |
 
