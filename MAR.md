@@ -278,43 +278,84 @@
         b.onclick=function(){ MAPA_REF.setView([z[1],z[2]],z[3]); };
         d.appendChild(b);
       });
+      // satelite: unica maneira de ver os canais da lagoa. Vive aqui e nao na
+      // legenda porque a camada das zonas reescreve a legenda com innerHTML.
+      var sat=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+        {maxZoom:19,attribution:'Esri · Maxar · Earthstar Geographics'});
+      var sb=document.createElement('button');
+      sb.textContent='🛰️ satélite (ver os canais)';
+      sb.style.cssText='font:inherit;font-size:.85em;padding:.25em .6em;border:1px solid #bbb;border-radius:6px;background:#f7f7f7;cursor:pointer';
+      sb.onclick=function(){
+        if(MAPA_REF.hasLayer(sat)){ MAPA_REF.removeLayer(sat); sb.style.background='#f7f7f7'; }
+        else { sat.addTo(MAPA_REF); sb.style.background='#d5e8f7'; }
+      };
+      d.appendChild(sb);
       leg.parentNode.insertBefore(d,leg);
     })();
 
-    // camada das lagoas costeiras — zonas do POC-ACE (proibida / livre / fora da zona livre)
+    // camada das lagoas costeiras — zonas do POC-ACE (Regulamento das Lagoas, arts. 10.o-15.o)
     fetch('data-lagoas.json').then(function(r){return r.json();}).then(function(ls){
       var g=L.layerGroup();
-      var EST={'condicionada-permanente':{c:'#8e44ad',t:'⛔ Pesca PROIBIDA — todo o ano'},
-               'livre':{c:'#27ae60',t:'✅ Zona de Utilização Livre — podes pescar'},
-               'excluida':{c:'#e67e22',t:'⚠️ FORA da Zona de Utilização Livre'}};
+      var EPOCA={i:'06-13',f:'09-13'};
+      var hj=new Date(), an=hj.getFullYear();
+      var naEpoca = hj>=new Date(an+'-'+EPOCA.i+'T00:00:00') && hj<=new Date(an+'-'+EPOCA.f+'T23:59:59');
+      var EST={'interdita':{c:'#7b0000',t:'⛔⛔ ZONA INTERDITA — nenhuma atividade, todo o ano'},
+               'condicionada-permanente':{c:'#8e44ad',t:'⛔ Pesca PROIBIDA — todo o ano'},
+               'duvidosa':{c:'#d35400',t:'⚠️ LEITURA DUVIDOSA — trata como proibido'},
+               'sazonal':{c:naEpoca?'#e67e22':'#7f8c8d',t:naEpoca?'⛔ PROIBIDO AGORA (época balnear)':'✅ aberto agora — só fecha 13 jun a 13 set'},
+               'sazonal-circulo':{c:naEpoca?'#e67e22':'#7f8c8d',t:naEpoca?'⛔ PROIBIDO AGORA (época balnear)':'✅ aberto agora — só fecha 13 jun a 13 set'},
+               'livre':{c:'#27ae60',t:'✅ Zona de Utilização Livre — podes pescar'}};
       ls.forEach(function(z){
         var e=EST[z.tipo]||EST['condicionada-permanente'];
-        L.polygon(z.poly,{color:e.c,fillColor:e.c,fillOpacity:0.25,weight:2})
-         .bindPopup('<b>'+z.n+'</b><br><b>'+e.t+'</b><br>'+z.regra+
-           '<br><span style="opacity:.7;font-size:.9em">'+z.fonte+'</span>').addTo(g);
+        var pop='<b>'+z.n+'</b><br><b>'+e.t+'</b><br>'+z.regra+
+                '<br><span style="opacity:.7;font-size:.9em">'+z.fonte+'</span>';
+        var o={color:e.c,fillColor:e.c,fillOpacity:z.tipo==='livre'?0.18:0.30,weight:2};
+        (z.centro ? L.circle(z.centro,Object.assign({radius:z.raio},o))
+                  : L.polygon(z.poly,o)).bindPopup(pop).addTo(g);
       });
       g.addTo(MAPA_REF);
       CAMADAS_REF['lagoa costeira'] = g;
       var leg=document.getElementById(LEGENDA_ID);
       if(leg) leg.insertAdjacentHTML('beforeend',
         '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="lagoa costeira"> '+
-        '<span style="color:#8e44ad">■</span><span style="color:#27ae60">■</span> lagoas costeiras (Albufeira / Óbidos)</label>');
+        '<span style="color:#8e44ad">■</span><span style="color:#27ae60">■</span> zonas das lagoas (Albufeira / Óbidos)</label>');
       if(leg){ var cb=leg.querySelector('input[data-c="lagoa costeira"]');
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 
-    // camada dos pesqueiros mapeados da Lagoa de Óbidos e costa da Foz do Arelho (OSM)
+    // rampas e pontoes da Lagoa de Obidos — 100 m proibidos cada (Edital 24/2014 de Peniche)
+    fetch('data-rampas.json').then(function(r){return r.json();}).then(function(rs){
+      var g=L.layerGroup();
+      rs.forEach(function(p){
+        L.circle([p.la,p.lo],{radius:100,color:'#c0392b',fillColor:'#c0392b',fillOpacity:0.12,weight:1,dashArray:'4'})
+         .bindPopup('<b>⛔ '+p.n+'</b><br>Proibido pescar a menos de <b>100 m</b>.<br>'+
+           '<i>"É proibido o exercício da pesca lúdica a menos de 100 metros das rampas de acesso de embarcações, '+
+           'de embarcadouros e desembarcadouros existentes na área de jurisdição da Capitania do Porto de Peniche."</i>'+
+           '<br><span style="opacity:.7;font-size:.9em">Edital n.º 24/2014 da Capitania de Peniche · posição do OpenStreetMap — '+
+           'o Anexo I do Regulamento das Lagoas lista 9 oficiais, o OSM pode não ter todas</span>').addTo(g);
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['rampas 100m'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="rampas 100m"> '+
+        '<span style="color:#c0392b">○</span> rampas/pontões de Óbidos, 100 m ('+rs.length+')</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="rampas 100m"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
+    // pesqueiros mapeados da Lagoa de Obidos e da costa da Foz do Arelho (OpenStreetMap)
     fetch('data-pesqueiros.json').then(function(r){return r.json();}).then(function(ps){
       var g=L.layerGroup();
       var EST={lagoa:{c:'#16a085',t:'✅ dentro da Zona de Utilização Livre'},
-               costa:{c:'#2980b9',t:'🌊 pesqueiro de costa (Atlântico) — vale a regra das praias'},
-               excluido:{c:'#c0392b',t:'⚠️ excluído por nome da Zona de Utilização Livre — NÃO pescar'}};
+               costa:{c:'#2980b9',t:'🌊 pesqueiro de costa (Atlântico) — vale a regra das praias: proibido do nascer ao ocaso do Sol na época balnear'},
+               excluido:{c:'#7b0000',t:'⛔ Poça das Ferrarias — ZONA INTERDITA por lei. Está marcada como pesqueiro no OSM e não podes lá pescar.'}};
       ps.forEach(function(p){
         var e=EST[p.z];
         L.circleMarker([p.la,p.lo],{radius:4,color:e.c,fillColor:e.c,fillOpacity:0.85,weight:1})
          .bindPopup('<b>🎣 '+p.n+'</b><br>'+e.t+
            '<br><a href="https://www.google.com/maps?q='+p.la+','+p.lo+'" target="_blank">abrir no Maps</a>'+
-           '<br><span style="opacity:.7;font-size:.9em">pesqueiro mapeado no OpenStreetMap</span>').addTo(g);
+           '<br><span style="opacity:.7;font-size:.9em">pesqueiro mapeado no OpenStreetMap — indica que alguém pesca ali, não que seja legal</span>').addTo(g);
       });
       g.addTo(MAPA_REF);
       CAMADAS_REF['pesqueiros'] = g;
@@ -323,6 +364,26 @@
         '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="pesqueiros"> '+
         '<span style="color:#16a085">●</span> pesqueiros de Óbidos ('+ps.length+')</label>');
       if(leg){ var cb=leg.querySelector('input[data-c="pesqueiros"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
+    // spots avaliados da Lagoa de Obidos
+    fetch('data-spots-obidos.json').then(function(r){return r.json();}).then(function(ss){
+      var g=L.layerGroup();
+      var EST={ok:{c:'#0a7d5a',f:'#27ae60',i:'🎣'},aviso:{c:'#b9770e',f:'#f1c40f',i:'⚠️'},nao:{c:'#7b241c',f:'#e74c3c',i:'⛔'}};
+      ss.forEach(function(s){
+        var e=EST[s.v];
+        L.circleMarker([s.la,s.lo],{radius:9,color:e.c,fillColor:e.f,fillOpacity:.95,weight:2})
+         .bindPopup('<b>'+e.i+' '+s.n+'</b><br>'+s.d+
+           '<br><a href="https://www.google.com/maps?q='+s.la+','+s.lo+'" target="_blank">abrir no Maps</a>').addTo(g);
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['spots Óbidos'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="spots Óbidos"> '+
+        '<span style="color:#27ae60">●</span> spots avaliados de Óbidos ('+ss.length+')</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="spots Óbidos"]');
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 
@@ -444,6 +505,23 @@ Portanto: **de noite, na época balnear, na praia, é legal** nesta costa. Não 
 | [Edital de Praia (modelo AMN)](https://www.amn.pt/Documents/Editais%20Praia/Edital%20de%20Praia%20-%20Continente%20e%20Madeira%20-%20Lingua%20portuguesa.pdf), ponto 4.1 c) | interdita *"Pesca lúdica, **nas unidades balneares** entre o nascer e pôr do sol"*; o edital nomeia a **Unidade Balnear** e o **concessionário** de cada praia | **unidade balnear** |
 | [FAQ DGRM 2018, p. 6](https://www.dgrm.pt/documents/20143/0/FAQ-PescaLudica2018.pdf/730e6d56-1f8c-66a2-a020-aecc016685bb) | *"O exercício da pesca lúdica em distâncias inferiores às legalmente estabelecidas em relação às **orlas das praias concessionadas** durante a época balnear"* — coima **200 a 2000 €** | **praia concessionada** |
 | [FAQ DGRM ago-2026, p. 8](https://www.dgrm.pt/documents/20143/121104/FAQ-Pesca+Ludica+2026_08.pdf/9669422f-b7a9-25f5-708f-3cd1f06ba21d) | a lei nacional deixa às capitanias *"restringir ou autorizar a pesca lúdica noturna em praias e áreas **concessionadas**"*, *"sendo essencial consultar os regulamentos específicos de cada Capitania"* | **concessionada** |
+
+### 🗣️ Relatos de quem lá pesca — pedi-te para os procurar e cá estão
+
+Do tópico *["Pesca apeada a partir de praias concessionadas, durante a época balnear"](https://www.pesqueiro.pt/index.php?topic=22704.0)* do Pesqueiro (12 988 leituras). Notas: os utilizadores estão identificados pelo n.º de mensagens, que é o que dá para aferir experiência; e **eles próprios não estão de acordo** — o que já diz alguma coisa.
+
+| Quem | O que diz |
+|---|---|
+| **carlosfishcarlos** *(7 303 msg)* | *"Na ilha de Tavira **pesco na época balnear, desde que fora da área concessionada**."* |
+| **antoniopereira** *(7 537 msg)* | *"Na época balnear nas praias concessionadas não se pode pescar de dia. Ou seja não se pode pescar entre o nascer e o pôr do Sol. **Resumindo só se pode pescar de noite.** No entanto existem praias concessionadas que nem depois do pôr do sol se pode pescar."* |
+| **carlosfishcarlos** | *"Certas praias têm **placas que delimitam as concessões**, fora da área delimitada pelas placas pode-se pescar."* · *"O que gera alguma confusão é que em algumas praias **a área concessionada é igual ao tamanho do areal**."* |
+| **Nelson Peres** *(22 595 msg)* | *"Podemos pescar nas praias concessionadas, **fora da zona de concessões**. (…) **Na minha zona pesco de dia tranquilamente ao lado das concessões, o pior que me aconteceu foi ter que mostrar a licença.**"* |
+| **PMiranda** *(363 msg)* | Discorda: *"não se pode praticar pesca lúdica em qualquer hora do dia ou da noite nas zonas de áreas concessionadas"*. Mas dá a dica prática melhor do tópico ⬇️ |
+
+> 🎯 **A dica que vale o tópico todo:** *"As zonas exactas de concessão de cada praia podem ser vistas (…) escolhendo o ficheiro que se encontra no **«Perfil da Água Balnear (PAB)»** para a praia em questão. **Cada praia terá a mesma informação num painel disposto à entrada da praia.** Outra informação disponível no mesmo painel inclui o edital de praia."*
+> Ou seja: **o PAB e o painel à entrada da praia mostram-te a linha da concessão.** É o documento que resolve a dúvida no terreno, praia a praia.
+
+**Como ler isto:** a prática de campo (**pescar ao lado da concessão, sem chatices**) bate certo com o art. 17.º do POC-ACE e com o antoniopereira. O PMiranda tem a leitura mais conservadora, herdada da **Portaria 868/2006** — que fixava 300 m *sem excepção de horário* e que **já foi revogada** pela Portaria 14/2014. É daí que vem metade da confusão que anda pela internet.
 
 **Em nenhuma destas fontes aparece «água balnear».** A expressão nunca é a que gera a proibição — serve para saber se a praia é analisada e vigiada, não se podes lá pescar. *(Estado: medido — grep às seis fontes acima.)*
 
@@ -605,63 +683,140 @@ Todas as quatro são águas balneares ([Portaria 204-A/2026/1](https://files.dia
 
 > 🎯 **A alternativa que funciona no mesmo dia: [Praia da Adiça](https://www.google.com/maps?q=38.5583,-9.1901)** — 5 km a norte da lagoa, **não consta da portaria das águas balneares** (verificado: zero ocorrências), logo sem restrição de banhos o ano todo. Já está na tabela das zonas acima. A seguir a norte, a Fonte da Telha é balnear até **30 de setembro**.
 
-## 🟢 Lagoa de Óbidos — aqui **podes**, e é a melhor notícia deste mapa
+## 🟢 Lagoa de Óbidos — o guia
 
-A vizinha da Lagoa de Albufeira, mas o regime é o **oposto**. A mesma RCM 66/2019 que fecha Albufeira **abre** Óbidos:
+A vizinha da Lagoa de Albufeira, regime **oposto**: em Albufeira a pesca está fechada o ano todo, em Óbidos quase toda a lagoa é **Zona de Utilização Livre**. A fonte boa não é a RCM (que só resume) — é o **[Regulamento de Gestão das Lagoas de Óbidos e Albufeira](https://www.sesimbra.pt/cmsesimbra/uploads/document/file/8329/regulamento-gestao-lagoas-obidos-albufeira.pdf)**, arts. 10.º a 15.º, que divide o plano de água em quatro regimes.
 
-> *"Esta zona [de Utilização Livre] **apenas está identificada** em Modelo Territorial **no Plano de Água da Lagoa de Óbidos**, abrangendo **grande parte da sua superfície**, com exceção da área a norte da linha imaginária que une o **Cais na Foz do Arelho** com o final da **zona balnear do Bom Sucesso**, da área de proteção à **Zona Balnear do Penedo**, do **Braço da Barrosa** e da **Poça das Ferrarias**."*
-> — [RCM n.º 66/2019](https://poseur.portugal2020.pt/media/42246/rcm-n%C2%BA-n%C2%BA66_2019_1104_aprova-programa-da-orla-costeira-de-alcoba%C3%A7a-cabo-espichel.pdf) (POC-ACE), Modelo Territorial
+### ⚖️ As quatro zonas — o que muda em cada uma
 
-Ou seja: **quase toda a lagoa é Zona de Utilização Livre**, com quatro recortes de fora. Está desenhado no mapa lá em cima — verde = livre, laranja = fora.
-
-### 🎣 O teu ponto: [39.40522, -9.21135](https://www.google.com/maps?q=39.40522,-9.21135) — **✅ podes pescar**
-
-Margem sul-nascente da lagoa, junto à **Ecopista da Várzea da Rainha**, lugar da **Poça Pequena (Vau, Óbidos)**. Verifiquei cada regra que lhe pode cair em cima:
-
-| Regra | Limite | O teu ponto | |
+| Zona | Onde | Pesca | Base |
 |---|---|---|---|
-| Zona de Utilização Livre (RCM 66/2019) | a sul da linha Cais ↔ Bom Sucesso | **2861 m** a sul da linha | ✅ |
-| Poça das Ferrarias — excluída | fora | **1040 m** | ✅ |
-| Braço da Barrosa — excluído | fora | **1385 m** | ✅ |
-| Rampas/embarcadouros ([Edital 24/2014 Peniche](https://www.amn.pt/DGAM/Capitanias/Peniche/Lists/Documentos_AMN/Edital%2024_2014%20PESCA-LUDICA_PROIBICOES.pdf)) | **100 m** | **993 m** da rampa mais próxima | ✅ |
-| Descarga de ETAR (Portaria 14/2014, art. 8.º b) | 100 m | **410 m** da ETAR Casalito/Lapinha | ✅ |
-| Água balnear designada | — | a mais próxima a **2,8 km** (Foz do Arelho-Lagoa) | ✅ |
-| Praia marítima classificada (art. 17.º POC-ACE) | proibido de dia na época | **não é** — é margem de lagoa, não praia marítima do Anexo I | ✅ |
+| 🟢 **Livre** | todo o **sector Sul**, até à linha Cais da Foz do Arelho ↔ final da Zona Balnear do Bom Sucesso | ✅ **o ano todo, dia e noite** — *"sem qualquer tipo de restrição"* | art. 14.º |
+| 🟠 **Condicionada temporária** | ① a norte da linha Cais ↔ limite Sul da ZB Foz do Arelho–Lagoa · ② 100 m à volta do areal da **ZB do Penedo Furado** | ⛔ **só de 13 jun a 13 set** — fora da época balnear abre | arts. 12.º n.º 3 + 13.º n.º 2 a) |
+| 🟣 **Condicionada permanente** | **Braço da Barrosa** | ⛔ **proibida o ano todo** | arts. 12.º n.º 2 + 13.º n.º 1 a) |
+| 🔴 **Interdita** | **Poça das Ferrarias** | ⛔⛔ *"não são permitidas **quaisquer** atividades (…) a pesca, a apanha de animais marinhos"* | arts. 10.º n.º 2 + 11.º n.º 1 |
 
-**Distância à água: 10 m.** E há um pesqueiro mapeado — **Ponta do Espichel** — a **160 m**. O símbolo de peixe+cana que viste no Google Maps corresponde a isso.
+> 🎯 **A descoberta boa: a zona norte é sazonal, não permanente.** Eu tinha-a escrito como "fora da zona livre" e ponto. O art. 12.º n.º 3 diz *"a vigorar anualmente **durante a época balnear**"*. **A partir de 14 de setembro a lagoa abre toda** (menos Barrosa e Ferrarias).
 
-> ✅ **Veredicto: podes pescar aí, o ano todo, de dia e de noite, a partir da margem.** *(Estado: medido — cada distância acima saiu de cálculo haversine sobre geometria do OpenStreetMap e do texto das fontes ligadas.)*
+### 💳 Licença: a do **MAR**, não a do ICNF
 
-### ⚠️ Óbidos tem regras próprias — e são mais apertadas que as gerais
+A lagoa é **águas interiores não oceânicas sob jurisdição da Capitania de Peniche** (Portaria 567/90, art. 2.º) — mas a licença que vale é a marítima da DGRM, a que já tens. Confirmado pelo administrador d'[O Sítio do Pescador](https://forum.pescador.com.pt/viewtopic.php?t=4426) a quem fizeram exactamente esta pergunta:
 
-A lagoa é a única água aqui com **regulamento de pesca só dela**, de 1990 e **ainda em vigor** ([Portaria 567/90](https://www.marinha.pt/pt/clm/ficheiros/CLM/PGPAT%201000%20-%20Cap%C3%ADtulos/Cap%C3%ADtulo%20II%20Pesca%20Profissional/Sub-cap%C3%ADtulo%20B.10/B.10.8%20-%20Lagoa%20de%20%C3%93bidos/Port.%20567_90%20cons..htm), alterada pela Portaria 483/2007):
+> *"A licença de mar se for nacional ou para a capitania de Peniche dá para pescar: (…) **Toda a Lagoa de Óbidos**."*
 
-| Regra | Óbidos | Regime geral |
+### ⚠️ Regras próprias da lagoa — mais apertadas que as gerais
+
+[Portaria 567/90](https://www.marinha.pt/pt/clm/ficheiros/CLM/PGPAT%201000%20-%20Cap%C3%ADtulos/Cap%C3%ADtulo%20II%20Pesca%20Profissional/Sub-cap%C3%ADtulo%20B.10/B.10.8%20-%20Lagoa%20de%20%C3%93bidos/Port.%20567_90%20cons..htm), ainda em vigor (alterada pela Portaria 483/2007):
+
+| | Óbidos | Geral |
 |---|---|---|
 | 🎣 **Canas por pescador** | **2** *(art. 12.º n.º 1)* | 3 |
-| 🪝 **Anzóis por cana** | **3** *(Anexo I)* | 3 |
-| 📏 **Abertura mínima do anzol** | **8 mm** *(Anexo I — escrito com todas as letras)* | 8 mm *(deduzido de dois artigos)* |
-| 🤿 **Caça submarina** | **proibida** *(art. 13.º)* | proibida no estuário |
-| 🚤 De barco, do pôr ao nascer do Sol | **proibido** *(art. 12.º n.º 2)* — **de terra é na mesma** | — |
+| 🪝 Anzóis por cana | 3 *(Anexo I)* | 3 |
+| 📏 Abertura mínima do anzol | **8 mm** — *escrito à letra no Anexo I* | 8 mm (deduzido) |
+| 🤿 Caça submarina | **proibida** *(art. 13.º)* | — |
+| 🚤 De barco, do pôr ao nascer do Sol | proibido *(art. 12.º n.º 2)* — **de terra é na mesma** | — |
 
-> 🎯 **Nota boa para ti:** o **8 mm** que andámos a discutir para o mar, e que eu tinha dito ser *leitura* de dois artigos combinados, **aqui está escrito à letra** no Anexo I da Portaria 567/90. Os teus anzóis de mar de **8,3 mm** passam; os de carpa n.º 4 com **9,9 mm** passam com folga.
+**Tamanhos mínimos (Anexo II):** robalo 36 · dourada 19 · linguado 24 · solha 25 · tainha 20 · safio 58 · enguia 22 cm.
+⚠️ Onde o mínimo **nacional** for maior, manda o nacional — o robalo hoje são **42 cm**, não os 36 de 1990.
 
-**Tamanhos mínimos do Anexo II** (os que te interessam): robalo 36 cm · dourada 19 cm · linguado 24 cm · solha 25 cm · tainha 20 cm · safio 58 cm · enguia 22 cm.
-⚠️ Onde o **mínimo nacional for maior, é o nacional que manda** — o robalo hoje são **42 cm**, não os 36 cm de 1990. Vê a página [Tamanhos](TAMANHOS.md).
+### 🚫 As rampas: 100 m, o ano todo, em toda a lagoa
 
-### 📍 Os 58 pesqueiros mapeados
+O **[Edital n.º 24/2014 da Capitania de Peniche](https://www.amn.pt/DGAM/Capitanias/Peniche/Lists/Documentos_AMN/Edital%2024_2014%20PESCA-LUDICA_PROIBICOES.pdf)** é curto e não tem excepções:
 
-Estão todos no mapa lá em cima (camada *pesqueiros de Óbidos*), separados por cor:
+> *"É proibido o exercício da pesca lúdica a menos de **100 metros das rampas de acesso de embarcações, de embarcadouros e desembarcadouros** existentes na área de jurisdição da Capitania do Porto de Peniche."*
 
-- 🟩 **35 dentro da lagoa**, na Zona de Utilização Livre — Ponta do Espichel, Seixo, Caneiro, Bico dos Corvos, Chalet, Ponta das Canas, Reivais, Boca do Rio, Ponta do Carro…
-- 🟦 **22 na costa atlântica** a norte da Foz do Arelho (Pedra do Morto, Lage do Surdão, Bico do Facho…) — esses são **pesca de costa**, e aí valem as regras das praias: art. 17.º POC-ACE, proibido **entre o nascer e o ocaso do Sol** durante a época balnear.
-- 🟥 **1 excluído: a Poça das Ferrarias.** Está marcada como pesqueiro no OpenStreetMap **e a RCM 66/2019 exclui-a por nome** da Zona de Utilização Livre.
+O Anexo I do Regulamento das Lagoas lista **9 oficiais** na lagoa: *Cais da Lota · Penedo Furado · Parque de Caravanas* (Caldas da Rainha) e *Casalito 1 · Casalito 2 · Casal da Lapinha · Cais do Bom Sucesso · Braço da Barrosa* (Óbidos), mais dois centros náuticos. Estão desenhadas no mapa as **10 que o OpenStreetMap tem** — ⚠️ **o OSM pode não ter todas**, portanto olha à volta antes de lançar.
 
-> ⚠️ **É exactamente o aviso que interessa:** o símbolo de peixe+cana no Google Maps ou no OSM diz que **alguém pesca ali**, não diz que **é legal**. A Poça das Ferrarias prova-o. O símbolo é uma pista, a lei é a resposta.
+### 📍 Os teus três pontos
 
-### 📅 Época balnear em Óbidos 2026
+| Ponto | Veredicto | Porquê |
+|---|---|---|
+| **A · [39.40528, -9.21136](https://www.google.com/maps?q=39.40528,-9.21136)** — Ponta do Espichel | ✅ **vai** | Zona Livre · 10-15 m da água · pesqueiro mapeado a 160 m · rampa mais próxima a **988 m** · ETAR a 407 m (regra 100 m) · a 2854 m da linha norte. Nada aperta. |
+| **B · [39.41486, -9.22050](https://www.google.com/maps?q=39.41486,-9.22050)** — margem norte | ⚠️ **dá, mas com atenção** | Zona Livre, mas há uma **rampa a 165 m** — só **65 m de folga** sobre os 100 m. Fica para o lado sul e confirma no local. |
+| **M · [39.40021, -9.18683](https://www.google.com/maps?q=39.40021,-9.18683)** — onde a Mariya vai ver aves | ⛔ **não pesques aqui** | Ver a seguir. |
 
-Foz do Arelho-Lagoa e Praia do Mar (Caldas da Rainha); Bom Sucesso, Rei do Cortiço e Vale de Janelas (Óbidos) — todas **13 jun → 13 set** ([Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/0000200039.pdf)). Não te afecta no ponto que escolheste: fica a 2,8 km da mais próxima.
+### 🐦 O ponto das aves — porque é que digo que não
+
+Este é o único sítio onde a resposta honesta é *não sei ao certo, e por isso não*.
+
+O ponto fica dentro da bacia que o OpenStreetMap chama **"Barrosa"**, a **622 m** do que o OSM chama **"Braço da Barrosa"** — que está **fechado à pesca o ano todo**. O problema: **a lei não publica a geometria.** Diz *"confinada ao Braço da Barrosa"* e remete para o Modelo Territorial do POC-ACE, que existe em 7 folhas mas **não está online** — [procurei na APA](https://apambiente.pt/agua/programa-da-orla-costeira-alcobaca-cabo-espichel) e só lá estão as Diretivas, o Relatório e o Programa de Execução.
+
+É perfeitamente plausível que "Braço da Barrosa" na lei signifique o **braço todo**, incluindo esta bacia — o OSM é que o separou em dois. E há um **pontão/embarcadouro oficial no Braço da Barrosa** (Anexo I), com os seus 100 m.
+
+Somando: é também a parte **mais assoreada e de pior renovação de água** da lagoa — os estudos hidrodinâmicos dão *2 dias* de renovação junto à barra contra *3 semanas* nas zonas interiores, e a notícia de out-2025 no [Jornal das Caldas](https://jornaldascaldas.pt/2025/10/30/aumento-da-area-de-pesca-na-lagoa-de-obidos-e-criacao-de-infraestruturas-de-apoio-aos-pe) fala em *"150 hectares perdidos devido às ervas marinhas e ao assoreamento"*, com o vice-presidente das Caldas a apontar *"a parte debilitada da lagoa, desde o Cais Palafítico da Barrosa até à aberta"*.
+
+> 🎯 **Solução prática:** ela fica lá — **ver aves não tem restrição nenhuma** — e tu vais para a **Ponta da Ardonia ([39.40464, -9.20159](https://www.google.com/maps?q=39.40464,-9.20159))**, que é Zona Livre, é pesqueiro mapeado e fica a **1,3 km** dela. Ou para o spot A, a 10 min de carro. *(Estado: a distância é medida; a leitura do "Braço da Barrosa" é **opinião cautelosa**, não facto — não consegui a geometria oficial.)*
+
+### 🎣 Como se pesca a lagoa — o que dizem quem lá pesca
+
+O tópico mais útil que encontrei é literalmente sobre o teu spot. Em 2021 um pescador foi *"perto da ponta do espichel"* com anzol 2/0, minhoca e amostras, e **não apanhou nada**. A resposta veio de um local das Caldas da Rainha ([Pesqueiro, tópico 30772](https://www.pesqueiro.pt/index.php?topic=30772.0)):
+
+> *"Costumo ir para lá pescar. Têm saído alguns peixinhos, muito peixe pequeno como se pode imaginar. Com algumas surpresas pelo meio. **Fins da enchente e inícios da vazante, a lançar para os canais.** Como há muito peixe miúdo, **iscadas maiores e mais resistentes**. Depois é escolher **sítios que permitam chegar aos canais mais fundos no lançamento**. Iscos já usei **lingueirão, mexilhão, camarita, casulo, coreano**… Depende dos dias e da fome."*
+
+Isso são as três chaves todas: **maré certa · canal · isco grande e rijo.** A lagoa é rasa e está assoreada — quem lança para o raso não apanha nada.
+
+| Chave | O que fazer |
+|---|---|
+| ⏱️ **Maré** | **fim da enchente e início da vazante.** Não é o meio da maré nem a estofa longa |
+| 🎯 **Onde** | escolher margem de onde o **lançamento chega ao canal** — não é o spot mais bonito, é o que alcança fundo |
+| 🪱 **Isco** | **grande e resistente**: lingueirão, mexilhão, camarita, casulo, coreana. Isco mole é destruído pelo peixe miúdo |
+| 🐟 **Espécies** | robalo, dourada, baila, linguado, sargo, salmonete, tainha, enguia, choco, polvo — e já apareceu **corvina** |
+
+> 🛰️ **Como encontrar os canais:** liga a camada **satélite** no mapa acima. Os canais aparecem como faixas escuras no meio do raso claro — é a única maneira fiável, porque **não há batimetria pública desta lagoa**. Tentei derivá-la do OpenStreetMap e não dá: dos 94 polígonos que lá estão, só **2** são intertidais, o resto é duna e sapal. Chegar lá na baixa-mar e olhar também resolve.
+
+### 🪱 O isco está lá — de graça
+
+Da [reportagem do Rafael Reis na Lobo do Mar](https://danielfilipers.wixsite.com/revistalobodomar/post/%C3%A0-descoberta-da-lagoa-de-%C3%B3bidos):
+
+> *"Nas margens, **durante a maré baixa** podemos ainda apanhar **casulo, caranguejos e várias espécies de vermes e anelídeos** para usar como isco."*
+
+Chega uma hora antes da baixa-mar com um ancinho e um balde e não gastas nada. O casulo daqui é o mesmo *Diopatra* que compraste na Decathlon.
+
+### ⚙️ Setups para a lagoa
+
+A montagem da muralha serve, **encurtada**: aqui não há ondulação nem fundo sujo, há corrente de maré e peixe desconfiado em água rasa.
+
+| | Montagem | Peso | Quando |
+|---|---|---|---|
+| 🥇 **Fundo, 2 anzóis** | **pescador-de-fundo** — estralhos de fluoro **0,28-0,35**, o de cima 50-60 cm, o de baixo 30-40 cm, anzóis **n.º 4 a 1/0** | **30-60 g** conforme a corrente | robalo e dourada de fundo, o teu pão-e-manteiga |
+| 🥈 **Corrida** | chumbo corrediço na madre + destorcedor + **60-80 cm** de fluoro 0,30 | 30-50 g | dourada desconfiada, água parada na estofa |
+| 🥉 **Spinning** | vinil 7-12 cm ou spinner #2-3, leader fluoro 0,30 | 7-20 g | robalo à boca dos canais, na enchente |
+
+⚠️ **Máximo 2 canas** — não 3. É a regra da lagoa.
+
+**Ao choco** (a partir de setembro), a montagem do Rafael Reis: destorcedor triplo na madre; **um palmo** de nylon até ao chumbo (20-60 g, "em 90% das vezes 30 g"); **dois palmos** de fluorocarbono com clip para a toneira.
+
+### 🌊 Maré — calibrei o Open-Meteo para aqui
+
+| | Valor |
+|---|---|
+| **Referência oceânica** | Peniche / Foz do Arelho |
+| **Erro do Open-Meteo** | adianta **+33 min** (PM e BM igual) |
+| **Medido em** | 6 eventos, 9-10 set 2026, contra a TideTime · desvio 1,2 min · intervalo +31 a +34 |
+
+Repara que é **diferente de Lisboa** (onde é +74 PM / +45 BM): aqui não há estuário a distorcer, o erro é simétrico.
+
+> ⚠️ **Mas isto é a maré no OCEANO, à barra.** Dentro da lagoa **atrasa mais e a amplitude cai** — a barra é estreita e está assoreada. Não encontrei número publicado para o desfasamento, por isso **não o invento**. Regra prática: no sector sul (o teu spot A) conta com **atraso da ordem de 1 h** face à barra, e confirma no primeiro dia a olhar para a água. *(Estado: a calibração oceânica é medida; o atraso interior é estimado.)*
+
+### 🏕️ Dormir lá — o que a lei diz
+
+**Pernoitar no parque de merendas não é permitido.** O [Edital de Praia](https://www.amn.pt/Documents/Editais%20Praia/Edital%20de%20Praia%20-%20Continente%20e%20Madeira%20-%20Lingua%20portuguesa.pdf) proíbe expressamente, nas zonas sob jurisdição marítima, *"A prática de campismo ou **qualquer forma de pernoita**"*, e o [Código da Estrada, art. 50.º-A](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1994-34528575) proíbe autocaravanas a pernoitar fora de locais autorizados em áreas protegidas e na orla costeira.
+
+**Pescar de noite é outra coisa e é legal** na Zona Livre — o que não podes é montar acampamento. Se querem dormir lá:
+
+| Opção | Onde | Distância ao spot A |
+|---|---|---|
+| ⛺ **Orbitur Foz do Arelho** | [39.42967, -9.20235](https://www.google.com/maps?q=39.42967,-9.20235) | 2,8 km |
+| ⛺ **Huttopia Óbidos** | [39.41483, -9.22634](https://www.google.com/maps?q=39.41483,-9.22634) | 1,7 km |
+
+**Parques de merendas** (bons para ela ficar instalada, não para dormir): [39.41052, -9.20185](https://www.google.com/maps?q=39.41052,-9.20185) junto ao Clube de Vela — a **50 m de um pesqueiro** e o melhor dos dois mundos; [39.39816, -9.19803](https://www.google.com/maps?q=39.39816,-9.19803) a sul; [39.38879, -9.19159](https://www.google.com/maps?q=39.38879,-9.19159) no extremo sul.
+
+### ⚠️ Antes de ires
+
+- **Trânsito na água.** O Rafael Reis avisa: *"Há muita atividade piscatória embarcada na lagoa, e mariscadores a mergulhar em diversos pontos. Para além disso, há ainda (…) Stand Up Paddle, Windsurf, Kite Surf e aulas de vela, e muitas vezes os praticantes destas modalidades não respeitam regras."* Olha antes de lançar.
+- **Confirma o edital do dia.** Mesmo conselho dele: *"Aconselho vivamente a consultar os editais antes de fazer uma jornada na lagoa, isto porque dependendo da época há zonas que estão interditas à navegação ou mesmo à pesca."* — [Capitania de Peniche](https://www.amn.pt/DGAM/Capitanias/Peniche/Paginas/Capitania-do-Porto-de-Peniche.aspx).
+- **Marisco não.** Podes pescar, mas **apanhar bivalves tem regras próprias e zonas fechadas** por razões de saúde pública — não apanhes berbigão nem lingueirão para comer sem verificar a zona no IPMA.
+- **Placa manda sempre.**
 
 ## 🟡 E o ponto de Sesimbra, [38.51992, -9.09618](https://www.google.com/maps?q=38.51992,-9.09618)?
 

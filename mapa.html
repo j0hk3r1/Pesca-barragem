@@ -88,43 +88,84 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
         b.onclick=function(){ MAPA_REF.setView([z[1],z[2]],z[3]); };
         d.appendChild(b);
       });
+      // satelite: unica maneira de ver os canais da lagoa. Vive aqui e nao na
+      // legenda porque a camada das zonas reescreve a legenda com innerHTML.
+      var sat=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+        {maxZoom:19,attribution:'Esri · Maxar · Earthstar Geographics'});
+      var sb=document.createElement('button');
+      sb.textContent='🛰️ satélite (ver os canais)';
+      sb.style.cssText='font:inherit;font-size:.85em;padding:.25em .6em;border:1px solid #bbb;border-radius:6px;background:#f7f7f7;cursor:pointer';
+      sb.onclick=function(){
+        if(MAPA_REF.hasLayer(sat)){ MAPA_REF.removeLayer(sat); sb.style.background='#f7f7f7'; }
+        else { sat.addTo(MAPA_REF); sb.style.background='#d5e8f7'; }
+      };
+      d.appendChild(sb);
       leg.parentNode.insertBefore(d,leg);
     })();
 
-    // camada das lagoas costeiras — zonas do POC-ACE (proibida / livre / fora da zona livre)
+    // camada das lagoas costeiras — zonas do POC-ACE (Regulamento das Lagoas, arts. 10.o-15.o)
     fetch('data-lagoas.json').then(function(r){return r.json();}).then(function(ls){
       var g=L.layerGroup();
-      var EST={'condicionada-permanente':{c:'#8e44ad',t:'⛔ Pesca PROIBIDA — todo o ano'},
-               'livre':{c:'#27ae60',t:'✅ Zona de Utilização Livre — podes pescar'},
-               'excluida':{c:'#e67e22',t:'⚠️ FORA da Zona de Utilização Livre'}};
+      var EPOCA={i:'06-13',f:'09-13'};
+      var hj=new Date(), an=hj.getFullYear();
+      var naEpoca = hj>=new Date(an+'-'+EPOCA.i+'T00:00:00') && hj<=new Date(an+'-'+EPOCA.f+'T23:59:59');
+      var EST={'interdita':{c:'#7b0000',t:'⛔⛔ ZONA INTERDITA — nenhuma atividade, todo o ano'},
+               'condicionada-permanente':{c:'#8e44ad',t:'⛔ Pesca PROIBIDA — todo o ano'},
+               'duvidosa':{c:'#d35400',t:'⚠️ LEITURA DUVIDOSA — trata como proibido'},
+               'sazonal':{c:naEpoca?'#e67e22':'#7f8c8d',t:naEpoca?'⛔ PROIBIDO AGORA (época balnear)':'✅ aberto agora — só fecha 13 jun a 13 set'},
+               'sazonal-circulo':{c:naEpoca?'#e67e22':'#7f8c8d',t:naEpoca?'⛔ PROIBIDO AGORA (época balnear)':'✅ aberto agora — só fecha 13 jun a 13 set'},
+               'livre':{c:'#27ae60',t:'✅ Zona de Utilização Livre — podes pescar'}};
       ls.forEach(function(z){
         var e=EST[z.tipo]||EST['condicionada-permanente'];
-        L.polygon(z.poly,{color:e.c,fillColor:e.c,fillOpacity:0.25,weight:2})
-         .bindPopup('<b>'+z.n+'</b><br><b>'+e.t+'</b><br>'+z.regra+
-           '<br><span style="opacity:.7;font-size:.9em">'+z.fonte+'</span>').addTo(g);
+        var pop='<b>'+z.n+'</b><br><b>'+e.t+'</b><br>'+z.regra+
+                '<br><span style="opacity:.7;font-size:.9em">'+z.fonte+'</span>';
+        var o={color:e.c,fillColor:e.c,fillOpacity:z.tipo==='livre'?0.18:0.30,weight:2};
+        (z.centro ? L.circle(z.centro,Object.assign({radius:z.raio},o))
+                  : L.polygon(z.poly,o)).bindPopup(pop).addTo(g);
       });
       g.addTo(MAPA_REF);
       CAMADAS_REF['lagoa costeira'] = g;
       var leg=document.getElementById(LEGENDA_ID);
       if(leg) leg.insertAdjacentHTML('beforeend',
         '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="lagoa costeira"> '+
-        '<span style="color:#8e44ad">■</span><span style="color:#27ae60">■</span> lagoas costeiras (Albufeira / Óbidos)</label>');
+        '<span style="color:#8e44ad">■</span><span style="color:#27ae60">■</span> zonas das lagoas (Albufeira / Óbidos)</label>');
       if(leg){ var cb=leg.querySelector('input[data-c="lagoa costeira"]');
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 
-    // camada dos pesqueiros mapeados da Lagoa de Óbidos e costa da Foz do Arelho (OSM)
+    // rampas e pontoes da Lagoa de Obidos — 100 m proibidos cada (Edital 24/2014 de Peniche)
+    fetch('data-rampas.json').then(function(r){return r.json();}).then(function(rs){
+      var g=L.layerGroup();
+      rs.forEach(function(p){
+        L.circle([p.la,p.lo],{radius:100,color:'#c0392b',fillColor:'#c0392b',fillOpacity:0.12,weight:1,dashArray:'4'})
+         .bindPopup('<b>⛔ '+p.n+'</b><br>Proibido pescar a menos de <b>100 m</b>.<br>'+
+           '<i>"É proibido o exercício da pesca lúdica a menos de 100 metros das rampas de acesso de embarcações, '+
+           'de embarcadouros e desembarcadouros existentes na área de jurisdição da Capitania do Porto de Peniche."</i>'+
+           '<br><span style="opacity:.7;font-size:.9em">Edital n.º 24/2014 da Capitania de Peniche · posição do OpenStreetMap — '+
+           'o Anexo I do Regulamento das Lagoas lista 9 oficiais, o OSM pode não ter todas</span>').addTo(g);
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['rampas 100m'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="rampas 100m"> '+
+        '<span style="color:#c0392b">○</span> rampas/pontões de Óbidos, 100 m ('+rs.length+')</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="rampas 100m"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
+    // pesqueiros mapeados da Lagoa de Obidos e da costa da Foz do Arelho (OpenStreetMap)
     fetch('data-pesqueiros.json').then(function(r){return r.json();}).then(function(ps){
       var g=L.layerGroup();
       var EST={lagoa:{c:'#16a085',t:'✅ dentro da Zona de Utilização Livre'},
-               costa:{c:'#2980b9',t:'🌊 pesqueiro de costa (Atlântico) — vale a regra das praias'},
-               excluido:{c:'#c0392b',t:'⚠️ excluído por nome da Zona de Utilização Livre — NÃO pescar'}};
+               costa:{c:'#2980b9',t:'🌊 pesqueiro de costa (Atlântico) — vale a regra das praias: proibido do nascer ao ocaso do Sol na época balnear'},
+               excluido:{c:'#7b0000',t:'⛔ Poça das Ferrarias — ZONA INTERDITA por lei. Está marcada como pesqueiro no OSM e não podes lá pescar.'}};
       ps.forEach(function(p){
         var e=EST[p.z];
         L.circleMarker([p.la,p.lo],{radius:4,color:e.c,fillColor:e.c,fillOpacity:0.85,weight:1})
          .bindPopup('<b>🎣 '+p.n+'</b><br>'+e.t+
            '<br><a href="https://www.google.com/maps?q='+p.la+','+p.lo+'" target="_blank">abrir no Maps</a>'+
-           '<br><span style="opacity:.7;font-size:.9em">pesqueiro mapeado no OpenStreetMap</span>').addTo(g);
+           '<br><span style="opacity:.7;font-size:.9em">pesqueiro mapeado no OpenStreetMap — indica que alguém pesca ali, não que seja legal</span>').addTo(g);
       });
       g.addTo(MAPA_REF);
       CAMADAS_REF['pesqueiros'] = g;
@@ -133,6 +174,26 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
         '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="pesqueiros"> '+
         '<span style="color:#16a085">●</span> pesqueiros de Óbidos ('+ps.length+')</label>');
       if(leg){ var cb=leg.querySelector('input[data-c="pesqueiros"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
+    // spots avaliados da Lagoa de Obidos
+    fetch('data-spots-obidos.json').then(function(r){return r.json();}).then(function(ss){
+      var g=L.layerGroup();
+      var EST={ok:{c:'#0a7d5a',f:'#27ae60',i:'🎣'},aviso:{c:'#b9770e',f:'#f1c40f',i:'⚠️'},nao:{c:'#7b241c',f:'#e74c3c',i:'⛔'}};
+      ss.forEach(function(s){
+        var e=EST[s.v];
+        L.circleMarker([s.la,s.lo],{radius:9,color:e.c,fillColor:e.f,fillOpacity:.95,weight:2})
+         .bindPopup('<b>'+e.i+' '+s.n+'</b><br>'+s.d+
+           '<br><a href="https://www.google.com/maps?q='+s.la+','+s.lo+'" target="_blank">abrir no Maps</a>').addTo(g);
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['spots Óbidos'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="spots Óbidos"> '+
+        '<span style="color:#27ae60">●</span> spots avaliados de Óbidos ('+ss.length+')</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="spots Óbidos"]');
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 
