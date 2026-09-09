@@ -1137,7 +1137,7 @@ A [**Resifight 500 3,00 m X-Heavy**](https://www.decathlon.pt/p/cana-de-pesca-ao
 
 | | Porquê |
 |---|---|
-| **40-100 g** | a lagoa pede **30-60 g** — cais **a meio da janela dela**, que é onde uma cana lança melhor e mostra melhor as picadas |
+| **40-100 g** | a lagoa pede **50-60 g** — o teu chumbo de 60 g cai **a meio da janela dela**, que é onde uma cana lança melhor e mostra melhor as picadas |
 | **Semi-parabólica** | dobra ao longo do branco: amortece a ferragem e não arranca o anzol da boca mole da dourada |
 | **3 m** | curta para surf, **certa para margem de lagoa** — chegas aos 60-80 m que precisas no #1 e no #5 |
 
@@ -1151,8 +1151,8 @@ A [**Resifight 500 3,00 m X-Heavy**](https://www.decathlon.pt/p/cana-de-pesca-ao
 
 | Cana | Linha-mãe | Chumbo | Leader que a conta pede | Tens? | Veredicto |
 |---|---|---|---|---|---|
-| **Cana do avô** | Tournament 0,33 → **~8-9 kg** | 60-80 g *(2,1-2,8 oz)* | **9,5 a 12,7 kg** | mãe fica **abaixo** | ✅ **shock leader 0,60 FICA** |
-| **Resifight 500** | trançada **27 kg** | 40 g *(1,4 oz)* | 6,4 kg | mãe tem **4× a mais** | ❌ **0,60 SAI** |
+| **Cana do avô** | Tournament 0,33 → **~8-9 kg** | 100 g *(3,5 oz)* | **~16 kg** | mãe fica **muito abaixo** | ✅ **shock leader 0,60 FICA** |
+| **Resifight 500** | trançada **27 kg** | 60 g *(2,1 oz)* | 9,5 kg | mãe tem **quase 3× a mais** | ❌ **0,60 SAI** |
 
 Na cana do avô isto **não é opcional**: a mãe de 8-9 kg está abaixo do que 80 g pedem. Sem o 0,60, mais cedo ou mais tarde estalas no lançamento e mandas **80 gramas de chumbo pelo ar**. Foi por isso que to mandei fazer, e continua certo.
 
@@ -1167,6 +1167,17 @@ Na Resifight é o contrário: a trançada de 27 kg já tem quatro vezes a margem
 > 2. **É mais rígido.** O nó que liga a mãe ao leader tem de passar pelos passadores a cada lançamento; em fluoro fica mais volumoso e sai pior da bobina.
 > 3. **Nunca chega ao peixe** — acaba no destorcedor. Gastar fluoro em 10 m que o peixe não vê é deitar dinheiro fora.
 
+#### ⚖️ Os chumbos que tens, e onde cada um vai
+
+| Chumbo | Vai para | Porquê |
+|---|---|---|
+| **50 g de correr** | 🥇 **Resifight — montagem de corrida** | é literalmente para isto: corre na linha-mãe, o peixe puxa e não sente peso. A melhor arma para dourada desconfiada e para a estofa |
+| **60 g** | 🥇 **Resifight — fundo de 2 anzóis** | a meio da janela 40-100 g da cana. **É o teu chumbo por defeito** |
+| **100 g** | 🥈 **Cana do avô** | para quando 60 g começar a arrastar — o pico da enchente de sábado (14h-16h) e o canal do #1 |
+| **120-150 g** | 🏠 **ficam em casa** | passam da potência da Resifight e a lagoa não pede tanto. Isso é chumbo de rebentação |
+
+> 🎯 **A regra no local:** começas com **60 g na Resifight**. Se o chumbo arrastar e a montagem vier para a margem, **passas para a cana do avô com 100 g** — que é exactamente o trabalho dela. Não andes a lutar com 60 g num sítio onde não segura.
+
 **Resumindo as duas montagens da ponta:**
 
 | | Cana do avô | Resifight 500 |
@@ -1175,20 +1186,22 @@ Na Resifight é o contrário: a trançada de 27 kg já tem quatro vezes a margem
 | A seguir | **10 m de mono 0,60** *(shock leader)* | **1,5 m de fluoro 0,30-0,35** |
 | Depois | destorcedor → montagem | destorcedor → montagem |
 | Estralhos | **fluoro 0,28-0,35** | **fluoro 0,28-0,35** |
-| Chumbo | 60-80 g | 40 g |
+| Chumbo | **100 g** | **60 g** fixo · **50 g** de correr |
 
-⚠️ **Com trançada e 40 g na Resifight, protege o dedo** — dedeira ou luva. A trançada corta e 27 kg não parte para te avisar. Na cana do avô o 0,60 já te protege o dedo, que é meia razão de ele existir.
+✅ **As contas do shock leader com estes chumbos:** 100 g = 3,5 oz → pede ~**16 kg**, e o teu mono 0,60 dá 20-24 kg ✓. Na Resifight, 60 g = 2,1 oz → pede ~9,5 kg, e a trançada tem 27 ✓.
+
+⚠️ **Com trançada e 60 g na Resifight, protege o dedo** — dedeira ou luva. A trançada corta e 27 kg não parte para te avisar. Na cana do avô o 0,60 já te protege o dedo, que é meia razão de ele existir.
 
 #### 🎣 E a cana do avô
 
 Vais levá-la, e é meio caminho andado — é uma cana de **surfcasting**, pesada, e o avô pescava com chumbos de **~100 g**.
 
-**Isso dá-lhe um trabalho próprio na lagoa, e é um bom trabalho:** a enchente de sábado à tarde é a **corrente mais forte do fim de semana** (88-99% entre as 14:00 e as 16:00), e o **#1 é um canal estreito onde a corrente aperta ainda mais**. É aí que um chumbo de 40 g começa a arrastar e um de 60-80 g segura — e 60-80 g é onde ela trabalha, não onde a Resifight trabalha.
+**Isso dá-lhe um trabalho próprio na lagoa, e é um bom trabalho:** a enchente de sábado à tarde é a **corrente mais forte do fim de semana** (88-99% entre as 14:00 e as 16:00), e o **#1 é um canal estreito onde a corrente aperta ainda mais**. É aí que um chumbo de 60 g começa a arrastar e um de 100 g segura — e 100 g é onde ela trabalha, não onde a Resifight trabalha.
 
 | Cana | Chumbo | Onde brilha |
 |---|---|---|
-| **Cana do avô** (surf, ~100 g) | **60-80 g** | corrente forte — a enchente da tarde, e o canal do #1 |
-| **Resifight 500** (40-100 g) | **40 g** | corrente fraca, estofa, e a picada fina da dourada |
+| **Cana do avô** (surf, ~100 g) | **100 g** | corrente forte — a enchente da tarde, e o canal do #1 |
+| **Resifight 500** (40-100 g) | **60 g** · 50 g de correr | corrente fraca, estofa, e a picada fina da dourada |
 
 **São as tuas duas canas, e dá exactamente o limite legal de 2.** Uma segura o fundo na corrente, a outra é a fina.
 
@@ -1205,7 +1218,7 @@ A montagem que fizemos para a muralha do Tejo serve, **encurtada e aliviada**: a
 | Peça | O que usar |
 |---|---|
 | Madre | mono 0,28-0,30 ou trançada 0,16 |
-| Chumbo | **30-60 g** conforme a corrente — começa nos 40 g |
+| Chumbo | **60 g** fixo (o teu por defeito) · **50 g de correr** na corrida |
 | Estralho de cima | fluoro **0,30-0,35**, **50-60 cm** |
 | Estralho de baixo | fluoro **0,28-0,30**, **30-40 cm** |
 | Anzóis | **n.º 4 a 1/0** — os teus de mar de 8,3 mm servem |
@@ -1213,13 +1226,13 @@ A montagem que fizemos para a muralha do Tejo serve, **encurtada e aliviada**: a
 
 **🥈 Cana 2 — corrida** *(para dourada desconfiada e para a estofa)*
 
-Chumbo corrediço na madre → conta amortecedora → destorcedor → **60-80 cm de fluoro 0,30** → anzol n.º 4-2. Peso 30-50 g. É a que ganha quando a água está parada e o peixe não pega no fundo fixo.
+O **teu chumbo de 50 g de correr** na madre → conta amortecedora → destorcedor → **60-80 cm de fluoro 0,30** → anzol n.º 4-2. É a que ganha quando a água está parada e o peixe não pega no fundo fixo.
 
 **🥉 Se quiseres andar a mexer** — spinning leve, vinil de 7-12 cm ou spinner #2-3, leader de fluoro 0,30, 7-20 g. À boca dos canais, na enchente, ao robalo. É a tua cana pequena com o mono 0,30 que já lhe puseste.
 
 ⚠️ **Regra da lagoa: máximo 2 canas por pescador e 3 anzóis por cana.** Duas canas de fundo com 2 anzóis cada = 4 anzóis na água, dentro da lei.
 
-**O que levar na caixa:** chumbos de 30, 40 e 60 g · fluoro 0,28 e 0,35 · anzóis 4, 2 e 1/0 · destorcedores · contas · uma caixa para o isco vivo · **um ancinho e um balde** (ver a seguir) · e o camaroeiro, que a margem é baixa e lamacenta.
+**O que levar na caixa:** os chumbos de 50 (correr), 60 e 100 g · fluoro 0,28 e 0,35 · anzóis 4, 2 e 1/0 · destorcedores · contas · uma caixa para o isco vivo · **um ancinho e um balde** (ver a seguir) · e o camaroeiro, que a margem é baixa e lamacenta.
 
 ### 🎣 Como pescar — o resumo
 
