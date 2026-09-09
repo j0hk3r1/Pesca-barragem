@@ -389,24 +389,31 @@
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 
-    // spots avaliados da Lagoa de Obidos
+    // spots da Lagoa de Obidos — margem varrida de 40 em 40 m e pontuada
     fetch('data-spots-obidos.json').then(function(r){return r.json();}).then(function(ss){
       var g=L.layerGroup();
       var EST={ok:{c:'#0a7d5a',f:'#27ae60',i:'🎣'},aviso:{c:'#b9770e',f:'#f1c40f',i:'⚠️'},nao:{c:'#7b241c',f:'#e74c3c',i:'⛔'}};
       ss.forEach(function(s){
         var e=EST[s.v];
-        L.circleMarker([s.la,s.lo],{radius:9,color:e.c,fillColor:e.f,fillOpacity:.95,weight:2})
-         .bindPopup('<b>'+e.i+' '+s.n+'</b><br>'+s.d+
-           (s.cast?'<br><br>🎯 <b>Lançamento: '+s.cast+' m para '+s.rumo+'</b>'+
-             (s.banco?' — <b>com banco de areia pelo meio</b>':' — sem banco pelo meio'):'')+
-           '<br><a href="https://www.google.com/maps?q='+s.la+','+s.lo+'" target="_blank">abrir no Maps</a>').addTo(g);
+        var mk;
+        if(s.rank){                       // ranking: marcador com o numero por dentro
+          mk=L.marker([s.la,s.lo],{icon:L.divIcon({className:'',iconSize:[26,26],iconAnchor:[13,13],
+            html:'<div style="width:26px;height:26px;border-radius:50%;background:'+e.f+';border:2px solid '+e.c+
+                 ';color:#fff;font:bold 13px/22px system-ui,sans-serif;text-align:center;'+
+                 'box-shadow:0 1px 4px rgba(0,0,0,.45)">'+s.rank+'</div>'})});
+        } else {
+          mk=L.circleMarker([s.la,s.lo],{radius:9,color:e.c,fillColor:e.f,fillOpacity:.95,weight:2});
+        }
+        mk.bindPopup('<b>'+e.i+' '+s.n+'</b><br>'+s.d+
+           '<br><br><a href="https://www.google.com/maps?q='+s.la+','+s.lo+'" target="_blank">abrir no Maps</a>')
+          .addTo(g);
       });
       g.addTo(MAPA_REF);
       CAMADAS_REF['spots Óbidos'] = g;
       var leg=document.getElementById(LEGENDA_ID);
       if(leg) leg.insertAdjacentHTML('beforeend',
         '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="spots Óbidos"> '+
-        '<span style="color:#27ae60">●</span> spots avaliados de Óbidos ('+ss.length+')</label>');
+        '<span style="color:#27ae60">●</span> spots de Óbidos, por ordem ('+ss.length+')</label>');
       if(leg){ var cb=leg.querySelector('input[data-c="spots Óbidos"]');
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
@@ -745,23 +752,42 @@ O **[Edital n.º 24/2014 da Capitania de Peniche](https://www.amn.pt/DGAM/Capita
 
 O Anexo I do Regulamento das Lagoas lista **9 oficiais** na lagoa: *Cais da Lota · Penedo Furado · Parque de Caravanas* (Caldas da Rainha) e *Casalito 1 · Casalito 2 · Casal da Lapinha · Cais do Bom Sucesso · Braço da Barrosa* (Óbidos), mais dois centros náuticos. Estão desenhadas no mapa as **10 que o OpenStreetMap tem** — ⚠️ **o OSM pode não ter todas**, portanto olha à volta antes de lançar.
 
-### 📍 Onde pescar — pontos verificados
+### 📍 Onde pescar — a margem toda varrida
 
-Cada um foi testado contra as zonas legais, contra os 100 m das rampas, e contra uma **imagem aérea apanhada em maré baixa** para saber a que distância está a água que não seca e se há banco de areia pelo meio.
+Em vez de me fiar nos nomes do OpenStreetMap, varri **a margem inteira de 40 em 40 metros** — 1101 pontos — e fiquei só com os que passam em tudo: **água em frente classificada como Zona de Utilização Livre**, **mais de 100 m de qualquer rampa**, e **água que não seca ao alcance de lançamento**. Sobraram **702**. Destes, os 12 melhores, separados uns dos outros por pelo menos 500 m:
 
-| Ponto | | Lançamento | Legal |
-|---|---|---|---|
-| **[39.40528, -9.21136](https://www.google.com/maps?q=39.40528,-9.21136)** · margem sul, na Ecopista | ✅ **o melhor** | **18 m para N, sem banco** | Zona Livre · rampa a 988 m · ETAR a 407 m |
-| **[39.40464, -9.20159](https://www.google.com/maps?q=39.40464,-9.20159)** · Ponta da Ardonia | ✅ | **18 m para SO, sem banco** | Zona Livre · o mais perto do sítio das aves (1,3 km) |
-| **[39.40809, -9.21602](https://www.google.com/maps?q=39.40809,-9.21602)** · margem sul, 500 m a norte | ✅ | **18 m para N, sem banco** | Zona Livre · alternativa imediata |
-| **[39.41051, -9.20231](https://www.google.com/maps?q=39.41051,-9.20231)** · Clube de Vela | ✅ | **30 m para SO, sem banco** | Zona Livre · **parque de merendas a 50 m** |
-| **[39.39790, -9.21603](https://www.google.com/maps?q=39.39790,-9.21603)** · extremo sul | ⚠️ | 41 m para NE, **com banco** | Zona Livre · só na maré cheia |
-| **[39.41486, -9.22050](https://www.google.com/maps?q=39.41486,-9.22050)** · margem norte | ⚠️ | **118 m para NE, com banco** | Zona Livre, mas **rampa a 165 m** (limite: 100 m) |
-| **[39.40021, -9.18683](https://www.google.com/maps?q=39.40021,-9.18683)** · Barrosa | ⛔ | 30 m para O, com banco | **não pescar** — ver abaixo |
+![Os 12 spots na Lagoa de Óbidos](obidos-spots.jpg)
 
-> 🎯 **Se só levas um ponto na cabeça, leva o primeiro.** É o único da lista com água boa a 18 m, sem banco pelo meio, sem nada a apertar e com estacionamento à beira. Dá para pescar em qualquer estado de maré.
+| # | Onde | Água aberta<br>*(raio 150 m)* | Lançamento | Estrada | Rampa | |
+|---|---|---|---|---|---|---|
+| **5** | **⭐ Ponta do Espichel — a ponta da língua de areia**<br>[39.40372, -9.21098](https://www.google.com/maps?q=39.40372,-9.21098) | **92%** | 11 m NNE | 315 m | 1132 m | **o melhor** |
+| **1** | **⭐ Braço sudoeste — canal estreito**<br>[39.39529, -9.21906](https://www.google.com/maps?q=39.39529,-9.21906) | **65%** | 11 m ENE | 52 m | 1005 m | carro à beira de água |
+| **2** | **Ponta da Ardonia**<br>[39.40364, -9.20088](https://www.google.com/maps?q=39.40364,-9.20088) | **48%** | 11 m SO | 28 m | 1845 m | o mais perto da Mariya |
+| **4** | **Clube de Vela**<br>[39.40895, -9.20208](https://www.google.com/maps?q=39.40895,-9.20208) | **44%** | 11 m O | 53 m | 1562 m | merendas a 176 m |
+| **3** | **Extremo sul da lagoa**<br>[39.39052, -9.22436](https://www.google.com/maps?q=39.39052,-9.22436) | **48%** | 11 m E | 27 m | 316 m |  |
+| **6** | **Margem sul, 400 m a poente do teu spot**<br>[39.4031, -9.21693](https://www.google.com/maps?q=39.4031,-9.21693) | **48%** | 11 m E | 43 m | 931 m |  |
+| **7** | **Margem sul, 400 m a nascente do teu spot**<br>[39.40771, -9.21475](https://www.google.com/maps?q=39.40771,-9.21475) | **43%** | 11 m N | 38 m | 591 m |  |
+| **8** | **Margem nascente, junto às merendas do sul**<br>[39.39949, -9.19839](https://www.google.com/maps?q=39.39949,-9.19839) | **29%** | 11 m OSO | 58 m | 2267 m |  |
+| **12** | **Braço sudoeste, margem norte**<br>[39.3957, -9.21128](https://www.google.com/maps?q=39.3957,-9.21128) | **45%** | 11 m N | 330 m | 1519 m | 330 m a pé |
+| **10** | **Musaranhos — extremo sudoeste**<br>[39.38599, -9.22563](https://www.google.com/maps?q=39.38599,-9.22563) | **34%** | 11 m OSO | 60 m | 213 m |  |
+| **9** | **Junto ao Cais da Foz do Arelho**<br>[39.42769, -9.22051](https://www.google.com/maps?q=39.42769,-9.22051) | **39%** | 11 m S | 64 m | 202 m | ⚠️ fecha na época balnear |
+| **11** | **Ponta do Carro**<br>[39.42274, -9.20823](https://www.google.com/maps?q=39.42274,-9.20823) | **27%** | 11 m S | 15 m | 260 m | ⚠️ 20% de banco · fecha na época |
+
+> ⭐ **Se levas um só na cabeça, leva o #5.** É onde tens **92% de água que não seca à volta** — o valor mais alto de toda a lagoa. E é a **ponta da língua de areia que sai do teu spot**: deixas o carro na Ecopista, andas **177 m pela areia para fora** e ficas com água funda dos dois lados. Não precisas de lançar longe.
 >
-> 🏖️ **Se forem os dois:** o **Clube de Vela** tem parque de merendas a 50 m e margem limpa — ela fica instalada, tu pescas ao lado.
+> 🚗 **Se preferes chegar de carro à água, é o #1** — canal estreito no braço sudoeste, com um caminho de terra que desce até à margem. Água escura encostada aos dois lados: é onde a corrente de maré fica apertada.
+>
+> 🏖️ **Se forem os dois, é o #4** — Clube de Vela, com parque de merendas a 176 m e margem limpa.
+
+> 📐 **Como isto foi feito, e o que não prova.** *"Água aberta"* é a percentagem de superfície, num raio de 150 m, que **não fica a seco na baixa-mar** — medido numa imagem aérea apanhada em maré baixa. *"Lançamento"* é a distância da margem a essa água; **11 m é o mínimo da grelha**, quer dizer *"a água começa logo aos teus pés"*. Estrada e rampa são distâncias calculadas sobre dados do OpenStreetMap.
+> **Isto diz-te onde há água que não seca — não diz a profundidade.** Não existe batimetria pública desta lagoa. Um sítio com 92% de água aberta pode ainda assim ter meio metro de fundo. Serve para escolher a margem antes de sair de casa; a profundidade descobres no local.
+
+### 📌 Os teus dois pontos
+
+| | Veredicto |
+|---|---|
+| **[39.40528, -9.21136](https://www.google.com/maps?q=39.40528,-9.21136)** · margem sul na Ecopista | ✅ **Bom, e é onde estacionas.** Água a 18 m para N sem banco, rampa a 988 m, ETAR a 407 m. **Anda mais 177 m pela areia e ficas no #5.** |
+| **[39.41486, -9.22050](https://www.google.com/maps?q=39.41486,-9.22050)** · margem norte | ⚠️ **Há melhores.** Zona Livre, mas a rampa está a **165 m** (limite 100 m) e a água que não seca a **118 m para NE com banco pelo meio** — na baixa-mar lanças para areia. |
 
 ### 🐦 O ponto onde a Mariya vai ver aves — [39.40021, -9.18683](https://www.google.com/maps?q=39.40021,-9.18683)
 

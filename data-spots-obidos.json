@@ -1,72 +1,164 @@
 [
  {
-  "n": "A · margem sul, junto à Ecopista",
+  "n": "⭐ Ponta do Espichel — a ponta da língua de areia",
+  "la": 39.40372,
+  "lo": -9.21098,
+  "v": "ok",
+  "cast": 11,
+  "rumo": "NNE",
+  "banco": false,
+  "rank": 5,
+  "d": "<b>#5 do ranking.</b> <b>A maior mancha de água aberta de toda a lagoa.</b> Fica na ponta da língua de areia que sai do teu spot A — andas <b>177 m</b> pela areia para fora e ficas com água funda dos dois lados. Parques na Ecopista e vais a pé.<br><br>💧 <b>92% de água</b> que não seca num raio de 150 m · praticamente sem bancos<br>🎯 Água logo a <b>11 m</b> para NNE, sem banco pelo meio<br>🚗 Estrada a 315 m · parque a 944 m<br>⚖️ Zona de Utilização Livre · rampa mais próxima a <b>1132 m</b> (limite: 100 m)<br>📍 o teu spot A a 177 m · pesqueiro «Ponta do Espichel» a 17 m"
+ },
+ {
+  "n": "⭐ Braço sudoeste — canal estreito com acesso de carro",
+  "la": 39.39529,
+  "lo": -9.21906,
+  "v": "ok",
+  "cast": 11,
+  "rumo": "ENE",
+  "banco": false,
+  "rank": 1,
+  "d": "<b>#1 do ranking.</b> <b>Canal estreito, água escura encostada à margem dos dois lados.</b> Há um caminho de terra que desce até à água e sítio para deixar o carro. É o tipo de sítio onde a corrente de maré fica concentrada.<br><br>💧 <b>65% de água</b> que não seca num raio de 150 m · praticamente sem bancos<br>🎯 Água logo a <b>11 m</b> para ENE, sem banco pelo meio<br>🚗 Estrada a 52 m · parque a 0 m<br>⚖️ Zona de Utilização Livre · rampa mais próxima a <b>1005 m</b> (limite: 100 m)<br>📍 pesqueiro «Ponta Branca» a 6 m"
+ },
+ {
+  "n": "Ponta da Ardonia — o mais perto do sítio das aves",
+  "la": 39.40364,
+  "lo": -9.20088,
+  "v": "ok",
+  "cast": 11,
+  "rumo": "SO",
+  "banco": false,
+  "rank": 2,
+  "d": "<b>#2 do ranking.</b> Zona Livre, água limpa à frente. Fica a <b>1,3 km</b> do sítio onde a Mariya vai ver aves — é o ponto legal mais próximo dela.<br><br>💧 <b>48% de água</b> que não seca num raio de 150 m · praticamente sem bancos<br>🎯 Água logo a <b>11 m</b> para SO, sem banco pelo meio<br>🚗 Estrada a 28 m · parque a 248 m<br>⚖️ Zona de Utilização Livre · rampa mais próxima a <b>1845 m</b> (limite: 100 m)<br>📍 pesqueiro «Ponta da Ardonia» a 127 m"
+ },
+ {
+  "n": "Clube de Vela — o melhor para irem os dois",
+  "la": 39.40895,
+  "lo": -9.20208,
+  "v": "ok",
+  "cast": 11,
+  "rumo": "O",
+  "banco": false,
+  "rank": 4,
+  "d": "<b>#4 do ranking.</b> <b>Parque de merendas a 176 m</b> e margem limpa. Ela fica instalada com sombra e banco, tu pescas ao lado.<br><br>💧 <b>44% de água</b> que não seca num raio de 150 m · praticamente sem bancos<br>🎯 Água logo a <b>11 m</b> para O, sem banco pelo meio<br>🚗 Estrada a 53 m · parque a 137 m<br>⚖️ Zona de Utilização Livre · rampa mais próxima a <b>1562 m</b> (limite: 100 m)<br>📍 parque de merendas a 176 m · pesqueiro «Clube de Vela da Lagoa» a 84 m"
+ },
+ {
+  "n": "Extremo sul da lagoa",
+  "la": 39.39052,
+  "lo": -9.22436,
+  "v": "ok",
+  "cast": 11,
+  "rumo": "E",
+  "banco": false,
+  "rank": 3,
+  "d": "<b>#3 do ranking.</b> Ponta sul, isolado, estrada a 27 m. ⚠️ A rampa mais próxima está a 316 m — folgado, mas confirma no local.<br><br>💧 <b>48% de água</b> que não seca num raio de 150 m · praticamente sem bancos<br>🎯 Água logo a <b>11 m</b> para E, sem banco pelo meio<br>🚗 Estrada a 27 m · parque a 238 m<br>⚖️ Zona de Utilização Livre · rampa mais próxima a <b>316 m</b> (limite: 100 m)"
+ },
+ {
+  "n": "Margem sul, 400 m a poente do spot A",
+  "la": 39.4031,
+  "lo": -9.21693,
+  "v": "ok",
+  "cast": 11,
+  "rumo": "E",
+  "banco": false,
+  "rank": 6,
+  "d": "<b>#6 do ranking.</b> Alternativa imediata se a ponta estiver ocupada. Estrada a 43 m.<br><br>💧 <b>48% de água</b> que não seca num raio de 150 m · praticamente sem bancos<br>🎯 Água logo a <b>11 m</b> para E, sem banco pelo meio<br>🚗 Estrada a 43 m · parque a 846 m<br>⚖️ Zona de Utilização Livre · rampa mais próxima a <b>931 m</b> (limite: 100 m)"
+ },
+ {
+  "n": "Margem sul, 400 m a nascente do spot A",
+  "la": 39.40771,
+  "lo": -9.21475,
+  "v": "ok",
+  "cast": 11,
+  "rumo": "N",
+  "banco": false,
+  "rank": 7,
+  "d": "<b>#7 do ranking.</b> Outra alternativa próxima. ⚠️ Tem 4% de banco à frente — vê onde lanças.<br><br>💧 <b>43% de água</b> que não seca num raio de 150 m · praticamente sem bancos<br>🎯 Água logo a <b>11 m</b> para N, sem banco pelo meio<br>🚗 Estrada a 38 m · parque a 1162 m<br>⚖️ Zona de Utilização Livre · rampa mais próxima a <b>591 m</b> (limite: 100 m)<br>📍 o teu spot A a 397 m · pesqueiro «Seixo» a 117 m"
+ },
+ {
+  "n": "Margem nascente, junto ao parque de merendas do sul",
+  "la": 39.39949,
+  "lo": -9.19839,
+  "v": "ok",
+  "cast": 11,
+  "rumo": "OSO",
+  "banco": false,
+  "rank": 8,
+  "d": "<b>#8 do ranking.</b> Parque de merendas a 151 m e estrada a 58 m. Água mais rasa que os de cima.<br><br>💧 <b>29% de água</b> que não seca num raio de 150 m · 7% de banco de areia<br>🎯 Água logo a <b>11 m</b> para OSO, sem banco pelo meio<br>🚗 Estrada a 58 m · parque a 53 m<br>⚖️ Zona de Utilização Livre · rampa mais próxima a <b>2267 m</b> (limite: 100 m)<br>📍 parque de merendas a 151 m"
+ },
+ {
+  "n": "Braço sudoeste, margem norte",
+  "la": 39.3957,
+  "lo": -9.21128,
+  "v": "ok",
+  "cast": 11,
+  "rumo": "N",
+  "banco": false,
+  "rank": 12,
+  "d": "<b>#12 do ranking.</b> Mesmo canal do #1, do outro lado. ⚠️ Estrada a 330 m — dá caminhada.<br><br>💧 <b>45% de água</b> que não seca num raio de 150 m · praticamente sem bancos<br>🎯 Água logo a <b>11 m</b> para N, sem banco pelo meio<br>🚗 Estrada a 330 m · parque a 670 m<br>⚖️ Zona de Utilização Livre · rampa mais próxima a <b>1519 m</b> (limite: 100 m)"
+ },
+ {
+  "n": "Musaranhos — extremo sudoeste",
+  "la": 39.38599,
+  "lo": -9.22563,
+  "v": "ok",
+  "cast": 11,
+  "rumo": "OSO",
+  "banco": false,
+  "rank": 10,
+  "d": "<b>#10 do ranking.</b> Isolado, estrada a 60 m. ⚠️ Rampa a 213 m.<br><br>💧 <b>34% de água</b> que não seca num raio de 150 m · praticamente sem bancos<br>🎯 Água logo a <b>11 m</b> para OSO, sem banco pelo meio<br>🚗 Estrada a 60 m · parque a 74 m<br>⚖️ Zona de Utilização Livre · rampa mais próxima a <b>213 m</b> (limite: 100 m)<br>📍 pesqueiro «dos Musaranhos» a 203 m"
+ },
+ {
+  "n": "Junto ao Cais da Foz do Arelho",
+  "la": 39.42769,
+  "lo": -9.22051,
+  "v": "aviso",
+  "cast": 11,
+  "rumo": "S",
+  "banco": false,
+  "rank": 9,
+  "d": "<b>#9 do ranking.</b> ⚠️ <b>Rampa a 202 m</b> e <b>na zona que fecha de 13 jun a 13 set</b>. Fora da época balnear é livre.<br><br>💧 <b>39% de água</b> que não seca num raio de 150 m · 9% de banco de areia<br>🎯 Água logo a <b>11 m</b> para S, sem banco pelo meio<br>🚗 Estrada a 64 m · parque a 95 m<br>⚖️ Zona de Utilização Livre · rampa mais próxima a <b>202 m</b> (limite: 100 m)<br>📍 parque de merendas a 124 m · pesqueiro «do Cais» a 104 m"
+ },
+ {
+  "n": "Ponta do Carro — margem nascente norte",
+  "la": 39.42274,
+  "lo": -9.20823,
+  "v": "aviso",
+  "cast": 11,
+  "rumo": "S",
+  "banco": false,
+  "rank": 11,
+  "d": "<b>#11 do ranking.</b> ⚠️ <b>20% de banco de areia</b> à frente e rampa a 260 m. Na zona que fecha na época balnear.<br><br>💧 <b>27% de água</b> que não seca num raio de 150 m · 20% de banco de areia<br>🎯 Água logo a <b>11 m</b> para S, sem banco pelo meio<br>🚗 Estrada a 15 m · parque a 96 m<br>⚖️ Zona de Utilização Livre · rampa mais próxima a <b>260 m</b> (limite: 100 m)<br>📍 pesqueiro «Ponta do Carro» a 229 m"
+ },
+ {
+  "n": "O teu spot A — margem sul na Ecopista",
   "la": 39.40528,
   "lo": -9.21136,
   "v": "ok",
   "cast": 18,
   "rumo": "N",
   "banco": false,
-  "d": "<b>O melhor dos três.</b> Zona de Utilização Livre. Água que fica molhada na baixa-mar a <b>18 m</b>, para NORTE, <b>sem banco de areia pelo meio</b> — dá para pescar em qualquer maré. Rampa mais próxima a 988 m (regra: 100 m). ETAR a 407 m (regra: 100 m). Estacionas na Ecopista da Várzea da Rainha."
+  "d": "<b>Bom, e é onde estacionas.</b> Zona Livre, água a 18 m para N sem banco pelo meio, rampa a 988 m, ETAR a 407 m.<br><br>🎯 <b>Mas anda mais 177 m para fora, pela língua de areia</b>, e chegas ao <b>#1 do ranking</b> — lá tens 92% de água aberta à volta em vez de margem. Deixa o carro aqui e vai a pé."
  },
  {
-  "n": "B · margem norte, a sul da rampa",
+  "n": "O teu spot B — margem norte",
   "la": 39.41486,
   "lo": -9.2205,
   "v": "aviso",
   "cast": 118,
   "rumo": "NE",
   "banco": true,
-  "d": "Zona Livre, mas <b>duas coisas contra</b>: há uma rampa a <b>165 m</b> (a regra são 100 m — só 65 m de folga), e a água que fica molhada está a <b>118 m para NE, com um banco de areia pelo meio</b>. Na baixa-mar ficas a lançar para areia seca. Se fores, fica para o lado sul da rampa."
+  "d": "Zona Livre, mas <b>duas coisas contra</b>: rampa a <b>165 m</b> (limite 100 m, só 65 m de folga) e a água que não seca está a <b>118 m para NE com um banco de areia pelo meio</b>. Na baixa-mar ficas a lançar para areia. Há melhores 400 m a sul."
  },
  {
-  "n": "M · Barrosa — onde a Mariya vê aves",
+  "n": "⛔ Barrosa — onde a Mariya vê aves",
   "la": 39.40021,
   "lo": -9.18683,
   "v": "nao",
   "cast": 30,
   "rumo": "O",
   "banco": true,
-  "d": "<b>Não pesques aqui.</b> Fica na bacia da Barrosa, a 622 m do Braço da Barrosa, que está fechado à pesca todo o ano — e a lei não publica onde acaba um e começa o outro. É também a zona mais assoreada: banco de areia entre a margem e a água. Para veres aves não há restrição nenhuma; para pescar, vai 1,3 km a poente."
- },
- {
-  "n": "Ponta da Ardonia — a mais perto da Mariya",
-  "la": 39.40464,
-  "lo": -9.20159,
-  "v": "ok",
-  "cast": 18,
-  "rumo": "SO",
-  "banco": false,
-  "d": "Zona Livre, pesqueiro mapeado. Água molhada a <b>18 m para SO, sem banco</b>. Fica a <b>1,3 km</b> do sítio das aves — é o ponto legal mais próximo dela."
- },
- {
-  "n": "Ponta das Boiças / Clube de Vela",
-  "la": 39.41051,
-  "lo": -9.20231,
-  "v": "ok",
-  "cast": 30,
-  "rumo": "SO",
-  "banco": false,
-  "d": "Zona Livre, água molhada a <b>30 m para SO, sem banco</b>. <b>Parque de merendas a ~50 m</b> — o melhor sítio para ficarem os dois: ela com banco e sombra, tu com margem limpa."
- },
- {
-  "n": "Margem sul, 500 m a norte do spot A",
-  "la": 39.40809,
-  "lo": -9.21602,
-  "v": "ok",
-  "cast": 18,
-  "rumo": "N",
-  "banco": false,
-  "d": "Zona Livre, água molhada a <b>18 m para N, sem banco</b>. Alternativa imediata se o spot A estiver ocupado. O OSM chama-lhe «Seixo» — ver o aviso sobre nomes."
- },
- {
-  "n": "Margem sul, extremo sul da lagoa",
-  "la": 39.3979,
-  "lo": -9.21603,
-  "v": "aviso",
-  "cast": 41,
-  "rumo": "NE",
-  "banco": true,
-  "d": "Zona Livre e mais isolado, mas a água molhada está a <b>41 m com banco pelo meio</b>. Só na maré cheia. O OSM chama-lhe «Bico dos Corvos» — o Google usa esse nome para outro sítio a 3,2 km daqui."
+  "d": "<b>Ver aves: sem restrição. Pescar: não.</b><br>Fica na bacia da Barrosa, a 622 m do Braço da Barrosa, fechado à pesca todo o ano — e a lei não publica onde acaba um e começa o outro. É também a zona mais assoreada, com banco entre a margem e a água.<br><br>✅ Vai para a <b>Ponta da Ardonia</b>, a 1,3 km."
  }
 ]

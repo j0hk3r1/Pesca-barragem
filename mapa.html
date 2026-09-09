@@ -199,24 +199,31 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 
-    // spots avaliados da Lagoa de Obidos
+    // spots da Lagoa de Obidos — margem varrida de 40 em 40 m e pontuada
     fetch('data-spots-obidos.json').then(function(r){return r.json();}).then(function(ss){
       var g=L.layerGroup();
       var EST={ok:{c:'#0a7d5a',f:'#27ae60',i:'🎣'},aviso:{c:'#b9770e',f:'#f1c40f',i:'⚠️'},nao:{c:'#7b241c',f:'#e74c3c',i:'⛔'}};
       ss.forEach(function(s){
         var e=EST[s.v];
-        L.circleMarker([s.la,s.lo],{radius:9,color:e.c,fillColor:e.f,fillOpacity:.95,weight:2})
-         .bindPopup('<b>'+e.i+' '+s.n+'</b><br>'+s.d+
-           (s.cast?'<br><br>🎯 <b>Lançamento: '+s.cast+' m para '+s.rumo+'</b>'+
-             (s.banco?' — <b>com banco de areia pelo meio</b>':' — sem banco pelo meio'):'')+
-           '<br><a href="https://www.google.com/maps?q='+s.la+','+s.lo+'" target="_blank">abrir no Maps</a>').addTo(g);
+        var mk;
+        if(s.rank){                       // ranking: marcador com o numero por dentro
+          mk=L.marker([s.la,s.lo],{icon:L.divIcon({className:'',iconSize:[26,26],iconAnchor:[13,13],
+            html:'<div style="width:26px;height:26px;border-radius:50%;background:'+e.f+';border:2px solid '+e.c+
+                 ';color:#fff;font:bold 13px/22px system-ui,sans-serif;text-align:center;'+
+                 'box-shadow:0 1px 4px rgba(0,0,0,.45)">'+s.rank+'</div>'})});
+        } else {
+          mk=L.circleMarker([s.la,s.lo],{radius:9,color:e.c,fillColor:e.f,fillOpacity:.95,weight:2});
+        }
+        mk.bindPopup('<b>'+e.i+' '+s.n+'</b><br>'+s.d+
+           '<br><br><a href="https://www.google.com/maps?q='+s.la+','+s.lo+'" target="_blank">abrir no Maps</a>')
+          .addTo(g);
       });
       g.addTo(MAPA_REF);
       CAMADAS_REF['spots Óbidos'] = g;
       var leg=document.getElementById(LEGENDA_ID);
       if(leg) leg.insertAdjacentHTML('beforeend',
         '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="spots Óbidos"> '+
-        '<span style="color:#27ae60">●</span> spots avaliados de Óbidos ('+ss.length+')</label>');
+        '<span style="color:#27ae60">●</span> spots de Óbidos, por ordem ('+ss.length+')</label>');
       if(leg){ var cb=leg.querySelector('input[data-c="spots Óbidos"]');
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
