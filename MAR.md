@@ -28,11 +28,18 @@
     caparica: {nome:'🏖️ Caparica',              lat:38.62, lon:-9.26, sol_lat:38.64, sol_lon:-9.23, lag:0,  noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 17-40 min (ponte)'},
     sado:     {nome:'⚓ Setúbal / Sado',         lat:38.47, lon:-8.95, sol_lat:38.52, sol_lon:-8.89, lag:20, noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 51-70 min (ponte)'},
     ericeira: {nome:'🌊 Ericeira / Costa Oeste', lat:38.96, lon:-9.43, sol_lat:38.96, sol_lon:-9.42, lag:0,  noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 41 min'},
-    sesimbra: {nome:'🐙 Sesimbra',               lat:38.42, lon:-9.11, sol_lat:38.44, sol_lon:-9.10, lag:0,  noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 39-60 min (ponte)'}
+    sesimbra: {nome:'🐙 Sesimbra',               lat:38.42, lon:-9.11, sol_lat:38.44, sol_lon:-9.10, lag:0,  noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 39-60 min (ponte)'},
+    // Óbidos tem correção própria (+33 min, medida contra a TideTime em 6 eventos)
+    // e a maré ainda demora a entrar na lagoa: a fase de M2 sobe 80° da barra ao
+    // fundo = 166 min. No #5, a 63% do canal, dá +1h44 médio. A BM atrasa ~36 min
+    // mais que a PM — é isso que produz enchente de 5 h e vazante de 7 h.
+    obidos:   {nome:'🟢 Lagoa de Óbidos (spot #5)', lat:39.43, lon:-9.235, sol_lat:39.404, sol_lon:-9.211,
+               corr:{PM:33,BM:33}, lagPM:68, lagBM:140, lagoa:true, noturna:true, atenua:0.54,
+               cal:'✅ calibrado · ±6 min contra 2 fontes', carro:'🚗 ~1h15'}
   };
   var SLACK = 45;   // ± min de estofo à volta de cada PM/BM (água parada)
 
-  function extremos(ts, sl, LAG){
+  function extremos(ts, sl, LAG, L){
     var out=[];
     for (var i=1;i<sl.length-1;i++){
       if (sl[i]==null||sl[i-1]==null||sl[i+1]==null) continue;
@@ -41,7 +48,10 @@
       var tipo = up?'PM':'BM';
       var den=(sl[i-1]-2*sl[i]+sl[i+1]);
       var off=den? 0.5*(sl[i-1]-sl[i+1])/den : 0;
-      var t=new Date(ts[i]); t.setMinutes(t.getMinutes()+off*60+CORR[tipo]+(LAG||0));
+      var t=new Date(ts[i]);
+      var C=(L&&L.corr)?L.corr[tipo]:CORR[tipo];
+      var LG=(L&&L.lagPM!=null)?(tipo==='PM'?L.lagPM:L.lagBM):(LAG||0);
+      t.setMinutes(t.getMinutes()+off*60+C+LG);
       out.push({t:t, tipo:tipo, alt:sl[i]});
     }
     return out;
@@ -61,8 +71,74 @@
     return W;
   }
 
+  // Pontua cada instante do dia e devolve o melhor bloco contínuo de 2h30.
+  // Quatro coisas contam:
+  //   corrente — proporcional a (altura da maré / duração do troço). É por isso
+  //              que a enchente de Óbidos (~5 h) puxa mais que a vazante (~7 h).
+  //              Normalizada pelo máximo do próprio dia, sem cortes.
+  //   nível    — numa lagoa rasa o peixe só chega às margens com água alta.
+  //   luz      — a primeira e a última hora do dia valem por si; e entre duas
+  //              janelas parecidas ganha a que tem luz.
+  function melhorJanela(evs, s, L, d0, d1){
+    var ev=evs.filter(function(e){return e.t.getTime()>d0-9*3600000 && e.t.getTime()<d1+9*3600000;})
+              .sort(function(a,b){return a.t-b.t;});
+    if(ev.length<2) return null;
+    function estado(ms){
+      for(var i=0;i<ev.length-1;i++){
+        var t1=ev[i].t.getTime(), t2=ev[i+1].t.getTime();
+        if(ms<t1||ms>t2) continue;
+        var dur=(t2-t1)/3600000, x=(ms-t1)/(t2-t1);
+        var rng=Math.abs(ev[i+1].alt-ev[i].alt);
+        var sg=(ev[i].tipo==='BM')?-1:1;
+        return {niv: sg*Math.cos(Math.PI*x),
+                cor: (rng/Math.max(dur,0.5))*Math.abs(Math.sin(Math.PI*x)),
+                ench: ev[i].tipo==='BM'};
+      }
+      return null;
+    }
+    var PASSO=15*60000, bruto=[], corMax=0;
+    for(var ms=d0; ms<=d1; ms+=PASSO){
+      var e=estado(ms); bruto.push(e?{ms:ms,e:e}:null);
+      if(e) corMax=Math.max(corMax,e.cor);
+    }
+    var pts=bruto.map(function(o){
+      if(!o) return null;
+      var e=o.e, ms=o.ms;
+      var p = 0.50*(corMax?e.cor/corMax:0);
+      p += (L.lagoa?0.32:0.10) * (e.niv+1)/2;
+      if(e.ench) p += 0.06;
+      var claro = s.nascer && s.por && ms>=s.nascer.getTime() && ms<=s.por.getTime();
+      if(claro) p += 0.05;
+      if(s.nascer){ var dn=Math.abs(ms-s.nascer.getTime()); if(dn<3600000) p += 0.13*(1-dn/3600000); }
+      if(s.por){    var dp=Math.abs(ms-s.por.getTime());    if(dp<3600000) p += 0.15*(1-dp/3600000); }
+      return p;
+    });
+    // todos os blocos de 2h30, depois fica com os 2 melhores que nao se sobrepoem
+    var LARG=Math.round(2.5*3600000/PASSO), cand=[];
+    for(var i=0;i+LARG<pts.length;i++){
+      var soma=0, ok=true;
+      for(var j=i;j<i+LARG;j++){ if(pts[j]==null){ok=false;break;} soma+=pts[j]; }
+      if(!ok) continue;
+      cand.push({m:soma/LARG, ini:d0+i*PASSO, fim:d0+(i+LARG)*PASSO});
+    }
+    cand.sort(function(a,b){return b.m-a.m;});
+    var sel=[];
+    for(var i=0;i<cand.length && sel.length<3;i++){
+      var c=cand[i];
+      var choca=sel.some(function(x){return c.ini<x.fim && c.fim>x.ini;});
+      if(!choca) sel.push(c);
+    }
+    sel.forEach(function(b){
+      var mid=b.ini+(b.fim-b.ini)/2, e0=estado(mid);
+      b.ench = e0?e0.ench:null;
+      b.noite = !(s.nascer && s.por && mid>=s.nascer.getTime()-3600000 && mid<=s.por.getTime()+3600000);
+    });
+    sel.sort(function(a,b){return a.ini-b.ini;});
+    return sel;
+  }
+
   function render(marine, sun, L){
-    var h=marine.hourly, evs=extremos(h.time,h.sea_level_height_msl,L.lag), W=janelas(evs), dias={};
+    var h=marine.hourly, evs=extremos(h.time,h.sea_level_height_msl,L.lag,L), W=janelas(evs), dias={};
     evs.forEach(function(e){ var k=ymd(e.t); (dias[k]=dias[k]||[]).push(e); });
     var sol={};
     (sun.daily.time||[]).forEach(function(d,i){ sol[d]={nascer:new Date(sun.daily.sunrise[i]), por:new Date(sun.daily.sunset[i])}; });
@@ -71,7 +147,8 @@
       var ev=dias[k]; if(!ev||!ev.length) return '';
       var d=new Date(k+'T12:00:00'), s=sol[k]||{}, fds=(d.getDay()===0||d.getDay()===6);
       var alts=ev.map(function(e){return e.alt;});
-      var amp=Math.max.apply(null,alts)-Math.min.apply(null,alts);
+      var ampOce=Math.max.apply(null,alts)-Math.min.apply(null,alts);
+      var amp=ampOce*(L.atenua||1);
       var d0=new Date(k+'T00:00:00').getTime(), d1=d0+86400000;
 
       // 1) MELHORES HORAS — água a mexer, independente da minha disponibilidade
@@ -99,7 +176,7 @@
         if(!melhor || o[1]-o[0]>melhor[1]-melhor[0]) melhor=o;
       });
       var temPrime = prime && ovl(prime[0],prime[1],ini,fim);
-      var pontos = (amp>=2.6?3:amp>=2.0?2:amp>=1.6?1:0)
+      var pontos = (ampOce>=2.6?3:ampOce>=2.0?2:ampOce>=1.6?1:0)
                  + (minutos>=150?2:minutos>=75?1:0)
                  + (ench?1:0) + (temPrime?1:0);
       var estrelas = pontos>=6?'⭐⭐⭐':pontos>=4?'⭐⭐':pontos>=2?'⭐':'—';
@@ -108,22 +185,36 @@
           '<br><span style="font-size:.82em;opacity:.75">'+Math.round(minutos)+' min de água a mexer</span>'
         : '<span style="opacity:.6">nada na tua janela</span>';
 
+      // 4) MELHOR JANELA DE PESCA — corrente + nível + luz
+      var mjs=melhorJanela(evs, s, L, d0, d1)||[];
+      var ordem=mjs.slice().sort(function(a,b){return b.m-a.m;});
+      var mjTxt = mjs.length ? mjs.map(function(w){
+        var pos=ordem.indexOf(w)+1;
+        var med=['🥇','🥈','🥉'][pos-1]||'';
+        var qual = w.m>=0.62?'⭐⭐⭐':w.m>=0.50?'⭐⭐':w.m>=0.40?'⭐':'·';
+        return '<span style="white-space:nowrap">'+med+' '+(pos===1?'<b>':'')+
+               hm(new Date(w.ini))+'-'+hm(new Date(w.fim))+(pos===1?'</b>':'')+
+               ' '+(w.ench?'⬆':'⬇')+(w.noite?'🌙':'')+
+               ' <span style="font-size:.8em;opacity:.8">'+qual+'</span></span>';
+      }).join('<br>') : '—';
+
       var mares=ev.map(function(e){return e.tipo+' '+hm(e.t);}).join(' · ');
       return '<tr'+(pontos>=6?' style="background:#eef8f4"':'')+'>'+
         '<td><b>'+DIAS[d.getDay()]+' '+k.slice(8)+'/'+k.slice(5,7)+'</b>'+(fds?' 🎉':'')+'</td>'+
         '<td style="font-size:.9em;white-space:nowrap">'+mares+'</td>'+
+        '<td style="font-size:.92em;background:#f2faf6">'+mjTxt+'</td>'+
         '<td style="font-size:.9em">'+mexeTxt+'</td>'+
         '<td style="font-size:.92em">'+meuTxt+'</td>'+
-        '<td style="text-align:center">'+amp.toFixed(1)+'</td>'+
+        '<td style="text-align:center">'+amp.toFixed(1)+(L.atenua?'<br><span style="font-size:.75em;opacity:.6">'+ampOce.toFixed(1)+' fora</span>':'')+'</td>'+
         '<td style="text-align:center"><b>'+estrelas+'</b></td>'+
         '<td style="white-space:nowrap;font-size:.88em">'+(s.por?hm(s.por):'—')+'</td></tr>';
     }
 
     var linhas=Object.keys(dias).sort().slice(0,10).map(linha).join('');
     return '<p style="margin:.2em 0 .6em"><b>📍 '+L.nome+'</b> · '+L.carro+
-      ' · <span style="opacity:.7;font-size:.9em">correção do modelo PM +'+CORR.PM+' / BM +'+CORR.BM+' min '+L.cal+
-      (L.lag?' · +'+L.lag+' min de propagação':'')+'</span></p>'+
-      '<table><thead><tr><th>Dia</th><th>Marés</th><th>🌊 Água a mexer</th><th>🎯 A tua janela</th><th>Ampl.</th><th>Nota</th><th>Pôr-sol</th></tr></thead><tbody>'+linhas+'</tbody></table>';
+      ' · <span style="opacity:.7;font-size:.9em">correção do modelo PM +'+((L.corr||CORR).PM)+' / BM +'+((L.corr||CORR).BM)+' min '+L.cal+
+      (L.lagPM!=null?' · propagação na lagoa PM +'+L.lagPM+' / BM +'+L.lagBM+' min':(L.lag?' · +'+L.lag+' min de propagação':''))+'</span></p>'+
+      '<table><thead><tr><th>Dia</th><th>Marés</th><th>🏆 Melhores janelas<br>de pesca</th><th>🌊 Água a mexer</th><th>🎯 A tua janela</th><th>Ampl.</th><th>Nota</th><th>Pôr-sol</th></tr></thead><tbody>'+linhas+'</tbody></table>';
   }
 
   function carrega(chave){
@@ -140,7 +231,8 @@
             LOCAIS[k].nome+'</button>';
         }).join('')+'</div>'+ render(res[0], res[1], LOCAIS[chave])+
         '<p style="font-size:.85em;opacity:.75;margin-top:.6em">'+
-        '<b>🌊 Água a mexer</b> = as horas boas do dia, dês ou não estar livre — ⬆ enchente · ⬇ vazante. Cada janela começa 45 min depois de uma maré e acaba 45 min antes da seguinte (o estofo é água parada).<br>'+
+        '<b>🏆 Melhores janelas de pesca</b> = os <b>três melhores blocos de 2h30</b> do dia que não se sobrepõem, por ordem 🥇🥈🥉, pontuados de 15 em 15 min por <b>três coisas</b>: força da corrente (máxima a meio da maré), <b>altura de água</b> (numa lagoa rasa o peixe só chega às margens com maré cheia — por isso pesa mais em Óbidos que no mar) e <b>luz baixa</b> (a primeira e a última hora do dia valem por si). ⬆ enchente · ⬇ vazante. ⭐⭐⭐ = dia bom.<br>'+
+        '<b>🌊 Água a mexer</b> = todas as horas com corrente, dês ou não estar livre. Cada janela começa 45 min depois de uma maré e acaba 45 min antes da seguinte (o estofo é água parada).<br>'+
         '<b>🎯 A tua janela</b> = a maior fatia dessas horas que te calha (semana 18h-22h · fim de semana 08h-22h 🎉'+
         '; nas praias corta a ½h após o pôr-do-sol, no estuário não — aí a noturna é legal). <b>🌅</b> = apanha a hora do pôr-do-sol com água a mexer, que é a melhor do dia para robalo.<br>'+
         '<b>Nota</b> soma amplitude + minutos de água a mexer na tua janela + haver enchente + apanhar o crepúsculo.<br>'+
@@ -1031,9 +1123,11 @@ Marés do oceano calibradas (+33 min) mais o atraso local do #5 (+1h44 médio). 
 >
 > 🔁 **E se aguentares o dia todo, volta às 14:00.** A enchente da tarde é a **corrente mais forte do dia** (88-99% entre as 14:00 e as 16:00) e leva-te até à preia-mar das 17:31. **14:00 – 18:30** é a melhor janela do fim de semana inteiro.
 >
+> 📊 **Onde é que a manhã fica no ranking do dia:** corri a pontuação para as 24 horas de sábado. **14:30-17:00 dá 0,74** (o melhor), a enchente da madrugada 0,69, **a tua manhã 06:45-09:15 dá 0,61** e o anoitecer 0,60. A manhã vale **83% do melhor momento do dia** — vale bem a pena, e o 3.º e o 4.º lugar estão tão perto que a diferença cabe dentro do erro do modelo.
+>
 > 😴 **O que podes saltar:** 10:00 às 13:30 — maré a esvaziar e depois parada, com o nível no fundo. É quando os bancos de areia ficam à mostra.
 
-⚠️ **Precisão disto:** as horas das marés do oceano são calibradas contra fonte independente (desvio 1,2 min). O atraso de +1h44 vem da fase de M2 publicada, repartida por mim ao longo do canal — **conta ±20 min**. A curva de corrente é um modelo sinusoidal entre os extremos: serve para comparar horas entre si, **não é uma velocidade real em nós**.
+⚠️ **Precisão disto:** as horas das marés do oceano estão verificadas contra **duas fontes independentes** — a TideTime (calibração, desvio 1,2 min) e a tabuademares para este fim de semana, que dá **PM 04:05 e 16:20** no sábado contra os meus 04:09 e 16:23: **erro de 3 a 6 min**. O atraso de +1h44 vem da fase de M2 publicada, repartida por mim ao longo do canal — **conta ±20 min**. A curva de corrente é um modelo sinusoidal entre os extremos: serve para comparar horas entre si, **não é uma velocidade real em nós**.
 
 **Domingo vemos na sexta**, mais perto, para apanhar a previsão de vento certa.
 
