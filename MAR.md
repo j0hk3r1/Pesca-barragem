@@ -947,7 +947,7 @@ Em vez de me fiar nos nomes do OpenStreetMap, varri **a margem inteira de 40 em 
 | # | Onde | Água aberta<br>*(raio 150 m)* | Lançamento | Estrada | Rampa | |
 |---|---|---|---|---|---|---|
 | **1** | **⭐ Ponta do Espichel — a ponta da língua de areia**<br>[39.40372, -9.21098](https://www.google.com/maps?q=39.40372,-9.21098) | **92%** | 11 m | 315 m | 1132 m | **o melhor** |
-| **2** | **⭐ Braço sudoeste — canal estreito**<br>[39.39529, -9.21906](https://www.google.com/maps?q=39.39529,-9.21906) | **65%** | 11 m | 52 m | 1005 m | carro à beira de água |
+| **2** | **⭐ Braço sudoeste — margem nascente**<br>[39.39736, -9.21599](https://www.google.com/maps?q=39.39736,-9.21599) | **70%** | 25 m | 38 m | 350 m | ⚠️ ver o embarcadouro |
 | **3** | **Ponta da Ardonia**<br>[39.40364, -9.20088](https://www.google.com/maps?q=39.40364,-9.20088) | **48%** | 11 m | 28 m | 1845 m | o mais perto da Mariya |
 | **4** | **Clube de Vela**<br>[39.40895, -9.20208](https://www.google.com/maps?q=39.40895,-9.20208) | **44%** | 11 m | 53 m | 1562 m | merendas a 176 m |
 | **5** | **Extremo sul da lagoa**<br>[39.39052, -9.22436](https://www.google.com/maps?q=39.39052,-9.22436) | **48%** | 11 m | 27 m | 316 m |  |
@@ -974,18 +974,18 @@ Em vez de me fiar nos nomes do OpenStreetMap, varri **a margem inteira de 40 em 
 
 Medi o perfil da água a partir de cada um: de quanto em quanto metros de lançamento, **a que distância ficas da margem mais próxima**. É geometria da água que não seca, medida em imagem aérea a **0,92 m/pixel**.
 
-| Lançamento | **#1** *(Ponta do Espichel)* rumo O | **#2** *(braço sudoeste)* rumo ENE |
+| Lançamento | **#1** *(Ponta do Espichel)* rumo O | **#2** *(braço sudoeste)* rumo S |
 |---|---|---|
-| 25 m | 20 m da margem | 12 m |
-| 40 m | 35 m | 27 m |
-| 60 m | **54 m** | **37 m** |
-| 80 m | **73 m** | **45 m** |
-| 100 m | 87 m | 28 m *(já a subir para a outra margem)* |
+| 25 m | 20 m da margem | 25 m |
+| 40 m | 35 m | 39 m |
+| 60 m | **54 m** | **50 m** |
+| 80 m | **73 m** | **64 m** |
+| 100 m | 87 m | 75 m |
 
 Os dois perfis descrevem sítios diferentes:
 
 - No **#1** o número **sobe sempre** — é uma **ponta a entrar numa bacia larga**, com água funda de três lados e nada a atravessar.
-- No **#2** o número **sobe até aos 80 m e depois desce** — é a assinatura de um **canal**. A 80 m estás no meio dele, com margem dos dois lados a ~45 m.
+- No **#2** o número também sobe sempre, mas mais devagar — é a margem nascente de um **canal**, com a outra margem a fechar do lado de lá.
 
 > 🥇 **O #1 é o melhor dos dois**, por três razões:
 >
@@ -993,7 +993,7 @@ Os dois perfis descrevem sítios diferentes:
 > 2. **É uma ponta.** O peixe que anda ao longo da margem com a maré é obrigado a contorná-la, e tu tens água boa dos dois lados dela.
 > 3. **Não há nada a atravessar.** Água que não seca a **11 m** dos teus pés e **92% de água aberta** num raio de 150 m — o valor mais alto da lagoa. Aos 60 m já estás a 54 m de qualquer margem.
 >
-> 🚗 **O #2 continua a valer a pena, e por motivos práticos fortes:** o carro chega à água (**estrada a 52 m** contra 315 m no #1), fica a **15 min da casa**, e num canal apertado a corrente da enchente é mais forte. É o teu sítio para a tarde de sábado, quando a corrente está no máximo.
+> 🚗 **O #2 continua a valer a pena, e por motivos práticos fortes:** o carro chega quase à água (**estrada a 38 m** contra 315 m no #1), fica a **15 min da casa**, e num canal a corrente da enchente é mais forte. É o teu sítio para a tarde de sábado, quando a corrente está no máximo. ⚠️ **Mas não na ponta com os barcos** — ver abaixo.
 >
 > ⚠️ **Estado disto:** os perfis de água são **medidos**. Qual deles pesca melhor é **raciocínio** a partir da geometria e de como funciona a pesca em maré — **não tenho relatos de capturas em nenhum dos dois**.
 
@@ -1054,21 +1054,28 @@ Depois, para cada pixel de água, calculo **a que distância está da coisa mais
 
 ⚠️ **O que isto não te diz:** continua a não dizer **profundidade**. Diz que a poente tens água aberta e limpa até 100 m, e que a nascente tens erva a partir dos 40-60 m. Se no local a água estiver diferente do que a imagem mostra — a lagoa muda —, acredita nos teus olhos.
 
-#### 🎯 E no #2, o braço sudoeste — [39.39529, -9.21906](https://www.google.com/maps?q=39.39529,-9.21906)
+#### ⚓ O #2 mudou de sítio — há um embarcadouro no ponto antigo
 
-Aqui é o contrário: por seres um canal, tens água dos dois lados **mas com formatos diferentes**.
+![O embarcadouro do braço sudoeste e o ponto novo](obidos-embarcadouro.jpg)
+
+Na ponta a sudoeste — [39.39529, -9.21906](https://www.google.com/maps?q=39.39529,-9.21906) — a imagem aérea mostra **dezenas de barcos amarrados no esteiro e encalhados na ponta**, com caminhos de terra a convergir para lá. É um **embarcadouro de pescadores**.
+
+> ⛔ **O [Edital 24/2014 de Peniche](https://www.amn.pt/DGAM/Capitanias/Peniche/Lists/Documentos_AMN/Edital%2024_2014%20PESCA-LUDICA_PROIBICOES.pdf) proíbe pescar a menos de 100 m de embarcadouros.** O OpenStreetMap não o tem mapeado — foi por isso que o cálculo automático dava "rampa a 1005 m". Está agora acrescentado ao mapa, com o círculo dos 100 m.
+
+**O ponto novo fica 350 m a nordeste, no mesmo canal:** [39.39736, -9.21599](https://www.google.com/maps?q=39.39736,-9.21599). Está no claro do embarcadouro **e é melhor água** — 70% que não seca contra 65%, e um perfil bastante mais fundo.
+
+#### 🎯 Onde pôr as duas canas no #2
 
 | Cana | Rumo | Distância | A que ficas da margem |
 |---|---|---|---|
-| 🥇 **Cana do avô** *(100 g)* | **ENE 60°** | **60-80 m** | 32 → 39 m · perfil limpo, sobe direito |
-| 🥈 **Resifight** *(60 g)* | **SE 135°** | **80-100 m** | 39 → 58 m · **é o que mais abre**, mas tens de passar dos 60 m |
+| 🥇 **Cana do avô** *(100 g)* | **S 180°** | **60-100 m** | 50 → 75 m — abre sempre |
+| 🥈 **Resifight** *(60 g)* | **SSO 195°** | **40-60 m** | 40 → 56 m |
 
-**70° de separação** — cobres o canal em duas direcções.
+Já à margem tens **25 m** de água nos dois rumos, portanto nem precisas de lançar longe para começar.
 
-⚠️ **A SE há um alto aos 40 m** (o afastamento cai para 0-4 m). Ou lanças curto, aos 25 m, ou passas dos 60 m. **Não deixes a montagem aos 40 m nesse rumo.**
-⚠️ **Entre OSO e NNO (240°-345°) é terra.** Esse é o lado onde tu estás.
+⚠️ **Entre ONO e NNO (285°-345°) é terra** — é o lado onde estás. E **entre ESE e SE (105°-135°) há um alto aos 40 m**, onde o afastamento cai para 2-8 m.
 
-**As linhas de lançamento estão desenhadas no mapa** — camada *"para onde lançar"*, a vermelho o rumo principal e a laranja tracejado os alternativos. Cada ponto branco é uma distância de lançamento.
+**As linhas de lançamento estão desenhadas no mapa****As linhas de lançamento estão desenhadas no mapa** — camada *"para onde lançar"*, a vermelho o rumo principal e a laranja tracejado os alternativos. Cada ponto branco é uma distância de lançamento.
 
 ### 📲 Levar isto para o OsmAnd — funciona offline
 
