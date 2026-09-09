@@ -927,15 +927,20 @@ Cada ponto traz a descrição completa: distância de lançamento, rumo, se há 
 | **[39.40528, -9.21136](https://www.google.com/maps?q=39.40528,-9.21136)** · margem sul na Ecopista | ✅ **Bom, e é onde estacionas.** Água a 18 m para N sem banco, rampa a 988 m, ETAR a 407 m. **Anda mais 177 m pela areia e ficas no #5.** |
 | **[39.41486, -9.22050](https://www.google.com/maps?q=39.41486,-9.22050)** · margem norte | ⚠️ **Há melhores.** Zona Livre, mas a rampa está a **165 m** (limite 100 m) e a água que não seca a **118 m para NE com banco pelo meio** — na baixa-mar lanças para areia. |
 
-### 🐦 O ponto onde a Mariya vai ver aves — [39.40021, -9.18683](https://www.google.com/maps?q=39.40021,-9.18683)
+### 🐦 Os dois pontos das aves — e onde pescas em cada um
 
-**Ver aves ali não tem restrição nenhuma.** Pescar é que não.
+| | Onde ela fica | Podes pescar aí? | Spot legal mais próximo |
+|---|---|---|---|
+| **1** | [39.39813, -9.20018](https://www.google.com/maps?q=39.39813,-9.20018) | ⚠️ está **em terra**, a 193 m da água da Zona Livre | ✅ **#8 a apenas 216 m** — [39.39949, -9.19839](https://www.google.com/maps?q=39.39949,-9.19839) |
+| **2** | [39.39983, -9.18685](https://www.google.com/maps?q=39.39983,-9.18685) | ⛔ **não** — a 14 m da bacia da Barrosa | #8, a 992 m |
 
-O ponto fica na bacia que o OpenStreetMap chama **"Barrosa"**, a **622 m** do que chama **"Braço da Barrosa"** — e o Braço da Barrosa está **fechado à pesca todo o ano** (art. 12.º n.º 2 + art. 13.º n.º 1 a). A lei diz *"confinada ao Braço da Barrosa"* e remete para o Modelo Territorial do POC-ACE, que **não está publicado online** — [na APA só estão](https://apambiente.pt/agua/programa-da-orla-costeira-alcobaca-cabo-espichel) as Diretivas, o Relatório e o Programa de Execução. É plausível que "Braço da Barrosa" signifique o braço todo, incluindo esta bacia.
+**No ponto 1 ficam praticamente juntos.** O **#8** é Zona de Utilização Livre, tem a rampa mais próxima a **2234 m** (o limite são 100), e há um **parque de merendas a 185 m** do sítio dela. É o melhor arranjo dos dois: ela senta-se, tu andas 216 m e pescas.
 
-Somando: há um **pontão/embarcadouro oficial no Braço da Barrosa** com os seus 100 m, e é a zona mais assoreada da lagoa — a imagem de maré baixa mostra **banco de areia entre a margem e a água**, e os estudos hidrodinâmicos dão *2 dias* de renovação de água junto à barra contra *3 semanas* no interior.
+**No ponto 2 não.** Fica encostado à bacia que o OpenStreetMap chama **"Barrosa"** — a **665 m** do **Braço da Barrosa**, que está **fechado à pesca todo o ano** (art. 12.º n.º 2 + art. 13.º n.º 1 a). A lei diz *"confinada ao Braço da Barrosa"* e remete para o Modelo Territorial do POC-ACE, que **não está publicado** — [na APA só estão](https://apambiente.pt/agua/programa-da-orla-costeira-alcobaca-cabo-espichel) as Diretivas, o Relatório e o Programa de Execução. É perfeitamente plausível que "Braço da Barrosa" na lei signifique o braço todo, incluindo esta bacia.
 
-> ✅ **O que fazer:** ela fica lá; tu vais para a **[Ponta da Ardonia](https://www.google.com/maps?q=39.40464,-9.20159)**, a **1,3 km**, que é Zona Livre e tem água a 18 m sem banco. *(A distância é medida; a leitura do "Braço da Barrosa" é cautela minha — a geometria oficial não existe publicada.)*
+Somando: há um **pontão/embarcadouro oficial no Braço da Barrosa** com os seus 100 m, é a zona **mais assoreada** da lagoa, e é a de pior renovação de água — 2 dias junto à barra contra 3 semanas no interior.
+
+> ✅ **Se ela for aos dois, pesca no ponto 1.** Ver aves não tem restrição em lado nenhum; a limitação é só para ti. *(As distâncias são medidas; a leitura do "Braço da Barrosa" é cautela minha — a geometria oficial não existe publicada.)*
 
 ### ⚠️ Os nomes dos pesqueiros não são de fiar — as coordenadas são
 
@@ -953,31 +958,78 @@ Estão a **amarelo** no mapa. A regra é simples: **não lances para o amarelo, 
 
 > ⚠️ **O que isto é e não é.** É a classificação de uma imagem aérea, não batimetria oficial — **não existe batimetria pública desta lagoa**. A barra migra, a lagoa assoreia e a imagem tem a data que tem. Serve para escolher a margem antes de sair de casa; no local, **olha para a água na baixa-mar** e confirma. Também tentei separar os canais fundos por cor da água e **não é fiável aqui**: o escuro tanto é fundo como são prados de ervas marinhas — a lagoa perdeu ~150 ha para elas e para o assoreamento.
 
-### 🌊 A maré manda? Manda — mas menos do que no mar
+### 🌊 A maré manda — e dentro da lagoa chega **duas horas** mais tarde
 
-**Sim, a maré importa, e não dá para pescar o dia todo com a mesma expectativa.** Os números:
+**Sim, a maré importa, e não dá para pescar o dia todo com a mesma expectativa.** Mas o mais importante é isto: **a maré que vês na tabela do topo é a do oceano, à barra. Dentro da lagoa acontece muito mais tarde e muito mais fraca.**
 
-| | Fora, no oceano | Dentro da lagoa |
+O número está publicado. [Delft3D modelling of Óbidos Lagoon, *JMSE* 9(1):91](https://doi.org/10.3390/jmse9010091):
+
+> *"The phase of M2 constituent increases from **70° at the mouth** of both systems to (…) **150° at Óbidos upstream regions**."*
+> *"The amplitude of M2 (…) reach**ing 1 m at the estuaries inlet while decreasing until (…) 0.25–0.30 m at the (…) Óbidos upstream regions**."*
+
+80° de fase de M2 entre a barra e o fundo da lagoa = **166 minutos**, quase 2h45. E a amplitude cai de 1 m para 0,25-0,30 m — **fica em cerca de um quarto**.
+
+Escalando pela distância ao longo do canal a partir da barra:
+
+| Onde | Distância da barra | Atraso face ao oceano |
 |---|---|---|
-| **Amplitude** | 2 a 4 m | **1 a 2 m** — cai para cerca de metade |
-| **Duração da enchente** | ~6 h | **~5 h** |
-| **Duração da vazante** | ~6 h | **~7 h** |
+| Foz do Arelho, à barra | 0 | — |
+| #4 Clube de Vela | 3,6 km | **+1h36** |
+| #5 e o teu spot A | 3,7-3,9 km | **+1h44** |
+| #1 braço sudoeste | 4,3 km | **+1h57** |
+| #2 e #8, junto às aves | 4,7-5,0 km | **+2h12** |
+| Fundo da Barrosa | 6,1 km | +2h46 |
 
-A lagoa é **dominada pela enchente**: a maré entra em 5 h e sai em 7 h. Como entra o mesmo volume em menos tempo, **a corrente de enchente é mais forte que a de vazante** — e é a corrente que põe o peixe a comer. É por isso que o conselho de quem lá pesca é *"fins da enchente e inícios da vazante"*: apanhas o pico da corrente que entra e o virar do maço.
+> ⚠️ **Estado:** os 166 min e a atenuação da amplitude são **medidos e publicados**; a repartição pela distância ao longo do canal é **interpolação minha** e assume que a onda de maré avança a velocidade constante — não é bem assim. **Conta com ±20 min** e confirma na primeira maré a olhar para a água.
+
+**E a enchente é mais curta que a vazante:** dentro da lagoa a maré **enche em ~5 h e vaza em ~7 h**. Passa o mesmo volume em menos tempo, portanto **a corrente de enchente é mais forte** — é por isso que o conselho de quem lá pesca é *"fins da enchente e inícios da vazante"*. Na prática a baixa-mar local atrasa ainda mais que a preia-mar (~36 min de diferença, que é o que produz esta assimetria).
 
 | Momento | Vale a pena? |
 |---|---|
-| 🟢 **Última hora e meia de enchente** | **a melhor janela** — corrente máxima, água nova a entrar, peixe a subir com ela |
-| 🟢 **Primeira hora de vazante** | **segunda melhor** — o peixe recua e passa pelos mesmos sítios |
-| 🟡 Meio da enchente | razoável, com corrente |
+| 🟢 **Última hora e meia antes da preia-mar local** | **a melhor janela** — corrente máxima, água nova a entrar |
+| 🟢 **Primeira hora de vazante** | **segunda melhor** — o peixe recua pelos mesmos sítios |
+| 🟡 Meio da enchente | razoável, já com corrente |
 | 🔴 Estofa da preia-mar | água parada, o pior |
 | 🔴 Baixa-mar num spot com banco | ficas a lançar para areia seca |
 
-⚠️ **No inverno marítimo** a amplitude da maré dentro da lagoa **cai mais 50%** e a dominância da enchente aumenta ainda mais — o efeito da maré é menor, mas a janela da enchente é ainda mais concentrada.
+⚠️ **No inverno marítimo** a amplitude dentro da lagoa cai mais 50% e a dominância da enchente aumenta.
 
-**A que horas é a maré:** a tabela do topo desta página dá a maré do **oceano**. Para Peniche/Foz do Arelho o Open-Meteo adianta **+33 min** (medido em 6 eventos contra a TideTime, desvio 1,2 min, intervalo +31 a +34) — repara que é simétrico, ao contrário de Lisboa, onde o estuário distorce (+74 PM / +45 BM).
+**A tabela do topo desta página** dá a maré do oceano. Para Peniche/Foz do Arelho o Open-Meteo adianta **+33 min** — medido em 6 eventos contra a TideTime, desvio 1,2 min. Soma o atraso da tabela acima e tens a hora no teu spot.
 
-> ⏱️ **Dentro da lagoa atrasa mais.** A barra é estreita e está assoreada. Não encontrei número publicado para o desfasamento no sector sul, por isso **conta com cerca de 1 h de atraso face à barra e confirma no primeiro dia a olhar para a água**. *(A calibração oceânica é medida; o atraso interior é estimado.)*
+### 📅 Janelas deste fim de semana — 12 e 13 de setembro
+
+Marés do **oceano** já com a calibração de +33 min, e depois somado o atraso de cada zona da lagoa. Sol: nasce **07:15**, põe-se **19:50**.
+
+**🥇 SÁBADO 12 — a melhor janela do fim de semana**
+
+| Zona | Preia-mar local | 🎯 Janela | |
+|---|---|---|---|
+| #5 / spot A | 17:31 | **16:00 – 18:30** | ☀️ dia, acaba 1h20 antes do escuro |
+| **#1 braço sudoeste** | 17:44 | **16:15 – 18:45** | ☀️ dia |
+| #2 / #8 junto às aves | 17:59 | **16:30 – 19:00** | ☀️ dia, entra no fim de tarde |
+
+**🥈 DOMINGO 13**
+
+| Zona | Preia-mar local | 🎯 Janela | |
+|---|---|---|---|
+| #5 / spot A | 18:07 | **16:35 – 19:05** | ☀️ dia |
+| **#1 braço sudoeste** | 18:20 | **16:50 – 19:20** | ☀️ acaba **meia hora antes do pôr-do-sol** |
+| #2 / #8 junto às aves | 18:35 | **17:05 – 19:35** | ☀️ acaba **quase ao pôr-do-sol** ⭐ |
+
+**🌙 E as janelas da madrugada**, se te apetecer *(pescar de noite na Zona Livre é legal)*:
+
+| | #5 / spot A | #1 | #2 / #8 |
+|---|---|---|---|
+| Sábado | 03:45 – 06:15 | 04:00 – 06:30 | 04:15 – 06:45 |
+| Domingo | 04:20 – 06:50 | 04:35 – 07:05 | 04:50 – 07:20 |
+
+> ⭐ **Se só pescares uma vez: sábado à tarde, 16:15 às 18:45, no #1.** É a maré com **maior amplitude do fim de semana** (3,12 m no oceano contra 2,93 m no domingo), portanto a corrente mais forte, e é a tua janela mais folgada de luz.
+>
+> 🌇 **Se pescares duas: acrescenta domingo ao fim da tarde**, 17:05 às 19:35 no #8 — essa acaba **quase ao pôr-do-sol** (19:49), e o crepúsculo é o segundo momento forte do dia. Como a Mariya está a 216 m no ponto 1 das aves, encaixa bem.
+
+⚠️ **As baixa-mares locais** — evita estas horas em spots com banco de areia à frente: sábado **12:30-13:00**, domingo **13:05-13:35** (mais ~15 min quanto mais para dentro estiveres). No #1 e no #5 não te fazem mal: têm água logo à margem.
+
+⚠️ **±20 min de incerteza** no atraso da lagoa. Chega **meia hora antes** da janela e vê a água: se ainda estiver a encher, ficas; assim calibras para o resto do fim de semana.
 
 ### ⚙️ O setup — o que levar e como montar
 
