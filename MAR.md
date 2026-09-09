@@ -929,31 +929,32 @@ Em vez de me fiar nos nomes do OpenStreetMap, varri **a margem inteira de 40 em 
 > 📐 **Como isto foi feito, e o que não prova.** *"Água aberta"* é a percentagem de superfície, num raio de 150 m, que **não fica a seco na baixa-mar** — medido numa imagem aérea apanhada em maré baixa. *"Lançamento"* é a distância da margem a essa água; **11 m é o mínimo da grelha**, quer dizer *"a água começa logo aos teus pés"*. Estrada e rampa são distâncias calculadas sobre dados do OpenStreetMap.
 > **Isto diz-te onde há água que não seca — não diz a profundidade.** Não existe batimetria pública desta lagoa. Um sítio com 92% de água aberta pode ainda assim ter meio metro de fundo. Serve para escolher a margem antes de sair de casa; a profundidade descobres no local.
 
-### 🎯 #2 ou #1? — e para onde lançar em cada um
+### 🎯 #1 ou #2? — e para onde lançar em cada um
 
 Medi o perfil da água a partir de cada um: de quanto em quanto metros de lançamento, **a que distância ficas da margem mais próxima**. É geometria da água que não seca, medida em imagem aérea a **0,92 m/pixel**.
 
-| Lançamento | **#2** rumo **ENE** | **#1** rumo **O** |
+| Lançamento | **#1** *(Ponta do Espichel)* rumo O | **#2** *(braço sudoeste)* rumo ENE |
 |---|---|---|
-| 25 m | 12 m da margem | 20 m |
-| 40 m | 27 m | 35 m |
-| 60 m | **37 m** | **54 m** |
-| 80 m | **45 m** | **73 m** |
-| 100 m | 28 m *(já a aproximar-se da outra margem)* | 87 m |
+| 25 m | 20 m da margem | 12 m |
+| 40 m | 35 m | 27 m |
+| 60 m | **54 m** | **37 m** |
+| 80 m | **73 m** | **45 m** |
+| 100 m | 87 m | 28 m *(já a subir para a outra margem)* |
 
-Os dois perfis dizem coisas diferentes:
+Os dois perfis descrevem sítios diferentes:
 
-- No **#2**, o número **sobe até aos 80 m e depois desce** — é a assinatura de um **canal**. A 80 m estás no meio dele, com margem dos dois lados a ~45 m. Toda a maré que enche e vaza aquele braço passa por ali.
-- No **#1**, o número **sobe sempre** — estás a sair para o meio de uma bacia larga. Aos 100 m tens 87 m de água aberta à volta e continua a abrir.
+- No **#1** o número **sobe sempre** — é uma **ponta a entrar numa bacia larga**, com água funda de três lados e nada a atravessar.
+- No **#2** o número **sobe até aos 80 m e depois desce** — é a assinatura de um **canal**. A 80 m estás no meio dele, com margem dos dois lados a ~45 m.
 
-> 🥇 **Para pescar, escolhia o #2.** Não é por ter mais água — tem menos. É por ter **menos**:
+> 🥇 **O #1 é o melhor dos dois**, por três razões:
 >
-> 1. **O peixe é obrigado a passar por ali.** Num canal estreito, o peixe que sobe com a enchente e desce com a vazante concentra-se numa secção pequena. No #1, tem 300 m de largura para se espalhar e podes estar a 50 m do sítio certo sem saber.
-> 2. **A corrente é mais forte.** Passa o mesmo volume de água por uma secção mais apertada. E o conselho de quem lá pesca — *"fins da enchente, inícios da vazante"* — é todo sobre corrente.
-> 3. **O carro fica na água.** Estrada a 52 m e sítio para estacionar à beira. No #1 são **315 m até à estrada e 944 m até um parque** — com o material, duas vezes por dia, e à noite.
-> 4. **Fica a 15 min da casa** que estás a ver.
+> 1. **Está no eixo principal da maré.** A água que entra e sai da lagoa passa pelo corpo central, e a ponta fica em cima dele. O **#2 é um braço lateral** — tem corrente mais concentrada, mas passa lá menos peixe.
+> 2. **É uma ponta.** O peixe que anda ao longo da margem com a maré é obrigado a contorná-la, e tu tens água boa dos dois lados dela.
+> 3. **Não há nada a atravessar.** Água que não seca a **11 m** dos teus pés e **92% de água aberta** num raio de 150 m — o valor mais alto da lagoa. Aos 60 m já estás a 54 m de qualquer margem.
 >
-> ⚠️ **Estado disto:** o perfil da água é **medido**. A conclusão de que o canal pesca melhor é **raciocínio** meu a partir da geometria e de como funciona a pesca em maré — **não tenho relatos de capturas em nenhum dos dois**. O único relato que tenho da lagoa é o conselho geral do local das Caldas.
+> 🚗 **O #2 continua a valer a pena, e por motivos práticos fortes:** o carro chega à água (**estrada a 52 m** contra 315 m no #1), fica a **15 min da casa**, e num canal apertado a corrente da enchente é mais forte. É o teu sítio para a tarde de sábado, quando a corrente está no máximo.
+>
+> ⚠️ **Estado disto:** os perfis de água são **medidos**. Qual deles pesca melhor é **raciocínio** a partir da geometria e de como funciona a pesca em maré — **não tenho relatos de capturas em nenhum dos dois**.
 
 #### 🎯 Onde pôr as duas canas no #1 — [39.40372, -9.21098](https://www.google.com/maps?q=39.40372,-9.21098)
 
@@ -1150,7 +1151,7 @@ Marés do oceano calibradas (+33 min) mais o atraso local do #1 (+1h44 médio). 
 
 **Domingo vemos na sexta**, mais perto, para apanhar a previsão de vento certa.
 
-### 🎣 A cana: **Resifight 500** — e a linha que lhe tens é que tem de mudar
+### 🎣 As canas e as linhas
 
 A [**Resifight 500 3,00 m X-Heavy**](https://www.decathlon.pt/p/cana-de-pesca-ao-fundo-resifight-500-3-00-p-x-heavy/350489/m8843322) é a cana certa para a lagoa. Ficha do produto: **3 m · potência 40-100 g · acção semi-parabólica · 3 elementos**.
 
@@ -1189,11 +1190,9 @@ O que o peixe inspecciona são os **últimos 30-60 cm, junto ao isco** — e ess
 | **#2** *(a tarde)* | 11 m, mas o meio do canal está aos 80 m | ⚠️ ajuda, mas aos 60 m já estás bem |
 
 > ✅ **Veredicto: mantém o 0,60 na Resifight este fim de semana.** No #1 a água começa aos 11 m — não há distância nenhuma a ganhar, e às 6h30 da manhã, no escuro, com duas canas para montar, não é altura de andar a refazer nós.
-> 🔧 Se um dia quiseres mesmo lançar longe no #2, aí sim troca por 1,5 m de fluoro. Mas é optimização, não correcção.
+> 🔧 Se um dia quiseres mesmo o máximo de distância no #2, troca por 1,5 m de fluoro.
 
-> 🎯 **E o fluoro? Nas duas — mas só nos estralhos.**
-> O peixe só inspecciona os **últimos 30-60 cm**, junto ao isco. É aí que o fluoro trabalha, e é igual nas duas canas: **estralhos de fluoro 0,28-0,35**.
-> O shock leader nem chega perto do anzol — acaba no destorcedor, antes da montagem.
+> 🎯 **O fluoro vai nos estralhos, nas duas canas** — 0,28-0,35. É a única parte que o peixe inspecciona.
 
 > ❌ **Shock leader de fluoro? Não.** O shock leader é **mono**, e por três razões:
 > 1. **A função dele é esticar.** É isso que absorve o tranco do lançamento. O fluoro estica muito menos que o mono — faz pior o único trabalho que tem.
@@ -1243,30 +1242,90 @@ Vais levá-la, e é meio caminho andado — é uma cana de **surfcasting**, pesa
 
 > ⚠️ **A de spinning fica em casa** se levares estas duas — o limite são **2 canas por pescador**. Se quiseres atirar amostras à boca do canal, trocas, não acrescentas.
 
-### ⚙️ As montagens
+### ⚙️ As montagens — com o material que tens
 
-A montagem que fizemos para a muralha do Tejo serve, **encurtada e aliviada**: aqui não há ondulação nem fundo sujo, há **corrente de maré, água rasa e peixe desconfiado**.
+Duas canas, o máximo que a lagoa permite. Ambas podem levar corrida, porque tens chumbos de correr para as duas.
 
-**🥇 Cana 1 — fundo, dois anzóis** *(a que trabalha sozinha)*
+**🥇 Fundo de 2 anzóis** — *a montagem base, é a que trabalha sozinha enquanto esperas*
 
-| Peça | O que usar |
+| Peça | Cana do avô | Resifight 500 |
+|---|---|---|
+| **Madre** | Tournament 0,33 branco | trançada 27 kg |
+| **Shock leader** | **10 m de mono 0,60** — obrigatório | o 0,60 que já lá tens *(opcional)* |
+| **Chumbo** | **100 g** | **60 g** |
+| **Estralho de cima** | fluoro **0,30-0,35** · **50-60 cm** | idem |
+| **Estralho de baixo** | fluoro **0,28-0,30** · **30-40 cm** | idem |
+| **Anzóis** | **n.º 4 a 1/0** — os teus de mar de 8,3 mm servem | idem |
+| **Nós** | Palomar nas argolas · cirurgião nos estralhos | idem |
+
+**🥈 Corrida** — *para dourada desconfiada e para a estofa*
+
+Chumbo de correr na madre → conta amortecedora → destorcedor → **60-80 cm de fluoro 0,30** → anzol n.º 4-2.
+Na Resifight usas o **50 g**; na cana do avô podes juntar dois para chegares ao peso que a corrente pedir.
+
+> ⚠️ **Na corrida, não deixes o freio apertado.** O chumbo corre na linha, mas se a linha não puder sair o peixe sente na mesma. Freio lavado ou bail aberto com indicador — senão a montagem não faz o que veio fazer.
+
+**🥉 Spinning leve** — vinil de 7-12 cm ou spinner #2-3, leader fluoro 0,30, 7-20 g. À boca dos canais, na enchente, ao robalo.
+⚠️ **É troca, não acréscimo** — o limite são 2 canas por pescador.
+
+⚖️ **Regra da lagoa: máx. 2 canas, máx. 3 anzóis por cana.** Duas de fundo com 2 anzóis cada = 4 anzóis na água, dentro da lei.
+
+**Na caixa:** chumbos de 50 (correr), 60 e 100 g · fluoro 0,28 e 0,35 · anzóis 4, 2 e 1/0 · destorcedores · contas · **ancinho e balde** *(ver o isco)* · **dedeira ou luva** se pescares com a trançada à vista · e o camaroeiro, que a margem é baixa e lamacenta.
+
+### 🪱 O isco — e a boa notícia sobre as tuas navalhas
+
+🎯 **A navalha que já tens é o primeiro isco que o local nomeia.** Ele chama-lhe *lingueirão* — é o mesmo bivalve (*Ensis siliqua*). Vais com o isco certo.
+
+| Isco | Onde arranjas | Notas |
+|---|---|---|
+| 🥇 **Navalha / lingueirão** | ✅ **já tens** · também há nas margens | o primeiro da lista do local |
+| 🥇 **Tiras de choco** | supermercado, cêntimos | ⭐ **leva.** Ver abaixo — resolve o peixe miúdo |
+| 🥈 **Americana** | **cavando numa coroa**, na baixa-mar | isco de topo p/ robalo e dourada |
+| 🥈 **Casulo** | margens na baixa-mar, ou loja | *Diopatra neapolitana*, fosforescente |
+| 🥈 **Mexilhão · berbigão** | margens na baixa-mar | moles — bons quando o peixe está fino |
+| 🥉 **Camarita · coreana** | loja | da lista do local |
+| 🥉 **Caranguejo** | margens na baixa-mar | p/ sargo e robalo |
+
+**🦑 O problema que vais ter, e a solução.** O local avisa duas vezes: *"muito peixe pequeno como é habitual na lagoa"*. As tuas navalhas são **moles** e vão ser depenadas. A dica veio dos comentários de um vídeo de pesca na Foz do Arelho:
+
+> *"Tinhas levado umas **tiras de choco** — assim levavam mais tempo a ratar."*
+> — comentário em [Pesca SurfCasting - Foz do Arelho](https://www.youtube.com/watch?v=9Tq8gwEc8g8), Canal Peixe Português
+
+**Compra um choco, corta em tiras.** Custa pouco, aguenta no anzol, e é isco que robalo e dourada comem. Alterna: navalha num anzol, tira de choco no outro — ao fim de meia hora vês qual sobreviveu.
+
+**🪱 E há americana na lagoa, de graça.** O mesmo local:
+
+> *"Decidi fazer uns buracos numa coroa e para minha surpresa **encontrei lá americanas pequenas**. Ainda consegui tirar uma à mão, **elas enterram-se muito rápido**."*
+> — [Pesqueiro, tópico 30405](https://www.pesqueiro.pt/index.php?topic=30405.0)
+
+Corroborado por outro utilizador com 6357 mensagens: *"Um amigo meu vai regularmente para a lagoa e já me tinha falado nisso."* Chega **uma hora antes da baixa-mar** com ancinho e balde.
+
+⚠️ **Para isco, sim; para comer, não** sem verificar. A apanha de bivalves tem zonas fechadas por saúde pública — consulta o [IPMA](https://www.ipma.pt/pt/bivalves/) antes de levares marisco para casa.
+
+### 🗣️ O que dizem quem lá pesca — tudo junto
+
+Todos do **Usersd**, das Caldas da Rainha (276 mensagens), em dois tópicos diferentes do Pesqueiro:
+
+| Sobre | O que diz |
 |---|---|
-| Madre | mono 0,28-0,30 ou trançada 0,16 |
-| Chumbo | **60 g** fixo (o teu por defeito) · **50 g de correr** na corrida |
-| Estralho de cima | fluoro **0,30-0,35**, **50-60 cm** |
-| Estralho de baixo | fluoro **0,28-0,30**, **30-40 cm** |
-| Anzóis | **n.º 4 a 1/0** — os teus de mar de 8,3 mm servem |
-| Nós | Palomar nas argolas, cirurgião nos estralhos |
+| ⏱️ **Maré** | *"**Fins da enchente e inícios da vazante**, a lançar para os canais."* |
+| 🎯 **Onde** | *"Escolher **sítios que permitam chegar aos canais mais fundos no lançamento**."* |
+| 🪱 **Isco** | *"Já usei **lingueirão, mexilhão, camarita, casulo, coreano**… Depende dos dias e da fome."* |
+| 🐟 **Tamanho** | *"Têm saído alguns peixinhos, **muito peixe pequeno** como se pode imaginar. Com algumas surpresas pelo meio."* · *"Saíram uns sarguitos, alguns já bons."* |
+| 🥇 **Dourada** | *"Douradas supostamente já lá andam, **já vi saírem do lado do covão dos musaranhos**."* |
+| 🌿 **Aviso** | *"Há **alturas da maré em que saem saladas de 2 kg agarradas à chumbada**."* |
 
-**🥈 Cana 2 — corrida** *(para dourada desconfiada e para a estofa)*
+**Três coisas a reter:**
 
-O **teu chumbo de 50 g de correr** na madre → conta amortecedora → destorcedor → **60-80 cm de fluoro 0,30** → anzol n.º 4-2. É a que ganha quando a água está parada e o peixe não pega no fundo fixo.
+1. 🥇 **O sítio das douradas tem nome: Covão dos Musaranhos** — é o nosso **[#10](https://www.google.com/maps?q=39.38599,-9.22563)**, canto sudoeste. É a tua alternativa se o #1 estiver morto.
+2. 🌿 **Conta com ervas na chumbada** nalgumas alturas da maré. É o assoreamento de que fala a [notícia de out-2025](https://jornaldascaldas.pt/2025/10/30/aumento-da-area-de-pesca-na-lagoa-de-obidos-e-criacao-de-infraestruturas-de-apoio-aos-pe) — *"150 hectares perdidos devido às ervas marinhas"*. Se te vier, muda de rumo em vez de insistir.
+3. ⛔ **"As Chapas", que ele refere como bom sítio, estão fechadas este fim de semana.** É o [Pesqueiro das Chapas](https://www.google.com/maps?q=39.4288,-9.22799), lá a norte junto ao Cais, e cai na zona que só abre a **14 de setembro**.
 
-**🥉 Se quiseres andar a mexer** — spinning leve, vinil de 7-12 cm ou spinner #2-3, leader de fluoro 0,30, 7-20 g. À boca dos canais, na enchente, ao robalo. É a tua cana pequena com o mono 0,30 que já lhe puseste.
+### 🐙 Ao choco — a montagem de quem lá pesca
 
-⚠️ **Regra da lagoa: máximo 2 canas por pescador e 3 anzóis por cana.** Duas canas de fundo com 2 anzóis cada = 4 anzóis na água, dentro da lei.
+A partir de setembro entra choco na lagoa. Montagem do Rafael Reis: **destorcedor triplo** na madre; da argola de baixo, **um palmo** de nylon até ao chumbo; da que sobra, **dois palmos de fluorocarbono** com um clip para prender a toneira. Chumbo de **20 a 60 g** — *"em 90% das vezes uso chumbadas de 30 g"*.
 
-**O que levar na caixa:** os chumbos de 50 (correr), 60 e 100 g · fluoro 0,28 e 0,35 · anzóis 4, 2 e 1/0 · destorcedores · contas · uma caixa para o isco vivo · **um ancinho e um balde** (ver a seguir) · e o camaroeiro, que a margem é baixa e lamacenta.
+Duas toneiras de cores diferentes ao mesmo tempo até perceberes qual está a funcionar, e depois iguala as duas.
 
 ### 🎣 Como pescar — o resumo
 
@@ -1274,24 +1333,10 @@ O **teu chumbo de 50 g de correr** na madre → conta amortecedora → destorced
 |---|---|
 | ⏱️ **Maré** | **fim da enchente, início da vazante.** Não a estofa |
 | 🎯 **Onde** | margem de onde o lançamento **passe o amarelo** do mapa |
-| 🪱 **Isco** | **grande e resistente** — lingueirão, mexilhão, camarita, casulo, coreana. Há muito peixe miúdo que destrói isco mole |
+| 🧭 **Rumo** | no #1, **OSO 255° aos 60-80 m** e **SO 225° aos 40-60 m** |
+| 🪱 **Isco** | **grande e resistente.** Navalha num anzol, **tira de choco** no outro |
 | 🐟 **Espécies** | robalo, dourada, baila, linguado, sargo, salmonete, tainha, enguia, choco, polvo — e já saiu corvina |
 | 🚫 **Erro clássico** | lançar 20 m para o raso e esperar. É o que faz branquear ali |
-
-### 🪱 O isco apanha-se lá, de graça
-
-> *"Nas margens, **durante a maré baixa** podemos ainda apanhar **casulo, caranguejos e várias espécies de vermes e anelídeos** para usar como isco."*
-> — [Rafael Reis, Lobo do Mar](https://danielfilipers.wixsite.com/revistalobodomar/post/%C3%A0-descoberta-da-lagoa-de-%C3%B3bidos)
-
-Chega **uma hora antes da baixa-mar** com ancinho e balde e não gastas nada. O casulo daqui é o mesmo *Diopatra neapolitana* que compras na loja. Também há berbigão, lingueirão e mexilhão nas margens.
-
-⚠️ **Para isco, sim; para comer, não** sem verificar. A apanha de bivalves tem zonas fechadas por saúde pública e regras próprias — consulta o [IPMA](https://www.ipma.pt/pt/bivalves/) antes de levares marisco para casa.
-
-### 🐙 Ao choco — a montagem de quem lá pesca
-
-A partir de setembro entra choco na lagoa. Montagem do Rafael Reis: **destorcedor triplo** na madre; da argola de baixo, **um palmo** de nylon até ao chumbo; da que sobra, **dois palmos de fluorocarbono** com um clip para prender a toneira. Chumbo de **20 a 60 g** — *"em 90% das vezes uso chumbadas de 30 g"*.
-
-Duas toneiras de cores diferentes ao mesmo tempo até perceberes qual está a funcionar naquele dia, e depois iguala as duas.
 
 ### 🏕️ Dormir lá — o que a lei diz
 
