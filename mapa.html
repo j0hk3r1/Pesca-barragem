@@ -70,6 +70,25 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
   });
 }).catch(function(){document.getElementById('legenda').textContent='⚠️ não deu para carregar as zonas.';});
 
+
+    // camada das lagoas costeiras — proibição PERMANENTE (POC-ACE)
+    fetch('data-lagoas.json').then(function(r){return r.json();}).then(function(ls){
+      var g=L.layerGroup();
+      ls.forEach(function(z){
+        L.polygon(z.poly,{color:'#8e44ad',fillColor:'#8e44ad',fillOpacity:0.28,weight:2})
+         .bindPopup('<b>⛔ '+z.n+'</b><br><b>Pesca PROIBIDA — todo o ano</b><br>'+z.regra+
+           '<br><span style="opacity:.7;font-size:.9em">'+z.fonte+'</span>').addTo(g);
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['lagoa costeira'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="lagoa costeira"> '+
+        '<span style="color:#8e44ad">■</span> lagoa costeira (proibida todo o ano)</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="lagoa costeira"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
     // camada das praias balneares (só proibidas dentro da época)
     fetch('data-praias.json').then(function(r){return r.json();}).then(function(ps){
       var g=L.layerGroup(), hoje=new Date(), ano=hoje.getFullYear(), ativas=0;

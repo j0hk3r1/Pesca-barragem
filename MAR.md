@@ -258,6 +258,25 @@
       if(leg) leg.innerHTML='<span style="opacity:.7">⚠️ não deu para carregar as zonas.</span>';
     });
 
+
+    // camada das lagoas costeiras — proibição PERMANENTE (POC-ACE)
+    fetch('data-lagoas.json').then(function(r){return r.json();}).then(function(ls){
+      var g=L.layerGroup();
+      ls.forEach(function(z){
+        L.polygon(z.poly,{color:'#8e44ad',fillColor:'#8e44ad',fillOpacity:0.28,weight:2})
+         .bindPopup('<b>⛔ '+z.n+'</b><br><b>Pesca PROIBIDA — todo o ano</b><br>'+z.regra+
+           '<br><span style="opacity:.7;font-size:.9em">'+z.fonte+'</span>').addTo(g);
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['lagoa costeira'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="lagoa costeira"> '+
+        '<span style="color:#8e44ad">■</span> lagoa costeira (proibida todo o ano)</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="lagoa costeira"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
     // camada das praias balneares (só proibidas dentro da época)
     fetch('data-praias.json').then(function(r){return r.json();}).then(function(ps){
       var g=L.layerGroup(), hoje=new Date(), ano=hoje.getFullYear(), ativas=0;
@@ -470,6 +489,37 @@ Respostas literais do [FAQ da Pesca Lúdica](https://www.dgrm.pt/documents/20143
 | ⛔ **Cais do Sodré → Torre de Belém** | — | — | — | **evitar**: docas, marinas, terminais e a Torre (forte) criam zonas de exclusão que cobrem quase todo o troço |
 
 > ⚠️ **As regras que criam as zonas proibidas** ([edital da Capitania](http://dalhelinha.blogspot.com/2012/05/legislacao-restricoes-pesca-no-tejo.html)): proibido **nas docas e marinas** · a **<100 m** de acessos a docas/marinas/embarcadouros, pontões, rampas, unidades militares e **fortes** · a **<300 m de cais acostáveis** · em áreas balneares na época, a <200 m da praia.
+
+## 🟣 Lagoa de Albufeira — a pesca é proibida ali, o ano todo
+
+⛔ **Não é sazonal e não é só na praia: é a lagoa inteira, sempre.** Verificado na fonte primária.
+
+> **[RCM n.º 66/2019](https://poseur.portugal2020.pt/media/42246/rcm-n%C2%BA-n%C2%BA66_2019_1104_aprova-programa-da-orla-costeira-de-alcoba%C3%A7a-cabo-espichel.pdf) (aprova o POC Alcobaça–Cabo Espichel), Modelo Territorial:** *"Na Lagoa de Albufeira, com o objetivo de acautelar impactes sobre a qualidade da água e dos recursos ecológicos, **a totalidade do Plano de Água da Lagoa Grande está abrangida por uma Zona de Utilização Condicionada de carácter permanente**."*
+
+> **[Regulamento de Gestão das Lagoas de Óbidos e Albufeira](https://www.sesimbra.pt/cmsesimbra/uploads/document/file/8329/regulamento-gestao-lagoas-obidos-albufeira.pdf), art. 13.º n.º 1:** *"Nas zonas de utilização condicionada permanente **não são permitidas** quaisquer atividades que afetem a sensibilidade ecológica destas áreas, designadamente: **a) Pesca profissional e lúdica**."*
+
+**Duas confirmações de que a leitura está certa:** a mesma RCM diz que a Zona de Utilização Livre *"apenas está identificada (…) no Plano de Água da **Lagoa de Óbidos**"* — em Albufeira não existe nenhuma; e o art. 13.º n.º 1 c) excetua expressamente a **miticultura na Lagoa de Albufeira**, o que só faz sentido se a lagoa estiver toda em zona condicionada.
+
+| Área | Regime | Pesca |
+|---|---|---|
+| **Lagoa Grande** (todo o plano de água) | Utilização Condicionada **permanente** | ⛔ **proibida todo o ano** |
+| **Lagoa Pequena + Lagoa da Estacada** (gestão ICNF) | Utilização **Interdita** | ⛔ proibido **tudo** (art. 11.º) |
+| Faixa de 100 m junto ao areal da Zona Balnear | + Condicionada **na época balnear** | ⛔ camada extra |
+
+⚠️ **Isto contraria os sites de pesca** — o [pesca-pt](https://www.pesca-pt.com/pesqueiro.php?id=755) lista a Lagoa de Albufeira como pesqueiro de robalo, dourada, baila, sargo e linguado. O peixe está lá; a lei é que não deixa.
+
+### 🏖️ E as praias ali à volta?
+
+Todas as quatro são águas balneares ([Portaria 204-A/2026/1](https://files.diariodarepublica.pt/1s/2026/04/08401/0000200039.pdf)) com a **mesma época: 4 jun → 13 set**:
+
+| Água balnear | Código | Pescável a partir de |
+|---|---|---|
+| Lagoa de Albufeira *(a lagoa)* | PTCF8Q | ⛔ **nunca** — ver acima |
+| Lagoa de Albufeira-Mar | PTCD9J | **14 de setembro** |
+| Moinho de Baixo-Meco | PTCN7E | **14 de setembro** |
+| Bicas | PTCH8C | **14 de setembro** |
+
+> 🎯 **A alternativa que funciona no mesmo dia: [Praia da Adiça](https://www.google.com/maps?q=38.5583,-9.1901)** — 5 km a norte da lagoa, **não consta da portaria das águas balneares** (verificado: zero ocorrências), logo sem restrição de banhos o ano todo. Já está na tabela das zonas acima. A seguir a norte, a Fonte da Telha é balnear até **30 de setembro**.
 
 ## 🎣 Montagens
 
