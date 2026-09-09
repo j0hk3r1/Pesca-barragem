@@ -1020,6 +1020,40 @@ São **30° de separação**: não se enrolam, e apanhas duas profundidades dife
 
 ⚠️ **Não lances entre N e SE.** Aos 60 m já estás em cima da língua de areia.
 
+#### 🔬 Como é que eu decido isto — e porque é que o lado nascente engana
+
+Vale a pena perceberes, porque a olho o lado de nascente parece bom: **é água escura**. Não é fundo, **é erva marinha**.
+
+![Classificação da água à volta da Ponta do Espichel](obidos-classificacao.jpg)
+
+**O que estás a ver:** 🟡 amarelo = areia · 🟢 verde = raso com ervas · 🔵 azul = água aberta. A linha **vermelha é o OSO 255°** que te recomendei; a **branca é o ENE 75°**, o oposto.
+
+**Como o classifico**, numa imagem aérea a 0,92 m por pixel, dentro do contorno da lagoa:
+
+| Se o pixel tem… | É | Porquê |
+|---|---|---|
+| **muito vermelho** *(R > 95)* | **areia** | a água absorve o vermelho depressa. O que reflecte vermelho está seco ou quase |
+| **verde muito acima do vermelho** *(G − R > 38)* | **erva** | as plantas reflectem verde. É o que dá aquele escuro esverdeado |
+| o resto | **água aberta** | fica azulada |
+
+Depois, para cada pixel de água, calculo **a que distância está da coisa mais próxima que não é água**. É esse o número que aparece nos perfis.
+
+**E é isto que os dois lados dão:**
+
+| Rumo | 25 m | 40 m | 60 m | 80 m | 100 m |
+|---|:--:|:--:|:--:|:--:|:--:|
+| 🔴 **OSO 255°** | 19 m | 34 m | **54 m** | **74 m** | **78 m** |
+| ⚪ **ENE 75°** | 6 m | 12 m | 5 m | **erva** | **erva** |
+| E 90° | 12 m | 3 m | 2 m | **erva** | **erva** |
+| ESE 105° | 15 m | 3 m | **erva** | **erva** | **erva** |
+
+> 📊 **A conta dos dois lados**, varrendo tudo até aos 100 m:
+> **poente (SO→NO): 100% de água aberta.** **Nascente (NE→SE): 56%** — o resto é erva.
+
+> 🌿 **E bate certo com o aviso do local:** *"há alturas da maré em que saem **saladas de 2 kg agarradas à chumbada**"*. Lançar para nascente é lançar para dentro do prado de ervas. É de lá que vem a salada.
+
+⚠️ **O que isto não te diz:** continua a não dizer **profundidade**. Diz que a poente tens água aberta e limpa até 100 m, e que a nascente tens erva a partir dos 40-60 m. Se no local a água estiver diferente do que a imagem mostra — a lagoa muda —, acredita nos teus olhos.
+
 #### 🎯 E no #2, o braço sudoeste — [39.39529, -9.21906](https://www.google.com/maps?q=39.39529,-9.21906)
 
 Aqui é o contrário: por seres um canal, tens água dos dois lados **mas com formatos diferentes**.
