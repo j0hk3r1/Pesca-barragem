@@ -1,0 +1,67 @@
+{
+ "robalo": {
+  "pt": "Robalo",
+  "sci": "Dicentrarchus labrax",
+  "fonte": "File:Dicentrarchus labrax 177025102.jpg"
+ },
+ "dourada": {
+  "pt": "Dourada",
+  "sci": "Sparus aurata",
+  "fonte": "File:Aurada wp 2.png"
+ },
+ "linguado": {
+  "pt": "Linguado",
+  "sci": "Solea solea",
+  "fonte": "File:Solea solea 1.jpg"
+ },
+ "sargo": {
+  "pt": "Sargo legítimo",
+  "sci": "Diplodus sargus",
+  "fonte": "File:Sargo común (Diplodus sargus), Madeira, Portugal, 2019-05-31, DD 29.jpg"
+ },
+ "safia": {
+  "pt": "Sargo safia",
+  "sci": "Diplodus vulgaris",
+  "fonte": "File:Sparidae - Diplodus vulgaris.JPG"
+ },
+ "salmonete": {
+  "pt": "Salmonete",
+  "sci": "Mullus surmuletus",
+  "fonte": "File:Mullus surmuletus.jpg"
+ },
+ "tainha": {
+  "pt": "Tainha",
+  "sci": "Chelon labrosus",
+  "fonte": "File:Chelon labrosus.jpg"
+ },
+ "solha": {
+  "pt": "Solha-das-pedras",
+  "sci": "Platichthys flesus",
+  "fonte": "File:Platichthys flesus 1.jpg"
+ },
+ "safio": {
+  "pt": "Safio / congro",
+  "sci": "Conger conger",
+  "fonte": "File:European conger.jpg"
+ },
+ "corvina": {
+  "pt": "Corvina",
+  "sci": "Argyrosomus regius",
+  "fonte": "File:Maigre11.jpg"
+ },
+ "choco": {
+  "pt": "Choco",
+  "sci": "Sepia officinalis",
+  "fonte": "File:Sepia común (Sepia officinalis), Parque natural de la Arrábida, Portugal, 2020-07-21, DD 62.jpg"
+ },
+ "baila": {
+  "pt": "Baila",
+  "sci": "Dicentrarchus punctatus",
+  "fonte": "File:Dicentrarchus punctatus.jpg"
+ },
+ "enguia": {
+  "pt": "Enguia",
+  "sci": "Anguilla anguilla",
+  "fonte": "File:Anguilla anguilla France 1.jpg"
+ }
+}

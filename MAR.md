@@ -892,28 +892,33 @@ A lagoa é **águas interiores não oceânicas sob jurisdição da Capitania de 
 
 ### 📏 O que podes levar para casa
 
-Manda sempre **o maior** dos dois: o mínimo da lagoa (Anexo II da Portaria 567/90) ou o **nacional** ([tabela oficial da DGRM, 26-fev-2026](https://www.dgrm.pt/documents/20143/121101/Tabela+de+Tamanhos+M%C3%ADnimos+de+Captura+26-02-26.pdf/df575e44-0111-1bbe-99aa-f11895a6cb33)). Para o que sai desta lagoa dá isto:
+Manda sempre **o maior** dos dois mínimos: o da lagoa (Anexo II da Portaria 567/90) ou o **nacional** ([tabela oficial da DGRM, 26-fev-2026](https://www.dgrm.pt/documents/20143/121101/Tabela+de+Tamanhos+M%C3%ADnimos+de+Captura+26-02-26.pdf/df575e44-0111-1bbe-99aa-f11895a6cb33)). Para o que sai desta lagoa:
 
-| Espécie | Mínimo | |
-|---|:--:|---|
-| 🥇 **Robalo** | **36 cm** | o mesmo nos dois |
-| 🥇 **Dourada** | **19 cm** | o mesmo nos dois |
-| **Linguado** | **24 cm** | o mesmo nos dois |
-| **Sargo legítimo** e **safia** | **17 cm** | só na tabela nacional |
-| **Sargo bicudo** | 22 cm · **veado** 27 cm | |
-| **Salmonete** | **18 cm** | |
-| **Tainha** | **20 cm** | |
-| **Solha-legítima** | **27 cm** | nacional (a lagoa dizia 25) |
-| **Solha-das-pedras** | **25 cm** | a lagoa (nacional são 22) |
-| **Safio / congro** | **58 cm** | |
-| **Corvina** | **42 cm** | ⚠️ retenção **interdita de 1 a 30 de junho** |
-| **Choco** | **10 cm** | |
+| | Espécie | Mín. | Como a reconheces |
+|:--:|---|:--:|---|
+| <img src="peixes/robalo.jpg" alt="Robalo" width="90" style="border-radius:6px;display:block"> | **Robalo**<br><span style="opacity:.6;font-size:.85em">*Dicentrarchus labrax*</span> | **36 cm** | 🥇 o principal · corpo prateado, risca lateral escura, boca grande |
+| <img src="peixes/dourada.jpg" alt="Dourada" width="90" style="border-radius:6px;display:block"> | **Dourada**<br><span style="opacity:.6;font-size:.85em">*Sparus aurata*</span> | **19 cm** | 🥇 o outro principal · **banda dourada entre os olhos**, mancha escura na guelra |
+| <img src="peixes/linguado.jpg" alt="Linguado" width="90" style="border-radius:6px;display:block"> | **Linguado**<br><span style="opacity:.6;font-size:.85em">*Solea solea*</span> | **24 cm** | chato, os dois olhos do lado direito, cor de areia |
+| <img src="peixes/sargo.jpg" alt="Sargo legítimo" width="90" style="border-radius:6px;display:block"> | **Sargo legítimo**<br><span style="opacity:.6;font-size:.85em">*Diplodus sargus*</span> | **17 cm** | **riscas verticais escuras** e mancha preta no pedúnculo da cauda |
+| <img src="peixes/safia.jpg" alt="Sargo safia" width="90" style="border-radius:6px;display:block"> | **Sargo safia**<br><span style="opacity:.6;font-size:.85em">*Diplodus vulgaris*</span> | **17 cm** | duas manchas escuras: uma na nuca, outra na cauda |
+| <img src="peixes/salmonete.jpg" alt="Salmonete" width="90" style="border-radius:6px;display:block"> | **Salmonete**<br><span style="opacity:.6;font-size:.85em">*Mullus surmuletus*</span> | **18 cm** | avermelhado, **dois barbilhões** por baixo do queixo |
+| <img src="peixes/tainha.jpg" alt="Tainha" width="90" style="border-radius:6px;display:block"> | **Tainha**<br><span style="opacity:.6;font-size:.85em">*Chelon labrosus*</span> | **20 cm** | cinzenta, cabeça achatada, lábio grosso |
+| <img src="peixes/solha.jpg" alt="Solha-das-pedras" width="90" style="border-radius:6px;display:block"> | **Solha-das-pedras**<br><span style="opacity:.6;font-size:.85em">*Platichthys flesus*</span> | **25 cm** | chata, castanha com manchas alaranjadas |
+| <img src="peixes/safio.jpg" alt="Safio / congro" width="90" style="border-radius:6px;display:block"> | **Safio / congro**<br><span style="opacity:.6;font-size:.85em">*Conger conger*</span> | **58 cm** | enguia grande e cinzenta · ⚠️ dentes |
+| <img src="peixes/corvina.jpg" alt="Corvina" width="90" style="border-radius:6px;display:block"> | **Corvina**<br><span style="opacity:.6;font-size:.85em">*Argyrosomus regius*</span> | **42 cm** | prateada, alongada · ⚠️ **interdita de 1 a 30 de junho** |
+| <img src="peixes/choco.jpg" alt="Choco" width="90" style="border-radius:6px;display:block"> | **Choco**<br><span style="opacity:.6;font-size:.85em">*Sepia officinalis*</span> | **10 cm** | cefalópode · o "osso" branco é dele |
+| <img src="peixes/baila.jpg" alt="Baila" width="90" style="border-radius:6px;display:block"> | **Baila**<br><span style="opacity:.6;font-size:.85em">*Dicentrarchus punctatus*</span> | **—** | parece robalo mas **tem pintas pretas nos flancos** · sem mínimo publicado |
+| <img src="peixes/enguia.jpg" alt="Enguia" width="90" style="border-radius:6px;display:block"> | **Enguia**<br><span style="opacity:.6;font-size:.85em">*Anguilla anguilla*</span> | **⛔** | **não se leva** — retenção proibida a nível nacional |
 
 > ⛔ **A enguia não se leva, ponto.** O Anexo II de 1990 dá-lhe 22 cm, mas **a retenção de enguia está hoje proibida** a nível nacional. Se apanhares uma, devolve.
 >
-> ℹ️ **Espécie sem mínimo publicado pode ser retida em qualquer tamanho** — mas a baila e o peixe miúdo que ali abunda não valem o transporte.
+> ℹ️ **Espécie sem mínimo publicado pode ser retida em qualquer tamanho** — mas o peixe miúdo que ali abunda não vale o transporte.
+>
+> 📏 **Mede da ponta do focinho à ponta da cauda**, com a cauda no natural. Leva uma fita métrica ou marca os centímetros no cabo da cana.
 
 **Quanto podes levar:** **10 kg de peixe ou cefalópodes por dia**, e o **exemplar maior não conta**. Bivalves e outros organismos que não sejam peixe: **2 kg**. Se cavares isco, **0,5 litros de minhoca e afins** — o casulo não entra nessa conta.
+
+<span style="opacity:.6;font-size:.85em">Fotografias do Wikimedia Commons.</span>
 
 ### 📢 Editais em vigor da Capitania de Peniche
 
