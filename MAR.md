@@ -1131,29 +1131,60 @@ Marés do oceano calibradas (+33 min) mais o atraso local do #5 (+1h44 médio). 
 
 **Domingo vemos na sexta**, mais perto, para apanhar a previsão de vento certa.
 
-### 🎣 Que canas levar — a de siluro ou a telescópica de mar?
+### 🎣 A cana: **Resifight 500** — e a linha que lhe tens é que tem de mudar
 
-**A de siluro com o FX 4000.** A razão é uma só, e é a que decide tudo em pesca de fundo:
+A [**Resifight 500 3,00 m X-Heavy**](https://www.decathlon.pt/p/cana-de-pesca-ao-fundo-resifight-500-3-00-p-x-heavy/350489/m8843322) é a cana certa para a lagoa. Ficha do produto: **3 m · potência 40-100 g · acção semi-parabólica · 3 elementos**.
 
-> **A lagoa pede chumbos de 30 a 60 g.** A cana de siluro é **40-100 g**: os 30-60 g caem **no meio da janela dela**. Uma cana lança mais longe e mostra melhor as picadas quando trabalha a meio do que aguenta, não nos extremos.
+| | Porquê |
+|---|---|
+| **40-100 g** | a lagoa pede **30-60 g** — cais **a meio da janela dela**, que é onde uma cana lança melhor e mostra melhor as picadas |
+| **Semi-parabólica** | dobra ao longo do branco: amortece a ferragem e não arranca o anzol da boca mole da dourada |
+| **3 m** | curta para surf, **certa para margem de lagoa** — chegas aos 60-80 m que precisas no #1 e no #5 |
 
-| | Cana de siluro (40-100 g) | Telescópica grande de mar |
+**A telescópica grande fica em casa.** Foi feita para meter 150 g dentro da rebentação; aqui não há ondulação nenhuma e os lançamentos são curtos.
+
+**O FX 4000 chega bem:** travão prático **4 kg** (máximo 8,5) contra peixe de 1-3 kg, **170 m de 0,35 mm**, 5,2:1, 320 g.
+
+#### 🧵 A linha: a trançada fica, o 0,60 sai da frente
+
+A **trançada de 27 kg pode ficar**. Braid de 27 kg anda pelos **0,32-0,40 mm** — mais ou menos o diâmetro de um mono 0,30, mas quatro vezes mais forte. E não estica, o que numa lagoa de picadas finas é a favor.
+
+O **topshot de 0,60 são só ~10 m**, portanto não é a linha toda a travar-te — mas esses 10 m ficam justamente **na ponta, à volta do isco**, que é onde mais estorvam:
+
+| | Com 10 m de 0,60 na ponta | Com fluoro 0,30-0,35 |
 |---|---|---|
-| Chumbo de 40 g | ✅ **a meio da janela** — carrega bem | ⚠️ depende do que diz no cabo |
-| Picada de dourada | ✅ nota-se | ❌ perde-se numa cana rija |
-| Peixe de 1-3 kg | ✅ sobra força | ✅ sobra muita força |
-| Lançar 40-80 m | ✅ chega e sobra | ✅ chega mais longe |
+| **Onde está** | os últimos 10 m, à volta do chumbo e dos anzóis | idem |
+| **Dourada** | peixe desconfiado, em 1-2 m de água clara sobre areia | ⭐ muito melhor |
+| **Arrasto na corrente** | o dobro do diâmetro nesses 10 m — pede mais chumbo | menos chumbo chega |
+| **Lançamento** | 0,60 nos passadores trava | passa melhor |
 
-> 🔍 **Antes de decidires de vez, vê o que está impresso no cabo da telescópica.**
-> - Se disser **100-200 g** (o normal numa telescópica de surf) — **deixa-a em casa**. Com 40 g estás a 20-40% do que ela precisa para curvar: lança curto e não sentes nada. Foi feita para meter 150 g dentro da rebentação, e aqui não há ondulação nenhuma.
-> - Se disser **~30-80 g ou 50-100 g** — aí é uma boa segunda cana, e o comprimento extra ajuda a manter a linha fora de água na margem baixa.
+> 🔧 **O que fazer:**
+> 1. 🥇 **Substitui os 10 m de 0,60 por 1,5 m de fluoro 0,30-0,35** (nó FG ou Albright para juntar à trançada). A trançada mostra a picada, o fluoro é invisível e aguenta a areia.
+> 2. 🥈 Se preferires manter mono na ponta, **0,28-0,30**, não 0,60.
+> 3. ⚠️ **Com trançada e 50-60 g, protege o dedo** — dedeira ou luva. A trançada corta, e 27 kg não parte para te avisar.
 
-**O FX 4000 chega bem:** travão prático de **4 kg** (máximo 8,5 kg) contra peixe de 1-3 kg, e leva **170 m de 0,35 mm** — de sobra para lançar 80 m. Desmultiplicação 5,2:1, 320 g.
+**Não precisas de shock leader:** pela regra das 10 lb por onça, 60 g pedem ~9 kg e tu tens 27 na trançada. O fluoro na ponta é por invisibilidade e abrasão, não por força.
 
-⚠️ **Se usares chumbo de 60 g, mete shock leader.** A regra é ~10 lb de leader por onça de chumbo: 60 g ≈ 2 onças ≈ **9 kg**. O teu fluoro 0,35 anda por aí — dá para 40 g com folga, fica no limite aos 60 g. Com 40 g não precisas de te preocupar.
+#### 🎣 E a cana do avô
 
-> 🥈 **As duas canas que eu levava:** a **de siluro com o fundo de 2 anzóis** (é a que trabalha sozinha enquanto esperas) e a **de spinning leve com spinner ou vinil** para ires atirando à boca do canal na enchente. Cobre as duas maneiras de pescar aquilo e ficas dentro do limite legal de 2 canas.
-> ⚠️ A de spinning **não serve para o fundo** — máximo 15 g não lança um chumbo de 40 g. Se quiseres duas canas de fundo, a segunda tem de ser a telescópica, e aí a pergunta do cabo é que decide.
+Vais levá-la, e é meio caminho andado — é uma cana de **surfcasting**, pesada, e o avô pescava com chumbos de **~100 g**.
+
+**Isso dá-lhe um trabalho próprio na lagoa, e é um bom trabalho:** a enchente de sábado à tarde é a **corrente mais forte do fim de semana** (88-99% entre as 14:00 e as 16:00), e o **#1 é um canal estreito onde a corrente aperta ainda mais**. É aí que um chumbo de 40 g começa a arrastar e um de 60-80 g segura — e 60-80 g é onde ela trabalha, não onde a Resifight trabalha.
+
+| Cana | Chumbo | Onde brilha |
+|---|---|---|
+| **Cana do avô** (surf, ~100 g) | **60-80 g** | corrente forte — a enchente da tarde, e o canal do #1 |
+| **Resifight 500** (40-100 g) | **40 g** | corrente fraca, estofa, e a picada fina da dourada |
+
+**São as tuas duas canas, e dá exactamente o limite legal de 2.** Uma segura o fundo na corrente, a outra é a fina.
+
+> 🔍 **Duas verificações antes de sair de casa**, que valem a viagem:
+> - **As argolas.** Ela tem 3 e não sabemos se falta alguma. Passa um pedaço de meia de nylon ou um cotonete por dentro de cada uma: **se prender, a argola está riscada** e vai cortar a trançada no lançamento. Numa argola riscada, mono aguenta, trançada não.
+> - **O porta-carretos.** Aperta o carreto e abana. Se folgar, ao lançar 80 g salta.
+>
+> Se alguma argola prender, a solução para este fim de semana é pôr-lhe **mono** em vez de trançada — mono passa por argola riscada sem se cortar.
+
+> ⚠️ **A de spinning fica em casa** se levares estas duas — o limite são **2 canas por pescador**. Se quiseres atirar amostras à boca do canal, trocas, não acrescentas.
 
 ### ⚙️ As montagens
 
