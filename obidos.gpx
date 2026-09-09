@@ -91,63 +91,51 @@
   <type>Spots</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
-<wpt lat="39.39544" lon="-9.21864">
-  <name>#2 — lançar ENE 40 m</name>
-  <desc>Alvo de lançamento. A 40 m ficas a 27 m da margem mais próxima. Rumo principal.</desc>
+<wpt lat="39.40363" lon="-9.21143">
+  <name>#1 — lançar OSO 40 m</name>
+  <desc>Alvo de lançamento. A 40 m ficas a 34 m da margem mais próxima. Rumo principal.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
-<wpt lat="39.39552" lon="-9.21843">
-  <name>#2 — lançar ENE 60 m</name>
-  <desc>Alvo de lançamento. A 60 m ficas a 37 m da margem mais próxima. Rumo principal.</desc>
-  <type>Lançamentos</type>
-  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
-</wpt>
-<wpt lat="39.39559" lon="-9.21822">
-  <name>#2 — lançar ENE 80 m</name>
-  <desc>Alvo de lançamento. A 80 m ficas a 45 m da margem mais próxima. Rumo principal.</desc>
-  <type>Lançamentos</type>
-  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
-</wpt>
-<wpt lat="39.39506" lon="-9.21843">
-  <name>#2 — lançar ESE 60 m</name>
-  <desc>Alvo de lançamento. A 60 m ficas a 20 m da margem mais próxima. Rumo alternativo.</desc>
-  <type>Lançamentos</type>
-  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
-</wpt>
-<wpt lat="39.39482" lon="-9.21871">
-  <name>#2 — lançar SSE 60 m</name>
-  <desc>Alvo de lançamento. A 60 m ficas a 24 m da margem mais próxima. Rumo alternativo.</desc>
-  <type>Lançamentos</type>
-  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
-</wpt>
-<wpt lat="39.40366" lon="-9.21144">
-  <name>#1 — lançar O 40 m</name>
-  <desc>Alvo de lançamento. A 40 m ficas a 35 m da margem mais próxima. Rumo principal.</desc>
-  <type>Lançamentos</type>
-  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
-</wpt>
-<wpt lat="39.40363" lon="-9.21167">
-  <name>#1 — lançar O 60 m</name>
+<wpt lat="39.40358" lon="-9.21165">
+  <name>#1 — lançar OSO 60 m</name>
   <desc>Alvo de lançamento. A 60 m ficas a 54 m da margem mais próxima. Rumo principal.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
-<wpt lat="39.4036" lon="-9.2119">
-  <name>#1 — lançar O 80 m</name>
-  <desc>Alvo de lançamento. A 80 m ficas a 73 m da margem mais próxima. Rumo principal.</desc>
-  <type>Lançamentos</type>
-  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
-</wpt>
-<wpt lat="39.40395" lon="-9.21161">
-  <name>#1 — lançar ONO 60 m</name>
-  <desc>Alvo de lançamento. A 60 m ficas a 39 m da margem mais próxima. Rumo alternativo.</desc>
+<wpt lat="39.40353" lon="-9.21188">
+  <name>#1 — lançar OSO 80 m</name>
+  <desc>Alvo de lançamento. A 80 m ficas a 74 m da margem mais próxima. Rumo principal.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
 <wpt lat="39.40334" lon="-9.21147">
   <name>#1 — lançar SO 60 m</name>
   <desc>Alvo de lançamento. A 60 m ficas a 40 m da margem mais próxima. Rumo alternativo.</desc>
+  <type>Lançamentos</type>
+  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
+</wpt>
+<wpt lat="39.39547" lon="-9.21866">
+  <name>#2 — lançar ENE 40 m</name>
+  <desc>Alvo de lançamento. A 40 m ficas a 27 m da margem mais próxima. Rumo principal.</desc>
+  <type>Lançamentos</type>
+  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
+</wpt>
+<wpt lat="39.39556" lon="-9.21846">
+  <name>#2 — lançar ENE 60 m</name>
+  <desc>Alvo de lançamento. A 60 m ficas a 32 m da margem mais próxima. Rumo principal.</desc>
+  <type>Lançamentos</type>
+  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
+</wpt>
+<wpt lat="39.39565" lon="-9.21825">
+  <name>#2 — lançar ENE 80 m</name>
+  <desc>Alvo de lançamento. A 80 m ficas a 39 m da margem mais próxima. Rumo principal.</desc>
+  <type>Lançamentos</type>
+  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
+</wpt>
+<wpt lat="39.39491" lon="-9.21857">
+  <name>#2 — lançar SE 60 m</name>
+  <desc>Alvo de lançamento. A 60 m ficas a 18 m da margem mais próxima. Rumo alternativo.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
@@ -212,16 +200,16 @@
   <extensions><osmand:color>#c0392b</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>octagon</osmand:background></extensions>
 </wpt>
 <trk>
+  <name>#1 — linha de lançamento OSO</name>
+  <desc>Rumo principal de lançamento.</desc>
+  <extensions><osmand:color>#e74c3c</osmand:color><osmand:width>thick</osmand:width></extensions>
+  <trkseg><trkpt lat="39.40372" lon="-9.21098"></trkpt><trkpt lat="39.40363" lon="-9.21143"></trkpt><trkpt lat="39.40358" lon="-9.21165"></trkpt><trkpt lat="39.40353" lon="-9.21188"></trkpt></trkseg>
+</trk>
+<trk>
   <name>#2 — linha de lançamento ENE</name>
   <desc>Rumo principal de lançamento.</desc>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:width>thick</osmand:width></extensions>
-  <trkseg><trkpt lat="39.39529" lon="-9.21906"></trkpt><trkpt lat="39.39544" lon="-9.21864"></trkpt><trkpt lat="39.39552" lon="-9.21843"></trkpt><trkpt lat="39.39559" lon="-9.21822"></trkpt></trkseg>
-</trk>
-<trk>
-  <name>#1 — linha de lançamento O</name>
-  <desc>Rumo principal de lançamento.</desc>
-  <extensions><osmand:color>#e74c3c</osmand:color><osmand:width>thick</osmand:width></extensions>
-  <trkseg><trkpt lat="39.40372" lon="-9.21098"></trkpt><trkpt lat="39.40366" lon="-9.21144"></trkpt><trkpt lat="39.40363" lon="-9.21167"></trkpt><trkpt lat="39.4036" lon="-9.2119"></trkpt></trkseg>
+  <trkseg><trkpt lat="39.39529" lon="-9.21906"></trkpt><trkpt lat="39.39547" lon="-9.21866"></trkpt><trkpt lat="39.39556" lon="-9.21846"></trkpt><trkpt lat="39.39565" lon="-9.21825"></trkpt></trkseg>
 </trk>
 <trk>
   <name>Lagoa de Albufeira — Lagoa Grande</name>

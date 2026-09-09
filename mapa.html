@@ -91,7 +91,7 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
       var Z=[['🏙️ Lisboa/estuário',38.72,-9.13,12],
              ['🟣 Lagoa de Albufeira',38.5100,-9.1750,13],
              ['🟢 Lagoa de Óbidos',39.4100,-9.2150,13],
-             ['🎣 o teu ponto de Óbidos',39.40522,-9.21135,16]];
+             ['🎣 spot #1 e lançamentos',39.40372,-9.21098,17]];
       var leg=document.getElementById(LEGENDA_ID); if(!leg) return;
       var d=document.createElement('div');
       d.style.cssText='margin:.5em 0;display:flex;flex-wrap:wrap;gap:.4em';
@@ -219,15 +219,15 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
       ls.forEach(function(s){
         s.rumos.forEach(function(u){
           var alvo=u.alvos['80']||u.alvos['60']||u.alvos['40']; if(!alvo) return;
-          var cor=u.principal?'#e74c3c':'#e67e22';
+          var cor=u.principal?'#e74c3c':'#f1c40f';
           var perf=['25','40','60','80','100'].map(function(d){
             var v=u.perfil[d];
             return d+' m: '+(typeof v==='number'? v+' m da margem' : (v==='areia'?'<b>AREIA</b>':'—'));
           }).join('<br>');
-          L.polyline([[s.la,s.lo],alvo],{color:cor,weight:u.principal?4:2,opacity:.85,
-            dashArray:u.principal?null:'6,5'})
+          L.polyline([[s.la,s.lo],alvo],{color:cor,weight:u.principal?5:4,opacity:.9,
+            dashArray:u.principal?null:'8,6'})
            .bindPopup('<b>🎯 '+s.n+' — lançar para '+u.rumo+' ('+u.ang+'°)</b><br>'+
-             (u.principal?'<b>Rumo principal.</b><br>':'Rumo alternativo.<br>')+
+             (u.quem?'<b>'+u.quem+'</b><br>':'')+
              'A que distância ficas da margem mais próxima:<br>'+perf+
              '<br><br><span style="opacity:.7;font-size:.9em">Medido em imagem aérea de maré baixa a 0,92 m/pixel. '+
              'Diz onde há água que não seca e o quão longe estás da margem — <b>não diz a profundidade</b>.</span>')
@@ -245,7 +245,7 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
       var leg=document.getElementById(LEGENDA_ID);
       if(leg) leg.insertAdjacentHTML('beforeend',
         '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="lançamentos"> '+
-        '<span style="color:#e74c3c">━</span> para onde lançar (#1 e #2)</label>');
+        '<span style="color:#e74c3c">━</span> para onde lançar — 🔴 cana do avô · 🟡 Resifight</label>');
       if(leg){ var cb=leg.querySelector('input[data-c="lançamentos"]');
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
