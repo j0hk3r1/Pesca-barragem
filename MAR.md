@@ -996,40 +996,46 @@ Escalando pela distância ao longo do canal a partir da barra:
 
 **A tabela do topo desta página** dá a maré do oceano. Para Peniche/Foz do Arelho o Open-Meteo adianta **+33 min** — medido em 6 eventos contra a TideTime, desvio 1,2 min. Soma o atraso da tabela acima e tens a hora no teu spot.
 
-### 📅 Janelas deste fim de semana — 12 e 13 de setembro
+### 📅 Sábado 12 no #5 — hora a hora
 
-Marés do **oceano** já com a calibração de +33 min, e depois somado o atraso de cada zona da lagoa. Sol: nasce **07:15**, põe-se **19:50**.
+Marés do oceano calibradas (+33 min) mais o atraso local do #5 (+1h44 médio). **Sol nasce 07:15, põe-se 19:50.**
 
-**🥇 SÁBADO 12 — a melhor janela do fim de semana**
+**Preia-mar 05:17 · baixa-mar 12:29 · preia-mar 17:31.** Altura da maré ali: **~1,7 m** — no oceano são 3,05 m.
 
-| Zona | Preia-mar local | 🎯 Janela | |
-|---|---|---|---|
-| #5 / spot A | 17:31 | **16:00 – 18:30** | ☀️ dia, acaba 1h20 antes do escuro |
-| **#1 braço sudoeste** | 17:44 | **16:15 – 18:45** | ☀️ dia |
-| #2 / #8 junto às aves | 17:59 | **16:30 – 19:00** | ☀️ dia, entra no fim de tarde |
+| Hora | Maré | Nível | Corrente | |
+|---|---|---|---|---|
+| 04:30 | enchente | +0,73 m | 48% | ▓▓▓▓▓ |
+| **05:17** | **PREIA-MAR** | +0,83 m | ~0% | água parada |
+| 06:00 | vazante | +0,79 m | 21% | ▓▓ |
+| 06:45 | vazante | +0,66 m | 41% | ▓▓▓▓ |
+| **07:15** | vazante | +0,55 m | ~52% | 🌅 **nascer do sol** |
+| 07:30 | vazante | +0,47 m | 57% | ▓▓▓▓▓▓ |
+| 08:15 | vazante | +0,23 m | 66% | ▓▓▓▓▓▓▓ |
+| **09:00** | vazante | −0,04 m | **69%** | ▓▓▓▓▓▓▓ pico da vazante |
+| 10:30 | vazante | −0,54 m | 53% | ▓▓▓▓▓ |
+| **12:29** | **BAIXA-MAR** | −0,83 m | ~0% | água parada |
+| 13:30 | enchente | −0,67 m | 59% | ▓▓▓▓▓▓ |
+| 14:15 | enchente | −0,37 m | 88% | ▓▓▓▓▓▓▓▓▓ |
+| **15:00** | enchente | 0,00 m | **99%** | ▓▓▓▓▓▓▓▓▓▓ **corrente máxima do dia** |
+| 15:45 | enchente | +0,37 m | 88% | ▓▓▓▓▓▓▓▓▓ |
+| 16:30 | enchente | +0,67 m | 59% | ▓▓▓▓▓▓ |
+| **17:31** | **PREIA-MAR** | +0,83 m | ~0% | água parada |
+| 18:45 | vazante | +0,72 m | 34% | ▓▓▓ |
 
-**🥈 DOMINGO 13**
+**Duas coisas puxam em sentidos diferentes, e as duas contam:**
 
-| Zona | Preia-mar local | 🎯 Janela | |
-|---|---|---|---|
-| #5 / spot A | 18:07 | **16:35 – 19:05** | ☀️ dia |
-| **#1 braço sudoeste** | 18:20 | **16:50 – 19:20** | ☀️ acaba **meia hora antes do pôr-do-sol** |
-| #2 / #8 junto às aves | 18:35 | **17:05 – 19:35** | ☀️ acaba **quase ao pôr-do-sol** ⭐ |
+- 💨 **A corrente é máxima a meio da maré** — 15:00 na enchente, 09:00 na vazante. É física.
+- 🐟 **Mas o peixe está acessível da margem perto da preia-mar.** A lagoa tem **29% da área a seco na baixa-mar**: com pouca água, o peixe não sobe às margens nem aos rasos. É por isso que o conselho de quem lá pesca é *"fins da enchente e inícios da vazante"* — não é pela corrente, é porque é quando o peixe está ao teu alcance.
 
-**🌙 E as janelas da madrugada**, se te apetecer *(pescar de noite na Zona Livre é legal)*:
-
-| | #5 / spot A | #1 | #2 / #8 |
-|---|---|---|---|
-| Sábado | 03:45 – 06:15 | 04:00 – 06:30 | 04:15 – 06:45 |
-| Domingo | 04:20 – 06:50 | 04:35 – 07:05 | 04:50 – 07:20 |
-
-> ⭐ **Se só pescares uma vez: sábado à tarde, 16:15 às 18:45, no #1.** É a maré com **maior amplitude do fim de semana** (3,12 m no oceano contra 2,93 m no domingo), portanto a corrente mais forte, e é a tua janela mais folgada de luz.
+> 🎯 **Se acordas às 6, vai.** Às 06:00 apanhas o **topo da maré a começar a vazar** — nível ainda a +0,79 m e corrente a subir de 21% para 69% às 09:00 — com o **nascer do sol às 07:15 mesmo a meio**. É a combinação das duas coisas: água alta *e* corrente a ganhar, mais a primeira luz. **A melhor janela da manhã é 06:30 – 09:30.**
 >
-> 🌇 **Se pescares duas: acrescenta domingo ao fim da tarde**, 17:05 às 19:35 no #8 — essa acaba **quase ao pôr-do-sol** (19:49), e o crepúsculo é o segundo momento forte do dia. Como a Mariya está a 216 m no ponto 1 das aves, encaixa bem.
+> 🔁 **E se aguentares o dia todo, volta às 14:00.** A enchente da tarde é a **corrente mais forte do dia** (88-99% entre as 14:00 e as 16:00) e leva-te até à preia-mar das 17:31. **14:00 – 18:30** é a melhor janela do fim de semana inteiro.
+>
+> 😴 **O que podes saltar:** 10:00 às 13:30 — maré a esvaziar e depois parada, com o nível no fundo. É quando os bancos de areia ficam à mostra.
 
-⚠️ **As baixa-mares locais** — evita estas horas em spots com banco de areia à frente: sábado **12:30-13:00**, domingo **13:05-13:35** (mais ~15 min quanto mais para dentro estiveres). No #1 e no #5 não te fazem mal: têm água logo à margem.
+⚠️ **Precisão disto:** as horas das marés do oceano são calibradas contra fonte independente (desvio 1,2 min). O atraso de +1h44 vem da fase de M2 publicada, repartida por mim ao longo do canal — **conta ±20 min**. A curva de corrente é um modelo sinusoidal entre os extremos: serve para comparar horas entre si, **não é uma velocidade real em nós**.
 
-⚠️ **±20 min de incerteza** no atraso da lagoa. Chega **meia hora antes** da janela e vê a água: se ainda estiver a encher, ficas; assim calibras para o resto do fim de semana.
+**Domingo vemos na sexta**, mais perto, para apanhar a previsão de vento certa.
 
 ### ⚙️ O setup — o que levar e como montar
 
