@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Pesca Barragem" xmlns="http://www.topografix.com/GPX/1/1" xmlns:osmand="https://osmand.net">
-<metadata><name>Lagoa de Obidos — pesca</name><desc>Spots, zonas legais, rampas e bancos de areia. Ver https://j0hk3r1.github.io/Pesca-barragem/</desc></metadata>
+<metadata><name>Lagoa de Óbidos — pesca</name><desc>Spots por ordem, alvos de lançamento, zonas legais, rampas e bancos de areia | Actualizado a 2026-09-09 | https://j0hk3r1.github.io/Pesca-barragem/</desc><time>2026-09-09T00:00:00Z</time></metadata>
 <wpt lat="39.40372" lon="-9.21098">
   <name>#5 · Ponta do Espichel — a ponta da língua de areia</name>
-  <desc>#5 do ranking. A maior mancha de água aberta de toda a lagoa. Fica na ponta da língua de areia que sai do teu spot A — andas 177 m pela areia para fora e ficas com água funda dos dois lados. Parques na Ecopista e vais a pé.💧 92% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para NNE, sem banco pelo meio🚗 Estrada a 315 m · parque a 944 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1132 m (limite: 100 m)📍 o teu spot A a 177 m · pesqueiro «Ponta do Espichel» a 17 m | Lançamento 11 m para NNE, sem banco</desc>
+  <desc>#5 do ranking. A maior mancha de água aberta de toda a lagoa. Fica na ponta da língua de areia que sai do teu spot A — andas 177 m pela areia para fora e ficas com água funda dos dois lados. Parques na Ecopista e vais a pé.💧 92% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para NNE, sem banco pelo meio🚗 Estrada a 315 m · parque a 944 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1132 m (limite: 100 m)📍 o teu spot A a 177 m · pesqueiro «Ponta do Espichel» a 17 m | Lançamento 11 m para NNE, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.39529" lon="-9.21906">
   <name>#1 · Braço sudoeste — canal estreito com acesso de carro</name>
-  <desc>#1 do ranking. Canal estreito, água escura encostada à margem dos dois lados. Há um caminho de terra que desce até à água e sítio para deixar o carro. É o tipo de sítio onde a corrente de maré fica concentrada.💧 65% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para ENE, sem banco pelo meio🚗 Estrada a 52 m · parque a 0 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1005 m (limite: 100 m)📍 pesqueiro «Ponta Branca» a 6 m | Lançamento 11 m para ENE, sem banco</desc>
+  <desc>#1 do ranking. Canal estreito, água escura encostada à margem dos dois lados. Há um caminho de terra que desce até à água e sítio para deixar o carro. É o tipo de sítio onde a corrente de maré fica concentrada.💧 65% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para ENE, sem banco pelo meio🚗 Estrada a 52 m · parque a 0 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1005 m (limite: 100 m)📍 pesqueiro «Ponta Branca» a 6 m | Lançamento 11 m para ENE, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.40364" lon="-9.20088">
   <name>#2 · Ponta da Ardonia — o mais perto do sítio das aves</name>
-  <desc>#2 do ranking. Zona Livre, água limpa à frente. Fica a 1,3 km do sítio onde a Mariya vai ver aves — é o ponto legal mais próximo dela.💧 48% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para SO, sem banco pelo meio🚗 Estrada a 28 m · parque a 248 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1845 m (limite: 100 m)📍 pesqueiro «Ponta da Ardonia» a 127 m | Lançamento 11 m para SO, sem banco</desc>
+  <desc>#2 do ranking. Zona Livre, água limpa à frente. Fica a 1,3 km do sítio onde a Mariya vai ver aves — é o ponto legal mais próximo dela.💧 48% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para SO, sem banco pelo meio🚗 Estrada a 28 m · parque a 248 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1845 m (limite: 100 m)📍 pesqueiro «Ponta da Ardonia» a 127 m | Lançamento 11 m para SO, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.40895" lon="-9.20208">
   <name>#4 · Clube de Vela — o melhor para irem os dois</name>
-  <desc>#4 do ranking. Parque de merendas a 176 m e margem limpa. Ela fica instalada com sombra e banco, tu pescas ao lado.💧 44% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para O, sem banco pelo meio🚗 Estrada a 53 m · parque a 137 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1562 m (limite: 100 m)📍 parque de merendas a 176 m · pesqueiro «Clube de Vela da Lagoa» a 84 m | Lançamento 11 m para O, sem banco</desc>
+  <desc>#4 do ranking. Parque de merendas a 176 m e margem limpa. Ela fica instalada com sombra e banco, tu pescas ao lado.💧 44% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para O, sem banco pelo meio🚗 Estrada a 53 m · parque a 137 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1562 m (limite: 100 m)📍 parque de merendas a 176 m · pesqueiro «Clube de Vela da Lagoa» a 84 m | Lançamento 11 m para O, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.39052" lon="-9.22436">
   <name>#3 · Extremo sul da lagoa</name>
-  <desc>#3 do ranking. Ponta sul, isolado, estrada a 27 m. ⚠️ A rampa mais próxima está a 316 m — folgado, mas confirma no local.💧 48% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para E, sem banco pelo meio🚗 Estrada a 27 m · parque a 238 m⚖️ Zona de Utilização Livre · rampa mais próxima a 316 m (limite: 100 m) | Lançamento 11 m para E, sem banco</desc>
+  <desc>#3 do ranking. Ponta sul, isolado, estrada a 27 m. ⚠️ A rampa mais próxima está a 316 m — folgado, mas confirma no local.💧 48% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para E, sem banco pelo meio🚗 Estrada a 27 m · parque a 238 m⚖️ Zona de Utilização Livre · rampa mais próxima a 316 m (limite: 100 m) | Lançamento 11 m para E, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.4031" lon="-9.21693">
   <name>#6 · Margem sul, 400 m a poente do spot A</name>
-  <desc>#6 do ranking. Alternativa imediata se a ponta estiver ocupada. Estrada a 43 m.💧 48% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para E, sem banco pelo meio🚗 Estrada a 43 m · parque a 846 m⚖️ Zona de Utilização Livre · rampa mais próxima a 931 m (limite: 100 m) | Lançamento 11 m para E, sem banco</desc>
+  <desc>#6 do ranking. Alternativa imediata se a ponta estiver ocupada. Estrada a 43 m.💧 48% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para E, sem banco pelo meio🚗 Estrada a 43 m · parque a 846 m⚖️ Zona de Utilização Livre · rampa mais próxima a 931 m (limite: 100 m) | Lançamento 11 m para E, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.40771" lon="-9.21475">
   <name>#7 · Margem sul, 400 m a nascente do spot A</name>
-  <desc>#7 do ranking. Outra alternativa próxima. ⚠️ Tem 4% de banco à frente — vê onde lanças.💧 43% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para N, sem banco pelo meio🚗 Estrada a 38 m · parque a 1162 m⚖️ Zona de Utilização Livre · rampa mais próxima a 591 m (limite: 100 m)📍 o teu spot A a 397 m · pesqueiro «Seixo» a 117 m | Lançamento 11 m para N, sem banco</desc>
+  <desc>#7 do ranking. Outra alternativa próxima. ⚠️ Tem 4% de banco à frente — vê onde lanças.💧 43% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para N, sem banco pelo meio🚗 Estrada a 38 m · parque a 1162 m⚖️ Zona de Utilização Livre · rampa mais próxima a 591 m (limite: 100 m)📍 o teu spot A a 397 m · pesqueiro «Seixo» a 117 m | Lançamento 11 m para N, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.39949" lon="-9.19839">
   <name>#8 · Margem nascente, junto ao parque de merendas do sul</name>
-  <desc>#8 do ranking. Parque de merendas a 151 m e estrada a 58 m. Água mais rasa que os de cima.💧 29% de água que não seca num raio de 150 m · 7% de banco de areia🎯 Água logo a 11 m para OSO, sem banco pelo meio🚗 Estrada a 58 m · parque a 53 m⚖️ Zona de Utilização Livre · rampa mais próxima a 2267 m (limite: 100 m)📍 parque de merendas a 151 m | Lançamento 11 m para OSO, sem banco</desc>
+  <desc>#8 do ranking. Parque de merendas a 151 m e estrada a 58 m. Água mais rasa que os de cima.💧 29% de água que não seca num raio de 150 m · 7% de banco de areia🎯 Água logo a 11 m para OSO, sem banco pelo meio🚗 Estrada a 58 m · parque a 53 m⚖️ Zona de Utilização Livre · rampa mais próxima a 2267 m (limite: 100 m)📍 parque de merendas a 151 m | Lançamento 11 m para OSO, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.3957" lon="-9.21128">
   <name>#12 · Braço sudoeste, margem norte</name>
-  <desc>#12 do ranking. Mesmo canal do #1, do outro lado. ⚠️ Estrada a 330 m — dá caminhada.💧 45% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para N, sem banco pelo meio🚗 Estrada a 330 m · parque a 670 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1519 m (limite: 100 m) | Lançamento 11 m para N, sem banco</desc>
+  <desc>#12 do ranking. Mesmo canal do #1, do outro lado. ⚠️ Estrada a 330 m — dá caminhada.💧 45% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para N, sem banco pelo meio🚗 Estrada a 330 m · parque a 670 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1519 m (limite: 100 m) | Lançamento 11 m para N, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.38599" lon="-9.22563">
   <name>#10 · Musaranhos — extremo sudoeste</name>
-  <desc>#10 do ranking. Isolado, estrada a 60 m. ⚠️ Rampa a 213 m.💧 34% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para OSO, sem banco pelo meio🚗 Estrada a 60 m · parque a 74 m⚖️ Zona de Utilização Livre · rampa mais próxima a 213 m (limite: 100 m)📍 pesqueiro «dos Musaranhos» a 203 m | Lançamento 11 m para OSO, sem banco</desc>
+  <desc>#10 do ranking. Isolado, estrada a 60 m. ⚠️ Rampa a 213 m.💧 34% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para OSO, sem banco pelo meio🚗 Estrada a 60 m · parque a 74 m⚖️ Zona de Utilização Livre · rampa mais próxima a 213 m (limite: 100 m)📍 pesqueiro «dos Musaranhos» a 203 m | Lançamento 11 m para OSO, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.42769" lon="-9.22051">
   <name>#9 · Junto ao Cais da Foz do Arelho</name>
-  <desc>#9 do ranking. ⚠️ Rampa a 202 m e na zona que fecha de 13 jun a 13 set. Fora da época balnear é livre.💧 39% de água que não seca num raio de 150 m · 9% de banco de areia🎯 Água logo a 11 m para S, sem banco pelo meio🚗 Estrada a 64 m · parque a 95 m⚖️ Zona de Utilização Livre · rampa mais próxima a 202 m (limite: 100 m)📍 parque de merendas a 124 m · pesqueiro «do Cais» a 104 m | Lançamento 11 m para S, sem banco</desc>
+  <desc>#9 do ranking. ⚠️ Rampa a 202 m e na zona que fecha de 13 jun a 13 set. Fora da época balnear é livre.💧 39% de água que não seca num raio de 150 m · 9% de banco de areia🎯 Água logo a 11 m para S, sem banco pelo meio🚗 Estrada a 64 m · parque a 95 m⚖️ Zona de Utilização Livre · rampa mais próxima a 202 m (limite: 100 m)📍 parque de merendas a 124 m · pesqueiro «do Cais» a 104 m | Lançamento 11 m para S, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#f1c40f</osmand:color><osmand:icon>special_symbol_exclamation_mark</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.42274" lon="-9.20823">
   <name>#11 · Ponta do Carro — margem nascente norte</name>
-  <desc>#11 do ranking. ⚠️ 20% de banco de areia à frente e rampa a 260 m. Na zona que fecha na época balnear.💧 27% de água que não seca num raio de 150 m · 20% de banco de areia🎯 Água logo a 11 m para S, sem banco pelo meio🚗 Estrada a 15 m · parque a 96 m⚖️ Zona de Utilização Livre · rampa mais próxima a 260 m (limite: 100 m)📍 pesqueiro «Ponta do Carro» a 229 m | Lançamento 11 m para S, sem banco</desc>
+  <desc>#11 do ranking. ⚠️ 20% de banco de areia à frente e rampa a 260 m. Na zona que fecha na época balnear.💧 27% de água que não seca num raio de 150 m · 20% de banco de areia🎯 Água logo a 11 m para S, sem banco pelo meio🚗 Estrada a 15 m · parque a 96 m⚖️ Zona de Utilização Livre · rampa mais próxima a 260 m (limite: 100 m)📍 pesqueiro «Ponta do Carro» a 229 m | Lançamento 11 m para S, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#f1c40f</osmand:color><osmand:icon>special_symbol_exclamation_mark</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.40528" lon="-9.21136">
   <name>O teu spot A — margem sul na Ecopista</name>
-  <desc>Bom, e é onde estacionas. Zona Livre, água a 18 m para N sem banco pelo meio, rampa a 988 m, ETAR a 407 m.🎯 Mas anda mais 177 m para fora, pela língua de areia, e chegas ao #1 do ranking — lá tens 92% de água aberta à volta em vez de margem. Deixa o carro aqui e vai a pé. | Lançamento 18 m para N, sem banco</desc>
+  <desc>Bom, e é onde estacionas. Zona Livre, água a 18 m para N sem banco pelo meio, rampa a 988 m, ETAR a 407 m.🎯 Mas anda mais 177 m para fora, pela língua de areia, e chegas ao #1 do ranking — lá tens 92% de água aberta à volta em vez de margem. Deixa o carro aqui e vai a pé. | Lançamento 18 m para N, sem banco pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#27ae60</osmand:color><osmand:icon>special_marker</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.41486" lon="-9.2205">
   <name>O teu spot B — margem norte</name>
-  <desc>Zona Livre, mas duas coisas contra: rampa a 165 m (limite 100 m, só 65 m de folga) e a água que não seca está a 118 m para NE com um banco de areia pelo meio. Na baixa-mar ficas a lançar para areia. Há melhores 400 m a sul. | Lançamento 118 m para NE COM banco</desc>
+  <desc>Zona Livre, mas duas coisas contra: rampa a 165 m (limite 100 m, só 65 m de folga) e a água que não seca está a 118 m para NE com um banco de areia pelo meio. Na baixa-mar ficas a lançar para areia. Há melhores 400 m a sul. | Lançamento 118 m para NE COM banco de areia pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#f1c40f</osmand:color><osmand:icon>special_symbol_exclamation_mark</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
 <wpt lat="39.40021" lon="-9.18683">
   <name>Barrosa — onde a Mariya vê aves</name>
-  <desc>Ver aves: sem restrição. Pescar: não.Fica na bacia da Barrosa, a 622 m do Braço da Barrosa, fechado à pesca todo o ano — e a lei não publica onde acaba um e começa o outro. É também a zona mais assoreada, com banco entre a margem e a água.✅ Vai para a Ponta da Ardonia, a 1,3 km. | Lançamento 30 m para O COM banco</desc>
+  <desc>Ver aves: sem restrição. Pescar: não.Fica na bacia da Barrosa, a 622 m do Braço da Barrosa, fechado à pesca todo o ano — e a lei não publica onde acaba um e começa o outro. É também a zona mais assoreada, com banco entre a margem e a água.✅ Vai para a Ponta da Ardonia, a 1,3 km. | Lançamento 30 m para O COM banco de areia pelo meio</desc>
   <type>Spots</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>circle</osmand:background></extensions>
 </wpt>
@@ -153,61 +153,61 @@
 </wpt>
 <wpt lat="39.42821" lon="-9.22276">
   <name>⛔ pontão/cais — 100 m proibidos</name>
-  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas, embarcadouros e desembarcadouros.</desc>
+  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas de acesso de embarcações, embarcadouros e desembarcadouros.</desc>
   <type>Proibições</type>
   <extensions><osmand:color>#c0392b</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>octagon</osmand:background></extensions>
 </wpt>
 <wpt lat="39.42245" lon="-9.22911">
   <name>⛔ rampa — 100 m proibidos</name>
-  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas, embarcadouros e desembarcadouros.</desc>
+  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas de acesso de embarcações, embarcadouros e desembarcadouros.</desc>
   <type>Proibições</type>
   <extensions><osmand:color>#c0392b</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>octagon</osmand:background></extensions>
 </wpt>
 <wpt lat="39.4232" lon="-9.22986">
   <name>⛔ rampa — 100 m proibidos</name>
-  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas, embarcadouros e desembarcadouros.</desc>
+  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas de acesso de embarcações, embarcadouros e desembarcadouros.</desc>
   <type>Proibições</type>
   <extensions><osmand:color>#c0392b</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>octagon</osmand:background></extensions>
 </wpt>
 <wpt lat="39.3879" lon="-9.22578">
   <name>⛔ rampa — 100 m proibidos</name>
-  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas, embarcadouros e desembarcadouros.</desc>
+  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas de acesso de embarcações, embarcadouros e desembarcadouros.</desc>
   <type>Proibições</type>
   <extensions><osmand:color>#c0392b</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>octagon</osmand:background></extensions>
 </wpt>
 <wpt lat="39.42442" lon="-9.21033">
   <name>⛔ rampa — 100 m proibidos</name>
-  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas, embarcadouros e desembarcadouros.</desc>
+  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas de acesso de embarcações, embarcadouros e desembarcadouros.</desc>
   <type>Proibições</type>
   <extensions><osmand:color>#c0392b</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>octagon</osmand:background></extensions>
 </wpt>
 <wpt lat="39.42471" lon="-9.21112">
   <name>⛔ pontão/cais — 100 m proibidos</name>
-  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas, embarcadouros e desembarcadouros.</desc>
+  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas de acesso de embarcações, embarcadouros e desembarcadouros.</desc>
   <type>Proibições</type>
   <extensions><osmand:color>#c0392b</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>octagon</osmand:background></extensions>
 </wpt>
 <wpt lat="39.42614" lon="-9.21635">
   <name>⛔ rampa — 100 m proibidos</name>
-  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas, embarcadouros e desembarcadouros.</desc>
+  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas de acesso de embarcações, embarcadouros e desembarcadouros.</desc>
   <type>Proibições</type>
   <extensions><osmand:color>#c0392b</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>octagon</osmand:background></extensions>
 </wpt>
 <wpt lat="39.41111" lon="-9.22003">
   <name>⛔ rampa — 100 m proibidos</name>
-  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas, embarcadouros e desembarcadouros.</desc>
+  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas de acesso de embarcações, embarcadouros e desembarcadouros.</desc>
   <type>Proibições</type>
   <extensions><osmand:color>#c0392b</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>octagon</osmand:background></extensions>
 </wpt>
 <wpt lat="39.41616" lon="-9.22142">
   <name>⛔ rampa — 100 m proibidos</name>
-  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas, embarcadouros e desembarcadouros.</desc>
+  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas de acesso de embarcações, embarcadouros e desembarcadouros.</desc>
   <type>Proibições</type>
   <extensions><osmand:color>#c0392b</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>octagon</osmand:background></extensions>
 </wpt>
 <wpt lat="39.42875" lon="-9.22796">
   <name>⛔ pontão/cais — 100 m proibidos</name>
-  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas, embarcadouros e desembarcadouros.</desc>
+  <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas de acesso de embarcações, embarcadouros e desembarcadouros.</desc>
   <type>Proibições</type>
   <extensions><osmand:color>#c0392b</osmand:color><osmand:icon>special_symbol_remove</osmand:icon><osmand:background>octagon</osmand:background></extensions>
 </wpt>
@@ -279,49 +279,49 @@
 </trk>
 <trk>
   <name>Banco de areia 1</name>
-  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui.</desc>
+  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui — passa por cima.</desc>
   <extensions><osmand:color>#f4d03f</osmand:color><osmand:width>thin</osmand:width></extensions>
   <trkseg><trkpt lat="39.41559" lon="-9.21834"></trkpt><trkpt lat="39.41591" lon="-9.21892"></trkpt><trkpt lat="39.4167" lon="-9.21948"></trkpt><trkpt lat="39.41743" lon="-9.2203"></trkpt><trkpt lat="39.41776" lon="-9.22038"></trkpt><trkpt lat="39.41799" lon="-9.22077"></trkpt><trkpt lat="39.41886" lon="-9.22128"></trkpt><trkpt lat="39.41901" lon="-9.22109"></trkpt><trkpt lat="39.41901" lon="-9.2177"></trkpt><trkpt lat="39.41922" lon="-9.21764"></trkpt><trkpt lat="39.41924" lon="-9.22131"></trkpt><trkpt lat="39.42035" lon="-9.22257"></trkpt><trkpt lat="39.42194" lon="-9.22309"></trkpt><trkpt lat="39.42179" lon="-9.22332"></trkpt><trkpt lat="39.42194" lon="-9.22373"></trkpt><trkpt lat="39.42234" lon="-9.22395"></trkpt><trkpt lat="39.42254" lon="-9.22369"></trkpt><trkpt lat="39.42267" lon="-9.22399"></trkpt><trkpt lat="39.42325" lon="-9.2241"></trkpt><trkpt lat="39.42275" lon="-9.22478"></trkpt><trkpt lat="39.42297" lon="-9.22523"></trkpt><trkpt lat="39.42269" lon="-9.22513"></trkpt><trkpt lat="39.42272" lon="-9.225"></trkpt><trkpt lat="39.4222" lon="-9.2242"></trkpt><trkpt lat="39.42169" lon="-9.22452"></trkpt><trkpt lat="39.42247" lon="-9.22553"></trkpt><trkpt lat="39.42313" lon="-9.2257"></trkpt><trkpt lat="39.4232" lon="-9.2254"></trkpt><trkpt lat="39.42353" lon="-9.22596"></trkpt><trkpt lat="39.42514" lon="-9.22658"></trkpt><trkpt lat="39.4253" lon="-9.22774"></trkpt><trkpt lat="39.42504" lon="-9.2283"></trkpt><trkpt lat="39.4255" lon="-9.22916"></trkpt><trkpt lat="39.4254" lon="-9.23015"></trkpt><trkpt lat="39.4255" lon="-9.23079"></trkpt><trkpt lat="39.42514" lon="-9.23238"></trkpt><trkpt lat="39.42511" lon="-9.23478"></trkpt><trkpt lat="39.4255" lon="-9.23594"></trkpt><trkpt lat="39.42585" lon="-9.23639"></trkpt><trkpt lat="39.42641" lon="-9.23673"></trkpt><trkpt lat="39.42711" lon="-9.23661"></trkpt><trkpt lat="39.42729" lon="-9.23615"></trkpt><trkpt lat="39.42709" lon="-9.23568"></trkpt><trkpt lat="39.42728" lon="-9.23575"></trkpt><trkpt lat="39.42743" lon="-9.23555"></trkpt><trkpt lat="39.42756" lon="-9.23401"></trkpt><trkpt lat="39.42812" lon="-9.23358"></trkpt><trkpt lat="39.4285" lon="-9.23266"></trkpt><trkpt lat="39.42946" lon="-9.2324"></trkpt><trkpt lat="39.42991" lon="-9.23199"></trkpt><trkpt lat="39.43044" lon="-9.2307"></trkpt><trkpt lat="39.43048" lon="-9.23006"></trkpt><trkpt lat="39.43028" lon="-9.22963"></trkpt><trkpt lat="39.43077" lon="-9.22912"></trkpt><trkpt lat="39.43043" lon="-9.22879"></trkpt><trkpt lat="39.43023" lon="-9.22901"></trkpt><trkpt lat="39.43004" lon="-9.22882"></trkpt><trkpt lat="39.43011" lon="-9.22864"></trkpt><trkpt lat="39.42983" lon="-9.22849"></trkpt><trkpt lat="39.42933" lon="-9.22867"></trkpt><trkpt lat="39.42892" lon="-9.22907"></trkpt><trkpt lat="39.4287" lon="-9.23004"></trkpt><trkpt lat="39.42847" lon="-9.23004"></trkpt><trkpt lat="39.42815" lon="-9.22942"></trkpt><trkpt lat="39.4282" lon="-9.22892"></trkpt><trkpt lat="39.42825" lon="-9.22933"></trkpt><trkpt lat="39.4286" lon="-9.22978"></trkpt><trkpt lat="39.42875" lon="-9.22959"></trkpt><trkpt lat="39.42875" lon="-9.22937"></trkpt><trkpt lat="39.42845" lon="-9.22894"></trkpt><trkpt lat="39.42855" lon="-9.22847"></trkpt><trkpt lat="39.42849" lon="-9.22783"></trkpt><trkpt lat="39.42875" lon="-9.22654"></trkpt><trkpt lat="39.42893" lon="-9.22669"></trkpt><trkpt lat="39.42908" lon="-9.22637"></trkpt><trkpt lat="39.42902" lon="-9.22543"></trkpt><trkpt lat="39.42835" lon="-9.22307"></trkpt><trkpt lat="39.42802" lon="-9.22276"></trkpt><trkpt lat="39.42815" lon="-9.22246"></trkpt><trkpt lat="39.42751" lon="-9.22171"></trkpt><trkpt lat="39.42736" lon="-9.22191"></trkpt><trkpt lat="39.42749" lon="-9.22255"></trkpt><trkpt lat="39.42743" lon="-9.22328"></trkpt><trkpt lat="39.42769" lon="-9.22375"></trkpt><trkpt lat="39.42766" lon="-9.22431"></trkpt><trkpt lat="39.42738" lon="-9.22416"></trkpt><trkpt lat="39.42723" lon="-9.22427"></trkpt><trkpt lat="39.42736" lon="-9.22375"></trkpt><trkpt lat="39.42676" lon="-9.22199"></trkpt><trkpt lat="39.42646" lon="-9.2204"></trkpt><trkpt lat="39.42686" lon="-9.22019"></trkpt><trkpt lat="39.4267" lon="-9.21968"></trkpt><trkpt lat="39.42602" lon="-9.21901"></trkpt><trkpt lat="39.42544" lon="-9.22002"></trkpt><trkpt lat="39.42627" lon="-9.22139"></trkpt><trkpt lat="39.42623" lon="-9.22156"></trkpt><trkpt lat="39.42512" lon="-9.22141"></trkpt><trkpt lat="39.42443" lon="-9.22223"></trkpt><trkpt lat="39.42431" lon="-9.22212"></trkpt><trkpt lat="39.42438" lon="-9.22182"></trkpt><trkpt lat="39.42471" lon="-9.22122"></trkpt><trkpt lat="39.42537" lon="-9.22075"></trkpt><trkpt lat="39.42482" lon="-9.21983"></trkpt><trkpt lat="39.42022" lon="-9.21961"></trkpt><trkpt lat="39.42022" lon="-9.21935"></trkpt><trkpt lat="39.42068" lon="-9.21931"></trkpt><trkpt lat="39.42456" lon="-9.2194"></trkpt><trkpt lat="39.42471" lon="-9.2192"></trkpt><trkpt lat="39.42404" lon="-9.21731"></trkpt><trkpt lat="39.42262" lon="-9.21444"></trkpt><trkpt lat="39.42161" lon="-9.21304"></trkpt><trkpt lat="39.42131" lon="-9.21292"></trkpt><trkpt lat="39.42094" lon="-9.21335"></trkpt><trkpt lat="39.42058" lon="-9.21339"></trkpt><trkpt lat="39.41925" lon="-9.21459"></trkpt><trkpt lat="39.41872" lon="-9.2148"></trkpt><trkpt lat="39.41604" lon="-9.21759"></trkpt><trkpt lat="39.41559" lon="-9.21834"></trkpt><trkpt lat="39.41559" lon="-9.21834"></trkpt></trkseg>
 </trk>
 <trk>
   <name>Banco de areia 2</name>
-  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui.</desc>
+  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui — passa por cima.</desc>
   <extensions><osmand:color>#f4d03f</osmand:color><osmand:width>thin</osmand:width></extensions>
   <trkseg><trkpt lat="39.40156" lon="-9.18453"></trkpt><trkpt lat="39.40168" lon="-9.18554"></trkpt><trkpt lat="39.40213" lon="-9.1853"></trkpt><trkpt lat="39.40196" lon="-9.18504"></trkpt><trkpt lat="39.40218" lon="-9.18463"></trkpt><trkpt lat="39.40248" lon="-9.18463"></trkpt><trkpt lat="39.40347" lon="-9.18515"></trkpt><trkpt lat="39.40399" lon="-9.18581"></trkpt><trkpt lat="39.40418" lon="-9.18633"></trkpt><trkpt lat="39.40432" lon="-9.18702"></trkpt><trkpt lat="39.40412" lon="-9.18787"></trkpt><trkpt lat="39.40415" lon="-9.18856"></trkpt><trkpt lat="39.40481" lon="-9.18981"></trkpt><trkpt lat="39.40501" lon="-9.19071"></trkpt><trkpt lat="39.40498" lon="-9.19178"></trkpt><trkpt lat="39.40465" lon="-9.19268"></trkpt><trkpt lat="39.40476" lon="-9.19292"></trkpt><trkpt lat="39.40531" lon="-9.19247"></trkpt><trkpt lat="39.40531" lon="-9.19174"></trkpt><trkpt lat="39.40559" lon="-9.19124"></trkpt><trkpt lat="39.40672" lon="-9.19086"></trkpt><trkpt lat="39.40773" lon="-9.18998"></trkpt><trkpt lat="39.40772" lon="-9.18953"></trkpt><trkpt lat="39.40738" lon="-9.18936"></trkpt><trkpt lat="39.40629" lon="-9.18927"></trkpt><trkpt lat="39.40607" lon="-9.18908"></trkpt><trkpt lat="39.40568" lon="-9.18809"></trkpt><trkpt lat="39.40508" lon="-9.18732"></trkpt><trkpt lat="39.40462" lon="-9.18586"></trkpt><trkpt lat="39.40302" lon="-9.18371"></trkpt><trkpt lat="39.40289" lon="-9.18324"></trkpt><trkpt lat="39.40246" lon="-9.18281"></trkpt><trkpt lat="39.40218" lon="-9.1821"></trkpt><trkpt lat="39.40206" lon="-9.18225"></trkpt><trkpt lat="39.40203" lon="-9.1829"></trkpt><trkpt lat="39.40226" lon="-9.18367"></trkpt><trkpt lat="39.40173" lon="-9.18414"></trkpt><trkpt lat="39.40185" lon="-9.18451"></trkpt><trkpt lat="39.40168" lon="-9.18438"></trkpt><trkpt lat="39.40156" lon="-9.18453"></trkpt><trkpt lat="39.40156" lon="-9.18453"></trkpt></trkseg>
 </trk>
 <trk>
   <name>Banco de areia 3</name>
-  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui.</desc>
+  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui — passa por cima.</desc>
   <extensions><osmand:color>#f4d03f</osmand:color><osmand:width>thin</osmand:width></extensions>
   <trkseg><trkpt lat="39.41191" lon="-9.20337"></trkpt><trkpt lat="39.41262" lon="-9.20399"></trkpt><trkpt lat="39.41286" lon="-9.20386"></trkpt><trkpt lat="39.41335" lon="-9.20425"></trkpt><trkpt lat="39.41392" lon="-9.20498"></trkpt><trkpt lat="39.41501" lon="-9.20536"></trkpt><trkpt lat="39.416" lon="-9.20545"></trkpt><trkpt lat="39.41673" lon="-9.20506"></trkpt><trkpt lat="39.4173" lon="-9.20498"></trkpt><trkpt lat="39.41879" lon="-9.20515"></trkpt><trkpt lat="39.42018" lon="-9.20609"></trkpt><trkpt lat="39.42128" lon="-9.20729"></trkpt><trkpt lat="39.42144" lon="-9.20729"></trkpt><trkpt lat="39.42189" lon="-9.20783"></trkpt><trkpt lat="39.42186" lon="-9.20813"></trkpt><trkpt lat="39.42227" lon="-9.20867"></trkpt><trkpt lat="39.42376" lon="-9.21043"></trkpt><trkpt lat="39.42388" lon="-9.21028"></trkpt><trkpt lat="39.42298" lon="-9.20877"></trkpt><trkpt lat="39.42267" lon="-9.20845"></trkpt><trkpt lat="39.42257" lon="-9.20858"></trkpt><trkpt lat="39.42249" lon="-9.20847"></trkpt><trkpt lat="39.42252" lon="-9.20792"></trkpt><trkpt lat="39.42215" lon="-9.20719"></trkpt><trkpt lat="39.42005" lon="-9.20515"></trkpt><trkpt lat="39.41796" lon="-9.20442"></trkpt><trkpt lat="39.41677" lon="-9.20433"></trkpt><trkpt lat="39.41597" lon="-9.20455"></trkpt><trkpt lat="39.41511" lon="-9.20442"></trkpt><trkpt lat="39.41398" lon="-9.20377"></trkpt><trkpt lat="39.41362" lon="-9.20377"></trkpt><trkpt lat="39.41256" lon="-9.20309"></trkpt><trkpt lat="39.41209" lon="-9.20317"></trkpt><trkpt lat="39.41191" lon="-9.20337"></trkpt><trkpt lat="39.41191" lon="-9.20337"></trkpt></trkseg>
 </trk>
 <trk>
   <name>Banco de areia 4</name>
-  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui.</desc>
+  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui — passa por cima.</desc>
   <extensions><osmand:color>#f4d03f</osmand:color><osmand:width>thin</osmand:width></extensions>
   <trkseg><trkpt lat="39.41237" lon="-9.22066"></trkpt><trkpt lat="39.41259" lon="-9.22103"></trkpt><trkpt lat="39.41292" lon="-9.2209"></trkpt><trkpt lat="39.41362" lon="-9.22158"></trkpt><trkpt lat="39.4141" lon="-9.22058"></trkpt><trkpt lat="39.41455" lon="-9.22008"></trkpt><trkpt lat="39.4161" lon="-9.22047"></trkpt><trkpt lat="39.41673" lon="-9.22103"></trkpt><trkpt lat="39.41695" lon="-9.22088"></trkpt><trkpt lat="39.41604" lon="-9.21983"></trkpt><trkpt lat="39.41504" lon="-9.21918"></trkpt><trkpt lat="39.41445" lon="-9.21841"></trkpt><trkpt lat="39.41378" lon="-9.21824"></trkpt><trkpt lat="39.41342" lon="-9.21858"></trkpt><trkpt lat="39.41299" lon="-9.21867"></trkpt><trkpt lat="39.41264" lon="-9.21925"></trkpt><trkpt lat="39.41271" lon="-9.21942"></trkpt><trkpt lat="39.41257" lon="-9.21968"></trkpt><trkpt lat="39.41261" lon="-9.22002"></trkpt><trkpt lat="39.41279" lon="-9.22025"></trkpt><trkpt lat="39.41322" lon="-9.22004"></trkpt><trkpt lat="39.41353" lon="-9.22032"></trkpt><trkpt lat="39.41339" lon="-9.22051"></trkpt><trkpt lat="39.41282" lon="-9.22043"></trkpt><trkpt lat="39.41262" lon="-9.2206"></trkpt><trkpt lat="39.41252" lon="-9.22047"></trkpt><trkpt lat="39.41237" lon="-9.22066"></trkpt><trkpt lat="39.41237" lon="-9.22066"></trkpt></trkseg>
 </trk>
 <trk>
   <name>Banco de areia 5</name>
-  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui.</desc>
+  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui — passa por cima.</desc>
   <extensions><osmand:color>#f4d03f</osmand:color><osmand:width>thin</osmand:width></extensions>
   <trkseg><trkpt lat="39.42113" lon="-9.21028"></trkpt><trkpt lat="39.42154" lon="-9.21103"></trkpt><trkpt lat="39.42161" lon="-9.21094"></trkpt><trkpt lat="39.42217" lon="-9.21133"></trkpt><trkpt lat="39.42244" lon="-9.21176"></trkpt><trkpt lat="39.42273" lon="-9.21176"></trkpt><trkpt lat="39.42269" lon="-9.21186"></trkpt><trkpt lat="39.4233" lon="-9.21257"></trkpt><trkpt lat="39.42361" lon="-9.21221"></trkpt><trkpt lat="39.42338" lon="-9.21182"></trkpt><trkpt lat="39.42361" lon="-9.21169"></trkpt><trkpt lat="39.42371" lon="-9.21113"></trkpt><trkpt lat="39.4234" lon="-9.21064"></trkpt><trkpt lat="39.42317" lon="-9.21056"></trkpt><trkpt lat="39.42293" lon="-9.21116"></trkpt><trkpt lat="39.42244" lon="-9.21073"></trkpt><trkpt lat="39.42214" lon="-9.21098"></trkpt><trkpt lat="39.42196" lon="-9.21053"></trkpt><trkpt lat="39.42181" lon="-9.21034"></trkpt><trkpt lat="39.42164" lon="-9.21047"></trkpt><trkpt lat="39.42138" lon="-9.20995"></trkpt><trkpt lat="39.42113" lon="-9.21028"></trkpt><trkpt lat="39.42113" lon="-9.21028"></trkpt></trkseg>
 </trk>
 <trk>
   <name>Banco de areia 6</name>
-  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui.</desc>
+  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui — passa por cima.</desc>
   <extensions><osmand:color>#f4d03f</osmand:color><osmand:width>thin</osmand:width></extensions>
   <trkseg><trkpt lat="39.39858" lon="-9.2029"></trkpt><trkpt lat="39.39881" lon="-9.2038"></trkpt><trkpt lat="39.39923" lon="-9.20416"></trkpt><trkpt lat="39.39959" lon="-9.20403"></trkpt><trkpt lat="39.40052" lon="-9.20416"></trkpt><trkpt lat="39.40122" lon="-9.20446"></trkpt><trkpt lat="39.40161" lon="-9.20506"></trkpt><trkpt lat="39.4021" lon="-9.20465"></trkpt><trkpt lat="39.40168" lon="-9.20395"></trkpt><trkpt lat="39.40065" lon="-9.20317"></trkpt><trkpt lat="39.4007" lon="-9.2029"></trkpt><trkpt lat="39.40055" lon="-9.2027"></trkpt><trkpt lat="39.40039" lon="-9.20305"></trkpt><trkpt lat="39.40006" lon="-9.203"></trkpt><trkpt lat="39.40011" lon="-9.20259"></trkpt><trkpt lat="39.39979" lon="-9.20223"></trkpt><trkpt lat="39.39953" lon="-9.20232"></trkpt><trkpt lat="39.39916" lon="-9.20202"></trkpt><trkpt lat="39.39899" lon="-9.20244"></trkpt><trkpt lat="39.39883" lon="-9.20219"></trkpt><trkpt lat="39.39858" lon="-9.2029"></trkpt><trkpt lat="39.39858" lon="-9.2029"></trkpt></trkseg>
 </trk>
 <trk>
   <name>Banco de areia 7</name>
-  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui.</desc>
+  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui — passa por cima.</desc>
   <extensions><osmand:color>#f4d03f</osmand:color><osmand:width>thin</osmand:width></extensions>
   <trkseg><trkpt lat="39.42448" lon="-9.21483"></trkpt><trkpt lat="39.42448" lon="-9.21547"></trkpt><trkpt lat="39.42471" lon="-9.21581"></trkpt><trkpt lat="39.42471" lon="-9.21616"></trkpt><trkpt lat="39.42527" lon="-9.21714"></trkpt><trkpt lat="39.4257" lon="-9.21753"></trkpt><trkpt lat="39.4256" lon="-9.21787"></trkpt><trkpt lat="39.4258" lon="-9.21847"></trkpt><trkpt lat="39.42595" lon="-9.21867"></trkpt><trkpt lat="39.42648" lon="-9.21871"></trkpt><trkpt lat="39.4267" lon="-9.2183"></trkpt><trkpt lat="39.42633" lon="-9.21753"></trkpt><trkpt lat="39.42633" lon="-9.21714"></trkpt><trkpt lat="39.42511" lon="-9.2156"></trkpt><trkpt lat="39.42462" lon="-9.21463"></trkpt><trkpt lat="39.42448" lon="-9.21483"></trkpt><trkpt lat="39.42448" lon="-9.21483"></trkpt></trkseg>
 </trk>
 <trk>
   <name>Banco de areia 8</name>
-  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui.</desc>
+  <desc>Fica a seco ou muito raso na baixa-mar. Não lances para aqui — passa por cima.</desc>
   <extensions><osmand:color>#f4d03f</osmand:color><osmand:width>thin</osmand:width></extensions>
   <trkseg><trkpt lat="39.40007" lon="-9.1868"></trkpt><trkpt lat="39.40024" lon="-9.18732"></trkpt><trkpt lat="39.40072" lon="-9.18802"></trkpt><trkpt lat="39.40145" lon="-9.18863"></trkpt><trkpt lat="39.40163" lon="-9.18848"></trkpt><trkpt lat="39.4017" lon="-9.18818"></trkpt><trkpt lat="39.4016" lon="-9.18805"></trkpt><trkpt lat="39.4017" lon="-9.18792"></trkpt><trkpt lat="39.40156" lon="-9.18762"></trkpt><trkpt lat="39.40186" lon="-9.18727"></trkpt><trkpt lat="39.40175" lon="-9.18695"></trkpt><trkpt lat="39.40115" lon="-9.18678"></trkpt><trkpt lat="39.40079" lon="-9.18618"></trkpt><trkpt lat="39.40042" lon="-9.18635"></trkpt><trkpt lat="39.40007" lon="-9.1868"></trkpt><trkpt lat="39.40007" lon="-9.1868"></trkpt></trkseg>
 </trk>

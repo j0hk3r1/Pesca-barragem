@@ -22,9 +22,11 @@
 <div id="topo">
   <b>🗺️ Onde posso pescar</b>
   <span style="opacity:.85;font-size:.85rem">Lisboa &amp; estuário</span>
-  <a href="index.html#/MAR" style="margin-left:auto">← guia completo</a>
+  <a href="obidos.gpx" download style="margin-left:auto;color:#fff;background:rgba(255,255,255,.18);padding:.28em .6em;border-radius:6px;font-size:.82rem;text-decoration:none">📲 GPX Óbidos</a>
+  <a href="estuario.gpx" download style="color:#fff;background:rgba(255,255,255,.18);padding:.28em .6em;border-radius:6px;font-size:.82rem;text-decoration:none">📲 GPX estuário</a>
+  <a href="index.html#/MAR">← guia completo</a>
 </div>
-<p class="aviso">🔴 proibido (raio da regra) · 🟢 spot verificado · <b>auxiliar, não é a lei</b> — não mostra praias balneares nem placas. <b>Placa manda sempre.</b></p>
+<p class="aviso">🔴 proibido (raio da regra) · 🟢 spot verificado · <b>auxiliar, não é a lei</b> — não mostra praias balneares nem placas. <b>Placa manda sempre.</b> <span id="gpx-data" style="opacity:.75"></span></p>
 <div id="mapa"></div>
 <div id="legenda">a carregar…</div>
 
@@ -71,6 +73,18 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
 }).catch(function(){document.getElementById('legenda').textContent='⚠️ não deu para carregar as zonas.';});
 
 
+
+
+    // data de actualizacao dos GPX, lida do cabecalho do proprio ficheiro
+    (function(){
+      var el=document.getElementById('gpx-data'); if(!el) return;
+      fetch('obidos.gpx',{method:'HEAD'}).then(function(r){
+        var lm=r.headers.get('last-modified'); if(!lm) return;
+        var d=new Date(lm);
+        el.textContent='actualizados a '+('0'+d.getDate()).slice(-2)+'/'+('0'+(d.getMonth()+1)).slice(-2)+'/'+d.getFullYear()+
+                       ' — descarrega outra vez para teres a versão nova';
+      }).catch(function(){});
+    })();
 
     // saltos rápidos entre regiões (o mapa nasce em Lisboa; Óbidos fica a 80 km)
     (function(){

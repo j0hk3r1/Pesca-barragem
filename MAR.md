@@ -262,6 +262,18 @@
 
 
 
+
+    // data de actualizacao dos GPX, lida do cabecalho do proprio ficheiro
+    (function(){
+      var el=document.getElementById('gpx-data'); if(!el) return;
+      fetch('obidos.gpx',{method:'HEAD'}).then(function(r){
+        var lm=r.headers.get('last-modified'); if(!lm) return;
+        var d=new Date(lm);
+        el.textContent='actualizados a '+('0'+d.getDate()).slice(-2)+'/'+('0'+(d.getMonth()+1)).slice(-2)+'/'+d.getFullYear()+
+                       ' — descarrega outra vez para teres a versão nova';
+      }).catch(function(){});
+    })();
+
     // saltos rápidos entre regiões (o mapa nasce em Lisboa; Óbidos fica a 80 km)
     (function(){
       var Z=[['🏙️ Lisboa/estuário',38.72,-9.13,12],
@@ -511,6 +523,14 @@
 <div id="mapa-legenda" style="font-size:.9em;margin-bottom:1.2em"></div>
 
 🔗 <a href="mapa.html" target="_blank" rel="noopener"><b>Abrir o mapa em ecrã inteiro</b></a> *(guarda nos favoritos do telemóvel — funciona offline depois de aberto uma vez)*
+
+<div id="gpx-botoes" style="display:flex;flex-wrap:wrap;gap:.5em;align-items:center;margin:.7em 0 1em">
+  <a href="obidos.gpx" download style="display:inline-flex;align-items:center;gap:.45em;text-decoration:none;background:#0a7d5a;color:#fff;padding:.5em .9em;border-radius:8px;font-weight:600;font-size:.92em">📲 GPX da Lagoa de Óbidos</a>
+  <a href="estuario.gpx" download style="display:inline-flex;align-items:center;gap:.45em;text-decoration:none;background:#2c6b8f;color:#fff;padding:.5em .9em;border-radius:8px;font-weight:600;font-size:.92em">📲 GPX de Lisboa e estuário</a>
+  <span id="gpx-data" style="opacity:.7;font-size:.85em"></span>
+</div>
+
+📲 **Para o OsmAnd** — abre no telemóvel e escolhe *abrir com OsmAnd*. Funciona offline. [Instruções completas](#-levar-isto-para-o-osmand--funciona-offline)
 
 **Como ler:**
 - 🔴 **Círculo vermelho = zona proibida** — o raio é o da regra daquela estrutura (100 m ou 300 m). **Clica para ver se a proibição é 🇵🇹 NACIONAL** (Portaria 14/2014 — vale em todo o país) **ou 📍 LOCAL** (edital da Capitania de Lisboa — só vale aqui).
@@ -867,7 +887,12 @@ Com duas canas: **uma a ENE aos 70-80 m** (meio do canal) e **outra a ESE aos 60
 
 Gerei um **ficheiro GPX** com tudo o que está no mapa: os **15 spots**, os **alvos de lançamento**, as **10 rampas** com o aviso dos 100 m, as **zonas legais** e os **bancos de areia**.
 
-🔗 <a href="obidos.gpx" target="_blank" rel="noopener"><b>obidos.gpx</b></a> — 51 KB
+<div style="display:flex;flex-wrap:wrap;gap:.5em;margin:.6em 0">
+  <a href="obidos.gpx" download style="display:inline-flex;align-items:center;gap:.45em;text-decoration:none;background:#0a7d5a;color:#fff;padding:.5em .9em;border-radius:8px;font-weight:600;font-size:.92em">📲 obidos.gpx</a>
+  <a href="estuario.gpx" download style="display:inline-flex;align-items:center;gap:.45em;text-decoration:none;background:#2c6b8f;color:#fff;padding:.5em .9em;border-radius:8px;font-weight:600;font-size:.92em">📲 estuario.gpx</a>
+</div>
+
+Há dois: **`obidos.gpx`** (52 KB) com o detalhe todo da lagoa, e **`estuario.gpx`** (218 KB) com os spots de Lisboa, as **589 zonas proibidas** e as praias balneares.
 
 **Como pôr no telemóvel:**
 
@@ -891,6 +916,9 @@ Depois disso **funciona sem rede** — é o que interessa, porque na margem sul 
 Cada ponto traz a descrição completa: distância de lançamento, rumo, se há banco pelo meio, distâncias à rampa e à estrada, e a base legal.
 
 > 💡 **No OsmAnd também podes descarregar o mapa offline da região de Leiria/Lisboa** antes de ires — Menu → Transferências. Assim tens o mapa base e o GPX, ambos sem rede.
+
+> 🔄 **Sempre que mudarmos alguma coisa aqui, descarrega outra vez.** Os botões estão também **[ao lado do mapa](#-mapa--onde-podes-e-onde-não)** e no cabeçalho do mapa em ecrã inteiro. A data de actualização aparece ao lado deles. No OsmAnd, importar por cima substitui a versão antiga.
+> Os ficheiros são gerados a partir dos mesmos dados que alimentam o mapa (`python3 tools/gpx.py`), por isso **nunca ficam dessincronizados** do que está no site.
 
 ### 📌 Os teus dois pontos
 
