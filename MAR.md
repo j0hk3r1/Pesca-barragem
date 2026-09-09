@@ -1256,7 +1256,20 @@ Vais levá-la, e é meio caminho andado — é uma cana de **surfcasting**, pesa
 
 ### ⚙️ As montagens — com o material que tens
 
+🪜 **[Diagrama à escala das duas montagens](https://claude.ai/code/artifact/e9bf1b62-a95d-4687-bd3a-d0fbed3d29a6)** — abre no telemóvel, tem as medidas todas e o que muda face ao rig do siluro.
+
+
 Duas canas, o máximo que a lagoa permite. Ambas podem levar corrida, porque tens chumbos de correr para as duas.
+
+> 🪝 **Os anzóis vão em milímetros de abertura, não em números.** Os números mudam de marca para marca e não querem dizer nada em concreto. A abertura — do bico à haste — é o que a **lei** mede (mínimo **8 mm** na lagoa) e o que decide se a boca do peixe leva o anzol. Mede os teus contra o corpo de uma caneta Bic: tem 8 mm.
+>
+> | Onde | Abertura | Qual dos teus |
+> |---|---|---|
+> | **Estralho de cima** *(robalo, molho de 2 navalhas)* | **9,9 mm** | os de carpa |
+> | **Estralho de baixo** *(dourada, 1 navalha)* | **8,3 mm** | os de mar com barbelas — as barbelas seguram a navalha mole |
+> | **Corrida** | **8,3 mm** | idem |
+>
+> ⚠️ Os teus **octopus de 15 mm ficam em casa** — são para peixe de 10 kg, e o que sai da lagoa anda em 1-3 kg.
 
 **🥇 Fundo de 2 anzóis** — *a montagem base, é a que trabalha sozinha enquanto esperas*
 
@@ -1265,27 +1278,39 @@ Duas canas, o máximo que a lagoa permite. Ambas podem levar corrida, porque ten
 | **Madre** | Tournament 0,33 branco | trançada 27 kg |
 | **Shock leader** | **10 m de mono 0,60** — obrigatório | o 0,60 que já lá tens *(opcional)* |
 | **Chumbo** | **100 g** | **60 g** |
-| **Estralho de cima** | fluoro **0,30-0,35** · **50-60 cm** | idem |
-| **Estralho de baixo** | fluoro **0,28-0,30** · **30-40 cm** | idem |
-| **Anzóis** | **n.º 4 a 1/0** — os teus de mar de 8,3 mm servem | idem |
+| **Estralho de cima** | fluoro **0,30-0,35** · **50 cm** | idem |
+| **Estralho de baixo** | fluoro **0,28-0,30** · **30 cm** | idem |
+| **Anzóis** *(abertura)* | **9,9 mm** em cima · **8,3 mm** em baixo | idem |
 | **Nós** | Palomar nas argolas · cirurgião nos estralhos | idem |
 
-> 📏 **A que altura do chumbo fica o estralho de baixo? A ~30 cm, não encostado ao clip.**
+> 📏 **Os vãos entre estações, e porque é que a medida do estralho depende deles.**
+>
+> **O estralho tem de ser sempre mais curto que o vão abaixo dele**, senão o anzol de cima cai em cima da estação de baixo e enrola.
+>
+> | | Medida |
+> |---|---|
+> | Destorcedor → Estação 1 | **25 cm** |
+> | Estação 1 → Estação 2 | **60 cm** · estralho de cima **50 cm** |
+> | Estação 2 → chumbo | **40 cm** · estralho de baixo **30 cm** |
+>
+> Assim o anzol de cima fica 10 cm acima da estação de baixo, e o de baixo 10 cm acima do chumbo. Nada se cruza.
+
+> 📏 **A que altura do chumbo fica o estralho de baixo? A ~40 cm, não encostado ao clip.**
 >
 > Há dois desenhos por aí e servem para coisas diferentes:
 >
 > | | Onde o estralho prende | Para que serve |
 > |---|---|---|
-> | **Paternoster normal** *(o teu)* | **~30 cm acima do chumbo** | pescar. O isco fica no fundo, a arrastar atrás, mas **acima da erva que se agarra à chumbada** |
+> | **Paternoster normal** *(o teu)* | **~40 cm acima do chumbo** | pescar. O isco fica no fundo, a arrastar atrás, mas **acima da erva que se agarra à chumbada** |
 > | **Clip-down / impact shield** | **encostado ao clip do chumbo** | **lançar longe.** Prende o isco ao chumbo em voo — menos resistência do ar e protege isco mole. Solta no impacto |
 >
-> O clip-down é ferramenta de **surfcasting de distância**. Aqui não precisas: lanças 40-80 m e, o que é pior, o local avisa que *"há alturas da maré em que saem **saladas de 2 kg agarradas à chumbada**"* — com o estralho no clip, o isco entra directo nessa erva. **Deixa os 30 cm.**
+> O clip-down é ferramenta de **surfcasting de distância**. Aqui não precisas: lanças 40-80 m e, o que é pior, o local avisa que *"há alturas da maré em que saem **saladas de 2 kg agarradas à chumbada**"* — com o estralho no clip, o isco entra directo nessa erva. **Deixa os 40 cm.**
 >
 > ⚠️ **A excepção:** se as navalhas te saltarem do anzol no lançamento, o problema é o isco mole, não a altura. A solução é **elástico de isco, 12 voltas** — está no desenho acima. Só se isso não chegar é que vale a pena montar um clip-down.
 
 **🥈 Corrida** — *para dourada desconfiada e para a estofa*
 
-Chumbo de correr na madre → conta amortecedora → destorcedor → **60-80 cm de fluoro 0,30** → anzol n.º 4-2.
+Chumbo de correr na madre → conta amortecedora → destorcedor → **70 cm de fluoro 0,30** → anzol de **8,3 mm**.
 Na Resifight usas o **50 g**; na cana do avô podes juntar dois para chegares ao peso que a corrente pedir.
 
 > ⚠️ **Na corrida, não deixes o freio apertado.** O chumbo corre na linha, mas se a linha não puder sair o peixe sente na mesma. Freio lavado ou bail aberto com indicador — senão a montagem não faz o que veio fazer.
@@ -1306,7 +1331,7 @@ Na Resifight usas o **50 g**; na cana do avô podes juntar dois para chegares ao
 
 ⚖️ **Regra da lagoa: máx. 2 canas, máx. 3 anzóis por cana.** Duas de fundo com 2 anzóis cada = 4 anzóis na água, dentro da lei.
 
-**Na caixa:** chumbos de 50 (correr), 60 e 100 g · fluoro 0,28 e 0,35 · anzóis 4, 2 e 1/0 · destorcedores · contas · **ancinho e balde** *(ver o isco)* · **dedeira ou luva** se pescares com a trançada à vista · e o camaroeiro, que a margem é baixa e lamacenta.
+**Na caixa:** chumbos de 50 (correr), 60 e 100 g · fluoro 0,28 e 0,35 · anzóis de **8,3 e 9,9 mm** · destorcedores · contas · **ancinho e balde** *(ver o isco)* · **dedeira ou luva** se pescares com a trançada à vista · e o camaroeiro, que a margem é baixa e lamacenta.
 
 ### 🔍 O primeiro lançamento é um diagnóstico
 
@@ -1338,7 +1363,7 @@ Lança, deixa assentar, **estica a linha** e dá-lhe **10-15 minutos**. Depois r
 | Volume de um milho | ~1 cm³ |
 | **Impulsão** | **~0,07 g** |
 
-**70 miligramas.** Um anzol n.º 2 sozinho pesa 300-500 mg. A esponja não levanta a navalha nem se levanta a si própria.
+**70 miligramas.** Um anzol de 9,9 mm sozinho pesa 300-500 mg. A esponja não levanta a navalha nem se levanta a si própria.
 
 **O que ela é, então:** um **atractor visual e batente de isco** — dá cor, dá volume, e impede que a navalha escorregue pela curva do anzol abaixo.
 
@@ -1409,6 +1434,7 @@ Duas toneiras de cores diferentes ao mesmo tempo até perceberes qual está a fu
 | 🎯 **Onde** | margem de onde o lançamento **passe o amarelo** do mapa |
 | 🧭 **Rumo** | no #1, **OSO 255° aos 60-80 m** e **SO 225° aos 40-60 m** |
 | 🪱 **Isco** | **grande e resistente.** Navalha num anzol, **tira de choco** no outro |
+| 🪝 **Anzóis** | **9,9 mm** em cima (carpa) · **8,3 mm** em baixo (mar, c/ barbelas) |
 | 🐟 **Espécies** | robalo, dourada, baila, linguado, sargo, salmonete, tainha, enguia, choco, polvo — e já saiu corvina |
 | 🚫 **Erro clássico** | lançar 20 m para o raso e esperar. É o que faz branquear ali |
 
