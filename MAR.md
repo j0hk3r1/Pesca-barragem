@@ -1571,7 +1571,9 @@ Lança, deixa assentar, **estica a linha** e dá-lhe **10-15 minutos**. Depois r
 | **Montagem veio para a margem** | chumbo leve de mais | sobe para **100 g na cana do avô** |
 | Só o de baixo suja/some | o fundo ali é mau | sobe o estralho de baixo para 60-80 cm |
 
-> ⚠️ **A erva agarra-se quando a montagem arrasta.** Antes de mexer na montagem, garante que o chumbo está quieto: **chumbo com garra** e linha esticada resolvem metade dos casos. Só depois é que vale a pena levantar o isco.
+> ⚠️ **A erva agarra-se quando a montagem arrasta.** Antes de mexer na montagem, garante que o chumbo está quieto: **chumbo com garra** e linha esticada resolvem metade dos casos.
+>
+> 🌿 **Mas não arrumes por causa dela.** O local avisa: *"lixo é sinal de corrente forte, corrente forte arrasta comida"*. Erva na chumbada quer dizer que a água está a mexer — que é o que traz o peixe. Só muda de rumo se a montagem ficar impossível de pescar.
 
 ### 🌽 Os teus milhos impressos — no de baixo, mas só quando for preciso
 
@@ -1658,6 +1660,59 @@ Todos do **Usersd**, das Caldas da Rainha (276 mensagens), em dois tópicos dife
 1. 🥇 **O sítio das douradas tem nome: Covão dos Musaranhos** — é o nosso **[#10](https://www.google.com/maps?q=39.38599,-9.22563)**, canto sudoeste. É a tua alternativa se o #1 estiver morto.
 2. 🌿 **Conta com ervas na chumbada** nalgumas alturas da maré. É o assoreamento de que fala a [notícia de out-2025](https://jornaldascaldas.pt/2025/10/30/aumento-da-area-de-pesca-na-lagoa-de-obidos-e-criacao-de-infraestruturas-de-apoio-aos-pe) — *"150 hectares perdidos devido às ervas marinhas"*. Se te vier, muda de rumo em vez de insistir.
 3. ⛔ **"As Chapas", que ele refere como bom sítio, estão fechadas este fim de semana.** É o [Pesqueiro das Chapas](https://www.google.com/maps?q=39.4288,-9.22799), lá a norte junto ao Cais, e cai na zona que só abre a **14 de setembro**.
+
+### 🎯 O guia do local — onde o robalo se põe, e porquê
+
+O mesmo pescador das Caldas escreveu isto num [tópico sobre spinning na Foz do Arelho](https://www.pesqueiro.pt/index.php?topic=41602.0), em set-2025. É a coisa mais útil que encontrei sobre esta lagoa:
+
+> *"Pesco na foz do Arelho com alguma frequência, **sou da zona** (…) Na Foz estamos praticamente num ambiente muito semelhante a um estuário.*
+>
+> *O robalo é um **predador por emboscada** e gosta de se localizar em locais onde a corrente traz pequenos peixes e crustáceos arrastados que são comida fácil. A lagoa e o rio enchem, e **quando vazam trazem arrastados** pequenos peixes, camarão, caranguejos e anelídeos.*
+>
+> *Nesse caso é preciso procurar zonas onde as **correntes rápidas quebram e depositam comida**: **buracos no meio dos canais, pontos e esquinas onde a corrente quebra**, zonas com **vegetação/estrutura** perto ou dentro dos canais.*
+>
+> *Os canais, mesmo com muita corrente, **têm depressões e buracos no fundo. Consegues apalpá-los com um vinil mais pesado**."*
+
+**Isto encaixa com o #1 melhor do que qualquer coisa que eu tenha calculado:** *"pontos e esquinas onde a corrente quebra"* é a definição de uma **ponta de areia a entrar na lagoa**. É exactamente o que o #1 é.
+
+#### ⏱️ E a maré? Ele diz vazante — o que muda o teu dia
+
+> *"**Naturalmente, a melhor altura é a vazante. Muitas vezes já umas horas vazante dentro.** (…) **Tenho melhores resultados principalmente de noite**, como é natural."*
+
+Repara que ele diz coisas diferentes para técnicas diferentes, e as duas fazem sentido:
+
+| Técnica | O que ele diz | No teu sábado |
+|---|---|---|
+| 🪱 **Isco de fundo** | *"fins da enchente e inícios da vazante"* | 04:00-06:30 e 16:00-18:30 |
+| 🎣 **Spinning** | *"a vazante, já umas horas vazante dentro"* | **07:30 – 11:00** |
+
+> ✅ **A tua manhã ganha peso.** Preia-mar às 05:17: às 06:30 estás no início da vazante *(a janela do isco)* e às 07:30-09:30 estás **já umas horas vazante dentro** *(a janela do spinning)*. As duas leituras dele cabem na tua manhã. **06:30-09:30 continua a ser a aposta, e agora com mais razão.**
+
+#### 🌿 E a erva afinal é um sinal, não só um problema
+
+> *"Vais combater contra o **lixo arrastado** nos dias de mais corrente. **Lixo é sinal de corrente forte, corrente forte arrasta comida**."*
+
+Muda como reages: se te vier erva na chumbada, **não é motivo para arrumar** — é sinal de que a água está a mexer, que é o que traz o peixe. Só muda de rumo se a montagem ficar impossível de pescar.
+
+#### 🎣 Se levares a cana de spinning
+
+| | O que ele usa |
+|---|---|
+| **Amostras** | *"jerks afundantes, pencils/twitchbaits afundantes, e **vinis na ordem das 25 a 30 g**"* |
+| **Cores** | naturais *(padrão de sardinha, sandilho)* **e** alto contraste *(branco, chartreuse, preto, rosa)* |
+| **Época** | *"os melhores meses são a partir de agora, principalmente **novembro**"* |
+
+⚠️ **Vinis de 25-30 g não vão na tua cana de spinning** (máx. 15 g). Esses seriam para a **Resifight**, que é 40-100 g — mas aí gastas uma das duas canas legais. Para a cana pequena fica-te por 7-15 g.
+
+> 💡 **E há aqui uma ferramenta que não tinhas:** *"os canais têm depressões e buracos no fundo, **consegues apalpá-los com um vinil mais pesado**"*. Se levares a cana de spinning, usa-a **primeiro** para varrer o fundo e encontrar os buracos — e só depois pões as canas de fundo a apontar para lá.
+
+#### 👮 A Polícia Marítima fiscaliza mesmo ali
+
+Em **18 de novembro de 2025** o Comando Local de Peniche fez uma acção dirigida à **pesca apeada na Lagoa de Óbidos**: *"foram fiscalizados **oito pescadores lúdicos apeados, três dos quais em presumível infração por ausência de licença**"* — [notícia da AMN](https://www.amn.pt/Media/Paginas/DetalheNoticia.aspx?nid=6548).
+
+**Leva a licença contigo.** Três em oito é muita gente apanhada.
+
+> 🧊 **E uma dose de realismo, dele:** *"O peixe nem sempre lá está, mesmo quando as condições parecem boas."*
 
 ### 🐙 Ao choco — a montagem de quem lá pesca
 
