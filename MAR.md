@@ -1297,6 +1297,38 @@ Na Resifight usas o **50 g**; na cana do avô podes juntar dois para chegares ao
 
 **Na caixa:** chumbos de 50 (correr), 60 e 100 g · fluoro 0,28 e 0,35 · anzóis 4, 2 e 1/0 · destorcedores · contas · **ancinho e balde** *(ver o isco)* · **dedeira ou luva** se pescares com a trançada à vista · e o camaroeiro, que a margem é baixa e lamacenta.
 
+### 🔍 O primeiro lançamento é um diagnóstico
+
+Lança, deixa assentar, **estica a linha** e dá-lhe **10-15 minutos**. Depois recolhe e olha para o chumbo e para os dois anzóis antes de voltar a lançar. O que vier diz-te o que mudar:
+
+| O que vês ao recolher | O que se passa | O que fazes |
+|---|---|---|
+| Chumbo limpo, iscos intactos | está tudo bem | deixa 30-40 min da próxima |
+| **Chumbo com erva, isco enterrado** | erva no fundo | **muda de rumo primeiro.** Se persistir, põe flutuação no estralho de baixo |
+| **Iscos comidos, anzóis nus** | peixe miúdo | passa para **tira de choco** num dos anzóis |
+| **Montagem veio para a margem** | chumbo leve de mais | sobe para **100 g na cana do avô** |
+| Só o de baixo suja/some | o fundo ali é mau | sobe o estralho de baixo para 60-80 cm |
+
+> ⚠️ **A erva agarra-se quando a montagem arrasta.** Antes de mexer na montagem, garante que o chumbo está quieto: **chumbo com garra** e linha esticada resolvem metade dos casos. Só depois é que vale a pena levantar o isco.
+
+### 🌽 Os teus milhos impressos — no de baixo, mas só quando for preciso
+
+**Por defeito, não.** A montagem já está desenhada com uma divisão de trabalho:
+
+- **Estação 1 (a de cima)** — o isco já anda **acima do fundo**. É a estação do **robalo**.
+- **Estação 2 (a de baixo)** — o isco fica **no fundo**, e é isso que queres: **dourada e linguado revolvem a areia**, é aí que comem. Levantá-lo tira-te o peixe que mais procuras.
+
+**Quando é que metes:** quando o diagnóstico acima der *"chumbo com erva, isco enterrado"*. Aí um milho de esponja ou de PLA oco no estralho de baixo levanta a navalha **o suficiente para ficar à vista por cima da erva**, sem a tirar da zona de alimentação.
+
+| | O que usar |
+|---|---|
+| **Quanto** | o mínimo que levante o isco. Com navalha, um milho pequeno chega — queres **criticamente equilibrado**, a pairar, não a flutuar |
+| **Qual** | esponja (~0,95 g/cm³) levanta pouco · **PLA oco (~0,3-0,5)** levanta bem mais |
+| **Onde** | encostado ao anzol, no estralho de baixo |
+| **Cor** | laranja ou amarelo — em água turva a 1-2 m, a cor ajuda pouco, mas não estorva |
+
+⚠️ **Não metas nos dois.** Se levantares as duas iscas ficas sem nenhuma no fundo, e é no fundo que está a dourada.
+
 ### 🪱 O isco — e a boa notícia sobre as tuas navalhas
 
 🎯 **A navalha que já tens é o primeiro isco que o local nomeia.** Ele chama-lhe *lingueirão* — é o mesmo bivalve (*Ensis siliqua*). Vais com o isco certo.
