@@ -1532,8 +1532,7 @@ Na Resifight usas o **50 g**; na cana do avô podes juntar dois para chegares ao
 >
 > ⚠️ **Se a erva entupir o chumbo de correr** e ele deixar de correr na linha, a corrida perde a razão de existir — passa essa cana também a high/low.
 
-**🥉 Spinning leve** — vinil de 7-12 cm ou spinner #2-3, leader fluoro 0,30, 7-20 g. À boca dos canais, na enchente, ao robalo.
-⚠️ **É troca, não acréscimo** — o limite são 2 canas por pescador.
+**🥉 Spinning** — fica em casa neste fim de semana. A cana leve não lança os **25-30 g** que o local usa, e a mais rija tem os passadores cortados — **trançada em passador cortado corta-se**. Levas as duas de fundo, que é o limite legal de qualquer maneira.
 
 ⚖️ **Regra da lagoa: máx. 2 canas, máx. 3 anzóis por cana.** Duas de fundo com 2 anzóis cada = 4 anzóis na água, dentro da lei.
 
@@ -1704,7 +1703,27 @@ Muda como reages: se te vier erva na chumbada, **não é motivo para arrumar** �
 
 ⚠️ **Vinis de 25-30 g não vão na tua cana de spinning** (máx. 15 g). Esses seriam para a **Resifight**, que é 40-100 g — mas aí gastas uma das duas canas legais. Para a cana pequena fica-te por 7-15 g.
 
-> 💡 **E há aqui uma ferramenta que não tinhas:** *"os canais têm depressões e buracos no fundo, **consegues apalpá-los com um vinil mais pesado**"*. Se levares a cana de spinning, usa-a **primeiro** para varrer o fundo e encontrar os buracos — e só depois pões as canas de fundo a apontar para lá.
+#### 🔎 Encontrar os buracos sem cana de spinning
+
+O local diz para apalpar as depressões *"com um vinil mais pesado"*. **Fazes o mesmo com a chumbada** — é a técnica de arrastar o chumbo, e para isto a **Resifight com trançada é a cana certa**: a trançada não estica, portanto sentes tudo.
+
+**Antes de pousares as canas, gasta 10 minutos a ler o fundo:**
+
+1. Lança no rumo que queres, deixa o chumbo ir ao fundo e **conta os segundos até bater**. Mais segundos = mais fundo.
+2. **Estica a linha e recolhe devagar**, meia volta de manivela de cada vez, sentindo o chumbo.
+3. Lê o que vem pela linha:
+
+| O que sentes | O que é |
+|---|---|
+| **Toques secos e nítidos** | areia dura ou concha — fundo limpo |
+| **Nada, arrasta pesado e mudo** | lodo mole |
+| **Prende e solta, prende e solta** | erva |
+| ⭐ **A linha afrouxa de repente** | **o chumbo caiu num buraco** — é isto que procuras |
+| **Fica mais pesado a subir** | estás a subir um banco |
+
+4. Repete duas ou três vezes em rumos diferentes. **Onde a linha afrouxar, é aí que pões o isco.**
+
+> 💡 Faz isto no **primeiro lançamento**, que já ia ser de diagnóstico. Sai-te de graça: ficas a saber onde está o fundo bom *e* se o isco aguenta.
 
 #### 👮 A Polícia Marítima fiscaliza mesmo ali
 
