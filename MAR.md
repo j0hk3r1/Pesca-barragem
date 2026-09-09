@@ -1290,6 +1290,17 @@ Na Resifight usas o **50 g**; na cana do avô podes juntar dois para chegares ao
 
 > ⚠️ **Na corrida, não deixes o freio apertado.** O chumbo corre na linha, mas se a linha não puder sair o peixe sente na mesma. Freio lavado ou bail aberto com indicador — senão a montagem não faz o que veio fazer.
 
+> ⚖️ **Corrida ou high/low? Uma de cada.**
+>
+> | Cana | Montagem | Porquê |
+> |---|---|---|
+> | **Cana do avô** *(100 g)* | **high/low, 2 anzóis** | 100 g de correr em corrente forte rola e enrola-se. Quer chumbo fixo |
+> | **Resifight** *(50 g de correr)* | **corrida** | é a cana fina — para a dourada que larga ao sentir peso |
+>
+> Não conheces a água, e os dois problemas que te podem estragar a manhã são opostos: **peixe desconfiado que larga ao sentir o chumbo** (a corrida resolve) ou **peixe miúdo a roubar isco** (o high/low com 2 anzóis mostra-te mais depressa). Com uma de cada, ao fim de duas horas sabes qual tens. **A primeira que der peixe, passa a outra para a mesma montagem.**
+>
+> ⚠️ **Se a erva entupir o chumbo de correr** e ele deixar de correr na linha, a corrida perde a razão de existir — passa essa cana também a high/low.
+
 **🥉 Spinning leve** — vinil de 7-12 cm ou spinner #2-3, leader fluoro 0,30, 7-20 g. À boca dos canais, na enchente, ao robalo.
 ⚠️ **É troca, não acréscimo** — o limite são 2 canas por pescador.
 
@@ -1318,16 +1329,22 @@ Lança, deixa assentar, **estica a linha** e dá-lhe **10-15 minutos**. Depois r
 - **Estação 1 (a de cima)** — o isco já anda **acima do fundo**. É a estação do **robalo**.
 - **Estação 2 (a de baixo)** — o isco fica **no fundo**, e é isso que queres: **dourada e linguado revolvem a areia**, é aí que comem. Levantá-lo tira-te o peixe que mais procuras.
 
-**Quando é que metes:** quando o diagnóstico acima der *"chumbo com erva, isco enterrado"*. Aí um milho de esponja ou de PLA oco no estralho de baixo levanta a navalha **o suficiente para ficar à vista por cima da erva**, sem a tirar da zona de alimentação.
+**🧽 O milho de esponja não levanta nada — e isso não é problema.** A conta:
 
-| | O que usar |
+| | |
 |---|---|
-| **Quanto** | o mínimo que levante o isco. Com navalha, um milho pequeno chega — queres **criticamente equilibrado**, a pairar, não a flutuar |
-| **Qual** | esponja (~0,95 g/cm³) levanta pouco · **PLA oco (~0,3-0,5)** levanta bem mais |
-| **Onde** | encostado ao anzol, no estralho de baixo |
-| **Cor** | laranja ou amarelo — em água turva a 1-2 m, a cor ajuda pouco, mas não estorva |
+| Água da lagoa | ~1,02 g/cm³ |
+| Milho de esponja | ~0,95 g/cm³ |
+| Volume de um milho | ~1 cm³ |
+| **Impulsão** | **~0,07 g** |
 
-⚠️ **Não metas nos dois.** Se levantares as duas iscas ficas sem nenhuma no fundo, e é no fundo que está a dourada.
+**70 miligramas.** Um anzol n.º 2 sozinho pesa 300-500 mg. A esponja não levanta a navalha nem se levanta a si própria.
+
+**O que ela é, então:** um **atractor visual e batente de isco** — dá cor, dá volume, e impede que a navalha escorregue pela curva do anzol abaixo.
+
+> 🎯 **Vai no estralho de baixo.** Contas, pérolas e milhos são doutrina antiga para **dourada, sargo e linguado** — peixe que revolve o fundo e inspecciona de perto. Para robalo em isco natural é discutido. E como não levanta nada, o isco de baixo continua no fundo, que é onde tem de estar.
+
+⚠️ **Para levantar mesmo o isco por causa da erva precisas do PLA oco** (~0,3-0,5 g/cm³) — esse dá 0,5-0,7 g por cm³, **dez vezes** mais que a esponja. Nesse caso, um só, no estralho de baixo, criticamente equilibrado. Nunca nos dois: ficavas sem isco nenhum no fundo.
 
 ### 🪱 O isco — e a boa notícia sobre as tuas navalhas
 
