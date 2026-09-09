@@ -1131,9 +1131,33 @@ Marés do oceano calibradas (+33 min) mais o atraso local do #5 (+1h44 médio). 
 
 **Domingo vemos na sexta**, mais perto, para apanhar a previsão de vento certa.
 
-### ⚙️ O setup — o que levar e como montar
+### 🎣 Que canas levar — a de siluro ou a telescópica de mar?
 
-Duas canas, é o máximo que a lagoa permite. A montagem que fizemos para a muralha do Tejo serve, **encurtada e aliviada**: aqui não há ondulação nem fundo sujo, há **corrente de maré, água rasa e peixe desconfiado**.
+**A de siluro com o FX 4000.** A razão é uma só, e é a que decide tudo em pesca de fundo:
+
+> **A lagoa pede chumbos de 30 a 60 g.** A cana de siluro é **40-100 g**: os 30-60 g caem **no meio da janela dela**. Uma cana lança mais longe e mostra melhor as picadas quando trabalha a meio do que aguenta, não nos extremos.
+
+| | Cana de siluro (40-100 g) | Telescópica grande de mar |
+|---|---|---|
+| Chumbo de 40 g | ✅ **a meio da janela** — carrega bem | ⚠️ depende do que diz no cabo |
+| Picada de dourada | ✅ nota-se | ❌ perde-se numa cana rija |
+| Peixe de 1-3 kg | ✅ sobra força | ✅ sobra muita força |
+| Lançar 40-80 m | ✅ chega e sobra | ✅ chega mais longe |
+
+> 🔍 **Antes de decidires de vez, vê o que está impresso no cabo da telescópica.**
+> - Se disser **100-200 g** (o normal numa telescópica de surf) — **deixa-a em casa**. Com 40 g estás a 20-40% do que ela precisa para curvar: lança curto e não sentes nada. Foi feita para meter 150 g dentro da rebentação, e aqui não há ondulação nenhuma.
+> - Se disser **~30-80 g ou 50-100 g** — aí é uma boa segunda cana, e o comprimento extra ajuda a manter a linha fora de água na margem baixa.
+
+**O FX 4000 chega bem:** travão prático de **4 kg** (máximo 8,5 kg) contra peixe de 1-3 kg, e leva **170 m de 0,35 mm** — de sobra para lançar 80 m. Desmultiplicação 5,2:1, 320 g.
+
+⚠️ **Se usares chumbo de 60 g, mete shock leader.** A regra é ~10 lb de leader por onça de chumbo: 60 g ≈ 2 onças ≈ **9 kg**. O teu fluoro 0,35 anda por aí — dá para 40 g com folga, fica no limite aos 60 g. Com 40 g não precisas de te preocupar.
+
+> 🥈 **As duas canas que eu levava:** a **de siluro com o fundo de 2 anzóis** (é a que trabalha sozinha enquanto esperas) e a **de spinning leve com spinner ou vinil** para ires atirando à boca do canal na enchente. Cobre as duas maneiras de pescar aquilo e ficas dentro do limite legal de 2 canas.
+> ⚠️ A de spinning **não serve para o fundo** — máximo 15 g não lança um chumbo de 40 g. Se quiseres duas canas de fundo, a segunda tem de ser a telescópica, e aí a pergunta do cabo é que decide.
+
+### ⚙️ As montagens
+
+A montagem que fizemos para a muralha do Tejo serve, **encurtada e aliviada**: aqui não há ondulação nem fundo sujo, há **corrente de maré, água rasa e peixe desconfiado**.
 
 **🥇 Cana 1 — fundo, dois anzóis** *(a que trabalha sozinha)*
 
