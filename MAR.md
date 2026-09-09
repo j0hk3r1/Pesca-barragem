@@ -510,7 +510,7 @@
 <div id="mapa-legal" style="height:520px;border:1px solid #e2e6ea;border-radius:12px;margin:.6em 0"></div>
 <div id="mapa-legenda" style="font-size:.9em;margin-bottom:1.2em"></div>
 
-🔗 **[Abrir o mapa em ecrã inteiro](mapa.html)** *(guarda nos favoritos do telemóvel — funciona offline depois de aberto uma vez)*
+🔗 <a href="mapa.html" target="_blank" rel="noopener"><b>Abrir o mapa em ecrã inteiro</b></a> *(guarda nos favoritos do telemóvel — funciona offline depois de aberto uma vez)*
 
 **Como ler:**
 - 🔴 **Círculo vermelho = zona proibida** — o raio é o da regra daquela estrutura (100 m ou 300 m). **Clica para ver se a proibição é 🇵🇹 NACIONAL** (Portaria 14/2014 — vale em todo o país) **ou 📍 LOCAL** (edital da Capitania de Lisboa — só vale aqui).
@@ -862,6 +862,35 @@ Com duas canas: **uma a ENE aos 70-80 m** (meio do canal) e **outra a ESE aos 60
 > 🏖️ **A língua de areia do #5 não te corta a retirada.** Comparei a mesma zona em duas imagens aéreas, uma de maré alta e outra de maré baixa: **está seca nas duas**. Não é um banco que aparece e desaparece. Ressalva: as duas imagens são de marés normais, não sei o que faz numa maré viva grande.
 
 **As linhas de lançamento estão desenhadas no mapa** — camada *"para onde lançar"*, a vermelho o rumo principal e a laranja tracejado os alternativos. Cada ponto branco é uma distância de lançamento.
+
+### 📲 Levar isto para o OsmAnd — funciona offline
+
+Gerei um **ficheiro GPX** com tudo o que está no mapa: os **15 spots**, os **alvos de lançamento**, as **10 rampas** com o aviso dos 100 m, as **zonas legais** e os **bancos de areia**.
+
+🔗 <a href="obidos.gpx" target="_blank" rel="noopener"><b>obidos.gpx</b></a> — 51 KB
+
+**Como pôr no telemóvel:**
+
+1. Abre o link acima no telemóvel — o ficheiro fica nas transferências
+2. Toca nele e escolhe **abrir com OsmAnd** *(ou, dentro do OsmAnd: **Menu → Os meus lugares → Trilhos → Importar**)*
+3. Liga-o em **Menu → Configurar mapa → Trilhos**
+
+Depois disso **funciona sem rede** — é o que interessa, porque na margem sul da lagoa o sinal é fraco.
+
+| No GPX vais ver | |
+|---|---|
+| 🟢 **Pontos verdes** | spots onde podes pescar, numerados por ordem |
+| 🟡 **Pontos amarelos** | spots com ressalva — lê a descrição |
+| 🔴 **Pontos vermelhos** | onde **não** pescar, e as 10 rampas com os 100 m |
+| 🎣 **Quadrados vermelhos** | alvos de lançamento a 40, 60 e 80 m |
+| **Linhas verdes** | Zona de Utilização Livre |
+| **Linhas roxas / bordô** | Braço da Barrosa e Poça das Ferrarias — proibido |
+| **Linhas laranja** | fecham só na época balnear (13 jun – 13 set) |
+| **Linhas amarelas** | bancos de areia que ficam a seco na baixa-mar |
+
+Cada ponto traz a descrição completa: distância de lançamento, rumo, se há banco pelo meio, distâncias à rampa e à estrada, e a base legal.
+
+> 💡 **No OsmAnd também podes descarregar o mapa offline da região de Leiria/Lisboa** antes de ires — Menu → Transferências. Assim tens o mapa base e o GPX, ambos sem rede.
 
 ### 📌 Os teus dois pontos
 

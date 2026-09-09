@@ -45,7 +45,7 @@ var SPOTS=[
   ['Praia da Adiça',38.55830,-9.19010,'praia oceânica · 1599 m da Fonte da Telha'],
   ['Setúbal — frente ao jardim',38.52040,-8.89420,'🏆 autorização ESCRITA no edital de Setúbal']
 ];
-var mapa=L.map('mapa').setView([38.72,-9.13],12);
+var mapa=L.map('mapa',{preferCanvas:true}).setView([38.72,-9.13],12);
 var MAPA_REF=mapa, CAMADAS_REF={}, LEGENDA_ID='legenda';
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap'}).addTo(mapa);
 SPOTS.forEach(function(s){
@@ -288,34 +288,60 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
     }).catch(function(){});
 
 
-    // camada ICNF — aguas interiores (dados oficiais: ZPR, ZPP, concessoes)
-    fetch('data-icnf.json').then(function(r){return r.json();}).then(function(gj){
-      var grupos={};
-      L.geoJSON(gj,{
-        style:function(f){return {color:f.properties.cor,weight:3,opacity:.75};},
-        onEachFeature:function(f,l){
-          var p=f.properties;
-          l.bindPopup('<b>'+p.tipo+'</b><br>'+(p.nome?'<b>'+p.nome+'</b><br>':'')+
-            (p.rio?'rio: '+p.rio+'<br>':'')+(p.ent?'gestor: '+p.ent+'<br>':'')+
-            (p.dip?'<i>'+p.dip+'</i><br>':'')+
-            (p.mont?'<small>montante: '+p.mont+'</small><br>':'')+
-            (p.jus?'<small>jusante: '+p.jus+'</small><br>':'')+
-            '<small style="opacity:.7">fonte: ICNF (oficial)</small>');
-          (grupos[p.tipo]=grupos[p.tipo]||L.layerGroup()).addLayer(l);
-        }
-      });
-      var leg=document.getElementById(LEGENDA_ID);
-      Object.keys(grupos).forEach(function(k){
-        var cor=(k.indexOf('Reservada')>=0?'#c0392b':k.indexOf('Profissional')>=0?'#8e44ad':'#e67e22');
-        var n=gj.features.filter(function(f){return f.properties.tipo===k;}).length;
-        if(leg) leg.insertAdjacentHTML('beforeend',
-          '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" data-c="'+k+'"> '+
-          '<span style="color:'+cor+'">━</span> '+k+' ('+n+')</label>');
-        var cb=leg&&leg.querySelector('input[data-c="'+k+'"]');
-        if(cb) cb.onchange=function(){ cb.checked?grupos[k].addTo(MAPA_REF):MAPA_REF.removeLayer(grupos[k]); };
-      });
-      if(leg) leg.insertAdjacentHTML('beforeend','<div style="opacity:.65;font-size:.9em;margin-top:.3em">🏞️ as camadas do ICNF (águas interiores/rios) vêm desligadas — liga para veres.</div>');
-    }).catch(function(){});
+    // camada ICNF — 304 KB e 211 linhas: so se carrega quando o utilizador pede.
+    // Era isto que fazia o mapa em ecra inteiro demorar imenso a abrir no telemovel.
+    (function(){
+      var leg=document.getElementById(LEGENDA_ID); if(!leg) return;
+      function monta(){
+        leg.insertAdjacentHTML('beforeend',
+          '<label id="icnf-btn" style="margin-right:.9em;white-space:nowrap;cursor:pointer">'+
+          '<input type="checkbox" data-c="icnf"> 🏞️ águas interiores do ICNF '+
+          '<span style="opacity:.65">(carrega 300 KB)</span></label>');
+        var cb=leg.querySelector('input[data-c="icnf"]'); if(!cb) return;
+        var carregado=false, grupos={};
+        cb.onchange=function(){
+          if(!cb.checked){ Object.keys(grupos).forEach(function(k){MAPA_REF.removeLayer(grupos[k]);}); return; }
+          if(carregado){ Object.keys(grupos).forEach(function(k){grupos[k].addTo(MAPA_REF);}); return; }
+          var lbl=document.getElementById('icnf-btn');
+          if(lbl) lbl.insertAdjacentHTML('beforeend','<span id="icnf-load" style="opacity:.65"> a carregar…</span>');
+          fetch('data-icnf.json').then(function(r){return r.json();}).then(function(gj){
+            L.geoJSON(gj,{
+              style:function(f){return {color:f.properties.cor,weight:3,opacity:.75};},
+              onEachFeature:function(f,l){
+                var p=f.properties;
+                l.bindPopup('<b>'+p.tipo+'</b><br>'+(p.nome?'<b>'+p.nome+'</b><br>':'')+
+                  (p.rio?'rio: '+p.rio+'<br>':'')+(p.ent?'gestor: '+p.ent+'<br>':'')+
+                  (p.dip?'<i>'+p.dip+'</i><br>':'')+
+                  (p.mont?'<small>montante: '+p.mont+'</small><br>':'')+
+                  (p.jus?'<small>jusante: '+p.jus+'</small><br>':'')+
+                  '<small style="opacity:.7">fonte: ICNF (oficial)</small>');
+                (grupos[p.tipo]=grupos[p.tipo]||L.layerGroup()).addLayer(l);
+              }
+            });
+            carregado=true;
+            var el=document.getElementById('icnf-load'); if(el) el.remove();
+            Object.keys(grupos).forEach(function(k){
+              var cor=(k.indexOf('Reservada')>=0?'#c0392b':k.indexOf('Profissional')>=0?'#8e44ad':'#e67e22');
+              var n=gj.features.filter(function(f){return f.properties.tipo===k;}).length;
+              leg.insertAdjacentHTML('beforeend',
+                '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="'+k+'"> '+
+                '<span style="color:'+cor+'">━</span> '+k+' ('+n+')</label>');
+              var c2=leg.querySelector('input[data-c="'+k+'"]');
+              if(c2) c2.onchange=function(){ c2.checked?grupos[k].addTo(MAPA_REF):MAPA_REF.removeLayer(grupos[k]); };
+              grupos[k].addTo(MAPA_REF);
+            });
+          }).catch(function(){
+            var el=document.getElementById('icnf-load'); if(el) el.textContent=' ⚠️ falhou';
+          });
+        };
+      }
+      // a legenda e reescrita pela camada das zonas; espera por ela
+      var t=setInterval(function(){
+        if(leg.querySelector('input[data-c]')){ clearInterval(t); monta(); }
+      },250);
+      setTimeout(function(){ clearInterval(t); if(!leg.querySelector('input[data-c="icnf"]')) monta(); },8000);
+    })();
+
 
 // localizar-me
 L.control.locate=null;
