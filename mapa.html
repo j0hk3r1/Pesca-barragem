@@ -71,12 +71,36 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
 }).catch(function(){document.getElementById('legenda').textContent='⚠️ não deu para carregar as zonas.';});
 
 
-    // camada das lagoas costeiras — proibição PERMANENTE (POC-ACE)
+
+    // saltos rápidos entre regiões (o mapa nasce em Lisboa; Óbidos fica a 80 km)
+    (function(){
+      var Z=[['🏙️ Lisboa/estuário',38.72,-9.13,12],
+             ['🟣 Lagoa de Albufeira',38.5100,-9.1750,13],
+             ['🟢 Lagoa de Óbidos',39.4100,-9.2150,13],
+             ['🎣 o teu ponto de Óbidos',39.40522,-9.21135,16]];
+      var leg=document.getElementById(LEGENDA_ID); if(!leg) return;
+      var d=document.createElement('div');
+      d.style.cssText='margin:.5em 0;display:flex;flex-wrap:wrap;gap:.4em';
+      Z.forEach(function(z){
+        var b=document.createElement('button');
+        b.textContent=z[0];
+        b.style.cssText='font:inherit;font-size:.85em;padding:.25em .6em;border:1px solid #bbb;border-radius:6px;background:#f7f7f7;cursor:pointer';
+        b.onclick=function(){ MAPA_REF.setView([z[1],z[2]],z[3]); };
+        d.appendChild(b);
+      });
+      leg.parentNode.insertBefore(d,leg);
+    })();
+
+    // camada das lagoas costeiras — zonas do POC-ACE (proibida / livre / fora da zona livre)
     fetch('data-lagoas.json').then(function(r){return r.json();}).then(function(ls){
       var g=L.layerGroup();
+      var EST={'condicionada-permanente':{c:'#8e44ad',t:'⛔ Pesca PROIBIDA — todo o ano'},
+               'livre':{c:'#27ae60',t:'✅ Zona de Utilização Livre — podes pescar'},
+               'excluida':{c:'#e67e22',t:'⚠️ FORA da Zona de Utilização Livre'}};
       ls.forEach(function(z){
-        L.polygon(z.poly,{color:'#8e44ad',fillColor:'#8e44ad',fillOpacity:0.28,weight:2})
-         .bindPopup('<b>⛔ '+z.n+'</b><br><b>Pesca PROIBIDA — todo o ano</b><br>'+z.regra+
+        var e=EST[z.tipo]||EST['condicionada-permanente'];
+        L.polygon(z.poly,{color:e.c,fillColor:e.c,fillOpacity:0.25,weight:2})
+         .bindPopup('<b>'+z.n+'</b><br><b>'+e.t+'</b><br>'+z.regra+
            '<br><span style="opacity:.7;font-size:.9em">'+z.fonte+'</span>').addTo(g);
       });
       g.addTo(MAPA_REF);
@@ -84,8 +108,31 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
       var leg=document.getElementById(LEGENDA_ID);
       if(leg) leg.insertAdjacentHTML('beforeend',
         '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="lagoa costeira"> '+
-        '<span style="color:#8e44ad">■</span> lagoa costeira (proibida todo o ano)</label>');
+        '<span style="color:#8e44ad">■</span><span style="color:#27ae60">■</span> lagoas costeiras (Albufeira / Óbidos)</label>');
       if(leg){ var cb=leg.querySelector('input[data-c="lagoa costeira"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
+    // camada dos pesqueiros mapeados da Lagoa de Óbidos e costa da Foz do Arelho (OSM)
+    fetch('data-pesqueiros.json').then(function(r){return r.json();}).then(function(ps){
+      var g=L.layerGroup();
+      var EST={lagoa:{c:'#16a085',t:'✅ dentro da Zona de Utilização Livre'},
+               costa:{c:'#2980b9',t:'🌊 pesqueiro de costa (Atlântico) — vale a regra das praias'},
+               excluido:{c:'#c0392b',t:'⚠️ excluído por nome da Zona de Utilização Livre — NÃO pescar'}};
+      ps.forEach(function(p){
+        var e=EST[p.z];
+        L.circleMarker([p.la,p.lo],{radius:4,color:e.c,fillColor:e.c,fillOpacity:0.85,weight:1})
+         .bindPopup('<b>🎣 '+p.n+'</b><br>'+e.t+
+           '<br><a href="https://www.google.com/maps?q='+p.la+','+p.lo+'" target="_blank">abrir no Maps</a>'+
+           '<br><span style="opacity:.7;font-size:.9em">pesqueiro mapeado no OpenStreetMap</span>').addTo(g);
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['pesqueiros'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="pesqueiros"> '+
+        '<span style="color:#16a085">●</span> pesqueiros de Óbidos ('+ps.length+')</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="pesqueiros"]');
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 

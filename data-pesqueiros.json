@@ -1,0 +1,350 @@
+[
+{
+"n": "Bico do Seixo",
+"la": 39.39741,
+"lo": -9.21677,
+"z": "lagoa"
+},
+{
+"n": "Bico dos Corvos",
+"la": 39.3979,
+"lo": -9.21603,
+"z": "lagoa"
+},
+{
+"n": "Boca do Rio",
+"la": 39.42472,
+"lo": -9.21398,
+"z": "lagoa"
+},
+{
+"n": "Buinheira",
+"la": 39.41758,
+"lo": -9.22172,
+"z": "lagoa"
+},
+{
+"n": "Caneiro",
+"la": 39.40056,
+"lo": -9.21897,
+"z": "lagoa"
+},
+{
+"n": "Chalet",
+"la": 39.41085,
+"lo": -9.21955,
+"z": "lagoa"
+},
+{
+"n": "do Gronho",
+"la": 39.42535,
+"lo": -9.2406,
+"z": "lagoa"
+},
+{
+"n": "do Rei Cortiço",
+"la": 39.42095,
+"lo": -9.24652,
+"z": "lagoa"
+},
+{
+"n": "dos Musaranhos",
+"la": 39.3878,
+"lo": -9.2259,
+"z": "lagoa"
+},
+{
+"n": "Bico da Faqueta",
+"la": 39.45993,
+"lo": -9.20947,
+"z": "costa"
+},
+{
+"n": "Bico do Facho",
+"la": 39.43566,
+"lo": -9.22756,
+"z": "costa"
+},
+{
+"n": "Cais da Praia",
+"la": 39.42885,
+"lo": -9.22452,
+"z": "lagoa"
+},
+{
+"n": "Chico Nega",
+"la": 39.41643,
+"lo": -9.22116,
+"z": "lagoa"
+},
+{
+"n": "Clube de Vela da Lagoa",
+"la": 39.4097,
+"lo": -9.20215,
+"z": "lagoa"
+},
+{
+"n": "Frincha Grande",
+"la": 39.41648,
+"lo": -9.25262,
+"z": "lagoa"
+},
+{
+"n": "Lage do Surdão",
+"la": 39.44809,
+"lo": -9.21763,
+"z": "costa"
+},
+{
+"n": "Pedra da Sombra",
+"la": 39.43673,
+"lo": -9.22677,
+"z": "costa"
+},
+{
+"n": "Pedra do Morto",
+"la": 39.43825,
+"lo": -9.22558,
+"z": "costa"
+},
+{
+"n": "Pedras do Surdão",
+"la": 39.44928,
+"lo": -9.21771,
+"z": "costa"
+},
+{
+"n": "Praia da Foz do Arelho",
+"la": 39.43231,
+"lo": -9.2314,
+"z": "lagoa"
+},
+{
+"n": "Queb.",
+"la": 39.46295,
+"lo": -9.20707,
+"z": "costa"
+},
+{
+"n": "da Aberta",
+"la": 39.42963,
+"lo": -9.23481,
+"z": "lagoa"
+},
+{
+"n": "da Adela",
+"la": 39.41205,
+"lo": -9.25887,
+"z": "lagoa"
+},
+{
+"n": "da Alagada",
+"la": 39.44715,
+"lo": -9.21852,
+"z": "costa"
+},
+{
+"n": "da Ameijoeira",
+"la": 39.46426,
+"lo": -9.20628,
+"z": "costa"
+},
+{
+"n": "da Estrela",
+"la": 39.40608,
+"lo": -9.26725,
+"z": "lagoa"
+},
+{
+"n": "da Junceira",
+"la": 39.44447,
+"lo": -9.22033,
+"z": "costa"
+},
+{
+"n": "da Lageira",
+"la": 39.43993,
+"lo": -9.22463,
+"z": "costa"
+},
+{
+"n": "da Pedra da Escada",
+"la": 39.44628,
+"lo": -9.21985,
+"z": "costa"
+},
+{
+"n": "da Pedro Dias",
+"la": 39.45164,
+"lo": -9.21423,
+"z": "costa"
+},
+{
+"n": "da Prainha",
+"la": 39.43714,
+"lo": -9.22625,
+"z": "costa"
+},
+{
+"n": "da Tramagueira",
+"la": 39.4234,
+"lo": -9.2433,
+"z": "lagoa"
+},
+{
+"n": "das Chapas",
+"la": 39.4288,
+"lo": -9.22799,
+"z": "lagoa"
+},
+{
+"n": "das Murteiras",
+"la": 39.45001,
+"lo": -9.21617,
+"z": "costa"
+},
+{
+"n": "das Mós",
+"la": 39.45318,
+"lo": -9.21372,
+"z": "costa"
+},
+{
+"n": "das Piscinas",
+"la": 39.40045,
+"lo": -9.27588,
+"z": "lagoa"
+},
+{
+"n": "do Cais",
+"la": 39.42807,
+"lo": -9.22162,
+"z": "lagoa"
+},
+{
+"n": "do Caniço",
+"la": 39.45699,
+"lo": -9.21027,
+"z": "costa"
+},
+{
+"n": "do Cavalo",
+"la": 39.44175,
+"lo": -9.22325,
+"z": "costa"
+},
+{
+"n": "do Covão",
+"la": 39.40953,
+"lo": -9.26225,
+"z": "lagoa"
+},
+{
+"n": "do Louriçal",
+"la": 39.46088,
+"lo": -9.20808,
+"z": "costa"
+},
+{
+"n": "do Miradouro",
+"la": 39.44247,
+"lo": -9.22242,
+"z": "costa"
+},
+{
+"n": "do Penedo Furado",
+"la": 39.42488,
+"lo": -9.21108,
+"z": "lagoa"
+},
+{
+"n": "do Vale Longo",
+"la": 39.45627,
+"lo": -9.21109,
+"z": "costa"
+},
+{
+"n": "dos Braçais",
+"la": 39.45515,
+"lo": -9.2115,
+"z": "costa"
+},
+{
+"n": "dos Cachorros",
+"la": 39.42573,
+"lo": -9.21606,
+"z": "lagoa"
+},
+{
+"n": "dos Covões",
+"la": 39.40237,
+"lo": -9.27302,
+"z": "lagoa"
+},
+{
+"n": "Ponta Branca",
+"la": 39.39528,
+"lo": -9.21899,
+"z": "lagoa"
+},
+{
+"n": "Ponta da Ardonia",
+"la": 39.40464,
+"lo": -9.20159,
+"z": "lagoa"
+},
+{
+"n": "Ponta das Boiças",
+"la": 39.41051,
+"lo": -9.20231,
+"z": "lagoa"
+},
+{
+"n": "Ponta das Canas",
+"la": 39.41355,
+"lo": -9.22147,
+"z": "lagoa"
+},
+{
+"n": "Ponta das Casinhas",
+"la": 39.41444,
+"lo": -9.20379,
+"z": "lagoa"
+},
+{
+"n": "Ponta do Bração",
+"la": 39.4151,
+"lo": -9.22039,
+"z": "lagoa"
+},
+{
+"n": "Ponta do Carro",
+"la": 39.4241,
+"lo": -9.21023,
+"z": "lagoa"
+},
+{
+"n": "Ponta do Espichel",
+"la": 39.40383,
+"lo": -9.21085,
+"z": "lagoa"
+},
+{
+"n": "Poça das Ferrarias",
+"la": 39.40085,
+"lo": -9.22204,
+"z": "excluido"
+},
+{
+"n": "Reivais",
+"la": 39.42029,
+"lo": -9.20543,
+"z": "lagoa"
+},
+{
+"n": "Seixo",
+"la": 39.40809,
+"lo": -9.21602,
+"z": "lagoa"
+}
+]
