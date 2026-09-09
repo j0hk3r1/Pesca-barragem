@@ -893,6 +893,18 @@ A lagoa é **águas interiores não oceânicas sob jurisdição da Capitania de 
 **Tamanhos mínimos (Anexo II):** robalo 36 · dourada 19 · linguado 24 · solha 25 · tainha 20 · safio 58 · enguia 22 cm.
 ⚠️ Onde o mínimo **nacional** for maior, manda o nacional — o robalo hoje são **42 cm**, não os 36 de 1990.
 
+### 📢 Editais em vigor da Capitania de Peniche
+
+| Edital | O que diz | Afecta-te? |
+|---|---|---|
+| **[24/2014](https://www.amn.pt/DGAM/Capitanias/Peniche/Lists/Documentos_AMN/Edital%2024_2014%20PESCA-LUDICA_PROIBICOES.pdf)** | proibido pescar a **menos de 100 m** de rampas, embarcadouros e desembarcadouros | ✅ **sim** — está no mapa |
+| **13/2026** | *"Durante a Época Balnear de 2026 (13 de junho a 13 de setembro) está **interdita a navegação a qualquer embarcação**"* a jusante da linha Cais da Foz do Arelho ↔ parque da Aldeia dos Pescadores. Coima 400 a 2500 € | ❌ **não** — é para embarcações. Da margem não te toca |
+| **15/2026** | interdição de saltos para a água no antigo Cais da Foz do Arelho | ❌ não |
+
+> 📐 **O 13/2026 dá as posições oficiais em WGS84**, e isso melhorou o mapa: o **Cais da Foz do Arelho** está em **39º 25.69' N, 009º 13.37' W** = [39.42817, -9.22283](https://www.google.com/maps?q=39.42817,-9.22283). É a âncora norte da linha que fecha a Zona de Utilização Livre, e agora está desenhada com a coordenada oficial em vez de estimada.
+
+**Avisos à navegação activos para 12-13 de setembro: nenhum na zona.** Os que estão em vigor são no Algarve (Alcoutim e Monte Gordo). Verificado nos [Avisos Locais do Instituto Hidrográfico](https://geoanavnet.hidrografico.pt/local-warnings).
+
 ### 🚫 As rampas: 100 m, o ano todo, em toda a lagoa
 
 O **[Edital n.º 24/2014 da Capitania de Peniche](https://www.amn.pt/DGAM/Capitanias/Peniche/Lists/Documentos_AMN/Edital%2024_2014%20PESCA-LUDICA_PROIBICOES.pdf)** é curto e não tem excepções:
@@ -1257,6 +1269,19 @@ Duas canas, o máximo que a lagoa permite. Ambas podem levar corrida, porque ten
 | **Estralho de baixo** | fluoro **0,28-0,30** · **30-40 cm** | idem |
 | **Anzóis** | **n.º 4 a 1/0** — os teus de mar de 8,3 mm servem | idem |
 | **Nós** | Palomar nas argolas · cirurgião nos estralhos | idem |
+
+> 📏 **A que altura do chumbo fica o estralho de baixo? A ~30 cm, não encostado ao clip.**
+>
+> Há dois desenhos por aí e servem para coisas diferentes:
+>
+> | | Onde o estralho prende | Para que serve |
+> |---|---|---|
+> | **Paternoster normal** *(o teu)* | **~30 cm acima do chumbo** | pescar. O isco fica no fundo, a arrastar atrás, mas **acima da erva que se agarra à chumbada** |
+> | **Clip-down / impact shield** | **encostado ao clip do chumbo** | **lançar longe.** Prende o isco ao chumbo em voo — menos resistência do ar e protege isco mole. Solta no impacto |
+>
+> O clip-down é ferramenta de **surfcasting de distância**. Aqui não precisas: lanças 40-80 m e, o que é pior, o local avisa que *"há alturas da maré em que saem **saladas de 2 kg agarradas à chumbada**"* — com o estralho no clip, o isco entra directo nessa erva. **Deixa os 30 cm.**
+>
+> ⚠️ **A excepção:** se as navalhas te saltarem do anzol no lançamento, o problema é o isco mole, não a altura. A solução é **elástico de isco, 12 voltas** — está no desenho acima. Só se isso não chegar é que vale a pena montar um clip-down.
 
 **🥈 Corrida** — *para dourada desconfiada e para a estofa*
 

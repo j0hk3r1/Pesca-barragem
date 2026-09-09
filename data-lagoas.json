@@ -368,14 +368,213 @@
   ]
  },
  {
+  "n": "Lagoa de Óbidos — Braço da Barrosa",
+  "tipo": "condicionada-permanente",
+  "regra": "Pesca lúdica e profissional PROIBIDA todo o ano. Art. 12.º n.º 2: \"Na Lagoa de Óbidos é delimitada uma zona de utilização condicionada permanente, CONFINADA AO BRAÇO DA BARROSA.\" Art. 13.º n.º 1 a): nessas zonas não é permitida \"Pesca profissional e lúdica\". ⚠️ Há também um pontão/embarcadouro/rampa oficial no Braço da Barrosa (Anexo I) — mais 100 m proibidos à volta dele.",
+  "fonte": "Regulamento de Gestão das Lagoas de Óbidos e Albufeira (POC-ACE), arts. 10.º a 15.º",
+  "poly": [
+   [
+    39.40428,
+    -9.19202
+   ],
+   [
+    39.40366,
+    -9.19308
+   ],
+   [
+    39.40345,
+    -9.19593
+   ],
+   [
+    39.40152,
+    -9.19711
+   ],
+   [
+    39.40275,
+    -9.19903
+   ],
+   [
+    39.40277,
+    -9.20031
+   ],
+   [
+    39.40333,
+    -9.19978
+   ],
+   [
+    39.4038,
+    -9.19743
+   ],
+   [
+    39.40444,
+    -9.19649
+   ],
+   [
+    39.40459,
+    -9.1956
+   ],
+   [
+    39.40424,
+    -9.1949
+   ],
+   [
+    39.40503,
+    -9.19271
+   ],
+   [
+    39.40428,
+    -9.19202
+   ]
+  ]
+ },
+ {
+  "n": "Lagoa de Óbidos — Poça das Ferrarias",
+  "tipo": "interdita",
+  "regra": "ZONA INTERDITA — a mais fechada de todas. Art. 10.º n.º 2: \"No plano de água da Lagoa de Óbidos a zona de utilização interdita abrange a Poça das Ferrarias.\" Art. 11.º n.º 1: \"não são permitidas QUAISQUER atividades, designadamente a prática balnear, a navegação recreativa (…), A PESCA, a apanha de animais marinhos e a aquicultura.\" ⚠️ Está marcada como pesqueiro no OpenStreetMap — ignora isso.",
+  "fonte": "Regulamento de Gestão das Lagoas de Óbidos e Albufeira (POC-ACE), arts. 10.º a 15.º",
+  "poly": [
+   [
+    39.40067,
+    -9.21951
+   ],
+   [
+    39.39971,
+    -9.22242
+   ],
+   [
+    39.40019,
+    -9.22404
+   ],
+   [
+    39.40188,
+    -9.22285
+   ],
+   [
+    39.40225,
+    -9.22063
+   ],
+   [
+    39.4015,
+    -9.22014
+   ],
+   [
+    39.40052,
+    -9.22119
+   ],
+   [
+    39.40067,
+    -9.21951
+   ]
+  ]
+ },
+ {
+  "n": "Lagoa de Óbidos — Barrosa (leitura duvidosa)",
+  "tipo": "duvidosa",
+  "regra": "⚠️ NÃO TENHO CERTEZA. A lei fecha o \"Braço da Barrosa\" o ano todo, mas não publica a geometria — só o Modelo Territorial do POC-ACE a tem, e esse não está online. O OpenStreetMap separa \"Braço da Barrosa\" (o canal) de \"Barrosa\" (esta bacia), mas é plausível que a lei chame \"Braço da Barrosa\" ao braço TODO, incluindo isto. Margem de segurança: não pescar aqui. Fica ~1 km a poente e estás no claro.",
+  "fonte": "Regulamento de Gestão das Lagoas de Óbidos e Albufeira (POC-ACE), arts. 10.º a 15.º — geometria não publicada",
+  "poly": [
+   [
+    39.40211,
+    -9.18686
+   ],
+   [
+    39.40243,
+    -9.18603
+   ],
+   [
+    39.40229,
+    -9.18557
+   ],
+   [
+    39.40158,
+    -9.18563
+   ],
+   [
+    39.40144,
+    -9.18419
+   ],
+   [
+    39.40216,
+    -9.18367
+   ],
+   [
+    39.40213,
+    -9.18196
+   ],
+   [
+    39.40469,
+    -9.18585
+   ],
+   [
+    39.40618,
+    -9.18911
+   ],
+   [
+    39.40791,
+    -9.18942
+   ],
+   [
+    39.40775,
+    -9.19012
+   ],
+   [
+    39.40559,
+    -9.19132
+   ],
+   [
+    39.40527,
+    -9.19262
+   ],
+   [
+    39.40348,
+    -9.19171
+   ],
+   [
+    39.40192,
+    -9.18905
+   ],
+   [
+    39.40056,
+    -9.18797
+   ],
+   [
+    39.39994,
+    -9.18677
+   ],
+   [
+    39.40075,
+    -9.18589
+   ],
+   [
+    39.40114,
+    -9.18666
+   ],
+   [
+    39.40211,
+    -9.18686
+   ]
+  ]
+ },
+ {
+  "n": "Lagoa de Óbidos — Zona Balnear do Penedo Furado (100 m)",
+  "tipo": "sazonal-circulo",
+  "regra": "PESCA PROIBIDA APENAS NA ÉPOCA BALNEAR (13 jun–13 set), numa faixa de 100 m a contar do limite do leito. Art. 12.º n.º 3 b). ⚠️ Há também aqui um pontão/embarcadouro/rampa oficial — esse são 100 m proibidos O ANO TODO (Edital 24/2014 da Capitania de Peniche).",
+  "fonte": "Regulamento de Gestão das Lagoas de Óbidos e Albufeira (POC-ACE), arts. 10.º a 15.º",
+  "centro": [
+   39.42364,
+   -9.20923
+  ],
+  "raio": 100
+ },
+ {
   "n": "Lagoa de Óbidos — Zona de Utilização Livre",
   "tipo": "livre",
-  "regra": "PODES PESCAR, o ano todo, de dia e de noite, da margem. Art. 14.º: \"a zona de utilização livre abrange a totalidade do sector Sul da lagoa, com exceção do Braço da Barrosa e da Poça das Ferrarias, e é delimitada a Norte pela linha imaginária que une o Cais na Foz do Arelho com o final da Zona Balnear do Bom Sucesso\" — e o n.º 1 diz que é utilizável \"durante todo o ano, sem qualquer tipo de restrição\". Regras da lagoa (Portaria 567/90): máx. 2 canas, 3 anzóis por cana, abertura mínima 8 mm, caça submarina proibida. Licença: a de MAR (DGRM), não a do ICNF.",
+  "regra": "PODES PESCAR, o ano todo, de dia e de noite, da margem. Art. 14.º: a zona de utilização livre abrange a totalidade do sector Sul da lagoa, com exceção do Braço da Barrosa e da Poça das Ferrarias, e é delimitada a Norte pela linha que une o Cais na Foz do Arelho ao final da Zona Balnear do Bom Sucesso. Regras da lagoa (Portaria 567/90): máx. 2 canas, 3 anzóis por cana, abertura mínima 8 mm, caça submarina proibida. Licença: a de MAR (DGRM), não a do ICNF.",
   "fonte": "Regulamento de Gestão das Lagoas de Óbidos e Albufeira (POC-ACE), arts. 10.º a 15.º + Portaria 567/90",
   "poly": [
    [
-    39.42881,
-    -9.22462
+    39.42827,
+    -9.22242
    ],
    [
     39.42798,
@@ -714,16 +913,16 @@
     -9.22948
    ],
    [
-    39.42508,
-    -9.23452
+    39.42506,
+    -9.23489
    ]
   ]
  },
  {
   "n": "Lagoa de Óbidos — sector Norte (só fechado na época balnear)",
   "tipo": "sazonal",
-  "regra": "PESCA PROIBIDA APENAS DE 13 JUN A 13 SET. Art. 12.º n.º 3 a): zona de utilização condicionada \"a vigorar anualmente DURANTE A ÉPOCA BALNEAR\", a norte da linha que une o Cais na Foz do Arelho ao limite Sul da Zona Balnear da Foz do Arelho–Lagoa. Art. 13.º n.º 2 a) proíbe aí a pesca. Fora da época balnear deixa de haver esta proibição. ⚠️ Linha traçada ~aprox. entre os pontos de referência; e esta zona tem 5 rampas/pontões oficiais (Cais da Lota, Penedo Furado, Parque de Caravanas, Cais do Bom Sucesso) com 100 m proibidos cada.",
-  "fonte": "Regulamento de Gestão das Lagoas de Óbidos e Albufeira (POC-ACE), arts. 10.º a 15.º — linha ~aprox.",
+  "regra": "PESCA PROIBIDA APENAS DE 13 JUN A 13 SET. Art. 12.º n.º 3 a) + art. 13.º n.º 2 a). Fora da época balnear deixa de haver esta proibição. ⚠️ Nesta mesma zona o Edital 13/2026 da Capitania de Peniche interdita TODA A NAVEGAÇÃO durante a época balnear (coima 400 a 2500 €) — isso é para embarcações, não te impede de pescar da margem fora da época.",
+  "fonte": "Regulamento das Lagoas art. 12.º n.º 3 a) · linha ancorada no Cais da Foz do Arelho 39º25.69'N 009º13.37'W (Edital 13/2026 de Peniche)",
   "poly": [
    [
     39.42744,
@@ -758,12 +957,12 @@
     -9.22588
    ],
    [
-    39.42881,
-    -9.22462
+    39.42827,
+    -9.22242
    ],
    [
-    39.42508,
-    -9.23452
+    39.42506,
+    -9.23489
    ],
    [
     39.42506,
@@ -790,7 +989,7 @@
  {
   "n": "Lagoa de Óbidos — Zona de Utilização Livre",
   "tipo": "livre",
-  "regra": "PODES PESCAR, o ano todo, de dia e de noite, da margem. Art. 14.º: \"a zona de utilização livre abrange a totalidade do sector Sul da lagoa, com exceção do Braço da Barrosa e da Poça das Ferrarias, e é delimitada a Norte pela linha imaginária que une o Cais na Foz do Arelho com o final da Zona Balnear do Bom Sucesso\" — e o n.º 1 diz que é utilizável \"durante todo o ano, sem qualquer tipo de restrição\". Regras da lagoa (Portaria 567/90): máx. 2 canas, 3 anzóis por cana, abertura mínima 8 mm, caça submarina proibida. Licença: a de MAR (DGRM), não a do ICNF.",
+  "regra": "PODES PESCAR, o ano todo, de dia e de noite, da margem. Art. 14.º: a zona de utilização livre abrange a totalidade do sector Sul da lagoa, com exceção do Braço da Barrosa e da Poça das Ferrarias, e é delimitada a Norte pela linha que une o Cais na Foz do Arelho ao final da Zona Balnear do Bom Sucesso. Regras da lagoa (Portaria 567/90): máx. 2 canas, 3 anzóis por cana, abertura mínima 8 mm, caça submarina proibida. Licença: a de MAR (DGRM), não a do ICNF.",
   "fonte": "Regulamento de Gestão das Lagoas de Óbidos e Albufeira (POC-ACE), arts. 10.º a 15.º + Portaria 567/90",
   "poly": [
    [
@@ -854,7 +1053,7 @@
  {
   "n": "Lagoa de Óbidos — Zona de Utilização Livre",
   "tipo": "livre",
-  "regra": "PODES PESCAR, o ano todo, de dia e de noite, da margem. Art. 14.º: \"a zona de utilização livre abrange a totalidade do sector Sul da lagoa, com exceção do Braço da Barrosa e da Poça das Ferrarias, e é delimitada a Norte pela linha imaginária que une o Cais na Foz do Arelho com o final da Zona Balnear do Bom Sucesso\" — e o n.º 1 diz que é utilizável \"durante todo o ano, sem qualquer tipo de restrição\". Regras da lagoa (Portaria 567/90): máx. 2 canas, 3 anzóis por cana, abertura mínima 8 mm, caça submarina proibida. Licença: a de MAR (DGRM), não a do ICNF.",
+  "regra": "PODES PESCAR, o ano todo, de dia e de noite, da margem. Art. 14.º: a zona de utilização livre abrange a totalidade do sector Sul da lagoa, com exceção do Braço da Barrosa e da Poça das Ferrarias, e é delimitada a Norte pela linha que une o Cais na Foz do Arelho ao final da Zona Balnear do Bom Sucesso. Regras da lagoa (Portaria 567/90): máx. 2 canas, 3 anzóis por cana, abertura mínima 8 mm, caça submarina proibida. Licença: a de MAR (DGRM), não a do ICNF.",
   "fonte": "Regulamento de Gestão das Lagoas de Óbidos e Albufeira (POC-ACE), arts. 10.º a 15.º + Portaria 567/90",
   "poly": [
    [
@@ -922,204 +1121,5 @@
     -9.21431
    ]
   ]
- },
- {
-  "n": "Lagoa de Óbidos — Braço da Barrosa",
-  "tipo": "condicionada-permanente",
-  "regra": "Pesca lúdica e profissional PROIBIDA todo o ano. Art. 12.º n.º 2: \"Na Lagoa de Óbidos é delimitada uma zona de utilização condicionada permanente, CONFINADA AO BRAÇO DA BARROSA.\" Art. 13.º n.º 1 a): nessas zonas não é permitida \"Pesca profissional e lúdica\". ⚠️ Há também um pontão/embarcadouro/rampa oficial no Braço da Barrosa (Anexo I) — mais 100 m proibidos à volta dele.",
-  "fonte": "Regulamento de Gestão das Lagoas de Óbidos e Albufeira (POC-ACE), arts. 10.º a 15.º",
-  "poly": [
-   [
-    39.40428,
-    -9.19202
-   ],
-   [
-    39.40366,
-    -9.19308
-   ],
-   [
-    39.40345,
-    -9.19593
-   ],
-   [
-    39.40152,
-    -9.19711
-   ],
-   [
-    39.40275,
-    -9.19903
-   ],
-   [
-    39.40277,
-    -9.20031
-   ],
-   [
-    39.40333,
-    -9.19978
-   ],
-   [
-    39.4038,
-    -9.19743
-   ],
-   [
-    39.40444,
-    -9.19649
-   ],
-   [
-    39.40459,
-    -9.1956
-   ],
-   [
-    39.40424,
-    -9.1949
-   ],
-   [
-    39.40503,
-    -9.19271
-   ],
-   [
-    39.40428,
-    -9.19202
-   ]
-  ]
- },
- {
-  "n": "Lagoa de Óbidos — Poça das Ferrarias",
-  "tipo": "interdita",
-  "regra": "ZONA INTERDITA — a mais fechada de todas. Art. 10.º n.º 2: \"No plano de água da Lagoa de Óbidos a zona de utilização interdita abrange a Poça das Ferrarias.\" Art. 11.º n.º 1: \"não são permitidas QUAISQUER atividades, designadamente a prática balnear, a navegação recreativa (…), A PESCA, a apanha de animais marinhos e a aquicultura.\" ⚠️ Está marcada como pesqueiro no OpenStreetMap — ignora isso.",
-  "fonte": "Regulamento de Gestão das Lagoas de Óbidos e Albufeira (POC-ACE), arts. 10.º a 15.º",
-  "poly": [
-   [
-    39.40067,
-    -9.21951
-   ],
-   [
-    39.39971,
-    -9.22242
-   ],
-   [
-    39.40019,
-    -9.22404
-   ],
-   [
-    39.40188,
-    -9.22285
-   ],
-   [
-    39.40225,
-    -9.22063
-   ],
-   [
-    39.4015,
-    -9.22014
-   ],
-   [
-    39.40052,
-    -9.22119
-   ],
-   [
-    39.40067,
-    -9.21951
-   ]
-  ]
- },
- {
-  "n": "Lagoa de Óbidos — Barrosa (leitura duvidosa)",
-  "tipo": "duvidosa",
-  "regra": "⚠️ NÃO TENHO CERTEZA. A lei fecha o \"Braço da Barrosa\" o ano todo, mas não publica a geometria — só o Modelo Territorial do POC-ACE a tem, e esse não está online. O OpenStreetMap separa \"Braço da Barrosa\" (o canal) de \"Barrosa\" (esta bacia), mas é plausível que a lei chame \"Braço da Barrosa\" ao braço TODO, incluindo isto. Margem de segurança: não pescar aqui. Fica ~1 km a poente e estás no claro.",
-  "fonte": "Regulamento de Gestão das Lagoas de Óbidos e Albufeira (POC-ACE), arts. 10.º a 15.º — geometria não publicada",
-  "poly": [
-   [
-    39.40211,
-    -9.18686
-   ],
-   [
-    39.40243,
-    -9.18603
-   ],
-   [
-    39.40229,
-    -9.18557
-   ],
-   [
-    39.40158,
-    -9.18563
-   ],
-   [
-    39.40144,
-    -9.18419
-   ],
-   [
-    39.40216,
-    -9.18367
-   ],
-   [
-    39.40213,
-    -9.18196
-   ],
-   [
-    39.40469,
-    -9.18585
-   ],
-   [
-    39.40618,
-    -9.18911
-   ],
-   [
-    39.40791,
-    -9.18942
-   ],
-   [
-    39.40775,
-    -9.19012
-   ],
-   [
-    39.40559,
-    -9.19132
-   ],
-   [
-    39.40527,
-    -9.19262
-   ],
-   [
-    39.40348,
-    -9.19171
-   ],
-   [
-    39.40192,
-    -9.18905
-   ],
-   [
-    39.40056,
-    -9.18797
-   ],
-   [
-    39.39994,
-    -9.18677
-   ],
-   [
-    39.40075,
-    -9.18589
-   ],
-   [
-    39.40114,
-    -9.18666
-   ],
-   [
-    39.40211,
-    -9.18686
-   ]
-  ]
- },
- {
-  "n": "Lagoa de Óbidos — Zona Balnear do Penedo Furado (100 m)",
-  "tipo": "sazonal-circulo",
-  "regra": "PESCA PROIBIDA APENAS NA ÉPOCA BALNEAR (13 jun–13 set), numa faixa de 100 m a contar do limite do leito. Art. 12.º n.º 3 b). ⚠️ Há também aqui um pontão/embarcadouro/rampa oficial — esse são 100 m proibidos O ANO TODO (Edital 24/2014 da Capitania de Peniche).",
-  "fonte": "Regulamento de Gestão das Lagoas de Óbidos e Albufeira (POC-ACE), arts. 10.º a 15.º",
-  "centro": [
-   39.42364,
-   -9.20923
-  ],
-  "raio": 100
  }
 ]
