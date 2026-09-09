@@ -13,13 +13,24 @@
 <script>
 
 (function(){
+  // ── CORREÇÃO DO MODELO ─────────────────────────────────────────────────────
+  // O Open-Meteo adianta sistematicamente a maré nesta região. Calibrado contra
+  // 35 eventos (9-17 set 2026) da TideTime.org para Lisboa, cruzada com a Tabela
+  // de Marés do Porto de Lisboa/IH e o Tides4fishing:
+  //   PM: +73,6 min (mediana +73,7 · desvio 1,3 · min +70 max +76)
+  //   BM: +44,8 min (mediana +44,8 · desvio 1,3 · min +43 max +47)
+  // O desvio é diferente na PM e na BM porque o modelo também erra a assimetria
+  // enchente/vazante — por isso são duas correções e não uma.
+  var CORR = {PM:74, BM:45};
+
   var LOCAIS = {
-    estuario: {nome:'🧱 Tejo — muralha/Algés', lat:38.68, lon:-9.32, sol_lat:38.72, sol_lon:-9.15, lag:25, carro:'🚲 30-40 min'},
-    caparica: {nome:'🏖️ Caparica',            lat:38.62, lon:-9.26, sol_lat:38.64, sol_lon:-9.23, lag:0,  carro:'🚗 17-40 min (ponte)'},
-    sado:     {nome:'⚓ Setúbal / Sado',       lat:38.47, lon:-8.95, sol_lat:38.52, sol_lon:-8.89, lag:20, carro:'🚗 51-70 min (ponte)'},
-    ericeira: {nome:'🌊 Ericeira / Costa Oeste',lat:38.96, lon:-9.43, sol_lat:38.96, sol_lon:-9.42, lag:0,  carro:'🚗 41 min'},
-    sesimbra: {nome:'🐙 Sesimbra',             lat:38.42, lon:-9.11, sol_lat:38.44, sol_lon:-9.10, lag:0,  carro:'🚗 39-60 min (ponte)'}
+    estuario: {nome:'🧱 Tejo — muralha/Oriente', lat:38.68, lon:-9.32, sol_lat:38.75, sol_lon:-9.10, lag:10, noturna:true,  cal:'✅ calibrado', carro:'🚲 30-40 min'},
+    caparica: {nome:'🏖️ Caparica',              lat:38.62, lon:-9.26, sol_lat:38.64, sol_lon:-9.23, lag:0,  noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 17-40 min (ponte)'},
+    sado:     {nome:'⚓ Setúbal / Sado',         lat:38.47, lon:-8.95, sol_lat:38.52, sol_lon:-8.89, lag:20, noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 51-70 min (ponte)'},
+    ericeira: {nome:'🌊 Ericeira / Costa Oeste', lat:38.96, lon:-9.43, sol_lat:38.96, sol_lon:-9.42, lag:0,  noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 41 min'},
+    sesimbra: {nome:'🐙 Sesimbra',               lat:38.42, lon:-9.11, sol_lat:38.44, sol_lon:-9.10, lag:0,  noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 39-60 min (ponte)'}
   };
+  var SLACK = 45;   // ± min de estofo à volta de cada PM/BM (água parada)
 
   function extremos(ts, sl, LAG){
     var out=[];
@@ -27,71 +38,92 @@
       if (sl[i]==null||sl[i-1]==null||sl[i+1]==null) continue;
       var up=(sl[i]>=sl[i-1] && sl[i]>sl[i+1]), dn=(sl[i]<=sl[i-1] && sl[i]<sl[i+1]);
       if(!up && !dn) continue;
+      var tipo = up?'PM':'BM';
       var den=(sl[i-1]-2*sl[i]+sl[i+1]);
       var off=den? 0.5*(sl[i-1]-sl[i+1])/den : 0;
-      var t=new Date(ts[i]); t.setMinutes(t.getMinutes()+off*60+(LAG||0));
-      out.push({t:t, tipo:up?'PM':'BM', alt:sl[i]});
+      var t=new Date(ts[i]); t.setMinutes(t.getMinutes()+off*60+CORR[tipo]+(LAG||0));
+      out.push({t:t, tipo:tipo, alt:sl[i]});
     }
     return out;
   }
   var hm=function(d){return String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');};
+  var ymd=function(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');};
   var DIAS=['dom','seg','ter','qua','qui','sex','sáb'];
+  function ovl(a1,a2,b1,b2){var i=Math.max(a1,b1), f=Math.min(a2,b2); return f>i?[i,f]:null;}
+
+  // janelas de ÁGUA A MEXER: entre o fim de um estofo e o início do seguinte
+  function janelas(evs){
+    var W=[];
+    for(var i=0;i<evs.length-1;i++){
+      var ini=evs[i].t.getTime()+SLACK*60000, fim=evs[i+1].t.getTime()-SLACK*60000;
+      if(fim>ini) W.push({ini:ini, fim:fim, ench:(evs[i].tipo==='BM')});
+    }
+    return W;
+  }
 
   function render(marine, sun, L){
-    var local=L.nome, h=marine.hourly, evs=extremos(h.time,h.sea_level_height_msl,L.lag), dias={};
-    evs.forEach(function(e){
-      var k=e.t.toISOString().slice(0,10);
-      (dias[k]=dias[k]||[]).push(e);
-    });
+    var h=marine.hourly, evs=extremos(h.time,h.sea_level_height_msl,L.lag), W=janelas(evs), dias={};
+    evs.forEach(function(e){ var k=ymd(e.t); (dias[k]=dias[k]||[]).push(e); });
     var sol={};
-    (sun.daily.time||[]).forEach(function(d,i){
-      sol[d]={nascer:new Date(sun.daily.sunrise[i]), por:new Date(sun.daily.sunset[i])};
-    });
-    // avalia a MINHA janela: semana 18-22h · fim de semana 08h-22h
-    function avalia(k, ev, amp, s){
-      var d=new Date(k+'T12:00:00'), fds=(d.getDay()===0||d.getDay()===6);
-      var ini=new Date(k+(fds?'T08:00:00':'T18:00:00')), fim=new Date(k+'T22:00:00');
-      if(s.por){ var lim=new Date(s.por.getTime()+30*60000); if(lim<fim) fim=lim; } // até ½h após o pôr-do-sol (praia)
-      var horas=(fim-ini)/3600000; if(horas<=0) return {n:0, txt:'—', porque:'sem janela'};
-      // movimento na janela: % do tempo fora de estofo (±45 min de PM/BM)
-      var passos=0, mexe=0;
-      for(var t=ini.getTime(); t<=fim.getTime(); t+=900000){
-        passos++;
-        var perto=ev.some(function(e){return Math.abs(e.t-t)<45*60000;});
-        if(!perto) mexe++;
+    (sun.daily.time||[]).forEach(function(d,i){ sol[d]={nascer:new Date(sun.daily.sunrise[i]), por:new Date(sun.daily.sunset[i])}; });
+
+    function linha(k){
+      var ev=dias[k]; if(!ev||!ev.length) return '';
+      var d=new Date(k+'T12:00:00'), s=sol[k]||{}, fds=(d.getDay()===0||d.getDay()===6);
+      var alts=ev.map(function(e){return e.alt;});
+      var amp=Math.max.apply(null,alts)-Math.min.apply(null,alts);
+      var d0=new Date(k+'T00:00:00').getTime(), d1=d0+86400000;
+
+      // 1) MELHORES HORAS — água a mexer, independente da minha disponibilidade
+      var doDia=[];
+      W.forEach(function(w){ var o=ovl(w.ini,w.fim,d0,d1); if(o && o[1]-o[0]>30*60000) doDia.push({ini:o[0],fim:o[1],ench:w.ench}); });
+      var mexeTxt = doDia.map(function(w){
+        return '<span style="white-space:nowrap">'+(w.ench?'⬆':'⬇')+' '+hm(new Date(w.ini))+'-'+hm(new Date(w.fim))+'</span>';
+      }).join('<br>') || '—';
+
+      // 2) prime: água a mexer + luz baixa (do pôr-do-sol −1h ao +1h)
+      var prime=null;
+      if(s.por){
+        var p0=s.por.getTime()-3600000, p1=s.por.getTime()+3600000;
+        doDia.forEach(function(w){ var o=ovl(w.ini,w.fim,p0,p1); if(o && (!prime || o[1]-o[0]>prime[1]-prime[0])) prime=o; });
       }
-      var pct = passos? mexe/passos : 0;
-      // enchente na janela? (entre BM e PM seguinte)
-      var ench=false;
-      for(var i=0;i<ev.length-1;i++){
-        if(ev[i].tipo==='BM' && ev[i+1].tipo==='PM'){
-          if(ev[i+1].t>ini && ev[i].t<fim) ench=true;
-        }
-      }
-      var pontos = (amp>=2.6?3:amp>=2.0?2:amp>=1.6?1:0) + (pct>=0.7?2:pct>=0.5?1:0) + (ench?1:0);
-      var estrelas = pontos>=5?'⭐⭐⭐':pontos>=3?'⭐⭐':pontos>=2?'⭐':'—';
-      var porque = [amp>=2.6?'vivas':amp<1.6?'mortas':'', ench?'enchente':'', pct>=0.7?'':(pct<0.5?'estofo':'')].filter(Boolean).join(' · ');
-      return {n:pontos, txt:estrelas, porque:porque||'ok', janela:hm(ini)+'-'+hm(fim), fds:fds};
+
+      // 3) A MINHA janela
+      var ini=new Date(k+(fds?'T08:00:00':'T18:00:00')).getTime(), fim=new Date(k+'T22:00:00').getTime();
+      if(!L.noturna && s.por){ var lim=s.por.getTime()+30*60000; if(lim<fim) fim=lim; }
+      var minutos=0, melhor=null, ench=false;
+      doDia.forEach(function(w){
+        var o=ovl(w.ini,w.fim,ini,fim); if(!o) return;
+        minutos += (o[1]-o[0])/60000;
+        if(w.ench) ench=true;
+        if(!melhor || o[1]-o[0]>melhor[1]-melhor[0]) melhor=o;
+      });
+      var temPrime = prime && ovl(prime[0],prime[1],ini,fim);
+      var pontos = (amp>=2.6?3:amp>=2.0?2:amp>=1.6?1:0)
+                 + (minutos>=150?2:minutos>=75?1:0)
+                 + (ench?1:0) + (temPrime?1:0);
+      var estrelas = pontos>=6?'⭐⭐⭐':pontos>=4?'⭐⭐':pontos>=2?'⭐':'—';
+      var meuTxt = melhor
+        ? '<b>'+hm(new Date(melhor[0]))+'-'+hm(new Date(melhor[1]))+'</b>'+(temPrime?' 🌅':'')+
+          '<br><span style="font-size:.82em;opacity:.75">'+Math.round(minutos)+' min de água a mexer</span>'
+        : '<span style="opacity:.6">nada na tua janela</span>';
+
+      var mares=ev.map(function(e){return e.tipo+' '+hm(e.t);}).join(' · ');
+      return '<tr'+(pontos>=6?' style="background:#eef8f4"':'')+'>'+
+        '<td><b>'+DIAS[d.getDay()]+' '+k.slice(8)+'/'+k.slice(5,7)+'</b>'+(fds?' 🎉':'')+'</td>'+
+        '<td style="font-size:.9em;white-space:nowrap">'+mares+'</td>'+
+        '<td style="font-size:.9em">'+mexeTxt+'</td>'+
+        '<td style="font-size:.92em">'+meuTxt+'</td>'+
+        '<td style="text-align:center">'+amp.toFixed(1)+'</td>'+
+        '<td style="text-align:center"><b>'+estrelas+'</b></td>'+
+        '<td style="white-space:nowrap;font-size:.88em">'+(s.por?hm(s.por):'—')+'</td></tr>';
     }
 
-    var linhas=Object.keys(dias).sort().slice(0,10).map(function(k){
-      var ev=dias[k], alts=ev.map(function(e){return e.alt;});
-      var amp=Math.max.apply(null,alts)-Math.min.apply(null,alts);
-      var d=new Date(k+'T12:00:00'), s=sol[k]||{};
-      var a=avalia(k, ev, amp, s);
-      var por=s.por?hm(s.por):'—';
-      var mares=ev.map(function(e){return e.tipo+' '+hm(e.t);}).join(' · ');
-      return '<tr'+(a.n>=5?' style="background:#eef8f4"':'')+'>'+
-        '<td><b>'+DIAS[d.getDay()]+' '+k.slice(8)+'/'+k.slice(5,7)+'</b>'+(a.fds?' 🎉':'')+'</td>'+
-        '<td style="white-space:nowrap"><b>'+a.janela+'</b></td>'+
-        '<td style="font-size:.92em">'+mares+'</td>'+
-        '<td style="text-align:center">'+amp.toFixed(1)+'</td>'+
-        '<td style="text-align:center"><b>'+a.txt+'</b><br><span style="font-size:.8em;opacity:.7">'+a.porque+'</span></td>'+
-        '<td style="white-space:nowrap">'+por+'</td></tr>';
-    }).join('');
-    return '<p style="margin:.2em 0 .6em"><b>📍 '+local+'</b> · '+L.carro+' · <span style="opacity:.7;font-size:.9em">'+
-      'PM=preia-mar · BM=baixa-mar'+(L.lag?' · +'+L.lag+' min de desfasamento':'')+'</span></p>'+
-      '<table><thead><tr><th>Dia</th><th>A minha janela</th><th>Marés</th><th>Ampl.</th><th>Nota</th><th>Pôr-sol</th></tr></thead><tbody>'+linhas+'</tbody></table>';
+    var linhas=Object.keys(dias).sort().slice(0,10).map(linha).join('');
+    return '<p style="margin:.2em 0 .6em"><b>📍 '+L.nome+'</b> · '+L.carro+
+      ' · <span style="opacity:.7;font-size:.9em">correção do modelo PM +'+CORR.PM+' / BM +'+CORR.BM+' min '+L.cal+
+      (L.lag?' · +'+L.lag+' min de propagação':'')+'</span></p>'+
+      '<table><thead><tr><th>Dia</th><th>Marés</th><th>🌊 Água a mexer</th><th>🎯 A tua janela</th><th>Ampl.</th><th>Nota</th><th>Pôr-sol</th></tr></thead><tbody>'+linhas+'</tbody></table>';
   }
 
   function carrega(chave){
@@ -107,14 +139,21 @@
             'border:1px solid '+(k===chave?'#0a7d5a':'#ccc')+';background:'+(k===chave?'#0a7d5a':'#fff')+';color:'+(k===chave?'#fff':'#333')+'">'+
             LOCAIS[k].nome+'</button>';
         }).join('')+'</div>'+ render(res[0], res[1], LOCAIS[chave])+
-        '<p style="font-size:.85em;opacity:.7;margin-top:.6em">A nota já cruza a <b>tua janela</b> (semana 18h-22h · fim de semana 08h-22h 🎉, sempre até ½h após o pôr-do-sol) com amplitude, movimento de maré e haver enchente. '+
-        '⭐⭐⭐ = dia a aproveitar · — = poupa as pernas. '+
-        'Dados <a href="https://open-meteo.com" target="_blank">Open-Meteo</a>, modelo — confirma no <a href="https://tabuademares.com/pt/lisboa" target="_blank">tabuademares</a>.</p>';
+        '<p style="font-size:.85em;opacity:.75;margin-top:.6em">'+
+        '<b>🌊 Água a mexer</b> = as horas boas do dia, dês ou não estar livre — ⬆ enchente · ⬇ vazante. Cada janela começa 45 min depois de uma maré e acaba 45 min antes da seguinte (o estofo é água parada).<br>'+
+        '<b>🎯 A tua janela</b> = a maior fatia dessas horas que te calha (semana 18h-22h · fim de semana 08h-22h 🎉'+
+        '; nas praias corta a ½h após o pôr-do-sol, no estuário não — aí a noturna é legal). <b>🌅</b> = apanha a hora do pôr-do-sol com água a mexer, que é a melhor do dia para robalo.<br>'+
+        '<b>Nota</b> soma amplitude + minutos de água a mexer na tua janela + haver enchente + apanhar o crepúsculo.<br>'+
+        '⚠️ As horas já levam a <b>correção do modelo</b> (o Open-Meteo adianta a maré ~74 min na PM e ~45 min na BM). '+
+        'Calibração medida em 35 eventos contra a <a href="https://www.tidetime.org/europe/portugal/lisbon.htm" target="_blank">TideTime</a>, '+
+        'a <a href="https://www.portodelisboa.pt/en/tides" target="_blank">Tabela do Porto de Lisboa/IH</a> e o '+
+        '<a href="https://tides4fishing.com/pt/lisboa/lisboa" target="_blank">Tides4fishing</a> — <b>verificada para Lisboa</b>; '+
+        'os outros pontos herdam a mesma correção sem verificação própria.</p>';
       el.querySelectorAll('button[data-l]').forEach(function(b){
         b.onclick=function(){ el.innerHTML='A carregar…'; carrega(b.getAttribute('data-l')); };
       });
     }).catch(function(e){
-      el.innerHTML='<p>⚠️ Não deu para carregar as marés (offline?). Consulta <a href="https://tabuademares.com/pt/lisboa" target="_blank">tabuademares.com</a>.</p>';
+      el.innerHTML='<p>⚠️ Não deu para carregar as marés (offline?). Consulta <a href="https://www.tidetime.org/europe/portugal/lisbon.htm" target="_blank">TideTime</a>.</p>';
     });
   }
   if(document.getElementById('mares-app')) carrega('estuario');
