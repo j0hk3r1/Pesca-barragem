@@ -199,6 +199,43 @@ fetch('data-zonas.json').then(function(r){return r.json();}).then(function(zs){
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 
+    // linhas de lancamento nos dois spots de topo — geometria da agua aberta a 25/40/60/80/100 m
+    fetch('data-lancamentos.json').then(function(r){return r.json();}).then(function(ls){
+      var g=L.layerGroup();
+      ls.forEach(function(s){
+        s.rumos.forEach(function(u){
+          var alvo=u.alvos['80']||u.alvos['60']||u.alvos['40']; if(!alvo) return;
+          var cor=u.principal?'#e74c3c':'#e67e22';
+          var perf=['25','40','60','80','100'].map(function(d){
+            var v=u.perfil[d];
+            return d+' m: '+(typeof v==='number'? v+' m da margem' : (v==='areia'?'<b>AREIA</b>':'—'));
+          }).join('<br>');
+          L.polyline([[s.la,s.lo],alvo],{color:cor,weight:u.principal?4:2,opacity:.85,
+            dashArray:u.principal?null:'6,5'})
+           .bindPopup('<b>🎯 '+s.n+' — lançar para '+u.rumo+' ('+u.ang+'°)</b><br>'+
+             (u.principal?'<b>Rumo principal.</b><br>':'Rumo alternativo.<br>')+
+             'A que distância ficas da margem mais próxima:<br>'+perf+
+             '<br><br><span style="opacity:.7;font-size:.9em">Medido em imagem aérea de maré baixa a 0,92 m/pixel. '+
+             'Diz onde há água que não seca e o quão longe estás da margem — <b>não diz a profundidade</b>.</span>')
+           .addTo(g);
+          if(u.principal){
+            Object.keys(u.alvos).forEach(function(d){
+              L.circleMarker(u.alvos[d],{radius:4,color:cor,fillColor:'#fff',fillOpacity:1,weight:2})
+               .bindPopup('<b>'+d+' m</b> para '+u.rumo+'<br>'+u.perfil[d]+' m da margem mais próxima').addTo(g);
+            });
+          }
+        });
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['lançamentos'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="lançamentos"> '+
+        '<span style="color:#e74c3c">━</span> para onde lançar (#1 e #5)</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="lançamentos"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
     // spots da Lagoa de Obidos — margem varrida de 40 em 40 m e pontuada
     fetch('data-spots-obidos.json').then(function(r){return r.json();}).then(function(ss){
       var g=L.layerGroup();

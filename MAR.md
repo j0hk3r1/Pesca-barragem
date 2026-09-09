@@ -389,6 +389,43 @@
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 
+    // linhas de lancamento nos dois spots de topo — geometria da agua aberta a 25/40/60/80/100 m
+    fetch('data-lancamentos.json').then(function(r){return r.json();}).then(function(ls){
+      var g=L.layerGroup();
+      ls.forEach(function(s){
+        s.rumos.forEach(function(u){
+          var alvo=u.alvos['80']||u.alvos['60']||u.alvos['40']; if(!alvo) return;
+          var cor=u.principal?'#e74c3c':'#e67e22';
+          var perf=['25','40','60','80','100'].map(function(d){
+            var v=u.perfil[d];
+            return d+' m: '+(typeof v==='number'? v+' m da margem' : (v==='areia'?'<b>AREIA</b>':'—'));
+          }).join('<br>');
+          L.polyline([[s.la,s.lo],alvo],{color:cor,weight:u.principal?4:2,opacity:.85,
+            dashArray:u.principal?null:'6,5'})
+           .bindPopup('<b>🎯 '+s.n+' — lançar para '+u.rumo+' ('+u.ang+'°)</b><br>'+
+             (u.principal?'<b>Rumo principal.</b><br>':'Rumo alternativo.<br>')+
+             'A que distância ficas da margem mais próxima:<br>'+perf+
+             '<br><br><span style="opacity:.7;font-size:.9em">Medido em imagem aérea de maré baixa a 0,92 m/pixel. '+
+             'Diz onde há água que não seca e o quão longe estás da margem — <b>não diz a profundidade</b>.</span>')
+           .addTo(g);
+          if(u.principal){
+            Object.keys(u.alvos).forEach(function(d){
+              L.circleMarker(u.alvos[d],{radius:4,color:cor,fillColor:'#fff',fillOpacity:1,weight:2})
+               .bindPopup('<b>'+d+' m</b> para '+u.rumo+'<br>'+u.perfil[d]+' m da margem mais próxima').addTo(g);
+            });
+          }
+        });
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['lançamentos'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="lançamentos"> '+
+        '<span style="color:#e74c3c">━</span> para onde lançar (#1 e #5)</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="lançamentos"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
     // spots da Lagoa de Obidos — margem varrida de 40 em 40 m e pontuada
     fetch('data-spots-obidos.json').then(function(r){return r.json();}).then(function(ss){
       var g=L.layerGroup();
@@ -781,6 +818,50 @@ Em vez de me fiar nos nomes do OpenStreetMap, varri **a margem inteira de 40 em 
 
 > 📐 **Como isto foi feito, e o que não prova.** *"Água aberta"* é a percentagem de superfície, num raio de 150 m, que **não fica a seco na baixa-mar** — medido numa imagem aérea apanhada em maré baixa. *"Lançamento"* é a distância da margem a essa água; **11 m é o mínimo da grelha**, quer dizer *"a água começa logo aos teus pés"*. Estrada e rampa são distâncias calculadas sobre dados do OpenStreetMap.
 > **Isto diz-te onde há água que não seca — não diz a profundidade.** Não existe batimetria pública desta lagoa. Um sítio com 92% de água aberta pode ainda assim ter meio metro de fundo. Serve para escolher a margem antes de sair de casa; a profundidade descobres no local.
+
+### 🎯 #1 ou #5? — e para onde lançar em cada um
+
+Medi o perfil da água a partir de cada um: de quanto em quanto metros de lançamento, **a que distância ficas da margem mais próxima**. É geometria da água que não seca, medida em imagem aérea a **0,92 m/pixel**.
+
+| Lançamento | **#1** rumo **ENE** | **#5** rumo **O** |
+|---|---|---|
+| 25 m | 12 m da margem | 20 m |
+| 40 m | 27 m | 35 m |
+| 60 m | **37 m** | **54 m** |
+| 80 m | **45 m** | **73 m** |
+| 100 m | 28 m *(já a aproximar-se da outra margem)* | 87 m |
+
+Os dois perfis dizem coisas diferentes:
+
+- No **#1**, o número **sobe até aos 80 m e depois desce** — é a assinatura de um **canal**. A 80 m estás no meio dele, com margem dos dois lados a ~45 m. Toda a maré que enche e vaza aquele braço passa por ali.
+- No **#5**, o número **sobe sempre** — estás a sair para o meio de uma bacia larga. Aos 100 m tens 87 m de água aberta à volta e continua a abrir.
+
+> 🥇 **Para pescar, escolhia o #1.** Não é por ter mais água — tem menos. É por ter **menos**:
+>
+> 1. **O peixe é obrigado a passar por ali.** Num canal estreito, o peixe que sobe com a enchente e desce com a vazante concentra-se numa secção pequena. No #5, tem 300 m de largura para se espalhar e podes estar a 50 m do sítio certo sem saber.
+> 2. **A corrente é mais forte.** Passa o mesmo volume de água por uma secção mais apertada. E o conselho de quem lá pesca — *"fins da enchente, inícios da vazante"* — é todo sobre corrente.
+> 3. **O carro fica na água.** Estrada a 52 m e sítio para estacionar à beira. No #5 são **315 m até à estrada e 944 m até um parque** — com o material, duas vezes por dia, e à noite.
+> 4. **Fica a 15 min da casa** que estás a ver.
+>
+> ⚠️ **Estado disto:** o perfil da água é **medido**. A conclusão de que o canal pesca melhor é **raciocínio** meu a partir da geometria e de como funciona a pesca em maré — **não tenho relatos de capturas em nenhum dos dois**. O único relato que tenho da lagoa é o conselho geral do local das Caldas.
+
+**🎯 Onde pôr o isco no #1** — [39.39529, -9.21906](https://www.google.com/maps?q=39.39529,-9.21906)
+
+| | |
+|---|---|
+| **Rumo principal** | **ENE (65°)** — lança **60 a 80 m**. Alvo a 60 m: [39.39552, -9.21843](https://www.google.com/maps?q=39.39552,-9.21843) |
+| **Alternativos** | **ESE (115°)** e **SSE (150°)** — os dois abrem para lá dos 60 m |
+| **Não passes dos 100 m** | a ENE a 100 m já estás a subir para a outra margem |
+
+Com duas canas: **uma a ENE aos 70-80 m** (meio do canal) e **outra a ESE aos 60 m**, para cobrires duas linhas de passagem em vez de uma.
+
+**🎯 E no #5, se fores lá** — [39.40372, -9.21098](https://www.google.com/maps?q=39.40372,-9.21098)
+
+**Oeste (260°)**, a partir dos 40 m e sem limite prático — alvo a 60 m: [39.40363, -9.21167](https://www.google.com/maps?q=39.40363,-9.21167). Alternativa ONO (295°). Não lances para nascente: é o lado da língua de areia.
+
+> 🏖️ **A língua de areia do #5 não te corta a retirada.** Comparei a mesma zona em duas imagens aéreas, uma de maré alta e outra de maré baixa: **está seca nas duas**. Não é um banco que aparece e desaparece. Ressalva: as duas imagens são de marés normais, não sei o que faz numa maré viva grande.
+
+**As linhas de lançamento estão desenhadas no mapa** — camada *"para onde lançar"*, a vermelho o rumo principal e a laranja tracejado os alternativos. Cada ponto branco é uma distância de lançamento.
 
 ### 📌 Os teus dois pontos
 
