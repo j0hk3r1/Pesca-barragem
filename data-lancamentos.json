@@ -129,7 +129,7 @@
    {
     "ang": 255,
     "rumo": "OSO",
-    "quem": "Cana do avô · lado do mar · 60-80 m (raso até 40-50 m)",
+    "quem": "Cana do avô · poente, para o braço SO · 60-80 m (raso até 40-50 m)",
     "perfil": {
      "25": 10,
      "40": 14,
@@ -156,7 +156,7 @@
    {
     "ang": 120,
     "rumo": "SE",
-    "quem": "Resifight · lado da lagoa · 40-60 m (escuro desde 20 m)",
+    "quem": "Resifight · nascente, lagoa aberta para a barra · 40-60 m (escuro desde 20 m)",
     "perfil": {
      "25": 30,
      "40": 36,
