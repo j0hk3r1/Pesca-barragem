@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Pesca Barragem" xmlns="http://www.topografix.com/GPX/1/1" xmlns:osmand="https://osmand.net">
-<metadata><name>Lagoa de Óbidos — pesca</name><desc>Spots por ordem, alvos de lançamento, zonas legais, rampas e bancos de areia | Actualizado a 2026-09-11 | https://j0hk3r1.github.io/Pesca-barragem/</desc><time>2026-09-11T00:00:00Z</time></metadata>
+<metadata><name>Lagoa de Óbidos — pesca</name><desc>Spots por ordem, alvos de lançamento, zonas legais, rampas e bancos de areia | Actualizado a 2026-09-12 | https://j0hk3r1.github.io/Pesca-barragem/</desc><time>2026-09-12T00:00:00Z</time></metadata>
 <wpt lat="39.40372" lon="-9.21098">
   <name>#1 · Ponta do Espichel — a ponta da língua de areia</name>
   <desc>#5 do ranking. A maior mancha de água aberta de toda a lagoa. Fica na ponta da língua de areia que sai do teu spot A — andas 177 m pela areia para fora e ficas com água funda dos dois lados. Parques na Ecopista e vais a pé.💧 92% de água que não seca num raio de 150 m · praticamente sem bancos🎯 Água logo a 11 m para NNE, sem banco pelo meio🚗 Estrada a 315 m · parque a 944 m⚖️ Zona de Utilização Livre · rampa mais próxima a 1132 m (limite: 100 m)📍 o teu spot A a 177 m · pesqueiro «Ponta do Espichel» a 17 m | Lançamento 11 m para NNE, sem banco pelo meio</desc>
@@ -139,6 +139,30 @@
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
+<wpt lat="39.40437" lon="-9.21146">
+  <name>#1b — lançar OSO 40 m</name>
+  <desc>Alvo de lançamento. A 40 m ficas a 14 m da margem mais próxima. Rumo principal.</desc>
+  <type>Lançamentos</type>
+  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
+</wpt>
+<wpt lat="39.40432" lon="-9.21169">
+  <name>#1b — lançar OSO 60 m</name>
+  <desc>Alvo de lançamento. A 60 m ficas a 36 m da margem mais próxima. Rumo principal.</desc>
+  <type>Lançamentos</type>
+  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
+</wpt>
+<wpt lat="39.40427" lon="-9.21191">
+  <name>#1b — lançar OSO 80 m</name>
+  <desc>Alvo de lançamento. A 80 m ficas a 54 m da margem mais próxima. Rumo principal.</desc>
+  <type>Lançamentos</type>
+  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
+</wpt>
+<wpt lat="39.40419" lon="-9.21041">
+  <name>#1b — lançar SE 60 m</name>
+  <desc>Alvo de lançamento. A 60 m ficas a 51 m da margem mais próxima. Rumo alternativo.</desc>
+  <type>Lançamentos</type>
+  <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
+</wpt>
 <wpt lat="39.42821" lon="-9.22276">
   <name>⛔ pontão/cais — 100 m proibidos</name>
   <desc>Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de rampas de acesso de embarcações, embarcadouros e desembarcadouros.</desc>
@@ -216,6 +240,12 @@
   <desc>Rumo principal de lançamento.</desc>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:width>thick</osmand:width></extensions>
   <trkseg><trkpt lat="39.39736" lon="-9.21599"></trkpt><trkpt lat="39.397" lon="-9.21599"></trkpt><trkpt lat="39.39682" lon="-9.21599"></trkpt><trkpt lat="39.39664" lon="-9.21599"></trkpt></trkseg>
+</trk>
+<trk>
+  <name>#1b — linha de lançamento OSO</name>
+  <desc>Rumo principal de lançamento.</desc>
+  <extensions><osmand:color>#e74c3c</osmand:color><osmand:width>thick</osmand:width></extensions>
+  <trkseg><trkpt lat="39.40446" lon="-9.211016"></trkpt><trkpt lat="39.40437" lon="-9.21146"></trkpt><trkpt lat="39.40432" lon="-9.21169"></trkpt><trkpt lat="39.40427" lon="-9.21191"></trkpt></trkseg>
 </trk>
 <trk>
   <name>Lagoa de Albufeira — Lagoa Grande</name>
