@@ -193,27 +193,27 @@
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
-<wpt lat="39.42452" lon="-9.21108">
-  <name>#4 — lançar S 40 m</name>
-  <desc>Alvo de lançamento. A 40 m ficas a 26 m da margem mais próxima. Rumo principal.</desc>
+<wpt lat="39.42266" lon="-9.20842">
+  <name>#4 — lançar ONO 40 m</name>
+  <desc>Alvo de lançamento. A 40 m ficas a 17 m da margem mais próxima. Rumo principal.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
-<wpt lat="39.42434" lon="-9.21108">
-  <name>#4 — lançar S 60 m</name>
-  <desc>Alvo de lançamento. A 60 m ficas a 40 m da margem mais próxima. Rumo principal.</desc>
+<wpt lat="39.42261" lon="-9.20864">
+  <name>#4 — lançar ONO 60 m</name>
+  <desc>Alvo de lançamento. A 60 m ficas a 34 m da margem mais próxima. Rumo principal.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
-<wpt lat="39.42416" lon="-9.21108">
-  <name>#4 — lançar S 80 m</name>
-  <desc>Alvo de lançamento. A 80 m ficas a 44 m da margem mais próxima. Rumo principal.</desc>
+<wpt lat="39.42256" lon="-9.20887">
+  <name>#4 — lançar ONO 80 m</name>
+  <desc>Alvo de lançamento. A 80 m ficas a 47 m da margem mais próxima. Rumo principal.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
-<wpt lat="39.42438" lon="-9.21134">
-  <name>#4 — lançar SSO 60 m</name>
-  <desc>Alvo de lançamento. A 60 m ficas a 53 m da margem mais próxima. Rumo alternativo.</desc>
+<wpt lat="39.42237" lon="-9.20846">
+  <name>#4 — lançar SO 60 m</name>
+  <desc>Alvo de lançamento. A 60 m ficas a 42 m da margem mais próxima. Rumo alternativo.</desc>
   <type>Lançamentos</type>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:icon>fishing</osmand:icon><osmand:background>square</osmand:background></extensions>
 </wpt>
@@ -350,10 +350,10 @@
   <trkseg><trkpt lat="39.42029" lon="-9.20543"></trkpt><trkpt lat="39.42004" lon="-9.20576"></trkpt><trkpt lat="39.41991" lon="-9.20592"></trkpt><trkpt lat="39.41978" lon="-9.20609"></trkpt></trkseg>
 </trk>
 <trk>
-  <name>#4 — linha de lançamento S</name>
+  <name>#4 — linha de lançamento ONO</name>
   <desc>Rumo principal de lançamento.</desc>
   <extensions><osmand:color>#e74c3c</osmand:color><osmand:width>thick</osmand:width></extensions>
-  <trkseg><trkpt lat="39.42488" lon="-9.21108"></trkpt><trkpt lat="39.42452" lon="-9.21108"></trkpt><trkpt lat="39.42434" lon="-9.21108"></trkpt><trkpt lat="39.42416" lon="-9.21108"></trkpt></trkseg>
+  <trkseg><trkpt lat="39.42275" lon="-9.20797"></trkpt><trkpt lat="39.42266" lon="-9.20842"></trkpt><trkpt lat="39.42261" lon="-9.20864"></trkpt><trkpt lat="39.42256" lon="-9.20887"></trkpt></trkseg>
 </trk>
 <trk>
   <name>#5 — linha de lançamento SSO</name>
