@@ -940,6 +940,21 @@ O **[Edital n.º 24/2014 da Capitania de Peniche](https://www.amn.pt/DGAM/Capita
 
 O Anexo I do Regulamento das Lagoas lista **9 oficiais** na lagoa: *Cais da Lota · Penedo Furado · Parque de Caravanas* (Caldas da Rainha) e *Casalito 1 · Casalito 2 · Casal da Lapinha · Cais do Bom Sucesso · Braço da Barrosa* (Óbidos), mais dois centros náuticos. Estão desenhadas no mapa as **10 que o OpenStreetMap tem** — ⚠️ **o OSM pode não ter todas**, portanto olha à volta antes de lançar.
 
+### 🛰️ Ver a lagoa de cima, em maré vazia
+
+Um **photosphere de drone por cima do cais**, apanhado com os bancos todos a descoberto. Lê-se melhor que qualquer imagem de satélite: o canal fundo aparece azul-escuro e vê-se onde encosta a cada margem.
+
+<a href="https://maps.app.goo.gl/dqMgHLd3yVfeYaf76" target="_blank"><b>Abrir o 360° (Google Maps)</b></a> — câmara em **39.428985, -9.2281783**, a olhar para ESE.
+
+| Roda para | E vês |
+|---|---|
+| **116°** (vista inicial) | a lagoa toda até ao fundo, com as ilhas centrais a seco |
+| **120°** | o canal a encostar à **margem nascente** — é o fio azul-escuro à direita |
+| **133°** | o troço Ponta do Carro → Reivais, onde o banco é mais estreito |
+| **90°-100°** | a barra e a mistura de águas com o mar |
+
+> 🔎 **O que procurar:** azul-escuro encostado à margem = canal ao alcance. Castanho/bege = banco que seca. A faixa turquesa entre os dois é o raso — passa por cima dele, não pares aí.
+
 ### 📍 Onde pescar — a margem toda varrida
 
 Em vez de me fiar nos nomes do OpenStreetMap, varri **a margem inteira de 40 em 40 metros** — 1101 pontos — e fiquei só com os que passam em tudo: **água em frente classificada como Zona de Utilização Livre**, **mais de 100 m de qualquer rampa**, e **água que não seca ao alcance de lançamento**. Sobraram **702**. Destes, os 12 melhores, separados uns dos outros por pelo menos 500 m:
