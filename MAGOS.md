@@ -26,7 +26,7 @@
 - **Águas livres**: Magos **não está** [nas concessões de pesca de Santarém](https://www.icnf.pt/pesca/pescaludicaedesportiva/concessoesdepescadesportiva/santarem) **nem** [nas ZPL do distrito](https://www.icnf.pt/pesca/pescaludicaedesportiva/zpludica/santarem) (verificado jul 2026) → **só a [licença geral](LICENCAS.md)**.
 - Preço 2026 ([taxas ICNF](https://www.icnf.pt/pesca/pescataxas)): **Nacional 23,93 €** ou **Regional Sul 14,34 €** (Magos fica a sul do Tejo). Se também vais pescar ao Centro (Arganil, C. do Bode), a **Nacional** resolve tudo.
 - A GNR fiscaliza mesmo: [houve multas por pesca sem licença aqui em 2015](https://omirante.pt/sociedade/2015-09-28-multados-por-pesca-ilegal-na-barragem-de-magos). Talão MB no bolso.
-- **Máx. 2 canas** · tamanhos e devolver/abater → [⚖️ Regras](REGRAS.md).
+- **Máx. 2 canas** (3 em carp fishing) · tamanhos e devolver/abater → [⚖️ Regras](REGRAS.md).
 - 🌙 **Noturna não**: Magos não está na [lista ICNF de carpfishing noturno](https://www.icnf.pt/pesca/pescaludicaedesportiva/carpfishingnoturno) — pesca até meia hora depois do pôr-do-sol.
 
 ## 🎣 O plano das 3 frentes

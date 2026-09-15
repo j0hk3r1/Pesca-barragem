@@ -16,7 +16,7 @@
 | **Anzol** | **CARP POLE nº 10** + 1-2 bagos milho | **500 Wide nº 6** (carpa: 2-3 bagos no pêlo) · **SN WORM nº 6** (gato: chouriço/fígado) |
 | **Leader** | fluoro **0,23** · 30-40 cm | hooklink curto 10-15 cm |
 
-> Direções/distâncias **diferentes** para as duas canas, e engoda os 2 spots separados — a luta numa não espanta a outra. (Máx. legal: 2 canas.)
+> Direções/distâncias **diferentes** para as duas canas, e engoda os 2 spots separados — a luta numa não espanta a outra. (Máx. legal: 2 canas, 3 em carp fishing.)
 
 ### 🟠 Montagem da boia (carpa)
 
@@ -138,7 +138,7 @@ Há lagostim-vermelho quase de certeza (registos GBIF por toda a zona de Avis), 
 
 ## ⚖️ Regras específicas (verificado)
 
-- **Águas livres** → licença geral ICNF chega. Máx. **2 canas**.
+- **Águas livres** → licença geral ICNF chega. Máx. **2 canas** (3 em carp fishing).
 - **Carpa >65 cm devolve-se** por lei ([Portaria 108/2018](https://diariodarepublica.pt/dr/detalhe/portaria/108-2018-115090161)). Foto e à água.
 - **Gato-negro = invasor** → **devolução proibida** ([abate-se, não se devolve vivo](https://diariodarepublica.pt/dr/detalhe/portaria/108-2018-115090161)). Fica pequeno (um palmo, quase sempre <1 kg) — é **praga/bycatch, não troféu**; para monstros é o **siluro em [Idanha](IDANHA.md)**, não o gato daqui.
 - 🐍 **Enguia:** se ferrares uma, **devolve** — a **pesca lúdica da enguia é proibida** em água doce ([Portaria 108/2018](https://diariodarepublica.pt/dr/detalhe/portaria/108-2018-115090161); saiu das espécies pescáveis lúdicas). Não a podes reter.

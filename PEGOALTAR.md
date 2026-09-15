@@ -47,7 +47,7 @@ Estrada: **EN253** (Alcácer ↔ Montemor). Do Minutos fica a **58 min · 53 km*
 - **Não é água balnear** ([Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/0000200039.pdf): zero ocorrências) — a "praia fluvial" é informal → **pesca-se**.
 - ⚠️ **Zona de segurança do paredão** sinalizada — pesca-se **nas imediações**, não em cima dos órgãos da barragem ([regime geral, DL 107/2009](https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1385&tabela=leis)).
 - 🌙 **Sem noturna** — não está na [lista ICNF de carpfishing noturno](https://www.icnf.pt/pesca/pescaludicaedesportiva/carpfishingnoturno). Até meia hora após o pôr-do-sol.
-- Máx. 2 canas · achigã mín. 20 cm (defeso 16 mar-14 mai; **reabriu em jun 2026**) → [⚖️ Regras](REGRAS.md).
+- Máx. 2 canas (3 em carp fishing) · achigã mín. 20 cm (defeso 16 mar-14 mai; **reabriu em jun 2026**) → [⚖️ Regras](REGRAS.md).
 
 ## ✅ Estado em 2026
 

@@ -31,7 +31,7 @@ No fundo só há **3 maneiras de pescar**: **amostra/vinil** (predadores) · **b
 
 Não é a cana, é o **carreto + linha**: 🪶 **leve** (trançado 0,12 + leader fluoro) p/ **amostra e boia** · 💪 **pesado** (mono 0,40 ou trançado de siluro) p/ **fundo e peixe grande**. Braid vs mono + leader/anzol por peixe → [📏 Tamanhos](TAMANHOS.md#anzol).
 
-> ⚖️ Só **2 canas por pescador** montadas ao mesmo tempo → [Regras](REGRAS.md).
+> ⚖️ Só **2 canas por pescador** montadas ao mesmo tempo (3 em carp fishing) → [Regras](REGRAS.md).
 
 ---
 

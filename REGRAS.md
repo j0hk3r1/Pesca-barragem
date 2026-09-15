@@ -14,11 +14,11 @@ Resumo do que importa para a pesca **lúdica em águas interiores** (barragens).
 - [Tirar / info ICNF](https://www.icnf.pt/pesca/pescaludicaedesportiva/licencas)
 
 ## 🎣 Equipamento permitido
-- **Máximo 2 canas** por pescador ao mesmo tempo. (Carp fishing: **3 canas** onde autorizado. Águas de salmonídeos/truta: só **1 cana**.)
+- **Máximo 2 canas** por pescador ao mesmo tempo. **Carp fishing: 3 canas** (DL 112/2017 art. 9.º n.º 2 — pesca à carpa/ciprinídeos grandes com montagens de carpa: fundo, hair rig, boilies/milho; as 3 canas todas nessa pescaria). Águas de salmonídeos/truta: só **1 cana**. Mar e Lagoa de Óbidos: **2**.
 - **1 anzol por cana** — **exceção:** amostras artificiais (lures/vinil) podem ter mais anzóis ou fateixas (trebles).
 - Só **cana e linha**. Redes e afins = proibido na lúdica.
 
-> 👍 **Tens 4 canas?** Podes tê-las todas, mas **cada pescador** só usa **2 ao mesmo tempo** (cada um com a **sua** licença). 2 pescadores = 4 canas no total, ok.
+> 👍 **Tens 4 canas?** Podes tê-las todas, mas **cada pescador** só usa **2 ao mesmo tempo** — 3 em carp fishing (cada um com a **sua** licença). 2 pescadores = 4 canas no total, ok.
 
 ## 🐟 Tamanhos mínimos & defeso
 | Espécie | Tamanho mínimo | Defeso (não pescar) |

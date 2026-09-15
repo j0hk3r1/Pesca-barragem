@@ -265,7 +265,7 @@ A jusante da barragem **o leito fica praticamente seco no verão** (a água de r
 
 - 💧 **Nível**: capacidade 78.100 dam³; padrão dos últimos verões = **uns 74% (jul) → 62-64% (ago) → 56% (set)**. Em **jul-2026 o [boletim SNIRH](https://apambiente.pt/sites/default/files/_SNIAMB_Agua/DRH/MonitorizacaoAvaliacao/BoletimAlbufeiras/Semanal.pdf) traz a linha do Idanha truncada** (sem valor reportado); o gráfico do mesmo boletim aponta uns **67%** *(estimativa, não confirmada)*. Margens **bem abaixo** do satélite — trilhos até à água mais compridos, margem de lodo/pedra exposta: **botas**.
 - ✅ **Sem interdições balneares nem histórico de cianobactérias** nesta albufeira (ao contrário de Avis) — mas também **não é água balnear vigiada** (banhos por tua conta).
-- ⚖️ **Pesca permitida em toda a albufeira exceto a zona de segurança do paredão** — não há conflito com zonas balneares (não existem oficialmente). Águas livres: licença geral chega, máx. 2 canas, invasores não se devolvem, pesca até meia hora após o pôr-do-sol.
+- ⚖️ **Pesca permitida em toda a albufeira exceto a zona de segurança do paredão** — não há conflito com zonas balneares (não existem oficialmente). Águas livres: licença geral chega, máx. 2 canas (3 em carp fishing), invasores não se devolvem, pesca até meia hora após o pôr-do-sol.
 
 ---
 

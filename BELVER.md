@@ -69,7 +69,7 @@ Lei: ½h antes do nascer a ½h depois do pôr-do-sol ([DL 112/2017 art. 14.º](h
 - 🚤 **Embarcações na ZPL — por confirmar.** Relato de mai-2026: pescador de pato avisado por um popular de que a concessão só permite pesca de margem ([comentário](https://www.youtube.com/watch?v=4F0dET9liog)). **Não consta do edital** (7 artigos, art. 7.º remete para a lei geral). Caiaque sem cana é navegação. **Perguntar na receção.**
 - 🐟 **Siluro: DP** — sem defeso, limite ou tamanho; **retenção obrigatória**, não pode ser devolvido nem transportado vivo (Portaria 360/2017 art. 4.º n.º 3).
 - ⛔ **Não pescar junto ao paredão** ([DL 107/2009 art. 23.º b)](https://files.diariodarepublica.pt/gratuitos/1s/2009/05/09400.pdf)) nem a **< 50 m da eclusa de peixes** (Lei 7/2008 art. 18.º i), coima 250-2000 €). Largura exata não é confirmável (sem POAAP) — valem as boias.
-- 🪝 **1 anzol por cana · máx. 2 canas** (DL 112/2017 art. 12.º).
+- 🪝 **1 anzol por cana · máx. 2 canas, 3 em carp fishing** (DL 112/2017 art. 9.º).
 - 🚫 **Isco de peixe (vivo/morto) e ovas: proibido** (art. 13.º). Engodo permitido.
 - 📅 **Defesos na ZPL** (edital): achigã 16 mar-14 mai (máx. 6, ≥ 20 cm) · barbo e boga 16 mar-14 jun · escalo-do-sul e bordalo = devolução obrigatória · carpa sem limite · pesca todos os dias, **do nascer ao pôr do sol**.
 - ✅ Jusante do paredão é **ZPP mas permite pesca lúdica** ([edital ZPP](https://www.icnf.pt/api/file/doc/14e76c52784c11fc)) — com redes fixas na água.

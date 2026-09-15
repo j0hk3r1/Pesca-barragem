@@ -22,7 +22,7 @@ Guia casual para pescar em **barragens e rios** portugueses (achigã, perca-sol,
 
 > 🧰 Que carreto pões em que cana é **decisão tua e muda com a frota** (a fotografia dos kits de julho 2026 está guardada em [arquivo](arquivo/kits-2026-07.md)).
 >
-> ⚖️ Na água, **máx. 2 canas montadas** por pescador → [Regras](REGRAS.md). Setup pesado (fundo/peixe grande) → [📏 Tamanhos](TAMANHOS.md#fundo).
+> ⚖️ Na água, **máx. 2 canas montadas** por pescador (3 em carp fishing) → [Regras](REGRAS.md). Setup pesado (fundo/peixe grande) → [📏 Tamanhos](TAMANHOS.md#fundo).
 
 ---
 

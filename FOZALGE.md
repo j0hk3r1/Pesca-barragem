@@ -90,7 +90,7 @@ Abundantíssimo (é a forragem que sustenta achigã e sandre aqui) — apanha le
 
 ## ⚖️ Regras — o mapa legal em 30 segundos
 
-- **A albufeira toda é águas livres** ([verificado nas listas ICNF dos 3 distritos](https://www.icnf.pt/pesca/pescaludicaedesportiva/zpludica/santarem)) — licença geral, 2 canas, isco + amostra.
+- **A albufeira toda é águas livres** ([verificado nas listas ICNF dos 3 distritos](https://www.icnf.pt/pesca/pescaludicaedesportiva/zpludica/santarem)) — licença geral, 2 canas (3 em carp fishing), isco + amostra.
 - **Onde NÃO pescar** ([plano da albufeira, RCM 69/2003](https://www.cm-tomar.pt/images/CMT/viver/documentos/obras_particulares/regulamentoPOACastelodoBode.pdf)): zonas balneares demarcadas na época (na tua zona: **Lago Azul, Zaboeira, Fernandaires, Bairradinha** — [lista 2026](https://files.diariodarepublica.pt/1s/2026/04/08401/0000200039.pdf); **Foz d'Alge e Dornes NÃO estão na lista** → livres) · **50 m à volta das pontes** · 150 m do paredão · zonas de captação sinalizadas com boias (a da EPAL fica na outra ponta, a ~32 km).
 - **Ribeira de Alge acima da Ponte de Poeiro: TUDO fechado em agosto** (água salmonícola em defeso).
 - **Devoluções**: achigã na albufeira devolve-se normalmente (fora do defeso 16 mar-14 mai) · carpa >65 cm devolve sempre · sandre/siluro/gato sem mínimo — **devolução proibida** · bordalo/escalo devolução obrigatória.
