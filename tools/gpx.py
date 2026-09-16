@@ -72,9 +72,13 @@ def obidos():
                              'Rumo principal de lançamento.', '#e74c3c', 'thick', fechar=False))
     for r in carrega('data-rampas.json') or []:
         W.append(wpt(r['la'], r['lo'], f"⛔ {r['n']} — 100 m proibidos",
-                     'Edital 24/2014 da Capitania de Peniche: proibido pescar a menos de 100 m de '
-                     'rampas de acesso de embarcações, embarcadouros e desembarcadouros.',
+                     r.get('f', 'Edital 24/2014 da Capitania de Peniche') + ': ' +
+                     r.get('e', 'proibido pescar a menos de 100 m de rampas de acesso de '
+                                'embarcações, embarcadouros e desembarcadouros.'),
                      'Proibições', '#c0392b', 'special_symbol_remove', 'octagon'))
+    for s in carrega('data-spots-smartinho.json') or []:
+        nome = 'S. Martinho ' + (f"#{s['rank']} · " if s.get('rank') else '') + re.sub(r'^[⭐⛔]\s*', '', s['n'])
+        W.append(wpt(s['la'], s['lo'], nome, limpa(s['d']), 'S. Martinho', COR[s['v']], IC[s['v']]))
     CORZ = {'livre': '#27ae60', 'sazonal': '#e67e22', 'sazonal-circulo': '#e67e22',
             'condicionada-permanente': '#8e44ad', 'duvidosa': '#d35400', 'interdita': '#8b0000'}
     for z in carrega('data-lagoas.json') or []:
@@ -85,8 +89,8 @@ def obidos():
         T.append(trk(p, f'Banco de areia {i}',
                      'Fica a seco ou muito raso na baixa-mar. Não lances para aqui — passa por cima.',
                      '#f4d03f'))
-    grava('obidos.gpx', 'Lagoa de Óbidos — pesca',
-          'Spots por ordem, alvos de lançamento, zonas legais, rampas e bancos de areia', W, T)
+    grava('obidos.gpx', 'Lagoa de Óbidos e S. Martinho — pesca',
+          'Spots por ordem, alvos de lançamento, zonas legais, rampas e bancos de areia; spots de S. Martinho do Porto', W, T)
 
 # ------------------------------------------------------------- estuário
 def estuario():

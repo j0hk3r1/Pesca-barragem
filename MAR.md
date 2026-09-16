@@ -264,6 +264,7 @@
     ['🧱 Praia de Alburrica (Barreiro)',            '06-06','09-06','edital de banhistas CPL 29'],
     ['⚖️ Jurisdição de Lisboa — leitura literal',   '05-01','10-15','o edital fixa 1 mai-15 out, independente da época'],
     ['🌊 Óbidos/Foz do Arelho (praias de mar)',     '06-13','09-13','POC-ACE art. 17.º: proibido do nascer ao ocaso do Sol'],
+    ['🐚 São Martinho do Porto (baía)',              '06-13','09-13','Cap. Nazaré: praia toda proibida na época · cais/marina 100 m sempre'],
     ['🟢 LAGOA DE ÓBIDOS (Zona de Utilização Livre)', null, null,   'não é praia marítima — livre o ano todo · máx. 2 canas'],
     ['🧱 ESTUÁRIO (Parque Ribeirinho, margem sul)', null,  null,   'não são águas balneares — sem restrição']
   ];
@@ -371,6 +372,7 @@
       var Z=[['🏙️ Lisboa/estuário',38.72,-9.13,12],
              ['🟣 Lagoa de Albufeira',38.5100,-9.1750,13],
              ['🟢 Lagoa de Óbidos',39.4100,-9.2150,13],
+             ['🐚 S. Martinho do Porto',39.5075,-9.1415,15],
              ['🎣 spot #1 e lançamentos',39.40372,-9.21098,17]];
       var leg=document.getElementById(LEGENDA_ID); if(!leg) return;
       var d=document.createElement('div');
@@ -453,17 +455,18 @@
       rs.forEach(function(p){
         L.circle([p.la,p.lo],{radius:100,color:'#c0392b',fillColor:'#c0392b',fillOpacity:0.12,weight:1,dashArray:'4'})
          .bindPopup('<b>⛔ '+p.n+'</b><br>Proibido pescar a menos de <b>100 m</b>.<br>'+
+           (p.e ? '<i>"'+p.e+'"</i><br><span style="opacity:.7;font-size:.9em">'+p.f+'</span>' :
            '<i>"É proibido o exercício da pesca lúdica a menos de 100 metros das rampas de acesso de embarcações, '+
            'de embarcadouros e desembarcadouros existentes na área de jurisdição da Capitania do Porto de Peniche."</i>'+
            '<br><span style="opacity:.7;font-size:.9em">Edital n.º 24/2014 da Capitania de Peniche · posição do OpenStreetMap — '+
-           'o Anexo I do Regulamento das Lagoas lista 9 oficiais, o OSM pode não ter todas</span>').addTo(g);
+           'o Anexo I do Regulamento das Lagoas lista 9 oficiais, o OSM pode não ter todas</span>')).addTo(g);
       });
       g.addTo(MAPA_REF);
       CAMADAS_REF['rampas 100m'] = g;
       var leg=document.getElementById(LEGENDA_ID);
       if(leg) leg.insertAdjacentHTML('beforeend',
         '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="rampas 100m"> '+
-        '<span style="color:#c0392b">○</span> rampas/pontões de Óbidos, 100 m ('+rs.length+')</label>');
+        '<span style="color:#c0392b">○</span> rampas/pontões de Óbidos e S. Martinho, 100 m ('+rs.length+')</label>');
       if(leg){ var cb=leg.querySelector('input[data-c="rampas 100m"]');
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
@@ -556,6 +559,35 @@
         '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="spots Óbidos"> '+
         '<span style="color:#27ae60">●</span> spots de Óbidos, por ordem ('+ss.length+')</label>');
       if(leg){ var cb=leg.querySelector('input[data-c="spots Óbidos"]');
+        if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
+    }).catch(function(){});
+
+    // spots de São Martinho do Porto (mesma escala de cores)
+    fetch('data-spots-smartinho.json').then(function(r){return r.json();}).then(function(ss){
+      var g=L.layerGroup();
+      var EST={ok:{c:'#0a7d5a',f:'#27ae60',i:'🎣'},aviso:{c:'#b9770e',f:'#f1c40f',i:'⚠️'},nao:{c:'#7b241c',f:'#e74c3c',i:'⛔'}};
+      ss.forEach(function(s){
+        var e=EST[s.v];
+        var mk;
+        if(s.rank){                       // ranking: marcador com o numero por dentro
+          mk=L.marker([s.la,s.lo],{icon:L.divIcon({className:'',iconSize:[26,26],iconAnchor:[13,13],
+            html:'<div style="width:26px;height:26px;border-radius:50%;background:'+e.f+';border:2px solid '+e.c+
+                 ';color:#fff;font:bold 13px/22px system-ui,sans-serif;text-align:center;'+
+                 'box-shadow:0 1px 4px rgba(0,0,0,.45)">'+s.rank+'</div>'})});
+        } else {
+          mk=L.circleMarker([s.la,s.lo],{radius:9,color:e.c,fillColor:e.f,fillOpacity:.95,weight:2});
+        }
+        mk.bindPopup('<b>'+e.i+' '+s.n+'</b><br>'+s.d+
+           '<br><br><a href="https://www.google.com/maps?q='+s.la+','+s.lo+'" target="_blank">abrir no Maps</a>')
+          .addTo(g);
+      });
+      g.addTo(MAPA_REF);
+      CAMADAS_REF['spots S. Martinho'] = g;
+      var leg=document.getElementById(LEGENDA_ID);
+      if(leg) leg.insertAdjacentHTML('beforeend',
+        '<label style="margin-right:.9em;white-space:nowrap;cursor:pointer"><input type="checkbox" checked data-c="spots S. Martinho"> '+
+        '<span style="color:#27ae60">●</span> spots de S. Martinho ('+ss.length+')</label>');
+      if(leg){ var cb=leg.querySelector('input[data-c="spots S. Martinho"]');
         if(cb) cb.onchange=function(){ cb.checked?g.addTo(MAPA_REF):MAPA_REF.removeLayer(g); }; }
     }).catch(function(){});
 
@@ -1094,14 +1126,14 @@ Já à margem tens **25 m** de água nos dois rumos, portanto nem precisas de la
 
 ### 📲 Levar isto para o OsmAnd — funciona offline
 
-Gerei um **ficheiro GPX** com tudo o que está no mapa: os **15 spots**, os **alvos de lançamento**, as **10 rampas** com o aviso dos 100 m, as **zonas legais** e os **bancos de areia**.
+Gerei um **ficheiro GPX** com tudo o que está no mapa: os **15 spots** da lagoa e os **5 de São Martinho do Porto**, os **alvos de lançamento**, as **14 rampas e pontões** com o aviso dos 100 m, as **zonas legais** e os **bancos de areia**.
 
 <div style="display:flex;flex-wrap:wrap;gap:.5em;margin:.6em 0">
   <a href="obidos.gpx" download style="display:inline-flex;align-items:center;gap:.45em;text-decoration:none;background:#0a7d5a;color:#fff;padding:.5em .9em;border-radius:8px;font-weight:600;font-size:.92em">📲 obidos.gpx</a>
   <a href="estuario.gpx" download style="display:inline-flex;align-items:center;gap:.45em;text-decoration:none;background:#2c6b8f;color:#fff;padding:.5em .9em;border-radius:8px;font-weight:600;font-size:.92em">📲 estuario.gpx</a>
 </div>
 
-Há dois: **`obidos.gpx`** (52 KB) com o detalhe todo da lagoa, e **`estuario.gpx`** (218 KB) com os spots de Lisboa, as **589 zonas proibidas** e as praias balneares.
+Há dois: **`obidos.gpx`** (65 KB) com o detalhe todo da lagoa, e **`estuario.gpx`** (222 KB) com os spots de Lisboa, as **589 zonas proibidas** e as praias balneares.
 
 **Como pôr no telemóvel:**
 
@@ -1785,6 +1817,43 @@ Duas toneiras de cores diferentes ao mesmo tempo até perceberes qual está a fu
 - **Confirma o edital do dia.** Mesmo conselho dele: *"Aconselho vivamente a consultar os editais antes de fazer uma jornada na lagoa, isto porque dependendo da época há zonas que estão interditas à navegação ou mesmo à pesca."* — [Capitania de Peniche](https://www.amn.pt/DGAM/Capitanias/Peniche/Paginas/Capitania-do-Porto-de-Peniche.aspx).
 - **Marisco não.** Podes pescar, mas **apanhar bivalves tem regras próprias e zonas fechadas** por razões de saúde pública — não apanhes berbigão nem lingueirão para comer sem verificar a zona no IPMA.
 - **Placa manda sempre.**
+
+## 🐚 São Martinho do Porto — a baía
+
+Concha fechada **8 km a norte da Foz do Arelho**, abrigada de quase toda a ondulação — é onde se pesca quando a Foz não dá. **Praia livre de 14 set a 12 jun.** Peixe: **dourada** de verão/outono, à noite; robalo; sargo nas rochas da boca. Aviso dos locais: *"pesqueiro muito ingrato, com uma elevada percentagem de grades"*.
+
+### ⚖️ Regras
+
+| | Fonte |
+|---|---|
+| **Época balnear 13 jun – 13 set** → praia toda proibida nesse período | [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/0000200039.pdf), linha "S. Martinho do Porto" |
+| **< 100 m** de marinas, embarcadouros e cais de atracação — o ano todo | [Edital 171/2026, Cap. Nazaré](https://www.amn.pt/DGAM/Capitanias/Nazare/Lists/Documentos_AMN/Edital%20n.%C2%BA%20171_2026.pdf), pesca lúdica b) 2) |
+| **Canal de navegação da boca = pesca proibida** · zona do cais = apeada proibida · **arco da praia inteiro = permitida** | anexo II do [Edital 1/2017](https://www.marinha.pt/pt/clm/ficheiros/CLM/Documentos/Parte%20I/C4/S1/Edital%201_2017,%2002JAN.pdf) — o último mapa publicado |
+| Mar: **2 canas**, licença de pesca lúdica marítima | Portaria 330/2026 |
+
+<img src="smartinho-zonas-2017.jpg" alt="Mapa da Capitania da Nazaré: zonas de pesca permitida e proibida na baía de S. Martinho" style="max-width:100%;border-radius:8px">
+
+### 📍 Spots
+
+| # | Spot | Água na baixa-mar viva | Carro | |
+|---|---|---|---|---|
+| **1** ⭐ | **Praia, frente ao farol** — [39.5014, -9.1385](https://www.google.com/maps?q=39.50143,-9.13846) | 290 m de areia, depois escurece em 30-60 m | 300 m | *"o melhor local é em frente ao farol (tem lá um bar agora), mais ou menos a meio"* |
+| 2 | Duna de Salir do Porto — [39.5034, -9.1498](https://www.google.com/maps?q=39.50341,-9.14979) | **seca 340 m** — só com maré cheia | 250 m | |
+| 3 | Alfândega Velha, rochas S da boca — [39.5068, -9.1466](https://www.google.com/maps?q=39.50682,-9.14661) | 20 m | 700 m | sargo/robalo · lanças para o canal proibido |
+| 4 | Bico do Facho N, rochas N da boca — [39.5104, -9.1438](https://www.google.com/maps?q=39.51039,-9.14380) | 25 m | 300 m | 192 m do pontão · mesmo problema do canal |
+| ⛔ | "Ponta do Cais" do OSM — 39.5107, -9.1419 | | | **33 m do pontão** — proibido |
+
+<img src="smartinho-mares.jpg" alt="Sentinel-2: a baía na baixa-mar viva e na preia-mar" style="max-width:100%;border-radius:8px">
+
+Na baixa-mar a baía **não seca no meio** — só o canto de Salir. O canal fundo é a **boca NW**, entre as rochas. *(Sentinel-2 de 31-ago e 10-set-2026; NIR escuro não é profundidade medida.)*
+
+### 🗣️ O que dizem os locais
+
+- Verão à noite = douradas: *"chegam a sair delas com 3 e 4 kg"* · *"vento sul fraco e maré a encher"*.
+- Iscos: *"navalhas, caranguejo rijo, percebes, teagem e casulo"*.
+- *"nesta zona deixa sempre pescar, mesmo em dias maus"* — Luís Moreno, nos comentários do [vídeo](https://www.youtube.com/watch?v=9rXWnvk-eU4) (dourada, 2015).
+- 🚗 Praia: parque público a 300 m ([39.50819, -9.13268](https://www.google.com/maps?q=39.50819,-9.13268)) · Salir: parque a 250 m ([39.50148, -9.15121](https://www.google.com/maps?q=39.50148,-9.15121)) · Delegação Marítima: 262 989 245.
+- Fontes: [pesqueiro.pt](https://www.pesqueiro.pt/index.php?topic=22187.0) · [pescador.com.pt](https://forum.pescador.com.pt/viewtopic.php?t=16439) · [Pesca no Oeste](http://pescanooeste.blogspot.com/2008/01/baia-s-martinho-da-porto.html) · [pesca-pt.com](https://www.pesca-pt.com/pesqueiro.php?id=97)
 
 ## 🟡 E o ponto de Sesimbra, [38.51992, -9.09618](https://www.google.com/maps?q=38.51992,-9.09618)?
 
