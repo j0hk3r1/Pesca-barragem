@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 512" role="img" aria-label="Montagem de fundo de dois anzóis para a Lagoa de Óbidos, à escala">
+<g fill="none" stroke="#33505a" stroke-linecap="round">
+  <path d="M136 4 V18" stroke-width="2.6"/>
+  <path d="M136 18 V34" stroke-width="4" opacity=".5"/>
+  <path d="M136 62 V142" stroke-width="2.6"/>
+  <path d="M136 165 V354" stroke-width="2.6"/>
+  <path d="M136 377 V466" stroke-width="2.6"/>
+</g>
+<g fill="none" stroke="#0e7490" stroke-width="1.5" stroke-linecap="round">
+  <path d="M153 152 H252 V300"/><path d="M252 300 V316 a8 8 0 0 0 16 0 V310"/><path d="M268 310 l-3 4"/>
+  <path d="M153 364 H228 V440"/><path d="M228 440 V454 a7 7 0 0 0 14 0 V449"/><path d="M242 449 l-3 4"/>
+</g>
+<g fill="#233034">
+  <rect x="132" y="44" width="8" height="9" rx="2"/>
+  <rect x="128" y="140" width="16" height="4" rx="1"/><rect x="128" y="161" width="16" height="4" rx="1"/>
+  <rect x="128" y="352" width="16" height="4" rx="1"/><rect x="128" y="373" width="16" height="4" rx="1"/>
+  <circle cx="136" cy="152" r="5.5"/><circle cx="136" cy="364" r="5.5"/>
+  <circle cx="136" cy="480" r="13"/>
+</g>
+<g fill="#fbfcfc" stroke="#233034" stroke-width="2">
+  <circle cx="136" cy="40" r="4.5"/><circle cx="136" cy="58" r="4.5"/>
+</g>
+<g fill="#fbfcfc" stroke="#233034" stroke-width="1.6">
+  <circle cx="149" cy="152" r="4"/><circle cx="149" cy="364" r="4"/>
+</g>
+<g fill="#c9b79c" stroke="#233034" stroke-width=".9">
+  <ellipse cx="248" cy="300" rx="6" ry="13"/><ellipse cx="256" cy="307" rx="6" ry="13"/>
+  <ellipse cx="224" cy="440" rx="5" ry="11"/>
+</g>
+<rect x="231" y="424" width="10" height="13" rx="4" fill="#e0b03a" stroke="#233034" stroke-width="1"/>
+<g stroke="#b8471f" stroke-width="1.2" fill="none">
+  <path d="M100 62 H112 M100 142 H112 M106 62 V142"/>
+  <path d="M100 152 H112 M100 360 H112 M106 152 V360"/>
+  <path d="M100 364 H112 M100 472 H112 M106 364 V472"/>
+</g>
+<g fill="#b8471f" font-family="system-ui,sans-serif" font-weight="700" font-size="15" text-anchor="end">
+  <text x="94" y="107">25 cm</text><text x="94" y="252">60 cm</text><text x="94" y="424">40 cm</text>
+</g>
+<g fill="#b8471f" font-family="system-ui,sans-serif" font-weight="700" font-size="15">
+  <text x="262" y="164">50 cm</text><text x="250" y="376">30 cm</text>
+</g>
+<g fill="#12242b" font-family="system-ui,sans-serif" font-weight="600" font-size="12.5">
+  <text x="150" y="14">Tournament 0,33</text>
+  <text x="150" y="47">destorcedor · PALOMAR</text>
+  <text x="18" y="150">ESTAÇÃO 1</text><text x="18" y="362">ESTAÇÃO 2</text>
+  <text x="262" y="150">estralho fluoro 0,30-0,35</text>
+  <text x="278" y="296">anzol 8,3 mm · ROBALO</text>
+  <text x="250" y="362">estralho fluoro 0,28-0,30</text>
+  <text x="250" y="436">anzol 8,3 mm · DOURADA</text>
+  <text x="156" y="478">chumbo 100 g</text>
+</g>
+<g fill="#5c6c70" font-family="system-ui,sans-serif" font-size="11.5">
+  <text x="150" y="30">→ shock leader mono 0,60 · 10 m</text>
+  <text x="18" y="163">2 nós de stop</text><text x="18" y="175">+ missanga</text><text x="18" y="187">+ destorcedor</text>
+  <text x="278" y="309">2 navalhas, elástico</text><text x="278" y="321">rabo curto, 2-3 cm</text>
+  <text x="94" y="268" text-anchor="end">estralho &lt; 60</text>
+  <text x="250" y="449">1 navalha · milho de esponja</text>
+  <text x="156" y="491">com garra se houver corrente</text>
+</g>
+<g stroke="#b9c4c2" fill="none">
+  <path d="M14 500 H446" stroke-width="2"/>
+  <path d="M24 500 l-6 8 M64 500 l-6 8 M104 500 l-6 8 M144 500 l-6 8 M184 500 l-6 8 M224 500 l-6 8 M264 500 l-6 8 M304 500 l-6 8 M344 500 l-6 8 M384 500 l-6 8 M424 500 l-6 8" stroke-width="1"/>
+</g>
+</svg>

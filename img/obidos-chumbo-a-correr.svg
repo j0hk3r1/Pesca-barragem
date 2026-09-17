@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 512" role="img" aria-label="Montagem de corrida para a Lagoa de Óbidos, à escala">
+<g fill="none" stroke="#33505a" stroke-linecap="round">
+  <path d="M136 4 V18" stroke-width="2.6"/>
+  <path d="M136 18 V34" stroke-width="4" opacity=".5"/>
+  <path d="M136 62 V286" stroke-width="2.6"/>
+  <path d="M142 158 L184 196" stroke-width="2.6"/>
+</g>
+<path d="M136 324 V452" fill="none" stroke="#0e7490" stroke-width="1.5"/>
+<g fill="none" stroke="#0e7490" stroke-width="1.5" stroke-linecap="round">
+  <path d="M136 452 V468 a8 8 0 0 0 16 0 V462"/><path d="M152 462 l-3 4"/>
+</g>
+<g fill="#233034">
+  <rect x="132" y="44" width="8" height="9" rx="2"/><rect x="132" y="308" width="8" height="8" rx="2"/>
+  <circle cx="136" cy="290" r="5.5"/><circle cx="194" cy="206" r="12"/>
+</g>
+<g fill="#fbfcfc" stroke="#233034" stroke-width="2">
+  <circle cx="136" cy="40" r="4.5"/><circle cx="136" cy="58" r="4.5"/>
+  <circle cx="136" cy="140" r="8"/><circle cx="136" cy="155" r="4"/>
+  <circle cx="136" cy="304" r="4.5"/><circle cx="136" cy="320" r="4.5"/>
+</g>
+<g fill="#c9b79c" stroke="#233034" stroke-width=".9">
+  <ellipse cx="132" cy="452" rx="6" ry="13"/><rect x="140" y="446" width="9" height="20" rx="2"/>
+</g>
+<g stroke="#b8471f" stroke-width="1.2" fill="none">
+  <path d="M100 62 H112 M100 286 H112 M106 62 V286"/>
+  <path d="M100 324 H112 M100 460 H112 M106 324 V460"/>
+  <path d="M116 120 V172 M112 126 l4 -6 4 6 M112 166 l4 6 4 -6"/>
+</g>
+<g fill="#b8471f" font-family="system-ui,sans-serif" font-weight="700" font-size="15" text-anchor="end">
+  <text x="94" y="178">70 cm</text><text x="94" y="396">70 cm</text>
+</g>
+<g fill="#12242b" font-family="system-ui,sans-serif" font-weight="600" font-size="12.5">
+  <text x="150" y="14">trançada 27 kg</text>
+  <text x="150" y="47">destorcedor · PALOMAR</text>
+  <text x="18" y="132">desliza livre</text>
+  <text x="152" y="150">destorcedor a correr</text>
+  <text x="212" y="204">chumbo 50 g de correr</text>
+  <text x="150" y="313">destorcedor · PALOMAR</text>
+  <text x="150" y="392">estralho fluoro 0,30</text>
+  <text x="166" y="452">anzol 8,3 mm</text>
+</g>
+<g fill="#5c6c70" font-family="system-ui,sans-serif" font-size="11.5">
+  <text x="150" y="30">→ o topshot 0,60 que já lá tens</text>
+  <text x="18" y="145">o peixe leva</text><text x="18" y="157">70 cm sem</text><text x="18" y="169">sentir peso</text>
+  <text x="94" y="194" text-anchor="end">curso do chumbo</text>
+  <text x="212" y="217">sem fusível — o fundo é areia</text>
+  <text x="150" y="293">missanga (batente)</text>
+  <text x="150" y="405">sem flutuação</text>
+  <text x="166" y="465">navalha ou tira de choco</text>
+</g>
+<g stroke="#b9c4c2" fill="none">
+  <path d="M14 488 H446" stroke-width="2"/>
+  <path d="M24 488 l-6 8 M64 488 l-6 8 M104 488 l-6 8 M144 488 l-6 8 M184 488 l-6 8 M224 488 l-6 8 M264 488 l-6 8 M304 488 l-6 8 M344 488 l-6 8 M384 488 l-6 8 M424 488 l-6 8" stroke-width="1"/>
+</g>
+<g stroke="#6f8f5e" stroke-width="1.6" fill="none" stroke-linecap="round">
+  <path d="M300 486 c6 -10 10 4 16 -8 M330 486 c5 -12 9 2 14 -10 M360 486 c6 -9 11 5 16 -7"/>
+</g>
+</svg>
