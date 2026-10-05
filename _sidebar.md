@@ -24,6 +24,7 @@
   - [🟫 Belver / Ortiga — siluro](BELVER.md)
   - [🌾 Montargil — Ponte de Sor](MONTARGIL.md)
   - [🏆 Pego do Altar — Alcácer](PEGOALTAR.md)
+  - [🐟 Vale do Gaio — Torrão](GAIO.md)
   - [🌳 Minutos — Montemor](MINUTOS.md)
   - [🌾 Magos — Salvaterra ⛔ verão](MAGOS.md)
   - [🐟 Alqueva — só ficha](PEIXES-BARRAGENS.md#dam-alqueva)

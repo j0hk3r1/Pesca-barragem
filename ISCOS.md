@@ -75,6 +75,19 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 
 > 🔬 **O que a ciência diz que apanha carpa:** o gatilho alimentar são **aminoácidos + betaína + nucleótidos** dissolvidos na água ([fisiologia gustativa da carpa](https://www.researchgate.net/publication/286828804_Gustatory_response_of_common_carp_Cyprinus_carpio_to_variable_concentrations_of_two_stimulatory_amino_acids)); o aroma só "acorda e chama" o peixe (olfato = sentido de distância), quem fecha é a **comida**. Por isso a mistura organiza-se por **função**, não por perfume — e **1 aroma chega** ([misturas menos potentes rendem mais e por mais tempo](https://www.fishingmagic.com/forums/threads/all-about-flavours.379721/); os aromas líquidos lavam-se, [o que fica no fundo são os óleos das partículas](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/)).
 
+> ✅ **Versão simples (a que usamos, out-2026)** · sem sêmola, sem asticots, sem melaço · testada em Odivelas: **3 carpas em 6 corridas** numa tarde, method + nº 4.
+>
+> | Por **1 lata de milho** (≈ meio dia, 1 saco) | Quantidade |
+> |---|--:|
+> | Pão ralado | **450 g** (1½ saco de 300 g) |
+> | Farinha de milho tipo 70 | **250 g** |
+> | Whey de banana | **30 g** |
+> | Açúcar amarelo | **30 g** |
+> | Sal | **3 g** |
+> | **Na margem:** 1 lata de milho com o líquido · óleo de peixe **10-15 ml** · água **300-400 ml** aos poucos | |
+>
+> **Por dia: 2 doses** (~1,5 kg molhada, 2 canas). **Prepara os secos em casa, um saco por lata**, e molha uma dose de cada vez: seco não se estraga, molhado azeda. Betaína opcional: **~5 g de betaína HCl por dose**.
+
 **Receita para 1 kg de mistura** (≈1,3 kg hidratada):
 
 > ⚖️ **Quanto fazer?** A **~40 g por carga de method**, **duas canas uma manhã** (pôr as mesas + pescar) gastam **1,5-2 kg** → **faz 2 kg (dobra tudo)**. 1 kg chega para **uma cana** ou uma sessão curta. Sobrar é melhor que ficar a ver pratos por alimentar.
@@ -86,20 +99,20 @@ Atiras para a água uma mistura que **chama o peixe ao teu sítio**. Regra de ou
 | | sêmola / cuscuz | **140 g** | dá "grão", segura no anzol |
 | 🌽 **Partícula** (fica no fundo) | milho (lata, esmagado) | **220 g** | açúcares + aminoácidos · **é o que segura o cardume no prato** — e é o teu anzol (coerência engodo↔isco) |
 | 🛢️ **Slick** (cheiro que sobe) | óleo (cânhamo > vegetal) | **10-15 ml** | película que espalha cheiro — no verão dispersa bem · ⚠️ teto físico: mais **sela a bola** |
-| 🎯 **Gatilho** (betaína) | melaço | **30 g** | [contém 4-7% de betaína](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/), que [faz a carpa saborear tudo mais intenso](https://carp-austria.com/en/feeding-boilies/) — **não é "só doce"** · [dissolve em água quente](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/) · teto: [uns 30 ml/kg](https://www.britishaquafeeds.com/molasses) |
+| 🎯 **Gatilho** (betaína) | melaço **de beterraba** | **30 g** | [contém 4-7% de betaína](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/) · ⚠️ o **de cana** (o normal do supermercado) quase não tem: a base USDA dá **1 mg/100 g** de betaína para "Molasses", que [faz a carpa saborear tudo mais intenso](https://carp-austria.com/en/feeding-boilies/) — **não é "só doce"** · [dissolve em água quente](https://www.maggotdrowning.com/forums/threads/best-way-to-use-molasses.221172/) · teto: [uns 30 ml/kg](https://www.britishaquafeeds.com/molasses) |
 | 🥛 **Comida** (aminoácidos + nuvem) | whey/proteína (banana) | **30 g** | [proteína de leite = nuvem leitosa + aminoácidos](https://targetbaits.co.uk/blog/milk-powders-in-bait-what-they-do-why-they-matter-how-to-use-them/) |
 | | açúcar | **15 g** | doce · marginal (o melaço e o milho já adoçam) |
 | | sal | **3 g** (pitada) | realça · marginal |
 | 🐛 **Comida viva** (o topo) | asticots vivos | **1-2 mãos**, na hora | comida que mexe = gatilho visual + químico |
 | 💧 **Líquido** | água da lata do milho + água | **300-400 ml** | até ao ponto — ver teste abaixo |
 
-> 🥇 **Se tivesses de cortar tudo menos três:** **melaço** (betaína — o único que amplifica os outros), **asticots** (comida viva) e **milho** (partícula que segura + o anzol). O resto é logística: leva a comida ao fundo e faz a nuvem.
+> 🥇 **Se tivesses de cortar tudo menos três:** **melaço de beterraba** (betaína — o único que amplifica os outros), **asticots** (comida viva) e **milho** (partícula que segura + o anzol). O resto é logística: leva a comida ao fundo e faz a nuvem.
 
 > 🌾 **Upgrade quando houver (2-3 € numa loja de pesca): 160 g de cânhamo cozido** no lugar de 60-80 g de pão ralado. Faz o que o óleo **não** faz: o óleo dá o *slick* que se dispersa; o cânhamo é **partícula com óleo lá dentro** que fica horas no fundo a largar cheiro devagar — [é o que persiste quando tudo o resto já se lavou](https://fishingsuperbait.com/attractants-and-liquid-activators-in-baits-for-carp/). Coze 30-40 min até os grãos abrirem e mostrarem o gérmen branco.
 
 > 🚫 **Aroma em frasco: não é preciso.** O **whey de banana já traz o cheiro** (e é comida a sério) — juntar-lhe baunilha/banana por cima é duplicar o "anúncio", que é [o efeito mais fraco e o que se lava primeiro](https://www.fishingmagic.com/forums/threads/all-about-flavours.379721/). Se **não** usares whey de sabor, aí sim mete **um** aroma (2-3 ml). Nunca dois.
 
-> 🛢️ **Óleo — dose e limite:** **10-15 ml/kg** (1 c. sopa), até 20-30 no verão (dispersa melhor no quente; no frio quase não trabalha). **O teto é físico:** óleo a mais **sela a bola** e o method não abre — se brilhar ou colar aos dedos, passaste. **Cânhamo** é o de referência; ⚠️ **óleo de peixe** é ótimo atrativo mas **zona cinzenta legal** em águas interiores (peixe como engodo é proibido; óleo é derivado) → fica pelo vegetal. Nota honesta: qualquer óleo dá o *slick* (física), mas o poder de atração do de peixe vem do **perfil de ácidos gordos** — azeite/vegetal fazem o efeito mecânico, não o mesmo apelo *(opinião fundamentada, não medição)*.
+> 🛢️ **Óleo — dose e limite:** **10-15 ml/kg** (1 c. sopa), até 20-30 no verão (dispersa melhor no quente; no frio quase não trabalha). **O teto é físico:** óleo a mais **sela a bola** e o method não abre — se brilhar ou colar aos dedos, passaste. **Cânhamo** é o de referência; **óleo de peixe é legal**: o DL 112/2017 (art. 13.º) só proíbe *"espécies piscícolas vivas ou mortas e seus ovos"*, e o óleo não é uma espécie piscícola. É o que usamos na Banana Split simples. Nota honesta: qualquer óleo dá o *slick* (física), mas o poder de atração do de peixe vem do **perfil de ácidos gordos** — azeite/vegetal fazem o efeito mecânico, não o mesmo apelo *(opinião fundamentada, não medição)*.
 
 - **Líquido:** a **água da lata do milho** + água q.b. até ao ponto (uns 250-350 ml) — junta o melaço morno aqui.
 - **Na margem:** hidrata aos poucos, repousa 10 min, retifica. Ponto certo: **aperta → bloco; esfrega → migalhas.** Junta o milho e os asticots **na hora**.
