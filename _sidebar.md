@@ -1,6 +1,7 @@
 <!-- docsify sidebar -->
 
 - [⚡ No sítio (guia rápido)](NOSITIO.md)
+- [🌦️ Tempo aqui (hora a hora)](TEMPO.md)
 - [🏠 Início](README.md)
 
 - **📖 O guia**

@@ -2,6 +2,8 @@
 
 > Já estás na água, telemóvel na mão? **Salta direto ao que precisas.**
 
+🌦️ **Tempo aqui, hora a hora** (GPS do telemóvel) → [abrir](TEMPO.md)
+
 ---
 
 ## 🎣 Que peixe? → setup pronto
