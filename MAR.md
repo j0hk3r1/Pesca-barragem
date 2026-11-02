@@ -25,10 +25,10 @@
 
   var LOCAIS = {
     estuario: {nome:'🧱 Tejo — muralha/Oriente', lat:38.68, lon:-9.32, sol_lat:38.75, sol_lon:-9.10, lag:10, noturna:true,  cal:'✅ calibrado', carro:'🚲 30-40 min'},
-    caparica: {nome:'🏖️ Caparica',              lat:38.62, lon:-9.26, sol_lat:38.64, sol_lon:-9.23, lag:0,  noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 17-40 min (ponte)'},
-    sado:     {nome:'⚓ Setúbal / Sado',         lat:38.47, lon:-8.95, sol_lat:38.52, sol_lon:-8.89, lag:20, noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 51-70 min (ponte)'},
-    ericeira: {nome:'🌊 Ericeira / Costa Oeste', lat:38.96, lon:-9.43, sol_lat:38.96, sol_lon:-9.42, lag:0,  noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 41 min'},
-    sesimbra: {nome:'🐙 Sesimbra',               lat:38.42, lon:-9.11, sol_lat:38.44, sol_lon:-9.10, lag:0,  noturna:false, cal:'≈ herda a de Lisboa', carro:'🚗 39-60 min (ponte)'},
+    caparica: {nome:'🏖️ Caparica',              lat:38.62, lon:-9.26, sol_lat:38.64, sol_lon:-9.23, lag:0,  noturna:true , cal:'≈ herda a de Lisboa', carro:'🚗 17-40 min (ponte)'},
+    sado:     {nome:'⚓ Setúbal / Sado',         lat:38.47, lon:-8.95, sol_lat:38.52, sol_lon:-8.89, lag:20, noturna:true , cal:'≈ herda a de Lisboa', carro:'🚗 51-70 min (ponte)'},
+    ericeira: {nome:'🌊 Ericeira / Costa Oeste', lat:38.96, lon:-9.43, sol_lat:38.96, sol_lon:-9.42, lag:0,  noturna:true , cal:'≈ herda a de Lisboa', carro:'🚗 41 min'},
+    sesimbra: {nome:'🐙 Sesimbra',               lat:38.42, lon:-9.11, sol_lat:38.44, sol_lon:-9.10, lag:0,  noturna:true , cal:'≈ herda a de Lisboa', carro:'🚗 39-60 min (ponte)'},
     // Óbidos tem correção própria (+33 min, medida contra a TideTime em 6 eventos)
     // e a maré ainda demora a entrar na lagoa: a fase de M2 sobe 80° da barra ao
     // fundo = 166 min. No #1, a 63% do canal, dá +1h44 médio. A BM atrasa ~36 min
@@ -234,7 +234,7 @@
         '<b>🏆 Melhores janelas de pesca</b> = os <b>três melhores blocos de 2h30</b> do dia que não se sobrepõem, por ordem 🥇🥈🥉, pontuados de 15 em 15 min por <b>três coisas</b>: força da corrente (máxima a meio da maré), <b>altura de água</b> (numa lagoa rasa o peixe só chega às margens com maré cheia — por isso pesa mais em Óbidos que no mar) e <b>luz baixa</b> (a primeira e a última hora do dia valem por si). ⬆ enchente · ⬇ vazante. ⭐⭐⭐ = dia bom.<br>'+
         '<b>🌊 Água a mexer</b> = todas as horas com corrente, dês ou não estar livre. Cada janela começa 45 min depois de uma maré e acaba 45 min antes da seguinte (o estofo é água parada).<br>'+
         '<b>🎯 A tua janela</b> = a maior fatia dessas horas que te calha (semana 18h-22h · fim de semana 08h-22h 🎉'+
-        '; nas praias corta a ½h após o pôr-do-sol, no estuário não — aí a noturna é legal). <b>🌅</b> = apanha a hora do pôr-do-sol com água a mexer, que é a melhor do dia para robalo.<br>'+
+        '; de noite pode-se pescar, no mar e no estuário). <b>🌅</b> = apanha a hora do pôr-do-sol com água a mexer, que é a melhor do dia para robalo.<br>'+
         '<b>Nota</b> soma amplitude + minutos de água a mexer na tua janela + haver enchente + apanhar o crepúsculo.<br>'+
         '⚠️ As horas já levam a <b>correção do modelo</b> (o Open-Meteo adianta a maré ~74 min na PM e ~45 min na BM). '+
         'Calibração medida em 35 eventos contra a <a href="https://www.tidetime.org/europe/portugal/lisbon.htm" target="_blank">TideTime</a>, '+
@@ -632,7 +632,9 @@
 
 </script>
 
-> ⏰ **A janela é a tua:** semana **18h-22h** · fim de semana **08h-22h** — e a tabela corta sempre a ½h depois do pôr-do-sol (limite legal na praia; na muralha do estuário a noturna é legal e podes esticar).
+> ⚠️ **Esta tabela pontua a água a MEXER — é a lógica do estuário e das lagoas.** Para **praia de mar** usa a [🎯 Escolher o dia](#-escolher-o-dia--praia-de-mar-surfcasting) mais abaixo: lá a janela é **à volta da baixa-mar** e o que mais conta é o mar.
+
+> ⏰ **A janela é a tua:** semana **18h-22h** · fim de semana **08h-22h**. **De noite pode-se pescar**, no mar e no estuário: a lei nacional não proíbe; só os editais das capitanias podem restringir nas praias concessionadas (FAQ DGRM 2026 — ver ⛔ Época balnear).
 
 > 🌊 **A regra das marés (leia-se com atenção — é contraintuitivo):** o que manda **não é a maré cheia** — é a **água a MEXER**. O instante da preia-mar e o da baixa-mar são o **estofo**: a água pára para inverter e as picadas morrem. A doutrina clássica *"2 h antes e 2 h depois da preia-mar"* não contradiz isto: essas 4 horas são precisamente **água a correr**, com o estofo da preia-mar no meio a ser o pior ponto delas. A tabela desconta **±45 min** à volta de cada PM/BM e conta o resto como tempo útil.
 > *(Doutrina de pescadores consolidada, não medição — vale a pena registares as tuas picadas por fase de maré e ver se a tua água tem padrão próprio.)*
@@ -646,31 +648,38 @@
 > 🗒️ **De onde vem:** vídeos e respostas nos comentários de dois canais, lidos todos em nov-2026 — **Surfcasting Olivais** (Bruno, Lisboa: Guincho, Meco, Sintra) e **Peixe Português** (Luís, Leiria/Nazaré). **O** = Olivais · **L** = Luís.
 > ⚠️ **Na praia de mar a regra das marés de cima não serve:** os dois pescam **a viragem da baixa-mar**, fim de vazante incluído. A de cima é a do estuário e das lagoas.
 
+> ⏱️ **Em 30 segundos — antes de marcar:**
+> 1. **Windguru:** o mar está a **mudar**? (sobe depois de dias parados · 1.º dia a cair depois de temporal · véspera de temporal) E cabe no limite **desta** praia (plana ou funda)?
+> 2. **Tábua de marés:** a **baixa-mar** cai no teu horário, com **2 h antes e 2-3 h depois**? Maré grande?
+> 3. **Noite**, de preferência sem lua ou com céu tapado.
+> 4. **Água e vento:** sem limo; vento que essa praia aguenta.
+> 5. **No dia:** beachcam — o Windguru às vezes falha.
+
 ### 🌊 1. O mar — é o que mais conta
 
 | No Windguru / IPMA | Vai? | Quem |
 |---|---|---|
-| O mar **muda**: depois de dias parados (~0,5 m) sobe para **1-1,5 m e 8-9 s** | ✅ o melhor dia | [O](https://www.youtube.com/watch?v=4rM7LMqZJKw) |
+| O mar **muda**: depois de dias parados (~0,5 m) sobe para **1-1,5 m e 8-9 s** | ✅ dia bom | [O](https://www.youtube.com/watch?v=4rM7LMqZJKw) [O](https://www.youtube.com/watch?v=S-PPnGs4uwM) |
 | **1.º dia a cair** depois de um temporal | ✅ | [O](https://www.youtube.com/watch?v=GaAI_pUCZC4) + [L](https://www.youtube.com/watch?v=4F9mWcbk2p8) |
 | **Véspera** de temporal — o último dia calmo | ✅ janela | [O](https://www.youtube.com/watch?v=UTWUpQ3q_ds) |
-| Dias seguidos de **mar chão e água clara** | ❌ pouco peixe | [O](https://www.youtube.com/watch?v=8t3CZKZA-is) + [L](https://www.youtube.com/watch?v=0cBdgF2T5Tk) |
+| **Semanas de mar parado** e água clara | ❌ pouco peixe | [O](https://www.youtube.com/watch?v=8t3CZKZA-is) + [L](https://www.youtube.com/watch?v=0cBdgF2T5Tk) |
 | **Praia plana** (Guincho) com **mais de 1,5 m** ou **mais de 11 s** | ❌ | [O](https://www.youtube.com/watch?v=uzua6kxQDhA) |
 | **Praia funda** (Meco) com **até ~2 m e 12-15 s** | ⚠️ dá peixe, mas é mar duro | [O](https://www.youtube.com/watch?v=phKOe04hlM4) |
 
 - *"Por norma não vamos com mar maior que 1.5m e 11s isto dependendo da praia claro"* — O, nos comentários. *"Em praias muito planas pescar com mais de metro e meio e períodos altos, só na baixa mar de uma maré grande. A não ser que existam fundões"* — O, nos comentários.
 - **O período pesa tanto como a altura:** *"quanto mais longo for, mais força traz a vaga"* (O). Mesmo assim, em praia funda o Olivais pesca mar grande e apanha: **robalo XL** com 2 m e 14-15 s ([vídeo](https://www.youtube.com/watch?v=phKOe04hlM4)); robalos de ~2 kg com 1,5 m e 12-13 s, depois de mudar para *"uma praia um pouco mais funda"* ([vídeo](https://www.youtube.com/watch?v=0LbtbqA0Kfk)). Mar duro pede garras e estralho curto e grosso (🎣 5).
-- **Guincho:** o que ele mais gosta é **0,5 m, 7-8 s e vento sul** ([vídeo](https://www.youtube.com/watch?v=V1UskU3c_EU)). *"1 m com períodos de 10 segundos (…) já é um bocadinho forte para esta praia"* — mas nesse dia fez a enchente toda e teve atividade máxima ([vídeo](https://www.youtube.com/watch?v=A5xFZ5CqGYs)).
+- **Guincho:** o que ele mais gosta é **0,5 m, 7-8 s e vento sul** ([vídeo](https://www.youtube.com/watch?v=V1UskU3c_EU)) — ali 0,5 m não conta como "mar parado"; o mau é o mar ficar assim semanas. *"1 m com períodos de 10 segundos (…) já é um bocadinho forte para esta praia"* — mas nesse dia fez a enchente toda e teve atividade máxima ([vídeo](https://www.youtube.com/watch?v=A5xFZ5CqGYs)).
 - 📏 **Lê os números na app que eles usam** (Windguru ou IPMA), para os limites baterem certo. O Open-Meteo dá o **período médio** ([documentação](https://open-meteo.com/en/docs/marine-weather-api)), que sai mais baixo do que o de pico. Que período mostra o Windguru: não confirmado.
 
 ### 🌗 2. A maré
 
 - **Janela: as últimas 2 h a vazar e as primeiras 2-3 h a encher.** *"Fazer as últimas duas a vazar e as duas primeiras a encher"* ([L](https://www.youtube.com/watch?v=wLvRCkM4eQ0)); *"duas últimas da vazante e três primeiras da enchente"* ([O](https://www.youtube.com/watch?v=A4D-lVuZzxc)). O Olivais estica muitas vezes **a enchente toda**.
-- **Marés grandes** (baixa-mar a 0,8 m ou menos) — mais movimento de água (O + L).
+- **Marés grandes:** *"0.8 de altura portanto já é uma maré de coeficiente alto"* ([O](https://www.youtube.com/watch?v=GaAI_pUCZC4)) — baixa-mar a 0,8 m ou menos. Mais movimento de água (O + L).
 - **O ideal:** a baixa-mar **perto do pôr do sol** — chegas com luz e a viragem já é de noite ([O](https://www.youtube.com/watch?v=wm1HsxhFfOU)).
 
 ### 🌙 3. Luz, lua, vento, água
 
-- **De noite** é melhor (O). **No Guincho, só de noite:** antes do pôr do sol há surfistas ([O](https://www.youtube.com/watch?v=o94N1-j-ckA)).
+- **De noite** é melhor (O). **No Guincho, só de noite:** *"nesta praia começar a pescar antes do pôr do sol é quase impossível"* — surfistas ([O](https://www.youtube.com/watch?v=V1UskU3c_EU)).
 - **Lua:** prefere *"lua nova pela total ausência de luar"*, e lua cheia só *"se for num dia de céu muito nublado"*; *"em conclusão, eu prefiro as marés grandes"* ([O](https://www.youtube.com/watch?v=wKWS5aUXIfY)). É preferência, não regra — tem boas pescas com lua cheia.
 - **Vento sul:** bom no Guincho (O); mau em S. Pedro de Moel — *"o peixe não tem encostado, as águas estão muito abertas"* ([L](https://www.youtube.com/watch?v=vwbeX_r1kgA)). **Depende da praia.**
 - **Água:** depois de vento norte e um pouco de chuva, *"um bocadinho escuras, mais tapadas. E acho que é o ideal"* ([L](https://www.youtube.com/watch?v=vwbeX_r1kgA)). Clara com mar chão = mau (O + L).
@@ -683,9 +692,9 @@
 
 ### 🎣 5. No dia — a montagem pelo mar
 
-- **Começa** com 1 estralho de **2-3 m** *"se o mar deixar"*, fluoro **0,40** de noite, chumbo **130-140 g** (O). O Luís vai mais fino (0,23-0,28): *"quanto mais fino isso o mar deixar buscar, melhor"* ([L](https://www.youtube.com/watch?v=77b_H4l4CIU)).
+- **Começa** com 1 estralho de **2-3 m**, fluoro **0,40** de noite, chumbo **130-140 g**: *"pesco sempre com cerca de 2m a 3m se o mar deixar. E a pescar de noite nunca baixo do 0.40mm"* (O, nos comentários). O Luís vai mais fino (0,23-0,28): *"quanto mais fino isso o mar deixar buscar, melhor"* ([L](https://www.youtube.com/watch?v=77b_H4l4CIU)).
 - **Vem enrolado:** *"temos de engrossar o diâmetro e/ou encurtar os mesmos, até que venham direitos"* (O). Com o mar a crescer foi de 2 m → 1,5 → 1 m → **70 cm** e ainda fez *"três rotes jeitosos"* (robalotes) — *"o que importa é que o estralho venha direito porque se tiver tudo enrolado não tá a pescar"* ([O](https://www.youtube.com/watch?v=XA7H9R3fVMI)). Luís: estralho 10-15 cm mais curto que a madre, e mais curto ainda se enrolar ([L](https://www.youtube.com/watch?v=Cih3pTKaVR4)).
-- **O chumbo não segura → muda a forma:** gota → pirâmide → garras (O); rebaixada → peão → aranha (L). *"Se as garras não seguram a pesca então mais vale ir para casa"* (O).
+- **O chumbo não segura → muda a forma:** bico de pato → pirâmide → garras (O); pirâmide rebaixada → peão → aranha ([L](https://www.youtube.com/watch?v=77b_H4l4CIU)). Os dois dizem o mesmo no fim: *"se as garras não seguram a pesca então mais vale ir para casa"* (O); *"posso arrumar e ir-me embora"* (L).
 
 ---
 
@@ -806,7 +815,7 @@ Do tópico *["Pesca apeada a partir de praias concessionadas, durante a época b
 - 💳 **Licença marítima (DGRM)** — obrigatória (**8 €/ano** ou 2 €/dia). A do ICNF **não vale** aqui.
 - 🚨 **ROBALO: registo de capturas OBRIGATÓRIO.** Por [regulamento europeu](https://www.dgrm.pt/sistema-eletronico-de-registo-de-capturas-recfishing), as capturas de **robalo** (e atum-rabilho e espadins) têm de ser comunicadas **eletronicamente e no próprio dia** através da app **RecFishing** ([Android](https://play.google.com/store/apps/details?id=eu.europa.publications.recfishing) · [iOS](https://apps.apple.com/pt/app/recfishing/id6746253374), grátis). Apoio: app_pescaludica@dgrm.pt · ☎ 213 035 805.
 - 🗺️ **Onde é que esta portaria manda** — [art. 2.º, texto literal](https://diariodarepublica.pt/dr/detalhe/portaria/330-2026-1154555263): *"águas interiores não marítimas do estuário do rio Tejo (…) **sob jurisdição da Capitania do Porto de Lisboa**, limitadas, **a montante, pela linha cabo de Vila Franca de Xira**-foz do esteiro do Dr. Nogueira e, **a jusante, pela linha Torre do Bugio-Torre do Forte de São Julião**"*. → **O Parque Ribeirinho Oriente, o Adamastor, Algés, Seixal, Montijo e Alcochete estão todos lá dentro.** A Caparica, a Ericeira e Sesimbra estão fora (é costa oceânica).
-- 🎣 **Máximo 2 canas ou linhas de mão** por pescador ([art. 10.º a)](https://diariodarepublica.pt/dr/detalhe/portaria/330-2026-1154555263)).
+- 🎣 **Estuário: máximo 2 canas ou linhas de mão** por pescador ([art. 10.º a)](https://diariodarepublica.pt/dr/detalhe/portaria/330-2026-1154555263)). **No mar aberto são até 3 canas e 9 anzóis no total** ([FAQ DGRM 2026](https://www.dgrm.pt/documents/20143/121104/FAQ-Pesca+Ludica+2026_08.pdf/9669422f-b7a9-25f5-708f-3cd1f06ba21d), art. 9.º do DL 246/2000).
 - 🪝 **Máx. 3 anzóis por cana e abertura mínima de 8 mm** — a portaria define *"pesca à linha (…) com o número máximo de anzóis de três e a **abertura mínima dos anzóis de 8 mm**"* (art. 4.º), e o art. 10.º proíbe à lúdica *"utilizar utensílios ou artes não previstos na presente portaria"*. ⚠️ **8 mm é pouco — mas MEDE, não estimes.** A abertura varia muito com o padrão do anzol, não só com o número: medições próprias — **anzol de mar com barbelas: 8,3 mm** · **anzol de carpa nº 4 (abertura larga): 9,9 mm**. Ou seja, um nº 4 de carpa passa folgado e um nº 4 de mar pode não passar. **Teste de campo: 8 mm ≈ o diâmetro de uma Bic** — se a caneta passa entre a ponta e a haste, estás lá. Os anzóis pequenos de sargo (nº 6 e abaixo) ficam de fora.
   - ⚠️ *A regra vem de cruzar dois artigos: o art. 4.º define a «pesca à linha» com 3 anzóis e 8 mm sob um número que fala de pesca **comercial**; é o art. 10.º que proíbe à lúdica usar utensílios «não previstos na presente portaria». É a leitura natural, mas não é uma frase explícita sobre a lúdica.*
 - 🌙 **Noturna apeada é LEGAL** — [art. 10.º c)](https://diariodarepublica.pt/dr/detalhe/portaria/330-2026-1154555263): *"Do pôr ao nascer do sol a pesca lúdica não pode exercer-se **de bordo de embarcações** nem na modalidade de **apanha**"*. De terra, pode.
@@ -965,8 +974,8 @@ A lagoa é **águas interiores não oceânicas sob jurisdição da Capitania de 
 | | Óbidos | Geral |
 |---|---|---|
 | 🎣 **Canas por pescador** | **2** *(art. 12.º n.º 1)* | 3 |
-| 🪝 Anzóis por cana | 3 *(Anexo I)* | 3 |
-| 📏 Abertura mínima do anzol | **8 mm** — *escrito à letra no Anexo I* | 8 mm (deduzido) |
+| 🪝 Anzóis por cana | 3 *(Anexo I)* | 9 no total, nas 3 canas *(FAQ DGRM 2026)* |
+| 📏 Abertura mínima do anzol | **8 mm** — *escrito à letra no Anexo I* | — *(os 8 mm são do estuário do Tejo)* |
 | 🤿 Caça submarina | **proibida** *(art. 13.º)* | — |
 | 🚤 De barco, do pôr ao nascer do Sol | proibido *(art. 12.º n.º 2)* — **de terra é na mesma** | — |
 
@@ -1877,7 +1886,7 @@ Concha fechada **8 km a norte da Foz do Arelho**, abrigada de quase toda a ondul
 | **Época balnear 13 jun – 13 set** → praia toda proibida nesse período | [Portaria 204-A/2026](https://files.diariodarepublica.pt/1s/2026/04/08401/0000200039.pdf), linha "S. Martinho do Porto" |
 | **< 100 m** de marinas, embarcadouros e cais de atracação — o ano todo | [Edital 171/2026, Cap. Nazaré](https://www.amn.pt/DGAM/Capitanias/Nazare/Lists/Documentos_AMN/Edital%20n.%C2%BA%20171_2026.pdf), pesca lúdica b) 2) |
 | **Canal de navegação da boca = pesca proibida** · zona do cais = apeada proibida · **arco da praia inteiro = permitida** | anexo II do [Edital 1/2017](https://www.marinha.pt/pt/clm/ficheiros/CLM/Documentos/Parte%20I/C4/S1/Edital%201_2017,%2002JAN.pdf) — o último mapa publicado |
-| Mar: **2 canas**, licença de pesca lúdica marítima | Portaria 330/2026 |
+| Mar: **até 3 canas e 9 anzóis no total**, licença de pesca lúdica marítima | [FAQ DGRM 2026](https://www.dgrm.pt/documents/20143/121104/FAQ-Pesca+Ludica+2026_08.pdf/9669422f-b7a9-25f5-708f-3cd1f06ba21d) — art. 9.º do DL 246/2000 (redação do DL 101/2013) |
 
 <img src="smartinho-zonas-2017.jpg" alt="Mapa da Capitania da Nazaré: zonas de pesca permitida e proibida na baía de S. Martinho" style="max-width:100%;border-radius:8px">
 
@@ -1935,6 +1944,7 @@ Três montagens diferentes andam com o mesmo nome. **O comprimento do estralho n
 - **fundo sujo ou maré a correr → 30-45 cm** · **fundo limpo e água parada → 60-90 cm** (o isco move-se mais natural)
 - 🌙 **noite → mais curto; dia → mais comprido** — de noite o peixe está menos desconfiado e não precisa da apresentação solta ([Surfcasting Pura Paixão](https://www.youtube.com/watch?v=a1OxBWKsSCo))
 - ⚠️ o mesmo vídeo dá o critério prático: **duas enleadas e encurtas.** Não insistas por teimosia
+- 🇵🇹 **Na praia de mar os dois canais portugueses usam estralhos muito mais compridos** (1 estralho de 2-3 m logo acima do chumbo) e só encurtam quando enrola — ver [🎯 5. No dia](#-escolher-o-dia--praia-de-mar-surfcasting).
 
 ### 🎣 A montagem da muralha — 2 anzóis, à escala
 
