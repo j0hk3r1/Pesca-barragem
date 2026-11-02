@@ -46,16 +46,16 @@
   // A tabela passa tudo para a régua dele: os limites são os números que ele diz nos vídeos.
   var ESC_H = 1/1.27, ESC_T = 0.9;
   var PRAIAS = [
-    {k:'guincho',   nome:'Guincho',       lat:38.708, lon:-9.5417, tipo:'plana', soNoite:true, chega:19,   epoca:['05-01','09-30']},
+    {k:'guincho',   nome:'Guincho',       lat:38.708, lon:-9.5417, tipo:'plana', soNoite:true, epoca:['05-01','09-30']},
     // S. João: fundo medido −2,6 m a 400 m da areia, mais plano que o Guincho
-    {k:'caparica',  nome:'Caparica (S. João)', lat:38.65, lon:-9.30, tipo:'plana',             chega:19,   epoca:['05-01','10-15']},
+    {k:'caparica',  nome:'Caparica (S. João)', lat:38.65, lon:-9.30, tipo:'plana',             epoca:['05-01','10-15']},
     // Fonte da Telha: o modelo de ondas põe-na na célula de Albufeira; o fundo é intermédio (−3 m a 400 m, −11 m a 700 m)
-    {k:'telha',     nome:'Fonte da Telha', lat:38.572, lon:-9.20,  tipo:'geral',               chega:19,   epoca:['05-01','10-15']},
+    {k:'telha',     nome:'Fonte da Telha', lat:38.572, lon:-9.20,  tipo:'geral',               epoca:['05-01','10-15']},
     // Cova do Vapor: todos os modelos de ondas a põem na célula da Caparica. O que muda é a barra (corrente).
-    {k:'vapor',     nome:'Cova do Vapor', lat:38.66,  lon:-9.26,   tipo:'geral', barra:true,   chega:19,   epoca:['05-01','10-15'],
+    {k:'vapor',     nome:'Cova do Vapor', lat:38.66,  lon:-9.26,   tipo:'geral', barra:true,   epoca:['05-01','10-15'],
      nota:'🌊 no modelo é o mar da Caparica · ⚖️ fronteira mar/estuário: até a Capitania confirmar, 2 canas e 3 anzóis por cana'},
-    {k:'albufeira', nome:'Albufeira-Mar', lat:38.54,  lon:-9.21,   tipo:'funda',               chega:19.5, epoca:['06-04','09-13']},
-    {k:'meco',      nome:'Meco',          lat:38.49,  lon:-9.23,   tipo:'funda',               chega:19.5, epoca:['06-04','09-13']}
+    {k:'albufeira', nome:'Albufeira-Mar', lat:38.54,  lon:-9.21,   tipo:'funda',               epoca:['06-04','09-13']},
+    {k:'meco',      nome:'Meco',          lat:38.49,  lon:-9.23,   tipo:'funda',               epoca:['06-04','09-13']}
   ];
   var H1 = 3600000;
 
@@ -138,6 +138,10 @@
     ][n];
   }
 
+  // o teu horário habitual: semana desde as 19h, fim de semana desde as 8h, até à 1h.
+  // A tabela avalia as baixa-mares a qualquer hora; as de fora deste horário levam ⏰.
+  var HORARIO={semana:19, fds:8, fim:25};
+
   function avaliaPraias(dados, sol, mares, hojeMs){
     // dados[k] = {mar:{H,T}, vento:{v,r,d,nuv}} · sol[ymd] = {nascer,por} · mares = eventos já corrigidos
     var dias=[], d0=new Date(hojeMs); d0.setHours(0,0,0,0);
@@ -149,7 +153,8 @@
       var hora=function(h){ var x=new Date(dia); x.setHours(Math.floor(h), Math.round(h%1*60), 0, 0); return x.getTime(); };
       if(!s) continue;
       var fds=(dia.getDay()===0||dia.getDay()===6);
-      var bms=mares.filter(function(e){ return e.tipo==='BM' && e.t.getTime()>ini-3*H1 && e.t.getTime()<fim+2*H1; });
+      // cada baixa-mar dá uma janela; fica no dia em que a janela começa (BM das 00:28 = sábado à noite)
+      var bms=mares.filter(function(e){ var w0=e.t.getTime()-2*H1; return e.tipo==='BM' && w0>=ini && w0<fim; });
       // o temporal é da costa toda: mediana das praias (a previsão não distingue praias vizinhas)
       var costa=function(off, campo, ser){
         var a=ini+off*24*H1, v=PRAIAS.map(function(p){ return dados[p.k][campo][ser].max(a, a+23*H1); })
@@ -160,25 +165,20 @@
       var temporalCosta=function(off){ var h=costa(off,'mar','H'), r=costa(off,'vento','r'); return (h!=null && h>=2.0) || (r!=null && r>=60); };
       // véspera = o último dia calmo: o temporal chega amanhã, ou depois de amanhã com amanhã já ventoso
       var vesperaCosta = !temporalCosta(0) && (temporalCosta(1) || (temporalCosta(2) && (costa(1,'vento','r')||0)>=50));
-      var spots=PRAIAS.map(function(p){
+      var avalia=function(p, B){
         var D=dados[p.k];
-        var a0=hora(fds?8:p.chega), a1=hora(22);
-        if(p.soNoite) a0=Math.max(a0, s.por.getTime());
-        // a janela da maré: BM −2 h → BM +3 h, dentro da tua
-        var J=null;
-        bms.forEach(function(b){
-          var w0=Math.max(b.t.getTime()-2*H1, a0), w1=Math.min(b.t.getTime()+3*H1, a1);
-          if(w1-w0>(J?J.w1-J.w0:0)) J={bm:b, w0:w0, w1:w1};
-        });
+        // a janela da maré: BM −2 h → BM +3 h
+        var J={bm:B.bm, w0:B.w0, w1:B.w1};
         var R={p:p, j:J, motivos:[], luz:[], pts:0, nota:'❌❌', fora:true};   // ❌❌ = não vale a pena ir
+        if(p.soNoite){              // Guincho: de dia tem surfistas — só antes do nascer ou depois do pôr do sol
+          var nas=s.nascer.getTime(), por=s.por.getTime();
+          if(J.w0<nas) J.w1=Math.min(J.w1, nas); else if(J.w0<por) J.w0=Math.max(J.w0, por);
+          if(J.w1-J.w0<90*60000){ R.mot0='de dia (surfistas)'; return R; }
+        }
         var dMax=function(off){ var a=ini+off*24*H1; return D.mar.H.max(a, a+23*H1); };
         var ontem=dMax(-1);
         var antes=[dMax(-4),dMax(-3),dMax(-2),ontem].filter(function(x){return x!=null;});
         var mediaAntes=antes.length?antes.reduce(function(a,b){return a+b;},0)/antes.length:null;
-        if(!J || J.w1-J.w0<90*60000){
-          R.mot0 = !J ? 'sem baixa-mar no teu horário' : 'só '+Math.round((J.w1-J.w0)/60000)+' min de janela';
-          return R;
-        }
         var H=D.mar.H.med(J.w0,J.w1), T=D.mar.T.med(J.w0,J.w1);
         var bmZH=J.bm.alt+ZH, mareGrande=bmZH<=0.8;
         var kW=potencia(H, T), mar=marOk(p, H, T, kW, mareGrande);
@@ -216,7 +216,6 @@
         if(mareGrande){ pts+=1; Z.push('maré grande'); if(p.barra) M.push('⚠️ maré grande: corrente forte na barra — pesca as viragens'); }
         var dPor=(J.bm.t.getTime()-s.por.getTime())/60000;
         if(dPor>=-30 && dPor<=120){ pts+=1; Z.push('BM logo a seguir ao pôr do sol'); }
-        if(J.w1-J.w0>=150*60000) pts+=1;
         // 3. luz, lua, vento
         var meio=J.w0+(J.w1-J.w0)/2, sp=sol[ymd(new Date(meio))]||s;
         var noite = meio>=sp.por.getTime() || meio<=sp.nascer.getTime();
@@ -235,13 +234,21 @@
         if(p.k==='guincho' && dir!=null && dir>=135 && dir<=225){ pts+=1; M.push('✅ vento sul (o do Guincho)'); }
         R.pts=pts; R.noite=noite;
         R.fora=false;
-        R.nota = pts>=7?'⭐⭐⭐':pts>=5?'⭐⭐':pts>=3?'⭐':'❌';     // ❌ = fraco
+        R.nota = pts>=6?'⭐⭐⭐':pts>=4?'⭐⭐':pts>=2?'⭐':'❌';     // ❌ = fraco
         R.mont = montagem(H, T, [10,11,0,1,2].indexOf(dia.getMonth())>=0);   // inverno = nov-mar
         var md=k.slice(5), e0=p.epoca;
         R.epoca = md>=e0[0] && md<=e0[1];
         return R;
+      };
+      var janelas=bms.map(function(b){
+        var w0=b.t.getTime()-2*H1, w1=b.t.getTime()+3*H1;
+        // cabe no teu horário se der pelo menos 1h30 dentro dele
+        var u0=Math.max(w0, hora(fds?HORARIO.fds:HORARIO.semana)), u1=Math.min(w1, hora(HORARIO.fim));
+        var B={bm:b, w0:w0, w1:w1, teu: u1-u0>=90*60000 ? {u0:u0, u1:u1} : null};
+        B.spots=PRAIAS.map(function(p){ return avalia(p, B); });
+        return B;
       });
-      dias.push({k:k, dia:dia, fds:fds, s:s, passado:n<0, bms:bms.filter(function(b){return ymd(b.t)===k;}), spots:spots});
+      dias.push({k:k, dia:dia, fds:fds, s:s, passado:n<0, janelas:janelas});
     }
     return dias;
   }
@@ -251,47 +258,84 @@
     var f=function(x){ return x==null?'—':x.toFixed(1).replace('.',','); };
     var COR={ok:'#e6f4ec', aviso:'#fff4d6', nao:'#fbe9e9'};
     var val=function(R){ return R.fora?-9:R.pts; };
-    var melhores=dias.map(function(D){ return Math.max.apply(null, D.spots.map(val)); });
-    var top=melhores.filter(function(x,i){ return !dias[i].passado; }).sort(function(a,b){return b-a;});
-    var abre=Math.max(5, top[1]!=null?top[1]:top[0]);   // abre os 2 melhores dias (se tiverem ⭐⭐ ou mais)
+    var hj=function(t){ return hm(new Date(t)); };
+    var nomeDia=function(D){ return DIAS[D.dia.getDay()]+' '+D.k.slice(8)+'/'+D.k.slice(5,7); };
+    var ordena=function(J){ return J.spots.slice().sort(function(a,b){ return val(b)-val(a); }); };
+    var diaVal=function(D){ return Math.max.apply(null, [-9].concat(D.janelas.map(function(J){ return val(ordena(J)[0]); }))); };
+    var top=dias.filter(function(D){ return !D.passado; }).map(diaVal).sort(function(a,b){return b-a;});
+    var abre=Math.max(4, top[1]!=null?top[1]:top[0]);   // abre os 2 melhores dias (se tiverem ⭐⭐ ou mais)
     var css='<style>.pr-d{border:1px solid #dfe7e3;border-radius:10px;margin:.45em 0;background:#fff}'+
-      '.pr-d>summary{cursor:pointer;padding:.55em .8em;list-style-position:inside}'+
+      '.pr-d>summary{cursor:pointer;padding:.55em .8em;list-style-position:inside;line-height:1.55}'+
       '.pr-d[open]>summary{border-bottom:1px solid #e6ece9;background:#f6faf8;border-radius:10px 10px 0 0}'+
       '.pr-s{padding:.45em .8em;border-top:1px solid #eef2f0;font-size:.93em;line-height:1.5}.pr-best{background:#eef8f4}'+
+      '.pr-j{padding:.4em .8em;border-top:1px solid #dfe7e3;background:#f3f6f5;font-size:.9em}.pr-top{padding-bottom:.2em}'+
       '.pr-ant{background:#f7f8f8}.pr-ant>.pr-d{margin:.45em .6em}.pr-m{padding:0 .3em;border-radius:4px;white-space:nowrap}.pr-l{font-size:.9em;margin-top:.1em}.pr-sub{font-size:.82em;opacity:.7}</style>';
-    var cartao=function(D, i){
-      var ord=D.spots.slice().sort(function(a,b){ return val(b)-val(a); }), best=ord[0], bom=val(best)>-9;
-      var bmTxt=D.bms.map(function(b){ return 'BM '+hm(b.t)+' ('+f(b.alt+ZH)+' m)'; }).join(' · ');
-      var resumo;
-      if(bom){
-        var outros=ord.slice(1).filter(function(R){ return R.nota===best.nota; }).map(function(R){ return R.p.nome; });
-        resumo=best.nota+' <b>'+best.p.nome+'</b>'+(outros.length?' <span class="pr-sub">(e '+outros.join(', ')+')</span>':'')+
-          ' · pescas '+hm(new Date(best.j.w0))+'-'+hm(new Date(best.j.w1))+(best.luz.length?' · '+best.luz.join(' · '):'');
-      } else {
-        var Hs=D.spots.map(function(R){return R.H;}).filter(function(x){return x!=null;});
-        var conta={}, mot=null;
-        D.spots.forEach(function(R){ conta[R.mot0]=(conta[R.mot0]||0)+1; if(!mot||conta[R.mot0]>conta[mot]) mot=R.mot0; });
-        resumo='❌❌ '+mot+(Hs.length && /mar|regra/.test(mot)?' ('+f(Math.min.apply(null,Hs))+'-'+f(Math.max.apply(null,Hs))+' m)':'');
-      }
-      // uma praia = 2-3 linhas curtas (cabe no telemóvel sem deslizar para o lado)
-      var linhas=D.spots.map(function(R){
-        var nome='<b>'+R.p.nome+'</b>'+(R.p.soNoite?' 🌙':'')+(R.epoca?' <span class="pr-sub">⛔ época balnear</span>':'');
-        if(R.fora) return '<div class="pr-s">❌❌ '+nome+' — '+R.mot0+
-          (R.H!=null && R.mar && R.mar.v==='nao' ? ' ('+f(R.H)+' m · '+Math.round(R.T)+' s)' : '')+'</div>';
-        var vento = R.raj==null ? '' : ' · 💨 '+(R.dir==null?'':RUMOS[Math.round(R.dir/45)%8]+' ')+Math.round(R.vel)+' km/h <span class="pr-sub">(raj '+Math.round(R.raj)+')</span>';
-        if(R.p.ventoDe) vento += ' <span class="pr-sub">(vento de '+R.p.ventoDe+')</span>';
-        if(R.chuva && R.chuva.max>=1) vento += ' · ☔ '+(Math.round(R.chuva.min)===Math.round(R.chuva.max)?'':Math.round(R.chuva.min)+'-')+Math.round(R.chuva.max)+' mm';
-        return '<div class="pr-s'+(R===best?' pr-best':'')+'"><b>'+R.nota+'</b> '+nome+' · '+hm(new Date(R.j.w0))+'-'+hm(new Date(R.j.w1))+
-          ' · <span class="pr-m" style="background:'+COR[R.mar.v]+'">'+f(R.H)+' m · '+Math.round(R.T)+' s · '+Math.round(R.kW)+' kW '+R.tend+'</span>'+vento+
-          '<div class="pr-l">🎣 começa com '+R.mont.txt+'<br>↳ '+R.mont.dois+'</div>'+
-          '<div class="pr-l pr-sub">'+R.motivos.join(' · ')+'</div>'+(R.p.nota?'<div class="pr-l pr-sub">'+R.p.nota+'</div>':'')+'</div>';
-      }).join('');
-      return '<details class="pr-d"'+(bom&&!D.passado&&melhores[i]>=abre?' open':'')+'><summary><b>'+DIAS[D.dia.getDay()]+' '+D.k.slice(8)+'/'+D.k.slice(5,7)+'</b>'+(D.fds?' 🎉':'')+
-        ' · '+resumo+'<br><span class="pr-sub">'+(bmTxt||'sem baixa-mar')+' · pôr do sol '+hm(D.s.por)+'</span></summary>'+linhas+'</details>';
+    // as horas a mostrar: se a janela cabe no teu horário, só a parte que cabe
+    var horas=function(R, J){
+      var a=R.j.w0, z=R.j.w1;
+      if(J.teu){ a=Math.max(a, J.teu.u0); z=Math.min(z, J.teu.u1); if(z<=a){ a=R.j.w0; z=R.j.w1; } }
+      return hj(a)+'-'+hj(z)+(J.teu?'':' ⏰');
     };
-    var passado=dias.map(function(D,i){ return D.passado?cartao(D,i):''; }).join('');
-    var html=(passado?'<details class="pr-d pr-ant"><summary><b>📜 Semana anterior</b> <span class="pr-sub">— o que a tabela teria dito, com o mar que fez</span></summary>'+passado+'</details>':'')+
-      dias.map(function(D,i){ return D.passado?'':cartao(D,i); }).join('');
+    // a melhor praia de uma janela, numa linha
+    var resumoJ=function(J){
+      var ord=ordena(J), b=ord[0];
+      if(val(b)>-9){
+        var outros=ord.slice(1).filter(function(R){ return R.nota===b.nota; }).length;
+        return b.nota+' '+horas(b, J)+' · <b>'+b.p.nome+'</b>'+(outros?' <span class="pr-sub">e mais '+outros+'</span>':'')+
+          (b.luz.length?' <span class="pr-sub">· '+b.luz.join(' · ')+'</span>':'');
+      }
+      var Hs=J.spots.map(function(R){return R.H;}).filter(function(x){return x!=null;});
+      var conta={}, mot=null;
+      J.spots.forEach(function(R){ conta[R.mot0]=(conta[R.mot0]||0)+1; if(!mot||conta[R.mot0]>conta[mot]) mot=R.mot0; });
+      return '❌❌ '+hj(J.w0)+'-'+hj(J.w1)+(J.teu?'':' ⏰')+' · '+mot+(Hs.length && /mar|regra/.test(mot)?' ('+f(Math.min.apply(null,Hs))+'-'+f(Math.max.apply(null,Hs))+' m)':'');
+    };
+    var corpoJ=function(J){
+      var ord=ordena(J), b=ord[0];
+      var cab='<div class="pr-j"><b>🌗 BM '+hm(J.bm.t)+'</b> ('+f(J.bm.alt+ZH)+' m) · '+hj(J.w0)+'-'+hj(J.w1)+' · '+
+        (!J.teu ? '⏰ fora do teu horário' : (J.teu.u0>J.w0||J.teu.u1<J.w1) ? 'no teu horário: '+hj(J.teu.u0)+'-'+hj(J.teu.u1) : 'no teu horário')+'</div>';
+      // as fracas e as que não dão ficam numa linha, juntas pela razão
+      var grupos={}, ordemG=[];
+      ord.filter(function(R){ return R.fora || R.nota==='❌'; }).forEach(function(R){
+        var raz=R.fora ? R.mot0 : (R.mar && R.mar.v!=='ok' ? R.mar.txt : 'poucos sinais a favor'), g=(R.fora?'❌❌':'❌')+' '+raz;
+        if(!grupos[g]){ grupos[g]=[]; ordemG.push(g); }
+        grupos[g].push(R);
+      });
+      var maus=ordemG.map(function(g){
+        var Rs=grupos[g], Hs=Rs.map(function(R){return R.H;}).filter(function(x){return x!=null;});
+        var mar=Rs[0].mar && Rs[0].mar.txt===g.slice(g.indexOf(' ')+1) && Hs.length ? ' ('+f(Math.min.apply(null,Hs))+(Hs.length>1&&f(Math.min.apply(null,Hs))!==f(Math.max.apply(null,Hs))?'-'+f(Math.max.apply(null,Hs)):'')+' m)' : '';
+        return '<div class="pr-s pr-sub">'+g.split(' ')[0]+' '+Rs.map(function(R){ return R.p.nome; }).join(', ')+' — '+g.slice(g.indexOf(' ')+1)+mar+'</div>';
+      }).join('');
+      return cab+ord.filter(function(R){ return !R.fora && R.nota!=='❌'; }).map(function(R){ return linha(R, R===b, R===b || R.mont.txt!==b.mont.txt); }).join('')+maus;
+    };
+    // uma praia = 2-3 linhas curtas (cabe no telemóvel sem deslizar para o lado); a montagem só quando muda
+    var linha=function(R, best, comMont){
+      var nome='<b>'+R.p.nome+'</b>'+(R.p.soNoite?' 🌙':'')+(R.epoca?' <span class="pr-sub">⛔ época balnear</span>':'');
+      var vento = R.raj==null ? '' : ' · 💨 '+(R.dir==null?'':RUMOS[Math.round(R.dir/45)%8]+' ')+Math.round(R.vel)+' km/h <span class="pr-sub">(raj '+Math.round(R.raj)+')</span>';
+      if(R.p.ventoDe) vento += ' <span class="pr-sub">(vento de '+R.p.ventoDe+')</span>';
+      if(R.chuva && R.chuva.max>=1) vento += ' · ☔ '+(Math.round(R.chuva.min)===Math.round(R.chuva.max)?'':Math.round(R.chuva.min)+'-')+Math.round(R.chuva.max)+' mm';
+      return '<div class="pr-s'+(best?' pr-best':'')+'"><b>'+R.nota+'</b> '+nome+' · '+hj(R.j.w0)+'-'+hj(R.j.w1)+
+        ' · <span class="pr-m" style="background:'+COR[R.mar.v]+'">'+f(R.H)+' m · '+Math.round(R.T)+' s · '+Math.round(R.kW)+' kW '+R.tend+'</span>'+vento+
+        (comMont?'<div class="pr-l">🎣 começa com '+R.mont.txt+'<br>↳ '+R.mont.dois+'</div>':'')+
+        '<div class="pr-l pr-sub">'+R.motivos.join(' · ')+'</div>'+(R.p.nota?'<div class="pr-l pr-sub">'+R.p.nota+'</div>':'')+'</div>';
+    };
+    // um dia = uma linha por baixa-mar no resumo; aberto, mostra cada janela com as praias
+    var cartao=function(D){
+      var v=diaVal(D);
+      return '<details class="pr-d"'+(v>-9&&!D.passado&&v>=abre?' open':'')+'><summary><b>'+nomeDia(D)+'</b>'+(D.fds?' 🎉':'')+
+        ' <span class="pr-sub">· pôr do sol '+hm(D.s.por)+'</span><br>'+(D.janelas.length?D.janelas.map(resumoJ).join('<br>'):'sem baixa-mar')+'</summary>'+
+        D.janelas.map(corpoJ).join('')+'</details>';
+    };
+    // as 3 melhores janelas que aí vêm, a qualquer hora
+    var agora=Date.now(), todas=[];
+    dias.forEach(function(D){ if(!D.passado) D.janelas.forEach(function(J){ var b=ordena(J)[0]; if(J.w1>agora && val(b)>=4) todas.push({D:D, J:J, b:b}); }); });
+    todas.sort(function(x,y){ return val(y.b)-val(x.b) || x.J.w0-y.J.w0; });
+    var topo='<div class="pr-d pr-top"><div class="pr-j" style="border-top:0;border-radius:10px 10px 0 0"><b>🏆 As melhores janelas que aí vêm</b> <span class="pr-sub">a qualquer hora · ⏰ = fora do teu horário</span></div>'+
+      (todas.length ? todas.slice(0,3).map(function(x){
+        return '<div class="pr-s">'+x.b.nota+' <b>'+nomeDia(x.D)+'</b> '+horas(x.b, x.J)+' · '+x.b.p.nome+'</div>';
+      }).join('') : '<div class="pr-s">Nenhuma janela com ⭐⭐ nos próximos 9 dias.</div>')+'</div>';
+    var passado=dias.map(function(D){ return D.passado?cartao(D):''; }).join('');
+    var html=topo+(passado?'<details class="pr-d pr-ant"><summary><b>📜 Semana anterior</b> <span class="pr-sub">— o que a tabela teria dito, com o mar que fez</span></summary>'+passado+'</details>':'')+
+      dias.map(function(D){ return D.passado?'':cartao(D); }).join('');
     return css+(semVento.length?'<p class="pr-sub">⚠️ Sem vento nem chuva agora para '+semVento.join(', ')+' (o Open-Meteo não respondeu) — a nota dessas praias não os conta. Recarrega daqui a uns minutos ou vê o Windguru.</p>':'')+html;
   }
 
@@ -338,8 +382,8 @@
   var LEGENDA_PRAIAS = '<p style="font-size:.85em;opacity:.8;margin-top:.6em">'+
     '<b>Como dá a nota</b> — regras do <a href="#/MAR?id=🎯-escolher-o-dia-praia-de-mar-surfcasting">🎯 Escolher o dia</a>, mais abaixo:<br>'+
     '1️⃣ <b>O mar tem de caber na praia</b> (números na régua do Olivais, ver 📏). <b>Planas</b> — <i>"em praias planas, até 6/8"</i> kW (O): Guincho verde até 1 m · 10 s e 4,5 kW (<i>"1 m com períodos de 10 segundos (…) já é um bocadinho forte"</i>), Caparica S. João verde até 6 kW; as duas amarelo até 1,5 m · 11 s e 8 kW. <b>Fundas</b> (Meco, Albufeira-Mar) — <i>"até aos 10/12"</i> kW: verde até 1,5 m · 12 s e 12 kW, amarelo até 2 m · 15 s, e amarelo também com <b>pouco mar</b> (menos de 4,5 kW): no Meco com 1 m e ~9 s, <i>"tendo em conta que é uma praia funda, torna-se pouco mar"</i> (O). <b>Fonte da Telha e Cova do Vapor</b> (fundo intermédio): a regra geral dele, 1,5 m · 11 s; a Cova leva um aviso de corrente forte na barra com maré grande. Praia plana ou intermédia acima disso só passa (amarelo) com BM de maré grande. Fora disto = ❌❌.<br>'+
-    '2️⃣ <b>Pontos.</b> O mar a mudar: 1.º dia a cair depois de mar grande +3 · sobe depois de dias parados +3 (só no dia em que sobe) · véspera de temporal +2 (a costa chega aos 2 m ou a rajadas de 60 km/h amanhã; conta para a costa toda) · a cair +2 · parado há uma semana −2. Mar no verde +2 · maré grande (BM ≤ 0,8 m) +1 · BM até 2 h depois do pôr do sol +1 · janela ≥ 2h30 +1 · de noite +1 · luar −1 · vento sul no Guincho +1 · rajadas ≥ 35 km/h −1 (≥ 50 = ❌❌) · chuva na janela (mediana de 5 modelos) ≥ 5 mm −1, ≥ 10 mm −2 · trovoada em 1 modelo −1, em 2 ou mais = ❌❌. <b>⭐⭐⭐</b> ≥ 7 · <b>⭐⭐</b> ≥ 5 · <b>⭐</b> ≥ 3 · <b>❌</b> fraco · <b>❌❌</b> não vale a pena ir (o mar, o vento ou a trovoada passam o limite, ou não há baixa-mar no teu horário).<br>'+
-    '<b>Pescas</b> = das 2 h antes da baixa-mar às 3 h depois (O e L), dentro da tua janela: semana desde que chegas (19h Guincho, Caparica, Fonte da Telha e Cova do Vapor · 19h30 Albufeira e Meco) até às 22h · fim de semana 08-22h. O Guincho só depois do pôr do sol (surfistas). 🌙 = só de noite.<br>'+
+    '2️⃣ <b>Pontos.</b> O mar a mudar: 1.º dia a cair depois de mar grande +3 · sobe depois de dias parados +3 (só no dia em que sobe) · véspera de temporal +2 (a costa chega aos 2 m ou a rajadas de 60 km/h amanhã; conta para a costa toda) · a cair +2 · parado há uma semana −2. Mar no verde +2 · maré grande (BM ≤ 0,8 m) +1 · BM até 2 h depois do pôr do sol +1 · de noite +1 · luar −1 · vento sul no Guincho +1 · rajadas ≥ 35 km/h −1 (≥ 50 = ❌❌) · chuva na janela (mediana de 5 modelos) ≥ 5 mm −1, ≥ 10 mm −2 · trovoada em 1 modelo −1, em 2 ou mais = ❌❌. <b>⭐⭐⭐</b> ≥ 6 · <b>⭐⭐</b> ≥ 4 · <b>⭐</b> ≥ 2 · <b>❌</b> fraco · <b>❌❌</b> não vale a pena ir (o mar, o vento ou a trovoada passam o limite; no Guincho, também de dia).<br>'+
+    '<b>Janela</b> = das 2 h antes de cada baixa-mar às 3 h depois (O e L), <b>a qualquer hora</b>: cada dia tem uma linha por baixa-mar, no dia em que a janela começa (a BM das 00:30 conta para a noite anterior). <b>⏰</b> = fora do teu horário — semana desde as 19h (sais às 18h), fim de semana desde as 8h, até à 1h; se só uma parte cabe, a janela aberta diz qual. <b>🏆</b> = as 3 melhores janelas dos próximos 9 dias. O Guincho só de noite, antes do nascer ou depois do pôr do sol (surfistas). 🌙 = só de noite.<br>'+
     '📏 <b>Mar</b> = modelo Open-Meteo (não é boia) <b>passado para a régua do Olivais</b>: em 7 jornadas dele datadas pela maré (Guincho e Meco, mar-out 2026), o modelo deu ×1,27 a altura que ele diz nos vídeos, e o período que ele diz saiu ~0,9 do período médio do modelo. A tabela mostra altura ÷ 1,27 e período × 0,9. São 7 dias: é uma calibração curta. <b>kW</b> = potência da vaga ≈ 0,49 × altura² × período, na mesma régua — dá 12 kW para 1,5 m · 11 s e 4,4 kW para o Meco com 1 m · 9 s, que batem com os limites que ele lê no IPMA; a fórmula exata do IPMA não está confirmada. ↗ ↘ = em relação a ontem à mesma hora. Maré corrigida contra a tábua do Guincho (±4 min); a altura da BM é a da tábua. <b>💨 Vento</b> = o ponto do modelo mais perto da praia (2-3 km ao largo); o ponto que o Open-Meteo escolhe sozinho fica 5-8 km para dentro de terra e dá o dobro das horas com rajadas de 50.<br>'+
     '<b>🎣 Montagem</b> = o que o Olivais faz: começa sempre comprido (2,5-3 m) e, se vier enrolado, <b>primeiro engrossa</b> (até 0,57) e <b>só depois encurta</b>. Fluoro: de nov a mar <b>0,52</b> — <i>"Eu de inverno pesco maioritariamente com 0.52, com mar grande e de noite a espessura não interfere com o peixe"</i> (O); no resto do ano começa no 0,40, o mínimo dele de noite, e os níveis por mar são estimativa minha a partir de 8 vídeos dele. <b>2 estralhos</b>: na cana de perto para sondar, ou quando o mar obriga a encurtar (o de cima fica direito); para robalo grande, 1 anzol (L). O Luís usa fluoro mais fino (0,23-0,28).<br>'+
     '☔ <b>Chuva e ⚡ trovoada:</b> cruza 5 modelos (best match, ECMWF, ICON, GFS, Météo-France), porque a 4-6 dias discordam muito; ☔ 0-12 mm = o intervalo entre eles. Os canais pescam com chuva — o Olivais fez robalos num dia de tempestade (<i>"as minhas maiores preocupações neste dia eram a chuva e o vento"</i>, <a href="https://www.youtube.com/watch?v=XA7H9R3fVMI" target="_blank">vídeo</a>) e o Luís, depois de <i>"choveu um bocadinho"</i>, diz que as águas <i>"mais tapadas"</i> são <i>"o ideal"</i> — por isso a chuva só tira pontos quando é muita, e é por conforto, não por peixe. Trovoada é para arrumar: <i>"com relâmpagos não se brinca"</i> (O, <a href="https://www.youtube.com/watch?v=1H8VPSaDfm0" target="_blank">vídeo</a>).<br>'+
@@ -738,7 +782,7 @@
 
 > 🏖️ **A tabela dá nota às 6 praias de mar com as regras do [🎯 Escolher o dia](#🎯-escolher-o-dia-praia-de-mar-surfcasting)**: janela à volta da **baixa-mar**, o mar que cada praia aguenta, o mar a mudar, e a montagem para esse mar.
 
-> ⏰ **A janela é a tua:** semana desde que chegas (**19h** Guincho, Caparica, Fonte da Telha e Cova do Vapor · **19h30** Albufeira e Meco) até às **22h** · fim de semana **08h-22h**. **De noite pode-se pescar**, no mar e no estuário: a lei nacional não proíbe; só os editais das capitanias podem restringir nas praias concessionadas (FAQ DGRM 2026 — ver ⛔ Época balnear).
+> ⏰ **A tabela avalia todas as baixa-mares, a qualquer hora**, e marca com ⏰ as que não cabem no teu horário: semana desde as **19h** até à **1h** · fim de semana **08h-01h**. **De noite pode-se pescar**, no mar e no estuário: a lei nacional não proíbe; só os editais das capitanias podem restringir nas praias concessionadas (FAQ DGRM 2026 — ver ⛔ Época balnear).
 
 ---
 
