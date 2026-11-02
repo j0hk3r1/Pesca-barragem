@@ -744,14 +744,16 @@
 
 ### 📍 Os teus spots — até 50 min do Marquês
 
-| Spot | Praia | 🚗 sem trânsito | Para que mar |
+| Spot | Praia · fundo a 400 m da areia | 🚗 sem trânsito | Para que mar |
 |---|---|---|---|
-| **Guincho** | plana ([O](https://www.youtube.com/watch?v=UTWUpQ3q_ds)) | 24 min | **pequeno:** 0,5-1 m, 7-8 s, vento sul. Só de noite |
-| **Costa da Caparica** (S. João → Fonte da Telha) | sem dados dos canais | 23-25 min | por confirmar |
-| **Cova do Vapor** (pontões da barra) | sem dados dos canais · pesca-se das pontas dos pontões | 23 min | o da Caparica · **corrente forte** · fronteira mar/estuário |
-| **Lagoa de Albufeira-Mar** | parece funda (visto no local) — a tabela trata-a como funda | 38 min | só o lado do mar — **a lagoa é proibida** |
-| **Meco** (Moinho de Baixo · Alfarim) | funda ([O](https://www.youtube.com/watch?v=f6b98mOoH-k)) | 38 min | **o maior:** *"1.5m é uma altura de vaga boa para se pescar no meco"* (O) · com ~1 m é *"pouco mar"* (O) |
+| **Guincho** | plana ([O](https://www.youtube.com/watch?v=UTWUpQ3q_ds)) · **−5 m**, com uma coroa a ~500 m | 24 min | **pequeno:** 0,5-1 m, 7-8 s, vento sul. Só de noite |
+| **Costa da Caparica** (S. João → Fonte da Telha) | **plana em S. João (−2,6 m)**; mais funda para sul, Fonte da Telha −3,2 m e −11 m a 700 m | 23-25 min | por confirmar |
+| **Cova do Vapor** (pontões da barra) | rasa nos primeiros 300 m, depois **um canal de −8/−9 m** a 500-700 m · pesca-se das pontas dos pontões | 23 min | o da Caparica · **corrente forte** · fronteira mar/estuário |
+| **Lagoa de Albufeira-Mar** | **funda (−10 m)** — bate com o que viste | 38 min | só o lado do mar — **a lagoa é proibida** |
+| **Meco** (Moinho de Baixo · Alfarim) | **funda (−11 m)**: *"profundidade absurda logo aqui nos primeiros 10, 20 m"* ([O](https://www.youtube.com/watch?v=f6b98mOoH-k)) | 38 min | **o maior:** *"1.5m é uma altura de vaga boa para se pescar no meco"* (O) · com ~1 m é *"pouco mar"* (O) |
 
+- 📐 **Fundo medido:** profundidade a 400 m da areia, nos levantamentos do Instituto Hidrográfico e LiDAR reunidos no [EMODnet](https://emodnet.ec.europa.eu/en/bathymetry) (quadrícula de ~115 m, levantamentos de 1979 a 2009). A areia mexe de ano para ano, por isso conta a ordem entre as praias, não o número exato.
+- 🔭 **O que a previsão não vê:** o modelo de ondas põe Albufeira e Fonte da Telha na mesma quadrícula, e a Cova do Vapor na da Caparica; o Meco leva só ×1,06 o mar da Caparica. Entre praias vizinhas, quem as distingue é o fundo, não a previsão.
 - 🚗 Tempos do OSRM, que **não conta o trânsito**. À sexta às 18h, pela ponte, Albufeira e Meco podem passar dos 50 min (estimativa).
 - 📊 **No modelo, o Guincho leva 1,2-1,6× o mar da Caparica, Albufeira e Meco** à mesma hora (Open-Meteo, 6 dias entre 24-out e 8-nov). Estes três levam mar parecido, o Meco um pouco mais. Portanto um dia grande demais para o Guincho pode servir para o Meco.
 - 🧭 **Como escolher a praia (opinião, a partir do que o Olivais faz):** mar pequeno → Guincho · mar médio a cair → Caparica ou Albufeira-Mar · mar maior ou período comprido → Meco, a praia funda (*"escolhemos uma praia funda (…) porque os períodos são altos"* — [O](https://www.youtube.com/watch?v=FPN34Ed8m30)).
