@@ -130,13 +130,16 @@
     var dias=[], d0=new Date(hojeMs); d0.setHours(0,0,0,0);
     for(var n=-7;n<10;n++){        // a semana anterior também: o que a tabela teria dito
       var dia=new Date(d0); dia.setDate(d0.getDate()+n);
-      var k=ymd(dia), ini=dia.getTime(), fim=ini+24*H1, s=sol[k];
+      var k=ymd(dia), ini=dia.getTime(), s=sol[k];
+      var fim=new Date(dia.getFullYear(), dia.getMonth(), dia.getDate()+1).getTime();
+      // horas de relógio de Lisboa: no dia em que a hora muda, o dia tem 23 ou 25 h
+      var hora=function(h){ var x=new Date(dia); x.setHours(Math.floor(h), Math.round(h%1*60), 0, 0); return x.getTime(); };
       if(!s) continue;
       var fds=(dia.getDay()===0||dia.getDay()===6);
       var bms=mares.filter(function(e){ return e.tipo==='BM' && e.t.getTime()>ini-3*H1 && e.t.getTime()<fim+2*H1; });
       var spots=PRAIAS.map(function(p){
         var D=dados[p.k];
-        var a0=ini+(fds?8:p.chega)*H1, a1=ini+22*H1;
+        var a0=hora(fds?8:p.chega), a1=hora(22);
         if(p.soNoite) a0=Math.max(a0, s.por.getTime());
         // a janela da maré: BM −2 h → BM +3 h, dentro da tua
         var J=null;
