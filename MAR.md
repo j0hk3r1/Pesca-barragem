@@ -40,10 +40,15 @@
 
   // ── PRAIAS DE MAR — as regras do 🎯 Escolher o dia, mais abaixo ─────────────
   var ZH = 2.11;   // altura na tábua de marés ≈ nível do Open-Meteo + 2,11 m (mesma medição)
-  var TP_TM = 1.15; // período de pico ≈ médio × 1,15 (mediana do próprio modelo, 4 spots, ~870 h)
+  // O modelo mede o mar com outra régua que a do Olivais. Em 7 jornadas dele datadas pela maré
+  // (Guincho 4, Meco 3, mar-out 2026) o Open-Meteo deu ×1,27 a altura que ele diz (mediana;
+  // 1,10-1,62, um caso 2,3) e o período que ele diz saiu ~0,9 × o período médio do modelo (0,87-1,11).
+  // A tabela passa tudo para a régua dele: os limites são os números que ele diz nos vídeos.
+  var ESC_H = 1/1.27, ESC_T = 0.9;
   var PRAIAS = [
     {k:'guincho',   nome:'Guincho',       lat:38.708, lon:-9.5417, tipo:'plana', soNoite:true, chega:19,   epoca:['05-01','09-30']},
-    {k:'caparica',  nome:'Caparica (S. João)', lat:38.65, lon:-9.30, tipo:'geral',             chega:19,   epoca:['05-01','10-15']},
+    // S. João: fundo medido −2,6 m a 400 m da areia, mais plano que o Guincho
+    {k:'caparica',  nome:'Caparica (S. João)', lat:38.65, lon:-9.30, tipo:'plana',             chega:19,   epoca:['05-01','10-15']},
     // Fonte da Telha: o modelo de ondas põe-na na célula de Albufeira; o fundo é intermédio (−3 m a 400 m, −11 m a 700 m)
     {k:'telha',     nome:'Fonte da Telha', lat:38.572, lon:-9.20,  tipo:'geral',               chega:19,   epoca:['05-01','10-15']},
     // Cova do Vapor: todos os modelos de ondas a põem na célula da Caparica. O que muda é a barra (corrente).
@@ -91,40 +96,45 @@
     };
   }
 
-  // potência da vaga, kW por metro de crista ≈ 0,49 × H² × T (água funda; T = período médio do modelo).
-  // O Olivais lê-a no IPMA: "para praias fundas essa potência pode ir até aos 10/12 e em praias planas, até 6/8".
-  function potencia(H, Tm){ return (H==null||Tm==null)?null:0.49*H*H*Tm; }
+  // potência da vaga, kW por metro de crista ≈ 0,49 × H² × T (água funda), com a régua do Olivais.
+  // Ele lê-a no IPMA: "para praias fundas essa potência pode ir até aos 10/12 e em praias planas, até 6/8".
+  // Bate com o resto do que ele diz: 1,5 m · 11 s = 12 kW; Meco com 1 m · 9 s = 4,4 kW, "pouco mar".
+  function potencia(H, T){ return (H==null||T==null)?null:0.49*H*H*T; }
 
-  // tamanho do mar → verdicto para o tipo de praia (limites do Olivais, lidos no Windguru)
-  function marOk(p, H, Tp, kW, mareGrande){
+  // tamanho do mar → veredicto para o tipo de praia (limites do Olivais)
+  function marOk(p, H, T, kW, mareGrande){
     if(H==null) return {v:'?', txt:'sem previsão do mar'};
-    if(p.tipo==='plana'){            // Guincho
-      if(H<=1.0 && Tp<=9)  return {v:'ok', txt:'o mar que o Olivais gosta aqui'};
-      if(H<=1.5 && Tp<=11) return {v:'aviso', txt:'já é forte para esta praia'};
+    if(p.tipo==='plana'){            // Guincho, Caparica (S. João)
+      // Guincho: gosta de 0,5-1 m · 7-8 s; "1 m com períodos de 10 segundos (…) já é um bocadinho forte" = 4,9 kW
+      if(p.k==='guincho' && H<=1.0 && T<=10 && kW<=4.5) return {v:'ok', txt:'o mar que o Olivais gosta aqui'};
+      if(p.k!=='guincho' && H<=1.5 && T<=11 && kW<=6) return {v:'ok', txt:'dentro do que uma praia plana aguenta'};
+      if(H<=1.5 && T<=11 && kW<=8) return {v:'aviso', txt:'já é forte para praia plana'};
       if(H<=2.0 && mareGrande) return {v:'aviso', txt:'só na baixa-mar de maré grande'};
       return {v:'nao', txt:'mar grande demais para praia plana'};
     }
     if(p.tipo==='funda'){            // Meco, Albufeira-Mar
       if(kW<4.5) return {v:'aviso', txt:'pouco mar para praia funda'};   // Meco com 1 m / ~9 s: "torna-se pouco mar" (O)
-      if(H<=1.5 && Tp<=12 && kW<=12) return {v:'ok', txt:'dentro do que a praia aguenta'};
-      if(H<=2.0 && Tp<=15) return {v:'aviso', txt:'dá peixe, mas é mar duro'};
+      if(H<=1.5 && T<=12 && kW<=12) return {v:'ok', txt:'dentro do que a praia aguenta'};
+      if(H<=2.0 && T<=15) return {v:'aviso', txt:'dá peixe, mas é mar duro'};
       return {v:'nao', txt:'mar grande demais'};
     }
-    // Caparica: sem dados dos canais → regra geral
-    if(H<=1.5 && Tp<=11) return {v:'ok', txt:'dentro da regra geral'};
+    // Fonte da Telha, Cova do Vapor: fundo intermédio → a regra geral do Olivais
+    if(H<=1.5 && T<=11) return {v:'ok', txt:'dentro da regra geral'};
     if(H<=2.0 && mareGrande) return {v:'aviso', txt:'só na baixa-mar de maré grande'};
     return {v:'nao', txt:'acima da regra geral (1,5 m · 11 s)'};
   }
 
   // montagem pelo mar (🎣 5). O Olivais começa sempre comprido e só mexe se vier enrolado:
-  // primeiro engrossa, só depois encurta. Os três níveis por altura de mar são estimativa minha.
-  function montagem(H, Tp){
+  // primeiro engrossa, só depois encurta. De inverno: "pesco maioritariamente com 0.52, com mar
+  // grande e de noite a espessura não interfere com o peixe" (O). Os níveis por mar são estimativa minha.
+  function montagem(H, T, inverno){
     var n = H<=1.0?0 : H<=1.5?1 : 2;
-    if(Tp>12 && n<2) n++;            // período comprido = mais força (O)
+    if(T>12 && n<2) n++;            // período comprido = mais força (O)
+    var fl = inverno ? ['0,52','0,52','0,52 (até 0,57)'] : ['0,40','0,45-0,47','0,50-0,52 (até 0,57)'];
     return [
-      {txt:'1 estralho de <b>2,5-3 m</b> · fluoro 0,40 · 130-140 g', dois:'2.ª cana mais perto com 2 estralhos mais curtos, para sondar'},
-      {txt:'1 estralho de <b>2,5-3 m</b> · fluoro 0,45-0,47 · 140 g pirâmide', dois:'2.ª cana mais perto com 2 estralhos mais curtos · se enrolar: engrossa primeiro, depois encurta'},
-      {txt:'estralho de <b>2-3 m</b> · fluoro 0,50-0,52 (até 0,57) · 140-150 g e garras à mão', dois:'se tiveres de encurtar (~1,2 m), mete 2 estralhos nas duas canas: o de cima fica a pescar direito'}
+      {txt:'1 estralho de <b>2,5-3 m</b> · fluoro '+fl[0]+' · 130-140 g', dois:'2.ª cana mais perto com 2 estralhos mais curtos, para sondar'},
+      {txt:'1 estralho de <b>2,5-3 m</b> · fluoro '+fl[1]+' · 140 g pirâmide', dois:'2.ª cana mais perto com 2 estralhos mais curtos · se enrolar: engrossa primeiro, depois encurta'},
+      {txt:'estralho de <b>2-3 m</b> · fluoro '+fl[2]+' · 140-150 g e garras à mão', dois:'se tiveres de encurtar (~1,2 m), mete 2 estralhos nas duas canas: o de cima fica a pescar direito'}
     ][n];
   }
 
@@ -146,7 +156,8 @@
           .filter(function(x){ return x!=null; }).sort(function(x,y){ return x-y; });
         return v.length ? v[Math.floor(v.length/2)] : null;
       };
-      var temporalCosta=function(off){ var h=costa(off,'mar','H'), r=costa(off,'vento','r'); return (h!=null && h>=2.5) || (r!=null && r>=60); };
+      // temporal: 2 m na régua do Olivais ("antes do temporal": "amanhã vai estar cerca de 2 m já com períodos de 11 12 segundos")
+      var temporalCosta=function(off){ var h=costa(off,'mar','H'), r=costa(off,'vento','r'); return (h!=null && h>=2.0) || (r!=null && r>=60); };
       // véspera = o último dia calmo: o temporal chega amanhã, ou depois de amanhã com amanhã já ventoso
       var vesperaCosta = !temporalCosta(0) && (temporalCosta(1) || (temporalCosta(2) && (costa(1,'vento','r')||0)>=50));
       var spots=PRAIAS.map(function(p){
@@ -168,11 +179,11 @@
           R.mot0 = !J ? 'sem baixa-mar no teu horário' : 'só '+Math.round((J.w1-J.w0)/60000)+' min de janela';
           return R;
         }
-        var H=D.mar.H.med(J.w0,J.w1), Tm=D.mar.T.med(J.w0,J.w1), Tp=Tm!=null?Tm*TP_TM:null;
+        var H=D.mar.H.med(J.w0,J.w1), T=D.mar.T.med(J.w0,J.w1);
         var bmZH=J.bm.alt+ZH, mareGrande=bmZH<=0.8;
-        var kW=potencia(H, Tm), mar=marOk(p, H, Tp, kW, mareGrande);
+        var kW=potencia(H, T), mar=marOk(p, H, T, kW, mareGrande);
         var raj=D.vento.r.max(J.w0,J.w1), vel=D.vento.v.med(J.w0,J.w1), dir=D.vento.d.em(J.bm.t.getTime()), nuv=D.vento.nuv.med(J.w0,J.w1);
-        R.H=H; R.Tm=Tm; R.Tp=Tp; R.kW=kW; R.mar=mar; R.raj=raj; R.vel=vel; R.dir=dir; R.bmZH=bmZH;
+        R.H=H; R.T=T; R.kW=kW; R.mar=mar; R.raj=raj; R.vel=vel; R.dir=dir; R.bmZH=bmZH;
         var Hontem=D.mar.H.med(J.w0-24*H1, J.w1-24*H1);   // o mesmo bocado do dia, ontem
         R.tend = (Hontem!=null&&H!=null) ? (H>Hontem*1.15?'↗':H<Hontem*0.85?'↘':'→') : '';
         if(mar.v==='nao'){ R.mot0=mar.txt; return R; }
@@ -194,7 +205,8 @@
         if(ontem!=null && ontem>=1.5 && ontem>=1.3*H){
           if(ontem>limite){ pts+=3; M.push('✅ 1.º dia a cair depois de mar grande'); }
           else { pts+=2; M.push('✅ mar a cair'); }
-        } else if(mediaAntes!=null && mediaAntes<=0.8 && H>=0.8 && H>=1.3*mediaAntes){
+        } else if(mediaAntes!=null && mediaAntes<=0.8 && H>=0.8 && H>=1.3*mediaAntes &&
+                  (Hontem==null || Hontem<0.8 || H>=1.3*Hontem)){     // só o dia em que sobe, não os seguintes
           pts+=3; M.push('✅ o mar sobe depois de dias parados');
         }
         if(vesperaCosta){ pts+=2; M.push('✅ véspera de temporal'); }
@@ -224,7 +236,7 @@
         R.pts=pts; R.noite=noite;
         R.fora=false;
         R.nota = pts>=7?'⭐⭐⭐':pts>=5?'⭐⭐':pts>=3?'⭐':'❌';     // ❌ = fraco
-        R.mont = montagem(H, Tp);
+        R.mont = montagem(H, T, [10,11,0,1,2].indexOf(dia.getMonth())>=0);   // inverno = nov-mar
         var md=k.slice(5), e0=p.epoca;
         R.epoca = md>=e0[0] && md<=e0[1];
         return R;
@@ -265,12 +277,12 @@
       var linhas=D.spots.map(function(R){
         var nome='<b>'+R.p.nome+'</b>'+(R.p.soNoite?' 🌙':'')+(R.epoca?' <span class="pr-sub">⛔ época balnear</span>':'');
         if(R.fora) return '<div class="pr-s">❌❌ '+nome+' — '+R.mot0+
-          (R.H!=null && R.mar && R.mar.v==='nao' ? ' ('+f(R.H)+' m · ~'+Math.round(R.Tp)+' s)' : '')+'</div>';
+          (R.H!=null && R.mar && R.mar.v==='nao' ? ' ('+f(R.H)+' m · '+Math.round(R.T)+' s)' : '')+'</div>';
         var vento = R.raj==null ? '' : ' · 💨 '+(R.dir==null?'':RUMOS[Math.round(R.dir/45)%8]+' ')+Math.round(R.vel)+' km/h <span class="pr-sub">(raj '+Math.round(R.raj)+')</span>';
         if(R.p.ventoDe) vento += ' <span class="pr-sub">(vento de '+R.p.ventoDe+')</span>';
         if(R.chuva && R.chuva.max>=1) vento += ' · ☔ '+(Math.round(R.chuva.min)===Math.round(R.chuva.max)?'':Math.round(R.chuva.min)+'-')+Math.round(R.chuva.max)+' mm';
         return '<div class="pr-s'+(R===best?' pr-best':'')+'"><b>'+R.nota+'</b> '+nome+' · '+hm(new Date(R.j.w0))+'-'+hm(new Date(R.j.w1))+
-          ' · <span class="pr-m" style="background:'+COR[R.mar.v]+'">'+f(R.H)+' m · ~'+Math.round(R.Tp)+' s · '+Math.round(R.kW)+' kW '+R.tend+'</span>'+vento+
+          ' · <span class="pr-m" style="background:'+COR[R.mar.v]+'">'+f(R.H)+' m · '+Math.round(R.T)+' s · '+Math.round(R.kW)+' kW '+R.tend+'</span>'+vento+
           '<div class="pr-l">🎣 começa com '+R.mont.txt+'<br>↳ '+R.mont.dois+'</div>'+
           '<div class="pr-l pr-sub">'+R.motivos.join(' · ')+'</div>'+(R.p.nota?'<div class="pr-l pr-sub">'+R.p.nota+'</div>':'')+'</div>';
       }).join('');
@@ -286,7 +298,9 @@
   function carregaPraias(){
     var M='https://marine-api.open-meteo.com/v1/marine?hourly=wave_height,wave_period,sea_level_height_msl&timeformat=unixtime&past_days=15&forecast_days=10';
     var MOD=['best_match','ecmwf_ifs025','icon_seamless','gfs_seamless','meteofrance_seamless'];
-    var W='https://api.open-meteo.com/v1/forecast?hourly=wind_speed_10m,wind_gusts_10m,wind_direction_10m,cloud_cover,precipitation,weather_code&models='+MOD.join(',')+'&timeformat=unixtime&past_days=7&forecast_days=10';
+    // cell_selection=nearest: a quadrícula mais perto da praia (~2-3 km ao largo). Sem isto o Open-Meteo
+    // escolhe uma em terra, 5-8 km para dentro, com rajadas de terra (Caparica: 58 h ≥ 50 km/h em 600 h, contra 25)
+    var W='https://api.open-meteo.com/v1/forecast?hourly=wind_speed_10m,wind_gusts_10m,wind_direction_10m,cloud_cover,precipitation,weather_code&models='+MOD.join(',')+'&cell_selection=nearest&timeformat=unixtime&past_days=7&forecast_days=10';
     var js=function(u){ return fetch(u).then(function(r){ return r.json(); }).then(function(x){ if(!x||x.error||!x.hourly) throw x; return x; }); };
     // o Open-Meteo às vezes responde "overloaded": tenta mais 2 vezes
     var tenta=function(u, n){ return js(u).catch(function(e){ if(n<=0) throw e;
@@ -306,7 +320,8 @@
           if(v){ w=wk[v]; p.ventoDe=PRAIAS.filter(function(q){ return q.k===v; })[0].nome; } else semVento.push(p.nome); }
         else p.ventoDe=null;
         var s=function(v,mod){ return serie(w.time, w[v+'_'+mod]||[]); };
-        dados[p.k]={mar:{H:serie(m.time,m.wave_height), T:serie(m.time,m.wave_period)},
+        var regua=function(a,x){ return (a||[]).map(function(v){ return v==null?null:v*x; }); };   // para a régua do Olivais
+        dados[p.k]={mar:{H:serie(m.time,regua(m.wave_height,ESC_H)), T:serie(m.time,regua(m.wave_period,ESC_T))},
           vento: w ? {v:s('wind_speed_10m','best_match'), r:s('wind_gusts_10m','best_match'), d:s('wind_direction_10m','best_match'), nuv:s('cloud_cover','best_match'),
                       mod:MOD.filter(function(mod){ return w['precipitation_'+mod]; }).map(function(mod){
                         return {chuva:s('precipitation',mod), raj:s('wind_gusts_10m',mod), tempo:s('weather_code',mod)}; })}
@@ -322,11 +337,11 @@
 
   var LEGENDA_PRAIAS = '<p style="font-size:.85em;opacity:.8;margin-top:.6em">'+
     '<b>Como dá a nota</b> — regras do <a href="#/MAR?id=🎯-escolher-o-dia-praia-de-mar-surfcasting">🎯 Escolher o dia</a>, mais abaixo:<br>'+
-    '1️⃣ <b>O mar tem de caber na praia.</b> Guincho (plana): verde até 1 m · ~9 s, amarelo até 1,5 m · ~11 s. Meco e Albufeira-Mar (fundas): verde até 1,5 m · ~12 s e 12 kW, amarelo até 2 m · ~15 s, e amarelo também com <b>pouco mar</b> (menos de ~4,5 kW): no Meco com 1 m e ~9 s, <i>"tendo em conta que é uma praia funda, torna-se pouco mar"</i> (O). Caparica (S. João, plana), Fonte da Telha e Cova do Vapor (sem dados dos canais): regra geral, 1,5 m · 11 s. A Cova do Vapor usa as mesmas regras; com maré grande leva um aviso de corrente forte na barra. Praia plana acima disso só passa (amarelo) com BM de maré grande. Fora disto = ❌❌.<br>'+
-    '2️⃣ <b>Pontos.</b> O mar a mudar: 1.º dia a cair depois de mar grande +3 · sobe depois de dias parados +3 · véspera de temporal +2 (conta para a costa toda) · a cair +2 · parado há uma semana −2. Mar no verde +2 · maré grande (BM ≤ 0,8 m) +1 · BM até 2 h depois do pôr do sol +1 · janela ≥ 2h30 +1 · de noite +1 · luar −1 · vento sul no Guincho +1 · rajadas ≥ 35 km/h −1 (≥ 50 = ❌❌) · chuva na janela (mediana de 5 modelos) ≥ 5 mm −1, ≥ 10 mm −2 · trovoada em 1 modelo −1, em 2 ou mais = ❌❌. <b>⭐⭐⭐</b> ≥ 7 · <b>⭐⭐</b> ≥ 5 · <b>⭐</b> ≥ 3 · <b>❌</b> fraco · <b>❌❌</b> não vale a pena ir (o mar, o vento ou a trovoada passam o limite, ou não há baixa-mar no teu horário).<br>'+
-    '<b>Pescas</b> = das 2 h antes da baixa-mar às 3 h depois (O e L), dentro da tua janela: semana desde que chegas (19h Guincho e Caparica, 19h30 Albufeira e Meco) até às 22h · fim de semana 08-22h. O Guincho só depois do pôr do sol (surfistas). 🌙 = só de noite.<br>'+
-    '<b>Mar</b> = modelo Open-Meteo, não boia. <b>~s</b> = período de pico estimado (o médio do modelo × 1,15) para comparar com os números do Olivais no Windguru — que o Windguru mostra o pico não está confirmado. <b>kW</b> = potência da vaga ≈ 0,49 × altura² × período médio; o Olivais usa a do IPMA (Mar → praias): <i>"para praias fundas essa potência pode ir até aos 10/12 e em praias planas, até 6/8"</i> — a fórmula exata do IPMA não está confirmada. ↗ ↘ = em relação a ontem à mesma hora. Maré corrigida contra a tábua do Guincho (±4 min); a altura da BM é a da tábua.<br>'+
-    '<b>🎣 Montagem</b> = o que o Olivais faz: começa sempre comprido (2,5-3 m, fluoro 0,40 de noite) e, se vier enrolado, <b>primeiro engrossa</b> (até 0,57) e <b>só depois encurta</b>. <b>2 estralhos</b>: na cana de perto para sondar, ou quando o mar obriga a encurtar (o de cima fica direito); para robalo grande, 1 anzol (L). O fluoro por nível de mar é estimativa minha a partir de 8 vídeos do Olivais. O Luís usa fluoro mais fino (0,23-0,28).<br>'+
+    '1️⃣ <b>O mar tem de caber na praia</b> (números na régua do Olivais, ver 📏). <b>Planas</b> — <i>"em praias planas, até 6/8"</i> kW (O): Guincho verde até 1 m · 10 s e 4,5 kW (<i>"1 m com períodos de 10 segundos (…) já é um bocadinho forte"</i>), Caparica S. João verde até 6 kW; as duas amarelo até 1,5 m · 11 s e 8 kW. <b>Fundas</b> (Meco, Albufeira-Mar) — <i>"até aos 10/12"</i> kW: verde até 1,5 m · 12 s e 12 kW, amarelo até 2 m · 15 s, e amarelo também com <b>pouco mar</b> (menos de 4,5 kW): no Meco com 1 m e ~9 s, <i>"tendo em conta que é uma praia funda, torna-se pouco mar"</i> (O). <b>Fonte da Telha e Cova do Vapor</b> (fundo intermédio): a regra geral dele, 1,5 m · 11 s; a Cova leva um aviso de corrente forte na barra com maré grande. Praia plana ou intermédia acima disso só passa (amarelo) com BM de maré grande. Fora disto = ❌❌.<br>'+
+    '2️⃣ <b>Pontos.</b> O mar a mudar: 1.º dia a cair depois de mar grande +3 · sobe depois de dias parados +3 (só no dia em que sobe) · véspera de temporal +2 (a costa chega aos 2 m ou a rajadas de 60 km/h amanhã; conta para a costa toda) · a cair +2 · parado há uma semana −2. Mar no verde +2 · maré grande (BM ≤ 0,8 m) +1 · BM até 2 h depois do pôr do sol +1 · janela ≥ 2h30 +1 · de noite +1 · luar −1 · vento sul no Guincho +1 · rajadas ≥ 35 km/h −1 (≥ 50 = ❌❌) · chuva na janela (mediana de 5 modelos) ≥ 5 mm −1, ≥ 10 mm −2 · trovoada em 1 modelo −1, em 2 ou mais = ❌❌. <b>⭐⭐⭐</b> ≥ 7 · <b>⭐⭐</b> ≥ 5 · <b>⭐</b> ≥ 3 · <b>❌</b> fraco · <b>❌❌</b> não vale a pena ir (o mar, o vento ou a trovoada passam o limite, ou não há baixa-mar no teu horário).<br>'+
+    '<b>Pescas</b> = das 2 h antes da baixa-mar às 3 h depois (O e L), dentro da tua janela: semana desde que chegas (19h Guincho, Caparica, Fonte da Telha e Cova do Vapor · 19h30 Albufeira e Meco) até às 22h · fim de semana 08-22h. O Guincho só depois do pôr do sol (surfistas). 🌙 = só de noite.<br>'+
+    '📏 <b>Mar</b> = modelo Open-Meteo (não é boia) <b>passado para a régua do Olivais</b>: em 7 jornadas dele datadas pela maré (Guincho e Meco, mar-out 2026), o modelo deu ×1,27 a altura que ele diz nos vídeos, e o período que ele diz saiu ~0,9 do período médio do modelo. A tabela mostra altura ÷ 1,27 e período × 0,9. São 7 dias: é uma calibração curta. <b>kW</b> = potência da vaga ≈ 0,49 × altura² × período, na mesma régua — dá 12 kW para 1,5 m · 11 s e 4,4 kW para o Meco com 1 m · 9 s, que batem com os limites que ele lê no IPMA; a fórmula exata do IPMA não está confirmada. ↗ ↘ = em relação a ontem à mesma hora. Maré corrigida contra a tábua do Guincho (±4 min); a altura da BM é a da tábua. <b>💨 Vento</b> = o ponto do modelo mais perto da praia (2-3 km ao largo); o ponto que o Open-Meteo escolhe sozinho fica 5-8 km para dentro de terra e dá o dobro das horas com rajadas de 50.<br>'+
+    '<b>🎣 Montagem</b> = o que o Olivais faz: começa sempre comprido (2,5-3 m) e, se vier enrolado, <b>primeiro engrossa</b> (até 0,57) e <b>só depois encurta</b>. Fluoro: de nov a mar <b>0,52</b> — <i>"Eu de inverno pesco maioritariamente com 0.52, com mar grande e de noite a espessura não interfere com o peixe"</i> (O); no resto do ano começa no 0,40, o mínimo dele de noite, e os níveis por mar são estimativa minha a partir de 8 vídeos dele. <b>2 estralhos</b>: na cana de perto para sondar, ou quando o mar obriga a encurtar (o de cima fica direito); para robalo grande, 1 anzol (L). O Luís usa fluoro mais fino (0,23-0,28).<br>'+
     '☔ <b>Chuva e ⚡ trovoada:</b> cruza 5 modelos (best match, ECMWF, ICON, GFS, Météo-France), porque a 4-6 dias discordam muito; ☔ 0-12 mm = o intervalo entre eles. Os canais pescam com chuva — o Olivais fez robalos num dia de tempestade (<i>"as minhas maiores preocupações neste dia eram a chuva e o vento"</i>, <a href="https://www.youtube.com/watch?v=XA7H9R3fVMI" target="_blank">vídeo</a>) e o Luís, depois de <i>"choveu um bocadinho"</i>, diz que as águas <i>"mais tapadas"</i> são <i>"o ideal"</i> — por isso a chuva só tira pontos quando é muita, e é por conforto, não por peixe. Trovoada é para arrumar: <i>"com relâmpagos não se brinca"</i> (O, <a href="https://www.youtube.com/watch?v=1H8VPSaDfm0" target="_blank">vídeo</a>).<br>'+
     '⚠️ <b>Os pesos e os limites de vento e de chuva são meus</b>, não dos canais. Antes de ir: Windguru + IPMA + beachcam (🎯 4).</p>';
 
@@ -721,9 +736,9 @@
 
 </script>
 
-> 🏖️ **A tabela dá nota aos teus 4 spots de mar com as regras do [🎯 Escolher o dia](#🎯-escolher-o-dia-praia-de-mar-surfcasting)**: janela à volta da **baixa-mar**, o mar que cada praia aguenta, o mar a mudar, e a montagem para esse mar.
+> 🏖️ **A tabela dá nota às 6 praias de mar com as regras do [🎯 Escolher o dia](#🎯-escolher-o-dia-praia-de-mar-surfcasting)**: janela à volta da **baixa-mar**, o mar que cada praia aguenta, o mar a mudar, e a montagem para esse mar.
 
-> ⏰ **A janela é a tua:** semana desde que chegas (**19h** Guincho e Caparica, **19h30** Albufeira e Meco) até às **22h** · fim de semana **08h-22h**. **De noite pode-se pescar**, no mar e no estuário: a lei nacional não proíbe; só os editais das capitanias podem restringir nas praias concessionadas (FAQ DGRM 2026 — ver ⛔ Época balnear).
+> ⏰ **A janela é a tua:** semana desde que chegas (**19h** Guincho, Caparica, Fonte da Telha e Cova do Vapor · **19h30** Albufeira e Meco) até às **22h** · fim de semana **08h-22h**. **De noite pode-se pescar**, no mar e no estuário: a lei nacional não proíbe; só os editais das capitanias podem restringir nas praias concessionadas (FAQ DGRM 2026 — ver ⛔ Época balnear).
 
 ---
 
@@ -731,7 +746,7 @@
 
 > 🗒️ **De onde vem:** vídeos e respostas nos comentários de dois canais, lidos todos em nov-2026 — **Surfcasting Olivais** (Bruno, Lisboa: Guincho, Meco, Sintra) e **Peixe Português** (Luís, Leiria/Nazaré). **O** = Olivais · **L** = Luís.
 > ⚠️ **Na praia de mar os dois pescam a viragem da baixa-mar**, fim de vazante incluído — ao contrário do estuário, onde conta a água a mexer (💡 Doutrina da muralha, no fim da página).
-> 📅 **A tabela do topo já faz estas contas** para os teus 4 spots, com a montagem para o mar de cada um.
+> 📅 **A tabela do topo já faz estas contas** para as 6 praias, com a montagem para o mar de cada uma.
 
 > ⏱️ **Em 30 segundos — antes de marcar:**
 > 1. **Windguru:** o mar está a **mudar**? (sobe depois de dias parados · 1.º dia a cair depois de temporal · véspera de temporal) E cabe no limite **desta** praia (plana ou funda)?
@@ -755,14 +770,14 @@
 - ⚡ **A potência da vaga junta as duas coisas — o Olivais usa-a no IPMA:** *"tens lá uma secção sobre o mar que é bastante completa e tem lá uma referência que é os kW de potência da vaga. Tem em conta que para praias fundas essa potência pode ir até aos 10/12 e em praias planas, até 6/8, dependendo sempre da praia em questão"* (O, nos comentários de [Como escolher o dia](https://www.youtube.com/watch?v=4rM7LMqZJKw)). Na mesma resposta, sobre o Meco: *"1.5m é uma altura de vaga boa para se pescar no meco, o problema aí foram os 13 segundos de período"*; e com 1 m / ~9 s, *"tendo em conta que é uma praia funda, torna-se pouco mar"*. **Praia funda também pode ter mar a menos.**
 - **O período pesa tanto como a altura:** *"quanto mais longo for, mais força traz a vaga"* (O). Mesmo assim, em praia funda o Olivais pesca mar grande e apanha: **robalo XL** com 2 m e 14-15 s ([vídeo](https://www.youtube.com/watch?v=phKOe04hlM4)); robalos de ~2 kg com 1,5 m e 12-13 s, depois de mudar para *"uma praia um pouco mais funda"* ([vídeo](https://www.youtube.com/watch?v=0LbtbqA0Kfk)). Mar duro pede garras e estralho curto e grosso (🎣 5).
 - **Guincho:** o que ele mais gosta é **0,5 m, 7-8 s e vento sul** ([vídeo](https://www.youtube.com/watch?v=V1UskU3c_EU)) — ali 0,5 m não conta como "mar parado"; o mau é o mar ficar assim semanas. *"1 m com períodos de 10 segundos (…) já é um bocadinho forte para esta praia"* — mas nesse dia fez a enchente toda e teve atividade máxima ([vídeo](https://www.youtube.com/watch?v=A5xFZ5CqGYs)).
-- 📏 **Lê os números na app que eles usam** (Windguru ou IPMA), para os limites baterem certo. O Open-Meteo dá o **período médio** ([documentação](https://open-meteo.com/en/docs/marine-weather-api)), que sai mais baixo do que o de pico. Que período mostra o Windguru: não confirmado.
+- 📏 **A régua dele não é a do modelo.** Em 7 jornadas do Olivais datadas pela maré que ele diz no vídeo (Guincho e Meco, mar-out 2026), o Open-Meteo deu **×1,27 a altura** que ele diz (de 1,1 a 1,6×; um dia 2,3×), e o **período** que ele diz saiu **~0,9 do período médio** do modelo ([documentação](https://open-meteo.com/en/docs/marine-weather-api)), não o de pico. Exemplo: no Meco, a 28-set, ele diz *"o mar com cerca de 1 m de altura e períodos de 9 segundos"* ([O](https://www.youtube.com/watch?v=A4D-lVuZzxc)) e o modelo dava 1,24 m e 10,4 s. A tabela do topo já converte; para comparar com os limites dele, usa a app que ele usa (Windguru ou IPMA).
 
 ### 📍 Os teus spots — até 50 min do Marquês
 
 | Spot | Praia · fundo a 400 m da areia | 🚗 sem trânsito | Para que mar |
 |---|---|---|---|
 | **Guincho** | plana ([O](https://www.youtube.com/watch?v=UTWUpQ3q_ds)) · **−5 m**, com uma coroa a ~500 m | 24 min | **pequeno:** 0,5-1 m, 7-8 s, vento sul. Só de noite |
-| **Caparica (S. João)** | **plana (−2,6 m)** | 23 min | regra geral: até 1,5 m · 11 s |
+| **Caparica (S. João)** | **plana (−2,6 m)** | 23 min | o de praia plana: até **6-8 kW** (O) |
 | **Fonte da Telha** | intermédia (−3,2 m; −11 m a 700 m) | 25 min | regra geral · pelo fundo, aguenta um pouco mais que S. João (opinião) |
 | **Cova do Vapor** (pontões da barra) | rasa nos primeiros 300 m, depois **um canal de −8/−9 m** a 500-700 m · pesca-se das pontas dos pontões | 23 min | o da Caparica · **corrente forte** · fronteira mar/estuário |
 | **Lagoa de Albufeira-Mar** | **funda (−10 m)** — bate com o que viste | 38 min | só o lado do mar — **a lagoa é proibida** |
@@ -806,7 +821,7 @@
 
 ### 🎣 5. No dia — a montagem pelo mar
 
-- **Começa sempre comprido:** 1 estralho de **2,5-3 m**, fluoro **0,40** de noite, chumbo **130-140 g**. *"Eu gosto sempre de iniciar a pesca (…) com estralhos compridos"* ([O](https://www.youtube.com/watch?v=f6b98mOoH-k)); *"pesco sempre com cerca de 2m a 3m se o mar deixar. E a pescar de noite nunca baixo do 0.40mm"* (O, nos comentários). O Luís vai mais fino (0,23-0,28): *"quanto mais fino isso o mar deixar buscar, melhor"* ([L](https://www.youtube.com/watch?v=77b_H4l4CIU)).
+- **Começa sempre comprido:** 1 estralho de **2,5-3 m**, fluoro **0,40** de noite (o mínimo dele) e **0,52 de inverno** — *"Eu de inverno pesco maioritariamente com 0.52, com mar grande e de noite a espessura não interfere com o peixe, o importante é que venha o estralho esticado"* ([O](https://www.youtube.com/watch?v=jGA1mlvabjw), nos comentários) — chumbo **130-140 g**. *"Eu gosto sempre de iniciar a pesca (…) com estralhos compridos"* ([O](https://www.youtube.com/watch?v=f6b98mOoH-k)); *"pesco sempre com cerca de 2m a 3m se o mar deixar. E a pescar de noite nunca baixo do 0.40mm"* (O, nos comentários). O Luís vai mais fino (0,23-0,28): *"quanto mais fino isso o mar deixar buscar, melhor"* ([L](https://www.youtube.com/watch?v=77b_H4l4CIU)).
 - **Vem enrolado → por esta ordem:** ① **engrossa** — *"Aumento o diâmetro e se for preciso pesco com 0.57. Só em último caso encurto o estralho"* ([O](https://www.youtube.com/watch?v=GiApBTd16Mo), nos comentários); ② com mar calmo e isco leve, um **chumbinho de 3 g a um palmo do anzol** ([O](https://www.youtube.com/watch?v=f6b98mOoH-k)) — *"com este mar o chumbinho perde a eficácia"* ([O](https://www.youtube.com/watch?v=x-UxMses1n8), mar bruto); ③ **encurta** até vir direito: *"sejam de 2m ou de 50cm, só assim vamos estar a pescar"* ([O](https://www.youtube.com/watch?v=zszOhwG9So4), nos comentários). Luís: estralho 10-15 cm mais curto que a madre, e mais curto ainda se enrolar ([L](https://www.youtube.com/watch?v=Cih3pTKaVR4)).
 
 | O mar que ele tinha (dito no vídeo) | O estralho que usou | Vídeo |
@@ -820,7 +835,7 @@
 | ~2 m · 12 s, a subir | 2 m com 0,52 enrolava → **1,20 m** | [O](https://www.youtube.com/watch?v=x-UxMses1n8) |
 | 1 m · 6-7 s → 2 m · 9 s (temporal a chegar) | 2 m → 1,5 → 1 m → **70 cm** | [O](https://www.youtube.com/watch?v=XA7H9R3fVMI) |
 
-- 📏 **O mar sozinho não diz o comprimento:** com ~2 m ele já pescou com 3 m e com 1,20 m. O que manda é o estralho vir direito — começa comprido e ajusta. Os níveis de fluoro da tabela do topo são estimativa minha a partir destes 8 vídeos.
+- 📏 **O mar sozinho não diz o comprimento:** com ~2 m ele já pescou com 3 m e com 1,20 m. O que manda é o estralho vir direito — começa comprido e ajusta. De nov a mar, a tabela do topo diz 0,52 (a frase dele); no resto do ano, os níveis de fluoro por mar são estimativa minha a partir destes 8 vídeos. Nem no inverno é regra fixa: o robalo XL de fev-2026 saiu com 0,40.
 - **1 ou 2 estralhos por cana:**
   - **1 comprido** é o que o Olivais mais usa: *"tentar pescar com um estralho comprido que trabalhe melhor com a corrente. Por outro lado, também permite que o peixe coma menos desconfiado"* ([O](https://www.youtube.com/watch?v=lag3QNue6PI), nos comentários). Para robalo grande o Luís diz o mesmo: *"se tiveres numa de captura um robalo maior, melhor um anzol"* ([L](https://www.youtube.com/watch?v=wLvRCkM4eQ0), nos comentários).
   - **2 — na cana de perto, para sondar:** *"uma cana com um anzol e o estralho mais comprido, e outra cana com dois anzóis para ir sondando o peixe, com os diferentes tamanhos de estralho e vários iscos"* ([O](https://www.youtube.com/watch?v=FhpKnFIB3XI), nos comentários). Luís: *"numa pesca mais perto, a diversos, podes usar 3"*.
