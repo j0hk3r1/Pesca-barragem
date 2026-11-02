@@ -148,7 +148,7 @@
           var w0=Math.max(b.t.getTime()-2*H1, a0), w1=Math.min(b.t.getTime()+3*H1, a1);
           if(w1-w0>(J?J.w1-J.w0:0)) J={bm:b, w0:w0, w1:w1};
         });
-        var R={p:p, j:J, motivos:[], luz:[], pts:0, nota:'❌'};
+        var R={p:p, j:J, motivos:[], luz:[], pts:0, nota:'❌❌', fora:true};   // ❌❌ = não vale a pena ir
         var dMax=function(off){ var a=ini+off*24*H1; return D.mar.H.max(a, a+23*H1); };
         var ontem=dMax(-1);
         var antes=[dMax(-4),dMax(-3),dMax(-2),ontem].filter(function(x){return x!=null;});
@@ -216,7 +216,8 @@
         else if(R.chuva && R.chuva.max>=5) M.push('☔ chuva só nalguns modelos ('+mm(R.chuva.min)+'-'+mm(R.chuva.max)+' mm)');
         if(p.k==='guincho' && dir!=null && dir>=135 && dir<=225){ pts+=1; M.push('✅ vento sul (o do Guincho)'); }
         R.pts=pts; R.noite=noite;
-        R.nota = pts>=7?'⭐⭐⭐':pts>=5?'⭐⭐':pts>=3?'⭐':'fraco';
+        R.fora=false;
+        R.nota = pts>=7?'⭐⭐⭐':pts>=5?'⭐⭐':pts>=3?'⭐':'❌';     // ❌ = fraco
         R.mont = montagem(H, Tp);
         var md=k.slice(5), e0=p.epoca;
         R.epoca = md>=e0[0] && md<=e0[1];
@@ -231,7 +232,7 @@
   function renderPraias(dias, semVento){
     var f=function(x){ return x==null?'—':x.toFixed(1).replace('.',','); };
     var COR={ok:'#e6f4ec', aviso:'#fff4d6', nao:'#fbe9e9'};
-    var val=function(R){ return R.nota==='❌'?-9:R.pts; };
+    var val=function(R){ return R.fora?-9:R.pts; };
     var melhores=dias.map(function(D){ return Math.max.apply(null, D.spots.map(val)); });
     var top=melhores.filter(function(x,i){ return !dias[i].passado; }).sort(function(a,b){return b-a;});
     var abre=Math.max(5, top[1]!=null?top[1]:top[0]);   // abre os 2 melhores dias (se tiverem ⭐⭐ ou mais)
@@ -252,12 +253,12 @@
         var Hs=D.spots.map(function(R){return R.H;}).filter(function(x){return x!=null;});
         var conta={}, mot=null;
         D.spots.forEach(function(R){ conta[R.mot0]=(conta[R.mot0]||0)+1; if(!mot||conta[R.mot0]>conta[mot]) mot=R.mot0; });
-        resumo='❌ '+mot+(Hs.length && /mar|regra/.test(mot)?' ('+f(Math.min.apply(null,Hs))+'-'+f(Math.max.apply(null,Hs))+' m)':'');
+        resumo='❌❌ '+mot+(Hs.length && /mar|regra/.test(mot)?' ('+f(Math.min.apply(null,Hs))+'-'+f(Math.max.apply(null,Hs))+' m)':'');
       }
       // uma praia = 2-3 linhas curtas (cabe no telemóvel sem deslizar para o lado)
       var linhas=D.spots.map(function(R){
         var nome='<b>'+R.p.nome+'</b>'+(R.p.soNoite?' 🌙':'')+(R.epoca?' <span class="pr-sub">⛔ época balnear</span>':'');
-        if(R.nota==='❌') return '<div class="pr-s">❌ '+nome+' — '+R.mot0+
+        if(R.fora) return '<div class="pr-s">❌❌ '+nome+' — '+R.mot0+
           (R.H!=null && R.mar && R.mar.v==='nao' ? ' ('+f(R.H)+' m · ~'+Math.round(R.Tp)+' s)' : '')+'</div>';
         var vento = R.raj==null ? '' : ' · 💨 '+(R.dir==null?'':RUMOS[Math.round(R.dir/45)%8]+' ')+Math.round(R.vel)+' km/h <span class="pr-sub">(raj '+Math.round(R.raj)+')</span>';
         if(R.chuva && R.chuva.max>=1) vento += ' · ☔ '+(Math.round(R.chuva.min)===Math.round(R.chuva.max)?'':Math.round(R.chuva.min)+'-')+Math.round(R.chuva.max)+' mm';
@@ -306,8 +307,8 @@
 
   var LEGENDA_PRAIAS = '<p style="font-size:.85em;opacity:.8;margin-top:.6em">'+
     '<b>Como dá a nota</b> — regras do <a href="#/MAR?id=🎯-escolher-o-dia-praia-de-mar-surfcasting">🎯 Escolher o dia</a>, mais abaixo:<br>'+
-    '1️⃣ <b>O mar tem de caber na praia.</b> Guincho (plana): verde até 1 m · ~9 s, amarelo até 1,5 m · ~11 s. Meco e Albufeira-Mar (fundas): verde até 1,5 m · ~12 s e 12 kW, amarelo até 2 m · ~15 s, e amarelo também com <b>pouco mar</b> (menos de ~4,5 kW): no Meco com 1 m e ~9 s, <i>"tendo em conta que é uma praia funda, torna-se pouco mar"</i> (O). Caparica e Cova do Vapor (sem dados dos canais): regra geral, 1,5 m · 11 s. A Cova do Vapor usa as mesmas regras; com maré grande leva um aviso de corrente forte na barra. Praia plana acima disso só passa (amarelo) com BM de maré grande. Fora disto = ❌.<br>'+
-    '2️⃣ <b>Pontos.</b> O mar a mudar: 1.º dia a cair depois de mar grande +3 · sobe depois de dias parados +3 · véspera de temporal +2 · a cair +2 · parado há uma semana −2. Mar no verde +2 · maré grande (BM ≤ 0,8 m) +1 · BM até 2 h depois do pôr do sol +1 · janela ≥ 2h30 +1 · de noite +1 · luar −1 · vento sul no Guincho +1 · rajadas ≥ 35 km/h −1 (≥ 50 = ❌) · chuva na janela (mediana de 5 modelos) ≥ 5 mm −1, ≥ 10 mm −2 · trovoada em 1 modelo −1, em 2 ou mais = ❌. <b>⭐⭐⭐</b> ≥ 7 · <b>⭐⭐</b> ≥ 5 · <b>⭐</b> ≥ 3.<br>'+
+    '1️⃣ <b>O mar tem de caber na praia.</b> Guincho (plana): verde até 1 m · ~9 s, amarelo até 1,5 m · ~11 s. Meco e Albufeira-Mar (fundas): verde até 1,5 m · ~12 s e 12 kW, amarelo até 2 m · ~15 s, e amarelo também com <b>pouco mar</b> (menos de ~4,5 kW): no Meco com 1 m e ~9 s, <i>"tendo em conta que é uma praia funda, torna-se pouco mar"</i> (O). Caparica e Cova do Vapor (sem dados dos canais): regra geral, 1,5 m · 11 s. A Cova do Vapor usa as mesmas regras; com maré grande leva um aviso de corrente forte na barra. Praia plana acima disso só passa (amarelo) com BM de maré grande. Fora disto = ❌❌.<br>'+
+    '2️⃣ <b>Pontos.</b> O mar a mudar: 1.º dia a cair depois de mar grande +3 · sobe depois de dias parados +3 · véspera de temporal +2 · a cair +2 · parado há uma semana −2. Mar no verde +2 · maré grande (BM ≤ 0,8 m) +1 · BM até 2 h depois do pôr do sol +1 · janela ≥ 2h30 +1 · de noite +1 · luar −1 · vento sul no Guincho +1 · rajadas ≥ 35 km/h −1 (≥ 50 = ❌❌) · chuva na janela (mediana de 5 modelos) ≥ 5 mm −1, ≥ 10 mm −2 · trovoada em 1 modelo −1, em 2 ou mais = ❌❌. <b>⭐⭐⭐</b> ≥ 7 · <b>⭐⭐</b> ≥ 5 · <b>⭐</b> ≥ 3 · <b>❌</b> fraco · <b>❌❌</b> não vale a pena ir (o mar, o vento ou a trovoada passam o limite, ou não há baixa-mar no teu horário).<br>'+
     '<b>Pescas</b> = das 2 h antes da baixa-mar às 3 h depois (O e L), dentro da tua janela: semana desde que chegas (19h Guincho e Caparica, 19h30 Albufeira e Meco) até às 22h · fim de semana 08-22h. O Guincho só depois do pôr do sol (surfistas). 🌙 = só de noite.<br>'+
     '<b>Mar</b> = modelo Open-Meteo, não boia. <b>~s</b> = período de pico estimado (o médio do modelo × 1,15) para comparar com os números do Olivais no Windguru — que o Windguru mostra o pico não está confirmado. <b>kW</b> = potência da vaga ≈ 0,49 × altura² × período médio; o Olivais usa a do IPMA (Mar → praias): <i>"para praias fundas essa potência pode ir até aos 10/12 e em praias planas, até 6/8"</i> — a fórmula exata do IPMA não está confirmada. ↗ ↘ = em relação a ontem à mesma hora. Maré corrigida contra a tábua do Guincho (±4 min); a altura da BM é a da tábua.<br>'+
     '<b>🎣 Montagem</b> = o que o Olivais faz: começa sempre comprido (2,5-3 m, fluoro 0,40 de noite) e, se vier enrolado, <b>primeiro engrossa</b> (até 0,57) e <b>só depois encurta</b>. <b>2 estralhos</b>: na cana de perto para sondar, ou quando o mar obriga a encurtar (o de cima fica direito); para robalo grande, 1 anzol (L). O fluoro por nível de mar é estimativa minha a partir de 8 vídeos do Olivais. O Luís usa fluoro mais fino (0,23-0,28).<br>'+
