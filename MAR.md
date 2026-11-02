@@ -22,13 +22,17 @@
   // O desvio é diferente na PM e na BM porque o modelo também erra a assimetria
   // enchente/vazante — por isso são duas correções e não uma.
   var CORR = {PM:74, BM:45};
+  // Maré da costa: o Open-Meteo adianta-a ~30 min. Medido contra a tábua do
+  // Guincho (temperaturadomar.pt, 43 eventos 1-11 nov 2026): PM +30 / BM +28,
+  // ±4 min. Bate com Óbidos (+33, contra a TideTime). A de Lisboa (+74/+45) é
+  // maior porque a maré demora a subir o estuário.
+  var CORR_COSTA = {PM:30, BM:28};
 
   var LOCAIS = {
     estuario: {nome:'🧱 Tejo — muralha/Oriente', lat:38.68, lon:-9.32, sol_lat:38.75, sol_lon:-9.10, lag:10, noturna:true,  cal:'✅ calibrado', carro:'🚲 30-40 min'},
-    caparica: {nome:'🏖️ Caparica',              lat:38.62, lon:-9.26, sol_lat:38.64, sol_lon:-9.23, lag:0,  noturna:true , cal:'≈ herda a de Lisboa', carro:'🚗 17-40 min (ponte)'},
     sado:     {nome:'⚓ Setúbal / Sado',         lat:38.47, lon:-8.95, sol_lat:38.52, sol_lon:-8.89, lag:20, noturna:true , cal:'≈ herda a de Lisboa', carro:'🚗 51-70 min (ponte)'},
-    ericeira: {nome:'🌊 Ericeira / Costa Oeste', lat:38.96, lon:-9.43, sol_lat:38.96, sol_lon:-9.42, lag:0,  noturna:true , cal:'≈ herda a de Lisboa', carro:'🚗 41 min'},
-    sesimbra: {nome:'🐙 Sesimbra',               lat:38.42, lon:-9.11, sol_lat:38.44, sol_lon:-9.10, lag:0,  noturna:true , cal:'≈ herda a de Lisboa', carro:'🚗 39-60 min (ponte)'},
+    ericeira: {nome:'🌊 Ericeira / Costa Oeste', lat:38.96, lon:-9.43, sol_lat:38.96, sol_lon:-9.42, lag:0,  noturna:true , corr:CORR_COSTA, cal:'≈ a da costa (medida no Guincho)', carro:'🚗 41 min'},
+    sesimbra: {nome:'🐙 Sesimbra',               lat:38.42, lon:-9.11, sol_lat:38.44, sol_lon:-9.10, lag:0,  noturna:true , corr:CORR_COSTA, cal:'≈ a da costa (medida no Guincho)', carro:'🚗 39-60 min (ponte)'},
     // Óbidos tem correção própria (+33 min, medida contra a TideTime em 6 eventos)
     // e a maré ainda demora a entrar na lagoa: a fase de M2 sobe 80° da barra ao
     // fundo = 166 min. No #1, a 63% do canal, dá +1h44 médio. A BM atrasa ~36 min
@@ -217,20 +221,236 @@
       '<table><thead><tr><th>Dia</th><th>Marés</th><th>🏆 Melhores janelas<br>de pesca</th><th>🌊 Água a mexer</th><th>🎯 A tua janela</th><th>Ampl.</th><th>Nota</th><th>Pôr-sol</th></tr></thead><tbody>'+linhas+'</tbody></table>';
   }
 
-  function carrega(chave){
-    var L=LOCAIS[chave], el=document.getElementById('mares-app');
-    Promise.all([
-      fetch('https://marine-api.open-meteo.com/v1/marine?latitude='+L.lat+'&longitude='+L.lon+'&hourly=sea_level_height_msl&timezone=Europe%2FLisbon&forecast_days=10').then(function(r){return r.json();}),
-      fetch('https://api.open-meteo.com/v1/forecast?latitude='+L.sol_lat+'&longitude='+L.sol_lon+'&daily=sunrise,sunset&timezone=Europe%2FLisbon&forecast_days=10').then(function(r){return r.json();})
-    ]).then(function(res){
-      el.innerHTML =
-        '<div style="margin-bottom:.8em;display:flex;flex-wrap:wrap;gap:.4em">'+
-        Object.keys(LOCAIS).map(function(k){
-          return '<button data-l="'+k+'" style="padding:.35em .8em;border-radius:8px;cursor:pointer;font-size:.92em;'+
-            'border:1px solid '+(k===chave?'#0a7d5a':'#ccc')+';background:'+(k===chave?'#0a7d5a':'#fff')+';color:'+(k===chave?'#fff':'#333')+'">'+
-            LOCAIS[k].nome+'</button>';
-        }).join('')+'</div>'+ render(res[0], res[1], LOCAIS[chave])+
-        '<p style="font-size:.85em;opacity:.75;margin-top:.6em">'+
+  // ── PRAIAS DE MAR — as regras do 🎯 Escolher o dia, mais abaixo ─────────────
+  var ZH = 2.11;   // altura na tábua de marés ≈ nível do Open-Meteo + 2,11 m (mesma medição)
+  var TP_TM = 1.15; // período de pico ≈ médio × 1,15 (mediana do próprio modelo, 4 spots, ~870 h)
+  var PRAIAS = [
+    {k:'guincho',   nome:'Guincho',       lat:38.708, lon:-9.5417, tipo:'plana', soNoite:true, chega:19,   epoca:['05-01','09-30']},
+    {k:'caparica',  nome:'Caparica',      lat:38.65,  lon:-9.30,   tipo:'geral',               chega:19,   epoca:['06-01','09-30']},
+    {k:'albufeira', nome:'Albufeira-Mar', lat:38.54,  lon:-9.21,   tipo:'funda',               chega:19.5, epoca:['06-04','09-13']},
+    {k:'meco',      nome:'Meco',          lat:38.49,  lon:-9.23,   tipo:'funda',               chega:19.5, epoca:['06-04','09-13']}
+  ];
+  var H1 = 3600000;
+
+  // posição da lua (fórmulas do SunCalc, ~1°) — só para saber se há luar na janela
+  function lua(ms, lat, lon){
+    var r=Math.PI/180, d=ms/86400000-10957.5, e=r*23.4397;
+    var L=r*(218.316+13.176396*d), M=r*(134.963+13.064993*d), F=r*(93.272+13.229350*d);
+    var l=L+r*6.289*Math.sin(M), b=r*5.128*Math.sin(F);
+    var ra=Math.atan2(Math.sin(l)*Math.cos(e)-Math.tan(b)*Math.sin(e), Math.cos(l));
+    var dec=Math.asin(Math.sin(b)*Math.cos(e)+Math.cos(b)*Math.sin(e)*Math.sin(l));
+    var H=r*(280.16+360.9856235*d)+r*lon-ra, phi=r*lat;
+    var alt=Math.asin(Math.sin(phi)*Math.sin(dec)+Math.cos(phi)*Math.cos(dec)*Math.cos(H))/r;
+    var idade=((ms/86400000-10962.76)%29.530589+29.530589)%29.530589;   // dias desde a lua nova
+    return {alt:alt, frac:(1-Math.cos(2*Math.PI*idade/29.530589))/2};
+  }
+
+  // nascer e pôr do sol (SunCalc, ~1 min) — não depende de mais um pedido à net
+  function solDe(ms, lat, lon){
+    var r=Math.PI/180, J0=0.0009, e=r*23.4397, lw=r*-lon, phi=r*lat;
+    var n=Math.round(ms/86400000-10957.5-J0-lw/(2*Math.PI)), ds=J0+lw/(2*Math.PI)+n;
+    var M=r*(357.5291+0.98560028*ds), C=r*(1.9148*Math.sin(M)+0.02*Math.sin(2*M)+0.0003*Math.sin(3*M));
+    var L=M+C+r*102.9372+Math.PI, dec=Math.asin(Math.sin(e)*Math.sin(L));
+    var noon=ds+0.0053*Math.sin(M)-0.0069*Math.sin(2*L);
+    var w=Math.acos((Math.sin(r*-0.833)-Math.sin(phi)*Math.sin(dec))/(Math.cos(phi)*Math.cos(dec)));
+    var set=J0+(w+lw)/(2*Math.PI)+n+0.0053*Math.sin(M)-0.0069*Math.sin(2*L);
+    var ms0=function(j){ return new Date((j+10957.5)*86400000); };
+    return {nascer:ms0(noon-(set-noon)), por:ms0(set)};
+  }
+
+  // série horária (unixtime) → função valor(ms) e máximo num intervalo
+  function serie(t, v){
+    var ix={}; t.forEach(function(s,i){ ix[s*1000]=i; });
+    return {
+      em: function(ms){ var i=ix[Math.round(ms/H1)*H1]; return i==null?null:v[i]; },
+      max: function(a,b){ var m=null; for(var ms=Math.ceil(a/H1)*H1; ms<=b; ms+=H1){ var x=this.em(ms); if(x!=null&&(m==null||x>m)) m=x; } return m; },
+      med: function(a,b){ var s=0,n=0; for(var ms=Math.ceil(a/H1)*H1; ms<=b; ms+=H1){ var x=this.em(ms); if(x!=null){s+=x;n++;} } return n?s/n:null; }
+    };
+  }
+
+  // tamanho do mar → verdicto para o tipo de praia (limites do Olivais, lidos no Windguru)
+  function marOk(p, H, Tp, mareGrande){
+    if(H==null) return {v:'?', txt:'sem previsão do mar'};
+    if(p.tipo==='plana'){            // Guincho
+      if(H<=1.0 && Tp<=9)  return {v:'ok', txt:'o mar que o Olivais gosta aqui'};
+      if(H<=1.5 && Tp<=11) return {v:'duro', txt:'já é forte para esta praia'};
+      if(H<=2.0 && mareGrande) return {v:'duro', txt:'só na baixa-mar de maré grande'};
+      return {v:'nao', txt:'mar grande demais para praia plana'};
+    }
+    if(p.tipo==='funda'){            // Meco, Albufeira-Mar
+      if(H<=1.5 && Tp<=12) return {v:'ok', txt:'dentro do que a praia aguenta'};
+      if(H<=2.0 && Tp<=15) return {v:'duro', txt:'dá peixe, mas é mar duro'};
+      return {v:'nao', txt:'mar grande demais'};
+    }
+    // Caparica: sem dados dos canais → regra geral
+    if(H<=1.5 && Tp<=11) return {v:'ok', txt:'dentro da regra geral'};
+    if(H<=2.0 && mareGrande) return {v:'duro', txt:'só na baixa-mar de maré grande'};
+    return {v:'nao', txt:'acima da regra geral (1,5 m · 11 s)'};
+  }
+
+  // montagem pelo mar (🎣 5) — calmo / médio / forte; período longo sobe um nível
+  function montagem(H, Tp){
+    var n = H<=1.0?0 : H<=1.5?1 : 2;
+    if(Tp>12 && n<2) n++;
+    return [
+      {est:'2-3 m',   flu:'0,40',      chu:'120-130 g gota / bico de pato'},
+      {est:'~1,5 m',  flu:'0,45',      chu:'130-140 g pirâmide'},
+      {est:'1-1,2 m', flu:'0,50-0,52', chu:'140-150 g pirâmide + garras'}
+    ][n];
+  }
+
+  function avaliaPraias(dados, sol, mares, hojeMs){
+    // dados[k] = {mar:{H,T}, vento:{v,r,d,nuv}} · sol[ymd] = {nascer,por} · mares = eventos já corrigidos
+    var dias=[], d0=new Date(hojeMs); d0.setHours(0,0,0,0);
+    for(var n=0;n<10;n++){
+      var dia=new Date(d0); dia.setDate(d0.getDate()+n);
+      var k=ymd(dia), ini=dia.getTime(), fim=ini+24*H1, s=sol[k];
+      if(!s) continue;
+      var fds=(dia.getDay()===0||dia.getDay()===6);
+      var bms=mares.filter(function(e){ return e.tipo==='BM' && e.t.getTime()>ini-3*H1 && e.t.getTime()<fim+2*H1; });
+      var spots=PRAIAS.map(function(p){
+        var D=dados[p.k];
+        var a0=ini+(fds?8:p.chega)*H1, a1=ini+22*H1;
+        if(p.soNoite) a0=Math.max(a0, s.por.getTime());
+        // a janela da maré: BM −2 h → BM +3 h, dentro da tua
+        var J=null;
+        bms.forEach(function(b){
+          var w0=Math.max(b.t.getTime()-2*H1, a0), w1=Math.min(b.t.getTime()+3*H1, a1);
+          if(w1-w0>(J?J.w1-J.w0:0)) J={bm:b, w0:w0, w1:w1};
+        });
+        var R={p:p, j:J, motivos:[], luz:[], pts:0, nota:'❌'};
+        var dMax=function(off){ var a=ini+off*24*H1; return D.mar.H.max(a, a+23*H1); };
+        var ontem=dMax(-1);
+        var antes=[dMax(-4),dMax(-3),dMax(-2),ontem].filter(function(x){return x!=null;});
+        var mediaAntes=antes.length?antes.reduce(function(a,b){return a+b;},0)/antes.length:null;
+        var rajDia=function(off){ var a=ini+off*24*H1; return D.vento.r.max(a, a+23*H1); };
+        var temporal=function(off){ var h=dMax(off), r=rajDia(off); return (h!=null && h>=2.5) || (r!=null && r>=60); };
+        R.temporal = temporal(0);
+        // véspera = o último dia calmo: o temporal chega amanhã, ou depois de amanhã com amanhã já ventoso
+        var vespera = !R.temporal && (temporal(1) || (temporal(2) && rajDia(1)>=50));
+        if(!J || J.w1-J.w0<90*60000){
+          R.mot0 = !J ? 'sem baixa-mar no teu horário' : 'só '+Math.round((J.w1-J.w0)/60000)+' min de janela';
+          return R;
+        }
+        var H=D.mar.H.med(J.w0,J.w1), Tm=D.mar.T.med(J.w0,J.w1), Tp=Tm!=null?Tm*TP_TM:null;
+        var bmZH=J.bm.alt+ZH, mareGrande=bmZH<=0.8;
+        var mar=marOk(p, H, Tp, mareGrande);
+        var raj=D.vento.r.max(J.w0,J.w1), vel=D.vento.v.med(J.w0,J.w1), dir=D.vento.d.em(J.bm.t.getTime()), nuv=D.vento.nuv.med(J.w0,J.w1);
+        R.H=H; R.Tm=Tm; R.Tp=Tp; R.mar=mar; R.raj=raj; R.vel=vel; R.dir=dir; R.bmZH=bmZH;
+        var Hontem=D.mar.H.med(J.w0-24*H1, J.w1-24*H1);   // o mesmo bocado do dia, ontem
+        R.tend = (Hontem!=null&&H!=null) ? (H>Hontem*1.15?'↗':H<Hontem*0.85?'↘':'→') : '';
+        if(mar.v==='nao'){ R.mot0=mar.txt; return R; }
+        if(raj!=null && raj>=50){ R.mot0='rajadas de '+Math.round(raj)+' km/h'; return R; }
+        var pts=0, M=R.motivos, Z=R.luz;
+        M.push((mar.v==='ok'?'✅ ':'⚠️ ')+mar.txt); if(mar.v==='ok') pts+=2;
+        // 1. o mar a MUDAR — o que mais conta
+        var limite = p.tipo==='funda'?2.0:1.5;
+        if(ontem!=null && ontem>=1.5 && ontem>=1.3*H){
+          if(ontem>limite){ pts+=3; M.push('✅ 1.º dia a cair depois de mar grande'); }
+          else { pts+=2; M.push('✅ mar a cair'); }
+        } else if(mediaAntes!=null && mediaAntes<=0.8 && H>=0.8 && H>=1.3*mediaAntes){
+          pts+=3; M.push('✅ o mar sobe depois de dias parados');
+        }
+        if(vespera){ pts+=2; M.push('✅ véspera de temporal'); }
+        var semana=[-7,-6,-5,-4,-3,-2,-1,0].map(dMax).filter(function(x){return x!=null;});
+        if(semana.length>=6 && Math.max.apply(null,semana)<=0.6){ pts-=2; M.push('❌ mar parado há uma semana'); }
+        // 2. a maré
+        if(mareGrande){ pts+=1; Z.push('maré grande'); }
+        var dPor=(J.bm.t.getTime()-s.por.getTime())/60000;
+        if(dPor>=-30 && dPor<=120){ pts+=1; Z.push('BM logo a seguir ao pôr do sol'); }
+        if(J.w1-J.w0>=150*60000) pts+=1;
+        // 3. luz, lua, vento
+        var meio=J.w0+(J.w1-J.w0)/2, sp=sol[ymd(new Date(meio))]||s;
+        var noite = meio>=sp.por.getTime() || meio<=sp.nascer.getTime();
+        if(noite) pts+=1;
+        var lu=lua(meio, p.lat, p.lon);
+        R.luar = lu.alt>0 && lu.frac>0.5 && !(nuv!=null && nuv>=70);
+        if(noite && R.luar){ pts-=1; Z.push('🌕 com luar'); }
+        else if(noite && (lu.alt<=0 || lu.frac<0.25)){ Z.push('🌑 sem lua'); }
+        if(raj!=null && raj>=35){ pts-=1; M.push('⚠️ rajadas de '+Math.round(raj)+' km/h'); }
+        if(p.k==='guincho' && dir!=null && dir>=135 && dir<=225){ pts+=1; M.push('✅ vento sul (o do Guincho)'); }
+        R.pts=pts; R.noite=noite;
+        R.nota = pts>=7?'⭐⭐⭐':pts>=5?'⭐⭐':pts>=3?'⭐':'fraco';
+        R.mont = montagem(H, Tp);
+        var md=k.slice(5), e0=p.epoca;
+        R.epoca = md>=e0[0] && md<=e0[1];
+        return R;
+      });
+      dias.push({k:k, dia:dia, fds:fds, s:s, bms:bms.filter(function(b){return ymd(b.t)===k;}), spots:spots});
+    }
+    return dias;
+  }
+
+  var RUMOS=['N','NE','E','SE','S','SO','O','NO'];
+  function renderPraias(dias, semVento){
+    var f=function(x){ return x==null?'—':x.toFixed(1).replace('.',','); };
+    var COR={ok:'#e6f4ec', duro:'#fff4d6', nao:'#fbe9e9'};
+    var val=function(R){ return R.nota==='❌'?-9:R.pts; };
+    var melhores=dias.map(function(D){ return Math.max.apply(null, D.spots.map(val)); });
+    var top=melhores.slice().sort(function(a,b){return b-a;});
+    var abre=Math.max(5, top[1]!=null?top[1]:top[0]);   // abre os 2 melhores dias (se tiverem ⭐⭐ ou mais)
+    var css='<style>.pr-d{border:1px solid #dfe7e3;border-radius:10px;margin:.45em 0;background:#fff}'+
+      '.pr-d>summary{cursor:pointer;padding:.55em .8em;list-style-position:inside}'+
+      '.pr-d[open]>summary{border-bottom:1px solid #e6ece9;background:#f6faf8;border-radius:10px 10px 0 0}'+
+      '.pr-s{padding:.45em .8em;border-top:1px solid #eef2f0;font-size:.93em;line-height:1.5}.pr-best{background:#eef8f4}'+
+      '.pr-m{padding:0 .3em;border-radius:4px;white-space:nowrap}.pr-l{font-size:.9em;margin-top:.1em}.pr-sub{font-size:.82em;opacity:.7}</style>';
+    var html=dias.map(function(D, i){
+      var ord=D.spots.slice().sort(function(a,b){ return val(b)-val(a); }), best=ord[0], bom=val(best)>-9;
+      var bmTxt=D.bms.map(function(b){ return 'BM '+hm(b.t)+' ('+f(b.alt+ZH)+' m)'; }).join(' · ');
+      var resumo;
+      if(bom){
+        var outros=ord.slice(1).filter(function(R){ return R.nota===best.nota; }).map(function(R){ return R.p.nome; });
+        resumo=best.nota+' <b>'+best.p.nome+'</b>'+(outros.length?' <span class="pr-sub">(e '+outros.join(', ')+')</span>':'')+
+          ' · pescas '+hm(new Date(best.j.w0))+'-'+hm(new Date(best.j.w1))+(best.luz.length?' · '+best.luz.join(' · '):'');
+      } else {
+        var Hs=D.spots.map(function(R){return R.H;}).filter(function(x){return x!=null;});
+        var conta={}, mot=null;
+        D.spots.forEach(function(R){ conta[R.mot0]=(conta[R.mot0]||0)+1; if(!mot||conta[R.mot0]>conta[mot]) mot=R.mot0; });
+        resumo='❌ '+mot+(Hs.length && /mar|regra/.test(mot)?' ('+f(Math.min.apply(null,Hs))+'-'+f(Math.max.apply(null,Hs))+' m)':'');
+      }
+      // uma praia = 2-3 linhas curtas (cabe no telemóvel sem deslizar para o lado)
+      var linhas=D.spots.map(function(R){
+        var nome='<b>'+R.p.nome+'</b>'+(R.p.soNoite?' 🌙':'')+(R.epoca?' <span class="pr-sub">⛔ época balnear</span>':'');
+        if(R.nota==='❌') return '<div class="pr-s">❌ '+nome+' — '+R.mot0+
+          (R.H!=null && R.mar && R.mar.v==='nao' ? ' ('+f(R.H)+' m · ~'+Math.round(R.Tp)+' s)' : '')+'</div>';
+        var vento = R.raj==null ? '' : ' · 💨 '+(R.dir==null?'':RUMOS[Math.round(R.dir/45)%8]+' ')+Math.round(R.vel)+' km/h <span class="pr-sub">(raj '+Math.round(R.raj)+')</span>';
+        return '<div class="pr-s'+(R===best?' pr-best':'')+'"><b>'+R.nota+'</b> '+nome+' · '+hm(new Date(R.j.w0))+'-'+hm(new Date(R.j.w1))+
+          ' · <span class="pr-m" style="background:'+COR[R.mar.v]+'">'+f(R.H)+' m · ~'+Math.round(R.Tp)+' s '+R.tend+'</span>'+vento+
+          '<div class="pr-l">🎣 estralho <b>'+R.mont.est+'</b> · fluoro '+R.mont.flu+' · '+R.mont.chu+'</div>'+
+          '<div class="pr-l pr-sub">'+R.motivos.join(' · ')+'</div></div>';
+      }).join('');
+      return '<details class="pr-d"'+(bom&&melhores[i]>=abre?' open':'')+'><summary><b>'+DIAS[D.dia.getDay()]+' '+D.k.slice(8)+'/'+D.k.slice(5,7)+'</b>'+(D.fds?' 🎉':'')+
+        ' · '+resumo+'<br><span class="pr-sub">'+(bmTxt||'sem baixa-mar')+' · pôr do sol '+hm(D.s.por)+'</span></summary>'+linhas+'</details>';
+    }).join('');
+    return css+(semVento?'<p class="pr-sub">⚠️ Sem dados de vento agora (o Open-Meteo não respondeu) — a nota não conta o vento. Vê o Windguru.</p>':'')+html;
+  }
+
+  function carregaPraias(){
+    var M='https://marine-api.open-meteo.com/v1/marine?hourly=wave_height,wave_period,sea_level_height_msl&timeformat=unixtime&past_days=8&forecast_days=10';
+    var W='https://api.open-meteo.com/v1/forecast?hourly=wind_speed_10m,wind_gusts_10m,wind_direction_10m,cloud_cover&timeformat=unixtime&forecast_days=10';
+    var js=function(u){ return fetch(u).then(function(r){ return r.json(); }).then(function(x){ if(!x||x.error||!x.hourly) throw x; return x; }); };
+    var nada={em:function(){return null;}, max:function(){return null;}, med:function(){return null;}};
+    return Promise.all(PRAIAS.map(function(p){
+      var ll='&latitude='+p.lat+'&longitude='+p.lon;
+      return Promise.all([js(M+ll), js(W+ll).catch(function(){ return null; })]);
+    })).then(function(res){
+      var dados={}, mares=null, semVento=false;
+      PRAIAS.forEach(function(p,i){
+        var m=res[i][0].hourly, w=res[i][1]&&res[i][1].hourly;
+        if(!w) semVento=true;
+        dados[p.k]={mar:{H:serie(m.time,m.wave_height), T:serie(m.time,m.wave_period)},
+          vento: w ? {v:serie(w.time,w.wind_speed_10m), r:serie(w.time,w.wind_gusts_10m), d:serie(w.time,w.wind_direction_10m), nuv:serie(w.time,w.cloud_cover)}
+                   : {v:nada, r:nada, d:nada, nuv:nada}};
+        // as 4 praias têm a mesma maré (±3 min) — usa a do Guincho, onde a correção foi medida
+        if(p.k==='guincho') mares=extremos(m.time.map(function(x){return x*1000;}), m.sea_level_height_msl, 0, {corr:CORR_COSTA});
+      });
+      var sol={}, hoje=new Date(); hoje.setHours(12,0,0,0);
+      for(var n=-1;n<12;n++){ var d=new Date(hoje); d.setDate(hoje.getDate()+n); sol[ymd(d)]=solDe(d.getTime(), 38.708, -9.5417); }
+      return renderPraias(avaliaPraias(dados, sol, mares, Date.now()), semVento);
+    });
+  }
+
+  var LEGENDA = '<p style="font-size:.85em;opacity:.75;margin-top:.6em">'+
         '<b>🏆 Melhores janelas de pesca</b> = os <b>três melhores blocos de 2h30</b> do dia que não se sobrepõem, por ordem 🥇🥈🥉, pontuados de 15 em 15 min por <b>três coisas</b>: força da corrente (máxima a meio da maré), <b>altura de água</b> (numa lagoa rasa o peixe só chega às margens com maré cheia — por isso pesa mais em Óbidos que no mar) e <b>luz baixa</b> (a primeira e a última hora do dia valem por si). ⬆ enchente · ⬇ vazante. ⭐⭐⭐ = dia bom.<br>'+
         '<b>🌊 Água a mexer</b> = todas as horas com corrente, dês ou não estar livre. Cada janela começa 45 min depois de uma maré e acaba 45 min antes da seguinte (o estofo é água parada).<br>'+
         '<b>🎯 A tua janela</b> = a maior fatia dessas horas que te calha (semana 18h-22h · fim de semana 08h-22h 🎉'+
@@ -240,15 +460,51 @@
         'Calibração medida em 35 eventos contra a <a href="https://www.tidetime.org/europe/portugal/lisbon.htm" target="_blank">TideTime</a>, '+
         'a <a href="https://www.portodelisboa.pt/en/tides" target="_blank">Tabela do Porto de Lisboa/IH</a> e o '+
         '<a href="https://tides4fishing.com/pt/lisboa/lisboa" target="_blank">Tides4fishing</a> — <b>verificada para Lisboa</b>; '+
-        'os outros pontos herdam a mesma correção sem verificação própria.</p>';
+        'Ericeira e Sesimbra usam a correção da costa (medida no Guincho); Setúbal herda a de Lisboa sem verificação. Nascer e pôr do sol calculados na página.</p>';
+  var LEGENDA_PRAIAS = '<p style="font-size:.85em;opacity:.8;margin-top:.6em">'+
+      '<b>Como dá a nota</b> — regras do <a href="#/MAR?id=🎯-escolher-o-dia-praia-de-mar-surfcasting">🎯 Escolher o dia</a>, mais abaixo:<br>'+
+      '1️⃣ <b>O mar tem de caber na praia.</b> Guincho (plana): verde até 1 m · ~9 s, amarelo até 1,5 m · ~11 s. Meco e Albufeira-Mar (fundas): verde até 1,5 m · ~12 s, amarelo até 2 m · ~15 s. Caparica (sem dados dos canais): regra geral, 1,5 m · 11 s. Praia plana acima disso só passa (amarelo) com BM de maré grande. Fora disto = ❌.<br>'+
+      '2️⃣ <b>Pontos.</b> O mar a mudar: 1.º dia a cair depois de mar grande +3 · sobe depois de dias parados +3 · véspera de temporal +2 · a cair +2 · parado há uma semana −2. Mar no verde +2 · maré grande (BM ≤ 0,8 m) +1 · BM até 2 h depois do pôr do sol +1 · janela ≥ 2h30 +1 · de noite +1 · luar −1 · vento sul no Guincho +1 · rajadas ≥ 35 km/h −1 (≥ 50 = ❌). <b>⭐⭐⭐</b> ≥ 7 · <b>⭐⭐</b> ≥ 5 · <b>⭐</b> ≥ 3.<br>'+
+      '<b>Pescas</b> = das 2 h antes da baixa-mar às 3 h depois (O e L), dentro da tua janela: semana desde que chegas (19h Guincho e Caparica, 19h30 Albufeira e Meco) até às 22h · fim de semana 08-22h. O Guincho só depois do pôr do sol (surfistas). 🌙 = só de noite.<br>'+
+      '<b>Mar</b> = modelo Open-Meteo, não boia. <b>~s</b> = período de pico estimado (o médio do modelo × 1,15) para comparar com os números do Olivais no Windguru — que o Windguru mostra o pico não está confirmado. ↗ ↘ = em relação a ontem à mesma hora. Maré corrigida contra a tábua do Guincho (±4 min); a altura da BM é a da tábua.<br>'+
+      '<b>🎣 Montagem</b> = estimativa a partir de 3 vídeos do Olivais (1 m de mar → estralho de 2 m; ~2 m → 1-1,2 m); período comprido sobe um nível. O que manda é o estralho vir direito: se vier enrolado, engrossa e depois encurta. O chumbo muda de forma quando não segura. O Luís usa fluoro mais fino (0,23-0,28).<br>'+
+      '⚠️ <b>Os pesos e os limites de vento são meus</b>, não dos canais. Antes de ir: Windguru + beachcam (🎯 4).</p>';
+
+  // nascer e pôr do sol calculados aqui, no formato que o render() espera
+  function solLocal(L){
+    var t=[], nas=[], por=[], d0=new Date(); d0.setHours(12,0,0,0);
+    for(var n=0;n<11;n++){ var d=new Date(d0); d.setDate(d0.getDate()+n); var s=solDe(d.getTime(), L.sol_lat, L.sol_lon); t.push(ymd(d)); nas.push(s.nascer); por.push(s.por); }
+    return {daily:{time:t, sunrise:nas, sunset:por}};
+  }
+
+  function botoes(chave){
+    return '<div style="margin-bottom:.8em;display:flex;flex-wrap:wrap;gap:.4em">'+
+      ['praias'].concat(Object.keys(LOCAIS)).map(function(k){
+        return '<button data-l="'+k+'" style="padding:.35em .8em;border-radius:8px;cursor:pointer;font-size:.92em;'+
+          'border:1px solid '+(k===chave?'#0a7d5a':'#ccc')+';background:'+(k===chave?'#0a7d5a':'#fff')+';color:'+(k===chave?'#fff':'#333')+'">'+
+          (k==='praias'?'🏖️ Praias de mar — os teus 4':LOCAIS[k].nome)+'</button>';
+      }).join('')+'</div>';
+  }
+
+  function carrega(chave){
+    var el=document.getElementById('mares-app');
+    var pronto = chave==='praias'
+      ? carregaPraias().then(function(h){ return h+LEGENDA_PRAIAS; })
+      : fetch('https://marine-api.open-meteo.com/v1/marine?latitude='+LOCAIS[chave].lat+'&longitude='+LOCAIS[chave].lon+'&hourly=sea_level_height_msl&timezone=Europe%2FLisbon&forecast_days=10')
+          .then(function(r){ return r.json(); })
+          .then(function(m){ var L=LOCAIS[chave]; return render(m, solLocal(L), L)+LEGENDA; });
+    var liga=function(){
       el.querySelectorAll('button[data-l]').forEach(function(b){
         b.onclick=function(){ el.innerHTML='A carregar…'; carrega(b.getAttribute('data-l')); };
       });
-    }).catch(function(e){
-      el.innerHTML='<p>⚠️ Não deu para carregar as marés (offline?). Consulta <a href="https://www.tidetime.org/europe/portugal/lisbon.htm" target="_blank">TideTime</a>.</p>';
-    });
+    };
+    pronto.then(function(html){ el.innerHTML=botoes(chave)+html; liga(); })
+      .catch(function(e){
+        el.innerHTML=botoes(chave)+'<p>⚠️ Não deu para carregar (sem net, ou o Open-Meteo está ocupado — tenta daqui a uns minutos). Marés: <a href="https://www.tidetime.org/europe/portugal/lisbon.htm" target="_blank">TideTime</a>.</p>';
+        liga();
+      });
   }
-  if(document.getElementById('mares-app')) carrega('estuario');
+  if(document.getElementById('mares-app')) carrega('praias');
 })();
 
 // ===== tabela de épocas balneares =====
@@ -632,9 +888,9 @@
 
 </script>
 
-> ⚠️ **Esta tabela pontua a água a MEXER — é a lógica do estuário e das lagoas.** Para **praia de mar** usa a [🎯 Escolher o dia](#-escolher-o-dia--praia-de-mar-surfcasting) mais abaixo: lá a janela é **à volta da baixa-mar** e o que mais conta é o mar.
+> 🏖️ **O botão Praias de mar (abre primeiro) dá nota aos teus 4 spots com as regras do [🎯 Escolher o dia](#🎯-escolher-o-dia-praia-de-mar-surfcasting)**: janela à volta da **baixa-mar**, o mar que cada praia aguenta, o mar a mudar, e a montagem para esse mar. Os outros botões pontuam a **água a mexer** — a lógica do estuário e das lagoas.
 
-> ⏰ **A janela é a tua:** semana **18h-22h** · fim de semana **08h-22h**. **De noite pode-se pescar**, no mar e no estuário: a lei nacional não proíbe; só os editais das capitanias podem restringir nas praias concessionadas (FAQ DGRM 2026 — ver ⛔ Época balnear).
+> ⏰ **A janela é a tua:** semana **18h-22h** (nas praias de mar, desde que chegas: **19h** Guincho e Caparica, **19h30** Albufeira e Meco) · fim de semana **08h-22h**. **De noite pode-se pescar**, no mar e no estuário: a lei nacional não proíbe; só os editais das capitanias podem restringir nas praias concessionadas (FAQ DGRM 2026 — ver ⛔ Época balnear).
 
 > 🌊 **A regra das marés (leia-se com atenção — é contraintuitivo):** o que manda **não é a maré cheia** — é a **água a MEXER**. O instante da preia-mar e o da baixa-mar são o **estofo**: a água pára para inverter e as picadas morrem. A doutrina clássica *"2 h antes e 2 h depois da preia-mar"* não contradiz isto: essas 4 horas são precisamente **água a correr**, com o estofo da preia-mar no meio a ser o pior ponto delas. A tabela desconta **±45 min** à volta de cada PM/BM e conta o resto como tempo útil.
 > *(Doutrina de pescadores consolidada, não medição — vale a pena registares as tuas picadas por fase de maré e ver se a tua água tem padrão próprio.)*
@@ -647,6 +903,7 @@
 
 > 🗒️ **De onde vem:** vídeos e respostas nos comentários de dois canais, lidos todos em nov-2026 — **Surfcasting Olivais** (Bruno, Lisboa: Guincho, Meco, Sintra) e **Peixe Português** (Luís, Leiria/Nazaré). **O** = Olivais · **L** = Luís.
 > ⚠️ **Na praia de mar a regra das marés de cima não serve:** os dois pescam **a viragem da baixa-mar**, fim de vazante incluído. A de cima é a do estuário e das lagoas.
+> 📅 **A tabela do topo já faz estas contas** para os teus 4 spots (botão 🏖️ Praias de mar), com a montagem para o mar de cada um.
 
 > ⏱️ **Em 30 segundos — antes de marcar:**
 > 1. **Windguru:** o mar está a **mudar**? (sobe depois de dias parados · 1.º dia a cair depois de temporal · véspera de temporal) E cabe no limite **desta** praia (plana ou funda)?
@@ -725,7 +982,7 @@
   <span id="gpx-data" style="opacity:.7;font-size:.85em"></span>
 </div>
 
-📲 **Para o OsmAnd** — abre no telemóvel e escolhe *abrir com OsmAnd*. Funciona offline. [Instruções completas](#-levar-isto-para-o-osmand--funciona-offline)
+📲 **Para o OsmAnd** — abre no telemóvel e escolhe *abrir com OsmAnd*. Funciona offline. [Instruções completas](#📲-levar-isto-para-o-osmand-funciona-offline)
 
 **Como ler:**
 - 🔴 **Círculo vermelho = zona proibida** — o raio é o da regra daquela estrutura (100 m ou 300 m). **Clica para ver se a proibição é 🇵🇹 NACIONAL** (Portaria 14/2014 — vale em todo o país) **ou 📍 LOCAL** (edital da Capitania de Lisboa — só vale aqui).
@@ -935,7 +1192,7 @@ Respostas literais do [FAQ da Pesca Lúdica](https://www.dgrm.pt/documents/20143
 
 > **[Regulamento de Gestão das Lagoas de Óbidos e Albufeira](https://www.sesimbra.pt/cmsesimbra/uploads/document/file/8329/regulamento-gestao-lagoas-obidos-albufeira.pdf), art. 13.º n.º 1:** *"Nas zonas de utilização condicionada permanente **não são permitidas** quaisquer atividades que afetem a sensibilidade ecológica destas áreas, designadamente: **a) Pesca profissional e lúdica**."*
 
-> 🟢 **Contraste que confirma tudo: a [Lagoa de Óbidos](#🟢-lagoa-de-óbidos-aqui-podes-e-é-a-melhor-notícia-deste-mapa) é o oposto** — lá a Zona de Utilização Livre existe e cobre quase toda a lagoa. Ver a secção mais abaixo.
+> 🟢 **Contraste que confirma tudo: a [Lagoa de Óbidos](#🟢-lagoa-de-Óbidos-o-guia) é o oposto** — lá a Zona de Utilização Livre existe e cobre quase toda a lagoa. Ver a secção mais abaixo.
 
 **Duas confirmações de que a leitura está certa:** a mesma RCM diz que a Zona de Utilização Livre *"apenas está identificada (…) no Plano de Água da **Lagoa de Óbidos**"* — em Albufeira não existe nenhuma; e o art. 13.º n.º 1 c) excetua expressamente a **miticultura na Lagoa de Albufeira**, o que só faz sentido se a lagoa estiver toda em zona condicionada.
 
@@ -1229,7 +1486,7 @@ Cada ponto traz a descrição completa: distância de lançamento, rumo, se há 
 
 > 💡 **No OsmAnd também podes descarregar o mapa offline da região de Leiria/Lisboa** antes de ires — Menu → Transferências. Assim tens o mapa base e o GPX, ambos sem rede.
 
-> 🔄 **Sempre que mudarmos alguma coisa aqui, descarrega outra vez.** Os botões estão também **[ao lado do mapa](#-mapa--onde-podes-e-onde-não)** e no cabeçalho do mapa em ecrã inteiro. A data de actualização aparece ao lado deles. No OsmAnd, importar por cima substitui a versão antiga.
+> 🔄 **Sempre que mudarmos alguma coisa aqui, descarrega outra vez.** Os botões estão também **[ao lado do mapa](#🗺️-mapa-onde-podes-e-onde-não)** e no cabeçalho do mapa em ecrã inteiro. A data de actualização aparece ao lado deles. No OsmAnd, importar por cima substitui a versão antiga.
 > Os ficheiros são gerados a partir dos mesmos dados que alimentam o mapa (`python3 tools/gpx.py`), por isso **nunca ficam dessincronizados** do que está no site.
 
 ### 📌 Os teus dois pontos
@@ -1958,7 +2215,7 @@ Três montagens diferentes andam com o mesmo nome. **O comprimento do estralho n
 - **fundo sujo ou maré a correr → 30-45 cm** · **fundo limpo e água parada → 60-90 cm** (o isco move-se mais natural)
 - 🌙 **noite → mais curto; dia → mais comprido** — de noite o peixe está menos desconfiado e não precisa da apresentação solta ([Surfcasting Pura Paixão](https://www.youtube.com/watch?v=a1OxBWKsSCo))
 - ⚠️ o mesmo vídeo dá o critério prático: **duas enleadas e encurtas.** Não insistas por teimosia
-- 🇵🇹 **Na praia de mar os dois canais portugueses usam estralhos muito mais compridos** (1 estralho de 2-3 m logo acima do chumbo) e só encurtam quando enrola — ver [🎯 5. No dia](#-escolher-o-dia--praia-de-mar-surfcasting).
+- 🇵🇹 **Na praia de mar os dois canais portugueses usam estralhos muito mais compridos** (1 estralho de 2-3 m logo acima do chumbo) e só encurtam quando enrola — ver [🎯 5. No dia](#🎣-5-no-dia-a-montagem-pelo-mar).
 
 ### 🎣 A montagem da muralha — 2 anzóis, à escala
 
