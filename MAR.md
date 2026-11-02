@@ -84,7 +84,8 @@
     return {
       em: function(ms){ var i=ix[Math.round(ms/H1)*H1]; return i==null?null:v[i]; },
       max: function(a,b){ var m=null; for(var ms=Math.ceil(a/H1)*H1; ms<=b; ms+=H1){ var x=this.em(ms); if(x!=null&&(m==null||x>m)) m=x; } return m; },
-      med: function(a,b){ var s=0,n=0; for(var ms=Math.ceil(a/H1)*H1; ms<=b; ms+=H1){ var x=this.em(ms); if(x!=null){s+=x;n++;} } return n?s/n:null; }
+      med: function(a,b){ var s=0,n=0; for(var ms=Math.ceil(a/H1)*H1; ms<=b; ms+=H1){ var x=this.em(ms); if(x!=null){s+=x;n++;} } return n?s/n:null; },
+      soma: function(a,b){ var s=0,n=0; for(var ms=Math.ceil(a/H1)*H1; ms<=b; ms+=H1){ var x=this.em(ms); if(x!=null){s+=x;n++;} } return n?s:null; }
     };
   }
 
@@ -170,6 +171,16 @@
         R.tend = (Hontem!=null&&H!=null) ? (H>Hontem*1.15?'↗':H<Hontem*0.85?'↘':'→') : '';
         if(mar.v==='nao'){ R.mot0=mar.txt; return R; }
         if(raj!=null && raj>=50){ R.mot0='rajadas de '+Math.round(raj)+' km/h'; return R; }
+        // chuva e trovoada: a 4-6 dias os modelos discordam muito — conta a mediana de todos
+        var chuvas=[], trov=0, rajMods=[];
+        (D.vento.mod||[]).forEach(function(m){
+          var c=m.chuva.soma(J.w0,J.w1); if(c!=null) chuvas.push(c);
+          var r=m.raj.max(J.w0,J.w1); if(r!=null) rajMods.push(r);
+          if(m.tempo.max(J.w0,J.w1)>=95) trov++;      // códigos 95-99 = trovoada
+        });
+        chuvas.sort(function(a,b){return a-b;});
+        R.chuva = chuvas.length ? {med:chuvas[Math.floor(chuvas.length/2)], min:chuvas[0], max:chuvas[chuvas.length-1]} : null;
+        if(trov>=2){ R.mot0='trovoada em '+trov+' modelos — "com relâmpagos não se brinca" (O)'; return R; }
         var pts=0, M=R.motivos, Z=R.luz;
         M.push((mar.v==='ok'?'✅ ':'⚠️ ')+mar.txt); if(mar.v==='ok') pts+=2;
         // 1. o mar a MUDAR — o que mais conta
@@ -197,6 +208,12 @@
         if(noite && R.luar){ pts-=1; Z.push('🌕 com luar'); }
         else if(noite && (lu.alt<=0 || lu.frac<0.25)){ Z.push('🌑 sem lua'); }
         if(raj!=null && raj>=35){ pts-=1; M.push('⚠️ rajadas de '+Math.round(raj)+' km/h'); }
+        var rajOutro=Math.max.apply(null, rajMods.concat([0]));
+        if(raj!=null && raj<50 && rajOutro>=50) M.push('⚠️ rajadas até '+Math.round(rajOutro)+' km/h noutro modelo');
+        if(trov===1){ pts-=1; M.push('⚡ trovoada possível (1 modelo)'); }
+        var mm=function(x){ return x.toFixed(x<10?1:0).replace('.',','); };
+        if(R.chuva && R.chuva.med>=5){ pts-=(R.chuva.med>=10?2:1); M.push('☔ chuva: '+mm(R.chuva.med)+' mm na janela (mediana dos modelos)'); }
+        else if(R.chuva && R.chuva.max>=5) M.push('☔ chuva só nalguns modelos ('+mm(R.chuva.min)+'-'+mm(R.chuva.max)+' mm)');
         if(p.k==='guincho' && dir!=null && dir>=135 && dir<=225){ pts+=1; M.push('✅ vento sul (o do Guincho)'); }
         R.pts=pts; R.noite=noite;
         R.nota = pts>=7?'⭐⭐⭐':pts>=5?'⭐⭐':pts>=3?'⭐':'fraco';
@@ -243,6 +260,7 @@
         if(R.nota==='❌') return '<div class="pr-s">❌ '+nome+' — '+R.mot0+
           (R.H!=null && R.mar && R.mar.v==='nao' ? ' ('+f(R.H)+' m · ~'+Math.round(R.Tp)+' s)' : '')+'</div>';
         var vento = R.raj==null ? '' : ' · 💨 '+(R.dir==null?'':RUMOS[Math.round(R.dir/45)%8]+' ')+Math.round(R.vel)+' km/h <span class="pr-sub">(raj '+Math.round(R.raj)+')</span>';
+        if(R.chuva && R.chuva.max>=1) vento += ' · ☔ '+(Math.round(R.chuva.min)===Math.round(R.chuva.max)?'':Math.round(R.chuva.min)+'-')+Math.round(R.chuva.max)+' mm';
         return '<div class="pr-s'+(R===best?' pr-best':'')+'"><b>'+R.nota+'</b> '+nome+' · '+hm(new Date(R.j.w0))+'-'+hm(new Date(R.j.w1))+
           ' · <span class="pr-m" style="background:'+COR[R.mar.v]+'">'+f(R.H)+' m · ~'+Math.round(R.Tp)+' s · '+Math.round(R.kW)+' kW '+R.tend+'</span>'+vento+
           '<div class="pr-l">🎣 começa com '+R.mont.txt+'<br>↳ '+R.mont.dois+'</div>'+
@@ -259,7 +277,8 @@
 
   function carregaPraias(){
     var M='https://marine-api.open-meteo.com/v1/marine?hourly=wave_height,wave_period,sea_level_height_msl&timeformat=unixtime&past_days=15&forecast_days=10';
-    var W='https://api.open-meteo.com/v1/forecast?hourly=wind_speed_10m,wind_gusts_10m,wind_direction_10m,cloud_cover&timeformat=unixtime&past_days=7&forecast_days=10';
+    var MOD=['best_match','ecmwf_ifs025','icon_seamless','gfs_seamless','meteofrance_seamless'];
+    var W='https://api.open-meteo.com/v1/forecast?hourly=wind_speed_10m,wind_gusts_10m,wind_direction_10m,cloud_cover,precipitation,weather_code&models='+MOD.join(',')+'&timeformat=unixtime&past_days=7&forecast_days=10';
     var js=function(u){ return fetch(u).then(function(r){ return r.json(); }).then(function(x){ if(!x||x.error||!x.hourly) throw x; return x; }); };
     var nada={em:function(){return null;}, max:function(){return null;}, med:function(){return null;}};
     return Promise.all(PRAIAS.map(function(p){
@@ -270,9 +289,12 @@
       PRAIAS.forEach(function(p,i){
         var m=res[i][0].hourly, w=res[i][1]&&res[i][1].hourly;
         if(!w) semVento=true;
+        var s=function(v,mod){ return serie(w.time, w[v+'_'+mod]||[]); };
         dados[p.k]={mar:{H:serie(m.time,m.wave_height), T:serie(m.time,m.wave_period)},
-          vento: w ? {v:serie(w.time,w.wind_speed_10m), r:serie(w.time,w.wind_gusts_10m), d:serie(w.time,w.wind_direction_10m), nuv:serie(w.time,w.cloud_cover)}
-                   : {v:nada, r:nada, d:nada, nuv:nada}};
+          vento: w ? {v:s('wind_speed_10m','best_match'), r:s('wind_gusts_10m','best_match'), d:s('wind_direction_10m','best_match'), nuv:s('cloud_cover','best_match'),
+                      mod:MOD.filter(function(mod){ return w['precipitation_'+mod]; }).map(function(mod){
+                        return {chuva:s('precipitation',mod), raj:s('wind_gusts_10m',mod), tempo:s('weather_code',mod)}; })}
+                   : {v:nada, r:nada, d:nada, nuv:nada, mod:[]}};
         // as praias têm a mesma maré (±3 min) — usa a do Guincho, onde a correção foi medida
         if(p.k==='guincho') mares=extremos(m.time.map(function(x){return x*1000;}), m.sea_level_height_msl, CORR_COSTA);
       });
@@ -285,11 +307,12 @@
   var LEGENDA_PRAIAS = '<p style="font-size:.85em;opacity:.8;margin-top:.6em">'+
     '<b>Como dá a nota</b> — regras do <a href="#/MAR?id=🎯-escolher-o-dia-praia-de-mar-surfcasting">🎯 Escolher o dia</a>, mais abaixo:<br>'+
     '1️⃣ <b>O mar tem de caber na praia.</b> Guincho (plana): verde até 1 m · ~9 s, amarelo até 1,5 m · ~11 s. Meco e Albufeira-Mar (fundas): verde até 1,5 m · ~12 s e 12 kW, amarelo até 2 m · ~15 s, e amarelo também com <b>pouco mar</b> (menos de ~4,5 kW): no Meco com 1 m e ~9 s, <i>"tendo em conta que é uma praia funda, torna-se pouco mar"</i> (O). Caparica e Cova do Vapor (sem dados dos canais): regra geral, 1,5 m · 11 s. A Cova do Vapor usa as mesmas regras; com maré grande leva um aviso de corrente forte na barra. Praia plana acima disso só passa (amarelo) com BM de maré grande. Fora disto = ❌.<br>'+
-    '2️⃣ <b>Pontos.</b> O mar a mudar: 1.º dia a cair depois de mar grande +3 · sobe depois de dias parados +3 · véspera de temporal +2 · a cair +2 · parado há uma semana −2. Mar no verde +2 · maré grande (BM ≤ 0,8 m) +1 · BM até 2 h depois do pôr do sol +1 · janela ≥ 2h30 +1 · de noite +1 · luar −1 · vento sul no Guincho +1 · rajadas ≥ 35 km/h −1 (≥ 50 = ❌). <b>⭐⭐⭐</b> ≥ 7 · <b>⭐⭐</b> ≥ 5 · <b>⭐</b> ≥ 3.<br>'+
+    '2️⃣ <b>Pontos.</b> O mar a mudar: 1.º dia a cair depois de mar grande +3 · sobe depois de dias parados +3 · véspera de temporal +2 · a cair +2 · parado há uma semana −2. Mar no verde +2 · maré grande (BM ≤ 0,8 m) +1 · BM até 2 h depois do pôr do sol +1 · janela ≥ 2h30 +1 · de noite +1 · luar −1 · vento sul no Guincho +1 · rajadas ≥ 35 km/h −1 (≥ 50 = ❌) · chuva na janela (mediana de 5 modelos) ≥ 5 mm −1, ≥ 10 mm −2 · trovoada em 1 modelo −1, em 2 ou mais = ❌. <b>⭐⭐⭐</b> ≥ 7 · <b>⭐⭐</b> ≥ 5 · <b>⭐</b> ≥ 3.<br>'+
     '<b>Pescas</b> = das 2 h antes da baixa-mar às 3 h depois (O e L), dentro da tua janela: semana desde que chegas (19h Guincho e Caparica, 19h30 Albufeira e Meco) até às 22h · fim de semana 08-22h. O Guincho só depois do pôr do sol (surfistas). 🌙 = só de noite.<br>'+
     '<b>Mar</b> = modelo Open-Meteo, não boia. <b>~s</b> = período de pico estimado (o médio do modelo × 1,15) para comparar com os números do Olivais no Windguru — que o Windguru mostra o pico não está confirmado. <b>kW</b> = potência da vaga ≈ 0,49 × altura² × período médio; o Olivais usa a do IPMA (Mar → praias): <i>"para praias fundas essa potência pode ir até aos 10/12 e em praias planas, até 6/8"</i> — a fórmula exata do IPMA não está confirmada. ↗ ↘ = em relação a ontem à mesma hora. Maré corrigida contra a tábua do Guincho (±4 min); a altura da BM é a da tábua.<br>'+
     '<b>🎣 Montagem</b> = o que o Olivais faz: começa sempre comprido (2,5-3 m, fluoro 0,40 de noite) e, se vier enrolado, <b>primeiro engrossa</b> (até 0,57) e <b>só depois encurta</b>. <b>2 estralhos</b>: na cana de perto para sondar, ou quando o mar obriga a encurtar (o de cima fica direito); para robalo grande, 1 anzol (L). O fluoro por nível de mar é estimativa minha a partir de 8 vídeos do Olivais. O Luís usa fluoro mais fino (0,23-0,28).<br>'+
-    '⚠️ <b>Os pesos e os limites de vento são meus</b>, não dos canais. Antes de ir: Windguru + IPMA + beachcam (🎯 4).</p>';
+    '☔ <b>Chuva e ⚡ trovoada:</b> cruza 5 modelos (best match, ECMWF, ICON, GFS, Météo-France), porque a 4-6 dias discordam muito; ☔ 0-12 mm = o intervalo entre eles. Os canais pescam com chuva — o Olivais fez robalos num dia de tempestade (<i>"as minhas maiores preocupações neste dia eram a chuva e o vento"</i>, <a href="https://www.youtube.com/watch?v=XA7H9R3fVMI" target="_blank">vídeo</a>) e o Luís, depois de <i>"choveu um bocadinho"</i>, diz que as águas <i>"mais tapadas"</i> são <i>"o ideal"</i> — por isso a chuva só tira pontos quando é muita. Trovoada é para arrumar: <i>"com relâmpagos não se brinca"</i> (O, <a href="https://www.youtube.com/watch?v=1H8VPSaDfm0" target="_blank">vídeo</a>).<br>'+
+    '⚠️ <b>Os pesos e os limites de vento e de chuva são meus</b>, não dos canais. Antes de ir: Windguru + IPMA + beachcam (🎯 4).</p>';
 
   function carrega(){
     var el=document.getElementById('mares-app');
