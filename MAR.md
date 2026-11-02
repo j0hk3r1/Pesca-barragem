@@ -671,6 +671,20 @@
 - **Guincho:** o que ele mais gosta é **0,5 m, 7-8 s e vento sul** ([vídeo](https://www.youtube.com/watch?v=V1UskU3c_EU)) — ali 0,5 m não conta como "mar parado"; o mau é o mar ficar assim semanas. *"1 m com períodos de 10 segundos (…) já é um bocadinho forte para esta praia"* — mas nesse dia fez a enchente toda e teve atividade máxima ([vídeo](https://www.youtube.com/watch?v=A5xFZ5CqGYs)).
 - 📏 **Lê os números na app que eles usam** (Windguru ou IPMA), para os limites baterem certo. O Open-Meteo dá o **período médio** ([documentação](https://open-meteo.com/en/docs/marine-weather-api)), que sai mais baixo do que o de pico. Que período mostra o Windguru: não confirmado.
 
+### 📍 Os teus spots — até 50 min do Marquês
+
+| Spot | Praia | 🚗 sem trânsito | Para que mar |
+|---|---|---|---|
+| **Guincho** | plana ([O](https://www.youtube.com/watch?v=UTWUpQ3q_ds)) | 24 min | **pequeno:** 0,5-1 m, 7-8 s, vento sul. Só de noite |
+| **Costa da Caparica** (S. João → Fonte da Telha) | sem dados dos canais | 23-25 min | por confirmar |
+| **Lagoa de Albufeira-Mar** | parece funda (visto no local) | 38 min | só o lado do mar — **a lagoa é proibida** |
+| **Meco** (Moinho de Baixo · Alfarim) | funda ([O](https://www.youtube.com/watch?v=f6b98mOoH-k)) | 38 min | **o maior:** *"1.5m é uma altura de vaga boa para se pescar no meco"* (O) |
+
+- 🚗 Tempos do OSRM, que **não conta o trânsito**. À sexta às 18h, pela ponte, Albufeira e Meco podem passar dos 50 min (estimativa).
+- 📊 **No modelo, o Guincho leva 1,2-1,6× o mar da Caparica, Albufeira e Meco** à mesma hora (Open-Meteo, 6 dias entre 24-out e 8-nov). Estes três levam mar parecido, o Meco um pouco mais. Portanto um dia grande demais para o Guincho pode servir para o Meco.
+- 🧭 **Como escolher a praia (opinião, a partir do que o Olivais faz):** mar pequeno → Guincho · mar médio a cair → Caparica ou Albufeira-Mar · mar maior ou período comprido → Meco, a praia funda (*"escolhemos uma praia funda (…) porque os períodos são altos"* — [O](https://www.youtube.com/watch?v=FPN34Ed8m30)).
+- ⛔ Só fora da época balnear — datas em ⛔ Época balnear, abaixo.
+
 ### 🌗 2. A maré
 
 - **Janela: as últimas 2 h a vazar e as primeiras 2-3 h a encher.** *"Fazer as últimas duas a vazar e as duas primeiras a encher"* ([L](https://www.youtube.com/watch?v=wLvRCkM4eQ0)); *"duas últimas da vazante e três primeiras da enchente"* ([O](https://www.youtube.com/watch?v=A4D-lVuZzxc)). O Olivais estica muitas vezes **a enchente toda**.
