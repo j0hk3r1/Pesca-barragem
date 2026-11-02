@@ -120,8 +120,8 @@
     if(Tp>12 && n<2) n++;            // período comprido = mais força (O)
     return [
       {txt:'1 estralho de <b>2,5-3 m</b> · fluoro 0,40 · 130-140 g', dois:'2.ª cana mais perto com 2 estralhos mais curtos, para sondar'},
-      {txt:'1 estralho de <b>2,5-3 m</b> · fluoro 0,45-0,47 · 140 g pirâmide', dois:'se enrolar: engrossa primeiro, depois encurta'},
-      {txt:'estralho de <b>2-3 m</b> · fluoro 0,50-0,52 (até 0,57) · 140-150 g e garras à mão', dois:'se tiveres de encurtar (~1,2 m), mete 2 estralhos: o de cima fica a pescar direito'}
+      {txt:'1 estralho de <b>2,5-3 m</b> · fluoro 0,45-0,47 · 140 g pirâmide', dois:'2.ª cana mais perto com 2 estralhos mais curtos · se enrolar: engrossa primeiro, depois encurta'},
+      {txt:'estralho de <b>2-3 m</b> · fluoro 0,50-0,52 (até 0,57) · 140-150 g e garras à mão', dois:'se tiveres de encurtar (~1,2 m), mete 2 estralhos nas duas canas: o de cima fica a pescar direito'}
     ][n];
   }
 
@@ -731,10 +731,12 @@
 - 🚗 Tempos do OSRM, que **não conta o trânsito**. À sexta às 18h, pela ponte, Albufeira e Meco podem passar dos 50 min (estimativa).
 - 📊 **No modelo, o Guincho leva 1,2-1,6× o mar da Caparica, Albufeira e Meco** à mesma hora (Open-Meteo, 6 dias entre 24-out e 8-nov). Estes três levam mar parecido, o Meco um pouco mais. Portanto um dia grande demais para o Guincho pode servir para o Meco.
 - 🧭 **Como escolher a praia (opinião, a partir do que o Olivais faz):** mar pequeno → Guincho · mar médio a cair → Caparica ou Albufeira-Mar · mar maior ou período comprido → Meco, a praia funda (*"escolhemos uma praia funda (…) porque os períodos são altos"* — [O](https://www.youtube.com/watch?v=FPN34Ed8m30)).
+- 🗒️ **Costa da Caparica, na areia:** o [Cais14 Surfcasting](https://www.youtube.com/watch?v=vgVznGoelCE) (jan-2026) chegou às 4h para *"fazer o baixa das 5:30"* e o nascer do dia: **3 robalos** (1,8 · 1,2 · ~0,8 kg) e uma baila. *"Isto por norma é mais forte a vazar."* Escolheu um sítio com um raso à frente e *"lá fora tem um cabeço"*: 2 canas perto e 1 longe com 2 anzóis (casulo em cima, americana em baixo); pirâmides, e garras quando *"estava a correr"*. É a regra da baixa-mar, com luz baixa. A praia exata não é dita (no [VEGA TV](https://www.youtube.com/watch?v=7UlpamgHU1Y) também não).
 - 🗒️ **Cova do Vapor — o que se sabe** (sem canal que a pesque a sério; 5 vídeos, 1 fórum, 1 blog):
   - 🌊 **O mar no modelo é o da Caparica:** os 4 modelos de ondas do Open-Meteo põem-na na mesma célula. O que muda ali é a barra.
   - ✅ **Bom dia = o mesmo sinal do resto da Caparica:** *"O mar hoje tem um toque, coisa que não tem tido nas últimas semanas (…) quando tanto tempo parado, ou hoje ou amanhã alguém vai apanhar peixe"* — sargos à noite logo a seguir a *"a maré virou"* ([VEGA TV, Costa da Caparica, ago-2025](https://www.youtube.com/watch?v=7UlpamgHU1Y)). No fórum: ir *"porque o mar vai crescer"* ([Pesqueiro, 2016](https://www.pesqueiro.pt/index.php?topic=12698.0)).
   - 🌀 **A diferença é a corrente:** *"se for muita na recolha arriscas perder material"*; para chegar ao peixe, *"deixar ir a chumbada em direção ao Bugio"* ([Pesqueiro, 2016](https://www.pesqueiro.pt/index.php?topic=12698.0)). Pesca as viragens. ⚠️ **Contradição:** o Olivais e o Luís querem marés grandes; ali, maré grande = mais corrente a meio da maré. A tabela mantém o ponto e mostra um aviso.
+  - 🏖️ **Da areia também se pesca, mas sem ninguém explicar condições:** o [Ferreira Oficial](https://www.youtube.com/watch?v=fPihSUIshA4) apanhou um sargo na praia (*"praia dos brasileiros (…) cova do vapor"*) e um polaco fez surfcasting na Praia da Cova do Vapor com ondas grandes ([zFISHek, abr-2024](https://www.youtube.com/watch?v=IbK7yUxhg1w), sem legendas). Os vídeos com mais peixe e mais gente são nos pontões.
   - 📍 **Onde e com quê:** *"na ponta do esporão virado a norte dão-se boas capturas"* (fórum); as pedras *"podem ser uma autêntica armadilha para amostras"*. Sargo, dourada, robalo, baila; iscos citados: ganso, caranguejo, camarão, lingueirão, sardinha ([Ferreira Oficial, jun-2023](https://www.youtube.com/watch?v=fPihSUIshA4), [Velho da Lancha, fev-2024](https://www.youtube.com/watch?v=xM09ejyBQ6w), [blog, 2011](http://ospescas.blogspot.com/2011/02/cova-do-vapor.html)).
   - ⚖️ **Mar ou estuário?** A Portaria 330/2026 fecha o estuário na linha *"Torre do Bugio-Torre do Forte de São Julião"*; a Cova do Vapor fica mesmo ao lado e a lei não diz de que lado está. Até a **Delegação Marítima da Trafaria** confirmar (☎ 212 950 823), usa as regras do estuário: **2 canas, 3 anzóis por cana, anzol ≥ 8 mm**. Época: regra de Lisboa, 200 m, 1 mai-15 out.
 - ⛔ Só fora da época balnear — datas em ⛔ Época balnear, abaixo.
