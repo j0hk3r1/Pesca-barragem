@@ -641,6 +641,54 @@
 
 ---
 
+## 🎯 Escolher o dia — praia de mar (surfcasting)
+
+> 🗒️ **De onde vem:** vídeos e respostas nos comentários de dois canais, lidos todos em nov-2026 — **Surfcasting Olivais** (Bruno, Lisboa: Guincho, Meco, Sintra) e **Peixe Português** (Luís, Leiria/Nazaré). **O** = Olivais · **L** = Luís.
+> ⚠️ **Na praia de mar a regra das marés de cima não serve:** os dois pescam **a viragem da baixa-mar**, fim de vazante incluído. A de cima é a do estuário e das lagoas.
+
+### 🌊 1. O mar — é o que mais conta
+
+| No Windguru / IPMA | Vai? | Quem |
+|---|---|---|
+| O mar **muda**: depois de dias parados (~0,5 m) sobe para **1-1,5 m e 8-9 s** | ✅ o melhor dia | [O](https://www.youtube.com/watch?v=4rM7LMqZJKw) |
+| **1.º dia a cair** depois de um temporal | ✅ | [O](https://www.youtube.com/watch?v=GaAI_pUCZC4) + [L](https://www.youtube.com/watch?v=4F9mWcbk2p8) |
+| **Véspera** de temporal — o último dia calmo | ✅ janela | [O](https://www.youtube.com/watch?v=UTWUpQ3q_ds) |
+| Dias seguidos de **mar chão e água clara** | ❌ pouco peixe | [O](https://www.youtube.com/watch?v=8t3CZKZA-is) + [L](https://www.youtube.com/watch?v=0cBdgF2T5Tk) |
+| **Praia plana** (Guincho) com **mais de 1,5 m** ou **mais de 11 s** | ❌ | [O](https://www.youtube.com/watch?v=uzua6kxQDhA) |
+| **Praia funda** (Meco) com **até ~2 m e 12-15 s** | ⚠️ dá peixe, mas é mar duro | [O](https://www.youtube.com/watch?v=phKOe04hlM4) |
+
+- *"Por norma não vamos com mar maior que 1.5m e 11s isto dependendo da praia claro"* — O, nos comentários. *"Em praias muito planas pescar com mais de metro e meio e períodos altos, só na baixa mar de uma maré grande. A não ser que existam fundões"* — O, nos comentários.
+- **O período pesa tanto como a altura:** *"quanto mais longo for, mais força traz a vaga"* (O). Mesmo assim, em praia funda o Olivais pesca mar grande e apanha: **robalo XL** com 2 m e 14-15 s ([vídeo](https://www.youtube.com/watch?v=phKOe04hlM4)); robalos de ~2 kg com 1,5 m e 12-13 s, depois de mudar para *"uma praia um pouco mais funda"* ([vídeo](https://www.youtube.com/watch?v=0LbtbqA0Kfk)). Mar duro pede garras e estralho curto e grosso (🎣 5).
+- **Guincho:** o que ele mais gosta é **0,5 m, 7-8 s e vento sul** ([vídeo](https://www.youtube.com/watch?v=V1UskU3c_EU)). *"1 m com períodos de 10 segundos (…) já é um bocadinho forte para esta praia"* — mas nesse dia fez a enchente toda e teve atividade máxima ([vídeo](https://www.youtube.com/watch?v=A5xFZ5CqGYs)).
+- 📏 **Lê os números na app que eles usam** (Windguru ou IPMA), para os limites baterem certo. O Open-Meteo dá o **período médio** ([documentação](https://open-meteo.com/en/docs/marine-weather-api)), que sai mais baixo do que o de pico. Que período mostra o Windguru: não confirmado.
+
+### 🌗 2. A maré
+
+- **Janela: as últimas 2 h a vazar e as primeiras 2-3 h a encher.** *"Fazer as últimas duas a vazar e as duas primeiras a encher"* ([L](https://www.youtube.com/watch?v=wLvRCkM4eQ0)); *"duas últimas da vazante e três primeiras da enchente"* ([O](https://www.youtube.com/watch?v=A4D-lVuZzxc)). O Olivais estica muitas vezes **a enchente toda**.
+- **Marés grandes** (baixa-mar a 0,8 m ou menos) — mais movimento de água (O + L).
+- **O ideal:** a baixa-mar **perto do pôr do sol** — chegas com luz e a viragem já é de noite ([O](https://www.youtube.com/watch?v=wm1HsxhFfOU)).
+
+### 🌙 3. Luz, lua, vento, água
+
+- **De noite** é melhor (O). **No Guincho, só de noite:** antes do pôr do sol há surfistas ([O](https://www.youtube.com/watch?v=o94N1-j-ckA)).
+- **Lua:** prefere *"lua nova pela total ausência de luar"*, e lua cheia só *"se for num dia de céu muito nublado"*; *"em conclusão, eu prefiro as marés grandes"* ([O](https://www.youtube.com/watch?v=wKWS5aUXIfY)). É preferência, não regra — tem boas pescas com lua cheia.
+- **Vento sul:** bom no Guincho (O); mau em S. Pedro de Moel — *"o peixe não tem encostado, as águas estão muito abertas"* ([L](https://www.youtube.com/watch?v=vwbeX_r1kgA)). **Depende da praia.**
+- **Água:** depois de vento norte e um pouco de chuva, *"um bocadinho escuras, mais tapadas. E acho que é o ideal"* ([L](https://www.youtube.com/watch?v=vwbeX_r1kgA)). Clara com mar chão = mau (O + L).
+- **Limo ("tabaco"):** perto da preia-mar às vezes limpa, *"mas nem sempre é suficiente para conseguirmos pescar"* (O). O Guincho *"costuma estar quase sempre limpo"* ([O](https://www.youtube.com/watch?v=o94N1-j-ckA)).
+
+### ✅ 4. Confirmar antes de sair
+
+- Cruza **Windguru + Windy + IPMA** (Mar → praias e portos) **+ tábua de marés** (O).
+- O vento do Windguru falha: *"davam rajadas à volta dos 40 Km (…) desde as 9 que nem 5 km estão"* ([O](https://www.youtube.com/watch?v=JPEqRdRAobc)). No próprio dia, vê a **beachcam**.
+
+### 🎣 5. No dia — a montagem pelo mar
+
+- **Começa** com 1 estralho de **2-3 m** *"se o mar deixar"*, fluoro **0,40** de noite, chumbo **130-140 g** (O). O Luís vai mais fino (0,23-0,28): *"quanto mais fino isso o mar deixar buscar, melhor"* ([L](https://www.youtube.com/watch?v=77b_H4l4CIU)).
+- **Vem enrolado:** *"temos de engrossar o diâmetro e/ou encurtar os mesmos, até que venham direitos"* (O). Com o mar a crescer foi de 2 m → 1,5 → 1 m → **70 cm** e ainda fez *"três rotes jeitosos"* (robalotes) — *"o que importa é que o estralho venha direito porque se tiver tudo enrolado não tá a pescar"* ([O](https://www.youtube.com/watch?v=XA7H9R3fVMI)). Luís: estralho 10-15 cm mais curto que a madre, e mais curto ainda se enrolar ([L](https://www.youtube.com/watch?v=Cih3pTKaVR4)).
+- **O chumbo não segura → muda a forma:** gota → pirâmide → garras (O); rebaixada → peão → aranha (L). *"Se as garras não seguram a pesca então mais vale ir para casa"* (O).
+
+---
+
 ## 🗺️ Mapa — onde podes e onde não
 
 <div id="mapa-legal" style="height:520px;border:1px solid #e2e6ea;border-radius:12px;margin:.6em 0"></div>
