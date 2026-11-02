@@ -43,7 +43,9 @@
   var TP_TM = 1.15; // período de pico ≈ médio × 1,15 (mediana do próprio modelo, 4 spots, ~870 h)
   var PRAIAS = [
     {k:'guincho',   nome:'Guincho',       lat:38.708, lon:-9.5417, tipo:'plana', soNoite:true, chega:19,   epoca:['05-01','09-30']},
-    {k:'caparica',  nome:'Caparica',      lat:38.65,  lon:-9.30,   tipo:'geral',               chega:19,   epoca:['05-01','10-15']},
+    {k:'caparica',  nome:'Caparica (S. João)', lat:38.65, lon:-9.30, tipo:'geral',             chega:19,   epoca:['05-01','10-15']},
+    // Fonte da Telha: o modelo de ondas põe-na na célula de Albufeira; o fundo é intermédio (−3 m a 400 m, −11 m a 700 m)
+    {k:'telha',     nome:'Fonte da Telha', lat:38.572, lon:-9.20,  tipo:'geral',               chega:19,   epoca:['05-01','10-15']},
     // Cova do Vapor: todos os modelos de ondas a põem na célula da Caparica. O que muda é a barra (corrente).
     {k:'vapor',     nome:'Cova do Vapor', lat:38.66,  lon:-9.26,   tipo:'geral', barra:true,   chega:19,   epoca:['05-01','10-15'],
      nota:'🌊 no modelo é o mar da Caparica · ⚖️ fronteira mar/estuário: até a Capitania confirmar, 2 canas e 3 anzóis por cana'},
@@ -138,6 +140,15 @@
       if(!s) continue;
       var fds=(dia.getDay()===0||dia.getDay()===6);
       var bms=mares.filter(function(e){ return e.tipo==='BM' && e.t.getTime()>ini-3*H1 && e.t.getTime()<fim+2*H1; });
+      // o temporal é da costa toda: mediana das praias (a previsão não distingue praias vizinhas)
+      var costa=function(off, campo, ser){
+        var a=ini+off*24*H1, v=PRAIAS.map(function(p){ return dados[p.k][campo][ser].max(a, a+23*H1); })
+          .filter(function(x){ return x!=null; }).sort(function(x,y){ return x-y; });
+        return v.length ? v[Math.floor(v.length/2)] : null;
+      };
+      var temporalCosta=function(off){ var h=costa(off,'mar','H'), r=costa(off,'vento','r'); return (h!=null && h>=2.5) || (r!=null && r>=60); };
+      // véspera = o último dia calmo: o temporal chega amanhã, ou depois de amanhã com amanhã já ventoso
+      var vesperaCosta = !temporalCosta(0) && (temporalCosta(1) || (temporalCosta(2) && (costa(1,'vento','r')||0)>=50));
       var spots=PRAIAS.map(function(p){
         var D=dados[p.k];
         var a0=hora(fds?8:p.chega), a1=hora(22);
@@ -153,11 +164,6 @@
         var ontem=dMax(-1);
         var antes=[dMax(-4),dMax(-3),dMax(-2),ontem].filter(function(x){return x!=null;});
         var mediaAntes=antes.length?antes.reduce(function(a,b){return a+b;},0)/antes.length:null;
-        var rajDia=function(off){ var a=ini+off*24*H1; return D.vento.r.max(a, a+23*H1); };
-        var temporal=function(off){ var h=dMax(off), r=rajDia(off); return (h!=null && h>=2.5) || (r!=null && r>=60); };
-        R.temporal = temporal(0);
-        // véspera = o último dia calmo: o temporal chega amanhã, ou depois de amanhã com amanhã já ventoso
-        var vespera = !R.temporal && (temporal(1) || (temporal(2) && rajDia(1)>=50));
         if(!J || J.w1-J.w0<90*60000){
           R.mot0 = !J ? 'sem baixa-mar no teu horário' : 'só '+Math.round((J.w1-J.w0)/60000)+' min de janela';
           return R;
@@ -191,7 +197,7 @@
         } else if(mediaAntes!=null && mediaAntes<=0.8 && H>=0.8 && H>=1.3*mediaAntes){
           pts+=3; M.push('✅ o mar sobe depois de dias parados');
         }
-        if(vespera){ pts+=2; M.push('✅ véspera de temporal'); }
+        if(vesperaCosta){ pts+=2; M.push('✅ véspera de temporal'); }
         var semana=[-7,-6,-5,-4,-3,-2,-1,0].map(dMax).filter(function(x){return x!=null;});
         if(semana.length>=6 && Math.max.apply(null,semana)<=0.6){ pts-=2; M.push('❌ mar parado há uma semana'); }
         // 2. a maré
@@ -261,6 +267,7 @@
         if(R.fora) return '<div class="pr-s">❌❌ '+nome+' — '+R.mot0+
           (R.H!=null && R.mar && R.mar.v==='nao' ? ' ('+f(R.H)+' m · ~'+Math.round(R.Tp)+' s)' : '')+'</div>';
         var vento = R.raj==null ? '' : ' · 💨 '+(R.dir==null?'':RUMOS[Math.round(R.dir/45)%8]+' ')+Math.round(R.vel)+' km/h <span class="pr-sub">(raj '+Math.round(R.raj)+')</span>';
+        if(R.p.ventoDe) vento += ' <span class="pr-sub">(vento de '+R.p.ventoDe+')</span>';
         if(R.chuva && R.chuva.max>=1) vento += ' · ☔ '+(Math.round(R.chuva.min)===Math.round(R.chuva.max)?'':Math.round(R.chuva.min)+'-')+Math.round(R.chuva.max)+' mm';
         return '<div class="pr-s'+(R===best?' pr-best':'')+'"><b>'+R.nota+'</b> '+nome+' · '+hm(new Date(R.j.w0))+'-'+hm(new Date(R.j.w1))+
           ' · <span class="pr-m" style="background:'+COR[R.mar.v]+'">'+f(R.H)+' m · ~'+Math.round(R.Tp)+' s · '+Math.round(R.kW)+' kW '+R.tend+'</span>'+vento+
@@ -273,7 +280,7 @@
     var passado=dias.map(function(D,i){ return D.passado?cartao(D,i):''; }).join('');
     var html=(passado?'<details class="pr-d pr-ant"><summary><b>📜 Semana anterior</b> <span class="pr-sub">— o que a tabela teria dito, com o mar que fez</span></summary>'+passado+'</details>':'')+
       dias.map(function(D,i){ return D.passado?'':cartao(D,i); }).join('');
-    return css+(semVento?'<p class="pr-sub">⚠️ Sem dados de vento agora (o Open-Meteo não respondeu) — a nota não conta o vento. Vê o Windguru.</p>':'')+html;
+    return css+(semVento.length?'<p class="pr-sub">⚠️ Sem vento nem chuva agora para '+semVento.join(', ')+' (o Open-Meteo não respondeu) — a nota dessas praias não os conta. Recarrega daqui a uns minutos ou vê o Windguru.</p>':'')+html;
   }
 
   function carregaPraias(){
@@ -281,15 +288,23 @@
     var MOD=['best_match','ecmwf_ifs025','icon_seamless','gfs_seamless','meteofrance_seamless'];
     var W='https://api.open-meteo.com/v1/forecast?hourly=wind_speed_10m,wind_gusts_10m,wind_direction_10m,cloud_cover,precipitation,weather_code&models='+MOD.join(',')+'&timeformat=unixtime&past_days=7&forecast_days=10';
     var js=function(u){ return fetch(u).then(function(r){ return r.json(); }).then(function(x){ if(!x||x.error||!x.hourly) throw x; return x; }); };
+    // o Open-Meteo às vezes responde "overloaded": tenta mais 2 vezes
+    var tenta=function(u, n){ return js(u).catch(function(e){ if(n<=0) throw e;
+      return new Promise(function(ok){ setTimeout(ok, 1500); }).then(function(){ return tenta(u, n-1); }); }); };
+    // se o vento de uma praia não vier, usa o da praia ao lado (a previsão não as distingue)
+    var VIZ={caparica:['vapor','telha'], vapor:['caparica','telha'], telha:['albufeira','caparica'], albufeira:['telha','meco'], meco:['albufeira','telha']};
     var nada={em:function(){return null;}, max:function(){return null;}, med:function(){return null;}};
     return Promise.all(PRAIAS.map(function(p){
       var ll='&latitude='+p.lat+'&longitude='+p.lon;
-      return Promise.all([js(M+ll), js(W+ll).catch(function(){ return null; })]);
+      return Promise.all([tenta(M+ll, 2), tenta(W+ll, 2).catch(function(){ return null; })]);
     })).then(function(res){
-      var dados={}, mares=null, semVento=false;
+      var dados={}, mares=null, semVento=[], wk={};
+      PRAIAS.forEach(function(p,i){ wk[p.k]=res[i][1]&&res[i][1].hourly; });
       PRAIAS.forEach(function(p,i){
-        var m=res[i][0].hourly, w=res[i][1]&&res[i][1].hourly;
-        if(!w) semVento=true;
+        var m=res[i][0].hourly, w=wk[p.k];
+        if(!w){ var v=(VIZ[p.k]||[]).filter(function(k){ return wk[k]; })[0];
+          if(v){ w=wk[v]; p.ventoDe=PRAIAS.filter(function(q){ return q.k===v; })[0].nome; } else semVento.push(p.nome); }
+        else p.ventoDe=null;
         var s=function(v,mod){ return serie(w.time, w[v+'_'+mod]||[]); };
         dados[p.k]={mar:{H:serie(m.time,m.wave_height), T:serie(m.time,m.wave_period)},
           vento: w ? {v:s('wind_speed_10m','best_match'), r:s('wind_gusts_10m','best_match'), d:s('wind_direction_10m','best_match'), nuv:s('cloud_cover','best_match'),
@@ -307,8 +322,8 @@
 
   var LEGENDA_PRAIAS = '<p style="font-size:.85em;opacity:.8;margin-top:.6em">'+
     '<b>Como dá a nota</b> — regras do <a href="#/MAR?id=🎯-escolher-o-dia-praia-de-mar-surfcasting">🎯 Escolher o dia</a>, mais abaixo:<br>'+
-    '1️⃣ <b>O mar tem de caber na praia.</b> Guincho (plana): verde até 1 m · ~9 s, amarelo até 1,5 m · ~11 s. Meco e Albufeira-Mar (fundas): verde até 1,5 m · ~12 s e 12 kW, amarelo até 2 m · ~15 s, e amarelo também com <b>pouco mar</b> (menos de ~4,5 kW): no Meco com 1 m e ~9 s, <i>"tendo em conta que é uma praia funda, torna-se pouco mar"</i> (O). Caparica e Cova do Vapor (sem dados dos canais): regra geral, 1,5 m · 11 s. A Cova do Vapor usa as mesmas regras; com maré grande leva um aviso de corrente forte na barra. Praia plana acima disso só passa (amarelo) com BM de maré grande. Fora disto = ❌❌.<br>'+
-    '2️⃣ <b>Pontos.</b> O mar a mudar: 1.º dia a cair depois de mar grande +3 · sobe depois de dias parados +3 · véspera de temporal +2 · a cair +2 · parado há uma semana −2. Mar no verde +2 · maré grande (BM ≤ 0,8 m) +1 · BM até 2 h depois do pôr do sol +1 · janela ≥ 2h30 +1 · de noite +1 · luar −1 · vento sul no Guincho +1 · rajadas ≥ 35 km/h −1 (≥ 50 = ❌❌) · chuva na janela (mediana de 5 modelos) ≥ 5 mm −1, ≥ 10 mm −2 · trovoada em 1 modelo −1, em 2 ou mais = ❌❌. <b>⭐⭐⭐</b> ≥ 7 · <b>⭐⭐</b> ≥ 5 · <b>⭐</b> ≥ 3 · <b>❌</b> fraco · <b>❌❌</b> não vale a pena ir (o mar, o vento ou a trovoada passam o limite, ou não há baixa-mar no teu horário).<br>'+
+    '1️⃣ <b>O mar tem de caber na praia.</b> Guincho (plana): verde até 1 m · ~9 s, amarelo até 1,5 m · ~11 s. Meco e Albufeira-Mar (fundas): verde até 1,5 m · ~12 s e 12 kW, amarelo até 2 m · ~15 s, e amarelo também com <b>pouco mar</b> (menos de ~4,5 kW): no Meco com 1 m e ~9 s, <i>"tendo em conta que é uma praia funda, torna-se pouco mar"</i> (O). Caparica (S. João, plana), Fonte da Telha e Cova do Vapor (sem dados dos canais): regra geral, 1,5 m · 11 s. A Cova do Vapor usa as mesmas regras; com maré grande leva um aviso de corrente forte na barra. Praia plana acima disso só passa (amarelo) com BM de maré grande. Fora disto = ❌❌.<br>'+
+    '2️⃣ <b>Pontos.</b> O mar a mudar: 1.º dia a cair depois de mar grande +3 · sobe depois de dias parados +3 · véspera de temporal +2 (conta para a costa toda) · a cair +2 · parado há uma semana −2. Mar no verde +2 · maré grande (BM ≤ 0,8 m) +1 · BM até 2 h depois do pôr do sol +1 · janela ≥ 2h30 +1 · de noite +1 · luar −1 · vento sul no Guincho +1 · rajadas ≥ 35 km/h −1 (≥ 50 = ❌❌) · chuva na janela (mediana de 5 modelos) ≥ 5 mm −1, ≥ 10 mm −2 · trovoada em 1 modelo −1, em 2 ou mais = ❌❌. <b>⭐⭐⭐</b> ≥ 7 · <b>⭐⭐</b> ≥ 5 · <b>⭐</b> ≥ 3 · <b>❌</b> fraco · <b>❌❌</b> não vale a pena ir (o mar, o vento ou a trovoada passam o limite, ou não há baixa-mar no teu horário).<br>'+
     '<b>Pescas</b> = das 2 h antes da baixa-mar às 3 h depois (O e L), dentro da tua janela: semana desde que chegas (19h Guincho e Caparica, 19h30 Albufeira e Meco) até às 22h · fim de semana 08-22h. O Guincho só depois do pôr do sol (surfistas). 🌙 = só de noite.<br>'+
     '<b>Mar</b> = modelo Open-Meteo, não boia. <b>~s</b> = período de pico estimado (o médio do modelo × 1,15) para comparar com os números do Olivais no Windguru — que o Windguru mostra o pico não está confirmado. <b>kW</b> = potência da vaga ≈ 0,49 × altura² × período médio; o Olivais usa a do IPMA (Mar → praias): <i>"para praias fundas essa potência pode ir até aos 10/12 e em praias planas, até 6/8"</i> — a fórmula exata do IPMA não está confirmada. ↗ ↘ = em relação a ontem à mesma hora. Maré corrigida contra a tábua do Guincho (±4 min); a altura da BM é a da tábua.<br>'+
     '<b>🎣 Montagem</b> = o que o Olivais faz: começa sempre comprido (2,5-3 m, fluoro 0,40 de noite) e, se vier enrolado, <b>primeiro engrossa</b> (até 0,57) e <b>só depois encurta</b>. <b>2 estralhos</b>: na cana de perto para sondar, ou quando o mar obriga a encurtar (o de cima fica direito); para robalo grande, 1 anzol (L). O fluoro por nível de mar é estimativa minha a partir de 8 vídeos do Olivais. O Luís usa fluoro mais fino (0,23-0,28).<br>'+
@@ -747,7 +762,8 @@
 | Spot | Praia · fundo a 400 m da areia | 🚗 sem trânsito | Para que mar |
 |---|---|---|---|
 | **Guincho** | plana ([O](https://www.youtube.com/watch?v=UTWUpQ3q_ds)) · **−5 m**, com uma coroa a ~500 m | 24 min | **pequeno:** 0,5-1 m, 7-8 s, vento sul. Só de noite |
-| **Costa da Caparica** (S. João → Fonte da Telha) | **plana em S. João (−2,6 m)**; mais funda para sul, Fonte da Telha −3,2 m e −11 m a 700 m | 23-25 min | por confirmar |
+| **Caparica (S. João)** | **plana (−2,6 m)** | 23 min | regra geral: até 1,5 m · 11 s |
+| **Fonte da Telha** | intermédia (−3,2 m; −11 m a 700 m) | 25 min | regra geral · pelo fundo, aguenta um pouco mais que S. João (opinião) |
 | **Cova do Vapor** (pontões da barra) | rasa nos primeiros 300 m, depois **um canal de −8/−9 m** a 500-700 m · pesca-se das pontas dos pontões | 23 min | o da Caparica · **corrente forte** · fronteira mar/estuário |
 | **Lagoa de Albufeira-Mar** | **funda (−10 m)** — bate com o que viste | 38 min | só o lado do mar — **a lagoa é proibida** |
 | **Meco** (Moinho de Baixo · Alfarim) | **funda (−11 m)**: *"profundidade absurda logo aqui nos primeiros 10, 20 m"* ([O](https://www.youtube.com/watch?v=f6b98mOoH-k)) | 38 min | **o maior:** *"1.5m é uma altura de vaga boa para se pescar no meco"* (O) · com ~1 m é *"pouco mar"* (O) |
